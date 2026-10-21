@@ -22,7 +22,7 @@ for i,net in enumerate(['case300','pglib118']):
   ax[i,j].set_xlabel('Optimizer updates');ax[i,j].grid(alpha=.15)
  ax[i,0].set_yscale('log');ax[i,0].set_title(net+': released validation objective');ax[i,0].set_ylabel('Elastic + 32 × control loss');ax[i,0].legend()
  ax[i,1].set_title(net+': cold validation PF convergence');ax[i,1].set_ylabel('Converged fraction (10 cases)');ax[i,1].set_ylim(-.02,1.04);ax[i,1].axhline(.99,color='black',ls=':',lw=1)
-fig.suptitle('Bounded adaptation: selected checkpoints marked ★; tight PF tolerance starts at update 1250',fontsize=11)
+fig.suptitle('Bounded adaptation: selected checkpoints marked ★; tight PF tolerance reached in epoch 25 (updates 1201–1250)',fontsize=11)
 for suffix in ['pdf','png']:fig.savefig(F/f'01-learning-curves.{suffix}')
 plt.close(fig)
 fig,ax=plt.subplots(2,4,figsize=(13,6.8),layout='constrained');arms=['FT_P_ridge_V','ridge_P_FT_V','ridge_P_ridge_V'];labels=['FT P / ridge V','ridge P / FT V','ridge P / ridge V'];metrics=[('max_Pg_violation_MW','P-generation excess (MW)'),('max_Qg_violation_MVAr','Q-generation excess (MVAr)'),('max_voltage_violation_pu','Voltage excess (pu)'),('max_branch_violation_mva','Branch excess (MVA)')]
