@@ -5,6 +5,7 @@ import csv,ast
 def main():
     freeze=read(RUN/'freeze.json');config=read(RUN/'config.json');fits=read(RUN/'training-summary.json');rows=read(RUN/'evaluation/all-rows.json');summary=read(RUN/'summary.json');data=read(RUN/'data/manifest.json');cal=read(RUN/'calibration.json')
     assert sha(RUN/'config.json')==freeze['config_sha256'];assert sha(RUN/'calibration.json')==freeze['calibration_sha256'];assert sha(RUN/'training-summary.json')==freeze['training_summary_sha256'];assert sha(REPO/'scripts/python/physics_metrics.py')==freeze['metric_code_sha256'];assert sha(OLD/'baselines/linear-models.npz')==freeze['baseline_sha256']
+    for source,expected in freeze['evaluation_code_sha256'].items():assert sha(REPO/source)==expected,source
     assert cal['valid_count']>=16;assert cal['rho']==float(np.median([r['ratio'] for r in cal['examples'] if r['valid']]));assert len(fits)==12;assert all(f['status']=='COMPLETE' and f['actual_updates']==1000 for f in fits)
     assert len({f['initial_model_hash'] for f in fits})==1
     orders={seed:read(RUN/f'orders/seed-{seed}.json')['indices'] for seed in [11,22,33]};assert len({tuple(o) for o in orders.values()})==3
