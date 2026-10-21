@@ -10,6 +10,7 @@ Prepared 21 October 2026, Asia/Kolkata. Read README and docs/research/2026-10-21
 - Pinned/fetched actual MATPOWER source, computed matrix audit and constructed unsolved 600-bus JSON. Executed structural tests; see manifests/matpower-execution.json.
 - Compared archive/upstream code hashes and HF revision/file metadata. Executed toy conversion tests, actual extracted upstream cycle function and a small FFN-wrapper gradient check; precise scope is in manifests/gridsfm-checks.json.
 - Authored/tested a stdlib original-parameter physics checker and deterministic scenario split designs. All-check verification log is generated after the source commit so it can name an exact commit.
+- Completed [commit-linked package verification](results/verification/2026-10-21-package.json) against clean source commit `b7f401f8a8f0b9098ea783742503f7a3a94e94b0`:30 tests plus two focused cycle/LoRA checks passed, JSON parsed and local document links resolved. Initial push succeeded after resolving a restricted-process Git credential-helper error; final push is verified separately in the delivery message.
 
 No MATLAB/Octave script, PF/OPF solve, full PyG pipeline, released-checkpoint inference, training study, memory/runtime benchmark, paper submission or external message was executed. Model/table result fields are empty. The initial network, code and adapter are prototypes until numerical gates pass.
 

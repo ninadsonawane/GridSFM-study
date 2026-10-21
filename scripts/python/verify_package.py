@@ -1,5 +1,6 @@
 """Bounded package verification with a commit-linked run record; no training."""
 import argparse
+import csv
 import hashlib
 import json
 import platform
@@ -35,6 +36,19 @@ def main():
         for path in (ROOT/folder).rglob('*.json'):
             try:json.loads(path.read_text(encoding='utf-8-sig'))
             except Exception as exc:record['failures'].append(f'{path.relative_to(ROOT)}: {exc}')
+    for path in (ROOT/'results'/'templates').glob('*.csv'):
+        with path.open(newline='',encoding='utf-8-sig') as stream:rows=list(csv.reader(stream))
+        if not rows or any(len(row)!=len(rows[0]) for row in rows):
+            record['failures'].append(f'CSV width mismatch: {path.relative_to(ROOT)}')
+    record['immutable_imports']={}
+    for name,expected in {
+        'scripts/python/gridsfm_lora.py':'77c3eb890703d20adc2881139ba17e34ddddc30ac9f9b4d07ef36527556aef95',
+        'docs/context/2026-10-21-user-request.txt':'1e60656cbe9a42de50d530ac28174c4826ae551f6e5960f02f2fe927994e08d7'
+    }.items():
+        blob=subprocess.check_output(['git','cat-file','blob','HEAD:'+name],cwd=ROOT)
+        actual=hashlib.sha256(blob).hexdigest()
+        record['immutable_imports'][name]={'expected_sha256':expected,'committed_sha256':actual}
+        if actual!=expected:record['failures'].append('Committed import byte mismatch: '+name)
     mdpaths=list((ROOT/'docs').rglob('*.md'))+list((ROOT/'paper').rglob('*.md'))+[ROOT/'README.md',ROOT/'HANDOFF.md']
     for path in mdpaths:
         for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',path.read_text(encoding='utf-8-sig')):

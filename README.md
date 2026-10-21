@@ -12,6 +12,8 @@ Target: **2027 IEEE PES General Meeting, San Francisco, 25–29 July 2027**. Cur
 
 Research, source auditing and lightweight construction/conversion/physics checks are complete. **AC-PF/OPF, full conversion equivalence, checkpoint inference and training have not run.** MATLAB/Octave and a compatible isolated GridSFM environment remain to be set up. Do not quote empty templates or unsolved JSON as experimental results.
 
+[Verification record](results/verification/2026-10-21-package.json):30 unit tests and two focused cycle/LoRA checks passed on the committed source package; JSON and local document links checked. This record names the exact tested code commit and dependencies. It does not certify a power-system solution or a trained model.
+
 Important source findings: official case300 has 300 buses, 69 generators, 411 branches and **all RATE_A=0**; its external IDs are not row indices. The constructed system has 600 buses, 138 generators and 824 physical branch rows. Proposed ties have explicitly synthetic finite ratings; original interior branches remain unlimited. The newer GridSFM paper and Microsoft v1.1 are separate versioned evidence.
 
 ## Project map
