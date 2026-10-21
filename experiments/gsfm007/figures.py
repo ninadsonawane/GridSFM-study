@@ -25,16 +25,16 @@ for i,net in enumerate(['case300','pglib118']):
 fig.suptitle('Bounded adaptation: selected checkpoints marked ★; tight PF tolerance starts at update 1250',fontsize=11)
 for suffix in ['pdf','png']:fig.savefig(F/f'01-learning-curves.{suffix}')
 plt.close(fig)
-fig,ax=plt.subplots(2,4,figsize=(13,6.8),layout='constrained');arms=['FT_P_FT_V','FT_P_ridge_V','ridge_P_FT_V','ridge_P_ridge_V'];labels=['FT P / FT V','FT P / ridge V','ridge P / FT V','ridge P / ridge V'];metrics=[('max_Pg_violation_MW','P-generation excess (MW)'),('max_Qg_violation_MVAr','Q-generation excess (MVAr)'),('max_voltage_violation_pu','Voltage excess (pu)'),('max_branch_violation_mva','Branch excess (MVA)')]
+fig,ax=plt.subplots(2,4,figsize=(13,6.8),layout='constrained');arms=['FT_P_ridge_V','ridge_P_FT_V','ridge_P_ridge_V'];labels=['FT P / ridge V','ridge P / FT V','ridge P / ridge V'];metrics=[('max_Pg_violation_MW','P-generation excess (MW)'),('max_Qg_violation_MVAr','Q-generation excess (MVAr)'),('max_voltage_violation_pu','Voltage excess (pu)'),('max_branch_violation_mva','Branch excess (MVA)')]
 for i,net in enumerate(['case300','pglib118']):
- rr=read(R/f'factorial-{net}.json')
+ rr=[r for r in read(R/'factorial-paired-effects.json') if r['network']==net]
  for j,(metric,title) in enumerate(metrics):
   for offset,seed in zip([-.17,0,.17],[11,22,33]):
-   yy=[max(float(np.median([r['metrics'][metric] for r in rr if r['seed']==seed and r['controls']==a])),1e-7) for a in arms]
-   ax[i,j].scatter(np.arange(4)+offset,yy,color=colors[seed],label=f'Seed {seed}',s=30)
-  ax[i,j].set_yscale('log');ax[i,j].set_xticks(range(4),labels,rotation=45,ha='right');ax[i,j].set_title(net+': '+title);ax[i,j].grid(axis='y',alpha=.15)
+   yy=[float(np.median([r['change_relative_to_FT_P_FT_V'][metric] for r in rr if r['seed']==seed and r['controls']==a])) for a in arms]
+   ax[i,j].scatter(np.arange(3)+offset,yy,color=colors[seed],label=f'Seed {seed}',s=30)
+  ax[i,j].set_yscale('symlog',linthresh=1e-5 if metric=='max_voltage_violation_pu' else 1e-3);ax[i,j].axhline(0,color='0.4',lw=.8);ax[i,j].set_xticks(range(3),labels,rotation=45,ha='right');ax[i,j].set_title(net+': '+title);ax[i,j].grid(axis='y',alpha=.15)
   if net=='case300' and metric=='max_branch_violation_mva':ax[i,j].text(.5,.5,'Thermal N/A\nOriginal RATE_A=0',transform=ax[i,j].transAxes,ha='center',bbox=dict(facecolor='white',edgecolor='0.7'))
-ax[0,0].legend(fontsize=8);fig.suptitle('Prespecified first 10 ordinary IDs: control substitutions; common PQ initial magnitude 1 pu\nDots: median scenario-maximum violation per seed; zeros displayed at 1e−7',fontsize=11)
+ax[0,0].legend(fontsize=8);fig.suptitle('Prespecified first 10 ordinary IDs: paired change versus FT P / FT V; common PQ initial magnitude 1 pu\nDots: median within-scenario change per seed; negative values reduce violations',fontsize=11)
 for suffix in ['pdf','png']:fig.savefig(F/f'02-control-substitutions.{suffix}')
 plt.close(fig)
 rows=[r for r in read(R/'online-all.json') if r['repeat']>=0];fig,ax=plt.subplots(1,2,figsize=(12,5.8),layout='constrained');methods=['conventional','ridge','frozen','FT-s11-selected','FT-s22-selected','FT-s33-selected'];stages=[('preprocessing_seconds','Input preparation','#9ac4dd'),('inference_seconds','Inference','#1765a0'),('PF_seconds','Native PF','#de9854'),('solver_total_seconds','OPF incl. retry','#719658'),('independent_validation_seconds','Validation','#a27bb7')]

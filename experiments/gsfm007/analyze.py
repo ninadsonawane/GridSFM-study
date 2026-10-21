@@ -49,6 +49,14 @@ def main():
     b=by.get((r['pair_id'],r['repeat']))
     if b:shifts.append(dict(network=net,method=method,scenario_id=r['scenario_id'],pair_id=r['pair_id'],repeat=r['repeat'],delta_total_seconds=r['total_seconds']-b['total_seconds'],delta_quality=int(r['quality_pass'])-int(b['quality_pass']),delta_PF_max_Qg_MVAr=(r['PF_metrics']['max_Qg_violation_MVAr']-b['PF_metrics']['max_Qg_violation_MVAr']) if r.get('PF_metrics') and b.get('PF_metrics') else None))
  save(RUN/'spatial-pairs.json',shifts)
+ effects=[]
+ for net in ['case300','pglib118']:
+  fs=read(RUN/f'factorial-{net}.json');lookup={(r['seed'],r['scenario_id'],r['controls']):r for r in fs}
+  for base in fs:
+   if base['controls']!='FT_P_FT_V':continue
+   for arm in ['FT_P_ridge_V','ridge_P_FT_V','ridge_P_ridge_V']:
+    other=lookup[(base['seed'],base['scenario_id'],arm)];delta={k:other['metrics'][k]-base['metrics'][k] for k in ['max_Pg_violation_MW','max_Qg_violation_MVAr','max_voltage_violation_pu','max_branch_violation_mva','max_angle_violation_deg']};effects.append(dict(network=net,seed=base['seed'],scenario_id=base['scenario_id'],controls=arm,change_relative_to_FT_P_FT_V=delta,PF_convergence_change=int(other['PF_converged'])-int(base['PF_converged'])))
+ save(RUN/'factorial-paired-effects.json',effects)
  # Largest violations by original physical IDs from retained first-repeat states.
  locations=[]
  for r in rows:
