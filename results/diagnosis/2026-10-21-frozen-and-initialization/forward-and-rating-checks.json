@@ -1,0 +1,41 @@
+{
+  "control-case500": {
+    "prediction": {
+      "actual_forward_static_double_precision_max_error_MW_or_MVAr": 3.586317354198343e-11
+    },
+    "reference": {
+      "actual_forward_static_double_precision_max_error_MW_or_MVAr": 3.229061462661775e-11
+    },
+    "zero_rating_stress_bug": {
+      "unlimited_branch_count": 0,
+      "max_false_loading_ratio_on_unlimited_branch": null,
+      "path": "stress_features.py:155 clamps zero/unlimited RATE_A to1e-9pu, feeds enormous false thermal violations to feasibility head; computed after voltage/generation heads so does not explain their errors"
+    }
+  },
+  "case300": {
+    "prediction": {
+      "actual_forward_static_double_precision_max_error_MW_or_MVAr": 9.822542779147625e-11
+    },
+    "reference": {
+      "actual_forward_static_double_precision_max_error_MW_or_MVAr": 8.782308213994838e-11
+    },
+    "zero_rating_stress_bug": {
+      "unlimited_branch_count": 411,
+      "max_false_loading_ratio_on_unlimited_branch": 84817336043.28058,
+      "path": "stress_features.py:155 clamps zero/unlimited RATE_A to1e-9pu, feeds enormous false thermal violations to feasibility head; computed after voltage/generation heads so does not explain their errors"
+    }
+  },
+  "case300x2": {
+    "prediction": {
+      "actual_forward_static_double_precision_max_error_MW_or_MVAr": 8.003553375601768e-11
+    },
+    "reference": {
+      "actual_forward_static_double_precision_max_error_MW_or_MVAr": 1.1688960910305468e-10
+    },
+    "zero_rating_stress_bug": {
+      "unlimited_branch_count": 822,
+      "max_false_loading_ratio_on_unlimited_branch": 89440404195.0371,
+      "path": "stress_features.py:155 clamps zero/unlimited RATE_A to1e-9pu, feeds enormous false thermal violations to feasibility head; computed after voltage/generation heads so does not explain their errors"
+    }
+  }
+}

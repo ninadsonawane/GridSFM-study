@@ -1,0 +1,49 @@
+{
+  "study_commit": "c74c2bd1685108f7c991274ef7a09d4c52e8f2fb",
+  "model_commit": "1e5e3a1640b27768e3eaf32680184f26b407caab",
+  "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+  "hardware": "Apple M5 Pro,18 CPU cores,64 GB RAM; system_profiler SPHardwareDataType -detailLevel mini",
+  "existing_evidence": {
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/checks.json": "33df13a3429688fe25aba0988a923c04446229b26085cca3272d3cf6b73fdf46",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/summary.json": "2839252341b77ba65daa0b4906495a683542f2826806f0eb3d77f3b5ff14c18c",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/provenance.json": "582aeda0a97ae9fd47597da3cac3743f64c547a04acd756d18de2a85f8de6f16",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/analyze.py": "bc7b55e8f7dd7ecb55a9ae4b26906caee65dd50f3c2abfc2032bfec301f5666e",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/verify_inference.py": "2f69b79533ba5d980840cacdc08f7832e8f4fac09e58c2a48819275875d4e803"
+  },
+  "reused_input_hashes": {
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/samples/case500_goc.pyg.json": "ec66e6a56e96d9ff8b0f4f942ce4d7f22c541b2c826bd2361a9ca503e3c4b2ed",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300-powermodels-input.json": "1fdcffc3466d89cc2c141fa711bbc6c62c034359a7cb60e684fc8493f347ef3e",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300-input.json": "67885a16ba8ab6922b55384ae705fb461d5f6d00463748a071321e026b3e172a",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300x2-input.json": "f96e57ce23d3de16b281e8ff4fbd22937b874722aee163d738534965c379e1a8",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300x2-powermodels-input.json": "ace6b854dcf319c9022ad4197a9d657459791aec3aa1e0b60717146e881a8ced",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300x2-prediction.json": "959ba24ee6bddc6e05ef8f3be6887972bfe1e48ba25aba552e290b851d120842",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300-prediction.json": "6153ff6d55762fd61ae2fa8bf1406f742a8962375766b1bdd40a0f41448a58ca",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300-model-output.json": "0401e7ef6c80993db0f116f0492e18fc1af5ee9d99cde3c4de0fb7d362e4b5e1",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300x2-model-output.json": "eac768b2145882014908e94118d3f5a1423c497d96c1453cdca6f969382903b6",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/control-case500-model-output.json": "47ef1f7508f00fab59df563944e1745a80fb5b88db2b0971aa80a99511840bdd"
+  },
+  "control_reference_source": {
+    "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/samples/case500_goc.pyg.json",
+    "upstream_case": "pglib_opf_case500_goc.m, per shipped samples/README.md",
+    "metadata": {
+      "objective": 454945.978311201,
+      "termination_status": "LOCALLY_SOLVED",
+      "scenario_id": 0,
+      "source_variant": "base",
+      "system_load_factor": 1,
+      "n_gens_killed": 0,
+      "cost_shuffle_pct": 0,
+      "n_lines_derated": 0,
+      "n_buses_vsqueezed": 0,
+      "feasible": true
+    },
+    "producing_solver_version": "not recorded in shipped sample; do not infer exact solver or original source revision"
+  },
+  "checks": {
+    "reused_prior_checks": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/checks.json",
+    "units": "Power in saved physical states MW/MVAr = native pu*100MVA; angles radians->degrees; costs reverse system-base scaling",
+    "ordering": "original matrix rows preserved for case300 and source-row/area maps for case300x2; generator order unchanged; full prior checks linked",
+    "reference_reload": "serialized physical references reloaded and independently checked here; full numerical native reverse/export checks linked to previous analyze.py",
+    "gate_B": "pending control reference feasibility and physics review"
+  }
+}

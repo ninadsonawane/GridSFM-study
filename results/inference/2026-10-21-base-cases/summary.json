@@ -1,0 +1,62 @@
+[
+  {
+    "case": "case300",
+    "buses": 300,
+    "generators": 69,
+    "branches": 411,
+    "reference_cost_per_hour": 719725.0988803707,
+    "predicted_dispatch_cost_per_hour": 324075.4980464783,
+    "absolute_cost_error_percent": 54.972322272681424,
+    "voltage_mae_pu": 0.026868827063383095,
+    "angle_reference_aligned_mae_deg": 23.30514415805803,
+    "pg_mae_mw": 195.13378029097504,
+    "qg_mae_mvar": 89.09681115935864,
+    "max_p_residual_mw": 3754.07958540515,
+    "max_q_residual_mvar": 8937.968110943944,
+    "prediction_all_tested_constraints_pass": false,
+    "reference_max_p_residual_mw": 1.2289369522022753e-10,
+    "reference_max_q_residual_mvar": 1.6635457456004588e-09,
+    "reference_all_tested_constraints_pass": true,
+    "model_feasibility_probability": 0.0,
+    "reference_solver_status": "LOCALLY_SOLVED",
+    "source_to_pm_and_native_roundtrip": "passed electrical parameter/objective/solved-flow checks"
+  },
+  {
+    "case": "case300x2",
+    "buses": 600,
+    "generators": 138,
+    "branches": 824,
+    "reference_cost_per_hour": 1439466.449120996,
+    "predicted_dispatch_cost_per_hour": 1191424.4426672137,
+    "absolute_cost_error_percent": 17.23152398621365,
+    "voltage_mae_pu": 0.026674111570108548,
+    "angle_reference_aligned_mae_deg": 30.19898942425789,
+    "pg_mae_mw": 122.52968983994205,
+    "qg_mae_mvar": 89.3016052769062,
+    "max_p_residual_mw": 1141.6350257727133,
+    "max_q_residual_mvar": 9376.449052108881,
+    "prediction_all_tested_constraints_pass": false,
+    "reference_max_p_residual_mw": 2.029310053330846e-11,
+    "reference_max_q_residual_mvar": 1.0052758625533897e-10,
+    "reference_all_tested_constraints_pass": true,
+    "model_feasibility_probability": 0.0,
+    "reference_solver_status": "LOCALLY_SOLVED",
+    "source_to_pm_and_native_roundtrip": "passed electrical parameter/objective/solved-flow checks",
+    "tie_reference_pf_mw": [
+      -2.7785502413218824e-11,
+      -2.7785502413218824e-11
+    ],
+    "tie_prediction_pf_mw": [
+      -94.73930441600288,
+      -94.73930441600288
+    ],
+    "tie_reference_qf_mvar": [
+      -62.24158963553946,
+      -62.24158963553946
+    ],
+    "tie_prediction_qf_mvar": [
+      55.16131971884887,
+      55.16131971884887
+    ]
+  }
+]

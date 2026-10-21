@@ -1,0 +1,32 @@
+{
+  "control-case500": {
+    "saved_FP32_forward_max_complex_branch_flow_difference_from_exact_MVA": 0.017942953068984264,
+    "graph_context_admittance_feature": {
+      "exact_max_abs_series_y_pu": 970.8627804383023,
+      "clipped_max_abs_series_y_pu": 970.8627804383023,
+      "exact_mean_abs_series_y_pu": 81.91362168643268,
+      "clipped_mean_abs_series_y_pu": 81.91362168643266,
+      "scope": "pe_features graph context summarizes admittance with r2+x2 floor1e-6; a clipped model input statistic, not exact network evaluation"
+    }
+  },
+  "case300": {
+    "saved_FP32_forward_max_complex_branch_flow_difference_from_exact_MVA": 0.031934166275554524,
+    "graph_context_admittance_feature": {
+      "exact_max_abs_series_y_pu": 2155.653067796134,
+      "clipped_max_abs_series_y_pu": 1000.0,
+      "exact_mean_abs_series_y_pu": 48.98020022795689,
+      "clipped_mean_abs_series_y_pu": 43.187543850988774,
+      "scope": "pe_features graph context summarizes admittance with r2+x2 floor1e-6; a clipped model input statistic, not exact network evaluation"
+    }
+  },
+  "case300x2": {
+    "saved_FP32_forward_max_complex_branch_flow_difference_from_exact_MVA": 0.04024454170974787,
+    "graph_context_admittance_feature": {
+      "exact_max_abs_series_y_pu": 2155.653067796134,
+      "clipped_max_abs_series_y_pu": 1000.0,
+      "exact_mean_abs_series_y_pu": 48.98836088822641,
+      "clipped_mean_abs_series_y_pu": 43.209764356833475,
+      "scope": "pe_features graph context summarizes admittance with r2+x2 floor1e-6; a clipped model input statistic, not exact network evaluation"
+    }
+  }
+}

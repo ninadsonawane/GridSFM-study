@@ -1,0 +1,15 @@
+{
+  "executed_at": "/private/tmp/gridsfm-diagnosis-20261021",
+  "saved_at": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/diagnosis/2026-10-21-frozen-and-initialization",
+  "raw_path_translation": "Replace execution-root prefix with saved-root prefix; all relative paths are preserved.",
+  "readme": "README.md",
+  "A_physical_metrics": "physical-summary.csv",
+  "A_worst_buses": "worst-buses.md",
+  "B_timing_summary": "pilot-summary.csv",
+  "all_runs": "pilot/",
+  "cold_start": [
+    "cold-default.json",
+    "cold-gridsfm.json"
+  ],
+  "initialization_audit": "initialization-consumption-evidence.json"
+}

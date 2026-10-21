@@ -1,0 +1,17 @@
+{
+  "python": "3.11.17 (main, Oct  1 2026, 00:48:48) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "torch": "2.8.0",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "pyg": "2.8.0.post1",
+  "model_module": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/gridsfm/__init__.py",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 0,
+  "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+  "model_commit": "1e5e3a1640b27768e3eaf32680184f26b407caab",
+  "study_commit": "c74c2bd1685108f7c991274ef7a09d4c52e8f2fb",
+  "checkpoint_load_seconds": 0.19315449998248369,
+  "parameters": 15148227
+}

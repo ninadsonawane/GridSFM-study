@@ -1,0 +1,128 @@
+{
+  "control-case500": {
+    "prediction": {
+      "P_MW": {
+        "max": 114.01603633261436,
+        "median": 6.032713720834938,
+        "p95": 76.35684993021462
+      },
+      "Q_MVAr": {
+        "max": 71.52835323880137,
+        "median": 6.743971021998685,
+        "p95": 37.07575883361744
+      },
+      "voltage_violation_pu": 2.3841857821338408e-08,
+      "generator_violation_mw_or_mvar": 3.414917000554851e-05,
+      "rated_branch_violation_mva": 18.599263098361916,
+      "rated_branches": 728,
+      "angle_violation_deg": 0.0,
+      "joint_pass": false,
+      "cost_per_hour": 452496.44286727207,
+      "cost_error_percent": 0.5384233646864615
+    },
+    "reference_reloaded": {
+      "P_MW": {
+        "max": 2.2395227006200003e-08,
+        "median": 5.115907697472721e-13,
+        "p95": 1.8632917431204796e-11
+      },
+      "Q_MVAr": {
+        "max": 1.5035465139590087e-07,
+        "median": 8.966161146872764e-13,
+        "p95": 2.5461943664595277e-11
+      },
+      "voltage_violation_pu": 1.0970733210768913e-08,
+      "generator_violation_mw_or_mvar": 1.1641845730991918e-05,
+      "rated_branch_violation_mva": 1.3876144180358096e-06,
+      "rated_branches": 728,
+      "angle_violation_deg": 0.0,
+      "joint_pass": true,
+      "cost_per_hour": 454945.97831120127,
+      "cost_error_percent": 6.397205787986006e-14
+    }
+  },
+  "case300": {
+    "prediction": {
+      "P_MW": {
+        "max": 3754.07958540515,
+        "median": 15.71495590560335,
+        "p95": 250.04561908549323
+      },
+      "Q_MVAr": {
+        "max": 8937.968110943944,
+        "median": 73.7492242193194,
+        "p95": 718.0422742439342
+      },
+      "voltage_violation_pu": 2.38418573772492e-09,
+      "generator_violation_mw_or_mvar": 4.76837158203125e-06,
+      "rated_branch_violation_mva": 0,
+      "rated_branches": 0,
+      "angle_violation_deg": 0,
+      "joint_pass": false,
+      "cost_per_hour": 324075.4980464783,
+      "cost_error_percent": 54.972322272681424
+    },
+    "reference_reloaded": {
+      "P_MW": {
+        "max": 1.2289369522022753e-10,
+        "median": 1.4210854715202004e-13,
+        "p95": 2.507505314497395e-12
+      },
+      "Q_MVAr": {
+        "max": 1.6635449684443415e-09,
+        "median": 5.195843755245733e-13,
+        "p95": 7.626965725648918e-12
+      },
+      "voltage_violation_pu": 0.0,
+      "generator_violation_mw_or_mvar": 0.0,
+      "rated_branch_violation_mva": 0,
+      "rated_branches": 0,
+      "angle_violation_deg": 0,
+      "joint_pass": true,
+      "cost_per_hour": 719725.0988803704,
+      "cost_error_percent": 4.852491125071275e-14
+    }
+  },
+  "case300x2": {
+    "prediction": {
+      "P_MW": {
+        "max": 1141.6350257727133,
+        "median": 9.175049888993582,
+        "p95": 115.13754881483699
+      },
+      "Q_MVAr": {
+        "max": 9376.449052108881,
+        "median": 53.70432751581834,
+        "p95": 511.88628976718576
+      },
+      "voltage_violation_pu": 0.0,
+      "generator_violation_mw_or_mvar": 9.5367431640625e-06,
+      "rated_branch_violation_mva": 0.0,
+      "rated_branches": 2,
+      "angle_violation_deg": 0,
+      "joint_pass": false,
+      "cost_per_hour": 1191424.4426672137,
+      "cost_error_percent": 17.23152398621365
+    },
+    "reference_reloaded": {
+      "P_MW": {
+        "max": 2.034994395216927e-11,
+        "median": 1.1368683772161603e-13,
+        "p95": 1.7141843500212336e-12
+      },
+      "Q_MVAr": {
+        "max": 1.0058442967419978e-10,
+        "median": 5.382361223382759e-13,
+        "p95": 7.256772960317895e-12
+      },
+      "voltage_violation_pu": 0.0,
+      "generator_violation_mw_or_mvar": 0.0,
+      "rated_branch_violation_mva": 0.0,
+      "rated_branches": 2,
+      "angle_violation_deg": 0,
+      "joint_pass": true,
+      "cost_per_hour": 1439466.4491209956,
+      "cost_error_percent": 3.234957560782978e-14
+    }
+  }
+}

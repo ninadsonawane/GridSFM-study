@@ -1,0 +1,6 @@
+{
+  "A_gate": "PASS for numerical pipeline/evaluator correctness; model physics differences diagnosed, not repaired",
+  "B_authorized": true,
+  "reason": "Control and both solver reference states remain feasible after reloading; prior conversion/mapping/label checks reused; exact evaluator agrees with independently generated references. Loss clamp and unlimited-rating stress semantics are model-side differences, not unresolved input mapping errors.",
+  "diagnosis": "model-physics mismatch plus poor frozen transfer; full causal attribution of dispatch error remains uncertain"
+}

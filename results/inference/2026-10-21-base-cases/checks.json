@@ -1,0 +1,46 @@
+{
+  "case300": {
+    "prediction_label_invariance": "bitwise identical",
+    "repeat_determinism": "bitwise identical",
+    "cycle_count": 112,
+    "expected_cycle_rank": 112,
+    "physical_branch_output_count": 411,
+    "finite_predictions": true
+  },
+  "case300x2": {
+    "prediction_label_invariance": "bitwise identical",
+    "repeat_determinism": "bitwise identical",
+    "cycle_count": 225,
+    "expected_cycle_rank": 225,
+    "physical_branch_output_count": 824,
+    "finite_predictions": true,
+    "both_physical_tie_ids_preserved": true
+  },
+  "shipped_case500_control": {
+    "voltage_mae_pu": 0.0011115647311055292,
+    "absolute_cost_error_percent": 0.5384233646865251,
+    "model_feasibility_probability": 0.9973399043083191,
+    "scope": "sanity comparison with shipped labels; not an independent electrical feasibility certification"
+  },
+  "model_source_sha256": {
+    "model/gridsfm/__init__.py": "628690e79d42c316d5746e706cd953a30e33ab8ff3da5080ae8cabbf31a0507d",
+    "model/gridsfm/blocks.py": "e37a7c360b5164c686d87443d81b5c72895a0a4be7ed33d23c66f1a7f8278c03",
+    "model/gridsfm/checkpoint.py": "848e65da30b80f86c27f7311d79c8e708a1aad3c49db5f8eced87e6586ce059c",
+    "model/gridsfm/cycle_basis.py": "4f1a324975f27bc2341387994c7c8cfbd2f4901a2769717bff5ed20dfa0d0eeb",
+    "model/gridsfm/data.py": "0bef859cea51b08c39c40b658143236d33334a65d5b63982c6507e3a24b06f77",
+    "model/gridsfm/dc_prior.py": "63b9b48cd44a185e571e5de6b1ce660cc43cc0c064e3538f616fe3b0e12c8a59",
+    "model/gridsfm/eval.py": "6e59e1c25d277f1205b1f1723cf74198284104754e70202241564621c00c9724",
+    "model/gridsfm/experiment_logging.py": "7e44700800268ffa9852721ab64eaf97e27031bebb34a0be8c7588e48535a5c7",
+    "model/gridsfm/finetune_opfdata.py": "9bb0091cda529b8af6ea5bd829ee1c0c8e4e613130b44a29084b775a29405d0a",
+    "model/gridsfm/hodge_pe.py": "8dd3c0a2d9b7be24902c2243ce002c0d0616b7fabc00d03693d80f743e64868c",
+    "model/gridsfm/lora.py": "32d6aa8f9a8d46169aa37a21c23362699ec4b34f29577655c613572b7f826b64",
+    "model/gridsfm/loss.py": "19f51612d7bce0f1dc45e802e6f77bfebd954b36f990145ccea851a400d893fe",
+    "model/gridsfm/model.py": "03b786662daa55857a4dac0cca8fb633d6a363c090a9e19fb8623a4340748f53",
+    "model/gridsfm/opfdata_train.py": "d43d65ddedb759977b2a9391dea8cbb1762aef6d5106bf74739bfb3536fd7296",
+    "model/gridsfm/pe_features.py": "51643d05e6b0d3b649043fac4c4801749abd2f70aa471416e9ee5a029de7b808",
+    "model/gridsfm/schema.py": "9de2b4501f502650f19a394e560338c0aa7c09f5eb4adf82e3aee8230c18f8f3",
+    "model/gridsfm/signed_incidence.py": "16194ea450844962226100644f01bfb61391ecf81ce4bd20000cfa668f91f37e",
+    "model/gridsfm/stress_features.py": "7a3c489b456d650a87c240bfbb545fd429bfd5428c9470fd74b5381cfaa78fc5",
+    "model/gridsfm/synthetic.py": "544651f149c73a6dab6b1ca5db24baa7b3c9a7ab8be36ec3c3f42c88749fda74"
+  }
+}

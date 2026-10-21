@@ -1,0 +1,107 @@
+{
+  "0.9": {
+    "raw_prediction_cost": 268347.3103568528,
+    "raw_cost_error_percent": 57.081681410003156,
+    "raw_max_p_mw": 4991.08302950924,
+    "raw_max_q_mvar": 12796.763903509802,
+    "clipping": {
+      "counts": {
+        "vm": 2,
+        "pg": 0,
+        "qg": 4
+      },
+      "max_change": {
+        "vm": 2.38418573772492e-09,
+        "pg_mw": 0.0,
+        "qg_mvar": 4.76837158203125e-06
+      },
+      "angle_anchor_removed_deg": 0.0,
+      "policy": "clip only Vm/Pg/Qg to original boxes; anchor angles to original reference; compute branch primal starts from exact pi physics; no power-flow projection or solved labels; Ipopt default bound_push/bound_frac may move boundary starts"
+    },
+    "reason_if_cost_NA": null
+  },
+  "0.95": {
+    "raw_prediction_cost": 290950.0892529188,
+    "raw_cost_error_percent": 56.69983221446323,
+    "raw_max_p_mw": 4425.681553256612,
+    "raw_max_q_mvar": 10778.387677580036,
+    "clipping": {
+      "counts": {
+        "vm": 1,
+        "pg": 0,
+        "qg": 3
+      },
+      "max_change": {
+        "vm": 2.38418573772492e-09,
+        "pg_mw": 0.0,
+        "qg_mvar": 4.76837158203125e-06
+      },
+      "angle_anchor_removed_deg": 0.0,
+      "policy": "clip only Vm/Pg/Qg to original boxes; anchor angles to original reference; compute branch primal starts from exact pi physics; no power-flow projection or solved labels; Ipopt default bound_push/bound_frac may move boundary starts"
+    },
+    "reason_if_cost_NA": null
+  },
+  "1.0": {
+    "raw_prediction_cost": 324075.4980464783,
+    "raw_cost_error_percent": 54.972322272681424,
+    "raw_max_p_mw": 3754.07958540515,
+    "raw_max_q_mvar": 8937.968110943944,
+    "clipping": {
+      "counts": {
+        "vm": 1,
+        "pg": 0,
+        "qg": 5
+      },
+      "max_change": {
+        "vm": 2.38418573772492e-09,
+        "pg_mw": 0.0,
+        "qg_mvar": 4.76837158203125e-06
+      },
+      "angle_anchor_removed_deg": 0.0,
+      "policy": "clip only Vm/Pg/Qg to original boxes; anchor angles to original reference; compute branch primal starts from exact pi physics; no power-flow projection or solved labels; Ipopt default bound_push/bound_frac may move boundary starts"
+    },
+    "reason_if_cost_NA": null
+  },
+  "1.05": {
+    "raw_prediction_cost": 358820.4756588718,
+    "raw_cost_error_percent": 53.404870547666405,
+    "raw_max_p_mw": 3221.236867899012,
+    "raw_max_q_mvar": 8044.689188699343,
+    "clipping": {
+      "counts": {
+        "vm": 1,
+        "pg": 0,
+        "qg": 5
+      },
+      "max_change": {
+        "vm": 2.38418573772492e-09,
+        "pg_mw": 0.0,
+        "qg_mvar": 4.76837158203125e-06
+      },
+      "angle_anchor_removed_deg": 0.0,
+      "policy": "clip only Vm/Pg/Qg to original boxes; anchor angles to original reference; compute branch primal starts from exact pi physics; no power-flow projection or solved labels; Ipopt default bound_push/bound_frac may move boundary starts"
+    },
+    "reason_if_cost_NA": null
+  },
+  "1.1": {
+    "raw_prediction_cost": 392692.1681458256,
+    "raw_cost_error_percent": null,
+    "raw_max_p_mw": 2934.9869942903897,
+    "raw_max_q_mvar": 7952.51095555005,
+    "clipping": {
+      "counts": {
+        "vm": 1,
+        "pg": 0,
+        "qg": 6
+      },
+      "max_change": {
+        "vm": 2.38418573772492e-09,
+        "pg_mw": 0.0,
+        "qg_mvar": 4.76837158203125e-06
+      },
+      "angle_anchor_removed_deg": 0.0,
+      "policy": "clip only Vm/Pg/Qg to original boxes; anchor angles to original reference; compute branch primal starts from exact pi physics; no power-flow projection or solved labels; Ipopt default bound_push/bound_frac may move boundary starts"
+    },
+    "reason_if_cost_NA": "No independently accepted feasible reference at1.10; failed local solver objective is not a cost-error baseline"
+  }
+}

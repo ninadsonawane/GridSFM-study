@@ -1,0 +1,16 @@
+{
+  "case300": {
+    "route": "original solver reference -> saved native labeled .pyg.json -> reload -> source-row map -> radians to degrees,pu to MW/MVAr -> original evaluator",
+    "state_max_roundtrip_difference": 3.552713678800501e-15,
+    "all_tested_constraints_pass": true,
+    "max_p_residual_mw": 1.2288658979286993e-10,
+    "max_q_residual_mvar": 1.6635457456004588e-09
+  },
+  "case300x2": {
+    "route": "original solver reference -> saved native labeled .pyg.json -> reload -> source-row map -> radians to degrees,pu to MW/MVAr -> original evaluator",
+    "state_max_roundtrip_difference": 3.552713678800501e-15,
+    "all_tested_constraints_pass": true,
+    "max_p_residual_mw": 2.029310053330846e-11,
+    "max_q_residual_mvar": 1.0052758625533897e-10
+  }
+}

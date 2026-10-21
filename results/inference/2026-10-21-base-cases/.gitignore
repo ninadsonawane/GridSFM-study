@@ -1,0 +1,13 @@
+*
+!.gitignore
+!README.md
+!summary.json
+!summary.csv
+!environment.json
+!checks.json
+!provenance.json
+!prepare.py
+!infer.py
+!solve.jl
+!analyze.py
+!verify_inference.py
