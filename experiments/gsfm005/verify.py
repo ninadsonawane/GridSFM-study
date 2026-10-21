@@ -33,6 +33,9 @@ def main():
         if split=='spatial':
           before=read(Path(next(q for q in data['ordinary'] if q['scenario_id']==r['pair_id'])['path'])/'input.json');d=np.array([[b[2],b[3]] for b in c['bus']])-np.array([[b[2],b[3]] for b in before['bus']]);drift=abs(d.sum(axis=0));maxdrift=np.maximum(maxdrift,drift).tolist();assert max(drift)<1e-7
           for a,b in zip(c['bus'],before['bus']):assert abs(a[2]*b[3]-a[3]*b[2])<1e-7
+    old_inventory=read(OLD/'artifact-manifest.json')
+    for record in old_inventory['files']:assert sha(OLD/record['path'])==record['sha256'],record['path']
+    assert sha(MODEL/'model/checkpoints/gridsfm_open_v1.1.pt')==config['base_checkpoint_sha256']
     assert len(summary)==153;assert len(rows)==sum(s['evaluated'] for s in summary)
     for s in summary:
       ids={r['scenario_id'] for r in rows if (r['method'],r['seed'],r['endpoint'],r['split'])==(s['method'],s['seed'],s['endpoint'],s['split'])};assert ids=={r['scenario_id'] for r in data[s['split']] if r['accepted']}
@@ -42,6 +45,6 @@ def main():
         rr=list(csv.reader(f));assert len({len(x) for x in rr})==1
     for p in (RUN/'figures').glob('*.png'):assert p.stat().st_size>10000
     assert len(list((RUN/'figures').glob('*.png')))==3
-    result=dict(status='PASS',twelve_fits=True,updates_each=1000,identical_pretrained_initial_states=True,actual_seed_orders_distinct=True,within_seed_orders_identical=True,initial_rho_training_only=True,selection_validation_only=True,all_fixed_endpoints_saved=True,summary_rows=len(summary),prediction_rows=len(rows),fresh_accepted=accepted,no_duplicate_inputs=True,original_case_fields_preserved=True,reloaded_references_feasible=True,original_train_validation_unchanged=True,baseline_hash_unchanged=True,metric_hash_unchanged=True,all_fit_resource_caps=True,strict_feasible_predictions=sum(r['all_tested_constraints_pass'] for r in rows),spatial_max_total_P_Q_drift=maxdrift,verification_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+    result=dict(status='PASS',twelve_fits=True,updates_each=1000,identical_pretrained_initial_states=True,actual_seed_orders_distinct=True,within_seed_orders_identical=True,initial_rho_training_only=True,selection_validation_only=True,all_fixed_endpoints_saved=True,summary_rows=len(summary),prediction_rows=len(rows),fresh_accepted=accepted,no_duplicate_inputs=True,original_case_fields_preserved=True,reloaded_references_feasible=True,original_train_validation_unchanged=True,baseline_hash_unchanged=True,all_GSFM004_artifacts_unchanged=True,base_checkpoint_unchanged=True,metric_hash_unchanged=True,all_fit_resource_caps=True,strict_feasible_predictions=sum(r['all_tested_constraints_pass'] for r in rows),spatial_max_total_P_Q_drift=maxdrift,verification_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
     save(RUN/'verification.json',result);log('FINAL_VERIFICATION_PASS',**result)
 if __name__=='__main__':main()

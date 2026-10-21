@@ -6,6 +6,19 @@ KEYS=['max_p_residual_mw','max_q_residual_mvar','joint_log_balance','cost_error_
 def csv_write(path,rows):
     keys=list(dict.fromkeys(k for r in rows for k in r));path.parent.mkdir(parents=True,exist_ok=True)
     with path.open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows(rows)
+def extra_diagnostics(fits):
+    trajectory=[]
+    for p in sorted((RUN/'training/seed-11/E').glob('operator-probe-*.json')):
+      rr=read(p);valid=[r for r in rr if r['valid']];trajectory.append(dict(update=int(p.stem.split('-')[-1]),n=len(rr),ratio_values=[r['ratio'] for r in rr],ratio_range=[min(r['ratio'] for r in valid),max(r['ratio'] for r in valid)],cosine_values=[r['cosine'] for r in rr],cosine_range=[min(r['cosine'] for r in valid),max(r['cosine'] for r in valid)],no_recalibration=True))
+    save(RUN/'gradient-diagnostics.json',dict(initial_rho=read(RUN/'calibration.json')['rho'],E_seed11_fixed_first5_training_probe_trajectory=trajectory,fit_clipping=[dict(arm=f['arm'],seed=f['seed'],fraction=f['clipping_fraction']) for f in fits],interpretation='Initial magnitude control only; later norms and directions differ. Probes preserved RNG and mode and performed no optimizer update.'))
+    ops=read(RUN/'localization/operator-comparisons.json');out=[]
+    for method,seed,endpoint,split in sorted({(r['method'],r['seed'] or 0,r['endpoint'],r['split']) for r in ops}):
+      rr=[r for r in ops if (r['method'],r['seed'] or 0,r['endpoint'],r['split'])==(method,seed,endpoint,split)];x=dict(method=method,seed=seed or None,endpoint=endpoint,split=split,n=len(rr),worst_bus_clamp_adjacent=sum(r['top_bus_clamp_adjacent_count'] for r in rr),worst_bus_records=sum(r['top_bus_count'] for r in rr))
+      for key in ['exact_P_max_MW','exact_Q_max_MVAr','stock_P_max_MW','stock_Q_max_MVAr','same_state_max_operator_difference_P_MW','same_state_max_operator_difference_Q_MVAr']:
+        v=[r[key] for r in rr];x[key]=dict(median=float(np.median(v)),range=[min(v),max(v)])
+      out.append(x)
+    save(RUN/'localization-summary.json',out)
+
 def main():
     rows=read(RUN/'evaluation/all-rows.json');fits=read(RUN/'training-summary.json');fmap={(f['arm'],f['seed']):f for f in fits};manifest=read(RUN/'data/manifest.json');counts=read(RUN/'data/counts.json');summaries=[]
     groups=sorted({(r['method'],r['seed'] or 0,r['endpoint'],r['split']) for r in rows})
@@ -51,6 +64,7 @@ def main():
           vals=[s[key] for s in ss];a[key]=dict(mean=float(np.mean(vals)),range=[min(vals),max(vals)],values=vals)
         aggregates.append(a)
     save(RUN/'seed-aggregates.json',aggregates)
+    extra_diagnostics(fits)
     plots(fits,contrasts,pairs)
     def get(m,seed=0,split='ordinary',ep='selected'):
       return next(s for s in summaries if (s['method'],s['seed'] or 0,s['split'],s['endpoint'])==(m,seed,split,ep if seed else 'baseline'))
@@ -64,23 +78,6 @@ def main():
     (RUN/'README.md').write_text('\n'.join(lines));log('REPORT_GENERATED',summaries=len(summaries),pairs=len(pairs),primary_effects=effects)
 
 def plots(fits,contrasts,pairs):
-    import matplotlib;matplotlib.use('Agg');import matplotlib.pyplot as plt
-    d=RUN/'figures';d.mkdir(exist_ok=True);colors=dict(S='#6c757d',C='#dd8452',E='#4c72b0',C_m='#55a868')
-    plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
-    fig,axes=plt.subplots(1,3,figsize=(12,3.6),sharey=True)
-    for ax,seed in zip(axes,[11,22,33]):
-      for arm in colors:
-        f=next(x for x in fits if (x['arm'],x['seed'])==(arm,seed));ax.plot([v['update'] for v in f['validation']],[v['key'][0] for v in f['validation']],label=arm,color=colors[arm]);best=min(f['validation'],key=lambda x:tuple(x['key']));ax.scatter([best['update']],[best['key'][0]],color=colors[arm],s=20)
-      ax.set(title=f'Seed {seed}',xlabel='Optimizer updates');ax.grid(alpha=.2)
-    axes[0].set_ylabel('Validation joint log-balance (lower better)');axes[-1].legend();fig.tight_layout();fig.savefig(d/'01-validation-curves.png',dpi=180);fig.savefig(d/'01-validation-curves.pdf');plt.close(fig)
-    fig,axes=plt.subplots(1,3,figsize=(11,3.7));metrics=[('joint_log_balance','Mean ΔJ'),('max_p_residual_mw','Mean paired ΔPmax (MW)'),('max_q_residual_mvar','Mean paired ΔQmax (MVAr)')]
-    for ax,(key,label) in zip(axes,metrics):
-      for j,endpoint in enumerate(['selected','200','500','1000']):
-        vals=[next(x for x in contrasts if (x['seed'],x['endpoint'],x['split'],x['contrast'])==(seed,endpoint,'ordinary','E-minus-C_m'))[key+'_paired_mean_change'] for seed in [11,22,33]];ax.plot([11,22,33],vals,marker='o',label=endpoint)
-      ax.axhline(0,color='black',linewidth=.7);ax.set(xlabel='Training seed',ylabel=label,xticks=[11,22,33]);ax.grid(alpha=.2)
-    axes[-1].legend(title='Endpoint');fig.suptitle('E minus magnitude-matched stock control; negative favors E');fig.tight_layout();fig.savefig(d/'02-E-minus-Cm.png',dpi=180);fig.savefig(d/'02-E-minus-Cm.pdf');plt.close(fig)
-    fig,axes=plt.subplots(1,3,figsize=(12,3.7));labels=['ridge']+[f'{m}/{seed}' for seed in [11,22,33] for m in ['C','E','C_m']];groups=[('ridge',None)]+[(m,seed) for seed in [11,22,33] for m in ['C','E','C_m']]
-    for ax,(key,label) in zip(axes,metrics):
-      vals=[float(np.mean([p[key+'_change'] for p in pairs if (p['method'],p['seed'],p['endpoint'])==(m,seed,'selected' if seed else 'baseline')])) for m,seed in groups];ax.bar(range(len(vals)),vals,color=['#8172b3']+[colors[m] for m,seed in groups[1:]]);ax.axhline(0,color='black',linewidth=.7);ax.set(xticks=range(len(vals)),xticklabels=labels,ylabel=label);ax.tick_params(axis='x',rotation=60);ax.grid(axis='y',alpha=.2)
-    fig.suptitle('Paired spatial minus ordinary changes; validation-selected snapshots');fig.tight_layout();fig.savefig(d/'03-spatial-deterioration.png',dpi=180);fig.savefig(d/'03-spatial-deterioration.pdf');plt.close(fig)
+    runtime='/Users/ninadsonawane/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3'
+    subprocess.run([runtime,str(Path(__file__).with_name('plot_figures.py'))],check=True)
 if __name__=='__main__':main()
