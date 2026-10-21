@@ -79,7 +79,12 @@ def online(server,it,model,folder):
    if attempt:fallback=True;initial=None
    remain=deadline-time.perf_counter()
    if remain<=.01:break
-   t=time.perf_counter();attempt_record=dict(initialization='warm' if initial is not None else 'default',remaining_budget_seconds=remain);attempts.append(attempt_record);rr=server.request(it,Path(folder)/f'attempt-{attempt}',initial,remain);times['solver_total_seconds']=times.get('solver_total_seconds',0)+time.perf_counter()-t;attempt_record.update({k:v for k,v in rr.items() if k not in ['state','metrics']})
+   t=time.perf_counter();attempt_record=dict(initialization='warm' if initial is not None else 'default',remaining_budget_seconds=remain);attempts.append(attempt_record);rr=server.request(it,Path(folder)/f'attempt-{attempt}',initial,remain,capture=True);times['solver_total_seconds']=times.get('solver_total_seconds',0)+time.perf_counter()-t;attempt_record.update({k:v for k,v in rr.items() if k not in ['state','metrics']})
+   if rr.get('result_path'):
+    audited=read(rr['result_path']);live=audited.get('iteration_zero_primal',{}).get('actual_internal_unscaled_primal',{});requested=audited.get('initial_starts',{});projection={}
+    for name,values in live.items():
+     differences=[abs(v-requested[name][k]) for k,v in values.items() if requested.get(name,{}).get(k) is not None];projection[name]=max(differences,default=0)
+    attempt_record['max_start_projection_by_variable_pu_rad']=projection
    if rr.get('metrics',{}).get('all_tested_constraints_pass'):
     final=rr['state'];status='FEASIBLE';break
    if 'state' in rr:final=rr['state']
