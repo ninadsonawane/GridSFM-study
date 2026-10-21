@@ -1,0 +1,42 @@
+[
+  {
+    "phase": "lock",
+    "start_utc": "2026-10-21T13:36:41.760731+00:00",
+    "end_utc": "2026-10-21T13:36:41.840042+00:00",
+    "elapsed_seconds": 0.07933654199587181,
+    "returncode": 0,
+    "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/lock.log"
+  },
+  {
+    "phase": "fresh_data",
+    "start_utc": "2026-10-21T13:36:41.840491+00:00",
+    "end_utc": "2026-10-21T13:37:03.466196+00:00",
+    "elapsed_seconds": 21.62566949997563,
+    "returncode": 0,
+    "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/fresh_data.log"
+  },
+  {
+    "phase": "evaluate",
+    "start_utc": "2026-10-21T13:37:03.466551+00:00",
+    "end_utc": "2026-10-21T13:44:52.618101+00:00",
+    "elapsed_seconds": 469.1482954999956,
+    "returncode": 0,
+    "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/evaluate.log"
+  },
+  {
+    "phase": "report",
+    "start_utc": "2026-10-21T13:44:52.618510+00:00",
+    "end_utc": "2026-10-21T13:44:53.305317+00:00",
+    "elapsed_seconds": 0.6867984579876065,
+    "returncode": 0,
+    "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/report.log"
+  },
+  {
+    "phase": "verify",
+    "start_utc": "2026-10-21T13:44:53.305732+00:00",
+    "end_utc": "2026-10-21T13:44:56.108094+00:00",
+    "elapsed_seconds": 2.802257333009038,
+    "returncode": 0,
+    "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/verify.log"
+  }
+]

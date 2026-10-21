@@ -4,3 +4,4 @@ data/source/**/LICENSE -text
 scripts/python/gridsfm_lora.py -text whitespace=cr-at-eol
 scripts/python/gridsfm_lora.LICENSE -text whitespace=cr-at-eol
 docs/context/2026-10-21-user-request.txt -text
+*.pdf binary

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "run_id": "20261021T120300Z-m5-seeds11-22-33",
+  "worker": "Codex M5 Pro",
+  "original_start_utc": "2026-10-21T12:01:19Z",
+  "compute_cutoff_utc": "2026-10-21T16:41:19Z",
+  "hard_end_utc": "2026-10-21T17:01:19Z",
+  "finalized_utc": "2026-10-21T13:49:03.176219+00:00",
+  "experiment_status": {
+    "5": "COMPLETE",
+    "6": "COMPLETE",
+    "7": "COMPLETE",
+    "8": "COMPLETE"
+  }
+}

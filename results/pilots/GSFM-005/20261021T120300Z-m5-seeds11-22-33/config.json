@@ -1,0 +1,330 @@
+{
+  "run_id": "20261021T120300Z-m5-seeds11-22-33",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "arms": [
+    "S",
+    "C",
+    "E",
+    "C_m"
+  ],
+  "updates": 1000,
+  "fit_cap_seconds": 900,
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "clip": 1.0,
+  "batch": 1,
+  "torch_threads": 4,
+  "blas_threads": 1,
+  "physics_precision": "float64 original parameters",
+  "model_precision": "float32",
+  "train_manifest_sha256": "cd7325dc34da7473c4cb123e890663abbbf3e489f99a525bafacd2fe72b45d3b",
+  "base_checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+  "metric_code_sha256": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+  "training_cases": [
+    {
+      "scenario_id": "train-000",
+      "input_sha256": "c626d10f614bfe8b1c6dc04ccd30a4cbae1348e66d35fc1bb3bb0302a4b9c861",
+      "reference_sha256": "e7eaa9a709a34db2501f8c78dab8a0c69bd4061c29b0a622a8ec9de8d1bee84b"
+    },
+    {
+      "scenario_id": "train-001",
+      "input_sha256": "f4a14afab1823b1fe8acaa51c013c080eff4eb824d97f4f38957c41d61059a27",
+      "reference_sha256": "f1739c72a091ccf2105e3b497e7fb59d24b1da22779af0c688f3ece382c63022"
+    },
+    {
+      "scenario_id": "train-002",
+      "input_sha256": "c223fb02ac763e3eb68e12c3e693ef9b1e8fe7e1b9e4bc9658dc893b2323161b",
+      "reference_sha256": "3769bd1a7b702880ec452ddf33438a899f80bc78a94a105fff14b4edc0fe2b11"
+    },
+    {
+      "scenario_id": "train-003",
+      "input_sha256": "e3a60f2a18e3375217ad8c2a9c41e0200b94076f2de4c51718b5add8a947d633",
+      "reference_sha256": "334345150e5c75165ed5419b040d3b9e03d39f0f66f349bef050f8f6f508d78f"
+    },
+    {
+      "scenario_id": "train-004",
+      "input_sha256": "860dfb34a2b0d5e4834a118f92a4cee107928c99072ede7e54a836e342f31a82",
+      "reference_sha256": "20e28253a106b1ac00e7cb8481832fc639dd5fd6f2d9bb86416b22edaeb8d0f0"
+    },
+    {
+      "scenario_id": "train-005",
+      "input_sha256": "f44e1195c1a9ac18b4de5e834688980b15ea41018b2f1b33965c1396d7d1fc2c",
+      "reference_sha256": "afecc5ecc96e9dae92afb5f997a8db80cf66d3206240c0b23a3e95a1750f2508"
+    },
+    {
+      "scenario_id": "train-006",
+      "input_sha256": "b834ccccaa17bdabfe687e58cabf39beb472baec0195c8455ab3a0f623c7e3b6",
+      "reference_sha256": "04357dac75f4b8d4e6ad344b735e39f0d61d90b21ef1d7128c1e7fd1fde176ea"
+    },
+    {
+      "scenario_id": "train-007",
+      "input_sha256": "d8e7f86a0d3336ac7e9d2e158ac865c0bf11ccfc171e8c56d90dce2e80a62d89",
+      "reference_sha256": "27be2d074052736527e7ca7bdf0c6f0bd7b63f8c5f221a13f2f0553039685cfd"
+    },
+    {
+      "scenario_id": "train-008",
+      "input_sha256": "438e9c8024a1368d7f034d67ed5f2602bfc44f733b39595af5f21d430a2df5fa",
+      "reference_sha256": "037a5277f032eb505cc87c5838590b047767c3a53ed2aca2f071715be0177f8e"
+    },
+    {
+      "scenario_id": "train-009",
+      "input_sha256": "831f3fba90e60e6f22fc77f8955a3046b2bf87229191fce03b301eac6769bcd8",
+      "reference_sha256": "6cbab728a8c0955bd52b1e58435f0384dff21c34b41b3865d8e17deec2b9ac68"
+    },
+    {
+      "scenario_id": "train-010",
+      "input_sha256": "a7a9061d2b726e42e32d382fcce9b70083c4089ba9668b915ab7686c9a0ca5a0",
+      "reference_sha256": "0b9e718881e9c66bbf7d3035d99e7e5d8f2e392e1f7fa0b5a09fc19974abbf1d"
+    },
+    {
+      "scenario_id": "train-011",
+      "input_sha256": "0c1a4abd0afa1ae70b5905e50a9345a849c61c937bb721386a94eb13e324e2e6",
+      "reference_sha256": "26b39b75650cde5e6472a8b1b6756ff7e3e24e74889a93b6669ac1109eeebb8e"
+    },
+    {
+      "scenario_id": "train-012",
+      "input_sha256": "62a2803f89626aca152e72c185df89b7ce8d0ff37c6369dc0024b51b1761a2be",
+      "reference_sha256": "907b3d5f9821123ac70598f445467070eb8703e1bcf1a0cc50dd3a64f8f1f0eb"
+    },
+    {
+      "scenario_id": "train-013",
+      "input_sha256": "7e753e208875f8f6326cc615acbddf040db2410b045f422004305e21e8c9ebd4",
+      "reference_sha256": "f5bb34c5a0a745c12f07867fab303a1bbc48a0a524010e99ef3336a3c8c148ab"
+    },
+    {
+      "scenario_id": "train-014",
+      "input_sha256": "ddd552f5ae95c30924c697acf9a7c158c4e33cdaeadaa915df5b61911fb3613c",
+      "reference_sha256": "8fa5761faf3967c9e1b751fa79a7ad3a0390592baf0154057c36c18532c12ba3"
+    },
+    {
+      "scenario_id": "train-015",
+      "input_sha256": "e1764ce02625257f4e3811e2bf80e94c9b3265b5424f161139108216a74078e5",
+      "reference_sha256": "3ba3933f9259cb48997f7905811124dd39b908894dd0198d6fbb739340090b8e"
+    },
+    {
+      "scenario_id": "train-016",
+      "input_sha256": "07c17d678bc7e761a179aad4479af4ff57c129621e2f7f31b0f2176f49221eae",
+      "reference_sha256": "772a599fbffeda2239a012970c5f58da835ede7359dae4b04a3c78c578b27859"
+    },
+    {
+      "scenario_id": "train-017",
+      "input_sha256": "4859373868b2ffa6f1d6ef7abe337946290a910ad2ec6bb703cea6f755ff5e58",
+      "reference_sha256": "9024addb1e2adbfc0a3dc8e3e38ea8169ffb6542e56677bee4818fa9cbf98313"
+    },
+    {
+      "scenario_id": "train-018",
+      "input_sha256": "8c406d5ca0c62f3b5deb54e46ec4665297f07e77e5fad5e0803b23117ed1ad4d",
+      "reference_sha256": "bb07843aa6a81f85f5cd4149f31347fea4d85bd1394e8d7689f5fa2b72bd05b9"
+    },
+    {
+      "scenario_id": "train-019",
+      "input_sha256": "0f4b61fb0944facf4c8b3c0d41e57c5816953e97a7827de7767920959979ea26",
+      "reference_sha256": "ef2a0c1065226da19d8f63ebd119037d3cdd12de6e64900ba1cab675d4f605be"
+    },
+    {
+      "scenario_id": "train-020",
+      "input_sha256": "14d014943cb039be7bfe38473115ae5e192a765287072b198a2ab91005c6824f",
+      "reference_sha256": "c76b82f9ea591f3512f461bd23885ea899f74386bd9463080e265c8baad62c0b"
+    },
+    {
+      "scenario_id": "train-021",
+      "input_sha256": "a7c4d4252734a17a8b8abcab2700531690e29999348f9b115b53ecfcfa6cb3be",
+      "reference_sha256": "b43e3d4c9e6c5a1daf938eca712f269bafc10751a5465b5ed1a745f03fefb813"
+    },
+    {
+      "scenario_id": "train-022",
+      "input_sha256": "1c5c525870826986a6932a039fa4ffc0a57971b2afe0bb3b1872b1da6dbbfe6c",
+      "reference_sha256": "5251ba81fe3ab9b299507350b6f9701c04da91b8514a7de6aadc84561cc4f65c"
+    },
+    {
+      "scenario_id": "train-023",
+      "input_sha256": "824fc94bd9452b7ddbcb1084accc8b8fe9c540dcc1889d760e9c754bf2cf65fa",
+      "reference_sha256": "ac39dc1150815c98433fb300cab331eb175395aff328636942296ec1d4d99879"
+    },
+    {
+      "scenario_id": "train-024",
+      "input_sha256": "d87c793d30010e0216a37287e04930bc437b333fcfc51eb8facf3d9103ae988b",
+      "reference_sha256": "fc37026e27a22fe7d75fc3d168e2f3526a48dcda2536c9e434b3c8697b29f886"
+    },
+    {
+      "scenario_id": "train-025",
+      "input_sha256": "cadbcdf3e2cc40279cc3704d5f2e480421e117ae95282f130dc35797ba0e91aa",
+      "reference_sha256": "a3812fce5f8527b23eb125e0e7d50996e9ef5fdd8783afb79a608657bb2c6f7e"
+    },
+    {
+      "scenario_id": "train-026",
+      "input_sha256": "9a679de12cce6d2a17a8beaa94a5f2a8b0b9b2770529cee97b05b2e831dbb678",
+      "reference_sha256": "f3a4cc63b803af63058e7e459128009099bd0082018b6a159393f41f489b5e36"
+    },
+    {
+      "scenario_id": "train-027",
+      "input_sha256": "7dca1f1c3a4d26a4a3a258e0db287001d70bc5401756fded8d2d513c2ba4aa4e",
+      "reference_sha256": "f220a86153c990b3546382433e144b0e55f6a96e21edab8684fb2d983e0475f0"
+    },
+    {
+      "scenario_id": "train-028",
+      "input_sha256": "43e5ef88622d269c09f2a9ad25ea19719a4e5ea45c116a134e8d6f38a3d4d2c9",
+      "reference_sha256": "4ed92a8673a331dbbf0db21fb04c625665fca2d4a5f60c3109629d52693236c2"
+    },
+    {
+      "scenario_id": "train-029",
+      "input_sha256": "c6d7d0a4abecb8170ff88f86d23e004dca2539a838dfd2b4bcceaf6215f895fd",
+      "reference_sha256": "1a469e70057063f31f3495ea03cd8232e1198cdc68cf4057d4f9327846768b2f"
+    },
+    {
+      "scenario_id": "train-030",
+      "input_sha256": "03c1856a72a412526c243265e570b8d566831f39aa7ce287e6fd643ebd251cd6",
+      "reference_sha256": "ae542553010a3573086f5ee8e70c7708918117fff5434e47a9be56e213e3feac"
+    },
+    {
+      "scenario_id": "train-031",
+      "input_sha256": "1b70e25ff3d6c6b1d559722f88838c18939fd6728144cc24da0858a23affdeb3",
+      "reference_sha256": "aecd00f96a8e8cb0986a551611353fa3ccf5afdd5c4b374f6e2ce744f1a2e142"
+    },
+    {
+      "scenario_id": "train-032",
+      "input_sha256": "e44d91e7cfd9523ccdca56f292493d6151f9c7a82ef885a577bc9484d006dd2a",
+      "reference_sha256": "2b7aaf46afed7b712710284b0ecd8a5049bc9ff1792ea2c30f95a37fa90b280d"
+    },
+    {
+      "scenario_id": "train-033",
+      "input_sha256": "c56552c25d378fb541a144be8c2b2aef50f855d22ee65224e9d7240eefd2457f",
+      "reference_sha256": "5cc4dbffefdb1d43ca77fd60d1c79212b9fd9452d1596f0f07d3f9b365e6ba9f"
+    },
+    {
+      "scenario_id": "train-034",
+      "input_sha256": "3fe7af0304921677c30d18fdd1a4e5b8739132c040a5abbee260d7759e41de99",
+      "reference_sha256": "2c26913015b346ac11d04015756150700246c9b9175fa017ff9f9caafad929d3"
+    },
+    {
+      "scenario_id": "train-035",
+      "input_sha256": "0a20d35c842b00d205236b90ae1d1e81bc9993d154862a9046ff7d7b9ce8db00",
+      "reference_sha256": "0c8fbbc009f95f4cfe18e0b0d30ee4d0307a91569af5c17eb256f2ee489c8549"
+    },
+    {
+      "scenario_id": "train-036",
+      "input_sha256": "000d57bf2f496ee2de50a3925ddb4188efa85a18e923251e71f2e1672d9f40aa",
+      "reference_sha256": "a3d52fdc7bf3474ffe8019fdd54c247937eb34b3216531a91488702625dfaa25"
+    },
+    {
+      "scenario_id": "train-037",
+      "input_sha256": "8c4abe86447b7ae1fd0f11d37454e1a5a36f377f95006e2d3469d400cd0fd5ac",
+      "reference_sha256": "3a079e84bd6f1c9e0d4d66477dcfbc287a3a994f1f2cd093573d70570afab368"
+    },
+    {
+      "scenario_id": "train-038",
+      "input_sha256": "0bf83aeae9fd91fec2115d7042c70de74eb3ead23cd0d0dc2df1f05c071c6b89",
+      "reference_sha256": "cf0ec39b36500b6fdf72920090738dea240332ff4403a1e0252927fb86484428"
+    },
+    {
+      "scenario_id": "train-039",
+      "input_sha256": "9dd4d74707bb5ae78e708a1b27857e82ef4af94a238878b4396954a40aa0ac16",
+      "reference_sha256": "33804b4d1baf0a3ed5f6c8de0ba87030f7aa910142df10321d3a9028db089875"
+    },
+    {
+      "scenario_id": "train-040",
+      "input_sha256": "efe8eb8dd1ebc45767be38683f747df9779f40a0a94ab8090c2c91bfb0921ab1",
+      "reference_sha256": "4ba34c4a94ba719e25ab4f4de3447e301a8477fca1c6d0e36c1d49d0af79539e"
+    },
+    {
+      "scenario_id": "train-041",
+      "input_sha256": "7a331963c9a5ae61eb8e6eed04a0d11b37ce9e88e7314a29f0fd434cb35e3fde",
+      "reference_sha256": "4d63d2b511d9d9c88f9be8bcc573aa543e9a0c83e3db0f173fd48e548c111be5"
+    },
+    {
+      "scenario_id": "train-042",
+      "input_sha256": "c9dfc1f3bafa169e9f320c3333dc09baa93bd1d2ed823346537b1842c56fbf93",
+      "reference_sha256": "10f1f81418c373d7585b8f8aa1aaf8003b425a3a858f30de0a27d75b64c65d2a"
+    },
+    {
+      "scenario_id": "train-043",
+      "input_sha256": "bf40a990864cbbb72669b1d8e7e884aa1ae4e832f912d13dbc97a2321b1ba819",
+      "reference_sha256": "be10999c5df6e2abc09c3187d2362f75ee7496e6b9c5483b158ea78542614f23"
+    },
+    {
+      "scenario_id": "train-044",
+      "input_sha256": "2620600eaf6b2281874fce4abdf6bc42e11698e2e7eede6cc19353855aed6f79",
+      "reference_sha256": "938c0f46085fd43bb46eb5880e3067414571f8b003af1266753711c9f9593b41"
+    },
+    {
+      "scenario_id": "train-045",
+      "input_sha256": "e2446c5c53b76b90207d09034728415c0acc1e4cff7fa347547cff39474331cf",
+      "reference_sha256": "0283595c18c163d88c60d0819917cac6e570447a0470c9d54ad29963c2cbb372"
+    },
+    {
+      "scenario_id": "train-046",
+      "input_sha256": "afd4967a9bb6f1cf0da5819e9d34038c83c65e5b07fbc8e8f69f8a0d6de300ab",
+      "reference_sha256": "d5edb18c2a8731c82a4f5728d9ca11888325557585bd9851f21cf72eb024487e"
+    },
+    {
+      "scenario_id": "train-047",
+      "input_sha256": "95f768d065d4cd4ea1b983611907e94455d51c9cd91a9596b407f6246bf62c4e",
+      "reference_sha256": "e7a819012765bbdd68560a2741b1a8144876ccdb3e88061eb92278b923fe9f8a"
+    },
+    {
+      "scenario_id": "train-048",
+      "input_sha256": "220634ee7033f2779035d6ed3ce6edfc1050b773f662a5a0fb65a16c0a29feb1",
+      "reference_sha256": "6e7d0c26beef2c3282d075f9343f2ee8d7a69b21b006035f42143ab3f42e5226"
+    },
+    {
+      "scenario_id": "train-049",
+      "input_sha256": "7059ea14c36c660ebe47a767329268dd761dc1bf6810de960827efb84a35916d",
+      "reference_sha256": "4162a5995e912c6810a4f669769b597e8a70e702f056aef0bc709a4ec9ed6e2f"
+    }
+  ],
+  "training_order_rng": "NumPy PCG64 actual seed; 20 shuffled complete epochs",
+  "validation_score": "mean log1p(max(Pmax/1 MW,Qmax/1 MVAr)); tie median absolute cost error then earlier update",
+  "coefficients": {
+    "theta": 1,
+    "V": 1,
+    "Pg": 1,
+    "Qg": 1,
+    "cost": 1,
+    "KCL_C": 1,
+    "KCL_E": 1,
+    "KCL_Cm": "fixed calibration rho outside log1p",
+    "KCL_S": 0,
+    "feasibility": 0,
+    "stress": 0
+  },
+  "KCL_aggregation": {
+    "worst": 0.8,
+    "mean": 0.2,
+    "capacity_margin": 0.01,
+    "P_capacity_pu": 326.78435,
+    "Q_capacity_pu": 140.9018
+  },
+  "fresh_evaluation": {
+    "ordinary_seed": 30503,
+    "higher_load_seed": 30505,
+    "target_each": 30,
+    "attempt_cap_each": 90,
+    "ordinary_global_range": [
+      0.9,
+      1.03
+    ],
+    "higher_global_range": [
+      1.035,
+      1.06
+    ],
+    "shared_P_Q_jitter_range": [
+      0.98,
+      1.02
+    ],
+    "spatial": "same saved four regions, SVD null-space; alternating sign every four pairs; <=10 percent",
+    "reference_generation_cap_seconds": 2100,
+    "solve_watchdog_seconds": 30
+  },
+  "physical_thresholds": {
+    "balance_MW_MVAr": 0.001,
+    "generator_MW_MVAr": 0.001,
+    "voltage_pu": 0.0001,
+    "angle_deg": 0.001,
+    "thermal_MVA": "not applicable; original RATE_A=0"
+  }
+}

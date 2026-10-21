@@ -1,0 +1,82 @@
+{
+  "run_id": "20261021T120300Z-m5-seeds11-22-33",
+  "execution_code_commit": "09c2cb8",
+  "protocol_commit": "c547542caaa85c430ab529526d5e095c62903e9b",
+  "actual_start_utc": "2026-10-21T12:01:19Z",
+  "hardware": "Apple M5 Pro, 64 GiB RAM, CPU only, Torch4/BLAS1, batch1/workers0",
+  "environment_record": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/environment.json",
+  "source_model_commit": "1e5e3a1640b27768e3eaf32680184f26b407caab",
+  "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+  "status": "COMPLETE",
+  "old_result_manifest_sha256": "043189a74ff9b61c3f99b77ca3e2284dafd5361607b32a7319f6710c68d2b501",
+  "commands": [
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/calibrate.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/train.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/lock.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/fresh_data.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/evaluate.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/report.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm005/verify.py",
+    "train.py --continue-preserved (after recover_summary.py; originalclock preserved)",
+    "finalize.py (report/inventory only)"
+  ],
+  "resolved_pretraining_check": "C_m changed floating-point summation order; aligned addition order with C for exact multiplier-one equality; retained failed check; no optimizer steps before passing gate",
+  "raw_artifacts_local_only": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33",
+  "pre_evaluation_source_commit": "b396018",
+  "post_evaluation_layout_source_commit": "00d81f6",
+  "layout_repair": "Only image label coordinates; original renders retained; all pre-evaluation source hashes remain unchanged.",
+  "phase_timings": [
+    {
+      "phase": "lock",
+      "start_utc": "2026-10-21T13:36:41.760731+00:00",
+      "end_utc": "2026-10-21T13:36:41.840042+00:00",
+      "elapsed_seconds": 0.07933654199587181,
+      "returncode": 0,
+      "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/lock.log"
+    },
+    {
+      "phase": "fresh_data",
+      "start_utc": "2026-10-21T13:36:41.840491+00:00",
+      "end_utc": "2026-10-21T13:37:03.466196+00:00",
+      "elapsed_seconds": 21.62566949997563,
+      "returncode": 0,
+      "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/fresh_data.log"
+    },
+    {
+      "phase": "evaluate",
+      "start_utc": "2026-10-21T13:37:03.466551+00:00",
+      "end_utc": "2026-10-21T13:44:52.618101+00:00",
+      "elapsed_seconds": 469.1482954999956,
+      "returncode": 0,
+      "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/evaluate.log"
+    },
+    {
+      "phase": "report",
+      "start_utc": "2026-10-21T13:44:52.618510+00:00",
+      "end_utc": "2026-10-21T13:44:53.305317+00:00",
+      "elapsed_seconds": 0.6867984579876065,
+      "returncode": 0,
+      "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/report.log"
+    },
+    {
+      "phase": "verify",
+      "start_utc": "2026-10-21T13:44:53.305732+00:00",
+      "end_utc": "2026-10-21T13:44:56.108094+00:00",
+      "elapsed_seconds": 2.802257333009038,
+      "returncode": 0,
+      "log": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/verify.log"
+    }
+  ],
+  "main_fit_seconds": 5437.1979912920215,
+  "finalized_utc": "2026-10-21T13:49:03.176219+00:00",
+  "final_source_commit": "00d81f65e7fec7c9cadee5661d28aa77faf55296",
+  "freeze_sha256": "e333873f13f923acb24fdb2ab353d9d2e23ecab8d0180c377aa6b381223a9968",
+  "verification_sha256": "79954aa0b70523458ceaa976cc8aa6b25f360936544b4e4148e0d7ef77fdda8c",
+  "config_sha256": "37e8059c62b3ee2b0e98c605206eb7fe87b8e36a67cf83c31b8a871f9fdc941d",
+  "calibration_sha256": "63d27b64b3e7ae06c292cf73d285c5313e8455b98ae75f6408a6cb57215c4349",
+  "calibration_execution_commit": "09c2cb8",
+  "continuation_execution_commit": "aebecbb",
+  "recovery": "Post-fit summary only; no optimizer step repeated, no clock reset.",
+  "figure_runtime": "/Users/ninadsonawane/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 (bundled ReportLab/PDFium; training environment unchanged)",
+  "no_further_study": true
+}

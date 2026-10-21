@@ -1,0 +1,1871 @@
+{
+  "frozen_utc": "2026-10-21T13:36:37.204367+00:00",
+  "config_sha256": "37e8059c62b3ee2b0e98c605206eb7fe87b8e36a67cf83c31b8a871f9fdc941d",
+  "calibration_sha256": "63d27b64b3e7ae06c292cf73d285c5313e8455b98ae75f6408a6cb57215c4349",
+  "metric_code_sha256": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+  "baseline_sha256": "17d92a310bd8609fb3e31159bbcfcfa856d4676c85744a6f9347cbd14cbe6be4",
+  "training_summary_sha256": "f70240f81f6e651bded0765681d2ccbb80fde51ae4ceb65a8556a69c427c58de",
+  "checkpoints": [
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0000.pt",
+      "sha256": "d0652b6e8c472759518aba78a14f8b31cc2ad66cb538f5e792afd6c7541fec34"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0050.pt",
+      "sha256": "95d7845a9b9c2ff07a01aeff257ba25d26d522b598c5f24a9c3e69f7ab3ec777"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0100.pt",
+      "sha256": "58cf6596280d7e5bb45204bcd0e56edcbe2e955eaa7f26a8de2372d3d565a3c1"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0150.pt",
+      "sha256": "c2dbf1ae7d6151a32194e233511a4a41e4fb0120f3ede8250319728a5298c3cd"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0200.pt",
+      "sha256": "3eb08b7d8fbd9320f8958cdfc532bccc27cee0370afd5a86d59e37d5a1a74621"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0250.pt",
+      "sha256": "d5291774a4531a58cd6156f7daabd92bfd3f6d30553885f2e5b4f593a7e3df87"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0300.pt",
+      "sha256": "9cf5f65f7ce9eac73fb323e00d88bb50206c998865b1557b3575abeec44fa895"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0350.pt",
+      "sha256": "966dc29d1ba891a9101ecb2301c0a0592efdb24f5a4cc22ddbe2e944c7b2991a"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0400.pt",
+      "sha256": "e28d8896931b9931d20e9a291ec7ce16f971f8e60cfc7c2c8aa1810eb5406282"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0450.pt",
+      "sha256": "95ec2847407f4fa581186192111aa9b699b89bd8db4a43b4aae7fd0a8546b036"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0500.pt",
+      "sha256": "709ce394b63b5429a0fcde3ce082db9aa1cdf5d6c0489b0a87c2025b4010a1fc"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0550.pt",
+      "sha256": "315529b3ee82f3d790da96f8a5da77b6ddd6d0fcd23faaccfe766a6d6c3250e0"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0600.pt",
+      "sha256": "ae3c550268f9e76a6a891928c04e52e5769d6c0bda93bb8c072a943f518a0f4c"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0650.pt",
+      "sha256": "5e2f4b4cd94a17fe811d1983668de8879b76ced16889f48ed5901dd6c4e273a3"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0700.pt",
+      "sha256": "da25276830c6d549f7a9012b479f930aaf8e49744ac7052faf607f868a6a9e41"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0750.pt",
+      "sha256": "a2bb0e7674e7630151e66e5a74649a5af79b6a010851d009d99c2701f14dba44"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0800.pt",
+      "sha256": "c0c02e5d8c123e85ef71b7f61524f6bf7331f5322b84168a08c0e5480fdea30d"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0850.pt",
+      "sha256": "33cb9a66d1ffeaf197ccd3f117cb0abd7543d03c397439709688b67bc78a20eb"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0900.pt",
+      "sha256": "f78051704d705e73db4729065472f05cababea8c5dea753e5d88ba37a38714ed"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-0950.pt",
+      "sha256": "03237af476f231906865fb665b62740f04eeb43ca2053533830b2a4bb490a67e"
+    },
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-1000.pt",
+      "sha256": "a52997ebc6c2cc55d9ce0b17ba6736c5bbde642863401bad8ae895066700d2b7"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0000.pt",
+      "sha256": "c08bad1797a1631d5e38995efe43624277e05a7a77d9c06b3d203881fa09b6eb"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0050.pt",
+      "sha256": "3c4d7f99ac56ad3c3c6d395412fb7d6f6d48aae48d137979e935ef7dc24f8ae8"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0100.pt",
+      "sha256": "d001af071ca5d98a924e290efd7f0d5f8213147826e2986e8198ccc4f36f9118"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0150.pt",
+      "sha256": "b7999c01b3620f4382ca2ddcde22b5e10dfac54fc276cdfabb2d16ab39f08246"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0200.pt",
+      "sha256": "cef6154c398c22e3140577611467a5d6a696e3aaed5644babd0d8b1df9e7d25c"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0250.pt",
+      "sha256": "05c4ac5cc81693ab18067a9efa616f8baf7fcfca4b11d32c691da218dd70dc98"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0300.pt",
+      "sha256": "4cf512a866e3cf8f89dd3135c2bf8eeaace0c07ae4e992a0584d88fcc8ca1fc5"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0350.pt",
+      "sha256": "8d879a8364cb9b0dd440431d3ad3cd8dcee5afe8ea3bb74bc5f0c6a7fc1461ee"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0400.pt",
+      "sha256": "a4bbc682941bb89ff91a9897272bd35c391ff96060de80b1c31e8a187f6f1fe3"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0450.pt",
+      "sha256": "0231c094d64115d7641922f442b0f56ada6661c1a1f4d48ff1b35fdcd364f815"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0500.pt",
+      "sha256": "d0d6a133d35783806db2b0a4c1d0840f8b19acb18a220ad5c1f94ae0b3c21a28"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0550.pt",
+      "sha256": "c4be537fda9f0f3d43448182ea15565c9b0c93d22d69afd2269364dec7db24a3"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0600.pt",
+      "sha256": "13a7348746e01ff022dcf2b143a9306ff7022e4bb3a9e45342dec1dc2c958e39"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0650.pt",
+      "sha256": "ebe4b11cb0169149ba8e47012e3f4ef9ae7e15f810af6a7238831eee3b084496"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0700.pt",
+      "sha256": "5f333642f400aac4524d54750cbd48b109723753fc93bbebbd84207dfb02d7e8"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0750.pt",
+      "sha256": "f69eaf564308c154ed273cc23a0c27c3cc236fbd5183d2f628ebb99d17d7825f"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0800.pt",
+      "sha256": "8a0ea5628ee7368345fe8a1ea7b1398dabdf86e3c38df14ffd58ac52feeb1502"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0850.pt",
+      "sha256": "91340cb50116879273bd3e3a4927a869d38e531ee7ea23c566ae02fb70a2a8b3"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0900.pt",
+      "sha256": "1af90587e8cb39af21e2e63ddbc02e4a8db7e2c544b4aeb05d79d468493c7f79"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0950.pt",
+      "sha256": "c85506f27b62de1eb8e61909ce92f68f8dd12ada6af202c51da3eb4eda58c9c9"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-1000.pt",
+      "sha256": "2910a08eb2a71db0d7f60134dd0afece2a1c40bd2f852499b907e0965f31b2a0"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0000.pt",
+      "sha256": "72fef72968eb4fbe923b9302813f507dbb540fcb739ec93970bc8b37e347458f"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0050.pt",
+      "sha256": "bc4e79c304d019e672c3550bbbe82e3fc7a1fdd59c37d56ae2e05d97f56cdc7f"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0100.pt",
+      "sha256": "d9ef0e14b7e39274a6c6ec66597cc7bbd87f59e5c4a34b6c10f9c034e5ce8872"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0150.pt",
+      "sha256": "360bf41894e389a3a0fc3409b6b85e6191324de8076cbf82c5a69f0ba3b7c883"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0200.pt",
+      "sha256": "d2cad5ccc0abe374ced37989eded47ca4d4c234a1bf2f0dfeedfa5162af52497"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0250.pt",
+      "sha256": "982f3fb536cd6cf23da35fbba87aa5e3e3a6140b614c7dc2b851cac48a9c3d62"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0300.pt",
+      "sha256": "231c5f078808d5ee612f758dbbda795796fefca99a5e5baae51e9c2833e14def"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0350.pt",
+      "sha256": "8daebc3f9aded8cb069f307b99f05a1ea7b5ff269b7bccb6ab48a01e39effc8a"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0400.pt",
+      "sha256": "7444f53a307edf1317353e00e065a6ee71ad0e1c912027e5822f1935ca2f05a8"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0450.pt",
+      "sha256": "d2d1700455886d3715bd187febb8bbebd2866485af67c15a722d96d56c2fec36"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0500.pt",
+      "sha256": "4562bf8ffbfc6bd11d69a4a3c5d5fb0b4507bbb6b61ea3c20a97112765e2fa8f"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0550.pt",
+      "sha256": "1d9b1d360415913c97bd45da190cfa25dce9dcd82e44489761901d0c9cc2d494"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0600.pt",
+      "sha256": "0f3befa1e050e1e1544283d9378bc34af6f6d9b1634b6cfb552aa8267f4f2477"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0650.pt",
+      "sha256": "14b80186e64161266c9490f81a0fc31384bc8cc596ca7b411ae4046f3cad3819"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0700.pt",
+      "sha256": "1cbc22efab48347c034a3fc772e2f4def376785b89850e34f74f534be873d9f5"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0750.pt",
+      "sha256": "18a93d80ff97143514f1b30cdb4d37d01bbd4348d34f1f2e97f0151b3f80304a"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0800.pt",
+      "sha256": "cb1dda996273ea259bf645d725114736d2ce34eeca4bad7a9e8f17b795c04ef9"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0850.pt",
+      "sha256": "d3594f95aa39710cd25c3000639e4a742569b56ad6914b249c31b30c546eecd1"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0900.pt",
+      "sha256": "f0bd02fad520fea354df652cf7b25401a847ad6f71efc466359fa6db78f4399d"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0950.pt",
+      "sha256": "97448144a001ba13506e1e2e387b3518a4d4890781c645206e683e84f8a6c889"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-1000.pt",
+      "sha256": "a48164aa8854de47264fb2fd6a7a323b448b983661e4abc38a605eb471f671b7"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0000.pt",
+      "sha256": "9cf2dadc16ca40b300b361a772768e530207ffcc81661cd4e245c079f43545e5"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0050.pt",
+      "sha256": "2f52dcb51b6e790e32a5193333801e453505bc815debddca55ed1d924d91a1a1"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0100.pt",
+      "sha256": "1fddea398fb5093952b11e87d026c955e29e7f9baef2f8118de5d743b31fead4"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0150.pt",
+      "sha256": "19ee97e99f9c4b2bb5ab1fd06481e3cd7a9b1ea8fcb88776ebccdffabff0281b"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0200.pt",
+      "sha256": "fe583267641dc109cb9cec75572bafb0b489d578d8e7362891f183cdf8dd838a"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0250.pt",
+      "sha256": "35a598aa16f7cd8955ab38f7e162f43f471c38b48e0273a174feec3ee7ee2558"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0300.pt",
+      "sha256": "ee04175711711c2daee91fca7af3338e032d2dd5524859c2fcf9497bfdb2af02"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0350.pt",
+      "sha256": "e75acb81575c0ac4b4c25ee20a65c0bb21d81c15b75a05d3647d16570ec7d28d"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0400.pt",
+      "sha256": "e2db1c90ab32ab206e59baa66f8a73fa407ad68aff171b78dc51b2360d71f82e"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0450.pt",
+      "sha256": "3361678cae7da615061c9ae38dcbd1a2b6578b4a37862ae7781241c7e0624965"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0500.pt",
+      "sha256": "055b3d11893a8c823e9839be07147e2bc2074fc424a40fe2f3791348ed162d36"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0550.pt",
+      "sha256": "57b35ac03de4f1c1d95aae765a0244f4cb7669680a8ad4a0e3ad85cf76003c1d"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0600.pt",
+      "sha256": "e6590805a8287794b9fcdb760d9d0d06fcdc8d23a0b9560553c00133cfaaf4f3"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0650.pt",
+      "sha256": "3635e9668daae15a1f0d29284255f6e48b9f3e845cd7f6755cf6ec5fa63da7c9"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0700.pt",
+      "sha256": "d398687f8937134e5728677940a8a15ecf8cd862186be4fa6267c1a1a66107dd"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0750.pt",
+      "sha256": "b809941ddb6f3530d7c6292385a6a91e0ecae0e1876b0426edb507892263838e"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0800.pt",
+      "sha256": "0126f30fdf9d21e07716c657bb34e60165c1ed2b57320593ac6821ee7bdc660f"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0850.pt",
+      "sha256": "0fa03e00daf8728ad54fc2f35c8e062e5ed51ecaab4caa71bac4b65e13633b2f"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0900.pt",
+      "sha256": "7dc7849e2bd5ebd5f289cd27c97d795d2dc9157c36236359f5af1b6c79aece8c"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0950.pt",
+      "sha256": "313fbf3c1b918c459beec3b3ac6d193e05b84e53ae7be21d8a10990cfe78ec9e"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-1000.pt",
+      "sha256": "05bf7de0d6d631c5307993c258447f4dfaad93ae15b20a4cbea42dfd48466656"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0000.pt",
+      "sha256": "2c3151999726a52a73bd8ba6093cb29bfd9ed528f109fe5fd1ae494be7354a6e"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0050.pt",
+      "sha256": "56f182c73d6259199fa5140a613184acfb0c573fb09f2f68e97b829ef149ef88"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0100.pt",
+      "sha256": "d5359ae15995510b56a291e77e0de7f861f0b2a469d78c3325fe8c1d8187a782"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0150.pt",
+      "sha256": "caa29767efab52bdf0eb742ff0cd3f5717c435415582216570291f0ab8b48e53"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0200.pt",
+      "sha256": "abc2acd92b98bf6d7aa0222225fd0949e12ad456639a6f228f36e7fc30c16f60"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0250.pt",
+      "sha256": "c1dc3e7a9fb2353a97cb789445b2ec0fc23cc5ac555aeba887ed5b22e886a805"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0300.pt",
+      "sha256": "4944a03505395cb22c3194a6ad2a7e72db8090a11bfe84cf50076344d7620533"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0350.pt",
+      "sha256": "a9f1b04eaf2d4c51d693f7b2421702e8635bda5e47f3f5ab905b30b5678ead24"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0400.pt",
+      "sha256": "5309966235d0d2078c4b97314538ee6dc6e88772926f27cae5a17a647727f3a3"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0450.pt",
+      "sha256": "0eeab958d7307f7a8fb5bdb362878e0dd16588d42705626ac8ff2a9224b3e91a"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0500.pt",
+      "sha256": "1e6b91a82b52cabeef319098f919a37090021d062279e8d3b7fdd1c8acf683b3"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0550.pt",
+      "sha256": "4fd3e87e2342b19e3bbf7ee1fdd43d43c6236f4beb8ef398dbdc49f9b2ef7e78"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0600.pt",
+      "sha256": "db6953ea59e3042f53a791c6dc0a39aa5e7576211d8124a37f5a6dcd2f1d1f10"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0650.pt",
+      "sha256": "8719d5a8ea33341478c81eea6f4f93f8e539aef190ffb26462c6dad89394bcb6"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0700.pt",
+      "sha256": "47d443d4d3cfa739f4d3cbd40d79da9c66c8fc0cd36792e7dd2942af07d863dd"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0750.pt",
+      "sha256": "7f845bd392fbd38e2fbf0e83abf7c5ec94897664f8fe40409cbc0478085ae499"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0800.pt",
+      "sha256": "93e444acb28d9283435a54bf7539940912c92278cda0aba7443e9ba5cf0cd361"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0850.pt",
+      "sha256": "221f6d76bdf6cf6839b7cb2cfd5057227e527c80abf908b88b8c316ac0d69065"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0900.pt",
+      "sha256": "e71e164546ca255863a5a76f87c8ae5cb659f6bd46c73f95cb1888471c72ffa0"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0950.pt",
+      "sha256": "fa8325553c9b26df91a9dbbd6786857384c0d85fd4caef9d34897c64e9885e6c"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-1000.pt",
+      "sha256": "a10d8f0514ad231804ad26e43a7b68915c9cd1fe2ad724330c738019ebafe035"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0000.pt",
+      "sha256": "731f5c599d8b4aef9c2eb3ea010ea599849419e794dff9a9b554c5cf410b9c22"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0050.pt",
+      "sha256": "8ef6cf6a2112a4e5f43eb4f0bfd3e03b95829b3248ece9a545203df352c198f9"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0100.pt",
+      "sha256": "f627efc82125a49a4c665dbf8b6b5585f849c68ca78f9ea80fa3f7d9ae62b8c6"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0150.pt",
+      "sha256": "ef7414da2f93685b4857eebd60774fcd68a7280cd0b70550ea33a0190f573a4e"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0200.pt",
+      "sha256": "7d8ecaee9dd6fb4b69a3e9865f60e1bf5a2de1e4a779d4454fb6d810b5d42878"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0250.pt",
+      "sha256": "157d247870d195ddead35e676de771c319d016307cd3d52c7a0782e914a25366"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0300.pt",
+      "sha256": "c24aea3c6cc0e4d5dac2ad40632c3773addeece93646acffd249dc564576565a"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0350.pt",
+      "sha256": "45e270dc5d280f4bf8c5302068a238c019d15ca083bdff36326c805d9b2db87c"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0400.pt",
+      "sha256": "8bafc770e1b28c3523d3c6633e426eedf805bc81812ab3d46f2090caadc9331a"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0450.pt",
+      "sha256": "35cc6749013e18b42c4b9094137cc9b50cb79bb7ee696df6cad9efee9eb21c09"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0500.pt",
+      "sha256": "c467a23e13a6de7509a5d28c13ccf8fcb8ef34059db2c10d5e0a5e24b87142c9"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0550.pt",
+      "sha256": "c30d99e54ca88ab32e1f5a3e3f0d8c3bbf501893c14f70423621c94049bdf3aa"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0600.pt",
+      "sha256": "bcef241d95dfae74b6d96e06394b0da712355c110abfc5c3cb6bbb59b571d563"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0650.pt",
+      "sha256": "2f71266f98bf575f9826b0749f858559ef366056fbd5e95514b6f90cb2e127fd"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0700.pt",
+      "sha256": "5f967575dd5c12b5661bbf5d90cb22e54566b2df62d8eed1742f7c6cc8fd6346"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0750.pt",
+      "sha256": "d9f9fb6f9f34e48dc74df0d99c366ed4ca1a4cc32e0269b3f297f3aec232d453"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0800.pt",
+      "sha256": "ff87571c3588bab15895a0b8b67d346ee6ef76618e050e66e660cbcec1d8bb2e"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0850.pt",
+      "sha256": "c6229cecbfe4278df634dc2f94b8046fbb8757e19d69528bbd3067fb4e6a57d9"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0900.pt",
+      "sha256": "9443d6a3c67518ca63cb75d0952f7241efbb833a52229a081920165f4c5f34d4"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0950.pt",
+      "sha256": "613f0fc88b2e58d3be1a06fabb1ddfee5ab4bab581c5e9cf31b8e36cce8c2a27"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-1000.pt",
+      "sha256": "8ee547ec14fb9a57a38751f319a414bf2fbf321350f17d5dcd2853e109af739c"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0000.pt",
+      "sha256": "a6039f6cbe94f8f5a90c9a90a7baa5275d97b2d75eb8bb6c562c2ce6e89e0349"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0050.pt",
+      "sha256": "169fa9796e4743eb9161984f918f578b5ca230a8331d0cec762450b6b572d67b"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0100.pt",
+      "sha256": "064c6a759a88cfb5d77dca4014434ead365d462f19f80ae388ccfb1a21fc8046"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0150.pt",
+      "sha256": "f825219087fb9a4e7d9dba48f9826afa9c739157094f9cb80ff7e08924c69388"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0200.pt",
+      "sha256": "540cc16fe91cfe3976407071465a7727a148d024d117f015f2e885cf0a381dc6"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0250.pt",
+      "sha256": "0d5eacfe6432e574e5882664b2fb2a22803935ed45a965b50607b942c9a7c5ed"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0300.pt",
+      "sha256": "5fd3a3207ad53c2f67c6318405e6601f6d5a6d7827b917a1bf5c0304474d9a5f"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0350.pt",
+      "sha256": "04bc2110d5206c1490a215f6a1361e5ceab9b7f3d775d1121e45ab1dd00a05b3"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0400.pt",
+      "sha256": "254a7357ed5728f94f9abf76fb0b0af12fab467dfe2a6afecc2ea4001eb5f350"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0450.pt",
+      "sha256": "9c277804ff2dce80b1ba11589b39d5df7e3acbe64e0ceb44d1718c02c8f0c81c"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0500.pt",
+      "sha256": "b067532361f2643b605e0f4be8ca9d81c31931b0eb5088e2885107a3763e8322"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0550.pt",
+      "sha256": "4a05cbf5a4eb17cfb309525742a431e42f26a5b46a4950ff2014c223d639caba"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0600.pt",
+      "sha256": "70097450fc7b238a6dc2b8637624215aab0c557e99a09e4d46d0697df94cd665"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0650.pt",
+      "sha256": "5885e9d4ae4fb2f3c85f0a224f48276df12d5d21d27c1adbd4b8b1b5815b080a"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0700.pt",
+      "sha256": "dc38a49b943c134f4bb6e4af44a1d641250e8956d24e3ad841260539ee848a5d"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0750.pt",
+      "sha256": "ebaa44edb74bf12130a8930aca17af9e0e752596d09391c9a999c8c388c3222a"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0800.pt",
+      "sha256": "034807550f0a549fbd01c32ebf9531f83a53d353c9fd29bbfeda9f97940e480e"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0850.pt",
+      "sha256": "59d10d533adb0261814ec9c8f5ea7b5eba15825592631eefc7a3adf62ca61f93"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0900.pt",
+      "sha256": "d16fc66b4ae47b21eac42abe34c082897c686527008fc0e4d91c7d1254177d32"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0950.pt",
+      "sha256": "8c05efbadac23056e17c75270655be020d052b554ffca5616626014a5b6ba978"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-1000.pt",
+      "sha256": "c171d34216c28f953ff6647c4878fcb4fee2c409e1809850a9f717c8e4345932"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0000.pt",
+      "sha256": "6eebaf488df7ded3c52c2622715e7b4abe00db1d28fbbae3df968fce29411e6b"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0050.pt",
+      "sha256": "37c0d297d135e5e1bc92d938016aa20cf2a7a96f31237bdd804b797b00d0d8bb"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0100.pt",
+      "sha256": "9c4fd6c524f6182f4f9af49398b63d69d6431cb9dd9b5db91343b8cae8834287"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0150.pt",
+      "sha256": "7b7daba7db454fe2d3870fd6e7738bbd4301a20245074f93608997f3dae9e4fc"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0200.pt",
+      "sha256": "92c3ae4673e43bbef22f670fd76d4e5cbb361e351eaa47207d86d51f3d2b4e41"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0250.pt",
+      "sha256": "4d45a9160f573a16e8beb3d57f64ff4293de94a8de13b20fcd48f3bf7e6646b4"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0300.pt",
+      "sha256": "7f6b795604b124ada7240ef1c9b62d046aead1a6489fb92f9f6999d3619d4ac8"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0350.pt",
+      "sha256": "dc4a15667bc5f6ae5c163d564bb205e90f61d09d9e1f8ae41b88f9949d221738"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0400.pt",
+      "sha256": "fe207f115b2b9137f6ec8e40978740fbb0ae6eaf6e2d07096bad8238b09b4d4b"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0450.pt",
+      "sha256": "b55572154ad475621c78b37f5ec38d3cbc40f4055572b8562a800192ff5af573"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0500.pt",
+      "sha256": "49aefaa4d9ba60cbdba8db77198b653b1fe20363afea4a4dcc3ae750452a5f22"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0550.pt",
+      "sha256": "bab7c9adc15c06b074aa516c2b66b67833b7daccd93933cae69108fb140072c2"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0600.pt",
+      "sha256": "2dcef294a3839602aa1e024bc0f4dfda9140275b3556d85a4102e4cb5a9b7026"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0650.pt",
+      "sha256": "48d51901c14bb4aaf03004593fbac2ddd9dc71fd4dfbcaa5e744c8495c90b775"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0700.pt",
+      "sha256": "94d4f7f8ff5d096df07785fe4d0a55a040b1723450117eae6f10746cca0047bd"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0750.pt",
+      "sha256": "0f9d6362903b814715a350368d37b98b4333341bd34cdf99253b28ff81b363b0"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0800.pt",
+      "sha256": "148904cbae6f6948e89daac673be3e70e31700d34d0d06afb5272f1aaafdec06"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0850.pt",
+      "sha256": "f5288bfa47d490b605ae03fd627a8caafa4b8d9f5685fa4c36f94058f1d4b6a9"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0900.pt",
+      "sha256": "e61323ffe0c322467b3e1c13aac85de7d769d1a1df03e894a4d698cab6e3fc90"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0950.pt",
+      "sha256": "59b686fc2cf80af3ef4414ccb5ef86d9d3d4664089e1f6739bd34e4cb532f329"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-1000.pt",
+      "sha256": "fc80bde11964cbca562ca8d7a796f16c859d0660766a79fa097403572cac2195"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0000.pt",
+      "sha256": "de90c32e26dd174672db050cc87659282e59677fafe8b9efa9fcfe15ce367cea"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0050.pt",
+      "sha256": "16880880b761e2c60d8d388370b3fd6028c316735ab47221364c7907a490d6a4"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0100.pt",
+      "sha256": "99014b31ac411daf343760b55be4c5afe2fc8699e26dd568e4c5bfdab7857b3d"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0150.pt",
+      "sha256": "a8fa7ba2ca477e51d011a2254f5d9c9456d6caceb6c3256c3c06922229533c77"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0200.pt",
+      "sha256": "ff338c303fcbcd8885ae6f452aca79db7c34a7b9d9023b4cdc07d15bc1960b90"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0250.pt",
+      "sha256": "4b3532f780d385536d6fb967a5ba7dc1e6a840c0a558cc9af630954af18396c1"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0300.pt",
+      "sha256": "b8b143a68299319baff048565e212658249c46f6dd045ed90d932ba7182ce83c"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0350.pt",
+      "sha256": "e031ff1ae0a1582d440951c160d9aba4846a00ae0f13e35893385bd09f5eef43"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0400.pt",
+      "sha256": "020bc57a9eef69bb6d0d01184490f46a56bc53e61af645fbad17907c9906a2d9"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0450.pt",
+      "sha256": "07f8dfbea4e96fd32fb67b5b614455d111b21f209e1cb8c4179e13294c8a2ab0"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0500.pt",
+      "sha256": "93295f7f91b5f69331ced8fc00d17108482906646986f1fa75b9bd9bc5f86322"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0550.pt",
+      "sha256": "52b608a1c143b40b476e886b935ece8046aba59897161def965f6f3b3002866c"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0600.pt",
+      "sha256": "720ecc6a4c34dcc0a5bab084ad8b9ee8c3df3c80be846aaf5650821dbff6a83f"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0650.pt",
+      "sha256": "93b96975b076c6ff9619b1d6e1456d725154eccc87cb69b6ebfc43147bec82eb"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0700.pt",
+      "sha256": "4af8eb5cabc4cd819ca60096692cbb9d16e4b72e895b67d9aee4af49c127f793"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0750.pt",
+      "sha256": "352451385803c6de85b16e40609815dd7d129afedd0e0401d72c48f7f4cb7298"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0800.pt",
+      "sha256": "1454cdb08ee4cb268d4cde8f582294f320c2baf3cdca324f5355607fb3f5d5ce"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0850.pt",
+      "sha256": "4fe74c56f687c1c0181288295fe8bce0dd5bedfa40aeb84eb27359d738b594b3"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0900.pt",
+      "sha256": "a0031141d740644515dbd767bdf1472183b49064717e219ee9f3518f5bdbff97"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0950.pt",
+      "sha256": "b880226d528ae81cfe6a86e87b38f471ae5f2033dbf7384e76be5ec6a7f96b37"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-1000.pt",
+      "sha256": "77f0a67cbe62e072437cbb6764860bfdd892925e09ee9dd39f95707b79d39336"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0000.pt",
+      "sha256": "c4a93ff01e779d28d1e55655ef7e53c318014fc131fa6f045db1b3f650f26ca8"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0050.pt",
+      "sha256": "96c270b37144969e5c9ef60e4d838a34fd3439e1279dd3055b34e2f41fd84cd0"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0100.pt",
+      "sha256": "9238b1cc61577fa696ccf75bcef2a268b2a474477db605547968d4c29c5f4348"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0150.pt",
+      "sha256": "bb04659950f74d213423752726f6cfd94ffc972921ca410b5e8d3cbd843fa723"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0200.pt",
+      "sha256": "f74aa21e7e128671a4372a638a6608686a72e011564af56a9caf15b8088484b4"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0250.pt",
+      "sha256": "cdab2a9c935a496704fb87fd042b5a09c3ed38e7405c058ff4066620d6d2f697"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0300.pt",
+      "sha256": "2080c0a954a7783c341a4303dd653fabc95067124f340d15e507d7982164895d"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0350.pt",
+      "sha256": "e67a2cc3be2032714a1d939384bc4cc716c75e70454968e5daac87e864af932e"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0400.pt",
+      "sha256": "91e6fd03deddb318411aed1692dfec60be4a69306cf7041488bd58fa06d11156"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0450.pt",
+      "sha256": "a8c9a9b28dbe19e9f3b42507acf67a9fb129a9399112b42a07630220e7f37410"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0500.pt",
+      "sha256": "28bb046d5147c93889aac9f66a10ff301ac3889cce3cdb9a615302dedc46d66b"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0550.pt",
+      "sha256": "c340dfe170f4dc67194c0224f5f2a249ee3653453d2e944d0415fa7d372aabd7"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0600.pt",
+      "sha256": "f2639fc9a675a97d7ef639d80bdd1cc7d6c6b2c961708004198350c3b7c23f2f"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0650.pt",
+      "sha256": "dd5b73ebba275dacb7d097ab1f8404d0b8e4d078ce7f1c2cc69454429dad425a"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0700.pt",
+      "sha256": "3f916fcf8f702f20a0174c7db5d658478f699bd9bd4007b5caa476d2fea84016"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0750.pt",
+      "sha256": "1492d8d191c0d16bc48245e4da27715aab6c4cca926ec54fac5f44d37a6b8591"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0800.pt",
+      "sha256": "019ab659bb351447317ede0e4623e2e7493fb33eb5631bcc75930cd5bb590701"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0850.pt",
+      "sha256": "eb31391061a66018048269fe06b5472d96bbad208f721c3041d877490c798130"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0900.pt",
+      "sha256": "258fcf27cd05fbcf1bca81b0615e1cdcef47e5411fe4ed1d8dbb3fdb2bd0b490"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0950.pt",
+      "sha256": "f4ad1de57b64c42cf4174e157b2a3a4e713790c9648c74eb1549e8b41ca066e4"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-1000.pt",
+      "sha256": "42e519518f9536836eb967cd686a9b2ed62bf92880af0bd9aaa21e18b345ac1c"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0000.pt",
+      "sha256": "ca652d694c315de596d6f10e5a1597cc4b04ec0a7d7005cadbcfe2613dddd51b"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0050.pt",
+      "sha256": "a487abde36501c1caf70d57c1acb06a341a17c788ed9e32155324c907fc6d703"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0100.pt",
+      "sha256": "544ddf3efd507aca2f1551cee7ea8cfe7dde16ec967195b89ac5f143f88e1d10"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0150.pt",
+      "sha256": "1e1a3a6ab26237583e82a77fb09a4fad2fb06ddd9560e9faf3c05c9fa36fd34e"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0200.pt",
+      "sha256": "1a5f77ba7d1f4d07505e156b1d5a2badfc75ecd005824d04d84608eaf5f6f6c5"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0250.pt",
+      "sha256": "ec25e7cbf185948e39e046451c43d54b1600a0d7aacf5c6e9fecbb991c3bc3bb"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0300.pt",
+      "sha256": "e3081efa0d59a4e11922bf766e820b6749262382a9b33e7c10ee78ab93370090"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0350.pt",
+      "sha256": "fa297d7321a48bf7fc1cea150459f0a9e7986550bb06e654404558c7f063a970"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0400.pt",
+      "sha256": "481e726e988bef2bb8ce5ee6f94fb0e73aa1b101f7b5535199ab3c3e63522513"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0450.pt",
+      "sha256": "9a3f421560db7d00c92b362b8c8315e026bb8c84b3f9ff7aa98ff003e358d65c"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0500.pt",
+      "sha256": "c85c2ea7097f0b0348524fb67caf9b448a796352c7a3c3d407827cefabef639f"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0550.pt",
+      "sha256": "50f4b58ef7473efcf01afb723cf6f1a7b26ee27bec3a25586be095dcc787b8e1"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0600.pt",
+      "sha256": "d99b28f3c8fa868b4d4ccbeb423128634217c876adf4f919b80cd0d3d49e2ea5"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0650.pt",
+      "sha256": "77832a6363a63c747dbd738bc89d6615bee377e347dcacf9976524db25491836"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0700.pt",
+      "sha256": "ada4f9a314eb0c4f631daef1deaa8c3d17170ed16e23c8278fb9267dd8c894c0"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0750.pt",
+      "sha256": "6a09c19fabe0a53cacf32709af283bb26e07fe2af049c6d7d06d65f3794a075c"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0800.pt",
+      "sha256": "fdf0c175b9555cdfa9c64759b443bdfc130853019a8e28ddd0815d26031ad83f"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0850.pt",
+      "sha256": "cea777f8eb62c1b5024c0633fe590ab8013ae03184e05e6d2730b66b3eb7d51c"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0900.pt",
+      "sha256": "19f6e936416dadef470922580570e42b175a19ee6690d48d4a6b3d215b599e4f"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0950.pt",
+      "sha256": "68d0c38a47da9057c1e8ce4d5b87f9cc76e827f8400f6453408ff4434aa0cf4f"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-1000.pt",
+      "sha256": "0c478620e7e083b5d265e753f56668771738098fcdd0de482565d3908514d527"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 0,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0000.pt",
+      "sha256": "8515e9306ad2a54a21bb0b57d577810db4f5ba7e65c96b5497087bb73cff6317"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0050.pt",
+      "sha256": "61d260a4f5f464ca90464c0d9a094c4750c425ce655f0b805705622f8f654774"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 100,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0100.pt",
+      "sha256": "de8a024e599466efc0ec370c40ca556eefd86683618164a888449c42450e7c08"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 150,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0150.pt",
+      "sha256": "4fdb91dd08f9f5aa3047733651c5cc6fc50088df005bf21a6ee7a931c9c56fa6"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 200,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0200.pt",
+      "sha256": "8911ab377d0b192da3b3e6fc25623e541d976db126e02fa16959c6da454cb4c4"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0250.pt",
+      "sha256": "ef9164f6af5303ef183333df3e8105275221c2e4d49c2918938c9146edbeca16"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0300.pt",
+      "sha256": "b333a75d6a1352416cdca7279147e5f4e7a8bcfb140c6134f594713ce62bd2b9"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 350,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0350.pt",
+      "sha256": "0833ddac7cf233d3ef00647bd4329d6138e2eba0cffa6d5e6d2621d7e3457d22"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 400,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0400.pt",
+      "sha256": "721e608b695d19e49924338cde3780577262fd7e12988c1a90129aa9c3b46c11"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 450,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0450.pt",
+      "sha256": "19fca1e0a8fe52a246866b326e2f02580c3b1700604f8984b5a37689564ca3bd"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 500,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0500.pt",
+      "sha256": "7b907681d6fc15ef1cf1e45f942296c4a3d20aa0cd112e4354bf6b2ceda4c991"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 550,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0550.pt",
+      "sha256": "eeab45ab2c71c80a0c69f01bcb7242ff74bf1ce9ab1c68a889bfd9ef22f8db5d"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 600,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0600.pt",
+      "sha256": "0b57e44f71737cad9755f41a4052c85403149606f927799c7f7fc187fe5e4bc8"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 650,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0650.pt",
+      "sha256": "45e163ca1e657e70ca933a3c683253e423ea6fa40caa96197a802465d48e107a"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0700.pt",
+      "sha256": "11a5b8627e8acd95b8ed7d2157e8eebc42b9feb7e79750ee9d6a6642733919e7"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 750,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0750.pt",
+      "sha256": "ba72d616e355412c38a66b3eca645893026784e3bfcd0ca0abc4290f4427b480"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0800.pt",
+      "sha256": "39ce30953fba428a0644179ad0702fa83296c6ea020ab6875d794009b8a76a45"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0850.pt",
+      "sha256": "a1932f71d4f46fca6504628d00fd31abf952663aaee008db6006cb95df053c8f"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0900.pt",
+      "sha256": "e77acd7e4dd9669268813bd399a2b1efb736c299a9bbbf72d8f189ba44b465e1"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0950.pt",
+      "sha256": "50b1865631a80d290ee5b733542242fa4ba9d7ac0f0be6b864454da7810b4f32"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-1000.pt",
+      "sha256": "0ad30178de2c4d1640f10398b49e90408935845b6e1d1586a0d0560edfeea5cb"
+    }
+  ],
+  "selected": [
+    {
+      "seed": 11,
+      "arm": "S",
+      "update": 1000,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/S/step-1000.pt"
+    },
+    {
+      "seed": 11,
+      "arm": "C",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C/step-0950.pt"
+    },
+    {
+      "seed": 11,
+      "arm": "E",
+      "update": 950,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/E/step-0950.pt"
+    },
+    {
+      "seed": 11,
+      "arm": "C_m",
+      "update": 700,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-11/C_m/step-0700.pt"
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C/step-0800.pt"
+    },
+    {
+      "seed": 22,
+      "arm": "E",
+      "update": 250,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/E/step-0250.pt"
+    },
+    {
+      "seed": 22,
+      "arm": "C_m",
+      "update": 300,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/C_m/step-0300.pt"
+    },
+    {
+      "seed": 22,
+      "arm": "S",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-22/S/step-0050.pt"
+    },
+    {
+      "seed": 33,
+      "arm": "E",
+      "update": 850,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/E/step-0850.pt"
+    },
+    {
+      "seed": 33,
+      "arm": "C_m",
+      "update": 900,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C_m/step-0900.pt"
+    },
+    {
+      "seed": 33,
+      "arm": "S",
+      "update": 50,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/S/step-0050.pt"
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "update": 800,
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/training/seed-33/C/step-0800.pt"
+    }
+  ],
+  "fresh_evaluation_opened": false,
+  "evaluation_code_sha256": {
+    "experiments/gsfm005/neural.py": "10ac4683db1818da4d1c755188ed6ad0b21d67f2fe089b34cd500c14bb92dde2",
+    "experiments/gsfm005/run_remaining.py": "5cf10a432fbea8c1944d672745cccf5f4297e141a93df04aded54dcb1ecb84e7",
+    "experiments/gsfm005/UPSTREAM_LICENSE": "13b0fc4e2bf771907f8d65a841e13963799e09a2656945ba7cdb92ce8bef55d7",
+    "experiments/gsfm005/plot_figures.py": "79aa523002769c6da96cc3c4416da0285f26f7b6c3997af050584701f1d26cc2",
+    "experiments/gsfm005/recipe.json": "e43ce513c1af33e72580be079090aa9193e1880d7872905871fe3cab9c532eea",
+    "experiments/gsfm005/finalize.py": "1663e15ca6532e060283e00bea0401d140ddbddc9559976f9880ce75bf82baca",
+    "experiments/gsfm005/README.md": "9c26e2fb01204d0b11e2a71766e312ed3c1eed119f42d34ad9510f20d69ebac8",
+    "experiments/gsfm005/recover_summary.py": "1126aa225004cf21adf161db412d4d0c33b4b82330aaf0eb028d14e83533f33a",
+    "experiments/gsfm005/common.py": "19891fcaa612866847a7f4e71ed94e2400e1169ca58e5c6e354f756a3bd2e3b9",
+    "experiments/gsfm005/lock.py": "379a9e2feca61f5f8774219714715c4f515eeba8b71de0d4e49e50a0c5f77f32",
+    "experiments/gsfm005/train.py": "cc53f5387bee1c0918525e27e3d25eec1eb116e8f01970a43a82d1482b0fc289",
+    "experiments/gsfm005/fresh_data.py": "5b71b3f005ae7ce00db8ccce25de2a3f0fc5b316a74a03bd927ebdb0bf2a702c",
+    "experiments/gsfm005/evaluate.py": "079a825cca8ddfc9f18ef867708f94ee8414e3436db231c99ced404afde1edd6",
+    "experiments/gsfm005/data_helpers.py": "e97ddeee7d2c876ae8ff041c9f4e9a5e0baa3de0863e552e6b28f18ad064cbba",
+    "experiments/gsfm005/calibrate.py": "b4a928e18cba4cdec60335bdc70b95624025d622de982bb1973c90937fa10608",
+    "experiments/gsfm005/verify.py": "c17da830be1ee64e35b4126e1e3c95e50628fd23dc3c01e1a8e85d2818eb4b0e",
+    "experiments/gsfm005/label_server.jl": "c94c9bc7323b6b4299fd1195edd4aa224c7b2f7a331793fbf4f8bb77d61af826",
+    "experiments/gsfm005/report.py": "6d06b66d0dba3ce793763b3121d1e569206dd1e89911e5204cd88ad8ed499815"
+  },
+  "locked_at_utc": "2026-10-21T13:36:41.819914+00:00",
+  "code_commit": "b3960189de2f28e7aa8bb55bba98e88421f7da97"
+}

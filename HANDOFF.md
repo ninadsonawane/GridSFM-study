@@ -1,5 +1,9 @@
 # Handoff after the initial research package
 
+## Completed hardware follow-up — 21 October 2026
+
+GSFM-005 Experiments5–8 are COMPLETE. [Results](results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/README.md): all12 fits reached1000 updates; selected E-minus-C_m ordinary joint-score contrasts are -0.838/-0.374/-0.929. Ridge remains better; every raw feasibility count is zero. Matched200 seed22 reverses, and state/cost trade-offs remain. Three figures, full summaries, failed solves and original-ID localization are preserved; large states are local with hashes. No further experiment is authorized by this completed run. Earlier READY/hardware instructions below are historical.
+
 ## Current instruction: GSFM-005, Experiments 5–8
 
 21 October 2026: the user requested the next experiments in Exchange's To-do. Read **[GSFM-005](docs/experiments/GSFM-005.md)** and [decision 0004](docs/decisions/0004-controlled-kcl-followup.md). This section supersedes the older operational instructions below; preserve them as history. Status: READY FOR HARDWARE, not executed by the Windows planner.

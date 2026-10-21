@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "reused_checks": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-004/20261021T104843Z-m5-seed11/checks.json",
+  "reused_checks_sha256": "78e9bbbf64fc757be46de20d2799dead99066bb91714339aa882c45a6a0d1a2b",
+  "actual_seed_rng_and_order_distinct": true,
+  "objective_lambda_zero_equals_S": true,
+  "multiplier_one_equals_C": true,
+  "C_E_legacy_equal": true,
+  "finite_calibration_gradients": true,
+  "no_parameter_updates": true,
+  "reload_prediction_equivalence": true,
+  "calibration_valid_count": 20,
+  "elapsed_seconds": 25.012495756149292
+}

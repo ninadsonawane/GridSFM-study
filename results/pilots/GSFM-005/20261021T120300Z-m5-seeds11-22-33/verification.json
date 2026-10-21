@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "twelve_fits": true,
+  "updates_each": 1000,
+  "identical_pretrained_initial_states": true,
+  "actual_seed_orders_distinct": true,
+  "within_seed_orders_identical": true,
+  "initial_rho_training_only": true,
+  "selection_validation_only": true,
+  "all_fixed_endpoints_saved": true,
+  "summary_rows": 153,
+  "prediction_rows": 4488,
+  "fresh_accepted": 88,
+  "no_duplicate_inputs": true,
+  "original_case_fields_preserved": true,
+  "reloaded_references_feasible": true,
+  "original_train_validation_unchanged": true,
+  "baseline_hash_unchanged": true,
+  "all_GSFM004_artifacts_unchanged": true,
+  "base_checkpoint_unchanged": true,
+  "metric_hash_unchanged": true,
+  "all_fit_resource_caps": true,
+  "strict_feasible_predictions": 0,
+  "spatial_max_total_P_Q_drift": [
+    6.277200981230635e-13,
+    2.4952262478450393e-13
+  ],
+  "verification_utc": "2026-10-21T13:46:52.873257+00:00"
+}
