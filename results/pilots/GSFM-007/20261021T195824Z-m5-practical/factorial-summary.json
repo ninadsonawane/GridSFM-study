@@ -1,0 +1,74 @@
+[
+  {
+    "network": "case300",
+    "substitution": "FT_P_ridge_V",
+    "scenario_seed_pairs": 30,
+    "median_paired_change": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -4.8679163590193095,
+      "max_voltage_violation_pu": -0.00031335613024063846,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    }
+  },
+  {
+    "network": "case300",
+    "substitution": "ridge_P_FT_V",
+    "scenario_seed_pairs": 30,
+    "median_paired_change": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -0.24107951178097053,
+      "max_voltage_violation_pu": -5.2895631693417045e-05,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    }
+  },
+  {
+    "network": "case300",
+    "substitution": "ridge_P_ridge_V",
+    "scenario_seed_pairs": 30,
+    "median_paired_change": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -10.38679403149414,
+      "max_voltage_violation_pu": -0.0004241357011302016,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    }
+  },
+  {
+    "network": "pglib118",
+    "substitution": "FT_P_ridge_V",
+    "scenario_seed_pairs": 30,
+    "median_paired_change": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -17.846809155252544,
+      "max_voltage_violation_pu": 0.0008886850548042169,
+      "max_branch_violation_mva": -0.10876591791021895,
+      "max_angle_violation_deg": 0.0
+    }
+  },
+  {
+    "network": "pglib118",
+    "substitution": "ridge_P_FT_V",
+    "scenario_seed_pairs": 30,
+    "median_paired_change": {
+      "max_Pg_violation_MW": -2.0980720563557043e-05,
+      "max_Qg_violation_MVAr": -0.0003922953521957595,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -2.0556999234416082,
+      "max_angle_violation_deg": 0.0
+    }
+  },
+  {
+    "network": "pglib118",
+    "substitution": "ridge_P_ridge_V",
+    "scenario_seed_pairs": 30,
+    "median_paired_change": {
+      "max_Pg_violation_MW": -2.0980720563557043e-05,
+      "max_Qg_violation_MVAr": -18.59888893414423,
+      "max_voltage_violation_pu": 0.0008886850548044389,
+      "max_branch_violation_mva": -2.362484948606877,
+      "max_angle_violation_deg": 0.0
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "start_utc": "2026-10-21T19:58:24+00:00",
+  "scientific_verification_elapsed_seconds": 5078.323235988617,
+  "artifact_packaging_utc": "2026-10-21T21:31:14.632347+00:00",
+  "artifact_packaging_elapsed_seconds": 5570.632347,
+  "fit_code_commit": "5447c790e40291ad1e28f4c252049cd91b3e584f",
+  "confirmation_code_commit": "2603c7fc909c86a58123dd0f8126ddf1ffca5468",
+  "run_root": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical",
+  "local_only": [
+    "data/",
+    "online-states/",
+    "pilot/",
+    "pilot-wrapper/",
+    "predictions/",
+    "fits/**/*.pt",
+    "ridge/**/*.npz",
+    "source-cases.json",
+    "online-all.json",
+    "online-partial.json",
+    "online-rows.jsonl"
+  ],
+  "base_checkpoint": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/data/checkpoints/GSFM-006-gridsfm_open_v2.pt",
+  "model_source": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075",
+  "source_retrieval": "See freeze.json, experiments/gsfm007/SOURCE_ATTRIBUTION.md and docs/experiments/GSFM-007.md",
+  "files": 26184,
+  "total_local_bytes": 7377140997,
+  "verification": "verification.json: PASS, 12960 states; six1500-update fits; 4860timed requests +18warmups",
+  "unknown_candidate": "case300 spatial-027; local status LOCALLY_INFEASIBLE is not proof of infeasibility",
+  "document_delivery": "Results update follows reviewed result commit; exact result commit is supplied in Google Doc and final chat."
+}

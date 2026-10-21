@@ -1,0 +1,275 @@
+SUMMARY_ROWS 162
+[
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "FT-s11-final",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.1031599677176989,
+    "bootstrap_95CI": [
+      -0.10481465214049082,
+      -0.10150872039851691
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "FT-s11-selected",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.10339448269616205,
+    "bootstrap_95CI": [
+      -0.10524716266501705,
+      -0.10150867140422026
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "FT-s22-final",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.1051027654608701,
+    "bootstrap_95CI": [
+      -0.10826127282553653,
+      -0.10178826005338537
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "FT-s22-selected",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.10222626451646198,
+    "bootstrap_95CI": [
+      -0.10459942219046064,
+      -0.09993728901493991
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "FT-s33-final",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.10401599533402026,
+    "bootstrap_95CI": [
+      -0.10628010052326073,
+      -0.1016018234049489
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "FT-s33-selected",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.10474948418029752,
+    "bootstrap_95CI": [
+      -0.10607426743850272,
+      -0.10325714493847728
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "frozen",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.14796144623712248,
+    "bootstrap_95CI": [
+      -0.14949666214486837,
+      -0.1462884794505252
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "case300",
+    "split": "all",
+    "method": "ridge",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 89,
+      "default_quality_cases": 89
+    },
+    "joint_quality_scenarios": 89,
+    "mean_paired_online_saving_seconds": -0.003817845547631948,
+    "bootstrap_95CI": [
+      -0.0055786735240089345,
+      -0.0018326603419774482
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "FT-s11-final",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.06418407730719385,
+    "bootstrap_95CI": [
+      -0.06598663338530768,
+      -0.06240674084218123
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "FT-s11-selected",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.0635379712294606,
+    "bootstrap_95CI": [
+      -0.06523457868748365,
+      -0.06174578041782297
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "FT-s22-final",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.06381802260617,
+    "bootstrap_95CI": [
+      -0.06547790995686253,
+      -0.06207899832565856
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "FT-s22-selected",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.06437539492843725,
+    "bootstrap_95CI": [
+      -0.06599801610954674,
+      -0.06258882893070349
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "FT-s33-final",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.06388906480602195,
+    "bootstrap_95CI": [
+      -0.0655820825303969,
+      -0.062263678645888124
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "FT-s33-selected",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.06263755230595254,
+    "bootstrap_95CI": [
+      -0.06410968890345072,
+      -0.061180850005853916
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "frozen",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.06972579299666298,
+    "bootstrap_95CI": [
+      -0.0713144722075072,
+      -0.06810792261285546
+    ],
+    "amortization": "No measured comparable-quality saving"
+  },
+  {
+    "network": "pglib118",
+    "split": "all",
+    "method": "ridge",
+    "counts": {
+      "all_scenarios": 90,
+      "method_quality_cases": 90,
+      "default_quality_cases": 90
+    },
+    "joint_quality_scenarios": 90,
+    "mean_paired_online_saving_seconds": -0.002342065650736913,
+    "bootstrap_95CI": [
+      -0.004054545986517538,
+      -0.0005639421802119287
+    ],
+    "amortization": "No measured comparable-quality saving"
+  }
+]

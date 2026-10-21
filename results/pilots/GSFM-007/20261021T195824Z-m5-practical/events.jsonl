@@ -1,0 +1,231 @@
+{"utc": "2026-10-21T20:01:58.214566+00:00", "event": "LABEL_PROGRESS", "network": "pglib118", "split": "train", "accepted": 50, "attempts": 50}
+{"utc": "2026-10-21T20:01:59.165495+00:00", "event": "LABEL_PROGRESS", "network": "pglib118", "split": "validation", "accepted": 10, "attempts": 10}
+{"utc": "2026-10-21T20:04:09.470781+00:00", "event": "GATE_NETWORK_PASS", "network": "case300"}
+{"utc": "2026-10-21T20:04:12.192520+00:00", "event": "GATE_NETWORK_PASS", "network": "pglib118"}
+{"utc": "2026-10-21T20:04:12.214170+00:00", "event": "GATE_ALL_PASS"}
+{"utc": "2026-10-21T20:05:16.273087+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 50, "score": 7953.976684377243, "converged": 0.5, "selected": null, "fit_seconds": 24.899545874999603}
+{"utc": "2026-10-21T20:05:40.515783+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 100, "score": 4208.623929793476, "converged": 1.0, "selected": 100, "fit_seconds": 49.14225670901942}
+{"utc": "2026-10-21T20:06:04.873160+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 150, "score": 4155.979706977592, "converged": 1.0, "selected": 150, "fit_seconds": 73.49965016701026}
+{"utc": "2026-10-21T20:06:29.376867+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 200, "score": 3862.4678267013014, "converged": 1.0, "selected": 200, "fit_seconds": 98.0033727090049}
+{"utc": "2026-10-21T20:06:53.614341+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 250, "score": 3497.3775230381734, "converged": 1.0, "selected": 250, "fit_seconds": 122.24086170899682}
+{"utc": "2026-10-21T20:07:17.793816+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 300, "score": 2786.7131841838263, "converged": 1.0, "selected": 300, "fit_seconds": 146.42034837501706}
+{"utc": "2026-10-21T20:07:41.955173+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 350, "score": 2699.4293022302086, "converged": 1.0, "selected": 350, "fit_seconds": 170.5817240840115}
+{"utc": "2026-10-21T20:08:06.255911+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 400, "score": 2374.0220055293435, "converged": 1.0, "selected": 400, "fit_seconds": 194.8824736670067}
+{"utc": "2026-10-21T20:08:30.344239+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 450, "score": 2516.676537400333, "converged": 1.0, "selected": 400, "fit_seconds": 218.97082195899566}
+{"utc": "2026-10-21T20:08:54.526384+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 500, "score": 2418.675837283478, "converged": 1.0, "selected": 400, "fit_seconds": 243.15298258399707}
+{"utc": "2026-10-21T20:09:18.784685+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 550, "score": 2669.1726285412587, "converged": 1.0, "selected": 400, "fit_seconds": 267.4112803750031}
+{"utc": "2026-10-21T20:09:43.115047+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 600, "score": 2156.2484568474124, "converged": 1.0, "selected": 600, "fit_seconds": 291.74155420900206}
+{"utc": "2026-10-21T20:10:07.394038+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 650, "score": 1985.9351868485378, "converged": 1.0, "selected": 650, "fit_seconds": 316.0205402499996}
+{"utc": "2026-10-21T20:10:31.610332+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 700, "score": 1996.1265958534175, "converged": 1.0, "selected": 650, "fit_seconds": 340.23684800000046}
+{"utc": "2026-10-21T20:10:55.831868+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 750, "score": 1987.0549421653686, "converged": 1.0, "selected": 650, "fit_seconds": 364.45839920901926}
+{"utc": "2026-10-21T20:11:20.163848+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 800, "score": 1797.0887217467462, "converged": 1.0, "selected": 800, "fit_seconds": 388.7903931250039}
+{"utc": "2026-10-21T20:11:44.436805+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 850, "score": 1608.8989522974457, "converged": 1.0, "selected": 850, "fit_seconds": 413.06336491700495}
+{"utc": "2026-10-21T20:12:08.586916+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 900, "score": 1694.3633255696434, "converged": 1.0, "selected": 850, "fit_seconds": 437.2134907919972}
+{"utc": "2026-10-21T20:12:32.703791+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 950, "score": 2479.559278950432, "converged": 1.0, "selected": 850, "fit_seconds": 461.33038070899784}
+{"utc": "2026-10-21T20:12:56.920516+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1000, "score": 1898.7651177164032, "converged": 1.0, "selected": 850, "fit_seconds": 485.5471211250115}
+{"utc": "2026-10-21T20:13:21.129371+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1050, "score": 1680.7885495376456, "converged": 1.0, "selected": 850, "fit_seconds": 509.75599125001463}
+{"utc": "2026-10-21T20:13:45.473674+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1100, "score": 1420.7726978065725, "converged": 1.0, "selected": 1100, "fit_seconds": 534.1003087919962}
+{"utc": "2026-10-21T20:14:09.681245+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1150, "score": 1502.3296338060454, "converged": 1.0, "selected": 1100, "fit_seconds": 558.3078949170012}
+{"utc": "2026-10-21T20:14:34.018351+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1200, "score": 1361.8800374733887, "converged": 1.0, "selected": 1200, "fit_seconds": 582.6450142090034}
+{"utc": "2026-10-21T20:14:58.566703+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1250, "score": 1240.9585109473094, "converged": 1.0, "selected": 1250, "fit_seconds": 607.1933836670069}
+{"utc": "2026-10-21T20:15:22.769458+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1300, "score": 1344.4426449721316, "converged": 1.0, "selected": 1250, "fit_seconds": 631.3961529170047}
+{"utc": "2026-10-21T20:15:46.943375+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1350, "score": 1324.3365686953107, "converged": 1.0, "selected": 1250, "fit_seconds": 655.5700849590066}
+{"utc": "2026-10-21T20:16:11.137339+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1400, "score": 1376.8346811117513, "converged": 1.0, "selected": 1250, "fit_seconds": 679.7640645420179}
+{"utc": "2026-10-21T20:16:35.194619+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1450, "score": 1504.0489322769017, "converged": 1.0, "selected": 1250, "fit_seconds": 703.8213590840169}
+{"utc": "2026-10-21T20:16:59.603366+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 11, "update": 1500, "score": 1310.5915125524386, "converged": 1.0, "selected": 1250, "fit_seconds": 728.2301210839942}
+{"utc": "2026-10-21T20:16:59.896315+00:00", "event": "FIT_COMPLETE", "network": "case300", "seed": 11, "updates": 1500, "seconds": 728.230223584018}
+{"utc": "2026-10-21T20:17:16.373523+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 50, "score": 4284.417993405379, "converged": 1.0, "selected": 50, "fit_seconds": 16.0572580829903}
+{"utc": "2026-10-21T20:17:32.186660+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 100, "score": 5442.212311623764, "converged": 1.0, "selected": 50, "fit_seconds": 31.870406083005946}
+{"utc": "2026-10-21T20:17:48.106772+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 150, "score": 3506.9297189229765, "converged": 1.0, "selected": 150, "fit_seconds": 47.79052679101005}
+{"utc": "2026-10-21T20:18:04.182278+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 200, "score": 2951.6468532586177, "converged": 1.0, "selected": 200, "fit_seconds": 63.86604233298567}
+{"utc": "2026-10-21T20:18:19.978331+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 250, "score": 4403.045290390507, "converged": 1.0, "selected": 200, "fit_seconds": 79.66210708298604}
+{"utc": "2026-10-21T20:18:35.754497+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 300, "score": 3140.8756528743897, "converged": 1.0, "selected": 200, "fit_seconds": 95.43828274999396}
+{"utc": "2026-10-21T20:18:51.531895+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 350, "score": 3283.2295231873068, "converged": 1.0, "selected": 200, "fit_seconds": 111.21569099999033}
+{"utc": "2026-10-21T20:19:07.318333+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 400, "score": 3239.9227834385397, "converged": 1.0, "selected": 200, "fit_seconds": 127.0021378750098}
+{"utc": "2026-10-21T20:19:23.273238+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 450, "score": 2912.8261839727897, "converged": 1.0, "selected": 450, "fit_seconds": 142.9570491659979}
+{"utc": "2026-10-21T20:19:39.086134+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 500, "score": 3675.003217647861, "converged": 1.0, "selected": 450, "fit_seconds": 158.76995862499462}
+{"utc": "2026-10-21T20:19:55.038565+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 550, "score": 2423.7400500050853, "converged": 1.0, "selected": 550, "fit_seconds": 174.72239541599993}
+{"utc": "2026-10-21T20:20:10.809694+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 600, "score": 2545.7873969164, "converged": 1.0, "selected": 550, "fit_seconds": 190.49353824998252}
+{"utc": "2026-10-21T20:20:26.839186+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 650, "score": 1568.1693434975448, "converged": 1.0, "selected": 650, "fit_seconds": 206.52303929100162}
+{"utc": "2026-10-21T20:20:42.586672+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 700, "score": 2834.4893946443212, "converged": 1.0, "selected": 650, "fit_seconds": 222.27053670800524}
+{"utc": "2026-10-21T20:20:58.430580+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 750, "score": 2516.923218150422, "converged": 1.0, "selected": 650, "fit_seconds": 238.11445308299153}
+{"utc": "2026-10-21T20:21:14.178550+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 800, "score": 2079.30784905697, "converged": 1.0, "selected": 650, "fit_seconds": 253.8624338329828}
+{"utc": "2026-10-21T20:21:29.910094+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 850, "score": 3939.1137647806936, "converged": 1.0, "selected": 650, "fit_seconds": 269.59398762500496}
+{"utc": "2026-10-21T20:21:45.630747+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 900, "score": 2395.017314731137, "converged": 1.0, "selected": 650, "fit_seconds": 285.31464941598824}
+{"utc": "2026-10-21T20:22:01.750234+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 950, "score": 3677.7112617045414, "converged": 1.0, "selected": 650, "fit_seconds": 301.43414629099425}
+{"utc": "2026-10-21T20:22:17.721662+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1000, "score": 2127.9508898931304, "converged": 1.0, "selected": 650, "fit_seconds": 317.40558408299694}
+{"utc": "2026-10-21T20:22:33.713752+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1050, "score": 918.2632438871553, "converged": 1.0, "selected": 1050, "fit_seconds": 333.3976836660004}
+{"utc": "2026-10-21T20:22:49.538886+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1100, "score": 1845.860378178272, "converged": 1.0, "selected": 1050, "fit_seconds": 349.22282825}
+{"utc": "2026-10-21T20:23:05.387638+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1150, "score": 1485.0757887861369, "converged": 1.0, "selected": 1050, "fit_seconds": 365.0715897909831}
+{"utc": "2026-10-21T20:23:21.227124+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1200, "score": 2039.3518510518868, "converged": 1.0, "selected": 1050, "fit_seconds": 380.9110856250045}
+{"utc": "2026-10-21T20:23:37.317620+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1250, "score": 1180.2633109153892, "converged": 1.0, "selected": 1050, "fit_seconds": 397.00159170798725}
+{"utc": "2026-10-21T20:23:53.151337+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1300, "score": 1719.9443075146864, "converged": 1.0, "selected": 1050, "fit_seconds": 412.83531824999955}
+{"utc": "2026-10-21T20:24:08.991077+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1350, "score": 1774.181713867339, "converged": 1.0, "selected": 1050, "fit_seconds": 428.6750669160101}
+{"utc": "2026-10-21T20:24:24.882623+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1400, "score": 1342.2768021246577, "converged": 1.0, "selected": 1050, "fit_seconds": 444.5666232079966}
+{"utc": "2026-10-21T20:24:40.704284+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1450, "score": 3665.634786427003, "converged": 1.0, "selected": 1050, "fit_seconds": 460.3882954159926}
+{"utc": "2026-10-21T20:24:56.768391+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 11, "update": 1500, "score": 1722.2104094396334, "converged": 1.0, "selected": 1050, "fit_seconds": 476.45241154098767}
+{"utc": "2026-10-21T20:24:56.977358+00:00", "event": "FIT_COMPLETE", "network": "pglib118", "seed": 11, "updates": 1500, "seconds": 476.4525092499971}
+{"utc": "2026-10-21T20:25:22.469081+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 50, "score": 5226.810204828813, "converged": 1.0, "selected": 50, "fit_seconds": 24.94248600001447}
+{"utc": "2026-10-21T20:25:46.798813+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 100, "score": 4067.467977161622, "converged": 1.0, "selected": 100, "fit_seconds": 49.27164733299287}
+{"utc": "2026-10-21T20:26:11.008710+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 150, "score": 3254.8989206435735, "converged": 1.0, "selected": 150, "fit_seconds": 73.4814339579898}
+{"utc": "2026-10-21T20:26:35.441886+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 200, "score": 2765.263725320982, "converged": 1.0, "selected": 200, "fit_seconds": 97.91459554099129}
+{"utc": "2026-10-21T20:26:59.725273+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 250, "score": 2424.480782823903, "converged": 1.0, "selected": 250, "fit_seconds": 122.19798766600434}
+{"utc": "2026-10-21T20:27:23.964741+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 300, "score": 2407.088857580705, "converged": 1.0, "selected": 300, "fit_seconds": 146.43746704098885}
+{"utc": "2026-10-21T20:27:48.203650+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 350, "score": 2274.657246861494, "converged": 1.0, "selected": 350, "fit_seconds": 170.6763866659894}
+{"utc": "2026-10-21T20:28:12.428554+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 400, "score": 2133.415700881079, "converged": 1.0, "selected": 400, "fit_seconds": 194.90129820801667}
+{"utc": "2026-10-21T20:28:36.496564+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 450, "score": 2303.1798761521763, "converged": 1.0, "selected": 400, "fit_seconds": 218.96932329100673}
+{"utc": "2026-10-21T20:29:00.544516+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 500, "score": 3134.412203675378, "converged": 1.0, "selected": 400, "fit_seconds": 243.017285540991}
+{"utc": "2026-10-21T20:29:24.817611+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 550, "score": 2077.3803657092935, "converged": 1.0, "selected": 550, "fit_seconds": 267.29038812499493}
+{"utc": "2026-10-21T20:29:49.059611+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 600, "score": 1738.5077685726544, "converged": 1.0, "selected": 600, "fit_seconds": 291.53240066600847}
+{"utc": "2026-10-21T20:30:13.147018+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 650, "score": 2540.431046558858, "converged": 1.0, "selected": 600, "fit_seconds": 315.6198216660123}
+{"utc": "2026-10-21T20:30:37.340571+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 700, "score": 1734.535017739901, "converged": 1.0, "selected": 700, "fit_seconds": 339.813384625013}
+{"utc": "2026-10-21T20:31:01.430131+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 750, "score": 1854.5223683317722, "converged": 1.0, "selected": 700, "fit_seconds": 363.9029560830095}
+{"utc": "2026-10-21T20:31:25.514387+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 800, "score": 2173.4480270779027, "converged": 1.0, "selected": 700, "fit_seconds": 387.98722258300404}
+{"utc": "2026-10-21T20:31:49.641933+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 850, "score": 2086.6011653792407, "converged": 1.0, "selected": 700, "fit_seconds": 412.11477795799146}
+{"utc": "2026-10-21T20:32:13.808883+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 900, "score": 1662.308882477735, "converged": 1.0, "selected": 900, "fit_seconds": 436.28174037500867}
+{"utc": "2026-10-21T20:32:37.952035+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 950, "score": 1672.6921183326103, "converged": 1.0, "selected": 900, "fit_seconds": 460.4249038330163}
+{"utc": "2026-10-21T20:33:02.080783+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1000, "score": 2039.319435718907, "converged": 1.0, "selected": 900, "fit_seconds": 484.5536621249921}
+{"utc": "2026-10-21T20:33:26.400750+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1050, "score": 1370.642260097669, "converged": 1.0, "selected": 1050, "fit_seconds": 508.87363975000335}
+{"utc": "2026-10-21T20:33:50.601345+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1100, "score": 1956.971667834372, "converged": 1.0, "selected": 1050, "fit_seconds": 533.0742456660082}
+{"utc": "2026-10-21T20:34:14.780083+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1150, "score": 1436.541860944575, "converged": 1.0, "selected": 1050, "fit_seconds": 557.2529948329902}
+{"utc": "2026-10-21T20:34:39.012585+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1200, "score": 1307.192740084754, "converged": 1.0, "selected": 1200, "fit_seconds": 581.4855069160112}
+{"utc": "2026-10-21T20:35:03.348176+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1250, "score": 1350.8948264564192, "converged": 1.0, "selected": 1200, "fit_seconds": 605.821110082994}
+{"utc": "2026-10-21T20:35:27.512967+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1300, "score": 1603.6672492258062, "converged": 1.0, "selected": 1200, "fit_seconds": 629.9859115410072}
+{"utc": "2026-10-21T20:35:51.553252+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1350, "score": 1832.8616716554848, "converged": 1.0, "selected": 1200, "fit_seconds": 654.026207707997}
+{"utc": "2026-10-21T20:36:15.917282+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1400, "score": 1253.1453093449584, "converged": 1.0, "selected": 1400, "fit_seconds": 678.3902494579961}
+{"utc": "2026-10-21T20:36:39.999615+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1450, "score": 1974.9165023205612, "converged": 1.0, "selected": 1400, "fit_seconds": 702.4725925830135}
+{"utc": "2026-10-21T20:37:04.400050+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 22, "update": 1500, "score": 1473.5889305223911, "converged": 1.0, "selected": 1400, "fit_seconds": 726.8730388330005}
+{"utc": "2026-10-21T20:37:04.694405+00:00", "event": "FIT_COMPLETE", "network": "case300", "seed": 22, "updates": 1500, "seconds": 726.8731389580062}
+{"utc": "2026-10-21T20:37:21.141650+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 50, "score": 4904.348374761164, "converged": 1.0, "selected": 50, "fit_seconds": 16.003673166007502}
+{"utc": "2026-10-21T20:37:37.019077+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 100, "score": 4682.067808098007, "converged": 1.0, "selected": 100, "fit_seconds": 31.881108125002356}
+{"utc": "2026-10-21T20:37:52.866265+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 150, "score": 3486.8434873522906, "converged": 1.0, "selected": 150, "fit_seconds": 47.72830337501364}
+{"utc": "2026-10-21T20:38:08.935494+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 200, "score": 3429.248902244727, "converged": 1.0, "selected": 200, "fit_seconds": 63.79753937499481}
+{"utc": "2026-10-21T20:38:24.773520+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 250, "score": 2948.928385799582, "converged": 1.0, "selected": 250, "fit_seconds": 79.63557241600938}
+{"utc": "2026-10-21T20:38:40.682261+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 300, "score": 2633.9144571689794, "converged": 1.0, "selected": 300, "fit_seconds": 95.54432050001924}
+{"utc": "2026-10-21T20:38:56.432625+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 350, "score": 3295.4213907622334, "converged": 1.0, "selected": 300, "fit_seconds": 111.2946918749949}
+{"utc": "2026-10-21T20:39:12.207597+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 400, "score": 3203.977335122332, "converged": 1.0, "selected": 300, "fit_seconds": 127.06967129101395}
+{"utc": "2026-10-21T20:39:28.183228+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 450, "score": 2780.163823854207, "converged": 1.0, "selected": 300, "fit_seconds": 143.0453102500178}
+{"utc": "2026-10-21T20:39:44.069459+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 500, "score": 2365.6859562254485, "converged": 1.0, "selected": 500, "fit_seconds": 158.93154445799883}
+{"utc": "2026-10-21T20:39:59.824116+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 550, "score": 3487.161189040082, "converged": 1.0, "selected": 500, "fit_seconds": 174.6862117080018}
+{"utc": "2026-10-21T20:40:15.527640+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 600, "score": 2442.4149182691935, "converged": 1.0, "selected": 500, "fit_seconds": 190.3897439580178}
+{"utc": "2026-10-21T20:40:31.454605+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 650, "score": 2324.0711620659754, "converged": 1.0, "selected": 650, "fit_seconds": 206.3167112499941}
+{"utc": "2026-10-21T20:40:47.367934+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 700, "score": 1620.5926373509349, "converged": 1.0, "selected": 700, "fit_seconds": 222.23005137499422}
+{"utc": "2026-10-21T20:41:03.290487+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 750, "score": 1394.1272332927672, "converged": 1.0, "selected": 750, "fit_seconds": 238.1526122080104}
+{"utc": "2026-10-21T20:41:19.053781+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 800, "score": 1953.2645126036434, "converged": 1.0, "selected": 750, "fit_seconds": 253.91562545800116}
+{"utc": "2026-10-21T20:41:34.839560+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 850, "score": 2626.8011250728878, "converged": 1.0, "selected": 750, "fit_seconds": 269.7003404580173}
+{"utc": "2026-10-21T20:41:50.643645+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 900, "score": 2725.052323780607, "converged": 1.0, "selected": 750, "fit_seconds": 285.5040433749964}
+{"utc": "2026-10-21T20:42:06.434015+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 950, "score": 3106.915921838452, "converged": 1.0, "selected": 750, "fit_seconds": 301.29427633300656}
+{"utc": "2026-10-21T20:42:22.182238+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1000, "score": 2398.9358583506537, "converged": 1.0, "selected": 750, "fit_seconds": 317.0424517499923}
+{"utc": "2026-10-21T20:42:37.993235+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1050, "score": 3281.857100114681, "converged": 1.0, "selected": 750, "fit_seconds": 332.8534329160175}
+{"utc": "2026-10-21T20:42:53.761073+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1100, "score": 1413.9315535151575, "converged": 1.0, "selected": 750, "fit_seconds": 348.62126700000954}
+{"utc": "2026-10-21T20:43:09.570090+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1150, "score": 1651.1088829189248, "converged": 1.0, "selected": 750, "fit_seconds": 364.4302837080031}
+{"utc": "2026-10-21T20:43:25.335544+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1200, "score": 2558.865562721109, "converged": 1.0, "selected": 750, "fit_seconds": 380.19573929099715}
+{"utc": "2026-10-21T20:43:41.362938+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1250, "score": 2669.658831469589, "converged": 1.0, "selected": 750, "fit_seconds": 396.22313545801444}
+{"utc": "2026-10-21T20:43:57.127533+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1300, "score": 1488.6112716428797, "converged": 1.0, "selected": 750, "fit_seconds": 411.98773216601694}
+{"utc": "2026-10-21T20:44:13.082805+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1350, "score": 1117.920834846776, "converged": 1.0, "selected": 1350, "fit_seconds": 427.94300670799566}
+{"utc": "2026-10-21T20:44:28.879385+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1400, "score": 1185.0849868609662, "converged": 1.0, "selected": 1350, "fit_seconds": 443.7395891250053}
+{"utc": "2026-10-21T20:44:44.677560+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1450, "score": 1148.3965050399277, "converged": 1.0, "selected": 1350, "fit_seconds": 459.5377677080105}
+{"utc": "2026-10-21T20:45:00.717048+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 22, "update": 1500, "score": 1622.7292207092994, "converged": 1.0, "selected": 1350, "fit_seconds": 475.57725720800227}
+{"utc": "2026-10-21T20:45:00.926949+00:00", "event": "FIT_COMPLETE", "network": "pglib118", "seed": 22, "updates": 1500, "seconds": 475.5773707500193}
+{"utc": "2026-10-21T20:45:26.474567+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 50, "score": 6496.601189939997, "converged": 1.0, "selected": 50, "fit_seconds": 24.98269716699724}
+{"utc": "2026-10-21T20:45:50.752646+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 100, "score": 4467.707996816119, "converged": 1.0, "selected": 100, "fit_seconds": 49.26077962500858}
+{"utc": "2026-10-21T20:46:14.949281+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 150, "score": 3424.3104652220654, "converged": 1.0, "selected": 150, "fit_seconds": 73.45741850000923}
+{"utc": "2026-10-21T20:46:39.435744+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 200, "score": 2942.1729922731997, "converged": 1.0, "selected": 200, "fit_seconds": 97.9438853749889}
+{"utc": "2026-10-21T20:47:03.649305+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 250, "score": 2924.582064254273, "converged": 1.0, "selected": 250, "fit_seconds": 122.15744874998927}
+{"utc": "2026-10-21T20:47:27.780589+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 300, "score": 3044.6968829061034, "converged": 1.0, "selected": 250, "fit_seconds": 146.2887384170026}
+{"utc": "2026-10-21T20:47:51.872052+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 350, "score": 2985.5454664085655, "converged": 1.0, "selected": 250, "fit_seconds": 170.38020420901012}
+{"utc": "2026-10-21T20:48:16.192370+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 400, "score": 2345.205118693201, "converged": 1.0, "selected": 400, "fit_seconds": 194.70052166699315}
+{"utc": "2026-10-21T20:48:40.507378+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 450, "score": 2260.2629354644173, "converged": 1.0, "selected": 450, "fit_seconds": 219.0155349590059}
+{"utc": "2026-10-21T20:49:04.612357+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 500, "score": 2400.9296549424485, "converged": 1.0, "selected": 450, "fit_seconds": 243.12052058399422}
+{"utc": "2026-10-21T20:49:28.958628+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 550, "score": 2163.7545353319515, "converged": 1.0, "selected": 550, "fit_seconds": 267.4667950840085}
+{"utc": "2026-10-21T20:49:53.213457+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 600, "score": 2042.3986019767485, "converged": 1.0, "selected": 600, "fit_seconds": 291.72162433399353}
+{"utc": "2026-10-21T20:50:17.353852+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 650, "score": 2198.043613395425, "converged": 1.0, "selected": 600, "fit_seconds": 315.8620258340088}
+{"utc": "2026-10-21T20:50:41.456436+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 700, "score": 2081.0383746823873, "converged": 1.0, "selected": 600, "fit_seconds": 339.9646139999968}
+{"utc": "2026-10-21T20:51:05.580283+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 750, "score": 2159.6709415539567, "converged": 1.0, "selected": 600, "fit_seconds": 364.0884642500023}
+{"utc": "2026-10-21T20:51:29.723582+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 800, "score": 2239.2419518975503, "converged": 1.0, "selected": 600, "fit_seconds": 388.23176608400536}
+{"utc": "2026-10-21T20:51:53.904559+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 850, "score": 2175.6484766103313, "converged": 1.0, "selected": 600, "fit_seconds": 412.41274791699834}
+{"utc": "2026-10-21T20:52:18.056949+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 900, "score": 2145.489378815246, "converged": 1.0, "selected": 600, "fit_seconds": 436.56513987499056}
+{"utc": "2026-10-21T20:52:42.429567+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 950, "score": 1894.7567826967115, "converged": 1.0, "selected": 950, "fit_seconds": 460.93776341699413}
+{"utc": "2026-10-21T20:53:06.559865+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1000, "score": 2250.6994488038367, "converged": 1.0, "selected": 950, "fit_seconds": 485.0680647089903}
+{"utc": "2026-10-21T20:53:30.730023+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1050, "score": 2000.6494422181827, "converged": 1.0, "selected": 950, "fit_seconds": 509.23822545900475}
+{"utc": "2026-10-21T20:53:55.106146+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1100, "score": 1749.9494432579922, "converged": 1.0, "selected": 1100, "fit_seconds": 533.6143529999827}
+{"utc": "2026-10-21T20:54:19.302789+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1150, "score": 2376.6199363352116, "converged": 1.0, "selected": 1100, "fit_seconds": 557.8109988340002}
+{"utc": "2026-10-21T20:54:43.489177+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1200, "score": 1781.165186611312, "converged": 1.0, "selected": 1100, "fit_seconds": 581.9973908340035}
+{"utc": "2026-10-21T20:55:07.965131+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1250, "score": 1811.5069016827579, "converged": 1.0, "selected": 1100, "fit_seconds": 606.4733488339989}
+{"utc": "2026-10-21T20:55:32.199283+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1300, "score": 1600.1256622302167, "converged": 1.0, "selected": 1300, "fit_seconds": 630.7075040839845}
+{"utc": "2026-10-21T20:55:56.345220+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1350, "score": 1653.7466065449594, "converged": 1.0, "selected": 1300, "fit_seconds": 654.8534455419867}
+{"utc": "2026-10-21T20:56:20.531880+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1400, "score": 1604.5127191614256, "converged": 1.0, "selected": 1300, "fit_seconds": 679.0401078749856}
+{"utc": "2026-10-21T20:56:44.827532+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1450, "score": 1461.7174530711868, "converged": 1.0, "selected": 1450, "fit_seconds": 703.3357632920088}
+{"utc": "2026-10-21T20:57:09.158992+00:00", "event": "FIT_EPOCH", "network": "case300", "seed": 33, "update": 1500, "score": 1506.797819148413, "converged": 1.0, "selected": 1450, "fit_seconds": 727.6672277089965}
+{"utc": "2026-10-21T20:57:09.449822+00:00", "event": "FIT_COMPLETE", "network": "case300", "seed": 33, "updates": 1500, "seconds": 727.6673220419907}
+{"utc": "2026-10-21T20:57:25.939609+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 50, "score": 4174.370021672765, "converged": 1.0, "selected": 50, "fit_seconds": 16.035164750006516}
+{"utc": "2026-10-21T20:57:41.658248+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 100, "score": 4867.635913235256, "converged": 1.0, "selected": 50, "fit_seconds": 31.752573166013462}
+{"utc": "2026-10-21T20:57:57.338809+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 150, "score": 4299.901512158629, "converged": 1.0, "selected": 50, "fit_seconds": 47.43268441600958}
+{"utc": "2026-10-21T20:58:13.437957+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 200, "score": 3695.2131999216426, "converged": 1.0, "selected": 200, "fit_seconds": 63.531661290995544}
+{"utc": "2026-10-21T20:58:29.321377+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 250, "score": 3357.721333069393, "converged": 1.0, "selected": 250, "fit_seconds": 79.41501720799715}
+{"utc": "2026-10-21T20:58:45.038322+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 300, "score": 3878.7793426656826, "converged": 1.0, "selected": 250, "fit_seconds": 95.13193737500114}
+{"utc": "2026-10-21T20:59:00.796251+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 350, "score": 3786.5212768337415, "converged": 1.0, "selected": 250, "fit_seconds": 110.88985237499583}
+{"utc": "2026-10-21T20:59:16.563576+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 400, "score": 4881.875102811754, "converged": 1.0, "selected": 250, "fit_seconds": 126.65716800000519}
+{"utc": "2026-10-21T20:59:32.454090+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 450, "score": 2791.517142649111, "converged": 1.0, "selected": 450, "fit_seconds": 142.54767483301111}
+{"utc": "2026-10-21T20:59:48.200032+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 500, "score": 2896.7781369155746, "converged": 1.0, "selected": 450, "fit_seconds": 158.29361079100636}
+{"utc": "2026-10-21T21:00:03.915973+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 550, "score": 3651.909324527837, "converged": 1.0, "selected": 450, "fit_seconds": 174.00954537501093}
+{"utc": "2026-10-21T21:00:19.683315+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 600, "score": 3294.918275944156, "converged": 1.0, "selected": 450, "fit_seconds": 189.77687979099574}
+{"utc": "2026-10-21T21:00:35.573835+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 650, "score": 2118.4384812050844, "converged": 1.0, "selected": 650, "fit_seconds": 205.66739091600175}
+{"utc": "2026-10-21T21:00:51.331879+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 700, "score": 3734.484932460583, "converged": 1.0, "selected": 650, "fit_seconds": 221.42543166599353}
+{"utc": "2026-10-21T21:01:07.084177+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 750, "score": 2374.3248678290065, "converged": 1.0, "selected": 650, "fit_seconds": 237.17772358300863}
+{"utc": "2026-10-21T21:01:22.876944+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 800, "score": 2410.012737598927, "converged": 1.0, "selected": 650, "fit_seconds": 252.97048491600435}
+{"utc": "2026-10-21T21:01:38.613458+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 850, "score": 2140.1886954323704, "converged": 1.0, "selected": 650, "fit_seconds": 268.70699174999027}
+{"utc": "2026-10-21T21:01:54.410368+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 900, "score": 2146.063886024946, "converged": 1.0, "selected": 650, "fit_seconds": 284.5038961659884}
+{"utc": "2026-10-21T21:02:10.164956+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 950, "score": 2701.0932229835735, "converged": 1.0, "selected": 650, "fit_seconds": 300.25847729100497}
+{"utc": "2026-10-21T21:02:26.117870+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1000, "score": 1207.9094982421116, "converged": 1.0, "selected": 1000, "fit_seconds": 316.21138362499187}
+{"utc": "2026-10-21T21:02:41.926544+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1050, "score": 2333.5918058970656, "converged": 1.0, "selected": 1000, "fit_seconds": 332.02005279099103}
+{"utc": "2026-10-21T21:02:57.728287+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1100, "score": 1423.404598559824, "converged": 1.0, "selected": 1000, "fit_seconds": 347.8217901249882}
+{"utc": "2026-10-21T21:03:13.541539+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1150, "score": 2058.4384441771485, "converged": 1.0, "selected": 1000, "fit_seconds": 363.63503516599303}
+{"utc": "2026-10-21T21:03:29.319566+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1200, "score": 1416.7956409744158, "converged": 1.0, "selected": 1000, "fit_seconds": 379.41305583299254}
+{"utc": "2026-10-21T21:03:45.354733+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1250, "score": 1669.4613229462848, "converged": 1.0, "selected": 1000, "fit_seconds": 395.4482162499917}
+{"utc": "2026-10-21T21:04:01.131669+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1300, "score": 1416.518236033335, "converged": 1.0, "selected": 1000, "fit_seconds": 411.2251452910132}
+{"utc": "2026-10-21T21:04:16.960250+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1350, "score": 1988.050595653469, "converged": 1.0, "selected": 1000, "fit_seconds": 427.05372129101306}
+{"utc": "2026-10-21T21:04:32.730512+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1400, "score": 1958.773325984177, "converged": 1.0, "selected": 1000, "fit_seconds": 442.82397708299686}
+{"utc": "2026-10-21T21:04:48.544150+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1450, "score": 1322.6647806054839, "converged": 1.0, "selected": 1000, "fit_seconds": 458.63760795799317}
+{"utc": "2026-10-21T21:05:04.568238+00:00", "event": "FIT_EPOCH", "network": "pglib118", "seed": 33, "update": 1500, "score": 1287.6413935107967, "converged": 1.0, "selected": 1000, "fit_seconds": 474.6616900409863}
+{"utc": "2026-10-21T21:05:04.779525+00:00", "event": "FIT_COMPLETE", "network": "pglib118", "seed": 33, "updates": 1500, "seconds": 474.6617821659893}
+{"utc": "2026-10-21T21:05:04.865141+00:00", "event": "ALL_FITS_COMPLETE", "seconds": 3614.0337133329886}
+{"utc": "2026-10-21T21:05:44.188885+00:00", "event": "CONFIRMATION_GENERATED", "network": "case300", "candidates": 90, "excluded": 0, "reference_feasible": 89}
+{"utc": "2026-10-21T21:05:52.978589+00:00", "event": "CONFIRMATION_GENERATED", "network": "pglib118", "candidates": 90, "excluded": 0, "reference_feasible": 90}
+{"utc": "2026-10-21T21:06:30.448127+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 0, "scenarios": 15, "total_records": 144}
+{"utc": "2026-10-21T21:07:02.938655+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 0, "scenarios": 30, "total_records": 279}
+{"utc": "2026-10-21T21:07:37.028717+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 0, "scenarios": 45, "total_records": 414}
+{"utc": "2026-10-21T21:08:11.349383+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 0, "scenarios": 60, "total_records": 549}
+{"utc": "2026-10-21T21:08:44.758854+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 0, "scenarios": 75, "total_records": 684}
+{"utc": "2026-10-21T21:09:28.240634+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 0, "scenarios": 90, "total_records": 819}
+{"utc": "2026-10-21T21:10:01.786970+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 1, "scenarios": 15, "total_records": 954}
+{"utc": "2026-10-21T21:10:36.267803+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 1, "scenarios": 30, "total_records": 1089}
+{"utc": "2026-10-21T21:11:10.507253+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 1, "scenarios": 45, "total_records": 1224}
+{"utc": "2026-10-21T21:11:44.883757+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 1, "scenarios": 60, "total_records": 1359}
+{"utc": "2026-10-21T21:12:19.281949+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 1, "scenarios": 75, "total_records": 1494}
+{"utc": "2026-10-21T21:13:03.266108+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 1, "scenarios": 90, "total_records": 1629}
+{"utc": "2026-10-21T21:13:36.228912+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 2, "scenarios": 15, "total_records": 1764}
+{"utc": "2026-10-21T21:14:08.847841+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 2, "scenarios": 30, "total_records": 1899}
+{"utc": "2026-10-21T21:14:42.878979+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 2, "scenarios": 45, "total_records": 2034}
+{"utc": "2026-10-21T21:15:17.272173+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 2, "scenarios": 60, "total_records": 2169}
+{"utc": "2026-10-21T21:15:50.863056+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 2, "scenarios": 75, "total_records": 2304}
+{"utc": "2026-10-21T21:16:34.333895+00:00", "event": "EVAL_PROGRESS", "network": "case300", "repeat": 2, "scenarios": 90, "total_records": 2439}
+{"utc": "2026-10-21T21:17:00.244378+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 0, "scenarios": 15, "total_records": 2583}
+{"utc": "2026-10-21T21:17:18.801228+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 0, "scenarios": 30, "total_records": 2718}
+{"utc": "2026-10-21T21:17:37.286351+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 0, "scenarios": 45, "total_records": 2853}
+{"utc": "2026-10-21T21:17:55.958866+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 0, "scenarios": 60, "total_records": 2988}
+{"utc": "2026-10-21T21:18:14.408074+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 0, "scenarios": 75, "total_records": 3123}
+{"utc": "2026-10-21T21:18:32.842716+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 0, "scenarios": 90, "total_records": 3258}
+{"utc": "2026-10-21T21:18:51.735077+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 1, "scenarios": 15, "total_records": 3393}
+{"utc": "2026-10-21T21:19:10.167768+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 1, "scenarios": 30, "total_records": 3528}
+{"utc": "2026-10-21T21:19:28.631134+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 1, "scenarios": 45, "total_records": 3663}
+{"utc": "2026-10-21T21:19:47.300018+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 1, "scenarios": 60, "total_records": 3798}
+{"utc": "2026-10-21T21:20:05.779093+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 1, "scenarios": 75, "total_records": 3933}
+{"utc": "2026-10-21T21:20:24.224922+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 1, "scenarios": 90, "total_records": 4068}
+{"utc": "2026-10-21T21:20:42.907498+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 2, "scenarios": 15, "total_records": 4203}
+{"utc": "2026-10-21T21:21:01.281879+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 2, "scenarios": 30, "total_records": 4338}
+{"utc": "2026-10-21T21:21:19.760058+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 2, "scenarios": 45, "total_records": 4473}
+{"utc": "2026-10-21T21:21:39.148429+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 2, "scenarios": 60, "total_records": 4608}
+{"utc": "2026-10-21T21:21:58.802512+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 2, "scenarios": 75, "total_records": 4743}
+{"utc": "2026-10-21T21:22:18.361886+00:00", "event": "EVAL_PROGRESS", "network": "pglib118", "repeat": 2, "scenarios": 90, "total_records": 4878}
+{"utc": "2026-10-21T21:22:21.611047+00:00", "event": "EVALUATION_COMPLETE", "records": 4878}

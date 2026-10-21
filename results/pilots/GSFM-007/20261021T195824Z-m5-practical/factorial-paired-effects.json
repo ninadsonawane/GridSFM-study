@@ -1,0 +1,2522 @@
+[
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-000",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -0.10592413093078079,
+      "max_Qg_violation_MVAr": -4.073517891572191,
+      "max_voltage_violation_pu": -0.0028657703976238125,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -8.84764397780376,
+      "max_Qg_violation_MVAr": 0.1260512154554192,
+      "max_voltage_violation_pu": 0.00017486752283546458,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -8.84764397780376,
+      "max_Qg_violation_MVAr": -11.099067443095112,
+      "max_voltage_violation_pu": -0.00268986619522682,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-001",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -5.904869457854343,
+      "max_voltage_violation_pu": 0.003129776615822255,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 10.784521763573366,
+      "max_Qg_violation_MVAr": 0.09288914366032941,
+      "max_voltage_violation_pu": 2.9914770290240256e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 10.784521763573366,
+      "max_Qg_violation_MVAr": -13.23530645991076,
+      "max_voltage_violation_pu": 0.003129776615822699,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-002",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -2.236901212591878,
+      "max_voltage_violation_pu": 0.0005695417083952936,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 16.83014620200033,
+      "max_Qg_violation_MVAr": 13.337044878061892,
+      "max_voltage_violation_pu": -0.0007783566505126238,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 17.313066841551176,
+      "max_Qg_violation_MVAr": 9.386834860669762,
+      "max_voltage_violation_pu": -0.0003184505319722142,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-003",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -6.0281575893014185,
+      "max_voltage_violation_pu": -0.0004031834681221813,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -0.9243534699669738,
+      "max_voltage_violation_pu": -0.0002968623357408884,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -8.572060813408342,
+      "max_voltage_violation_pu": -8.252884293136198e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-004",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -5.8123426483869665,
+      "max_voltage_violation_pu": 0.003567954921795735,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 9.09977180583536,
+      "max_Qg_violation_MVAr": -0.1633832666506123,
+      "max_voltage_violation_pu": 0.0003782726130994174,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 9.09977180583536,
+      "max_Qg_violation_MVAr": -14.26066118937996,
+      "max_voltage_violation_pu": 0.003567954921795735,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-005",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -9.64786114457089,
+      "max_voltage_violation_pu": -0.0002012971619751447,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -0.31877575691132876,
+      "max_voltage_violation_pu": -0.00022406521010331915,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -9.674520619893167,
+      "max_voltage_violation_pu": -0.00042546327701020736,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-006",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -6.599170894680235,
+      "max_voltage_violation_pu": -0.0013201841833638817,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 2.414625487608193,
+      "max_Qg_violation_MVAr": 1.1090598155494291,
+      "max_voltage_violation_pu": -2.720131974243145e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 2.414625487608193,
+      "max_Qg_violation_MVAr": -6.523584060393539,
+      "max_voltage_violation_pu": -0.0013739795788165754,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-007",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -11.72414684665476,
+      "max_voltage_violation_pu": -0.001355651949767278,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 0.11228385232475091,
+      "max_voltage_violation_pu": -0.00016608883034852084,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -5.265124200029117,
+      "max_voltage_violation_pu": -0.0015216931120560773,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-008",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -12.698225191189351,
+      "max_voltage_violation_pu": -0.0005683584762323779,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -0.44901057572977265,
+      "max_voltage_violation_pu": -2.7219480227991255e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -13.146418544136424,
+      "max_voltage_violation_pu": -0.0006224402281305164,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-009",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -9.49389120943955,
+      "max_voltage_violation_pu": -0.00139682996890933,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -2.2488230755162135,
+      "max_voltage_violation_pu": 0.00012263193962924746,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 11,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -18.651738808606268,
+      "max_voltage_violation_pu": -0.001558921239194655,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-000",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.46916418511568025,
+      "max_Qg_violation_MVAr": 2.6089217276028975,
+      "max_voltage_violation_pu": -0.0007908492694836955,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -15.038601729329315,
+      "max_Qg_violation_MVAr": -5.609663690755884,
+      "max_voltage_violation_pu": 4.0384300693308006e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -15.038601729329315,
+      "max_Qg_violation_MVAr": -6.093368522900796,
+      "max_voltage_violation_pu": -0.0006880388061825116,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-001",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -14.91988358386715,
+      "max_voltage_violation_pu": 0.0022897551078417955,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 10.784521763573366,
+      "max_Qg_violation_MVAr": 3.062869888796115,
+      "max_voltage_violation_pu": -1.106996116195802e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 10.784521763573366,
+      "max_Qg_violation_MVAr": -20.688614017165207,
+      "max_voltage_violation_pu": 0.0022897551078420175,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-002",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -1.4754086793562848,
+      "max_voltage_violation_pu": 0.0007342275518347208,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.930206403287405,
+      "max_Qg_violation_MVAr": 6.661908674292906,
+      "max_voltage_violation_pu": -8.555126109754951e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 17.313066841551176,
+      "max_Qg_violation_MVAr": 7.044798987709985,
+      "max_voltage_violation_pu": 0.0006485778418303667,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-003",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -0.942267132476811,
+      "max_voltage_violation_pu": 0.001027356953422487,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -12.818409334980242,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -17.543458912681285,
+      "max_voltage_violation_pu": 0.0007758708963188088,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-004",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -7.038290196210209,
+      "max_voltage_violation_pu": 0.0030776885212662197,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 9.09977180583536,
+      "max_Qg_violation_MVAr": 2.430618750634949,
+      "max_voltage_violation_pu": 3.0343836576074423e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 9.09977180583536,
+      "max_Qg_violation_MVAr": -16.949174768227522,
+      "max_voltage_violation_pu": 0.0030776885212662197,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-005",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -2.5732718737720486,
+      "max_voltage_violation_pu": 0.00022082178230009575,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -2.652645523028051,
+      "max_voltage_violation_pu": 9.555552171014448e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -8.441088154919225,
+      "max_voltage_violation_pu": 0.0003163367233520731,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-006",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -6.3365555482425515,
+      "max_voltage_violation_pu": 0.00026443336942993945,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 2.414625487608193,
+      "max_Qg_violation_MVAr": -0.8221798236670281,
+      "max_voltage_violation_pu": 4.5189278240265196e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 2.414625487608193,
+      "max_Qg_violation_MVAr": -8.53882282356453,
+      "max_voltage_violation_pu": 0.00027068716147660155,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-007",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -2.3222323777060616,
+      "max_voltage_violation_pu": 0.0006560507076442956,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -1.0553951822477163,
+      "max_voltage_violation_pu": -1.530793869330971e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 1.3871739867692714,
+      "max_voltage_violation_pu": 0.0002532109286850215,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-008",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -0.6959416156788336,
+      "max_voltage_violation_pu": -0.0005266827458110246,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -3.5027581888517716,
+      "max_voltage_violation_pu": 4.0526731633239166e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -4.196965339997405,
+      "max_voltage_violation_pu": -0.0005198358188014396,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-009",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -6.208561587084965,
+      "max_voltage_violation_pu": -0.0005252633743451085,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -2.9556797445048915,
+      "max_voltage_violation_pu": 4.9050823235363694e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 22,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -12.587009973247262,
+      "max_voltage_violation_pu": -0.0004652714351029985,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-000",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -5.662314826466428,
+      "max_voltage_violation_pu": -0.0002626576046000917,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 1.4919243631296695,
+      "max_voltage_violation_pu": -7.857178315884283e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -3.283276732660756,
+      "max_voltage_violation_pu": -0.00042280812525019584,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-001",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -16.443149853918964,
+      "max_voltage_violation_pu": 0.0017071827403605244,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 10.784521763573366,
+      "max_Qg_violation_MVAr": 1.9084841431450172,
+      "max_voltage_violation_pu": -0.0003912623027411133,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 10.784521763573366,
+      "max_Qg_violation_MVAr": -24.53592302008218,
+      "max_voltage_violation_pu": 0.0017071827403607465,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-002",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 2.479595582625368,
+      "max_voltage_violation_pu": -0.0014509132420132964,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 16.417710259894008,
+      "max_Qg_violation_MVAr": 11.819553298756162,
+      "max_voltage_violation_pu": -0.0004634429837591103,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 17.313066841551176,
+      "max_Qg_violation_MVAr": 5.487201211185084,
+      "max_voltage_violation_pu": -0.0019163872484022626,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-003",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 4.729557578949322,
+      "max_voltage_violation_pu": -0.0006281158954932753,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -13.943611893154664,
+      "max_voltage_violation_pu": -0.00037531514962485524,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -15.443073241427282,
+      "max_voltage_violation_pu": -0.001376769610458295,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-004",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -14.67439772700903,
+      "max_voltage_violation_pu": 0.002367461631574974,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 9.09977180583536,
+      "max_Qg_violation_MVAr": 2.2975259001033237,
+      "max_voltage_violation_pu": -0.0003839594454604356,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 9.09977180583536,
+      "max_Qg_violation_MVAr": -24.594460547975586,
+      "max_voltage_violation_pu": 0.002367461631574974,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-005",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 4.231568946736555,
+      "max_voltage_violation_pu": -0.0006676960365512574,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -7.42640482957475,
+      "max_voltage_violation_pu": -0.0003617890219265174,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -14.407629623404064,
+      "max_voltage_violation_pu": -0.0010297295762613512,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-006",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 6.4704458055219725,
+      "max_voltage_violation_pu": 0.0008007201820745546,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 2.414625487608193,
+      "max_Qg_violation_MVAr": -6.926701732486755,
+      "max_voltage_violation_pu": -0.0002989496053391605,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 2.414625487608193,
+      "max_Qg_violation_MVAr": -14.282083534871326,
+      "max_voltage_violation_pu": 2.8228162800125745e-05,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-007",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 4.005100146200418,
+      "max_voltage_violation_pu": -0.0019500034304165137,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 5.218070022473848,
+      "max_voltage_violation_pu": -0.00029918223862579474,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 1.2262276473973888,
+      "max_voltage_violation_pu": -0.00245208719813772,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-008",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 4.662382349673193,
+      "max_voltage_violation_pu": -0.00036405465588118524,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -8.00539942191738,
+      "max_voltage_violation_pu": -0.00025748952580939566,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -7.133526474152836,
+      "max_voltage_violation_pu": -0.0008504829750974885,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-009",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -0.031703265154099824,
+      "max_voltage_violation_pu": -0.001610905464951129,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": 2.1184003048835507,
+      "max_voltage_violation_pu": -0.00025505317021612406,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "case300",
+    "seed": 33,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0,
+      "max_Qg_violation_MVAr": -15.99531725594332,
+      "max_voltage_violation_pu": -0.0018662998784015894,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-000",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -27.592300545181416,
+      "max_voltage_violation_pu": -0.0013917059259076492,
+      "max_branch_violation_mva": -0.11650063975548619,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.04078061655921772,
+      "max_voltage_violation_pu": 1.3156427317584374e-05,
+      "max_branch_violation_mva": -0.11650063975548619,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -27.55185623938489,
+      "max_voltage_violation_pu": -0.0014890053987854923,
+      "max_branch_violation_mva": -0.11650063975548619,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-001",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -27.6853346031047,
+      "max_voltage_violation_pu": -0.0014188867852071851,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.015479014683990044,
+      "max_voltage_violation_pu": 4.28525747531161e-06,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -27.68903454244394,
+      "max_voltage_violation_pu": -0.001422238945817167,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-002",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -4.1223748897875225,
+      "max_voltage_violation_pu": 0.002835234362727146,
+      "max_branch_violation_mva": -0.8865489347595172,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.0980606166176585e-05,
+      "max_Qg_violation_MVAr": 5.594290675150631,
+      "max_voltage_violation_pu": -1.2246912373115038e-09,
+      "max_branch_violation_mva": 3.8451233125327064,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.0980606166176585e-05,
+      "max_Qg_violation_MVAr": 1.4674791486260688,
+      "max_voltage_violation_pu": 0.002835234362727368,
+      "max_branch_violation_mva": 2.9251014665772743,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-003",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -16.542111410767056,
+      "max_voltage_violation_pu": -0.0005579866583942383,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.5780878547115762,
+      "max_voltage_violation_pu": -7.354677089566053e-09,
+      "max_branch_violation_mva": 1.3307795200482673,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -19.243621625741106,
+      "max_voltage_violation_pu": -0.0005579866583944604,
+      "max_branch_violation_mva": 0.8933311985614125,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-004",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -27.523761812271445,
+      "max_voltage_violation_pu": -0.0014472024264529093,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.030622049736535928,
+      "max_voltage_violation_pu": -4.0093468101076724e-08,
+      "max_branch_violation_mva": 0.4449740773660267,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -28.537893236350854,
+      "max_voltage_violation_pu": -0.0015135047993988238,
+      "max_branch_violation_mva": 0.18741399813202975,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-005",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -20.934249952938515,
+      "max_voltage_violation_pu": 0.001551485923508178,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.650978282663466,
+      "max_Qg_violation_MVAr": -0.027887969836001503,
+      "max_voltage_violation_pu": -4.918889218608058e-06,
+      "max_branch_violation_mva": 0.7422521876204371,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.650978282663466,
+      "max_Qg_violation_MVAr": -20.9939114422775,
+      "max_voltage_violation_pu": 0.001551485923508178,
+      "max_branch_violation_mva": 0.11175224823509211,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-006",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -21.527603165706253,
+      "max_voltage_violation_pu": -0.0017250121378888927,
+      "max_branch_violation_mva": -0.2360017458573367,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.005188810713363523,
+      "max_voltage_violation_pu": -2.5760829691634513e-08,
+      "max_branch_violation_mva": 0.4437176069903188,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -21.55984684410376,
+      "max_voltage_violation_pu": -0.001717504833594674,
+      "max_branch_violation_mva": 0.20693032233150177,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-007",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -22.42976418321456,
+      "max_voltage_violation_pu": 0.0008305830937533898,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 13.730345983035974,
+      "max_Qg_violation_MVAr": -0.024531320830249115,
+      "max_voltage_violation_pu": -5.6137585235926935e-06,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 13.730345983035974,
+      "max_Qg_violation_MVAr": -22.387725579972695,
+      "max_voltage_violation_pu": 0.0008305830937533898,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-008",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -17.697590638592374,
+      "max_voltage_violation_pu": 0.005651139128713956,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 33.11064393136985,
+      "max_Qg_violation_MVAr": -1.6885051914233813,
+      "max_voltage_violation_pu": -9.711971195924818e-06,
+      "max_branch_violation_mva": 0.44238215106355483,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 33.11064393136985,
+      "max_Qg_violation_MVAr": -17.811154193987868,
+      "max_voltage_violation_pu": 0.005651139128713956,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-009",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -19.705978847560367,
+      "max_voltage_violation_pu": 0.002476299699373241,
+      "max_branch_violation_mva": 0.0,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 18.873448893915565,
+      "max_Qg_violation_MVAr": -0.03215913281714222,
+      "max_voltage_violation_pu": -6.038118498308265e-06,
+      "max_branch_violation_mva": 1.0363315330016292,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 11,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 18.873448893915565,
+      "max_Qg_violation_MVAr": -19.78093384352786,
+      "max_voltage_violation_pu": 0.002476299699373241,
+      "max_branch_violation_mva": 0.2890517496946359,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-000",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -17.996027671912714,
+      "max_voltage_violation_pu": -4.8990528469072814e-05,
+      "max_branch_violation_mva": -0.6420711874395124,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.003020715203859936,
+      "max_voltage_violation_pu": 1.4290649916759435e-05,
+      "max_branch_violation_mva": -3.37477825397832,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -17.954156242547356,
+      "max_voltage_violation_pu": -0.00014949015394360998,
+      "max_branch_violation_mva": -3.5774043563185387,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-001",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -19.354501529152518,
+      "max_voltage_violation_pu": 3.630856741776434e-05,
+      "max_branch_violation_mva": -0.7212133671292236,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.00023363453488656205,
+      "max_voltage_violation_pu": 4.574614141050759e-06,
+      "max_branch_violation_mva": -2.791011182727459,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -19.359334268189087,
+      "max_voltage_violation_pu": 3.211816614623331e-05,
+      "max_branch_violation_mva": -2.791011182727459,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-002",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": 1.9100430777904123,
+      "max_voltage_violation_pu": 0.00519094822432975,
+      "max_branch_violation_mva": -1.0735763357976538,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.0980606166176585e-05,
+      "max_Qg_violation_MVAr": -0.5528114584321031,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": 0.1182095834641359,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.0980606166176585e-05,
+      "max_Qg_violation_MVAr": 2.966788224289864,
+      "max_voltage_violation_pu": 0.005190948224330194,
+      "max_branch_violation_mva": -0.9614264689873835,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-003",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -12.274526112489156,
+      "max_voltage_violation_pu": 0.0011224090301573675,
+      "max_branch_violation_mva": -0.46883471605127625,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.007129926220798666,
+      "max_voltage_violation_pu": -9.514846373015473e-07,
+      "max_branch_violation_mva": 0.18252051107920408,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -13.105870046413727,
+      "max_voltage_violation_pu": 0.0011224090301571454,
+      "max_branch_violation_mva": -0.2886402300918718,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-004",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -24.252772217755002,
+      "max_voltage_violation_pu": -0.0005529029753148507,
+      "max_branch_violation_mva": 0.12034126047230131,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.005637096436807099,
+      "max_voltage_violation_pu": 2.7979726938243132e-05,
+      "max_branch_violation_mva": -2.193124970140275,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -27.778879678949316,
+      "max_voltage_violation_pu": -0.0007378476111057353,
+      "max_branch_violation_mva": -2.1532546997623285,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-005",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -12.151599701888832,
+      "max_voltage_violation_pu": 0.00290669108074626,
+      "max_branch_violation_mva": -0.7121713250373034,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.650978282663466,
+      "max_Qg_violation_MVAr": 4.367045666953118e-05,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -2.454828469491787,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.650978282663466,
+      "max_Qg_violation_MVAr": -12.218075940362032,
+      "max_voltage_violation_pu": 0.00290669108074626,
+      "max_branch_violation_mva": -3.1425139420040296,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-006",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -18.552814006027738,
+      "max_voltage_violation_pu": -0.0005269354249066716,
+      "max_branch_violation_mva": -0.1010311960649517,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.005641619264871167,
+      "max_voltage_violation_pu": 2.0246298626958037e-05,
+      "max_branch_violation_mva": -2.7898251869932267,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -21.32488110966743,
+      "max_voltage_violation_pu": -0.0006481786966303638,
+      "max_branch_violation_mva": -2.8850824168803086,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-007",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -12.170129582736948,
+      "max_voltage_violation_pu": 0.0021657656785913915,
+      "max_branch_violation_mva": -0.7214021840582063,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 13.730345983035974,
+      "max_Qg_violation_MVAr": 5.3224499723114604e-05,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -2.6644896821171926,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 13.730345983035974,
+      "max_Qg_violation_MVAr": -12.160726672207119,
+      "max_voltage_violation_pu": 0.0021657656785913915,
+      "max_branch_violation_mva": -2.6644896821171926,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-008",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -13.423658691689612,
+      "max_voltage_violation_pu": 0.006791388024460998,
+      "max_branch_violation_mva": -0.662705438555264,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 33.11064393136985,
+      "max_Qg_violation_MVAr": 0.0003043702145433258,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -1.0255312318971903,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 33.11064393136985,
+      "max_Qg_violation_MVAr": -13.551522892383646,
+      "max_voltage_violation_pu": 0.006791388024460998,
+      "max_branch_violation_mva": -1.263299118652725,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-009",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -14.456951730316863,
+      "max_voltage_violation_pu": 0.003773854844311364,
+      "max_branch_violation_mva": -0.6719142671903171,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 18.873448893915565,
+      "max_Qg_violation_MVAr": 0.00010019397348770553,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -1.9182748767429416,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 22,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 18.873448893915565,
+      "max_Qg_violation_MVAr": -14.5431606642364,
+      "max_voltage_violation_pu": 0.003773854844311364,
+      "max_branch_violation_mva": -2.571715197451425,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-000",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -16.727373342348322,
+      "max_voltage_violation_pu": -4.811594053610868e-05,
+      "max_branch_violation_mva": 0.37573745821353555,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.0017499488494507887,
+      "max_voltage_violation_pu": 1.6948255942228485e-05,
+      "max_branch_violation_mva": -10.663636371586648,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-000",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -16.682990955898013,
+      "max_voltage_violation_pu": -0.00015819466083821787,
+      "max_branch_violation_mva": -10.663636371586648,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-001",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -16.603221943090993,
+      "max_voltage_violation_pu": 4.6989103608119365e-06,
+      "max_branch_violation_mva": 0.35374480835096733,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 0.000703749222218164,
+      "max_voltage_violation_pu": 7.321897430134783e-06,
+      "max_branch_violation_mva": -9.518681093118346,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-001",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -16.758011374595263,
+      "max_voltage_violation_pu": -1.1153485026449417e-05,
+      "max_branch_violation_mva": -9.518681093118346,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-002",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -52.58747979734824,
+      "max_voltage_violation_pu": 0.000946787015855044,
+      "max_branch_violation_mva": -0.576459603000842,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.0980606166176585e-05,
+      "max_Qg_violation_MVAr": 4.308676784643751,
+      "max_voltage_violation_pu": -1.7469736990349816e-08,
+      "max_branch_violation_mva": -0.5717492767131347,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-002",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.0980606166176585e-05,
+      "max_Qg_violation_MVAr": -48.29047300257858,
+      "max_voltage_violation_pu": 0.0009467870158554881,
+      "max_branch_violation_mva": -1.4195588079437442,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-003",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -53.44386192579296,
+      "max_voltage_violation_pu": -0.002639801330567293,
+      "max_branch_violation_mva": -0.8455006008722421,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": 4.480310628614234,
+      "max_voltage_violation_pu": -2.1539745986842718e-08,
+      "max_branch_violation_mva": -6.53547906794914,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-003",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -55.76895049288427,
+      "max_voltage_violation_pu": -0.002639801330567737,
+      "max_branch_violation_mva": -6.718475810868,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-004",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -38.447229159706716,
+      "max_voltage_violation_pu": -0.000723220756429388,
+      "max_branch_violation_mva": -0.6390904094186567,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.0020329953299906833,
+      "max_voltage_violation_pu": 6.512665513103144e-06,
+      "max_branch_violation_mva": -10.659848771034774,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-004",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -39.165549628014695,
+      "max_voltage_violation_pu": -0.0007846720336883717,
+      "max_branch_violation_mva": -11.215343136603224,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-005",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -12.206539998859965,
+      "max_voltage_violation_pu": 0.00290669108074626,
+      "max_branch_violation_mva": 0.29260267369059534,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.650978282663466,
+      "max_Qg_violation_MVAr": -0.001602778238620317,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -8.43924975018183,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-005",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 15.650978282663466,
+      "max_Qg_violation_MVAr": -12.231974643825913,
+      "max_voltage_violation_pu": 0.00290669108074626,
+      "max_branch_violation_mva": -8.327497501946738,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-006",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -35.0564412839086,
+      "max_voltage_violation_pu": -0.0009042502409402076,
+      "max_branch_violation_mva": -0.8025969705124396,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -0.000550956169504957,
+      "max_voltage_violation_pu": -7.154326423286506e-06,
+      "max_branch_violation_mva": -10.026516746456721,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-006",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": -2.09808349609375e-05,
+      "max_Qg_violation_MVAr": -35.50308740797351,
+      "max_voltage_violation_pu": -0.0009021435518379306,
+      "max_branch_violation_mva": -9.807896376054345,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-007",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -13.665418449223075,
+      "max_voltage_violation_pu": 0.0021657656785913915,
+      "max_branch_violation_mva": 0.2950770390640116,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 13.730345983035974,
+      "max_Qg_violation_MVAr": -0.001464395526149076,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -8.029797788629708,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-007",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 13.730345983035974,
+      "max_Qg_violation_MVAr": -13.74014673261609,
+      "max_voltage_violation_pu": 0.0021657656785913915,
+      "max_branch_violation_mva": -8.029797788629708,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-008",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -11.437616073130599,
+      "max_voltage_violation_pu": 0.006791388024460998,
+      "max_branch_violation_mva": 0.22704445686866848,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 33.11064393136985,
+      "max_Qg_violation_MVAr": -0.501803257739752,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -5.924243881685982,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-008",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 33.11064393136985,
+      "max_Qg_violation_MVAr": -11.523245205756707,
+      "max_voltage_violation_pu": 0.006791388024460998,
+      "max_branch_violation_mva": -5.924243881685982,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-009",
+    "controls": "FT_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 0.0,
+      "max_Qg_violation_MVAr": -12.097291672527179,
+      "max_voltage_violation_pu": 0.003773854844311364,
+      "max_branch_violation_mva": 0.2788654380980802,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_FT_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 18.873448893915565,
+      "max_Qg_violation_MVAr": -0.3720019722745995,
+      "max_voltage_violation_pu": 0.0,
+      "max_branch_violation_mva": -7.880599689063104,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  },
+  {
+    "network": "pglib118",
+    "seed": 33,
+    "scenario_id": "ordinary-009",
+    "controls": "ridge_P_ridge_V",
+    "change_relative_to_FT_P_FT_V": {
+      "max_Pg_violation_MW": 18.873448893915565,
+      "max_Qg_violation_MVAr": -12.136605364935729,
+      "max_voltage_violation_pu": 0.003773854844311364,
+      "max_branch_violation_mva": -7.681877318896596,
+      "max_angle_violation_deg": 0.0
+    },
+    "PF_convergence_change": 0
+  }
+]

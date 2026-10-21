@@ -1,0 +1,2526 @@
+{
+  "case300": [
+    {
+      "scenario_id": "ordinary-000",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-000",
+      "accepted": true,
+      "input_sha256": "bdf0a4ce9517cf3f70dce69bdf2d215d75cc36d4bb30bfccbf3d0e747dd15622",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 3.604419124982087,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-001",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-001",
+      "accepted": true,
+      "input_sha256": "85f8904d2381ee96136153f9e122fb2278d960a0143d336ff25c334dea69bb26",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13876920900656842,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-002",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-002",
+      "accepted": true,
+      "input_sha256": "ad494275782be04a89bc6addcd91d7486cd989cfa8774f49a716790f9a3a38e0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14133037498686463,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-003",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-003",
+      "accepted": true,
+      "input_sha256": "2f207dcd039465a14444b1803d6ff6200c0beab8381f1a60136b0ffa8ef522f7",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1428642920218408,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-004",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-004",
+      "accepted": true,
+      "input_sha256": "a1b22ff182056d5662d5418b35df45680b66d4e304f79f4f24cb395f38363278",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13842308401945047,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-005",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-005",
+      "accepted": true,
+      "input_sha256": "ccec00c8351f31628c5cb2bd57c333060370ac845242d27229a3591f5ed7b582",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15622595802415162,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-006",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-006",
+      "accepted": true,
+      "input_sha256": "c33f1c5d86adf7f74042911e017003616baf70965319522655c79b072d06c4cb",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1430965419858694,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-007",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-007",
+      "accepted": true,
+      "input_sha256": "7f7c8b77f74fbcad51ab8c1cdf3170dc26d7539ded2cf9f607a5d8dcdca6ff85",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1442449169990141,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-008",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-008",
+      "accepted": true,
+      "input_sha256": "30cbc99551cbf9112a0c7cb3d792d3e15f11ee3141cbb9725c0cbc3c45c400ac",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14013275000615977,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-009",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-009",
+      "accepted": true,
+      "input_sha256": "25bb5de21a3a2544addff81218f02be8d31282307a618bc06d34cf25346a7bd5",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14724229098646902,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-010",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-010",
+      "accepted": true,
+      "input_sha256": "6d23643ee68209a4c45c181a99bac1f2d9ce0ad175f76b49ad35f33dccbcec52",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13874579200637527,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-011",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-011",
+      "accepted": true,
+      "input_sha256": "b68ae39e114d1405564a49eaa5a8d9c214c9b6aff76e04221311882622ea1777",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1473415000073146,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-012",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-012",
+      "accepted": true,
+      "input_sha256": "7291566c81b831e040b74afce1ba65f727bba875d8328a972fc8dcd5e571d74d",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15273641698877327,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-013",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-013",
+      "accepted": true,
+      "input_sha256": "19c4bcd006b35850134ce59fee86599b4d0621232bb78829baab242e46236e69",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1259700829978101,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-014",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-014",
+      "accepted": true,
+      "input_sha256": "03ba7d37baf707873f872b5b6fc22f8fcb190429c54d372e11a8b9d2b868cfaf",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1522671669954434,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-015",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-015",
+      "accepted": true,
+      "input_sha256": "a4df320a991cf7975a192419b90c7e810f670126ff76c5684073e41d43172bcb",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1417049170122482,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-016",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-016",
+      "accepted": true,
+      "input_sha256": "39b195521cc2123710947f51f7b4f378847b87d6a2f37bda311aad8e2778d230",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14339850001852028,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-017",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-017",
+      "accepted": true,
+      "input_sha256": "3e55dc14023ffb2846ac513f9055335db28b2643ab82f068486ad85713774b44",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14340220799203962,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-018",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-018",
+      "accepted": true,
+      "input_sha256": "c88147300985988e5c4e476c0a694cb60fd8a55ee58672a0bf72c6249e12ac3d",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1414152910001576,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-019",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-019",
+      "accepted": true,
+      "input_sha256": "0c7ea8d7b05a8ecb7fe0244f92041de29fd160c7f23cb80fa88ea3912516f1fe",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13925675000064075,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-020",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-020",
+      "accepted": true,
+      "input_sha256": "736644fd6817763697c1403be0b2f6cce56c70ae34bb404ee8e6926453ea6ef5",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1526258749945555,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-021",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-021",
+      "accepted": true,
+      "input_sha256": "3a8785aeb8b3ec7b98c4eaa74557c54e229101db538b5d47bde06861653d5f89",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13104962499346584,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-022",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-022",
+      "accepted": true,
+      "input_sha256": "d536acec1245a3b811428c017b57152b211720fbace9c7ec21d0bd4931fb782d",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14993470802437514,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-023",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-023",
+      "accepted": true,
+      "input_sha256": "13125804a0ad552dcfb97c249b973505c063db0befa98864b8b27e0843e67566",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13944279198767617,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-024",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-024",
+      "accepted": true,
+      "input_sha256": "8c1f22fa4e9f1a1883bac36c6057925381bba1f25fa3dd0216939ff0cde9dc9a",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15114058298058808,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-025",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-025",
+      "accepted": true,
+      "input_sha256": "3576e44922e8e0817ea8020d43faae203455fb22dc635599a8057574fa6afe70",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13693479198263958,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-026",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-026",
+      "accepted": true,
+      "input_sha256": "6d457e838c4760d8dc354802b3cf133d7b41c59148f8d9892b730ad3094d8313",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.12914579201606102,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-027",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-027",
+      "accepted": true,
+      "input_sha256": "d901538599fdd1d38c79c94c2fec6b31f40cd0a2fdea27f51d814e4c5ea3e076",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15147449998767115,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-028",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-028",
+      "accepted": true,
+      "input_sha256": "6d4717adcbdeb1e88b59607a57237d9d6d6c3a92e711fb4ee2999ce8b4acc741",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1422461670008488,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-029",
+      "network": "case300",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/ordinary-029",
+      "accepted": true,
+      "input_sha256": "e33075ea8c0ebc47490cff0aaf9a0ec43a3cf2f577ead824056ced3f18321e7c",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14948866699705832,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-000",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-000",
+      "accepted": true,
+      "input_sha256": "8da133d59611bae9d7850c17a27ca5092ad461444b1a127f6b960a0e319a104c",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15172154098399915,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-001",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-001",
+      "accepted": true,
+      "input_sha256": "79b4d8be0d040163fbf18f8f90d12de7889b95155f1b15168b8390c5e1585f36",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14994637502240948,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-002",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-002",
+      "accepted": true,
+      "input_sha256": "a8ca5cd22631f372f4add9aa852062d0d2bcb2d5c6aa74e7792d131a1c593c10",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1606075419986155,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-003",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-003",
+      "accepted": true,
+      "input_sha256": "8df598590af2cbf88ab014d37a8ff613b7640352c32c8750118f468775ad97c2",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1560309159976896,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-004",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-004",
+      "accepted": true,
+      "input_sha256": "5840a2a7c1945a67b83ead7cf1ca01618889c8b0dab04a925dc5bdce1c697754",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15457704101572745,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-005",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-005",
+      "accepted": true,
+      "input_sha256": "825be784ed191656621d6bd4e6a7fd55722824d4be1bd571517c31a2d2c08767",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14707954099867493,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-006",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-006",
+      "accepted": true,
+      "input_sha256": "75d3f2eb57a065b9b401e42ad81ccbd50a039d5c9140f548df97660626a70e74",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13707787499879487,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-007",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-007",
+      "accepted": true,
+      "input_sha256": "45d763f81568a1244f7f3177540ffa47d9409b8290c4fa8c876aee350963da81",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16586466701119207,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-008",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-008",
+      "accepted": true,
+      "input_sha256": "1eab3517cc88576b0b28d4711349023fdd6521a0de45649197872182acafcd92",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15092291598557495,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-009",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-009",
+      "accepted": true,
+      "input_sha256": "864a1e9150153218d1efec861086429d64862fe5c6e476cd919549ca657f0ebd",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15328066700021736,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-010",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-010",
+      "accepted": true,
+      "input_sha256": "f26d9091644d522067b0e815fe9f9238ebd97f40119465926f0fc00080d21f61",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14945283302222379,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-011",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-011",
+      "accepted": true,
+      "input_sha256": "76e048526783702d7640269a4ba1d3b38eceb674f64596f3f3f1e28b58bda36a",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1720809999969788,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-012",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-012",
+      "accepted": true,
+      "input_sha256": "fef3df19530ffba2331a1e9b44fa6ca2aa60913be2a4af4622b0192b29bae0d1",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1618385829788167,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-013",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-013",
+      "accepted": true,
+      "input_sha256": "a1c9fcf2555efa40a3c9ee842fb4f4c0b1245bbefae566d1b757408a8f26f4d2",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14404570902115665,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-014",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-014",
+      "accepted": true,
+      "input_sha256": "6173536c72bef4b44b5af7a1ab3c2f6cdf5f2127ae70495f3e2c9d73257d656a",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16745908398297615,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-015",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-015",
+      "accepted": true,
+      "input_sha256": "823f8abb28c1a377a8212dcc343f24b1a0786d96075e0bf5f8d13c38c50c6b4b",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15482058402267285,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-016",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-016",
+      "accepted": true,
+      "input_sha256": "5fa54bc5abff959435b9be7e6a3ebcef4a65957b4a8bbf9b14f4983c128443f2",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13297741598216817,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-017",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-017",
+      "accepted": true,
+      "input_sha256": "e2c69ac5b8ab19975e482e564b3347f31a22f59b69adfb52a7b31821e061bb17",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16299537499435246,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-018",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-018",
+      "accepted": true,
+      "input_sha256": "dd3e2fcfc24bfe454cd183185a5892f957ee3dfe1cf314a43530586b70694f04",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.18044987501343712,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-019",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-019",
+      "accepted": true,
+      "input_sha256": "d415606fd8e986274a535f1e8528dde5cd7190fe31dae9a6154ab373a3542a92",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15925533400150016,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-020",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-020",
+      "accepted": true,
+      "input_sha256": "05aa7cbf66c06caefbb42959145bac682df55b91d708058bf4b9bcea895c3981",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1356238750158809,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-021",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-021",
+      "accepted": true,
+      "input_sha256": "3e9811bc817b344d11d45e648bf029f5956d83b0180f3b0f192e669132405949",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.17275416699703783,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-022",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-022",
+      "accepted": true,
+      "input_sha256": "e83b9fe7bb80b4fa8727af9039ba266af6779efa40fc3248b89f417280092fd1",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1644128749903757,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-023",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-023",
+      "accepted": true,
+      "input_sha256": "d3e2504b615cd55eab847134b6340f108f509de7ee114a35ec41f94dd58b6d83",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14234395898529328,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-024",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-024",
+      "accepted": true,
+      "input_sha256": "b06c42d1f52fd5da8f4ee525b2471a7343bb415798727e0c022771a17329ccf6",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16382133300066926,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-025",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-025",
+      "accepted": true,
+      "input_sha256": "d16ed6936f2e156f5199f62cf58cec3afe98194598d6e3d49e2691f668f82cc0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14244124997640029,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-026",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-026",
+      "accepted": true,
+      "input_sha256": "f6a10b3d4f0029ddb972210bb4080592edc1f586d470f5c26baa805a1161d653",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16747145800036378,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-027",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-027",
+      "accepted": true,
+      "input_sha256": "7959dcfac15eff56bcbd0e08ac5e9fa33d14def5dacba0108eee2e847b67b4a3",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1571797090000473,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-028",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-028",
+      "accepted": true,
+      "input_sha256": "dd8238a03cfa2fc7ef18013f18abcf41f0aba4e1d753cf4d2d64f8dde86db7fe",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14965920901158825,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-029",
+      "network": "case300",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/higher_load-029",
+      "accepted": true,
+      "input_sha256": "c2f0c0fe6cf9a15c7f4d68417d2c380a72a0a47e33340b35e0f3154b6b63df19",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1842871659900993,
+      "excluded": false
+    },
+    {
+      "scenario_id": "spatial-000",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-000",
+      "accepted": true,
+      "input_sha256": "cd68681e9c40cac33c0322b0c321545670cec6d832be59bad6fab162d93e255b",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14556083400384523,
+      "excluded": false,
+      "pair_id": "ordinary-000",
+      "P_Q_drift": [
+        -9.192646643896296e-14,
+        3.1585845050585704e-14
+      ],
+      "moved_MW_MVAr": [
+        479.13598914093046,
+        149.6338384616343
+      ]
+    },
+    {
+      "scenario_id": "spatial-001",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-001",
+      "accepted": true,
+      "input_sha256": "d9f839bedb4c0a82ea036265df5bea57f84284d5bf1154e83fe1d2714f6ff632",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1332547500205692,
+      "excluded": false,
+      "pair_id": "ordinary-001",
+      "P_Q_drift": [
+        -1.219024881038422e-13,
+        2.544631172440859e-13
+      ],
+      "moved_MW_MVAr": [
+        603.3723244801976,
+        225.61199958935825
+      ]
+    },
+    {
+      "scenario_id": "spatial-002",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-002",
+      "accepted": true,
+      "input_sha256": "2b0e72955f573f991b4b20bfea69ac678d2429dc765fc1ee15f558111a074ab6",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1499448330141604,
+      "excluded": false,
+      "pair_id": "ordinary-002",
+      "P_Q_drift": [
+        7.917000388601991e-13,
+        2.652322805829499e-13
+      ],
+      "moved_MW_MVAr": [
+        405.2301023454108,
+        141.3447655704074
+      ]
+    },
+    {
+      "scenario_id": "spatial-003",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-003",
+      "accepted": true,
+      "input_sha256": "8ca1106dbd32de624836963def74799c076c4b98144bf8ed23616068b885ccd1",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16112145798979327,
+      "excluded": false,
+      "pair_id": "ordinary-003",
+      "P_Q_drift": [
+        2.0972112935169207e-13,
+        9.992007221626409e-15
+      ],
+      "moved_MW_MVAr": [
+        661.948333217928,
+        194.64774136305343
+      ]
+    },
+    {
+      "scenario_id": "spatial-004",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-004",
+      "accepted": true,
+      "input_sha256": "17cb41bef7238bccf4edbc65a36b3d0eea468b17468fe41eaa336428549792a4",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14820070800487883,
+      "excluded": false,
+      "pair_id": "ordinary-004",
+      "P_Q_drift": [
+        3.448352714485736e-13,
+        7.349676423018536e-14
+      ],
+      "moved_MW_MVAr": [
+        507.08414487186565,
+        158.45276070005445
+      ]
+    },
+    {
+      "scenario_id": "spatial-005",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-005",
+      "accepted": true,
+      "input_sha256": "4a6d6347d46b45a3929dd2c146a73e2624d4bb273c23c53b16043ffc61b27a4a",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16379679201054387,
+      "excluded": false,
+      "pair_id": "ordinary-005",
+      "P_Q_drift": [
+        2.0905499553691698e-13,
+        1.9634294190495893e-13
+      ],
+      "moved_MW_MVAr": [
+        571.7681540966744,
+        212.69543195815012
+      ]
+    },
+    {
+      "scenario_id": "spatial-006",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-006",
+      "accepted": true,
+      "input_sha256": "caaf49d60ebe27a8cecae808ff18b8afa53da0465288dc53005e13584cfeb367",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.13199916601297446,
+      "excluded": false,
+      "pair_id": "ordinary-006",
+      "P_Q_drift": [
+        -7.045475314271243e-13,
+        -3.3134606169937797e-13
+      ],
+      "moved_MW_MVAr": [
+        414.58113891852105,
+        143.65345503530878
+      ]
+    },
+    {
+      "scenario_id": "spatial-007",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-007",
+      "accepted": true,
+      "input_sha256": "41fc229a4d9fac873925b922111c149e5685b27833cd5d38b77415a2152988e2",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15307112500886433,
+      "excluded": false,
+      "pair_id": "ordinary-007",
+      "P_Q_drift": [
+        -1.48991929904696e-13,
+        4.346523141407488e-14
+      ],
+      "moved_MW_MVAr": [
+        661.8706309726169,
+        194.72018663364747
+      ]
+    },
+    {
+      "scenario_id": "spatial-008",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-008",
+      "accepted": true,
+      "input_sha256": "a77ca4e367fb9abcdac82a8a001e0004e6c374b9fdf10552d192e86ca98e8632",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1508157500065863,
+      "excluded": false,
+      "pair_id": "ordinary-008",
+      "P_Q_drift": [
+        3.168576512280197e-13,
+        1.979527652906654e-13
+      ],
+      "moved_MW_MVAr": [
+        474.0023622537152,
+        147.81724529293916
+      ]
+    },
+    {
+      "scenario_id": "spatial-009",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-009",
+      "accepted": true,
+      "input_sha256": "f65d25482df9d9cd132b2f79200fd107a8f4e86091f679a21f9705b1ae7ce189",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1317609999969136,
+      "excluded": false,
+      "pair_id": "ordinary-009",
+      "P_Q_drift": [
+        2.475797344914099e-14,
+        -6.927791673660977e-14
+      ],
+      "moved_MW_MVAr": [
+        584.8403330467116,
+        217.62479499722156
+      ]
+    },
+    {
+      "scenario_id": "spatial-010",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-010",
+      "accepted": true,
+      "input_sha256": "3dfb85761c32f0e412c7f396ba2cf9c502ee7cde13503d139c38676b4d59c105",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15499025001190603,
+      "excluded": false,
+      "pair_id": "ordinary-010",
+      "P_Q_drift": [
+        -4.218847493575595e-14,
+        1.351696532481128e-13
+      ],
+      "moved_MW_MVAr": [
+        399.81805205161794,
+        138.17165651088533
+      ]
+    },
+    {
+      "scenario_id": "spatial-011",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-011",
+      "accepted": true,
+      "input_sha256": "2d4f8626a982ccf931399717f44b3d5360c11a43436f37f67adbdfecd4394c3e",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16149154101731256,
+      "excluded": false,
+      "pair_id": "ordinary-011",
+      "P_Q_drift": [
+        3.355093980417223e-13,
+        1.7486012637846216e-14
+      ],
+      "moved_MW_MVAr": [
+        675.9844795925258,
+        198.69661467398421
+      ]
+    },
+    {
+      "scenario_id": "spatial-012",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-012",
+      "accepted": true,
+      "input_sha256": "00a9553c0b8e4759ce13f62045cda4d964c18636121c9ca2139d96fea83f81fb",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15006474999245256,
+      "excluded": false,
+      "pair_id": "ordinary-012",
+      "P_Q_drift": [
+        -3.3439917501709715e-13,
+        9.492406860545088e-14
+      ],
+      "moved_MW_MVAr": [
+        477.25007711711277,
+        149.0030160765358
+      ]
+    },
+    {
+      "scenario_id": "spatial-013",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-013",
+      "accepted": true,
+      "input_sha256": "e507443d8c495f17301af8f0eded925a4f371aada31daa48776b09e95ce53508",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14937429199926555,
+      "excluded": false,
+      "pair_id": "ordinary-013",
+      "P_Q_drift": [
+        -8.759659664292485e-14,
+        3.3306690738754696e-15
+      ],
+      "moved_MW_MVAr": [
+        565.1677849106,
+        210.4061813673857
+      ]
+    },
+    {
+      "scenario_id": "spatial-014",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-014",
+      "accepted": true,
+      "input_sha256": "159b8221bd525ae9921b9a7155b38ce60733ba9d1374b31521bf9526bbf81bfb",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1471462499757763,
+      "excluded": false,
+      "pair_id": "ordinary-014",
+      "P_Q_drift": [
+        -1.1546319456101628e-14,
+        -7.16093850883226e-15
+      ],
+      "moved_MW_MVAr": [
+        433.8225465076556,
+        150.42655137975686
+      ]
+    },
+    {
+      "scenario_id": "spatial-015",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-015",
+      "accepted": true,
+      "input_sha256": "855d07912cd50605238cf2f2e2ce2ec9d675ee81f206cd6d94b63dd8ff96bb90",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1303479999769479,
+      "excluded": false,
+      "pair_id": "ordinary-015",
+      "P_Q_drift": [
+        1.396660564978447e-13,
+        -2.0816681711721685e-13
+      ],
+      "moved_MW_MVAr": [
+        643.5699178965851,
+        189.37294803602265
+      ]
+    },
+    {
+      "scenario_id": "spatial-016",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-016",
+      "accepted": true,
+      "input_sha256": "36c38ee821a8c9f2b8489fc73e673820895186e1d5bb1d2d400fbe77931805bc",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16111629200167954,
+      "excluded": false,
+      "pair_id": "ordinary-016",
+      "P_Q_drift": [
+        9.14823772291129e-14,
+        -1.6264767310758543e-14
+      ],
+      "moved_MW_MVAr": [
+        483.9367733375308,
+        151.563597840907
+      ]
+    },
+    {
+      "scenario_id": "spatial-017",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-017",
+      "accepted": true,
+      "input_sha256": "8207e17a86dc084cf9b985a73629f564485a6ab69b572cab8a28dabcb94a2b75",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14680499999667518,
+      "excluded": false,
+      "pair_id": "ordinary-017",
+      "P_Q_drift": [
+        7.078782005009998e-13,
+        1.1984857550828565e-13
+      ],
+      "moved_MW_MVAr": [
+        567.0203933089175,
+        211.40945377991446
+      ]
+    },
+    {
+      "scenario_id": "spatial-018",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-018",
+      "accepted": true,
+      "input_sha256": "fab7a18d3cf4c89e6ee801f7e986b75adf6c851e6a7210e61382db868a4ff052",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.12888099998235703,
+      "excluded": false,
+      "pair_id": "ordinary-018",
+      "P_Q_drift": [
+        9.114931032172535e-13,
+        3.6243230638888235e-13
+      ],
+      "moved_MW_MVAr": [
+        422.2967997030598,
+        146.04045257093048
+      ]
+    },
+    {
+      "scenario_id": "spatial-019",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-019",
+      "accepted": true,
+      "input_sha256": "01d13ca94ce18d8615414c10ceb99254bac3aa63a987d9dde4836014e5aac24d",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15412716698483564,
+      "excluded": false,
+      "pair_id": "ordinary-019",
+      "P_Q_drift": [
+        -2.1760371282653068e-14,
+        -1.0602629885170245e-14
+      ],
+      "moved_MW_MVAr": [
+        640.4375948058939,
+        188.3132435569023
+      ]
+    },
+    {
+      "scenario_id": "spatial-020",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-020",
+      "accepted": true,
+      "input_sha256": "b9734144275b217d497d99443413859a2708f67adc265fae06ad33083ba11c0c",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.16308050000225194,
+      "excluded": false,
+      "pair_id": "ordinary-020",
+      "P_Q_drift": [
+        5.6621374255882984e-14,
+        -6.955547249276606e-14
+      ],
+      "moved_MW_MVAr": [
+        506.56991367916737,
+        158.0666884027627
+      ]
+    },
+    {
+      "scenario_id": "spatial-021",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-021",
+      "accepted": true,
+      "input_sha256": "43e2f09937203588f28ee703451b29bbc4d5061f8dd59a7bdd159b129dcf2e93",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.12876545800827444,
+      "excluded": false,
+      "pair_id": "ordinary-021",
+      "P_Q_drift": [
+        1.454392162258955e-14,
+        8.998357614586894e-14
+      ],
+      "moved_MW_MVAr": [
+        540.9038022899464,
+        201.90614498805414
+      ]
+    },
+    {
+      "scenario_id": "spatial-022",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-022",
+      "accepted": true,
+      "input_sha256": "c85bd3d9b92abb74eb1fe969af52c212125ec378efbf09095948700749f1a6d4",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.15703862500959076,
+      "excluded": false,
+      "pair_id": "ordinary-022",
+      "P_Q_drift": [
+        -1.6986412276764895e-14,
+        2.2037927038809357e-14
+      ],
+      "moved_MW_MVAr": [
+        421.99637784119216,
+        146.2896185549846
+      ]
+    },
+    {
+      "scenario_id": "spatial-023",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-023",
+      "accepted": true,
+      "input_sha256": "32c05706c907178f069d55d0fb7a78fd4ec8e33b684a2c2063856015f0e033b9",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.12935916701098904,
+      "excluded": false,
+      "pair_id": "ordinary-023",
+      "P_Q_drift": [
+        -1.304512053934559e-13,
+        3.36952687973735e-14
+      ],
+      "moved_MW_MVAr": [
+        620.6578301939269,
+        182.4866859095087
+      ]
+    },
+    {
+      "scenario_id": "spatial-024",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-024",
+      "accepted": true,
+      "input_sha256": "3e40628b500f41ff635f0ab3c1aeb2532fcfbcb8d1b77ec4dc9b47f8da26956f",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.17332733300281689,
+      "excluded": false,
+      "pair_id": "ordinary-024",
+      "P_Q_drift": [
+        -3.26183524634871e-13,
+        -1.0197398481182063e-13
+      ],
+      "moved_MW_MVAr": [
+        507.2615575890508,
+        158.67583506559652
+      ]
+    },
+    {
+      "scenario_id": "spatial-025",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-025",
+      "accepted": true,
+      "input_sha256": "3663c1a5628a55f8648cbfceb4b046965dad1e9f87c1d32e2e5c4b4bd218d5c6",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.14453062499524094,
+      "excluded": false,
+      "pair_id": "ordinary-025",
+      "P_Q_drift": [
+        7.144285163462882e-13,
+        2.2937207688755734e-13
+      ],
+      "moved_MW_MVAr": [
+        540.4735633040755,
+        201.21632951154766
+      ]
+    },
+    {
+      "scenario_id": "spatial-026",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-026",
+      "accepted": true,
+      "input_sha256": "06db329aefd6247ba70eb4463ca0716df668dacf3b2f082fe3425342c76d8033",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.1325257499993313,
+      "excluded": false,
+      "pair_id": "ordinary-026",
+      "P_Q_drift": [
+        1.4624967903387187e-12,
+        4.517497487199762e-13
+      ],
+      "moved_MW_MVAr": [
+        435.69386339289144,
+        151.22038281661804
+      ]
+    },
+    {
+      "scenario_id": "spatial-027",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-027",
+      "accepted": false,
+      "input_sha256": "20ab94cbe4f027eed38a926c78f1dd0dde77adbe274dca5c9c17090f76078ceb",
+      "status": "LOCALLY_INFEASIBLE",
+      "generation_seconds": 0.6838215420139022,
+      "excluded": false,
+      "pair_id": "ordinary-027",
+      "P_Q_drift": [
+        -3.219646771412954e-15,
+        1.1712852909795402e-14
+      ],
+      "moved_MW_MVAr": [
+        704.6562519606651,
+        207.0458377391371
+      ]
+    },
+    {
+      "scenario_id": "spatial-028",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-028",
+      "accepted": true,
+      "input_sha256": "aa1358828e2541c719296c0a89ad44d5dcc58037b76a6de03f430629c3165fa7",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.12816429100348614,
+      "excluded": false,
+      "pair_id": "ordinary-028",
+      "P_Q_drift": [
+        6.118439088709238e-13,
+        1.592614928824787e-13
+      ],
+      "moved_MW_MVAr": [
+        467.29363692929667,
+        146.1987257441129
+      ]
+    },
+    {
+      "scenario_id": "spatial-029",
+      "network": "case300",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/case300/candidates/spatial-029",
+      "accepted": true,
+      "input_sha256": "7cff72f6cd406c1e9adb3a7035e352eee21393683a5d8e81c5b5d0703f9c9ca6",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.17701829099678434,
+      "excluded": false,
+      "pair_id": "ordinary-029",
+      "P_Q_drift": [
+        -2.3026025530725747e-13,
+        -1.871836019518014e-13
+      ],
+      "moved_MW_MVAr": [
+        596.9162472426565,
+        222.55620857628526
+      ]
+    }
+  ],
+  "pglib118": [
+    {
+      "scenario_id": "ordinary-000",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-000",
+      "accepted": true,
+      "input_sha256": "97923d0e6227bf16e9090c5d0bfd855936165aaa32e4d3a9bcddef9c8f0b81ee",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.26015299998107366,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-001",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-001",
+      "accepted": true,
+      "input_sha256": "7e748a44640f63c409276e257bdf9633e0bc905faacef8a12317ebd4d2568d11",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07281979100662284,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-002",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-002",
+      "accepted": true,
+      "input_sha256": "10f4c73683fc9e938654fbe27508d9aa07f7233448db2371859e14c204c1cb9e",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07515316701028496,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-003",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-003",
+      "accepted": true,
+      "input_sha256": "c471132e09f2338cd12bd8d4306d30b2d0419cca501e63bc05a029340c639cec",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09220016602193937,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-004",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-004",
+      "accepted": true,
+      "input_sha256": "5fba68ccbd9ce9f3a0ba7c396c8cf34e6325868c48eb9f202919390215f2bfc9",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07846958399750292,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-005",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-005",
+      "accepted": true,
+      "input_sha256": "089b262ea6ea505195f4c32ad2cab886f02afcd442c3598e1b9f811c149e60ff",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07287670898949727,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-006",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-006",
+      "accepted": true,
+      "input_sha256": "413992de83a13b79d54138df42c9cdd4125f5cdcde15bb444f5050f688662c40",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0938366659975145,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-007",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-007",
+      "accepted": true,
+      "input_sha256": "6108fe1399e118e1e441fab94996eedd29dd65fffbaf173b3f04590251e5b4cb",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07637070800410584,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-008",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-008",
+      "accepted": true,
+      "input_sha256": "1564edd8c267bd3958873e6168112297fc1a4b6da85e2f9daa5d0cbd26ba5e69",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07129179200273938,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-009",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-009",
+      "accepted": true,
+      "input_sha256": "17bfa46586356ef8ae5d44659e2bdd19e3cadf057ff3f63847503b6a3ae6e2cd",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09225229098228738,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-010",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-010",
+      "accepted": true,
+      "input_sha256": "51129ffa3c15a31130f266f68836d916f5b84a50dea7908300c87d2d6c551cd4",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07251249998807907,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-011",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-011",
+      "accepted": true,
+      "input_sha256": "59edb7858dd9bb4fe4f639608c30b771a16fa598964569c73372cc5957b87310",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07121954200556502,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-012",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-012",
+      "accepted": true,
+      "input_sha256": "2049c8a4788adc30763358851bb4cc2263ff4a29349790e118c0248f20d44f17",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08996887499233708,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-013",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-013",
+      "accepted": true,
+      "input_sha256": "e69c0f976e1aa388cdc0d91a04af70b8736573eb8dbefef13d60e44c22a36b30",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07310358399990946,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-014",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-014",
+      "accepted": true,
+      "input_sha256": "c0ab3072bc206eddad1e85d1564d59aab9b0177e40cea6038088a9161a1aaa8b",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07340212501003407,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-015",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-015",
+      "accepted": true,
+      "input_sha256": "665ad3558a75aa399dd9510be790522c9970809444c514db38ffc886c1a1b6e6",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0871597500226926,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-016",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-016",
+      "accepted": true,
+      "input_sha256": "f0ff55eafae21d9be8ab6098aebeeb5b8e340b17ffed270dc49b077bb42d3599",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07357933299499564,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-017",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-017",
+      "accepted": true,
+      "input_sha256": "552a7ac56bd4e2209f4af7c6601ca48dddc4bb763119c690137a223b423c2686",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08714462499483489,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-018",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-018",
+      "accepted": true,
+      "input_sha256": "381d4b7301e1caa93b4cc401ad29a72d58968e53198f0ddd0781e3bc8e43ee4e",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07355275002191775,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-019",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-019",
+      "accepted": true,
+      "input_sha256": "d05170f6884d7e7ead4357e0995c46c3b8934f7a12583b33135b9ce4f778e764",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07115016598254442,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-020",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-020",
+      "accepted": true,
+      "input_sha256": "8d8021c07990777d136180e4bd309442f4ec525034b93b40accaa2192df763bb",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09084908300428651,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-021",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-021",
+      "accepted": true,
+      "input_sha256": "a8746cc4070daec49f75eb40a81d387e67a1faf68bc7605e2e98cffb4cf3bae3",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07443120898096822,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-022",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-022",
+      "accepted": true,
+      "input_sha256": "14a309a05a26f069b5a5b6cc7a56461be1e7fbd63add77cb91baabd7129ac946",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07468616601545364,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-023",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-023",
+      "accepted": true,
+      "input_sha256": "eb37863ed633ff541c30bff328013edda0923dcdaf071f5e5cc2b384c6adc7e4",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09628095797961578,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-024",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-024",
+      "accepted": true,
+      "input_sha256": "35d5e54e0acfa4206269aa6d9a2951d5854cdaec0d9c2daa78ef470700a814ca",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07476375001715496,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-025",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-025",
+      "accepted": true,
+      "input_sha256": "0f30521c79778db50ab020e8d87a2c2e6963213899a3e3a890efe71eef5154e8",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07348833300056867,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-026",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-026",
+      "accepted": true,
+      "input_sha256": "4bddd23a8ca74454cdb263c32bb3eb59172618b1ccc75b6ca77f306c1fd25459",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09096450000652112,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-027",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-027",
+      "accepted": true,
+      "input_sha256": "b4e87f7b338a7c70515aea1bcfdcc332819fd48b2fcddc0046adabb975305c11",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07423741699312814,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-028",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-028",
+      "accepted": true,
+      "input_sha256": "271c29e35fa96525bb4f8b4d13394a4c18bea5013d36ef642395eb04dd2d7130",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07202416600193828,
+      "excluded": false
+    },
+    {
+      "scenario_id": "ordinary-029",
+      "network": "pglib118",
+      "split": "ordinary",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/ordinary-029",
+      "accepted": true,
+      "input_sha256": "63336ac3b80609f37ad7bba23143144b5b73fbb9658b1b5b1555c4764ee635d1",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0865694579842966,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-000",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-000",
+      "accepted": true,
+      "input_sha256": "7b39caeb03fa581705aa2559ca95792c3e558a8c091471fdc005ada7701ac1ab",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07425525001599453,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-001",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-001",
+      "accepted": true,
+      "input_sha256": "08ac42248949506a4e4e0e63e822f15810d430946b14f0dc495f3a11f38ef9ae",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07380662500509061,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-002",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-002",
+      "accepted": true,
+      "input_sha256": "4bd517d5641da80561a43928709eac94603a6ce63d12648618947b38f9b7a8fa",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08964629200636409,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-003",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-003",
+      "accepted": true,
+      "input_sha256": "c34fdfd5bf89d4b8e9f81d944cab9e6b2f34cb689f3c84f6280eaa11703fd325",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07802108299802057,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-004",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-004",
+      "accepted": true,
+      "input_sha256": "fe7a3f9aa2c6aa277788c7d78286cb3adab94ea493d84d386fbf16fd05b364b0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07355608401121572,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-005",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-005",
+      "accepted": true,
+      "input_sha256": "a3465d8c542f964e2d635329dc750c55524c9263b7267fb8550cd9b34cdc6b30",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08953941700747237,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-006",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-006",
+      "accepted": true,
+      "input_sha256": "5d7162f85d2b54a37238aa9b4fc87778f98e4f733ecc85972082694bfb75c163",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07403279200661927,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-007",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-007",
+      "accepted": true,
+      "input_sha256": "fa827c136e66dab17baf9832eada8153eb49173f6e76d4588bb5fdcc49c17f86",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07345187501050532,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-008",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-008",
+      "accepted": true,
+      "input_sha256": "83d5df8d7a1991825bd055a5a5267701280d5c4377dd3ddf9251ed16f339eab0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09499070802121423,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-009",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-009",
+      "accepted": true,
+      "input_sha256": "623444c603f8c598837e590afb6027a7ab196ba26096d096eaf1dc1c0265df9f",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07475758300279267,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-010",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-010",
+      "accepted": true,
+      "input_sha256": "c92aa4ab751e5a1f4d783f7796f9955ac6acedc6f58368b097d8b4df7f6aff0c",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07322937500430271,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-011",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-011",
+      "accepted": true,
+      "input_sha256": "199e0dde276eb36539cfbceab761eed05bf68251c424a83a3a9e2dd78d2234cd",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09114691699505784,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-012",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-012",
+      "accepted": true,
+      "input_sha256": "2aef9c374c434ce7db18c1506cef1638e93c5c4bf5c5c7b1043e43c0eba73a97",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07493833301123232,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-013",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-013",
+      "accepted": true,
+      "input_sha256": "bc0304fbbf53e7f58ea2b9f0ae1dd4064902972b9f2ae3940c80a4747cd682a2",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07745983300264925,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-014",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-014",
+      "accepted": true,
+      "input_sha256": "e819b275330e7ee93c4a30b32dce286778d56b2997fcdabfe3960f9682a9cc61",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09198158400249667,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-015",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-015",
+      "accepted": true,
+      "input_sha256": "4bbd19d6429a1d300e8408783c3f3a46d9f7f2b530b2c9044f78a36cb1e6fa6d",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0761445419921074,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-016",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-016",
+      "accepted": true,
+      "input_sha256": "74c1c00b090a60a8f8567c5c9241904b44bf9859c888ebd7814bc7515f965af2",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07323766697663814,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-017",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-017",
+      "accepted": true,
+      "input_sha256": "d3ce77fc59b132ca256050ad6794b64bef04097bd3ae93932bbd28f7897c74c0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09226624999428168,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-018",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-018",
+      "accepted": true,
+      "input_sha256": "5f6be66dc24539aba11892c53fdcc828848a435c68b0a2dfddeed16f3695d494",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07961666700430214,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-019",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-019",
+      "accepted": true,
+      "input_sha256": "a32f67e57f2d662b89864037f03aa21cba69000453499bcf1242881a6f07f14a",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07970704100443982,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-020",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-020",
+      "accepted": true,
+      "input_sha256": "3bba63c9aba47f685ddb42d84a35e833b7175df4fa62fae7e3879dbe4e2fc5b0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09122087500873022,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-021",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-021",
+      "accepted": true,
+      "input_sha256": "a8797202cf0dba03a3bcf5152664877f9ff882c38840e6b3069f2b2f44dd6202",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07570895800017752,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-022",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-022",
+      "accepted": true,
+      "input_sha256": "5ac6939271c1b125859d5670637c41398481d4557214d395ac6e1f91dd034286",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07388675000402145,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-023",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-023",
+      "accepted": true,
+      "input_sha256": "7ebdbd70947798489160da1c01e24bb7dfcd1bf82dc4605bc6e8cadcb51d781f",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09473424998577684,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-024",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-024",
+      "accepted": true,
+      "input_sha256": "994fcbee06e5962e8825c9193979f060b081b9fceb569710693e3089286733db",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07541145902359858,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-025",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-025",
+      "accepted": true,
+      "input_sha256": "79d302831598fa1638a1c304998ac49d90cfab32ac59bc4cd3b9cbdf778ab441",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07403058299678378,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-026",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-026",
+      "accepted": true,
+      "input_sha256": "a18ade243c4aa1656bf68e61b0222ede14aca03cdad6164fc6a8179d93059df3",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09156445899861865,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-027",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-027",
+      "accepted": true,
+      "input_sha256": "f8a1230a19eae2e8df7eb2c8314d91bf136ba6d03575e66efe52a3d6207cb6b9",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07501120801316574,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-028",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-028",
+      "accepted": true,
+      "input_sha256": "b1d44388fdd6720eb50aec26b92fac980a2d6dea99db2ce8025878730d31b038",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08084454198251478,
+      "excluded": false
+    },
+    {
+      "scenario_id": "higher_load-029",
+      "network": "pglib118",
+      "split": "higher_load",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/higher_load-029",
+      "accepted": true,
+      "input_sha256": "323da91f510a0fc04d770ca39c01b8144813f96c082de792cdbfc9d8ec58f667",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0950516669836361,
+      "excluded": false
+    },
+    {
+      "scenario_id": "spatial-000",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-000",
+      "accepted": true,
+      "input_sha256": "5fe76513668ffe987184133276f515b26f59742c16b96a3f7d82e9a1e91d2715",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0751946670061443,
+      "excluded": false,
+      "pair_id": "ordinary-000",
+      "P_Q_drift": [
+        6.084022174945858e-14,
+        3.2862601528904634e-14
+      ],
+      "moved_MW_MVAr": [
+        92.51777068580246,
+        34.367004588486644
+      ]
+    },
+    {
+      "scenario_id": "spatial-001",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-001",
+      "accepted": true,
+      "input_sha256": "9adad226998322ff24912e1271e3a1f0b37b2f62100a08d09dd664b76eee5fe0",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07582408300368115,
+      "excluded": false,
+      "pair_id": "ordinary-001",
+      "P_Q_drift": [
+        -9.414691248821327e-14,
+        -2.1316282072803006e-14
+      ],
+      "moved_MW_MVAr": [
+        80.05443484999796,
+        27.973635603588423
+      ]
+    },
+    {
+      "scenario_id": "spatial-002",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-002",
+      "accepted": true,
+      "input_sha256": "aa3cee2aff60b34ef78694348257bd2a4d8ee3593f47e7f05808a0768bf0c977",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08907233399804682,
+      "excluded": false,
+      "pair_id": "ordinary-002",
+      "P_Q_drift": [
+        1.0125233984581428e-13,
+        2.6645352591003757e-14
+      ],
+      "moved_MW_MVAr": [
+        83.53279536970415,
+        27.337018746372046
+      ]
+    },
+    {
+      "scenario_id": "spatial-003",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-003",
+      "accepted": true,
+      "input_sha256": "800b1bcd2cd5707928b6d9fb90bbeb3af4a11c7812e56847373a327f0dda1ffe",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08020849997410551,
+      "excluded": false,
+      "pair_id": "ordinary-003",
+      "P_Q_drift": [
+        -1.2612133559741778e-13,
+        -3.4638958368304884e-14
+      ],
+      "moved_MW_MVAr": [
+        87.62532722519417,
+        31.82549771805052
+      ]
+    },
+    {
+      "scenario_id": "spatial-004",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-004",
+      "accepted": true,
+      "input_sha256": "5923d85aabbd119061477083f2c5e12e851411faf2eb3814538d4ebbf3b3cbda",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07433837500866503,
+      "excluded": false,
+      "pair_id": "ordinary-004",
+      "P_Q_drift": [
+        -6.661338147750939e-15,
+        4.440892098500626e-16
+      ],
+      "moved_MW_MVAr": [
+        94.97224512126635,
+        35.273721041896316
+      ]
+    },
+    {
+      "scenario_id": "spatial-005",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-005",
+      "accepted": true,
+      "input_sha256": "f287c1873ab6149dd8c42d69053bf12d5b30f7304b923d7ba3872c7f29045752",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08693029198911972,
+      "excluded": false,
+      "pair_id": "ordinary-005",
+      "P_Q_drift": [
+        4.707345624410664e-14,
+        2.7977620220553945e-14
+      ],
+      "moved_MW_MVAr": [
+        79.15659524491831,
+        27.65128799585679
+      ]
+    },
+    {
+      "scenario_id": "spatial-006",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-006",
+      "accepted": true,
+      "input_sha256": "444b6247de34d663831824268780a3d882f1011dddabc228128640145b0ebfa5",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07398220797767863,
+      "excluded": false,
+      "pair_id": "ordinary-006",
+      "P_Q_drift": [
+        -1.4210854715202004e-14,
+        3.1086244689504383e-15
+      ],
+      "moved_MW_MVAr": [
+        81.28814004438823,
+        26.62752684357547
+      ]
+    },
+    {
+      "scenario_id": "spatial-007",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-007",
+      "accepted": true,
+      "input_sha256": "4b0dcde895c9f0f1732ba29eb7eecf5cb897659343aa5bd21f602d127990a74e",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.06910916700144298,
+      "excluded": false,
+      "pair_id": "ordinary-007",
+      "P_Q_drift": [
+        5.417888360170764e-14,
+        1.7763568394002505e-14
+      ],
+      "moved_MW_MVAr": [
+        82.22766036505475,
+        29.84741483833643
+      ]
+    },
+    {
+      "scenario_id": "spatial-008",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-008",
+      "accepted": true,
+      "input_sha256": "d0268233ad6482304e6e1dba2671109178760b5913da8435c0e0c0b6074d43da",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09418820799328387,
+      "excluded": false,
+      "pair_id": "ordinary-008",
+      "P_Q_drift": [
+        -3.8191672047105385e-14,
+        6.217248937900877e-15
+      ],
+      "moved_MW_MVAr": [
+        87.61241382384753,
+        32.58397922418098
+      ]
+    },
+    {
+      "scenario_id": "spatial-009",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-009",
+      "accepted": true,
+      "input_sha256": "ccccfba7535745b9fc631d6685cfbb9ef77df146f0f0b72e383ae6d79835679b",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07142749999184161,
+      "excluded": false,
+      "pair_id": "ordinary-009",
+      "P_Q_drift": [
+        -5.240252676230739e-14,
+        1.199040866595169e-14
+      ],
+      "moved_MW_MVAr": [
+        77.79928238421616,
+        27.130485276292212
+      ]
+    },
+    {
+      "scenario_id": "spatial-010",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-010",
+      "accepted": true,
+      "input_sha256": "6b60d899b20527436de5faa49661a24f938b11664d98fa5fef97cdf398ca4dce",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07214316699537449,
+      "excluded": false,
+      "pair_id": "ordinary-010",
+      "P_Q_drift": [
+        -6.394884621840902e-14,
+        4.440892098500626e-16
+      ],
+      "moved_MW_MVAr": [
+        78.57119260497966,
+        25.744574731620617
+      ]
+    },
+    {
+      "scenario_id": "spatial-011",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-011",
+      "accepted": true,
+      "input_sha256": "8cb6b2898dce204d118dc155c9cb87ff6224e4fa053854546a0cd0baae523c75",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09374112499062903,
+      "excluded": false,
+      "pair_id": "ordinary-011",
+      "P_Q_drift": [
+        -1.7763568394002505e-14,
+        -1.5987211554602254e-14
+      ],
+      "moved_MW_MVAr": [
+        89.77365190681166,
+        32.65659492115378
+      ]
+    },
+    {
+      "scenario_id": "spatial-012",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-012",
+      "accepted": true,
+      "input_sha256": "41d318cd353c5372e510ca8e0e475f6d003d7ec9b833ba95c80a24a6b671c884",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07426362499245442,
+      "excluded": false,
+      "pair_id": "ordinary-012",
+      "P_Q_drift": [
+        1.1146639167236572e-13,
+        2.7533531010703882e-14
+      ],
+      "moved_MW_MVAr": [
+        97.47680195254496,
+        36.21107905489
+      ]
+    },
+    {
+      "scenario_id": "spatial-013",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-013",
+      "accepted": true,
+      "input_sha256": "1639879b60f7d4b9f78c0df491b4167cedaeca62ed67f87451fb622f313c23c5",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.06959862500661984,
+      "excluded": false,
+      "pair_id": "ordinary-013",
+      "P_Q_drift": [
+        -1.9539925233402755e-14,
+        -1.7319479184152442e-14
+      ],
+      "moved_MW_MVAr": [
+        77.03630126087626,
+        26.905489935543052
+      ]
+    },
+    {
+      "scenario_id": "spatial-014",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-014",
+      "accepted": true,
+      "input_sha256": "a706aff47f5784495aaac8de4c77a44f2a73b1db984227a3811498f812c6fdf5",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09135904102004133,
+      "excluded": false,
+      "pair_id": "ordinary-014",
+      "P_Q_drift": [
+        -1.4210854715202004e-14,
+        -5.773159728050814e-15
+      ],
+      "moved_MW_MVAr": [
+        78.00669928413392,
+        25.5346395744849
+      ]
+    },
+    {
+      "scenario_id": "spatial-015",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-015",
+      "accepted": true,
+      "input_sha256": "680e70c2ce81a591f81db6c04486c01dd68b1b5161402aca2072a5b47342dc83",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07169437501579523,
+      "excluded": false,
+      "pair_id": "ordinary-015",
+      "P_Q_drift": [
+        3.108624468950438e-14,
+        1.865174681370263e-14
+      ],
+      "moved_MW_MVAr": [
+        81.16598434203254,
+        29.47349453962464
+      ]
+    },
+    {
+      "scenario_id": "spatial-016",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-016",
+      "accepted": true,
+      "input_sha256": "59ced91bd23d9c2a7997edb081664997cf16e7a37f4a2b3409148d21cc6469ac",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07098812499316409,
+      "excluded": false,
+      "pair_id": "ordinary-016",
+      "P_Q_drift": [
+        1.7763568394002505e-15,
+        6.217248937900877e-15
+      ],
+      "moved_MW_MVAr": [
+        92.84168537572349,
+        34.53131203770646
+      ]
+    },
+    {
+      "scenario_id": "spatial-017",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-017",
+      "accepted": true,
+      "input_sha256": "98395229e02be67d1b1d786f54b5190b9ce400af9c1c90f9bfdd3876d4c3b276",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08738354098750278,
+      "excluded": false,
+      "pair_id": "ordinary-017",
+      "P_Q_drift": [
+        -3.552713678800501e-15,
+        -2.842170943040401e-14
+      ],
+      "moved_MW_MVAr": [
+        81.8646263144144,
+        28.626285152110178
+      ]
+    },
+    {
+      "scenario_id": "spatial-018",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-018",
+      "accepted": true,
+      "input_sha256": "17c105eac0481ff3c095fad53a9d3f6e3454e6754a05c947f4be6ebb0722de04",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07050454098498449,
+      "excluded": false,
+      "pair_id": "ordinary-018",
+      "P_Q_drift": [
+        -2.842170943040401e-14,
+        -6.217248937900877e-15
+      ],
+      "moved_MW_MVAr": [
+        74.82889009871525,
+        24.452148836718933
+      ]
+    },
+    {
+      "scenario_id": "spatial-019",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-019",
+      "accepted": true,
+      "input_sha256": "7ab081f084571056f170c4cefa47ba2e97104e823efdbabd5133d6281fdd64f1",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07337329199071974,
+      "excluded": false,
+      "pair_id": "ordinary-019",
+      "P_Q_drift": [
+        -1.0169642905566434e-13,
+        -3.219646771412954e-14
+      ],
+      "moved_MW_MVAr": [
+        83.40401548563003,
+        30.361523198958963
+      ]
+    },
+    {
+      "scenario_id": "spatial-020",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-020",
+      "accepted": true,
+      "input_sha256": "8286a16c6203cf2b34fa18bd620461eec31bc4e85d7ab993029ec57b8c9a0002",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09217616700334474,
+      "excluded": false,
+      "pair_id": "ordinary-020",
+      "P_Q_drift": [
+        -3.730349362740526e-14,
+        -1.9984014443252818e-14
+      ],
+      "moved_MW_MVAr": [
+        94.38294512112444,
+        35.050319791007716
+      ]
+    },
+    {
+      "scenario_id": "spatial-021",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-021",
+      "accepted": true,
+      "input_sha256": "ffb514ba363b0ce7cc9a20dc03e887c4a8a8f07afbd2f486eb6383eb7304017e",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07533591700484976,
+      "excluded": false,
+      "pair_id": "ordinary-021",
+      "P_Q_drift": [
+        -4.973799150320701e-14,
+        1.7319479184152442e-14
+      ],
+      "moved_MW_MVAr": [
+        85.7396770189383,
+        29.978083999645616
+      ]
+    },
+    {
+      "scenario_id": "spatial-022",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-022",
+      "accepted": true,
+      "input_sha256": "ba5ee2efdab4826c2b79cbd1c5e7db9f0de427f3d7db7f466353493f7bed774b",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0730952919984702,
+      "excluded": false,
+      "pair_id": "ordinary-022",
+      "P_Q_drift": [
+        -3.552713678800501e-15,
+        -1.1102230246251565e-14
+      ],
+      "moved_MW_MVAr": [
+        80.45211514193362,
+        26.400097535668984
+      ]
+    },
+    {
+      "scenario_id": "spatial-023",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-023",
+      "accepted": true,
+      "input_sha256": "55f91513ed05561380d39ac27e0cfbf9b40800cb81314145183d5915a9b0e123",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.0885968339862302,
+      "excluded": false,
+      "pair_id": "ordinary-023",
+      "P_Q_drift": [
+        -4.085620730620576e-14,
+        -2.731148640577885e-14
+      ],
+      "moved_MW_MVAr": [
+        87.81983285252147,
+        31.907199117058944
+      ]
+    },
+    {
+      "scenario_id": "spatial-024",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-024",
+      "accepted": true,
+      "input_sha256": "2f3a12085ab655986fc8b07f2a3778808767392a420ed1f9a761d56670a0c7b3",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07562687501194887,
+      "excluded": false,
+      "pair_id": "ordinary-024",
+      "P_Q_drift": [
+        1.2434497875801753e-14,
+        -3.3306690738754696e-14
+      ],
+      "moved_MW_MVAr": [
+        93.74969972794779,
+        34.86390028695172
+      ]
+    },
+    {
+      "scenario_id": "spatial-025",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-025",
+      "accepted": true,
+      "input_sha256": "6b9761211c091be9a9a4b70bcedef86883cecda7fa0137e13b5b863d4e8c52c7",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.07270604197401553,
+      "excluded": false,
+      "pair_id": "ordinary-025",
+      "P_Q_drift": [
+        8.970602038971265e-14,
+        9.769962616701378e-15
+      ],
+      "moved_MW_MVAr": [
+        76.67155356896419,
+        26.782189868123936
+      ]
+    },
+    {
+      "scenario_id": "spatial-026",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-026",
+      "accepted": true,
+      "input_sha256": "1975179ed0104fe2ff9c14862b4d35deb4eda82b8ded74b2b5ac30c7c079f392",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08786091700312681,
+      "excluded": false,
+      "pair_id": "ordinary-026",
+      "P_Q_drift": [
+        -3.375077994860476e-14,
+        4.440892098500626e-16
+      ],
+      "moved_MW_MVAr": [
+        73.97345488946281,
+        24.172984095042032
+      ]
+    },
+    {
+      "scenario_id": "spatial-027",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-027",
+      "accepted": true,
+      "input_sha256": "dbdec0bf74f8cbb044599556429bb418644c45fb48a311580ad01c07d59fcb16",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.08074658300029114,
+      "excluded": false,
+      "pair_id": "ordinary-027",
+      "P_Q_drift": [
+        -5.3290705182007514e-14,
+        -8.881784197001252e-15
+      ],
+      "moved_MW_MVAr": [
+        90.5616250593518,
+        33.0221174923619
+      ]
+    },
+    {
+      "scenario_id": "spatial-028",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-028",
+      "accepted": true,
+      "input_sha256": "af2313609a4ef469fef1f3fd9103234d221c7c07e626518fa406adca78082542",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.06838591600535437,
+      "excluded": false,
+      "pair_id": "ordinary-028",
+      "P_Q_drift": [
+        1.7319479184152442e-14,
+        7.549516567451064e-15
+      ],
+      "moved_MW_MVAr": [
+        93.87444716909425,
+        34.89872759415342
+      ]
+    },
+    {
+      "scenario_id": "spatial-029",
+      "network": "pglib118",
+      "split": "spatial",
+      "path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/data/pglib118/candidates/spatial-029",
+      "accepted": true,
+      "input_sha256": "c767e85bdc4060c65c64bf796d9892d86a638a6e2fa26555f0961e8f823b1648",
+      "status": "LOCALLY_SOLVED",
+      "generation_seconds": 0.09217404099763371,
+      "excluded": false,
+      "pair_id": "ordinary-029",
+      "P_Q_drift": [
+        1.0036416142611415e-13,
+        -3.9968028886505635e-15
+      ],
+      "moved_MW_MVAr": [
+        81.34271697698934,
+        28.40658247428101
+      ]
+    }
+  ]
+}

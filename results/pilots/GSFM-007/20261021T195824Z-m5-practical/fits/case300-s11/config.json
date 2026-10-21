@@ -1,0 +1,141 @@
+{
+  "grid_id": "case500_goc",
+  "run_label": null,
+  "base_checkpoint": "checkpoints/base/gridsfm_open_v2.pt",
+  "data": {
+    "root": "../generate_finetune_dataset/data",
+    "dir": null,
+    "train": "train_data.jsonl",
+    "val": "val_data.jsonl",
+    "test": "test_data.jsonl",
+    "drop_offline": true
+  },
+  "cache": {
+    "dir": null,
+    "workers": 12,
+    "mem_budget_gb": 6.0
+  },
+  "model": {
+    "clip_mode": "sigmoid",
+    "freeze": "none",
+    "from_scratch": false,
+    "hidden_dim": 64,
+    "num_blocks": 4
+  },
+  "loss": {
+    "mode": "elastic",
+    "rho_g": 10.0,
+    "rho_h": 10.0,
+    "w_merit_conv_target": 0.0,
+    "w_merit_boost_share": 0.4,
+    "w_merit_max": "5.0e4",
+    "merit_log": false,
+    "w_merit_start": 200.0,
+    "w_merit_end": null,
+    "w_merit_epochs": 100,
+    "w_merit_schedule": "geometric",
+    "w_control_share_start": 0.75,
+    "w_control_share_end": null,
+    "w_control_share_epochs": 100,
+    "w_control_share_schedule": "geometric",
+    "w_control_damping": 0.35,
+    "w_control_max_step": 2.0,
+    "w_merit_damping": 0.35,
+    "w_merit_max_step": 2.0,
+    "tol_pg": 0.01,
+    "tol_v": 0.001,
+    "mean_weight": 1.0,
+    "topk_weight": 1.0,
+    "max_weight": 0.3,
+    "w_pg": 1.0,
+    "w_v": 1.0,
+    "topk_pg_frac": 0.0435,
+    "topk_v_frac": 0.0254,
+    "topk_pg": null,
+    "topk_v": null,
+    "segmented_topk": true,
+    "per_grid_topk": true,
+    "control_form": "maxaligned",
+    "w_control": 5.83,
+    "w_merit": 170.0,
+    "w_control_start": 32.0,
+    "w_control_end": 32.0
+  },
+  "closure": {
+    "workers": 0,
+    "tol_start": 0.1,
+    "tol_end": 1e-08,
+    "tol_schedule": "geometric",
+    "max_newton": 40,
+    "backtrack": true,
+    "warm_start": true,
+    "cold_init": "dc",
+    "solver": "superlu",
+    "tol_epochs": 25
+  },
+  "train": {
+    "epochs": 400,
+    "batch": 1,
+    "accum": 1,
+    "lr": 0.0001,
+    "optimizer": "adam",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "momentum": 0.9,
+    "nesterov": true,
+    "scheduler": "cosine",
+    "lr_min_frac": 0.05,
+    "lr_horizon": 400,
+    "warmup_epochs": 0,
+    "warmup_start_frac": 0.1,
+    "step_size": 10,
+    "step_gamma": 0.5,
+    "clip_grad": 1.0,
+    "grad_probe_every": 0,
+    "clip_norm_type": 2.0,
+    "select_on": "val",
+    "early_stop_patience": 20,
+    "early_stop_min_delta": 0.0,
+    "seed": 11,
+    "deterministic": false,
+    "min_epochs": 100
+  },
+  "eval": {
+    "batch": 1,
+    "test_batch": 1,
+    "val_score_pg_weight": 1.0,
+    "val_score_v_weight": 1000.0
+  },
+  "runtime": {
+    "device": "cpu",
+    "min_free_vram_gb": 6.0,
+    "tf32": true
+  },
+  "logging": {
+    "step_log_every": 1,
+    "plot_every_epochs": 1,
+    "save_every_epochs": 0
+  },
+  "study": {
+    "network": "case300",
+    "updates": 1500,
+    "fit_cap_seconds": 1500,
+    "seed_order": [
+      11,
+      22,
+      33
+    ],
+    "selection": "mean native elastic loss +32*mean control loss; >=.99 validation convergence; earliest exact tie",
+    "CPU_batch_accommodation": "train/eval batch1, serial closure; no pooling top-k across cases",
+    "fixed_outputs": "include fixed-P online generators and all voltage regulators"
+  },
+  "resolved_topk": {
+    "pg": 3,
+    "v": 2
+  },
+  "resolved_cost_scale": 8.531265587165996e-07
+}

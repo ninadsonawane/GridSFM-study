@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "seconds": 988.6183143340168,
+  "records": 4878,
+  "resources": {
+    "process_tree_RSS_bytes": 1294794752,
+    "peak_RSS_bytes": 2192932864,
+    "minimum_available_bytes": 32848609280
+  }
+}

@@ -1,5 +1,8 @@
 # GridSFM case300 adaptation study
 
+**22 October 2026 — GSFM-007 / Experiment10 COMPLETE.** All six1,500-update fits and180 fresh fixed candidates completed. Adaptation enabled case300 PF completion but all native PF full-feasibility counts remained zero; common OPF refinement gave identical89/90 case300 and90/90 PGLib118 quality coverage, with no pooled end-to-end speed benefit. [Verified results](results/pilots/GSFM-007/20261021T195824Z-m5-practical/README.md). One case300 spatial solver failure remains UNKNOWN. STOP: no automatic further experiment/training. Earlier READY instructions below are historical.
+
+
 Permanent research home for Ninad Sonawane's proposed steady-state AC-OPF study with Professor Surya Santoso and his postdoc. The professor's involvement and suggestions are **user-reported**; scope and review arrangements remain to be discussed.
 
 **22 October: [GSFM-007 / Experiment 10](docs/experiments/GSFM-007.md) is READY FOR HARDWARE, not yet executed.** The user requested a five-hour practical-utility comparison of conventional AC-OPF, frozen GridSFM, full adaptation and ridge on original case300 plus independent PGLib IEEE118. [Decision 0005](docs/decisions/0005-practical-utility-benchmark.md) supersedes older active-scope/stop instructions below for this bounded task only. It adds official gated selection, three seeds, shared external OPF refinement, fresh tests and control-substitution analysis.

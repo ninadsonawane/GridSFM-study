@@ -30,3 +30,10 @@ results/pilots/GSFM-007/*/pilot/
 results/pilots/GSFM-007/*/online-states/
 results/pilots/GSFM-007/*/predictions/
 results/pilots/GSFM-007/*/pilot-wrapper/
+
+# GSFM-007 local-only raw inputs/states and duplicate full records
+/results/pilots/GSFM-007/*/source-cases.json
+/results/pilots/GSFM-007/*/online-all.json
+/results/pilots/GSFM-007/*/online-partial.json
+/results/pilots/GSFM-007/*/online-rows.jsonl
+/results/pilots/GSFM-007/*/ridge/**/*.npz

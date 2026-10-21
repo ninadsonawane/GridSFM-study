@@ -1,0 +1,25 @@
+[
+  {
+    "stage": "confirm",
+    "started_utc": "2026-10-21T21:05:06.597277+00:00",
+    "seconds": 1035.2428719997406,
+    "returncode": 0
+  },
+  {
+    "stage": "analyze",
+    "started_utc": "2026-10-21T21:22:21.840418+00:00",
+    "seconds": 8.854493856430054,
+    "returncode": 0
+  },
+  {
+    "stage": "verify",
+    "started_utc": "2026-10-21T21:22:30.695149+00:00",
+    "seconds": 31.860882997512817,
+    "returncode": 0
+  },
+  {
+    "stage": "figures",
+    "seconds": 10.404972791671753,
+    "returncode": 0
+  }
+]

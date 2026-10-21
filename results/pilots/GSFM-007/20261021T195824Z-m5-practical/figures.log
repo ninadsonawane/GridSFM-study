@@ -1,0 +1,14 @@
+Matplotlib is building the font cache; this may take a moment.
+{
+  "status": "COMPLETE",
+  "matplotlib": "3.10.7",
+  "figures": 3,
+  "paths": [
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/figures/02-control-substitutions.pdf",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/figures/02-control-substitutions.png",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/figures/03-online-stages.png",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/figures/01-learning-curves.png",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/figures/01-learning-curves.pdf",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-007/20261021T195824Z-m5-practical/figures/03-online-stages.pdf"
+  ]
+}

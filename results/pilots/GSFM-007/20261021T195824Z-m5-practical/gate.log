@@ -1,0 +1,6 @@
+/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075/finetune_model/src/elastic_loss.py:225: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  rel_P_sum=float(rel_P.sum()), rel_P_n=int(rel_P.numel()),
+{"utc": "2026-10-21T20:04:09.470781+00:00", "event": "GATE_NETWORK_PASS", "network": "case300"}
+{"utc": "2026-10-21T20:04:12.192520+00:00", "event": "GATE_NETWORK_PASS", "network": "pglib118"}
+{"utc": "2026-10-21T20:04:12.214170+00:00", "event": "GATE_ALL_PASS"}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "seconds": 12.070737165980972,
+  "pglib_label_seconds": 9.510328082978958,
+  "counts": {
+    "train": 50,
+    "validation": 10
+  }
+}

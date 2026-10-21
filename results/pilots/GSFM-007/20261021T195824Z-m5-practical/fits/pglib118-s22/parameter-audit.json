@@ -1,0 +1,12 @@
+{
+  "total": 15146823,
+  "requires_grad": 15146823,
+  "no_gradient_names": [
+    "head_feas.0.weight",
+    "head_feas.0.bias",
+    "head_feas.2.weight",
+    "head_feas.2.bias"
+  ],
+  "training_seed": 22,
+  "initial_checkpoint": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "saved_states_rescored": 12960,
+  "source_data_checkpoint_hashes": true,
+  "all_six_fits_complete": true,
+  "selection_recomputed": true,
+  "all_fixed_candidates_and_three_repeats_covered": true,
+  "old_results_untouched": true,
+  "elapsed_seconds": 5078.323235988617,
+  "resources": {
+    "process_tree_RSS_bytes": 655638528,
+    "peak_RSS_bytes": 655638528,
+    "minimum_available_bytes": 35194437632
+  }
+}

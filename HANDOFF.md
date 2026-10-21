@@ -1,5 +1,8 @@
 # Handoff after the initial research package
 
+**22 October 2026 — GSFM-007 / Experiment10 COMPLETE.** All six1,500-update fits and180 fresh fixed candidates completed. Adaptation enabled case300 PF completion but all native PF full-feasibility counts remained zero; common OPF refinement gave identical89/90 case300 and90/90 PGLib118 quality coverage, with no pooled end-to-end speed benefit. [Verified results](results/pilots/GSFM-007/20261021T195824Z-m5-practical/README.md). One case300 spatial solver failure remains UNKNOWN. STOP: no automatic further experiment/training. Earlier READY instructions below are historical.
+
+
 ## Active instruction — 22 October 2026
 
 Ninad explicitly requested the new hardware task in Exchange To-do: **[GSFM-007 / Experiment 10](docs/experiments/GSFM-007.md)**. Status READY; planner has not run it. Read this protocol and [decision 0005](docs/decisions/0005-practical-utility-benchmark.md) first. It authorizes one bounded five-hour M5 task, including six planned 1,500-update full-regression fits, matched baselines/refinement, two networks and fresh confirmation, subject to the documented correctness/resource gates. This supersedes earlier no-follow-up/GSFM-005 operational instructions below; preserve those as history. Do not run any old task again or continue automatically beyond GSFM-007.

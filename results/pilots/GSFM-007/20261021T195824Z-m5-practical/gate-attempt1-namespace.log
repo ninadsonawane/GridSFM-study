@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/private/tmp/gsfm007-20261021T195824Z/code/gate.py", line 45, in <module>
+    try:main()
+        ^^^^^^
+  File "/private/tmp/gsfm007-20261021T195824Z/code/gate.py", line 18, in main
+    m.zero_grad(set_to_none=True);t=time.perf_counter();loss,diag=fn([probe.key],tol=curriculum_tol(ep,25,.1,1e-8),wc=32.,train_mode=True);finite(loss,'smoke loss');loss.backward();gs=[]
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<pinned train_elastic.closed_forward>", line 302, in closed_forward
+NameError: name 'CL' is not defined. Did you mean: 'L'?
