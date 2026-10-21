@@ -24,8 +24,13 @@
   "model_source": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075",
   "source_retrieval": "See freeze.json, experiments/gsfm007/SOURCE_ATTRIBUTION.md and docs/experiments/GSFM-007.md",
   "files": 26184,
-  "total_local_bytes": 7377140997,
+  "total_local_bytes": 7377135786,
   "verification": "verification.json: PASS, 12960 states; six1500-update fits; 4860timed requests +18warmups",
   "unknown_candidate": "case300 spatial-027; local status LOCALLY_INFEASIBLE is not proof of infeasibility",
-  "document_delivery": "Results update follows reviewed result commit; exact result commit is supplied in Google Doc and final chat."
+  "document_delivery": "COMPLETE: task and Results updated; native tables match, five numbered findings link to evidence; old Results text preserved; exported PDF pages30\u201333 visually checked; original failed gate retained",
+  "scientific_result_commit": "f1e22571dd3edc9c23ce78c85cbd4802f8ba06d8",
+  "remote_scientific_commit_verified": true,
+  "document_url": "https://docs.google.com/document/d/19jzhfyde3PvHPJAd97ITYNX1WQqMtkC1F8siDWOhJM0",
+  "delivery_utc": "2026-10-21T21:37:06.205280+00:00",
+  "delivery_elapsed_seconds": 5922.20528
 }

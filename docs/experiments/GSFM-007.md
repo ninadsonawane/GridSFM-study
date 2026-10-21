@@ -1,6 +1,6 @@
 # TASK GSFM-007 — Experiment 10: when does GridSFM adaptation provide practical AC-OPF value?
 
-Date: 22 October 2026. Status: READY FOR HARDWARE; not executed by the Windows planner. Ninad explicitly requested this bounded follow-up in Exchange To-do and delegated the second-network choice. This task supersedes the proposed no-training Experiment 10 / separate Experiment 11 sequence in the post-Experiment-9 planning note. Preserve all prior tasks and Results.
+Date: 22 October 2026. Status: COMPLETE on M5 Pro /64GB, run20261021T195824Z-m5-practical. All six1,500-update fits,180 fixed confirmation candidates,4,860 timed requests plus18 warm-ups, and240 control substitutions completed. Scientific verification passed after84.64minutes, re-scoring12,960 saved states. [Results](../../results/pilots/GSFM-007/20261021T195824Z-m5-practical/README.md), scientific result commitf1e22571dd3edc9c23ce78c85cbd4802f8ba06d8 pushed and remote verified. Exchange task/Results updated and prior Results preserved. Original protocol below remains the execution specification. STOP; no automatic follow-up.
 
 ## Question and intended paper
 
