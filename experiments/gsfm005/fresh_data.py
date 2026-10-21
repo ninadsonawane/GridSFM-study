@@ -42,6 +42,6 @@ def main():
             seen.add(hc)
             rec=label(server,c,f'spatial-{j:03d}','spatial',{'seed':30504,'seed_note':'deterministic SVD projection; no random draws required','region':j%4,'actual_factors':combined.tolist(),'eligible_indices':eligible},extra);recs.append(rec)
         manifests['spatial']=recs;save(RUN/'data/manifest.json',manifests)
-        counts={k:{'accepted':sum(r['accepted'] for r in rs),'attempted':len(rs)} for k,rs in manifests.items()};save(RUN/'data/counts.json',counts);log('DATA_COMPLETE',counts=counts)
+        counts={k:{'accepted':sum(r['accepted'] for r in rs),'attempted':len(rs)} for k,rs in manifests.items()};save(RUN/'data/counts.json',counts);save(RUN/'coverage.json',dict(counts=counts,generation_seconds=time.time()-generation_start,freeze_sha256=sha(RUN/'freeze.json'),failures=[{k:v for k,v in r.items() if k not in ['path']} for rs in manifests.values() for r in rs if not r['accepted']],note='Failed local solves are unknown, not infeasibility labels; no replacement of failed spatial pairs.'));log('DATA_COMPLETE',counts=counts)
     finally:server.close()
 if __name__=='__main__':main()

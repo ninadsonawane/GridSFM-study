@@ -15,7 +15,7 @@ class MemoryMonitor:
 def fit(arm,seed,train,valid,rho):
     deadline()
     if COMPUTE_END-time.time()<1100: return dict(arm=arm,seed=seed,status='SKIPPED',stop_reason='insufficient measured fit/evaluation reserve')
-    directory=RUN/f'training/seed-{seed}/{arm}';directory.mkdir(parents=True,exist_ok=False);order=read(RUN/f'orders/seed-{seed}.json')['indices'];model=make_model(arm,seed);manifest=trainable_manifest(model,arm);params=[p for p in model.parameters() if p.requires_grad];optimizer=torch.optim.AdamW(params,lr=1e-4,weight_decay=1e-4);monitor=MemoryMonitor();start=time.perf_counter();validation=[];paths={};updates=0;trace=[];reason=None
+    directory=RUN/f'training/seed-{seed}/{arm}';directory.mkdir(parents=True,exist_ok=False);order=read(RUN/f'orders/seed-{seed}.json')['indices'];model=make_model(arm,seed);manifest=trainable_manifest(model,arm);manifest.pop('arm');params=[p for p in model.parameters() if p.requires_grad];optimizer=torch.optim.AdamW(params,lr=1e-4,weight_decay=1e-4);monitor=MemoryMonitor();start=time.perf_counter();validation=[];paths={};updates=0;trace=[];reason=None
     initial_model_hash=content_hash({n:hashlib.sha256(p.detach().numpy().tobytes()).hexdigest() for n,p in model.state_dict().items()})
     def snapshot(step):
       rows,_=evaluate_model(model,valid,directory/f'validation-{step:04d}.json');path=directory/f'step-{step:04d}.pt';checkpoint(model,optimizer,arm,step,path,order);paths[step]=str(path)
@@ -45,12 +45,18 @@ def fit(arm,seed,train,valid,rho):
 
 def main():
     assert read(RUN/'checks.json')['status']=='PASS'
-    if (RUN/'training').exists():raise RuntimeError('Existing worker/fits must not restart')
+    continuing='--continue-preserved' in sys.argv
+    if (RUN/'training').exists() and not continuing:raise RuntimeError('Existing worker/fits must not restart; explicit continuation only after audit')
     calibration=read(RUN/'calibration.json');rho=calibration['rho'];manifest=read(OLD/'data/manifest.json');train=load_split('train',manifest);valid=load_split('validation',manifest);fits=[]
     for seed,arms in [(11,['S','C','E','C_m']),(22,['C','E','C_m','S']),(33,['E','C_m','S','C'])]:
       for arm in arms:
         if arm=='C_m' and rho is None:continue
-        result=fit(arm,seed,train,valid,rho);fits.append(result);save(RUN/'training-summary.json',fits)
+        existing=RUN/f'training/seed-{seed}/{arm}/summary.json'
+        if existing.exists():
+          if not continuing:raise RuntimeError('Duplicate worker prevented')
+          result=read(existing);assert result['status']=='COMPLETE' and result['actual_updates']==1000;log('REUSED_COMPLETED_FIT',seed=seed,arm=arm)
+        else:result=fit(arm,seed,train,valid,rho)
+        fits.append(result);save(RUN/'training-summary.json',fits)
         if result['status']=='FAILED' or ('memory' in (result.get('stop_reason') or '') or 'RSS' in (result.get('stop_reason') or '')):raise RuntimeError('Failed fit or memory stop; retained state')
     checkpoint_rows=[]
     for fitrow in fits:
