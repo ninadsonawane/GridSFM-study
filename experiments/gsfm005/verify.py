@@ -29,7 +29,7 @@ def main():
         for b,o in zip(c['bus'],base['bus']):assert b[:2]+b[4:]==o[:2]+o[4:]
         if r['accepted']:
           accepted+=1;assert read(p/'reference-metrics.json')['all_tested_constraints_pass']
-          ref=read(p/'reference.json');assert evaluate(c,ref)['all_tested_constraints_pass']
+          ref=read(p/'reference.json');assert evaluate(c,ref)['all_tested_constraints_pass'];raw=read(p/'solver-result.json');assert abs(cost(c,ref['pg_mw'],ref['qg_mvar'])-raw['objective'])<=1e-8*max(1,abs(raw['objective']))
         if split=='spatial':
           before=read(Path(next(q for q in data['ordinary'] if q['scenario_id']==r['pair_id'])['path'])/'input.json');d=np.array([[b[2],b[3]] for b in c['bus']])-np.array([[b[2],b[3]] for b in before['bus']]);drift=abs(d.sum(axis=0));maxdrift=np.maximum(maxdrift,drift).tolist();assert max(drift)<1e-7
           for a,b in zip(c['bus'],before['bus']):assert abs(a[2]*b[3]-a[3]*b[2])<1e-7
