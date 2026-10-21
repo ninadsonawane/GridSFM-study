@@ -2,7 +2,7 @@
 
 Permanent research home for Ninad Sonawane's proposed steady-state AC-OPF study with Professor Surya Santoso and his postdoc. The professor's involvement and suggestions are **user-reported**; scope and review arrangements remain to be discussed.
 
-**Current next hardware task: [GSFM-004, bounded experiment discovery](docs/experiments/GSFM-004.md).** The user requested a broader pilot on the M5 Pro/64GB: six adaptation/control variants, simple baselines and demand-shift evaluation, capped at eight hours including all work. See [decision0003](docs/decisions/0003-bounded-discovery-pilot.md). GSFM-003 correctness checks remain prerequisites; its smoke-only stop is superseded for this new task. No adaptation result has yet been posted in the freshly read Exchange document.
+**Current next hardware task: [GSFM-004 revision2, five-hour discovery pilot](docs/experiments/GSFM-004.md).** The user reduced the M5 Pro/64GB pilot to a five-hour ceiling including all work: six adaptation/control variants, one seed, <=200updates/25minutes per fit,90development examples, simple baselines and demand-shift evaluation. Second seed, extra-network checks and MPS probing are deferred. See [decision0003](docs/decisions/0003-bounded-discovery-pilot.md). GSFM-003 correctness checks remain prerequisites; its smoke-only stop is superseded for this task. No adaptation result has yet been posted in the freshly read Exchange document.
 
 The [publication plan after the VM experiments](docs/research/2026-10-21-publication-plan.md) is research background. The [initial research report](docs/research/2026-10-21-initial-study.md) remains the historical source/setup package; its unrun status and original scope are no longer the latest state.
 

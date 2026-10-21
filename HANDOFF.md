@@ -2,6 +2,8 @@
 
 ## Current amendment: bounded discovery pilot, 21 October 2026
 
+**Budget revision2 now controls:** the user asked for4-5hours. GSFM-004 is reduced to a five-hour inclusive cap, compute stops at4h40m, six fits/one seed11, <=200updates and25minutes per fit,50train plus10each validation/ordinary/spatial/high-load. Second seed, cross-case audit and MPS probe are deferred. Preserve any work already started; the clock runs from the original start and no duplicate or automatic restart is permitted. The earlier eight-hour paragraph below is historical.
+
 The user explicitly requested a new hardware To-do with multiple hypothesis-screening experiments for M5 Pro/64GB. Read **`docs/experiments/GSFM-004.md`** and decision0003 first. This supersedes003's smoke-only operational stop, while retaining its uncompleted correctness checks. The latest live Exchange read still contained only frozen/diagnostic results; no new adaptation result was reported.
 
 New scope: one50-label dataset, nearest-example/ridge/frozen baselines, six neural variants (full no/stock/exact KCL, heads, rank2 FFN-LoRA+heads, scratch), at most two balanced seeds, <=400common updates and30minutes per fit, <=8hours total including implementation/data/reporting. CPU FP32 model + CPU float64 original-parameter physics, sequential execution. Ordinary, paired spatial-demand and higher-load evaluation slices are all development data. Optional small cross-case operator audit only within the cap. No automatic final-study training, paid compute, publication submission or correspondence. Existing publication-plan sections below are historical proposals until this pilot chooses a hypothesis.

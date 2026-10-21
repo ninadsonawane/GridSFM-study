@@ -2,6 +2,8 @@
 
 Date: 21 October 2026. Status: proposed experiments authorized as a bounded To-do by the user's request; not executed by the planner.
 
+**Later same-day budget amendment:** Ninad requested4-5hours. The controlling GSFM-004 revision2 uses a five-hour cap including all work, six fits with seed11 only, <=200updates/25minutes per fit, and90development examples (50train,10validation,10ordinary,10spatial,10higher-load). Defer second seed, breadth audit and MPS probe. Compute stops by4h40m, reserving20minutes for reporting. If already running, retain work and count elapsed time from the original start. The original eight-hour design below remains historical; it is no longer authorized as the current run budget.
+
 The user asked for multiple hardware experiments that can determine which research hypothesis is worth pursuing, using the M5 Pro with64GB. A fresh read of Exchange still showed only frozen inference/diagnosis/initialization results. GSFM-003 remained READY, without posted adaptation results.
 
 [GSFM-004](../experiments/GSFM-004.md) now controls the next run. It retains the correctness gate from003 but expands to a fixed-recipe, at-most-eight-hour discovery pilot: six neural arms, at most two seeds, common updates <=400, at most30minutes per fit, and simple nearest-example/ridge baselines. One50-label training set,20validation examples and ordinary/spatial/higher-load development slices support all comparisons. Everything remains development data. No final paper-test set or automatic main-study run is authorized by this To-do.
