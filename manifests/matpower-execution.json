@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "source_commit": "1a828c7af590714499284e36ee9c81273388c594",
+  "source_sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+  "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "command": [
+    "C:\\Users\\Ninad\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "scripts/python/matpower_test.py"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_asymmetry_conservation (__main__.MatpowerStructureTests) ... ok\ntest_counts_and_terminal_map (__main__.MatpowerStructureTests) ... ok\ntest_different_voltage_terminals_rejected (__main__.MatpowerStructureTests) ... ok\ntest_double_outage_rejected (__main__.MatpowerStructureTests) ... ok\ntest_exact_source (__main__.MatpowerStructureTests) ... ok\ntest_missing_external_id_rejected (__main__.MatpowerStructureTests) ... ok\ntest_no_input_mutation (__main__.MatpowerStructureTests) ... ok\ntest_original_impedances_shunts_and_costs_preserved (__main__.MatpowerStructureTests) ... ok\ntest_qcost_order (__main__.MatpowerStructureTests) ... ok\ntest_reference_and_pv_role (__main__.MatpowerStructureTests) ... ok\ntest_single_outage_stays_connected_preserves_id (__main__.MatpowerStructureTests) ... ok\ntest_source_audit (__main__.MatpowerStructureTests) ... ok\ntest_source_is_already_multigraph (__main__.MatpowerStructureTests) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.116s\n\nOK\n",
+  "construction_counts": {
+    "bus": 600,
+    "gen": 138,
+    "branch": 824,
+    "gencost": 138
+  },
+  "MATLAB_Octave_executed": false,
+  "PF_OPF_executed": false,
+  "observed_failures": [
+    {
+      "step": "Invoke-WebRequest raw official GitHub",
+      "outcome": "TLS authentication failure; resolved via pinned git clone and git show bytes"
+    },
+    {
+      "step": "neutral construction console redirection to missing work directory",
+      "outcome": "PowerShell open error; rerun via direct Python file output succeeded"
+    }
+  ],
+  "code_sha256": {
+    "scripts/python/matpower_case.py": "f200f52dd96529aaa7f4bddb05f7e76f14d5fbd55c4a40880c9a7b5577968511",
+    "scripts/python/matpower_test.py": "bbf8dcd46c426e3161fd59ab3ec2ef484363a4835dc24466e1589156eb56af28"
+  }
+}

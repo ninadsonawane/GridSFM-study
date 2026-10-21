@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-21",
+  "kind": "new structural tests; NOT power-system solver results",
+  "command": "python scripts/python/gridsfm_selfcheck.py --upstream /path/to/GridSFM --lora",
+  "exit_code": 0,
+  "runtime_used_for_small_checks_only": {"python": "3.9.10", "torch": "2.7.0+cpu", "numpy": "2.0.1", "scipy": "1.13.1", "torch_geometric": "NOT INSTALLED"},
+  "converter_unittests": {"passed": 6, "failed": 0, "tests": ["parallel physical identity and external-ID mapping", "single-tie outage retains remaining label identity", "power/angle/cost/shunt conversions", "solution-label feature invariance", "transformer orientation/shift/charging and zero ratings", "fail closed on disconnected networks, nonzero Q-cost, invalid labels/objective, dispatchable loads, noninteger cost count"]},
+  "actual_upstream_cycle_function": {"status": "PASS", "source_commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6", "method": "AST-extracted actual _fundamental_cycles_fast function with real numpy/scipy/torch and minimal stores; no torch_geometric import", "two_parallel_edges_cycles": 1, "reversed_second_edge_cycles": 1, "single_remaining_edge_cycles": 0},
+  "imported_lora_tiny_nn_contract": {"status": "PASS", "file_sha256": "77c3eb890703d20adc2881139ba17e34ddddc30ac9f9b4d07ef36527556aef95", "checks": ["exact FFN target paths", "zero-output adapter equals baseline", "backbone parameters frozen", "adapter receives gradients", "disabling adapter equals baseline"], "scope": "Tiny unrelated FFN wrapper; no GridSFM forward or adaptation experiment"},
+  "constructed600_unsolved_conversion": {"status": "PASS", "source_file": "data/generated/case300x2-neutral.json", "source_file_sha256": "7919d41efffb6c59a738d5700bd30e49115703098f74160609523399b592e34b", "source_canonical_sha256": "c9ccd2b9d5c04a04eb65b911535e2a88906a04f7a8b6bcf2dc1171e13085cb6a", "output_file_sha256": "4df26abd7350c7c5a56c0cc7af7c8d38c6f2e56aa23334e3fcd21f658cf8460d", "output_file": "local work/case300x2.pyg.json (regenerable; not tracked)", "buses": 600, "generators": 138, "loads": 402, "shunts": 58, "ac_lines": 566, "transformers": 258, "parallel_tie_ids": ["tie:1", "tie:2"], "solved_labels": false},
+  "pending": ["isolated supported Python environment", "full PyG preprocessing/promotion/batching", "one checkpoint inference", "prediction-level label-invariance", "custom-dataset loss/backward with GridSFM", "accepted AC-OPF label round-trip", "matched trainer implementation", "LoRA/full-FT experimental runs", "runtime/memory measurement"]
+}

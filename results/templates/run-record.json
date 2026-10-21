@@ -1,0 +1,22 @@
+{
+  "run_id": null,
+  "status": "template_not_a_run",
+  "started_utc": null,
+  "ended_utc": null,
+  "code_commit": null,
+  "dirty_tree": null,
+  "config_sha256": null,
+  "source_case_sha256": null,
+  "network_manifest_sha256": null,
+  "checkpoint_sha256": null,
+  "split_manifest_sha256": null,
+  "seed": null,
+  "dependency_lock_sha256": null,
+  "hardware": null,
+  "solver_tolerances": null,
+  "command": null,
+  "exit_code": null,
+  "failure_reason": null,
+  "artifact_uris_and_sha256": [],
+  "local_only_artifacts": []
+}

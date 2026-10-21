@@ -1,0 +1,84 @@
+{
+  "review_date": "2026-10-21",
+  "review_method": "Primary full-paper text and selected table inspection through web tools; no numerical reproduction; PDF screenshots unavailable in this browser tool",
+  "full_text_redistributed": false,
+  "papers": [
+    {
+      "bibtex_key": "bhan2026gridsfm",
+      "full_text": "https://arxiv.org/pdf/2609.30173v2",
+      "version": "v2, 2026-10-06",
+      "status": "preprint; peer-reviewed venue not verified",
+      "inspected": ["Introduction and preliminary-whitepaper footnote", "Sections III-VI", "Table I", "Reference 6"],
+      "code_link_in_paper": "https://github.com/lukebhan/gridsfm"
+    },
+    {
+      "bibtex_key": "yang2026gridsfmwhitepaper",
+      "full_text": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/GridFM_white_paper.pdf",
+      "metadata": "https://www.microsoft.com/en-us/research/publication/gridsfm-a-foundation-model-for-ac-optimal-power-flow/",
+      "version": "May 2026 technical whitepaper as served 2026-10-21; filename is not an immutable version identifier",
+      "status": "technical whitepaper, not peer reviewed",
+      "inspected": ["Overview", "Sections 4-5", "Section 6.3 and Table 5", "Sections 7-9 and Tables 7-11"],
+      "code_link_in_paper": "https://github.com/microsoft/GridSFM"
+    },
+    {
+      "bibtex_key": "lovett2024opfdata",
+      "full_text": "https://arxiv.org/pdf/2406.07234v2",
+      "version": "v2, 2024-06-18",
+      "status": "dataset preprint",
+      "inspected": ["Section 2", "Table 1", "Appendix A schema and split description"]
+    },
+    {
+      "bibtex_key": "pglib2021benchmark",
+      "full_text": "https://arxiv.org/pdf/1908.02788v2",
+      "version": "v2, 2021-01-04",
+      "status": "IEEE PES task-force report",
+      "inspected": ["Section II and Model 1", "Sections III-VI", "Tables II, V, VI", "API and SAD construction descriptions"]
+    },
+    {
+      "bibtex_key": "pan2023deepopf",
+      "full_text": "https://arxiv.org/pdf/2007.01002v6",
+      "metadata": "https://scholars.cityu.edu.hk/en/publications/deepopf-a-feasibility-optimized-deep-neural-network-approach-for-/",
+      "version": "author preprint v6, 2022-07-01; journal issue March 2023",
+      "status": "peer-reviewed journal article; author preprint inspected",
+      "inspected": ["Prediction/reconstruction and recovery description", "Section VI-A experimental setup", "Table IV and feasibility footnotes"]
+    },
+    {
+      "bibtex_key": "dong2020smartpgsim",
+      "full_text": "https://pasalabs.org/papers/2020/SC20_Smart-PGSim.pdf",
+      "alternate_full_text": "https://arxiv.org/pdf/2008.11827v1",
+      "metadata": "https://www.pnnl.gov/sc20/featured-presentations",
+      "doi_metadata": "https://www.pnnl.gov/news-media/pnnl-researchers-speed-power-grid-simulations-using-ai",
+      "version": "SC20 author paper; unversioned author URL",
+      "status": "peer-reviewed SC20 conference paper",
+      "inspected": ["Sections VI-VIII", "Table II", "Eq. 10", "Figures 4-5 and associated results"],
+      "access_limit": "DOI endpoint did not load; author paper and primary institution conference listing were accessible"
+    },
+    {
+      "bibtex_key": "karim2026peftpf",
+      "full_text": "https://arxiv.org/pdf/2602.18227v2",
+      "version": "v2, 2026-05-17",
+      "status": "preprint; peer-reviewed venue not verified",
+      "inspected": ["Adaptation design", "Sections III-IV", "Tables I-II"],
+      "code_link_in_paper": "https://github.com/night-fury-me/efficient-graph-pf"
+    },
+    {
+      "bibtex_key": "bernier2025powergraphllm",
+      "full_text": "https://arxiv.org/pdf/2501.07639v3",
+      "metadata": "https://orbilu.uni.lu/handle/10993/66633",
+      "alternate_metadata": "https://orbilu.uni.lu/profile?uid=50063488",
+      "version": "arXiv v3, 2026-01-27; journal issue 2025",
+      "status": "peer-reviewed journal letter; author preprint inspected",
+      "inspected": ["Sections II-III", "Table I", "Output validity definition", "LoRA rank/alpha and training setup"],
+      "access_limit": "University metadata returned in primary-domain search; later direct open returned HTTP 502"
+    },
+    {
+      "bibtex_key": "hu2022lora",
+      "full_text": "https://arxiv.org/pdf/2106.09685v2",
+      "metadata": "https://iclr.cc/virtual/2022/poster/6319",
+      "version": "arXiv v2, 2021-10-16; ICLR 2022",
+      "status": "peer-reviewed conference paper; author preprint inspected",
+      "inspected": ["Section 4", "Section 5 and Table 2"],
+      "access_limit": "OpenReview browser challenge; official ICLR program and arXiv full text accessible"
+    }
+  ]
+}

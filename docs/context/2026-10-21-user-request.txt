@@ -1,0 +1,142 @@
+Conduct a source-backed technical research and experiment-design study for a FIVE-PAGE IEEE conference paper on GridSFM. Produce a concrete plan I can discuss with Professor Surya Santoso and his postdoc, then implement. Do the research now rather than only describing how you would research it. Use primary papers, official documentation, source code and reproducible evidence. Give conclusions and supporting reasoning without a transcript of your internal deliberation.
+
+CONTEXT AND SCOPE
+
+I am Ninad Sonawane. After reviewing my presentation, Professor Santoso suggested experimenting with GridSFM on MATPOWER's IEEE case300. If 300 buses is too small, he suggested connecting two copies through two parallel lines. He invited me to develop a conference paper with him and his postdoc and requested a draft or proposed contents by email. His suggestion is the starting point, not an already validated research contribution.
+
+The target is the 2027 IEEE Power & Energy Society General Meeting in San Francisco, 25-29 July 2027. Its official call currently specifies a full paper of at most five pages, due 10 November 2026. This brief was prepared on 21 October 2026. Verify the current deadline, submission timezone, formatting and page-limit rules; do not assume an extension. If today is later, adjust the schedule honestly.
+
+I have competing admissions deadlines. Recommend ONE focused question and a feasible minimum study, with optional extensions clearly separated. This is ordinary steady-state AC-OPF research on GridSFM. My earlier multi-frequency sequential PF/OPF work provides background but is a separate experiment. Do not introduce LFAC, DC converters or dynamic stability into this paper without a defensible need and my agreement.
+
+My previous GridSFM/LoRA work used a 6,470-bus target and FFN adapters. It is useful code and historical evidence, not validation of case300 or a new 600-bus system. Published full-fine-tuning results from another study are not a matched baseline. Fewer trainable parameters alone do not prove lower memory, runtime or energy use.
+
+ACCESS AND STARTING SOURCES
+
+Primary working repository for this study: https://github.com/ninadsonawane/GridSFM-study
+Historical project archive/reference: https://github.com/ninadsonawane/research-learning
+If this local workspace is accessible, the checkout is:
+C:\Users\Ninad\Documents\Codex\2026-10-20\ca\work\research-learning
+
+Read AGENTS.md, HANDOFF.md and docs/source-repositories.json, then selectively inspect:
+- external/GridSFM/model/README.md and pyproject.toml
+- external/GridSFM/model/gridsfm/{data,schema,checkpoint,eval,loss,finetune_opfdata,opfdata_train,lora,cycle_basis,pe_features,dc_prior}.py
+- external/GridSFM/model/examples/train_lora_case6470.py and lora_case6470.yaml
+- external/GridSFM/power_grid/US/topology_solver_pipeline/export_gridsfm_data.jl
+- external/GridSFM/model/examples/prototype_opfdata_roundtrip.py
+- Relevant whitepaper and audit material identified in HANDOFF.md, only where needed.
+
+The archived GridSFM fork records branch feature/lora-ffn-adapters and baseline commit 1e5e3a1640b27768e3eaf32680184f26b407caab. Nested repositories are flattened in this archive. Compare with upstream deliberately; distinguish archived behavior from newer upstream code.
+
+Primary web sources to begin with:
+- Conference: https://pes-gm.org/2026-montreal/program-at-a-glance/2027-call-for-papers/
+- Upstream code: https://github.com/microsoft/GridSFM
+- Model documentation: https://github.com/microsoft/GridSFM/blob/main/model/README.md
+- GridSFM paper: https://arxiv.org/abs/2609.30173 (verify authors, version and relationship to the May 2026 whitepaper)
+- Checkpoint: https://huggingface.co/microsoft/GridSFM_Open
+- MATPOWER: https://github.com/MATPOWER/matpower
+- Case: https://github.com/MATPOWER/matpower/blob/master/data/case300.m
+- Case format: https://matpower.org/documentation/ref-manual/legacy/functions/caseformat.html
+- Index conversion: https://matpower.org/documentation/ref-manual/legacy/functions/ext2int.html
+- OPFData: https://arxiv.org/abs/2406.07234
+
+If private/local files are unavailable, state that once, continue with accessible sources, and identify the exact small files required to resolve remaining gaps. Do not pretend you inspected an inaccessible repository. Do not expose credentials or unrelated personal information.
+
+RESEARCH REPOSITORY, HISTORY AND CONTINUITY
+
+I have created https://github.com/ninadsonawane/GridSFM-study as the permanent home for this project. Put the research package and all subsequent work for this study there. I explicitly authorize normal commits and pushes of this project's work to that repository. Saving only in chat or leaving the work solely on the local machine does not fulfill this requirement.
+
+Clone or reuse the correct checkout, inspect any existing contents and repository instructions, and preserve existing work. Use the repository's established branch workflow; initialize its first branch if it is empty. Keep research-learning as the historical reference and preserve its archived baselines. Record source repository URLs, exact commits, licenses and any imported changes rather than claiming the new repository contains the old repositories' complete Git histories.
+
+Save this prompt and the initial research report in GridSFM-study. Maintain a clear structure covering:
+- README.md: purpose, paper target/deadline, current question, project map and reproduction entry points.
+- AGENTS.md and HANDOFF.md: project-specific instructions, current state, environment/setup, what actually ran, blockers, open questions and exact next steps for another researcher or AI session.
+- docs/context/ and docs/history/: the relevant prior project context, my reported professor meeting, research-related user/assistant discussion exports or faithful dated summaries, and links to the available original archive. Label summaries, user-reported feedback and historical claims accurately. Record only history that is actually available.
+- docs/decisions/ and a dated research log: hypotheses, choices, assumptions, rejected directions, failures, corrections and the reasons for changes. Preserve superseded decisions with dates and status instead of silently rewriting the history.
+- Literature notes and references: verified citations, source links, versions and the evidence/novelty table. Include third-party full text or datasets only where redistribution is permitted.
+- Source code, notebooks, scripts, environment/lock files and experiment configurations, including network construction, conversion, validation, training and evaluation.
+- Data provenance, network variants, scenario/split manifests, seeds, run IDs, logs, numerical results, figures and the scripts that regenerate them. Link each result to its code commit, configuration, dependencies and hardware. Retain unsuccessful as well as successful experiment records and distinguish new runs from historical results.
+- Paper outlines/drafts, bibliography, figure/table sources and professor email drafts. Mark unsent drafts clearly and include only research-relevant correspondence that I provide or authorize you to access.
+
+Use a practical repository layout rather than copying every old scratch directory. Preserve the complete relevant scientific record in a navigable form. Exclude credentials, account databases, unrelated personal/admissions/visa material, virtual environments and regenerable caches. For large datasets, checkpoints or binaries unsuitable for ordinary Git, use a repository-supported Git LFS/release/artifact arrangement where available, or retain immutable source links, checksums and retrieval instructions. Report any artifacts that remain only local; do not claim the record is complete while essential outputs are missing.
+
+Commit and push the initial research package, then commit and push at meaningful milestones as subsequent work is authorized and completed. Before committing, review the intended changes and stage project files deliberately. Do not force-push or discard existing work. After pushing, verify the remote branch contains the expected commit. At each handoff, report the branch, commit, verification performed and any unsynced files. If authentication or network access blocks a push, preserve the local commit, state the exact blocker and continue independent work; never claim a push succeeded without verification.
+
+1. RESEARCH QUESTION AND NOVELTY
+
+Assess this candidate question: How robust are GridSFM's AC-OPF predictions to changes in loading and inter-area transfer in an interconnected test system, and how much target-specific adaptation is required to improve accuracy and physical feasibility?
+
+Compare at most three viable angles: zero-shot generalization; matched parameter-efficient adaptation; learned initialization for a conventional solver. Recommend one primary angle and explain its closest prior work, falsifiable hypotheses, required evidence and practical risks. Do not require all three in one paper. Connecting two copies of an existing case is an experimental construction, not automatically a novel method.
+
+Review at least five closely relevant primary papers, including GridSFM and data/benchmark work as appropriate. Give a compact evidence table: exact citation/link, what was actually tested, relevant result, limitation, and remaining gap. Inspect the actual papers before attributing claims. Distinguish peer-reviewed papers, preprints, repository documentation and our own proposals. Do not manufacture novelty, papers or acceptance predictions.
+
+2. GRID SFM SUITABILITY AND REPRODUCIBILITY
+
+The currently inspected model README describes training/support beginning at 500 buses and recommends the v1.1 checkpoint for fine-tuning. Verify this against the paper, checkpoint and code. Distinguish an input-size restriction from a training-distribution limitation. Explain what conclusions a 300-bus evaluation could support. A constructed 600-bus case is not automatically in-distribution simply because its bus count exceeds 500.
+
+Check whether case300 or closely related cases were present in pretraining or previous adaptation; if this is unknown, say so. Consider a bundled supported-size sample as an installation/conversion control, not proof of generalization.
+
+Specify pinned code/checkpoint versions, hashes, dependencies, hardware needs and separate CPU-smoke and GPU-training paths. The local PF/OPF Python environment is separate from GridSFM; do not assume its dependencies, checkpoints or GPU are ready. Recommend an isolated environment and justify Windows versus WSL/Linux support from evidence. Treat unmeasured runtime and memory as estimates requiring a pilot.
+
+3. FETCH AND VALIDATE MATPOWER CASE300
+
+Provide precise acquisition, installation and MATLAB/GNU Octave commands to load the official case, run base AC power flow and AC optimal power flow, inspect status and residuals, and save an immutable source copy plus manifest. Pin a MATPOWER release or commit and the actual case file checksum. Explain the distinction between MATPOWER case300, PYPOWER's case300 and PGLib variants; do not silently substitute them.
+
+Inspect baseMVA, external bus IDs, voltage levels, active equipment, generators/costs, shunts, taps, angle bounds and branch ratings. MATPOWER specifies RATE_A=0 as unlimited: report the actual case's ratings and avoid calling an unconstrained branch thermally feasible. Document any assumptions added to make an OPF stress experiment meaningful.
+
+Use explicit index maps. Case300's external IDs are not safely treated as row indices or as 1..300. Explain ext2int's removal/reordering of inactive equipment and its order metadata; preserve provenance and avoid stale order mappings after concatenation. Require matching generator and gencost rows, including correct handling if separate reactive-cost rows exist.
+
+4. CONSTRUCT TWO CONNECTED COPIES
+
+Use a provisional interpretation of two independently represented case300 copies joined by two physical AC circuits between the SAME pair of terminal buses, pending professor confirmation. Also explain how two ties at different terminal pairs would differ. Draw a small labeled schematic and give clear MATLAB/Octave construction code or a parameterized function with validation checks.
+
+The construction must address:
+- Collision-free bus and equipment IDs; explicit old-to-new mappings; consistent baseMVA and per-unit conversion. Copy all required fields and preserve generator-cost correspondence.
+- A reasoned choice of terminals with compatible nominal kV and adequate connectivity. Distinguish original bus IDs from row positions. A direct line cannot silently replace a transformer between different voltage levels.
+- One angle reference per connected synchronous island. After connection, retain the appropriate generator voltage-control role at the former second reference bus. Explain this for both PF and OPF instead of fixing two independent phase references accidentally.
+- Explicit r, x, charging, ratings, status, tap convention and angle-limit assumptions for each added circuit. Derive illustrative values from a cited model or declare and justify them; do not present guessed values as measured equipment data.
+- Two independent branch rows with persistent IDs and per-circuit constraints. Explain why one equivalent branch can lose the individual-outage and rating behavior needed in this study.
+- Initially symmetric copies may provide little transfer stress. Design controlled, physically feasible loading or cost asymmetry to create meaningful inter-area exchange. Separate load changes from cost changes so effects can be interpreted.
+- Compare both ties available with one tie unavailable. Two identical tie outages are symmetric duplicates, not independent topology evidence. Removing both ties creates islands; exclude that case from the minimum study or handle each island's reference and feasibility explicitly.
+
+Explain PF/OPF validation, connectivity checks, expected counts, conservation and branch-flow checks before involving ML. Label the result as our constructed interconnected case. Do not attribute it to IEEE/MATPOWER as an official 600-bus benchmark.
+
+5. CONVERT INTO GRIDSFM WITHOUT CHANGING THE PROBLEM
+
+Trace the actual MATPOWER -> solver/export -> GridSFM loader -> preprocessing -> inference/evaluation path. Assess whether export_gridsfm_data.jl can be reused and what changes are needed. Provide a field/unit mapping and one-scenario round-trip validation procedure. Compare objective, injections, voltages, branch flows and limits before and after conversion using identical assumptions.
+
+The inspected README says native .pyg.json supports inference while the existing fine-tuning path expects OPFData-specific schema and labels. Identify the exact dataset adapter, solution-label wiring, transforms and tests necessary for custom cases. Merely exporting JSON or changing a case-name string is not sufficient.
+
+Audit degrees/radians; MW/MVAr/per-unit; shunt signs; line-charging split; transformer orientation and phase shift; generator-cost scaling; masks/status; and branch ordering/flow-label direction. Verify that solved labels cannot leak into inference features. Preserve parallel-edge identities through conversion, cycle/positional features, batching, losses and metrics. The archived cycle-basis code contains explicit handling of multiple edges per bus pair; test end-to-end support rather than assuming it fails or succeeds.
+
+Inspect any parser normalization, automatic rating inference or feasibility-relaxation routines. Do not silently relax the case to generate successful labels. Preserve and disclose every source-to-solver transformation. A numerical solver failure is not a proof of infeasibility and must not automatically become a negative classifier label.
+
+6. MINIMUM EXPERIMENT MATRIX AND METRICS
+
+Recommend a small first pilot, a paper-essential study and optional extensions, with explicit scenario counts, seeds, run counts, hardware assumptions and stopping criteria. Include a deadline-feasible fallback if custom fine-tuning integration takes too long. Distinguish operating-point generalization on one topology from generalization to unseen interconnections or outages.
+
+Candidate minimum comparisons:
+- A conventional AC-OPF numerical reference, with solver, tolerances, initialization, feasibility checks and occasional alternative starts disclosed. Do not label a local optimum as globally certified ground truth.
+- Frozen released GridSFM on held-out scenarios.
+- If adaptation is the selected contribution: matched LoRA and full fine-tuning from the same checkpoint, same data split, evaluation code and documented tuning budget. Add head-only adaptation only if it answers a necessary question.
+
+Use separate training, validation and untouched test sets. Group related scenario families/topologies to prevent leakage when making topology-transfer claims. Include held-out load regimes and relevant single-tie outages without creating a huge Cartesian product. Use multiple independent training seeds where feasible and report scenario counts, failures and uncertainty. Do not select models or tie parameters using final test performance.
+
+Evaluate generation-cost error, voltage magnitude, reference-aligned/wrapped angle error, Pg/Qg error, nodal active/reactive residuals, generator/voltage violations, and applicable branch limits at both ends. Recompute physical branch flows from predicted voltages and original equipment parameters; agreement with a learned flow head alone is insufficient. Define thresholds and units. Report mean, median, tail and maximum errors, plus the proportion of predictions satisfying all tested constraints.
+
+Treat cost error from an infeasible predicted dispatch separately from achieved feasible operating cost. A scenario-feasibility classifier cannot certify its predicted dispatch. Avoid percentage-error formulas with zero denominators.
+
+If measuring efficiency, separately report preprocessing, inference, repair/solver time, cold and warm behavior, failures, training time, trainable parameters and measured peak memory. A warm-start claim requires fair flat/conventional-start baselines, actual solver use of the prediction, equal termination tolerances, end-to-end time and comparable feasible solution quality. Keep it optional unless it becomes the main question.
+
+7. DELIVERABLES
+
+Return, in order:
+1) A concise recommendation with the chosen question, scope and the five decisions that matter most.
+2) The evidence/novelty table with verified sources and unresolved claims.
+3) A reproducible setup guide and parameterized case-construction/conversion code. Mark code as untested unless actually executed, and report exactly what was checked.
+4) The experiment matrix, metrics, acceptance gates and expected figure/table layouts with EMPTY result fields.
+5) A five-page paper outline with approximate page allocation, proposed title, contribution statements phrased as hypotheses, and 2-3 figures/tables. Verify whether references count within the limit.
+6) A realistic dated plan from now to submission, including time for the postdoc and professor to review, plus clear scope cuts if the pilot fails.
+7) A concise email draft to Professor Santoso presenting the provisional focus/outline and the most important technical questions. Do not claim experiments are completed. Do not send it.
+8) The saved research package and updated context/history in GridSFM-study, with the pushed branch/commit and verification status. If remote writing is unavailable, provide the complete local package and explain precisely what remains to synchronize.
+
+I understand basic PF/OPF and ML, but I need the power-system assumptions explained from first principles. Separate verified facts, recommendations, hypotheses and items for professor confirmation. Cite technical claims near the relevant text, preferably with paper sections or code paths. Use concise, connected prose and compact tables. Continue independent research while noting missing inputs; ask only questions that materially change the plan. Prepare and push this research package to GridSFM-study as authorized above. Long training jobs, purchasing compute, conference submission, external messages and changes to the archived baselines are outside this initial research-package task.

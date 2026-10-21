@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-21",
+  "project": {
+    "url": "https://github.com/ninadsonawane/GridSFM-study",
+    "branch": "main",
+    "initial_remote_state": "empty",
+    "git_history_policy": "new project history; no claim of complete imported upstream histories"
+  },
+  "historical_archive": {
+    "url": "https://github.com/ninadsonawane/research-learning",
+    "commit": "5b00e71e136e400445aab3a7a93bb8459cdd8a7c",
+    "inspected_read_only": true,
+    "local_tree_clean_at_inspection": true,
+    "license": "project archive license not established; selected MIT GridSFM file imported with its own notice",
+    "import_policy": "selective faithful summaries and source links, no unrelated raw conversation exports"
+  },
+  "source_detail_manifests": [
+    "manifests/matpower-source.json",
+    "manifests/gridsfm-sources.json",
+    "manifests/gridsfm-file-comparison.json",
+    "docs/literature/source-register.json"
+  ],
+  "new_project_license": "not separately selected by the user; preserve third-party licenses",
+  "local_only_artifacts": [
+    {
+      "path": "data/source/matpower-8.1/case300.m",
+      "reason": "case-data redistribution license not established; software BSD grant explicitly excludes cases",
+      "recovery": "pinned official MATPOWER commit and SHA in matpower source manifest; acquisition script"
+    },
+    {
+      "path": "data/generated/",
+      "reason": "unsolved source-derived matrices; deterministic construction output, not numerical results",
+      "recovery": "scripts/python/matpower_case.py --construct configs/network-case300x2.json"
+    }
+  ],
+  "large_artifacts": "none acquired; checkpoint immutable revision, size and SHA recorded; future run outputs need durable artifact storage and hashes"
+}

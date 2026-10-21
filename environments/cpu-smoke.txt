@@ -1,0 +1,3 @@
+# The structural/physics/protocol smoke checks use Python's standard library only.
+# Executed interpreter for this package: CPython 3.9.10 on Windows.
+# No install is required. This is NOT the GridSFM training environment.

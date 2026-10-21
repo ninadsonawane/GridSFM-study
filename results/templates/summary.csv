@@ -1,0 +1,8 @@
+method,train_n,train_seed,test_group,attempted_n,reference_accepted_n,prediction_failed_n,feasible_fraction,cost_error_median_percent,cost_error_p95_percent,vm_mae_pu,angle_mae_deg,pg_mae_mw,qg_mae_mvar,p_residual_max_mw,q_residual_max_mvar,branch_violation_max_mva,peak_gpu_memory_mib,training_seconds
+frozen,0,,test_id,,,,,,,,,,,,,,,,
+frozen,0,,test_stress,,,,,,,,,,,,,,,,
+frozen,0,,test_outage,,,,,,,,,,,,,,,,
+ffn_lora,100,17,test_id,,,,,,,,,,,,,,,,
+full_ft,100,17,test_id,,,,,,,,,,,,,,,,
+ffn_lora,500,17,test_id,,,,,,,,,,,,,,,,
+full_ft,500,17,test_id,,,,,,,,,,,,,,,,

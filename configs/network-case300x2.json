@@ -1,0 +1,30 @@
+{
+  "name": "constructed-case300x2-parallel-v0",
+  "status": "provisional; structural checks executed; PF/OPF not executed",
+  "source_release": "MATPOWER 8.1",
+  "source_commit": "1a828c7af590714499284e36ee9c81273388c594",
+  "terminal_external_ids": [231, 231],
+  "load_lambda": 1.0,
+  "load_delta": 0.0,
+  "tie_status": [1, 1],
+  "tie": {
+    "r_pu": 0.002,
+    "x_pu": 0.019,
+    "b_pu": 1.127,
+    "rateA_MVA": 600.0,
+    "rateB_MVA": 600.0,
+    "rateC_MVA": 600.0,
+    "tap": 0.0,
+    "shift_deg": 0.0,
+    "angmin_deg": -360.0,
+    "angmax_deg": 360.0
+  },
+  "parameter_provenance": {
+    "impedance_and_charging": "Copied from pinned case300 branch row45, original buses4-16, both345kV, on100MVA base; illustrative interconnection proxy, not measured new equipment",
+    "rating": "600MVA is a declared study design value; no historical rating exists for the new ties; freeze after calibration-only pilot",
+    "terminal": "Original bus231 is345kV, row210, active degree6; no feasibility or transfer capability claimed by degree alone",
+    "original_ratings": "Preserve all822 copied branches at RATE_A=0 (unlimited); thermal feasibility claims cover rated ties only",
+    "costs": "Unchanged in minimum experiment; no cost/load confounding",
+    "asymmetry": "Scale signed Pd,Qd by lambda*(1+delta) in A and lambda*(1-delta) in B; preserves power-factor ratio and total signed load at fixed lambda"
+  }
+}

@@ -1,0 +1,314 @@
+[
+  {
+    "delta": -0.1,
+    "family_id": "pilot-00",
+    "lambda": 0.9,
+    "load_seed": 90000,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-00-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": -0.1,
+    "family_id": "pilot-00",
+    "lambda": 0.9,
+    "load_seed": 90000,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-00-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-01",
+    "lambda": 0.9,
+    "load_seed": 90001,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-01-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-01",
+    "lambda": 0.9,
+    "load_seed": 90001,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-01-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.1,
+    "family_id": "pilot-02",
+    "lambda": 0.9,
+    "load_seed": 90002,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-02-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.1,
+    "family_id": "pilot-02",
+    "lambda": 0.9,
+    "load_seed": 90002,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-02-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": -0.1,
+    "family_id": "pilot-03",
+    "lambda": 1.0,
+    "load_seed": 90003,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-03-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": -0.1,
+    "family_id": "pilot-03",
+    "lambda": 1.0,
+    "load_seed": 90003,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-03-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-04",
+    "lambda": 1.0,
+    "load_seed": 90004,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-04-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-04",
+    "lambda": 1.0,
+    "load_seed": 90004,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-04-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.1,
+    "family_id": "pilot-05",
+    "lambda": 1.0,
+    "load_seed": 90005,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-05-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.1,
+    "family_id": "pilot-05",
+    "lambda": 1.0,
+    "load_seed": 90005,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-05-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": -0.1,
+    "family_id": "pilot-06",
+    "lambda": 1.1,
+    "load_seed": 90006,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-06-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": -0.1,
+    "family_id": "pilot-06",
+    "lambda": 1.1,
+    "load_seed": 90006,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-06-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-07",
+    "lambda": 1.1,
+    "load_seed": 90007,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-07-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-07",
+    "lambda": 1.1,
+    "load_seed": 90007,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-07-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.1,
+    "family_id": "pilot-08",
+    "lambda": 1.1,
+    "load_seed": 90008,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-08-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.1,
+    "family_id": "pilot-08",
+    "lambda": 1.1,
+    "load_seed": 90008,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-08-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": -0.2,
+    "family_id": "pilot-09",
+    "lambda": 1.0,
+    "load_seed": 90009,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-09-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": -0.2,
+    "family_id": "pilot-09",
+    "lambda": 1.0,
+    "load_seed": 90009,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-09-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.2,
+    "family_id": "pilot-10",
+    "lambda": 1.0,
+    "load_seed": 90010,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-10-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.2,
+    "family_id": "pilot-10",
+    "lambda": 1.0,
+    "load_seed": 90010,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-10-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-11",
+    "lambda": 0.85,
+    "load_seed": 90011,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-11-both",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      1
+    ]
+  },
+  {
+    "delta": 0.0,
+    "family_id": "pilot-11",
+    "lambda": 0.85,
+    "load_seed": 90011,
+    "reference_status": "not_run",
+    "scenario_id": "pilot-11-tie2out",
+    "split": "pilot_only",
+    "tie_status": [
+      1,
+      0
+    ]
+  }
+]

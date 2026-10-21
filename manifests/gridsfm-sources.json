@@ -1,0 +1,48 @@
+{
+  "verified_on": "2026-10-21",
+  "baseline": {
+    "repository": "https://github.com/microsoft/GridSFM",
+    "commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6",
+    "commit_date": "2026-05-27T01:11:24-07:00",
+    "license": "MIT",
+    "inspection": "Fresh local clone; selected source compared with archived fork"
+  },
+  "historical_fork": {
+    "repository": "https://github.com/seiole-labs/GridSFM.git",
+    "commit": "1e5e3a1640b27768e3eaf32680184f26b407caab",
+    "branch": "feature/lora-ffn-adapters",
+    "archive": "https://github.com/ninadsonawane/research-learning",
+    "archive_path": "external/GridSFM",
+    "license": "MIT",
+    "inspection": "Flattened archive snapshot; baseline provenance from docs/source-repositories.json",
+    "imported": [{"source": "model/gridsfm/lora.py", "destination": "scripts/python/gridsfm_lora.py", "changes": "None; byte-identical copy", "license_file": "scripts/python/gridsfm_lora.LICENSE"}]
+  },
+  "checkpoint": {
+    "repository": "https://huggingface.co/microsoft/GridSFM_Open",
+    "revision": "1b41299b80252adf1869d5c3b479a4a402c52591",
+    "filename": "gridsfm_open_v1.1.pt",
+    "bytes": 61061952,
+    "file_sha256_from_hf_lfs_metadata": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+    "license": "MIT",
+    "downloaded": false,
+    "internal_state_dict_hash": null,
+    "verification": "HF API metadata queried; file contents and loader execution pending"
+  },
+  "paper_repository_comparison": {
+    "repository": "https://github.com/lukebhan/gridsfm",
+    "commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+    "license": "MIT per README",
+    "inspection": "ls-remote HEAD and root/training README; no complete code audit",
+    "model_repository": "https://huggingface.co/lukebhan/gridsfm",
+    "model_revision": "970a413556fd1dc8c843cafdb03b01f9f8ef6f44",
+    "base_file": "base/gridsfm_open_v2.pt",
+    "base_file_bytes": 61057675,
+    "base_file_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+    "weight_equivalence_to_microsoft_v1_1": "UNKNOWN: filenames/file hashes differ; no tensor comparison"
+  },
+  "optional_julia_path": {
+    "manifest": "https://github.com/microsoft/GridSFM/blob/1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6/power_grid/US/topology_solver_pipeline/Manifest.toml",
+    "julia": "1.11.5", "PowerModels": "0.21.5", "JuMP": "1.29.4", "Ipopt_jl": "1.14.0",
+    "executed": false
+  }
+}

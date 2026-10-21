@@ -1,0 +1,41 @@
+{
+  "retrieved_date": "2026-10-21",
+  "repository_url": "https://github.com/MATPOWER/matpower",
+  "release": "8.1",
+  "release_url": "https://github.com/MATPOWER/matpower/releases/tag/8.1",
+  "release_doi": "10.5281/zenodo.15871662",
+  "tag_object": "3f8ecfdbc79b07697d6b45f8d868ac1c2d27f788",
+  "commit": "1a828c7af590714499284e36ee9c81273388c594",
+  "files": [
+    {
+      "source_path": "data/case300.m",
+      "source_url": "https://raw.githubusercontent.com/MATPOWER/matpower/1a828c7af590714499284e36ee9c81273388c594/data/case300.m",
+      "local_path": "data/source/matpower-8.1/case300.m",
+      "sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+      "hash_representation": "raw Git blob bytes, LF; acquired using git show to avoid Windows checkout normalization",
+      "git_tracked": false,
+      "reason_not_tracked": "MATPOWER BSD code license explicitly excludes case files; redistribution license for the case data not established in this session",
+      "origin": "IEEE300 CDF, UW Power Systems Test Case Archive; converted by MATPOWER, further nominal-transformer tap metadata changes in2025",
+      "origin_policy_url": "https://labs.ece.uw.edu/pstca/pg_tcaintro.htm"
+    },
+    {
+      "source_path": "LICENSE",
+      "local_path": "data/source/matpower-8.1/LICENSE",
+      "sha256": "5d14c09b3e4f2adf62c0373e6320163697aa4603186f8925c07c6b84201e1750",
+      "git_tracked": true,
+      "license": "BSD-3-Clause for code; case-file exception explicitly preserved"
+    }
+  ],
+  "retrieval_command": "python scripts/python/matpower_case.py --git-dir work/matpower-8.1",
+  "execution_record": "manifests/matpower-execution.json",
+  "audit": "manifests/matpower-case300-audit.json",
+  "local_only_artifacts": [
+    "data/source/matpower-8.1/case300.m",
+    "data/generated/case300x2-neutral.json",
+    "data/generated/case300x2-mapping.json"
+  ],
+  "local_only_reconstruction": "Acquire pinned source then run python scripts/python/matpower_case.py --construct configs/network-case300x2.json; no solver output exists yet",
+  "software_solver_status": "MATLAB and GNU Octave not detected in PATH or inspected standard Program Files locations; MATPOWER code not executed",
+  "changes_to_imported_source": "none",
+  "complete_git_history_imported": false
+}

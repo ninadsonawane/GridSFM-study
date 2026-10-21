@@ -1,0 +1,11 @@
+# Proposed Python 3.12 resolution constraints, NOT an executed full lockfile.
+# Install torch first from the CPU or driver-compatible official CUDA index.
+# Record pip freeze, platform, driver, BLAS and wheel hashes after the pilot.
+torch==2.8.0
+torch_geometric==2.6.1
+numpy==2.2.6
+scipy==1.15.3
+huggingface_hub==0.34.4
+PyYAML==6.0.2
+pillow==11.3.0
+pytest==8.4.1
