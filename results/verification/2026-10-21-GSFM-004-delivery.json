@@ -1,0 +1,11 @@
+{
+  "task": "GSFM-004",
+  "protocol_commit": "616867918a9b6f95ce2fae93cb237fa61a64ddfa",
+  "document_url": "https://docs.google.com/document/d/19jzhfyde3PvHPJAd97ITYNX1WQqMtkC1F8siDWOhJM0/edit?tab=t.0",
+  "todo_text_matches_local_deliverable": true,
+  "results_exactly_preserved": true,
+  "results_characters": 34150,
+  "results_sha256_utf8": "063a8c4f39f15b5080a53fb0d201eb1017fad67177f4558a86e582e9000152f9",
+  "screenshot": "outputs/exchange-GSFM-004.png",
+  "scope": "Instructions delivered; no hardware experiments launched by planner"
+}
