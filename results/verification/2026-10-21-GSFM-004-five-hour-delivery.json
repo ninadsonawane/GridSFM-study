@@ -1,0 +1,10 @@
+{
+  "task": "GSFM-004",
+  "revision": 2,
+  "protocol_commit": "1d2808a8bb32b6052beca725cb58e8e91cde3223",
+  "saved_to_drive": true,
+  "todo_matches_local": true,
+  "results_exactly_preserved": true,
+  "scope": "Five-hour instruction revision only; no experiment launched",
+  "screenshot": "outputs/exchange-GSFM-004-five-hours.png"
+}
