@@ -26,6 +26,7 @@ def main():
     t=time.time();manifest=read(OLD/'data/manifest.json');train=load_split('train',manifest);assert len(train)==50;model=make_model('C',11);model.eval()
     assert sha(CKPT)=='f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831'
     save(RUN/'config.json',dict(run_id=RUN.name,seeds=[11,22,33],arms=['S','C','E','C_m'],updates=1000,fit_cap_seconds=900,optimizer='AdamW',lr=1e-4,weight_decay=1e-4,clip=1.,batch=1,torch_threads=4,blas_threads=1,physics_precision='float64 original parameters',model_precision='float32',train_manifest_sha256=sha(OLD/'data/manifest.json'),base_checkpoint_sha256=sha(CKPT),metric_code_sha256=sha(REPO/'scripts/python/physics_metrics.py'),training_cases=[dict(scenario_id=it.record['scenario_id'],input_sha256=sha(it.path/'input.json'),reference_sha256=sha(it.path/'reference.json')) for it in train]))
+    cfg=read(RUN/'config.json');cfg.update(read(Path(__file__).with_name('recipe.json')));save(RUN/'config.json',cfg)
     it=train[0];out=model(it.batch());s=objective(out,it.physics,'S')[0];c=objective(out,it.physics,'C')[0];e=objective(out,it.physics,'E')[0]
     assert torch.equal(c,objective(out,it.physics,'C_m',1.)[0]);assert torch.equal(s,objective(out,it.physics,'C_m',0.)[0]);assert torch.equal(c,legacy_objective(out,it.physics,'C')[0]);assert torch.equal(e,legacy_objective(out,it.physics,'E')[0])
     params0={k:v.detach().clone() for k,v in model.state_dict().items()};rngstates=[];orders=[]

@@ -4,7 +4,8 @@ def main():
     if (RUN/'data/manifest.json').exists():raise RuntimeError('Existing data must be reused, not regenerated')
     assert (RUN/'freeze.json').exists();base=read(BASE/'case300-input.json');reg=read(OLD/'data/regions.json');assert reg==regions(base);save(RUN/'data/regions.json',reg);generation_start=time.time()
     manifests={};seen={content_hash(base)}
-    for previous in (OLD/'data/candidates').glob('*/input.json'):seen.add(content_hash(read(previous)))
+    for previous in (REPO/'results').rglob('*input.json'):
+        if RUN not in previous.parents:seen.add(content_hash(read(previous)))
     save(RUN/'evaluation-open.json',dict(freeze_sha256=sha(RUN/'freeze.json'),opened_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),previous_input_count=len(seen)))
     server=LabelServer()
     try:

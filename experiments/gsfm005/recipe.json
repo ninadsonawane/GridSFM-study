@@ -1,0 +1,52 @@
+{
+  "training_order_rng": "NumPy PCG64 actual seed; 20 shuffled complete epochs",
+  "validation_score": "mean log1p(max(Pmax/1 MW,Qmax/1 MVAr)); tie median absolute cost error then earlier update",
+  "coefficients": {
+    "theta": 1,
+    "V": 1,
+    "Pg": 1,
+    "Qg": 1,
+    "cost": 1,
+    "KCL_C": 1,
+    "KCL_E": 1,
+    "KCL_Cm": "fixed calibration rho outside log1p",
+    "KCL_S": 0,
+    "feasibility": 0,
+    "stress": 0
+  },
+  "KCL_aggregation": {
+    "worst": 0.8,
+    "mean": 0.2,
+    "capacity_margin": 0.01,
+    "P_capacity_pu": 326.78435,
+    "Q_capacity_pu": 140.9018
+  },
+  "fresh_evaluation": {
+    "ordinary_seed": 30503,
+    "higher_load_seed": 30505,
+    "target_each": 30,
+    "attempt_cap_each": 90,
+    "ordinary_global_range": [
+      0.9,
+      1.03
+    ],
+    "higher_global_range": [
+      1.035,
+      1.06
+    ],
+    "shared_P_Q_jitter_range": [
+      0.98,
+      1.02
+    ],
+    "spatial": "same saved four regions, SVD null-space; alternating sign every four pairs; <=10 percent",
+    "reference_generation_cap_seconds": 2100,
+    "solve_watchdog_seconds": 30
+  },
+  "physical_thresholds": {
+    "balance_MW_MVAr": 0.001,
+    "generator_MW_MVAr": 0.001,
+    "voltage_pu": 0.0001,
+    "angle_deg": 0.001,
+    "thermal_MVA": "not applicable; original RATE_A=0"
+  }
+}
