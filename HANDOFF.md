@@ -1,5 +1,19 @@
 # Handoff after the initial research package
 
+## Latest amendment: post-experiment publication research, 21 October 2026
+
+**This amendment supersedes the operational next steps below; the original handoff is preserved as history.** Start with `docs/research/2026-10-21-publication-plan.md`, decision0002 and `docs/experiments/GSFM-003.md`.
+
+The user asked to read the latest Exchange results and deeply assess a tangible novel experiment for PESGM. The document now reports completed frozen inference, exact-reference checks, source-physics mismatch diagnostics and a negative solver-initialization pilot. Its research content is archived in `docs/context/2026-10-21-exchange-results.txt`. VM hardware is Apple M5 Pro/64 GB; no GPU-training claim is established. Raw experiment artifacts remain on that Mac and are not included in this research commit. Treat document numbers as VM-reported, not independently rerun here.
+
+New primary research includes October2026 error-geometry work, LUMINA/LUMINA-Bench, HydraGNN adaptation and UNION. Plain OOD failure, physical violation reporting, full FT and LoRA are already close prior art. Recommended primary experiment: frozen/no-KCL/stock-clamped-KCL/exact-KCL adaptation on original case300, with identical settings, followed by original-physics scoring. The initial task is bounded to operator/gradient checks and20 updates/120seconds per arm. Main training remains a proposed separately authorized stage. LoRA, extra interconnections and warm-start acceleration are not requirements of this study.
+
+Important: released `loss.py` is documented for fine-tuning; its mismatch does not establish the cause of frozen errors or original pretraining. Disable feasibility/stress auxiliaries equally, retain context and other losses, account for empty branch-supervision masks, and match precision. Detailed controls/gates are in the new plan. If there is no meaningful adaptation effect, reassess publication rather than claim a novel solver.
+
+Official CFP/portal were reverified:10Nov2026 23:59Eastern =11Nov10:29IST; five pages including references; internal ready8Nov. No submission, external message, paid compute or main training was performed. Research files are committed/pushed at the milestone reported in chat; verify current Git state rather than relying on this amendment for the final hash.
+
+---
+
 Prepared 21 October 2026, Asia/Kolkata. Read README and docs/research/2026-10-21-initial-study.md first. The user authorized normal commits and pushes of this project to `ninadsonawane/GridSFM-study`; original remote was empty, branch is **main**. Final delivered commit and remote comparison are given in the delivery message; use `git log -2 --oneline` and `git ls-remote origin refs/heads/main` to inspect the current state.
 
 ## What actually happened

@@ -1,0 +1,247 @@
+User-designated Exchange document, read 21 October 2026. VM-reported results; raw VM artifacts not independently accessed from this Windows host. Unrelated introductory link omitted.
+Source: https://docs.google.com/document/d/19jzhfyde3PvHPJAd97ITYNX1WQqMtkC1F8siDWOhJM0/edit
+
+Results:
+Frozen GridSFM v1.1: inference, failure diagnosis and solver initialization
+Completed 21 October 2026. Scope: frozen pretrained v1.1 only; no LoRA, fine-tuning, modified impedances or relaxed limits. Existing numerical results were preserved. Findings below cover two nominal target-network operating points and a five-point case300 initialization pilot, not a generalization or speedup benchmark.
+Main finding: raw GridSFM predictions are physically infeasible on case300, the connected 600-bus system, and the shipped 500-bus control. No unresolved conversion, unit, ordering or evaluator error was found. Model-side physics differences are confirmed, but do not fully establish the cause of poor frozen transfer. GridSFM-based initialization provided no benefit over the default solver initialization in this pilot.
+1. Inputs, model and numerical reference
+Original network: official MATPOWER 8.1 case300, 300 buses, 69 generators and 411 branches, 100 MVA system base. MATPOWER source commit: 1a828c7af590714499284e36ee9c81273388c594. Source SHA-256: 69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5. All original RATE_A values are zero, meaning unlimited; no internal line rating was inferred.
+Constructed network: two unchanged case300 copies, 600 buses, 138 generators and 824 separate physical branches. Two parallel circuits connect original bus 231 in area A to original bus 231 in area B (both 345 kV). Each circuit uses r=0.002 pu, x=0.019 pu, total charging b=1.127 pu and a provisional synthetic 600 MVA rating. The 822 copied interior branches remain unlimited. One reference bus remains and the former second reference retains PV voltage-control status. Both ties are available and original loads are unchanged.
+Frozen model: local Seiole GridSFM fork commit 1e5e3a1640b27768e3eaf32680184f26b407caab; pretrained Microsoft GridSFM Open v1.1, 15,148,227 parameters. Checkpoint SHA-256: f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831. Study starting commit: c74c2bd1685108f7c991274ef7a09d4c52e8f2fb. Exact runner and model-source hashes accompany the artifacts; installed model code was unchanged.
+Reference solver: PowerModels 0.21.5 polar AC-OPF with Ipopt.jl 1.14.0 under Julia 1.11.9. MATPOWER parsing disables default network corrections and performs only per-unit conversion; disabled ±360° angle constraints are omitted. No load shedding, inferred rating, voltage/Q-limit widening or other feasibility relaxation is used. References are independently checked local solutions, not global optimality certificates; these were not MATPOWER/MIPS executions.
+2. Frozen inference on the two target systems
+
+Metric
+Original case300
+Connected case300 × 2
+Reference cost, units/hour
+719,725.10
+1,439,466.45
+Raw predicted-dispatch cost, units/hour
+324,075.50
+1,191,424.44
+Absolute cost error, %
+54.9723
+17.2315
+Voltage MAE, pu
+0.026869
+0.026674
+Reference-aligned angle MAE, degrees
+23.3051
+30.1990
+Pg MAE, MW/generator
+195.1338
+122.5297
+Qg MAE, MVAr/generator
+89.0968
+89.3016
+Raw prediction physically feasible?
+No
+No
+Reference independently feasible?
+Yes
+Yes
+
+
+Raw predicted cost is the generator-cost function evaluated on an infeasible dispatch. Its lower value is not an achievable operating cost or saving. Initial one-shot predict calls, including preprocessing, took 85.06 ms and 134.13 ms respectively; these are diagnostic observations, not repeated latency estimates or solver-speedup results.
+The two identical areas have essentially zero reference active tie transfer at nominal loading (about −2.8×10⁻¹¹ MW per circuit). GridSFM instead predicts approximately −94.74 MW per circuit when flow is recomputed from its voltages. Reference from-end reactive flow is −62.24 MVAr per tie, versus +55.16 MVAr from the prediction. This symmetric base point is not an active-transfer stress test.
+3. Same independent physical metrics, including the shipped control
+
+Case
+P max / median / p95 (MW)
+Q max / median / p95 (MVAr)
+Max Vm violation (pu)
+Max Pg/Qg box violation (MW or MVAr)
+Max rated-branch violation (MVA)
+case500_goc control
+114.02 / 6.03 / 76.36
+71.53 / 6.74 / 37.08
+2.38e-08
+3.41e-05
+18.60 (728 rated)
+case300
+3,754.08 / 15.71 / 250.05
+8,937.97 / 73.75 / 718.04
+2.38e-09
+4.77e-06
+0.00 (0 rated)
+case300x2
+1,141.64 / 9.18 / 115.14
+9,376.45 / 53.70 / 511.89
+0
+9.54e-06
+0.00 (2 rated)
+
+
+All three raw predictions fail the joint physical criterion. Voltage/generator box deviations are only floating-point roundoff within the thresholds. Case300 has no rated branches, so its zero thermal violation is not a thermal certificate; case300x2 checks only its two rated ties. Angle-limit violations are zero in these evaluations.
+Thresholds applied identically: maximum nodal P and Q imbalance ≤0.001 MW/MVAr; generator-component box violation ≤0.001 MW/MVAr; voltage violation ≤0.0001 pu; rated-branch apparent-power violation ≤0.001 MVA; active angle-bound violation ≤0.001°. Branch flows and shunt contributions are recomputed from the original electrical matrices, independently of model-reported flow values.
+Control identity: GridSFM/model/samples/case500_goc.pyg.json at the model commit above, derived from PGLib pglib_opf_case500_goc.m according to the shipped samples README. It contains 500 buses, 171 active generators and 728 rated branches. Reference source: its shipped solution block, metadata LOCALLY_SOLVED, objective 454,945.978311201 cost units/hour. The producing solver version and original PGLib revision are not recorded. Raw predicted cost is 452,496.442867272, error 0.538423%; voltage MAE is 0.001111565 pu. Low cost error alone therefore does not establish physical feasibility.
+Reference feasibility after reload: control maximum P/Q residuals are 2.24×10⁻⁸ MW / 1.50×10⁻⁷ MVAr; case300 1.23×10⁻¹⁰ MW / 1.66×10⁻⁹ MVAr; case300x2 2.03×10⁻¹¹ MW / 1.01×10⁻¹⁰ MVAr. All references pass the same constraint thresholds. Decoding saved native case300/600 labels back through source-row maps changes state values by at most 3.55×10⁻¹⁵ and preserves feasibility.
+4. Failure diagnosis and pipeline evidence
+Previously completed conversion, branch identity, cycle rank and label-independence checks were reused. Raw predictions repeat bitwise and are unchanged when accepted solution labels are added. Bus IDs are not assumed to be row indices; case300x2 uses explicit original-ID and area mappings. Generator order is preserved. Power is converted with the 100 MVA system base (not individual generator MBASE); radians become degrees only at the physical evaluator boundary; cost coefficients are reversed consistently. Source and reconstructed electrical parameters/objectives/solved flows agree. Evidence is retained in checks.json, analyze.py, verify_inference.py and reference-export-reload-check.json.
+Small-impedance mismatch: loss.py floors r²+x² at 10⁻⁶. It affects original branches 37–9001, 231–237 and 235–238, retaining only 21.52%, 37% and 40% of their true series admittance; the duplicated system has six affected circuits. On exactly the same predicted state, case300 maximum P/Q residuals become 1,946.06 MW / 4,433.47 MVAr instead of exact 3,754.08 / 8,937.97. Case300x2 becomes 645.46 / 2,955.75 instead of 1,141.64 / 9,376.45. Even exact feasible references falsely acquire about 244 MW maximum residual under this loss formulation. Exact original-parameter metrics remain authoritative.
+The forward flow calculation instead uses r²+x²+10⁻¹². Isolating this change on the same states changes maximum bus residuals by at most 0.00788 MW / 0.02494 MVAr for case300 and 0.00339 MW / 0.04156 MVAr for case300x2. Actual saved FP32 branch-flow differences from exact physics are at most 0.03194 / 0.04025 MVA. These discrepancies cannot account for the thousands of MW/MVAr of imbalance. Actual torch loss/forward functions agree with diagnostic float64 complex-admittance calculations within 1.2×10⁻¹⁰ in power units.
+Graph context also floors r²+x² at 10⁻⁶, clipping the target networks’ maximum admittance feature from 2,155.65 to 1,000 pu. This is a clipped input statistic, not an exact flow computation. The separate |x|<10⁻¹⁰ DC/positional-feature safeguards do not activate here. No valid effective tap triggers the tap fallback.
+Unlimited-rating mismatch: stress_features.py treats zero RATE_A as 10⁻⁹ pu. The 411/822 unlimited branches produce false maximum loading ratios of approximately 8.48×10¹⁰ / 8.94×10¹⁰. These features enter the feasibility head after voltage/generation outputs have been computed; they undermine interpretation of its 0.0 score but cannot themselves explain the dispatch errors. No claim is made that this alone causes the entire classifier output.
+Diagnosis: confirmed model-side loss/feature/limit-semantics differences, together with poor frozen transfer and strong sensitivity near small impedances. The full causal origin of dispatch error remains uncertain; errors remain severe even under the clamped loss calculation. These findings are not evidence that the case is infeasible, that conversion failed, or that simply reaching 600 buses makes a topology in distribution.
+5. Case300 solver-initialization pilot
+Both Pd and Qd were uniformly scaled by 0.90, 0.95, 1.00, 1.05 and 1.10. Topology, costs and all limits were fixed. D denotes default PowerModels initialization; G denotes GridSFM-based initialization. One warm-up per point/method preceded three timed repeats, with method order alternated by repeat. The model and Julia server remained loaded, while each solve rebuilt its optimization model.
+
+Load scale
+Feasible repeats D / G
+Iterations D / G
+Median end-to-end ms D / G
+Median solver-call ms D / G
+Accepted objective, units/hour
+0.90
+3/3; 3/3
+20 / 39
+133.50 / 268.88
+95.31 / 131.14
+625,251.22
+0.95
+3/3; 3/3
+20 / 34
+130.97 / 264.13
+83.11 / 118.04
+671,937.56
+1.00
+3/3; 3/3
+22 / 25
+138.16 / 236.93
+101.86 / 109.62
+719,725.10
+1.05
+3/3; 3/3
+26 / 28
+147.61 / 249.30
+97.44 / 104.35
+770,081.51
+1.10
+0/3; 0/3
+197 / 209
+690.90 / 770.67
+649.59 / 639.43
+None
+
+
+At 0.90–1.05, all repeats reach independently feasible local solutions with matching objectives (difference below 7×10⁻⁸ cost units/hour). Across those runs the worst final P/Q residuals are below 3×10⁻¹⁰ MW / 4.1×10⁻⁹ MVAr. GridSFM initialization takes more iterations and more end-to-end time at every successful load point. There is no observed initialization benefit.
+At 1.10, both methods return LOCALLY_INFEASIBLE in all repeats. Final maximum reactive imbalances are 33.13364 MVAr (default) and 33.24586 MVAr (GridSFM). Diagnostic objectives 846,779.47966 / 846,809.27624 are retained but are not feasible operating costs or accepted reference labels. A failed local solve is not proof of network infeasibility. No fallback was used.
+Identical settings: Ipopt tol=10⁻⁹, constr_viol_tol=10⁻¹⁰, acceptable_tol=10⁻⁹, max_iter=1000, max_cpu_time=180 s, bound_relax_factor=0. No solved labels enter inference. At nominal load, newly timed predictions exactly match the saved predictions. Raw predictions are evaluated separately; no accepted cost-error baseline exists at 1.10.
+GridSFM initialization: clip only Vm/Pg/Qg to original box limits, anchor angles to the original reference, and initialize branch primal powers from exact π-model flows at those voltages. No PF projection or balance repair is performed. At nominal load, explicit clipping changes one Vm by 2.38×10⁻⁹ pu and five Qg values by at most 4.77×10⁻⁶ MVAr. Default starts are Vm=1, angles=0, Pg/Qg/branch flows=0 before fixed-variable/bound handling.
+Start consumption was verified from both actual JuMP starts and Ipopt’s internal unscaled iteration-zero primal via GetIpoptCurrentIterate. Nominal internal shifts from supplied GridSFM starts are at most 0.0012 pu Vm, 0 radians, 0.01 pu Pg and 0.012 pu Qg, reflecting normal interior/fixed-variable handling. Recomputed initial costs match callback objectives: default 1,644.236368319 and GridSFM 324,330.435171679. Thus the supplied initialization was actually consumed; the observed lack of benefit is not explained by ignored starts.
+End-to-end timing includes input read; conversion, serialization, model preprocessing/inference when applicable; clipping/branch-start calculation; server transport; MATPOWER parse/per-unit conversion; optimization-model construction; solve; and raw-result serialization. Independent post-solve evaluation/report generation is outside the timer. Warm topology caches are reused; disk-cache restrictions caused an in-memory fallback. Setup, checkpoint load and first-call compilation costs are separate. This is a local pilot, not a broad acceleration claim.
+
+Fresh-process nominal probe
+Julia startup, s
+First end-to-end call, s
+Python imports / checkpoint load, s
+Default
+1.405
+3.320
+0.926 / 0.189
+GridSFM
+1.406
+3.418
+0.923 / 0.189
+
+
+Each cold probe uses a separate fresh Python/Julia process. The shared harness imports ML packages and loads the checkpoint even for default, so those costs are not intrinsic default-solver requirements. All raw traces, min/max timing ranges and failed final states are retained. An initial logging error (iterating JuMP DenseAxisArray with pairs) produced 40 pre-solve harness failures in attempt 141507; they were preserved and excluded from solver/timing summaries. Successful timed attempt: 141557.
+6. Worst-bus rankings and detailed electrical records
+Rankings use absolute imbalance; signs below are generation minus demand, shunts and outgoing branch power. IDs are original MATPOWER bus IDs, with A/B identifying the duplicate area. The following table lists the ten worst buses for each target and quantity; detailed voltage, shunt, circuit and generator records follow for every unique listed bus.
+
+Rank
+case300 P (MW)
+case300 Q (MVAr)
+case300x2 P (MW)
+case300x2 Q (MVAr)
+1
+238: 3,754.08
+238: 8,937.97
+A:235: -1,141.64
+B:9001: -9,376.45
+2
+235: -3,520.38
+235: -8,111.30
+A:238: 1,126.95
+B:37: 8,511.93
+3
+119: -1,304.09
+9001: -5,880.21
+B:238: 610.62
+A:238: 3,940.35
+4
+191: -994.76
+37: 5,088.44
+A:9001: -545.89
+A:235: -3,933.43
+5
+9001: -982.38
+231: -3,404.13
+B:235: -524.81
+A:3: -2,955.75
+6
+37: 885.46
+237: 1,787.03
+A:37: 497.58
+A:219: 2,195.70
+7
+186: -691.89
+3: -1,550.58
+A:221: -404.78
+B:238: 2,033.37
+8
+3: -607.02
+223: -1,512.17
+A:223: 321.02
+B:3: -1,868.19
+9
+187: -567.05
+221: 1,305.92
+A:7049: -273.00
+B:235: -1,578.20
+10
+220: -550.19
+220: -1,301.22
+A:191: -255.88
+A:223: 1,529.58
+
+
+Detailed bus records: case300
+Bus 238 (matrix row 217): P/Q residual 3,754.08 MW / 8,937.97 MVAr; Vm predicted/reference 0.978500 / 1.030565 pu; Va -8.8187 / 2.2009 degrees. Bus GS/BS at unit voltage: 0.00 MW / -150.00 MVAr. Generators: source generator row 41: Pg pred/ref/error 148.44/265.70/-117.26 MW; Qg 46.16/200.00/-153.84 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 304 [220→238]: r=0.0016, x=0.0046, tap=1, shift=0°, b=0.402; 321 [235→238]: r=0.0002, x=0.0006, tap=1, shift=0°, b=0.8; 389 [238→239]: r=0.0005, x=0.016, tap=1.02, shift=0°, b=0.
+Bus 235 (matrix row 214): P/Q residual -3,520.38 MW / -8,111.30 MVAr; Vm predicted/reference 1.030698 / 1.029473 pu; Va -8.6446 / 2.1287 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 319 [234→235]: r=0.0002, x=0.0259, tap=1, shift=0°, b=0.144; 321 [235→238]: r=0.0002, x=0.0006, tap=1, shift=0°, b=0.8.
+Bus 119 (matrix row 98): P/Q residual -1,304.09 MW / 267.16 MVAr; Vm predicted/reference 1.057410 / 1.060000 pu; Va 3.4023 / 18.1256 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 11: Pg pred/ref/error 1,157.35/1,985.20/-827.85 MW; Qg 568.71/1,048.39/-479.68 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 177 [118→119]: r=0, x=0.0271, tap=1, shift=0°, b=0; 181 [119→120]: r=0, x=0.0339, tap=1, shift=0°, b=0; 182 [119→121]: r=0, x=0.0582, tap=1, shift=0°, b=0; 391 [119→1190]: r=0.001, x=0.023, tap=1.0223, shift=0°, b=0.
+Bus 191 (matrix row 170): P/Q residual -994.76 MW / -372.27 MVAr; Vm predicted/reference 1.009083 / 1.060000 pu; Va 39.7520 / 26.9416 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 31: Pg pred/ref/error 1,144.63/1,867.33/-722.69 MW; Qg 32.81/579.50/-546.69 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 268 [191→192]: r=0.003, x=0.048, tap=1, shift=0°, b=0; 309 [225→191]: r=0.001, x=0.061, tap=1, shift=0°, b=0.
+Bus 9001 (matrix row 266): P/Q residual -982.38 MW / -5,880.21 MVAr; Vm predicted/reference 1.056869 / 1.030143 pu; Va -23.0819 / -0.2913 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 1 [37→9001]: r=6e-05, x=0.00046, tap=1.0082, shift=0°, b=0; 2 [9001→9005]: r=0.0008, x=0.00348, tap=1, shift=0°, b=0; 3 [9001→9006]: r=0.02439, x=0.43682, tap=0.9668, shift=0°, b=0; 4 [9001→9012]: r=0.03624, x=0.64898, tap=0.9796, shift=0°, b=0.
+Bus 37 (matrix row 31): P/Q residual 885.46 MW / 5,088.44 MVAr; Vm predicted/reference 1.041589 / 1.038514 pu; Va -23.0966 / -0.3049 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 1 [37→9001]: r=6e-05, x=0.00046, tap=1.0082, shift=0°, b=0; 56 [15→37]: r=0.065, x=0.248, tap=1, shift=0°, b=0.121; 80 [37→38]: r=0.008, x=0.047, tap=1, shift=0°, b=0.008; 81 [37→40]: r=0.022, x=0.064, tap=1, shift=0°, b=0.007; 82 [37→41]: r=0.01, x=0.036, tap=1, shift=0°, b=0.02; 83 [37→49]: r=0.017, x=0.081, tap=1, shift=0°, b=0.048; 84 [37→89]: r=0.102, x=0.254, tap=1, shift=0°, b=0.033; 85 [37→90]: r=0.047, x=0.127, tap=1, shift=0°, b=0.016.
+Bus 186 (matrix row 165): P/Q residual -691.89 MW / 127.50 MVAr; Vm predicted/reference 1.050552 / 1.060000 pu; Va -7.0212 / 10.3612 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 28: Pg pred/ref/error 713.47/1,176.40/-462.93 MW; Qg 177.43/144.55/32.88 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 216 [137→186]: r=0.0007, x=0.0151, tap=1, shift=0°, b=0.126; 261 [186→188]: r=0.0007, x=0.0086, tap=1, shift=0°, b=0.115.
+Bus 3 (matrix row 3): P/Q residual -607.02 MW / -1,550.58 MVAr; Vm predicted/reference 1.038585 / 1.012875 pu; Va -13.4819 / 15.3029 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 42 [3→7]: r=0, x=0.003, tap=1, shift=0°, b=0; 43 [3→19]: r=0.008, x=0.069, tap=1, shift=0°, b=0.139; 44 [3→150]: r=0.001, x=0.007, tap=1, shift=0°, b=0; 335 [3→1]: r=0, x=0.052, tap=0.947, shift=0°, b=0; 336 [3→2]: r=0, x=0.052, tap=0.956, shift=0°, b=0; 337 [3→4]: r=0, x=0.005, tap=0.971, shift=0°, b=0; 394 [7003→3]: r=0, x=0.01054, tap=1, shift=0°, b=0.
+Bus 187 (matrix row 166): P/Q residual -567.05 MW / -64.62 MVAr; Vm predicted/reference 1.060000 / 1.060000 pu; Va -8.3125 / 9.6042 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 29: Pg pred/ref/error 685.99/1,180.60/-494.61 MW; Qg 201.92/165.42/36.50 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 259 [181→187]: r=0.0004, x=0.0083, tap=1, shift=0°, b=0.115; 262 [187→188]: r=0.0007, x=0.0086, tap=1, shift=0°, b=0.115.
+Bus 220 (matrix row 199): P/Q residual -550.19 MW / -1,301.22 MVAr; Vm predicted/reference 1.030749 / 1.027101 pu; Va -9.6338 / 1.3484 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 34: Pg pred/ref/error 0.00/108.22/-108.22 MW; Qg -4.51/8.50/-13.00 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 300 [217→220]: r=0.0027, x=0.0395, tap=1, shift=0°, b=0.832; 302 [220→218]: r=0.0037, x=0.0484, tap=1, shift=0°, b=0.43; 303 [220→221]: r=0.001, x=0.0295, tap=1, shift=0°, b=0.503; 304 [220→238]: r=0.0016, x=0.0046, tap=1, shift=0°, b=0.402.
+Bus 231 (matrix row 210): P/Q residual 239.25 MW / -3,404.13 MVAr; Vm predicted/reference 1.049258 / 1.050598 pu; Va -11.8128 / 1.5455 degrees. Bus GS/BS at unit voltage: 0.00 MW / -300.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 266 [190→231]: r=0.0004, x=0.0022, tap=1, shift=0°, b=6.2; 310 [226→231]: r=0.0005, x=0.0212, tap=1, shift=0°, b=0; 311 [227→231]: r=0.0009, x=0.0472, tap=1, shift=0°, b=0.186; 313 [228→231]: r=0.0026, x=0.0917, tap=1, shift=0°, b=0; 316 [231→232]: r=0.0002, x=0.0069, tap=1, shift=0°, b=1.364; 317 [231→237]: r=0.0001, x=0.0006, tap=1, shift=0°, b=3.57.
+Bus 237 (matrix row 216): P/Q residual -307.92 MW / 1,787.03 MVAr; Vm predicted/reference 1.033474 / 1.052713 pu; Va -11.6561 / 1.6500 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 301 [219→237]: r=0.0003, x=0.0018, tap=1, shift=0°, b=5.2; 306 [222→237]: r=0.0014, x=0.0514, tap=1, shift=0°, b=0.33; 317 [231→237]: r=0.0001, x=0.0006, tap=1, shift=0°, b=3.57; 320 [234→237]: r=0.0006, x=0.0272, tap=1, shift=0°, b=0; 322 [241→237]: r=0.0005, x=0.0154, tap=1, shift=0°, b=0.
+Bus 223 (matrix row 202): P/Q residual -44.59 MW / -1,512.17 MVAr; Vm predicted/reference 1.033637 / 1.029634 pu; Va -8.2852 / 0.0312 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 305 [221→223]: r=0.0003, x=0.0013, tap=1, shift=0°, b=1; 386 [223→224]: r=0.0012, x=0.0195, tap=1, shift=0°, b=-0.364.
+Bus 221 (matrix row 200): P/Q residual -233.01 MW / 1,305.92 MVAr; Vm predicted/reference 1.018340 / 1.033669 pu; Va -7.8946 / 0.2623 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 35: Pg pred/ref/error 306.49/487.61/-181.12 MW; Qg -3.69/248.58/-252.27 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): 303 [220→221]: r=0.001, x=0.0295, tap=1, shift=0°, b=0.503; 305 [221→223]: r=0.0003, x=0.0013, tap=1, shift=0°, b=1.
+Detailed bus records: case300x2
+Bus A:235 (matrix row 214): P/Q residual -1,141.64 MW / -3,933.43 MVAr; Vm predicted/reference 1.028155 / 1.027510 pu; Va -26.6766 / 2.1319 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:319 [A:234→A:235]: r=0.0002, x=0.0259, tap=1, shift=0°, b=0.144; A:branch:321 [A:235→A:238]: r=0.0002, x=0.0006, tap=1, shift=0°, b=0.8.
+Bus A:238 (matrix row 217): P/Q residual 1,126.95 MW / 3,940.35 MVAr; Vm predicted/reference 1.004267 / 1.028603 pu; Va -26.5298 / 2.2045 degrees. Bus GS/BS at unit voltage: 0.00 MW / -150.00 MVAr. Generators: source generator row 41: Pg pred/ref/error 271.91/265.69/6.22 MW; Qg -6.47/200.00/-206.47 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:304 [A:220→A:238]: r=0.0016, x=0.0046, tap=1, shift=0°, b=0.402; A:branch:321 [A:235→A:238]: r=0.0002, x=0.0006, tap=1, shift=0°, b=0.8; A:branch:389 [A:238→A:239]: r=0.0005, x=0.016, tap=1.02, shift=0°, b=0.
+Bus B:238 (matrix row 517): P/Q residual 610.62 MW / 2,033.37 MVAr; Vm predicted/reference 1.008008 / 1.028603 pu; Va -25.3563 / 2.2045 degrees. Bus GS/BS at unit voltage: 0.00 MW / -150.00 MVAr. Generators: source generator row 41: Pg pred/ref/error 263.32/265.69/-2.37 MW; Qg -5.02/200.00/-205.02 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): B:branch:304 [B:220→B:238]: r=0.0016, x=0.0046, tap=1, shift=0°, b=0.402; B:branch:321 [B:235→B:238]: r=0.0002, x=0.0006, tap=1, shift=0°, b=0.8; B:branch:389 [B:238→B:239]: r=0.0005, x=0.016, tap=1.02, shift=0°, b=0.
+Bus A:9001 (matrix row 266): P/Q residual -545.89 MW / 758.75 MVAr; Vm predicted/reference 1.039675 / 1.030143 pu; Va -23.5871 / -0.2914 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:1 [A:37→A:9001]: r=6e-05, x=0.00046, tap=1.0082, shift=0°, b=0; A:branch:2 [A:9001→A:9005]: r=0.0008, x=0.00348, tap=1, shift=0°, b=0; A:branch:3 [A:9001→A:9006]: r=0.02439, x=0.43682, tap=0.9668, shift=0°, b=0; A:branch:4 [A:9001→A:9012]: r=0.03624, x=0.64898, tap=0.9796, shift=0°, b=0.
+Bus B:235 (matrix row 514): P/Q residual -524.81 MW / -1,578.20 MVAr; Vm predicted/reference 1.017161 / 1.027510 pu; Va -25.4449 / 2.1319 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): B:branch:319 [B:234→B:235]: r=0.0002, x=0.0259, tap=1, shift=0°, b=0.144; B:branch:321 [B:235→B:238]: r=0.0002, x=0.0006, tap=1, shift=0°, b=0.8.
+Bus A:37 (matrix row 31): P/Q residual 497.58 MW / -1,021.66 MVAr; Vm predicted/reference 1.051859 / 1.038513 pu; Va -23.7933 / -0.3051 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:1 [A:37→A:9001]: r=6e-05, x=0.00046, tap=1.0082, shift=0°, b=0; A:branch:56 [A:15→A:37]: r=0.065, x=0.248, tap=1, shift=0°, b=0.121; A:branch:80 [A:37→A:38]: r=0.008, x=0.047, tap=1, shift=0°, b=0.008; A:branch:81 [A:37→A:40]: r=0.022, x=0.064, tap=1, shift=0°, b=0.007; A:branch:82 [A:37→A:41]: r=0.01, x=0.036, tap=1, shift=0°, b=0.02; A:branch:83 [A:37→A:49]: r=0.017, x=0.081, tap=1, shift=0°, b=0.048; A:branch:84 [A:37→A:89]: r=0.102, x=0.254, tap=1, shift=0°, b=0.033; A:branch:85 [A:37→A:90]: r=0.047, x=0.127, tap=1, shift=0°, b=0.016.
+Bus A:221 (matrix row 200): P/Q residual -404.78 MW / -1,461.20 MVAr; Vm predicted/reference 0.998634 / 1.032115 pu; Va -30.7135 / 0.2607 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 35: Pg pred/ref/error 391.29/487.62/-96.32 MW; Qg -0.31/245.93/-246.23 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:303 [A:220→A:221]: r=0.001, x=0.0295, tap=1, shift=0°, b=0.503; A:branch:305 [A:221→A:223]: r=0.0003, x=0.0013, tap=1, shift=0°, b=1.
+Bus A:223 (matrix row 202): P/Q residual 321.02 MW / 1,529.58 MVAr; Vm predicted/reference 0.976986 / 1.028128 pu; Va -31.0826 / 0.0283 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:305 [A:221→A:223]: r=0.0003, x=0.0013, tap=1, shift=0°, b=1; A:branch:386 [A:223→A:224]: r=0.0012, x=0.0195, tap=1, shift=0°, b=-0.364.
+Bus A:7049 (matrix row 257): P/Q residual -273.00 MW / -58.84 MVAr; Vm predicted/reference 1.060000 / 1.033026 pu; Va 0.0000 / 0.0000 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 56: Pg pred/ref/error 758.00/72.63/685.37 MW; Qg 0.00/10.00/-10.00 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:403 [A:7049→A:49]: r=0, x=0.0124, tap=1, shift=0°, b=0.
+Bus A:191 (matrix row 170): P/Q residual -255.88 MW / -198.13 MVAr; Vm predicted/reference 1.056859 / 1.060000 pu; Va -25.7647 / 26.9481 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. Generators: source generator row 31: Pg pred/ref/error 1,248.58/1,867.41/-618.83 MW; Qg 47.80/580.50/-532.69 MVAr. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:268 [A:191→A:192]: r=0.003, x=0.048, tap=1, shift=0°, b=0; A:branch:309 [A:225→A:191]: r=0.001, x=0.061, tap=1, shift=0°, b=0.
+Bus B:9001 (matrix row 566): P/Q residual -138.42 MW / -9,376.45 MVAr; Vm predicted/reference 1.060000 / 1.030143 pu; Va -1.4456 / -0.2914 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): B:branch:1 [B:37→B:9001]: r=6e-05, x=0.00046, tap=1.0082, shift=0°, b=0; B:branch:2 [B:9001→B:9005]: r=0.0008, x=0.00348, tap=1, shift=0°, b=0; B:branch:3 [B:9001→B:9006]: r=0.02439, x=0.43682, tap=0.9668, shift=0°, b=0; B:branch:4 [B:9001→B:9012]: r=0.03624, x=0.64898, tap=0.9796, shift=0°, b=0.
+Bus B:37 (matrix row 331): P/Q residual 37.80 MW / 8,511.93 MVAr; Vm predicted/reference 1.029408 / 1.038513 pu; Va -1.2400 / -0.3051 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): B:branch:1 [B:37→B:9001]: r=6e-05, x=0.00046, tap=1.0082, shift=0°, b=0; B:branch:56 [B:15→B:37]: r=0.065, x=0.248, tap=1, shift=0°, b=0.121; B:branch:80 [B:37→B:38]: r=0.008, x=0.047, tap=1, shift=0°, b=0.008; B:branch:81 [B:37→B:40]: r=0.022, x=0.064, tap=1, shift=0°, b=0.007; B:branch:82 [B:37→B:41]: r=0.01, x=0.036, tap=1, shift=0°, b=0.02; B:branch:83 [B:37→B:49]: r=0.017, x=0.081, tap=1, shift=0°, b=0.048; B:branch:84 [B:37→B:89]: r=0.102, x=0.254, tap=1, shift=0°, b=0.033; B:branch:85 [B:37→B:90]: r=0.047, x=0.127, tap=1, shift=0°, b=0.016.
+Bus A:3 (matrix row 3): P/Q residual -196.93 MW / -2,955.75 MVAr; Vm predicted/reference 1.045308 / 1.012874 pu; Va -34.9077 / 15.3034 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:42 [A:3→A:7]: r=0, x=0.003, tap=1, shift=0°, b=0; A:branch:43 [A:3→A:19]: r=0.008, x=0.069, tap=1, shift=0°, b=0.139; A:branch:44 [A:3→A:150]: r=0.001, x=0.007, tap=1, shift=0°, b=0; A:branch:335 [A:3→A:1]: r=0, x=0.052, tap=0.947, shift=0°, b=0; A:branch:336 [A:3→A:2]: r=0, x=0.052, tap=0.956, shift=0°, b=0; A:branch:337 [A:3→A:4]: r=0, x=0.005, tap=0.971, shift=0°, b=0; A:branch:394 [A:7003→A:3]: r=0, x=0.01054, tap=1, shift=0°, b=0.
+Bus A:219 (matrix row 198): P/Q residual 52.15 MW / 2,195.70 MVAr; Vm predicted/reference 1.020110 / 1.055338 pu; Va -26.8357 / 1.4235 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): A:branch:272 [A:194→A:219]: r=0.0031, x=0.0286, tap=1, shift=0°, b=0.5; A:branch:274 [A:195→A:219]: r=0.0031, x=0.0286, tap=1, shift=0°, b=0.5; A:branch:299 [A:217→A:219]: r=0.0005, x=0.0177, tap=1, shift=0°, b=0.02; A:branch:301 [A:219→A:237]: r=0.0003, x=0.0018, tap=1, shift=0°, b=5.2; A:branch:385 [A:218→A:219]: r=0.001, x=0.0354, tap=0.97, shift=0°, b=-0.01.
+Bus B:3 (matrix row 303): P/Q residual 49.05 MW / -1,868.19 MVAr; Vm predicted/reference 1.016629 / 1.012874 pu; Va -10.8547 / 15.3034 degrees. Bus GS/BS at unit voltage: 0.00 MW / 0.00 MVAr. No local generator. Incident circuits (pu on 100 MVA; total charging b; source orientation shown): B:branch:42 [B:3→B:7]: r=0, x=0.003, tap=1, shift=0°, b=0; B:branch:43 [B:3→B:19]: r=0.008, x=0.069, tap=1, shift=0°, b=0.139; B:branch:44 [B:3→B:150]: r=0.001, x=0.007, tap=1, shift=0°, b=0; B:branch:335 [B:3→B:1]: r=0, x=0.052, tap=0.947, shift=0°, b=0; B:branch:336 [B:3→B:2]: r=0, x=0.052, tap=0.956, shift=0°, b=0; B:branch:337 [B:3→B:4]: r=0, x=0.005, tap=0.971, shift=0°, b=0; B:branch:394 [B:7003→B:3]: r=0, x=0.01054, tap=1, shift=0°, b=0.
+7. Reproducibility, evidence and next decision
+Hardware/runtime: Apple M5 Pro, 18 CPU cores, 64 GB RAM; CPU FP32 inference with four torch threads, seed 0 and deterministic algorithms; BLAS one thread. Python 3.11.17, torch 2.8.0, PyG 2.8.0.post1, NumPy 2.4.6, SciPy 1.17.1. Julia/PowerModels/Ipopt versions are given above. Exact original/case-input/model/checkpoint/runner hashes and all commands are in provenance-A.json, provenance-final.json, environment.json and artifact-index.json. All 37 previously manifested base-result files and all recorded model-source hashes remain unchanged.
+Local repository: /Users/ninadsonawane/workspace/research-dev/GridSFM-study. Base results: results/inference/2026-10-21-base-cases/. Diagnosis/pilot: results/diagnosis/2026-10-21-frozen-and-initialization/. These are local artifacts; their source-derived matrices, raw records and large outputs have not been pushed or uploaded. The repository remote is https://github.com/ninadsonawane/GridSFM-study.git; do not assume the local result paths are already available remotely.
+Primary evidence: base checks.json and analyze.py; diagnosis reference-export-reload-check.json, physical-summary.csv, physics-mismatch.json, forward-and-rating-checks.json, fp32-and-context-check.json, worst-buses.json/.md, nodal-residuals.csv, pilot-summary.csv, pilot-raw-prediction-summary.json, initialization-consumption-evidence.json, cold-default.json, cold-gridsfm.json and pilot/ per-run records. Failed runs and instrumented-source snapshots are retained. Raw absolute execution paths point into /private/tmp/gridsfm-diagnosis-20261021; artifact-index.json maps them to the identical durable copies under the local results directory.
+Reproduction: work in a copy of the diagnosis/pilot directory to preserve the archived summaries. Use the existing interpreter /Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python with -B diagnose.py, -B forward_check.py, -B pilot.py, -B pilot.py cold-default and -B pilot.py cold-gridsfm. Run python3 -B check_reference_export.py and python3 -B fp32_context.py for the additional saved-state checks. pilot.py launches solver_server.jl with the existing GridSFM Julia project. The archived report.py selects recorded attempt 141557; it is not a generic selector for new runs.
+Next decision: the frozen baseline and this initialization method do not presently support an acceleration claim. Keep the demonstrated model-physics differences separate from the still-uncertain cause of poor transfer. No fine-tuning, expanded 600-bus scenario study, submission or external correspondence was performed as part of these experiments.
