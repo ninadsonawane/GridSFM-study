@@ -35,7 +35,7 @@ def main():
       fs=rng.choice(families,len(families),replace=True);ix=[i for f in fs for i in byfam[f]];boots.append(float(np.mean(vals[ix])))
      mean=float(vals.mean());item.update(mean_paired_online_saving_seconds=mean,bootstrap_95CI=np.percentile(boots,[2.5,97.5]).tolist())
      if mean>0:
-      fit=next((f for f in offline if method.startswith('FT-s'+str(f['seed'])+'-') and f['network']==net),None);labels=read(RUN/'prepare-complete.json')['pglib_label_seconds'] if net=='pglib118' else sum(r.get('elapsed_seconds',0) for s in ['train','validation'] for r in read(OLD/'data/manifest.json')[s]);offlinecost=(fit['fit_seconds'] if fit else 0)+(ridge[net]['tuning_seconds'] if method=='ridge' else 0)+labels
+      fit=next((f for f in offline if method.startswith('FT-s'+str(f['seed'])+'-') and f['network']==net),None);labels=read(RUN/'prepare-complete.json')['pglib_label_seconds'] if net=='pglib118' else sum(r.get('elapsed_seconds',0) for s in ['train','validation'] for r in read(OLD/'data/manifest.json')[s]);offlinecost=(fit['fit_seconds'] if fit else 0)+(ridge[net]['tuning_seconds'] if method=='ridge' else 0)+(labels if fit or method=='ridge' else 0)
       item.update(offline_cost_seconds=offlinecost,break_even_solve_count=math.ceil(offlinecost/mean),amortization='Conditional estimate on jointly successful quality subset; labels included, resident/cache policy applies')
     paired.append(item)
  save(RUN/'paired-runtime.json',paired)
@@ -58,6 +58,16 @@ def main():
    v=[max(g[boundlo]-x,x-g[boundhi],0) for x,g in zip(state[key],c['gen'])];j=int(np.argmax(v));g=c['gen'][j];locations.append(dict(network=r['network'],method=r['method'],scenario_id=r['scenario_id'],constraint=key,violation=max(v),generator_row=j+1,original_bus_id=int(g[0]),synchronous_condenser=g[8]==g[9]==0,slack=any(b[0]==g[0] and b[1]==3 for b in c['bus'])))
   vv=[max(b[12]-x,x-b[11],0) for x,b in zip(state['vm'],c['bus'])];j=int(np.argmax(vv));locations.append(dict(network=r['network'],method=r['method'],scenario_id=r['scenario_id'],constraint='voltage_pu',violation=max(vv),original_bus_id=int(c['bus'][j][0])))
   sf,st=branch_flows(c,state['vm'],state['va_deg']);v=[max(abs(sf[i]),abs(st[i]))-b[5] if b[5]>0 else 0 for i,b in enumerate(c['branch'])];j=int(np.argmax(v));locations.append(dict(network=r['network'],method=r['method'],scenario_id=r['scenario_id'],constraint='branch_MVA',violation=max(max(v),0),branch_row=j+1,from_bus=int(c['branch'][j][0]),to_bus=int(c['branch'][j][1])))
+  ids={int(b[0]):i for i,b in enumerate(c['bus'])};out=np.array([complex(b[4],-b[5])*state['vm'][i]**2 for i,b in enumerate(c['bus'])]);inj=np.array([complex(-b[2],-b[3]) for b in c['bus']])
+  for j,b in enumerate(c['branch']):out[ids[int(b[0])]]+=sf[j];out[ids[int(b[1])]]+=st[j]
+  for j,g in enumerate(c['gen']):inj[ids[int(g[0])]]+=complex(state['pg_mw'][j],state['qg_mvar'][j])
+  residual=inj-out
+  for name,values in [('P_balance_MW',residual.real),('Q_balance_MVAr',residual.imag)]:
+   j=int(np.argmax(abs(values)));locations.append(dict(network=r['network'],method=r['method'],scenario_id=r['scenario_id'],constraint=name,violation=float(max(abs(values))),original_bus_id=int(c['bus'][j][0]),area=int(c['bus'][j][6])))
+  av=[]
+  for b in c['branch']:
+   delta=state['va_deg'][ids[int(b[0])]]-state['va_deg'][ids[int(b[1])]];lo,hi=b[11:13];active=((lo!=0 and lo>-360) or (hi!=0 and hi<360) or (lo!=0 and hi==0) or (lo==0 and hi!=0));av.append(max(lo-delta if active and lo>=-360 else 0,delta-hi if active and hi<=360 else 0,0))
+  j=int(np.argmax(av));locations.append(dict(network=r['network'],method=r['method'],scenario_id=r['scenario_id'],constraint='angle_deg',violation=float(max(av)),branch_row=j+1,from_bus=int(c['branch'][j][0]),to_bus=int(c['branch'][j][1])))
  save(RUN/'worst-locations.json',locations)
  lines=['# GSFM-007 — Experiment10 practical AC-OPF value','','Three optimizer seeds per network, one fixed50/10 split each; bounded1500-update adaptation, released source-defined objective and selection. Fresh fixed candidates follow a frozen protocol; original physical parameters and strict checker unchanged.','', '## Final common-solver stage (all online requests)','', '| Network | Method | Slice | Feasible / requests | Quality / known requests | Median / p95 total seconds | Fallbacks |','|---|---|---|---|---|---|---|']
  for r in summary:
