@@ -1,0 +1,84 @@
+{
+  "run_id": "2026-10-21-package-verification",
+  "started_utc": "2026-10-21T07:43:12.691494+00:00",
+  "scope": "source/protocol/toy verification only; no solver/model study",
+  "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "code_commit": "f1718fccaf93afee286eacbe9547ab554944edf9",
+  "dirty_tree_at_start": "",
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\Ninad\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_complex_tap_orientation (test_physics_metrics.PhysicsTests) ... ok\ntest_infeasible_not_cost_certified (test_physics_metrics.PhysicsTests) ... ok\ntest_lossless_line_analytic (test_physics_metrics.PhysicsTests) ... ok\ntest_parallel_outage_identity_and_unlimited (test_physics_metrics.PhysicsTests) ... ok\ntest_q_cost_rows_and_angle_gauge (test_physics_metrics.PhysicsTests) ... ok\ntest_shunt_sign_and_charging (test_physics_metrics.PhysicsTests) ... ok\ntest_unsupported_dispatchable_load_and_bad_rating_rejected (test_physics_metrics.PhysicsTests) ... ok\ntest_zero_angle_bound_is_active_with_nonzero_other_side (test_physics_metrics.PhysicsTests) ... ok\ntest_zero_impedance_rejected (test_physics_metrics.PhysicsTests) ... ok\ntest_load_seed (test_protocol.ProtocolTests) ... ok\ntest_manifest_reproducible_and_grouped (test_protocol.ProtocolTests) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.005s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\Ninad\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+        "-B",
+        "scripts/python/matpower_test.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_asymmetry_conservation (__main__.MatpowerStructureTests) ... ok\ntest_counts_and_terminal_map (__main__.MatpowerStructureTests) ... ok\ntest_different_voltage_terminals_rejected (__main__.MatpowerStructureTests) ... ok\ntest_double_outage_rejected (__main__.MatpowerStructureTests) ... ok\ntest_exact_source (__main__.MatpowerStructureTests) ... ok\ntest_missing_external_id_rejected (__main__.MatpowerStructureTests) ... ok\ntest_no_input_mutation (__main__.MatpowerStructureTests) ... ok\ntest_original_impedances_shunts_and_costs_preserved (__main__.MatpowerStructureTests) ... ok\ntest_qcost_order (__main__.MatpowerStructureTests) ... ok\ntest_reference_and_pv_role (__main__.MatpowerStructureTests) ... ok\ntest_single_outage_stays_connected_preserves_id (__main__.MatpowerStructureTests) ... ok\ntest_source_audit (__main__.MatpowerStructureTests) ... ok\ntest_source_is_already_multigraph (__main__.MatpowerStructureTests) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.077s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\Ninad\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+        "-B",
+        "scripts/python/gridsfm_selfcheck.py",
+        "--upstream",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-21\\files-pasted-by-the-user-conduct\\work\\GridSFM-upstream",
+        "--lora"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"actual_upstream_cycle_function\": \"PASS\", \"parallel_edges\": 2, \"cycles\": 1, \"after_single_outage_cycles\": 0, \"full_pyg_model_check\": \"NOT RUN\"}\nPASS: imported FFN LoRA target names, zero-output initialization, backbone freeze, adapter gradients\n",
+      "stderr": "test_fail_closed (__main__.ConversionChecks) ... ok\ntest_no_label_feature_leakage (__main__.ConversionChecks) ... ok\ntest_parallel_identity (__main__.ConversionChecks) ... ok\ntest_single_tie_outage (__main__.ConversionChecks) ... ok\ntest_transformer_and_zero_rating (__main__.ConversionChecks) ... ok\ntest_units_cost_direction (__main__.ConversionChecks) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+    }
+  ],
+  "failures": [],
+  "immutable_imports": {
+    "scripts/python/gridsfm_lora.py": {
+      "expected_sha256": "77c3eb890703d20adc2881139ba17e34ddddc30ac9f9b4d07ef36527556aef95",
+      "committed_sha256": "77c3eb890703d20adc2881139ba17e34ddddc30ac9f9b4d07ef36527556aef95"
+    },
+    "docs/context/2026-10-21-user-request.txt": {
+      "expected_sha256": "1e60656cbe9a42de50d530ac28174c4826ae551f6e5960f02f2fe927994e08d7",
+      "committed_sha256": "1e60656cbe9a42de50d530ac28174c4826ae551f6e5960f02f2fe927994e08d7"
+    }
+  },
+  "input_file_sha256": {
+    "scripts/python/gridsfm_adapter.py": "acb9a6835984164f9132e4822a7261943300ff1325243dd004b0bdb3d74f2cd2",
+    "scripts/python/gridsfm_convert.py": "4fdc363fc03069ce78aa04f168182bff1530203c4f9681a3349cb60462ecaeb7",
+    "scripts/python/gridsfm_fetch_checkpoint.py": "1691e868dd3bec4b0468b46d221e678f66cb082fa344f94b0a6c0e018009a4e7",
+    "scripts/python/gridsfm_lora.py": "77c3eb890703d20adc2881139ba17e34ddddc30ac9f9b4d07ef36527556aef95",
+    "scripts/python/gridsfm_selfcheck.py": "799d959eb82080c85fa3580de48c969bd47a0c5aee677cec0d075c0b15d27b8c",
+    "scripts/python/make_scenarios.py": "b40f0f684e953b62c869eb4059c114a7fc7b9ef15dc9e7e0872ac70d5a0276af",
+    "scripts/python/matpower_case.py": "f200f52dd96529aaa7f4bddb05f7e76f14d5fbd55c4a40880c9a7b5577968511",
+    "scripts/python/matpower_test.py": "bbf8dcd46c426e3161fd59ab3ec2ef484363a4835dc24466e1589156eb56af28",
+    "scripts/python/physics_metrics.py": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+    "scripts/python/verify_package.py": "9d2261a0310b663e16f16f59fca69824e873a5422139f038c5530811c945de89",
+    "scripts/matlab/build_case300x2.m": "f6dc831d0f46be9477c3c3ac5cdc3f68ef4e10ef3d3de91db5c717cf5c653cf2",
+    "scripts/matlab/export_study_neutral.m": "7b805fb00b453e6946d20da4ba7cc59d247f345144d68889e9dada4888aea7ad",
+    "scripts/matlab/run_matpower_smoke.m": "f84337b44045b8656730b17c3faf269253ed201f665ebe1e20b2db2a25e02258",
+    "scripts/matlab/study_check_solution.m": "e0361bad5e8114e6daa609f88e0791e2d98075e1e9f2f4088938a0b1b7f55d8a",
+    "tests/test_physics_metrics.py": "82de79d8007e01ff4b6f3432591b827b891746768bd0ab189a8c126a2f710731",
+    "tests/test_protocol.py": "328af06a143bf26ef2d3c728c1b38944eeec8feca4c77a43cde89c6c5eda45f1",
+    "configs/experiment.json": "5a7d04bb9068aaa0b472c3220be50efd8936a64728c493642c52ebee4d570513",
+    "configs/network-case300x2.json": "6ccdcb76f02a173f0181a0f9894c7a74260f93654df2ca92fe939c726e4193d5",
+    "environments/cpu-smoke.txt": "7f57b876c9b44f525882ca44120f48a2c568ad4680fa7b09a695556c56a54957",
+    "environments/gridsfm-constraints.txt": "4db2038a0f572d5b1bcfc7a54840c61f19c74b6f75dc9dc5a5e6e158f93c8dbb"
+  },
+  "finished_utc": "2026-10-21T07:43:16.292553+00:00",
+  "status": "passed"
+}
