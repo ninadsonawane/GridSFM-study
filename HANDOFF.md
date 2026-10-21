@@ -1,5 +1,11 @@
 # Handoff after the initial research package
 
+## Active instruction — 22 October 2026
+
+Ninad explicitly requested the new hardware task in Exchange To-do: **[GSFM-007 / Experiment 10](docs/experiments/GSFM-007.md)**. Status READY; planner has not run it. Read this protocol and [decision 0005](docs/decisions/0005-practical-utility-benchmark.md) first. It authorizes one bounded five-hour M5 task, including six planned 1,500-update full-regression fits, matched baselines/refinement, two networks and fresh confirmation, subject to the documented correctness/resource gates. This supersedes earlier no-follow-up/GSFM-005 operational instructions below; preserve those as history. Do not run any old task again or continue automatically beyond GSFM-007.
+
+Use original case300 plus pinned PGLib IEEE118. Claim once in Exchange, parameterize old hard-coded seed/grid paths, preserve all Results, and append a GSFM-007 report with actual completion/partial status and verified artifact commit. No paid compute or submission is authorized.
+
 ## Completed hardware follow-up — 21 October 2026
 
 GSFM-005 Experiments5–8 are COMPLETE. [Results](results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/README.md): all12 fits reached1000 updates; selected E-minus-C_m ordinary joint-score contrasts are -0.838/-0.374/-0.929. Ridge remains better; every raw feasibility count is zero. Matched200 seed22 reverses, and state/cost trade-offs remain. Three figures, full summaries, failed solves and original-ID localization are preserved; large states are local with hashes. No further experiment is authorized by this completed run. Earlier READY/hardware instructions below are historical.
