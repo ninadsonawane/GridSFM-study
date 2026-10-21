@@ -8,3 +8,5 @@
 - Updated README/HANDOFF with later amendments while retaining original plan/history. Existing remote main was verified atc74c2bd before edits; no remote numerical artifacts appeared there.
 - Verification for this milestone is document/link/provenance review, not a rerun of model or solver experiments. No source implementation changed, so scientific unit tests were not rerun solely for prose edits.
 - No long training, compute purchase, submission, email or unrelated-system change was initiated. Final Git push status is reported in the delivery message; do not infer it from this log alone.
+
+Completion update: research source commit `82457c8f410eecdc7c24ebe393593a4e08472c96` was pushed and matched remote main. GSFM-003 was inserted into the previously empty Exchange To-do with a pinned protocol link. Copied Results text compared exactly equal before/after; task visibility and saved state were checked. Verification metadata is in `results/verification/2026-10-21-publication-reassessment.json`. The screenshot is a local UI receipt, not a numerical experiment artifact.

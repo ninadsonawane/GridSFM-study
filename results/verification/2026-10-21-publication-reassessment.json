@@ -1,0 +1,20 @@
+{
+  "date_local": "2026-10-21",
+  "timezone": "Asia/Kolkata",
+  "research_source_commit": "82457c8f410eecdc7c24ebe393593a4e08472c96",
+  "scope": "Research documents, source-code reading, bibliography and shared experiment-task update; no new numerical model or solver experiment",
+  "checks": {
+    "local_markdown_links_checked_files": 11,
+    "missing_local_link_targets": 0,
+    "git_staged_whitespace_check": "passed after normalizing copied report line endings and trailing blank line",
+    "source_commit_pushed_and_remote_hash_verified": true,
+    "exchange_task_GSFM_003_visible": true,
+    "exchange_results_text_equal_before_and_after": true,
+    "exchange_task_precedes_results": true
+  },
+  "document": "https://docs.google.com/document/d/19jzhfyde3PvHPJAd97ITYNX1WQqMtkC1F8siDWOhJM0/edit",
+  "numerical_results_status": "VM-reported; raw Mac artifacts not independently accessed or synchronized by this research session",
+  "main_training_status": "proposed, not launched",
+  "next_task_limit": "20 updates or 120 seconds per adaptation arm, whichever is first",
+  "submission_or_external_correspondence": "none"
+}
