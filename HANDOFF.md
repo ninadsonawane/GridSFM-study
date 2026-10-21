@@ -1,5 +1,13 @@
 # Handoff after the initial research package
 
+## Current instruction: GSFM-005, Experiments 5–8
+
+21 October 2026: the user requested the next experiments in Exchange's To-do. Read **[GSFM-005](docs/experiments/GSFM-005.md)** and [decision 0004](docs/decisions/0004-controlled-kcl-followup.md). This section supersedes the older operational instructions below; preserve them as history. Status: READY FOR HARDWARE, not executed by the Windows planner.
+
+GSFM-004 completed six 200-update fits. All raw feasibility counts were zero; ridge beat neural methods on balance, and exact KCL had selected-checkpoint benefits but state/fixed-endpoint trade-offs. The next bounded run tests S/C/E plus a training-only gradient-magnitude-matched stock control, 1,000 updates each for seeds 11/22/33 (12 fits). Keep the same 50 training/10 validation cases; then evaluate the frozen recipe on fresh ordinary/spatial/higher-load cases. Five-hour inclusive cap, compute cutoff 4h40m, 15 minutes per fit, mandatory ridge/nearest/frozen controls. No automatic expansion to LoRA, new networks or a final large study.
+
+Start a NEW GSFM-005 run directory and clock; mark ownership/RUNNING in Exchange. Parameterize the old runner's hard-coded seed11 and GSFM-004 paths rather than relabeling runs. Preserve existing Results, large local artifacts, source/checkpoint bytes and all failures. Normal reviewed commits/pushes remain authorized. No paid compute, email or conference submission is authorized. Append the report and stop when the specified work finishes, even before five hours.
+
 ## Current amendment: bounded discovery pilot, 21 October 2026
 
 **Budget revision2 now controls:** the user asked for4-5hours. GSFM-004 is reduced to a five-hour inclusive cap, compute stops at4h40m, six fits/one seed11, <=200updates and25minutes per fit,50train plus10each validation/ordinary/spatial/high-load. Second seed, cross-case audit and MPS probe are deferred. Preserve any work already started; the clock runs from the original start and no duplicate or automatic restart is permitted. The earlier eight-hour paragraph below is historical.
