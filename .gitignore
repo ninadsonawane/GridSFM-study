@@ -23,3 +23,9 @@ paper/*.log
 # GSFM-006 full predictions and solver traces: local artifacts, SHA256 indexed
 results/pilots/GSFM-006/*/evaluation/
 results/pilots/GSFM-006/*/conventional/
+
+# GSFM-007 local scientific states; compact evidence staged explicitly
+results/pilots/GSFM-007/*/data/
+results/pilots/GSFM-007/*/pilot/
+results/pilots/GSFM-007/*/online-states/
+results/pilots/GSFM-007/*/predictions/
