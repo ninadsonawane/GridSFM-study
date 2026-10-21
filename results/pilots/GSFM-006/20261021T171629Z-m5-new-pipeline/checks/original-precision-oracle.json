@@ -1,0 +1,2657 @@
+[
+  {
+    "scenario_id": "train-000",
+    "purpose": "ORACLE DIAGNOSTIC ONLY: isolate native FP32 rounding from released +1e-12 denominator",
+    "metrics": {
+      "max_p_residual_mw": 0.0011534622744306944,
+      "max_q_residual_mvar": 0.0007886596514481425,
+      "mean_abs_p_residual_mw": 1.8008548274621173e-05,
+      "mean_abs_q_residual_mvar": 9.397239442719404e-06,
+      "max_generator_component_violation_mw_or_mvar": 3.6872297073387017e-06,
+      "max_voltage_violation_pu": 3.511253732213504e-09,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0,
+      "max_rated_branch_loading": null,
+      "rated_active_branch_count": 0,
+      "unlimited_active_branch_count": 411,
+      "generation_cost_per_hour": 720114.991278407,
+      "thresholds": {
+        "balance_mva": 0.001,
+        "generator_mva": 0.001,
+        "voltage_pu": 0.0001,
+        "branch_mva": 0.001,
+        "angle_deg": 0.001
+      },
+      "all_tested_constraints_pass": false,
+      "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+      "cost_error_percent": 1.350156827055731e-08,
+      "voltage_mae_pu": 2.8546219277281183e-10,
+      "angle_mae_deg": 9.640474113818224e-08,
+      "pg_mae_mw": 3.398769075519722e-08,
+      "qg_mae_mvar": 2.5690472939823857e-06
+    },
+    "completion": {
+      "converged": true,
+      "iterations": 4,
+      "closure_max_residual_pu": 7.328582185550658e-13,
+      "norm_history": [
+        1.3782782631390091,
+        0.20913867349914098,
+        0.0009253678596528592,
+        3.11804120856074e-08,
+        7.328582185550658e-13
+      ],
+      "Q_limit_switching": false,
+      "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+      "allocation": [
+        {
+          "bus_index": 7,
+          "generator_rows": [
+            0
+          ],
+          "Q_total_pu": 0.10000000558795652
+        },
+        {
+          "bus_index": 9,
+          "generator_rows": [
+            1
+          ],
+          "Q_total_pu": 0.20000000356047892
+        },
+        {
+          "bus_index": 18,
+          "generator_rows": [
+            2
+          ],
+          "Q_total_pu": 0.20000001557991665
+        },
+        {
+          "bus_index": 54,
+          "generator_rows": [
+            3
+          ],
+          "Q_total_pu": 0.2499999996196137
+        },
+        {
+          "bus_index": 62,
+          "generator_rows": [
+            4
+          ],
+          "Q_total_pu": 0.3499999754036853
+        },
+        {
+          "bus_index": 68,
+          "generator_rows": [
+            5
+          ],
+          "Q_total_pu": 1.2931579420937012
+        },
+        {
+          "bus_index": 75,
+          "generator_rows": [
+            6
+          ],
+          "Q_total_pu": 0.13790544619219924
+        },
+        {
+          "bus_index": 76,
+          "generator_rows": [
+            7
+          ],
+          "Q_total_pu": 0.1472429102395223
+        },
+        {
+          "bus_index": 79,
+          "generator_rows": [
+            8
+          ],
+          "Q_total_pu": 0.07778499239392357
+        },
+        {
+          "bus_index": 87,
+          "generator_rows": [
+            9
+          ],
+          "Q_total_pu": 0.07559727728800271
+        },
+        {
+          "bus_index": 97,
+          "generator_rows": [
+            10
+          ],
+          "Q_total_pu": 10.532955829944969
+        },
+        {
+          "bus_index": 102,
+          "generator_rows": [
+            11
+          ],
+          "Q_total_pu": 0.9661759422486169
+        },
+        {
+          "bus_index": 103,
+          "generator_rows": [
+            12
+          ],
+          "Q_total_pu": 1.9999999975881573
+        },
+        {
+          "bus_index": 116,
+          "generator_rows": [
+            13
+          ],
+          "Q_total_pu": 2.826518916884718
+        },
+        {
+          "bus_index": 119,
+          "generator_rows": [
+            14
+          ],
+          "Q_total_pu": 0.4828297018712344
+        },
+        {
+          "bus_index": 121,
+          "generator_rows": [
+            15
+          ],
+          "Q_total_pu": 0.9448227115135281
+        },
+        {
+          "bus_index": 124,
+          "generator_rows": [
+            16
+          ],
+          "Q_total_pu": 0.35000000066509185
+        },
+        {
+          "bus_index": 125,
+          "generator_rows": [
+            17
+          ],
+          "Q_total_pu": -0.4145765655987016
+        },
+        {
+          "bus_index": 127,
+          "generator_rows": [
+            18
+          ],
+          "Q_total_pu": 0.2271056921079744
+        },
+        {
+          "bus_index": 130,
+          "generator_rows": [
+            19
+          ],
+          "Q_total_pu": -0.49999999762620506
+        },
+        {
+          "bus_index": 131,
+          "generator_rows": [
+            20
+          ],
+          "Q_total_pu": -0.4999999991892953
+        },
+        {
+          "bus_index": 134,
+          "generator_rows": [
+            21
+          ],
+          "Q_total_pu": -0.02651709371596145
+        },
+        {
+          "bus_index": 148,
+          "generator_rows": [
+            22
+          ],
+          "Q_total_pu": 0.9000000100518972
+        },
+        {
+          "bus_index": 149,
+          "generator_rows": [
+            23
+          ],
+          "Q_total_pu": 1.5000000368722974
+        },
+        {
+          "bus_index": 154,
+          "generator_rows": [
+            24
+          ],
+          "Q_total_pu": 0.4767760246620166
+        },
+        {
+          "bus_index": 155,
+          "generator_rows": [
+            25
+          ],
+          "Q_total_pu": 0.3500000012220823
+        },
+        {
+          "bus_index": 163,
+          "generator_rows": [
+            26
+          ],
+          "Q_total_pu": -0.07906088525397433
+        },
+        {
+          "bus_index": 164,
+          "generator_rows": [
+            27
+          ],
+          "Q_total_pu": 1.4531523561875828
+        },
+        {
+          "bus_index": 165,
+          "generator_rows": [
+            28
+          ],
+          "Q_total_pu": 1.6588120711238803
+        },
+        {
+          "bus_index": 168,
+          "generator_rows": [
+            29
+          ],
+          "Q_total_pu": -2.323033552081233
+        },
+        {
+          "bus_index": 169,
+          "generator_rows": [
+            30
+          ],
+          "Q_total_pu": 5.912002111216513
+        },
+        {
+          "bus_index": 176,
+          "generator_rows": [
+            31
+          ],
+          "Q_total_pu": 1.0381454469680014
+        },
+        {
+          "bus_index": 191,
+          "generator_rows": [
+            32
+          ],
+          "Q_total_pu": 0.6150069004348931
+        },
+        {
+          "bus_index": 198,
+          "generator_rows": [
+            33
+          ],
+          "Q_total_pu": 0.07247825004865482
+        },
+        {
+          "bus_index": 199,
+          "generator_rows": [
+            34
+          ],
+          "Q_total_pu": 2.4908523989400373
+        },
+        {
+          "bus_index": 200,
+          "generator_rows": [
+            35
+          ],
+          "Q_total_pu": 0.9470501493269698
+        },
+        {
+          "bus_index": 205,
+          "generator_rows": [
+            36
+          ],
+          "Q_total_pu": 2.9247674440437823
+        },
+        {
+          "bus_index": 208,
+          "generator_rows": [
+            37
+          ],
+          "Q_total_pu": 0.45499636586729414
+        },
+        {
+          "bus_index": 211,
+          "generator_rows": [
+            38
+          ],
+          "Q_total_pu": 1.8067871300484009
+        },
+        {
+          "bus_index": 214,
+          "generator_rows": [
+            39
+          ],
+          "Q_total_pu": 1.7091562905998532
+        },
+        {
+          "bus_index": 216,
+          "generator_rows": [
+            40
+          ],
+          "Q_total_pu": 1.9999998608664333
+        },
+        {
+          "bus_index": 217,
+          "generator_rows": [
+            41
+          ],
+          "Q_total_pu": 1.6806494786781854
+        },
+        {
+          "bus_index": 219,
+          "generator_rows": [
+            42
+          ],
+          "Q_total_pu": -1.6299700528061534
+        },
+        {
+          "bus_index": 220,
+          "generator_rows": [
+            43
+          ],
+          "Q_total_pu": 0.7908398766292594
+        },
+        {
+          "bus_index": 221,
+          "generator_rows": [
+            44
+          ],
+          "Q_total_pu": 0.3999999999998412
+        },
+        {
+          "bus_index": 246,
+          "generator_rows": [
+            45
+          ],
+          "Q_total_pu": 1.1011449567587672
+        },
+        {
+          "bus_index": 247,
+          "generator_rows": [
+            46
+          ],
+          "Q_total_pu": 0.6376843845234239
+        },
+        {
+          "bus_index": 248,
+          "generator_rows": [
+            47
+          ],
+          "Q_total_pu": 4.199999975040875
+        },
+        {
+          "bus_index": 249,
+          "generator_rows": [
+            48
+          ],
+          "Q_total_pu": 1.0000000014870976
+        },
+        {
+          "bus_index": 250,
+          "generator_rows": [
+            49
+          ],
+          "Q_total_pu": 1.8013188674285876
+        },
+        {
+          "bus_index": 251,
+          "generator_rows": [
+            50
+          ],
+          "Q_total_pu": 2.6991625507567476
+        },
+        {
+          "bus_index": 252,
+          "generator_rows": [
+            51
+          ],
+          "Q_total_pu": 2.4909667604534223e-10
+        },
+        {
+          "bus_index": 253,
+          "generator_rows": [
+            52
+          ],
+          "Q_total_pu": 0.801538926181677
+        },
+        {
+          "bus_index": 254,
+          "generator_rows": [
+            53
+          ],
+          "Q_total_pu": 0.4888039279940339
+        },
+        {
+          "bus_index": 255,
+          "generator_rows": [
+            54
+          ],
+          "Q_total_pu": 0.1387583044366045
+        },
+        {
+          "bus_index": 256,
+          "generator_rows": [
+            55
+          ],
+          "Q_total_pu": 0.09999999304025783
+        },
+        {
+          "bus_index": 257,
+          "generator_rows": [
+            56
+          ],
+          "Q_total_pu": 0.24999999881139112
+        },
+        {
+          "bus_index": 258,
+          "generator_rows": [
+            57
+          ],
+          "Q_total_pu": 0.4033459966099816
+        },
+        {
+          "bus_index": 259,
+          "generator_rows": [
+            58
+          ],
+          "Q_total_pu": 1.4235234476837395
+        },
+        {
+          "bus_index": 260,
+          "generator_rows": [
+            59
+          ],
+          "Q_total_pu": 1.499999996684766
+        },
+        {
+          "bus_index": 261,
+          "generator_rows": [
+            60
+          ],
+          "Q_total_pu": 0.7345414142805126
+        },
+        {
+          "bus_index": 262,
+          "generator_rows": [
+            61
+          ],
+          "Q_total_pu": 2.7497747376359065
+        },
+        {
+          "bus_index": 263,
+          "generator_rows": [
+            62
+          ],
+          "Q_total_pu": 3.0505837633210513
+        },
+        {
+          "bus_index": 264,
+          "generator_rows": [
+            63
+          ],
+          "Q_total_pu": 1.2585835237047478
+        },
+        {
+          "bus_index": 266,
+          "generator_rows": [
+            64
+          ],
+          "Q_total_pu": 0.0199999993754117
+        },
+        {
+          "bus_index": 291,
+          "generator_rows": [
+            65
+          ],
+          "Q_total_pu": 0.10556521665754927
+        },
+        {
+          "bus_index": 293,
+          "generator_rows": [
+            66
+          ],
+          "Q_total_pu": 0.08503069165227209
+        },
+        {
+          "bus_index": 294,
+          "generator_rows": [
+            67
+          ],
+          "Q_total_pu": 0.3799999964561792
+        },
+        {
+          "bus_index": 295,
+          "generator_rows": [
+            68
+          ],
+          "Q_total_pu": 0.05999999906906859
+        }
+      ]
+    }
+  },
+  {
+    "scenario_id": "train-001",
+    "purpose": "ORACLE DIAGNOSTIC ONLY: isolate native FP32 rounding from released +1e-12 denominator",
+    "metrics": {
+      "max_p_residual_mw": 0.0011095703660828349,
+      "max_q_residual_mvar": 0.0007772110106429864,
+      "mean_abs_p_residual_mw": 1.6852285547445295e-05,
+      "mean_abs_q_residual_mvar": 9.094263915357843e-06,
+      "max_generator_component_violation_mw_or_mvar": 3.4527826073826873e-06,
+      "max_voltage_violation_pu": 3.481220200995949e-09,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0,
+      "max_rated_branch_loading": null,
+      "rated_active_branch_count": 0,
+      "unlimited_active_branch_count": 411,
+      "generation_cost_per_hour": 693201.4764189408,
+      "thresholds": {
+        "balance_mva": 0.001,
+        "generator_mva": 0.001,
+        "voltage_pu": 0.0001,
+        "branch_mva": 0.001,
+        "angle_deg": 0.001
+      },
+      "all_tested_constraints_pass": false,
+      "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+      "cost_error_percent": 1.3139419406311849e-08,
+      "voltage_mae_pu": 2.7638744182212347e-10,
+      "angle_mae_deg": 9.328176124275463e-08,
+      "pg_mae_mw": 3.206827138778929e-08,
+      "qg_mae_mvar": 2.511194049281542e-06
+    },
+    "completion": {
+      "converged": true,
+      "iterations": 4,
+      "closure_max_residual_pu": 1.1057642562818785e-12,
+      "norm_history": [
+        1.3100534589259887,
+        0.19091592422966164,
+        0.0007766693439946737,
+        2.188262498981075e-08,
+        1.1057642562818785e-12
+      ],
+      "Q_limit_switching": false,
+      "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+      "allocation": [
+        {
+          "bus_index": 7,
+          "generator_rows": [
+            0
+          ],
+          "Q_total_pu": 0.10000000519861318
+        },
+        {
+          "bus_index": 9,
+          "generator_rows": [
+            1
+          ],
+          "Q_total_pu": 0.20000000349450353
+        },
+        {
+          "bus_index": 18,
+          "generator_rows": [
+            2
+          ],
+          "Q_total_pu": 0.20000001535175727
+        },
+        {
+          "bus_index": 54,
+          "generator_rows": [
+            3
+          ],
+          "Q_total_pu": 0.24999999960035174
+        },
+        {
+          "bus_index": 62,
+          "generator_rows": [
+            4
+          ],
+          "Q_total_pu": 0.3499999755657216
+        },
+        {
+          "bus_index": 68,
+          "generator_rows": [
+            5
+          ],
+          "Q_total_pu": 1.282468297748807
+        },
+        {
+          "bus_index": 75,
+          "generator_rows": [
+            6
+          ],
+          "Q_total_pu": 0.11427941357742157
+        },
+        {
+          "bus_index": 76,
+          "generator_rows": [
+            7
+          ],
+          "Q_total_pu": 0.1484167894747651
+        },
+        {
+          "bus_index": 79,
+          "generator_rows": [
+            8
+          ],
+          "Q_total_pu": 0.0645484044594405
+        },
+        {
+          "bus_index": 87,
+          "generator_rows": [
+            9
+          ],
+          "Q_total_pu": 0.048035939165447995
+        },
+        {
+          "bus_index": 97,
+          "generator_rows": [
+            10
+          ],
+          "Q_total_pu": 9.937449812825177
+        },
+        {
+          "bus_index": 102,
+          "generator_rows": [
+            11
+          ],
+          "Q_total_pu": 0.8765618914629997
+        },
+        {
+          "bus_index": 103,
+          "generator_rows": [
+            12
+          ],
+          "Q_total_pu": 1.8642364399052012
+        },
+        {
+          "bus_index": 116,
+          "generator_rows": [
+            13
+          ],
+          "Q_total_pu": 2.907167245817851
+        },
+        {
+          "bus_index": 119,
+          "generator_rows": [
+            14
+          ],
+          "Q_total_pu": 0.3891351400950852
+        },
+        {
+          "bus_index": 121,
+          "generator_rows": [
+            15
+          ],
+          "Q_total_pu": 0.6956532648403908
+        },
+        {
+          "bus_index": 124,
+          "generator_rows": [
+            16
+          ],
+          "Q_total_pu": 0.35000000049407254
+        },
+        {
+          "bus_index": 125,
+          "generator_rows": [
+            17
+          ],
+          "Q_total_pu": -0.42587253264463437
+        },
+        {
+          "bus_index": 127,
+          "generator_rows": [
+            18
+          ],
+          "Q_total_pu": 0.2364916206575616
+        },
+        {
+          "bus_index": 130,
+          "generator_rows": [
+            19
+          ],
+          "Q_total_pu": -0.49999999789384403
+        },
+        {
+          "bus_index": 131,
+          "generator_rows": [
+            20
+          ],
+          "Q_total_pu": -0.4999999992731644
+        },
+        {
+          "bus_index": 134,
+          "generator_rows": [
+            21
+          ],
+          "Q_total_pu": -0.099999997010358
+        },
+        {
+          "bus_index": 148,
+          "generator_rows": [
+            22
+          ],
+          "Q_total_pu": 0.9000000097328855
+        },
+        {
+          "bus_index": 149,
+          "generator_rows": [
+            23
+          ],
+          "Q_total_pu": 1.5000000345278257
+        },
+        {
+          "bus_index": 154,
+          "generator_rows": [
+            24
+          ],
+          "Q_total_pu": 0.41358235346666644
+        },
+        {
+          "bus_index": 155,
+          "generator_rows": [
+            25
+          ],
+          "Q_total_pu": 0.350000001128161
+        },
+        {
+          "bus_index": 163,
+          "generator_rows": [
+            26
+          ],
+          "Q_total_pu": -0.23899319631438745
+        },
+        {
+          "bus_index": 164,
+          "generator_rows": [
+            27
+          ],
+          "Q_total_pu": 1.537620975660656
+        },
+        {
+          "bus_index": 165,
+          "generator_rows": [
+            28
+          ],
+          "Q_total_pu": 1.2193972048096249
+        },
+        {
+          "bus_index": 168,
+          "generator_rows": [
+            29
+          ],
+          "Q_total_pu": -2.356433525799364
+        },
+        {
+          "bus_index": 169,
+          "generator_rows": [
+            30
+          ],
+          "Q_total_pu": 5.506630969599776
+        },
+        {
+          "bus_index": 176,
+          "generator_rows": [
+            31
+          ],
+          "Q_total_pu": 0.9645102358155537
+        },
+        {
+          "bus_index": 191,
+          "generator_rows": [
+            32
+          ],
+          "Q_total_pu": 0.5884282880667259
+        },
+        {
+          "bus_index": 198,
+          "generator_rows": [
+            33
+          ],
+          "Q_total_pu": -0.031102532608389688
+        },
+        {
+          "bus_index": 199,
+          "generator_rows": [
+            34
+          ],
+          "Q_total_pu": 2.348355279582008
+        },
+        {
+          "bus_index": 200,
+          "generator_rows": [
+            35
+          ],
+          "Q_total_pu": 0.9171777840638421
+        },
+        {
+          "bus_index": 205,
+          "generator_rows": [
+            36
+          ],
+          "Q_total_pu": 2.8745479838359107
+        },
+        {
+          "bus_index": 208,
+          "generator_rows": [
+            37
+          ],
+          "Q_total_pu": 0.3951791411639372
+        },
+        {
+          "bus_index": 211,
+          "generator_rows": [
+            38
+          ],
+          "Q_total_pu": 1.754566391672621
+        },
+        {
+          "bus_index": 214,
+          "generator_rows": [
+            39
+          ],
+          "Q_total_pu": 1.586682834749948
+        },
+        {
+          "bus_index": 216,
+          "generator_rows": [
+            40
+          ],
+          "Q_total_pu": 1.9999998623827464
+        },
+        {
+          "bus_index": 217,
+          "generator_rows": [
+            41
+          ],
+          "Q_total_pu": 1.5383855060222043
+        },
+        {
+          "bus_index": 219,
+          "generator_rows": [
+            42
+          ],
+          "Q_total_pu": -1.669607994830578
+        },
+        {
+          "bus_index": 220,
+          "generator_rows": [
+            43
+          ],
+          "Q_total_pu": 0.6783887584944046
+        },
+        {
+          "bus_index": 221,
+          "generator_rows": [
+            44
+          ],
+          "Q_total_pu": 0.3999999999854228
+        },
+        {
+          "bus_index": 246,
+          "generator_rows": [
+            45
+          ],
+          "Q_total_pu": 1.0028488013935168
+        },
+        {
+          "bus_index": 247,
+          "generator_rows": [
+            46
+          ],
+          "Q_total_pu": 0.5587506903922425
+        },
+        {
+          "bus_index": 248,
+          "generator_rows": [
+            47
+          ],
+          "Q_total_pu": 4.199999973728522
+        },
+        {
+          "bus_index": 249,
+          "generator_rows": [
+            48
+          ],
+          "Q_total_pu": 1.000000001332212
+        },
+        {
+          "bus_index": 250,
+          "generator_rows": [
+            49
+          ],
+          "Q_total_pu": 1.7489265282739472
+        },
+        {
+          "bus_index": 251,
+          "generator_rows": [
+            50
+          ],
+          "Q_total_pu": 2.495969356615163
+        },
+        {
+          "bus_index": 252,
+          "generator_rows": [
+            51
+          ],
+          "Q_total_pu": 2.3114280702560128e-10
+        },
+        {
+          "bus_index": 253,
+          "generator_rows": [
+            52
+          ],
+          "Q_total_pu": 0.6750410766797478
+        },
+        {
+          "bus_index": 254,
+          "generator_rows": [
+            53
+          ],
+          "Q_total_pu": 0.45047854145807714
+        },
+        {
+          "bus_index": 255,
+          "generator_rows": [
+            54
+          ],
+          "Q_total_pu": 0.022710236250530515
+        },
+        {
+          "bus_index": 256,
+          "generator_rows": [
+            55
+          ],
+          "Q_total_pu": 0.09999999262329567
+        },
+        {
+          "bus_index": 257,
+          "generator_rows": [
+            56
+          ],
+          "Q_total_pu": 0.24999999840202616
+        },
+        {
+          "bus_index": 258,
+          "generator_rows": [
+            57
+          ],
+          "Q_total_pu": 0.375554491148862
+        },
+        {
+          "bus_index": 259,
+          "generator_rows": [
+            58
+          ],
+          "Q_total_pu": 1.3562339780175583
+        },
+        {
+          "bus_index": 260,
+          "generator_rows": [
+            59
+          ],
+          "Q_total_pu": 1.4999999966025843
+        },
+        {
+          "bus_index": 261,
+          "generator_rows": [
+            60
+          ],
+          "Q_total_pu": 0.7076876728304208
+        },
+        {
+          "bus_index": 262,
+          "generator_rows": [
+            61
+          ],
+          "Q_total_pu": 2.589684029388221
+        },
+        {
+          "bus_index": 263,
+          "generator_rows": [
+            62
+          ],
+          "Q_total_pu": 2.911214135643783
+        },
+        {
+          "bus_index": 264,
+          "generator_rows": [
+            63
+          ],
+          "Q_total_pu": 1.2322945130794176
+        },
+        {
+          "bus_index": 266,
+          "generator_rows": [
+            64
+          ],
+          "Q_total_pu": 0.019999999363332143
+        },
+        {
+          "bus_index": 291,
+          "generator_rows": [
+            65
+          ],
+          "Q_total_pu": 0.07006520766950955
+        },
+        {
+          "bus_index": 293,
+          "generator_rows": [
+            66
+          ],
+          "Q_total_pu": 0.05000237741364038
+        },
+        {
+          "bus_index": 294,
+          "generator_rows": [
+            67
+          ],
+          "Q_total_pu": 0.3799999967932945
+        },
+        {
+          "bus_index": 295,
+          "generator_rows": [
+            68
+          ],
+          "Q_total_pu": 0.059999999032432444
+        }
+      ]
+    }
+  },
+  {
+    "scenario_id": "train-002",
+    "purpose": "ORACLE DIAGNOSTIC ONLY: isolate native FP32 rounding from released +1e-12 denominator",
+    "metrics": {
+      "max_p_residual_mw": 0.0009996128647458136,
+      "max_q_residual_mvar": 0.0007684049293885664,
+      "mean_abs_p_residual_mw": 1.508604491608408e-05,
+      "mean_abs_q_residual_mvar": 8.605399675952808e-06,
+      "max_generator_component_violation_mw_or_mvar": 2.9092210525050177e-06,
+      "max_voltage_violation_pu": 3.484784016904996e-09,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0,
+      "max_rated_branch_loading": null,
+      "rated_active_branch_count": 0,
+      "unlimited_active_branch_count": 411,
+      "generation_cost_per_hour": 641751.3140697749,
+      "thresholds": {
+        "balance_mva": 0.001,
+        "generator_mva": 0.001,
+        "voltage_pu": 0.0001,
+        "branch_mva": 0.001,
+        "angle_deg": 0.001
+      },
+      "all_tested_constraints_pass": true,
+      "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+      "cost_error_percent": 1.2427870240332948e-08,
+      "voltage_mae_pu": 2.6068902703180183e-10,
+      "angle_mae_deg": 8.735430649646029e-08,
+      "pg_mae_mw": 2.8475938360928842e-08,
+      "qg_mae_mvar": 2.442984444048423e-06
+    },
+    "completion": {
+      "converged": true,
+      "iterations": 4,
+      "closure_max_residual_pu": 1.394107052021809e-12,
+      "norm_history": [
+        1.107044000164466,
+        0.16302328092941,
+        0.0005747719128618156,
+        1.1974295333061491e-08,
+        1.394107052021809e-12
+      ],
+      "Q_limit_switching": false,
+      "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+      "allocation": [
+        {
+          "bus_index": 7,
+          "generator_rows": [
+            0
+          ],
+          "Q_total_pu": 0.10000000459926726
+        },
+        {
+          "bus_index": 9,
+          "generator_rows": [
+            1
+          ],
+          "Q_total_pu": 0.20000000334081985
+        },
+        {
+          "bus_index": 18,
+          "generator_rows": [
+            2
+          ],
+          "Q_total_pu": 0.20000001456557048
+        },
+        {
+          "bus_index": 54,
+          "generator_rows": [
+            3
+          ],
+          "Q_total_pu": 0.24999999956264984
+        },
+        {
+          "bus_index": 62,
+          "generator_rows": [
+            4
+          ],
+          "Q_total_pu": 0.3499999751741355
+        },
+        {
+          "bus_index": 68,
+          "generator_rows": [
+            5
+          ],
+          "Q_total_pu": 1.2377151855102442
+        },
+        {
+          "bus_index": 75,
+          "generator_rows": [
+            6
+          ],
+          "Q_total_pu": 0.07812818531197253
+        },
+        {
+          "bus_index": 76,
+          "generator_rows": [
+            7
+          ],
+          "Q_total_pu": 0.1561047182846855
+        },
+        {
+          "bus_index": 79,
+          "generator_rows": [
+            8
+          ],
+          "Q_total_pu": 0.04152484732037671
+        },
+        {
+          "bus_index": 87,
+          "generator_rows": [
+            9
+          ],
+          "Q_total_pu": -0.024552965254983433
+        },
+        {
+          "bus_index": 97,
+          "generator_rows": [
+            10
+          ],
+          "Q_total_pu": 9.146121374703625
+        },
+        {
+          "bus_index": 102,
+          "generator_rows": [
+            11
+          ],
+          "Q_total_pu": 0.735029060642726
+        },
+        {
+          "bus_index": 103,
+          "generator_rows": [
+            12
+          ],
+          "Q_total_pu": 1.6110179988261042
+        },
+        {
+          "bus_index": 116,
+          "generator_rows": [
+            13
+          ],
+          "Q_total_pu": 2.615006507502401
+        },
+        {
+          "bus_index": 119,
+          "generator_rows": [
+            14
+          ],
+          "Q_total_pu": 0.36803800080768745
+        },
+        {
+          "bus_index": 121,
+          "generator_rows": [
+            15
+          ],
+          "Q_total_pu": 0.3339339259236442
+        },
+        {
+          "bus_index": 124,
+          "generator_rows": [
+            16
+          ],
+          "Q_total_pu": 0.35000000007276477
+        },
+        {
+          "bus_index": 125,
+          "generator_rows": [
+            17
+          ],
+          "Q_total_pu": -0.4426301329489921
+        },
+        {
+          "bus_index": 127,
+          "generator_rows": [
+            18
+          ],
+          "Q_total_pu": 0.2490529872631639
+        },
+        {
+          "bus_index": 130,
+          "generator_rows": [
+            19
+          ],
+          "Q_total_pu": -0.4999999984039418
+        },
+        {
+          "bus_index": 131,
+          "generator_rows": [
+            20
+          ],
+          "Q_total_pu": -0.4999999994562221
+        },
+        {
+          "bus_index": 134,
+          "generator_rows": [
+            21
+          ],
+          "Q_total_pu": -0.0999999976726832
+        },
+        {
+          "bus_index": 148,
+          "generator_rows": [
+            22
+          ],
+          "Q_total_pu": 0.9000000088026433
+        },
+        {
+          "bus_index": 149,
+          "generator_rows": [
+            23
+          ],
+          "Q_total_pu": 1.5000000290922102
+        },
+        {
+          "bus_index": 154,
+          "generator_rows": [
+            24
+          ],
+          "Q_total_pu": 0.3394977328582053
+        },
+        {
+          "bus_index": 155,
+          "generator_rows": [
+            25
+          ],
+          "Q_total_pu": 0.3500000009812811
+        },
+        {
+          "bus_index": 163,
+          "generator_rows": [
+            26
+          ],
+          "Q_total_pu": -0.3409138571917869
+        },
+        {
+          "bus_index": 164,
+          "generator_rows": [
+            27
+          ],
+          "Q_total_pu": 1.1450940987840912
+        },
+        {
+          "bus_index": 165,
+          "generator_rows": [
+            28
+          ],
+          "Q_total_pu": 0.8940875161238814
+        },
+        {
+          "bus_index": 168,
+          "generator_rows": [
+            29
+          ],
+          "Q_total_pu": -2.445595027068459
+        },
+        {
+          "bus_index": 169,
+          "generator_rows": [
+            30
+          ],
+          "Q_total_pu": 5.016882575272966
+        },
+        {
+          "bus_index": 176,
+          "generator_rows": [
+            31
+          ],
+          "Q_total_pu": 0.7978266912432098
+        },
+        {
+          "bus_index": 191,
+          "generator_rows": [
+            32
+          ],
+          "Q_total_pu": 0.5212984902314882
+        },
+        {
+          "bus_index": 198,
+          "generator_rows": [
+            33
+          ],
+          "Q_total_pu": -0.24290702091177174
+        },
+        {
+          "bus_index": 199,
+          "generator_rows": [
+            34
+          ],
+          "Q_total_pu": 2.10103617113886
+        },
+        {
+          "bus_index": 200,
+          "generator_rows": [
+            35
+          ],
+          "Q_total_pu": 0.7754672003967359
+        },
+        {
+          "bus_index": 205,
+          "generator_rows": [
+            36
+          ],
+          "Q_total_pu": 2.5974413147299744
+        },
+        {
+          "bus_index": 208,
+          "generator_rows": [
+            37
+          ],
+          "Q_total_pu": 0.29366836050582684
+        },
+        {
+          "bus_index": 211,
+          "generator_rows": [
+            38
+          ],
+          "Q_total_pu": 1.5816278862061466
+        },
+        {
+          "bus_index": 214,
+          "generator_rows": [
+            39
+          ],
+          "Q_total_pu": 1.3366283731184654
+        },
+        {
+          "bus_index": 216,
+          "generator_rows": [
+            40
+          ],
+          "Q_total_pu": 1.9999998679231283
+        },
+        {
+          "bus_index": 217,
+          "generator_rows": [
+            41
+          ],
+          "Q_total_pu": 1.3258999575231392
+        },
+        {
+          "bus_index": 219,
+          "generator_rows": [
+            42
+          ],
+          "Q_total_pu": -1.781798282757379
+        },
+        {
+          "bus_index": 220,
+          "generator_rows": [
+            43
+          ],
+          "Q_total_pu": 0.5183983640087813
+        },
+        {
+          "bus_index": 221,
+          "generator_rows": [
+            44
+          ],
+          "Q_total_pu": 0.39999999996853175
+        },
+        {
+          "bus_index": 246,
+          "generator_rows": [
+            45
+          ],
+          "Q_total_pu": 0.8527319821292644
+        },
+        {
+          "bus_index": 247,
+          "generator_rows": [
+            46
+          ],
+          "Q_total_pu": 0.4165551608967256
+        },
+        {
+          "bus_index": 248,
+          "generator_rows": [
+            47
+          ],
+          "Q_total_pu": 4.199999971387794
+        },
+        {
+          "bus_index": 249,
+          "generator_rows": [
+            48
+          ],
+          "Q_total_pu": 1.0000000010530956
+        },
+        {
+          "bus_index": 250,
+          "generator_rows": [
+            49
+          ],
+          "Q_total_pu": 1.6466599623851124
+        },
+        {
+          "bus_index": 251,
+          "generator_rows": [
+            50
+          ],
+          "Q_total_pu": 2.349413664630323
+        },
+        {
+          "bus_index": 252,
+          "generator_rows": [
+            51
+          ],
+          "Q_total_pu": 1.9830697509933119e-10
+        },
+        {
+          "bus_index": 253,
+          "generator_rows": [
+            52
+          ],
+          "Q_total_pu": 0.41447209392017903
+        },
+        {
+          "bus_index": 254,
+          "generator_rows": [
+            53
+          ],
+          "Q_total_pu": 0.24872105788934332
+        },
+        {
+          "bus_index": 255,
+          "generator_rows": [
+            54
+          ],
+          "Q_total_pu": -2.322578324607449e-09
+        },
+        {
+          "bus_index": 256,
+          "generator_rows": [
+            55
+          ],
+          "Q_total_pu": 0.09999999187587005
+        },
+        {
+          "bus_index": 257,
+          "generator_rows": [
+            56
+          ],
+          "Q_total_pu": 0.21194291296689044
+        },
+        {
+          "bus_index": 258,
+          "generator_rows": [
+            57
+          ],
+          "Q_total_pu": 0.32113266733706464
+        },
+        {
+          "bus_index": 259,
+          "generator_rows": [
+            58
+          ],
+          "Q_total_pu": 1.2539077039852102
+        },
+        {
+          "bus_index": 260,
+          "generator_rows": [
+            59
+          ],
+          "Q_total_pu": 1.474560107442423
+        },
+        {
+          "bus_index": 261,
+          "generator_rows": [
+            60
+          ],
+          "Q_total_pu": 0.5755967336226154
+        },
+        {
+          "bus_index": 262,
+          "generator_rows": [
+            61
+          ],
+          "Q_total_pu": 2.251251937215047
+        },
+        {
+          "bus_index": 263,
+          "generator_rows": [
+            62
+          ],
+          "Q_total_pu": 2.6209863523129737
+        },
+        {
+          "bus_index": 264,
+          "generator_rows": [
+            63
+          ],
+          "Q_total_pu": 1.0020807734158335
+        },
+        {
+          "bus_index": 266,
+          "generator_rows": [
+            64
+          ],
+          "Q_total_pu": 0.019999999095502992
+        },
+        {
+          "bus_index": 291,
+          "generator_rows": [
+            65
+          ],
+          "Q_total_pu": 0.03995692694525312
+        },
+        {
+          "bus_index": 293,
+          "generator_rows": [
+            66
+          ],
+          "Q_total_pu": 0.014514564111874007
+        },
+        {
+          "bus_index": 294,
+          "generator_rows": [
+            67
+          ],
+          "Q_total_pu": 0.3799999974154054
+        },
+        {
+          "bus_index": 295,
+          "generator_rows": [
+            68
+          ],
+          "Q_total_pu": 0.05999999880482884
+        }
+      ]
+    }
+  },
+  {
+    "scenario_id": "train-003",
+    "purpose": "ORACLE DIAGNOSTIC ONLY: isolate native FP32 rounding from released +1e-12 denominator",
+    "metrics": {
+      "max_p_residual_mw": 0.00113276341281221,
+      "max_q_residual_mvar": 0.0007810770095204589,
+      "mean_abs_p_residual_mw": 1.8338904270713274e-05,
+      "mean_abs_q_residual_mvar": 9.367870649574976e-06,
+      "max_generator_component_violation_mw_or_mvar": 3.6330026205178e-06,
+      "max_voltage_violation_pu": 3.4178340158064202e-09,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0,
+      "max_rated_branch_loading": null,
+      "rated_active_branch_count": 0,
+      "unlimited_active_branch_count": 411,
+      "generation_cost_per_hour": 734845.1452112239,
+      "thresholds": {
+        "balance_mva": 0.001,
+        "generator_mva": 0.001,
+        "voltage_pu": 0.0001,
+        "branch_mva": 0.001,
+        "angle_deg": 0.001
+      },
+      "all_tested_constraints_pass": false,
+      "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+      "cost_error_percent": 1.3423788391995627e-08,
+      "voltage_mae_pu": 2.8156713516303e-10,
+      "angle_mae_deg": 9.791165751948938e-08,
+      "pg_mae_mw": 3.4355082952377256e-08,
+      "qg_mae_mvar": 2.5349534814333734e-06
+    },
+    "completion": {
+      "converged": true,
+      "iterations": 4,
+      "closure_max_residual_pu": 1.3700152123874432e-12,
+      "norm_history": [
+        1.3966742073975436,
+        0.21678305675562265,
+        0.0009936579534922108,
+        3.6125798408281895e-08,
+        1.3700152123874432e-12
+      ],
+      "Q_limit_switching": false,
+      "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+      "allocation": [
+        {
+          "bus_index": 7,
+          "generator_rows": [
+            0
+          ],
+          "Q_total_pu": 0.10000000575358228
+        },
+        {
+          "bus_index": 9,
+          "generator_rows": [
+            1
+          ],
+          "Q_total_pu": 0.20000000356570502
+        },
+        {
+          "bus_index": 18,
+          "generator_rows": [
+            2
+          ],
+          "Q_total_pu": 0.20000001571803083
+        },
+        {
+          "bus_index": 54,
+          "generator_rows": [
+            3
+          ],
+          "Q_total_pu": 0.24999999963902195
+        },
+        {
+          "bus_index": 62,
+          "generator_rows": [
+            4
+          ],
+          "Q_total_pu": 0.34999997648424497
+        },
+        {
+          "bus_index": 68,
+          "generator_rows": [
+            5
+          ],
+          "Q_total_pu": 1.3465043273387112
+        },
+        {
+          "bus_index": 75,
+          "generator_rows": [
+            6
+          ],
+          "Q_total_pu": 0.1480630787315484
+        },
+        {
+          "bus_index": 76,
+          "generator_rows": [
+            7
+          ],
+          "Q_total_pu": 0.15346178989105638
+        },
+        {
+          "bus_index": 79,
+          "generator_rows": [
+            8
+          ],
+          "Q_total_pu": 0.0878481018717003
+        },
+        {
+          "bus_index": 87,
+          "generator_rows": [
+            9
+          ],
+          "Q_total_pu": 0.1085409883317182
+        },
+        {
+          "bus_index": 97,
+          "generator_rows": [
+            10
+          ],
+          "Q_total_pu": 10.951048077375221
+        },
+        {
+          "bus_index": 102,
+          "generator_rows": [
+            11
+          ],
+          "Q_total_pu": 1.0381150644279598
+        },
+        {
+          "bus_index": 103,
+          "generator_rows": [
+            12
+          ],
+          "Q_total_pu": 1.9999999983874686
+        },
+        {
+          "bus_index": 116,
+          "generator_rows": [
+            13
+          ],
+          "Q_total_pu": 2.9078907244560783
+        },
+        {
+          "bus_index": 119,
+          "generator_rows": [
+            14
+          ],
+          "Q_total_pu": 0.5472792854546754
+        },
+        {
+          "bus_index": 121,
+          "generator_rows": [
+            15
+          ],
+          "Q_total_pu": 1.0720236348205932
+        },
+        {
+          "bus_index": 124,
+          "generator_rows": [
+            16
+          ],
+          "Q_total_pu": 0.35000000093811867
+        },
+        {
+          "bus_index": 125,
+          "generator_rows": [
+            17
+          ],
+          "Q_total_pu": -0.40447561281964195
+        },
+        {
+          "bus_index": 127,
+          "generator_rows": [
+            18
+          ],
+          "Q_total_pu": 0.22455670413558956
+        },
+        {
+          "bus_index": 130,
+          "generator_rows": [
+            19
+          ],
+          "Q_total_pu": -0.49999999757090074
+        },
+        {
+          "bus_index": 131,
+          "generator_rows": [
+            20
+          ],
+          "Q_total_pu": -0.49999999914680804
+        },
+        {
+          "bus_index": 134,
+          "generator_rows": [
+            21
+          ],
+          "Q_total_pu": 0.06379323791139335
+        },
+        {
+          "bus_index": 148,
+          "generator_rows": [
+            22
+          ],
+          "Q_total_pu": 0.9000000104099612
+        },
+        {
+          "bus_index": 149,
+          "generator_rows": [
+            23
+          ],
+          "Q_total_pu": 1.5000000363300259
+        },
+        {
+          "bus_index": 154,
+          "generator_rows": [
+            24
+          ],
+          "Q_total_pu": 0.5073889915470144
+        },
+        {
+          "bus_index": 155,
+          "generator_rows": [
+            25
+          ],
+          "Q_total_pu": 0.35000000129181424
+        },
+        {
+          "bus_index": 163,
+          "generator_rows": [
+            26
+          ],
+          "Q_total_pu": -0.04759963465793212
+        },
+        {
+          "bus_index": 164,
+          "generator_rows": [
+            27
+          ],
+          "Q_total_pu": 1.4941849183113431
+        },
+        {
+          "bus_index": 165,
+          "generator_rows": [
+            28
+          ],
+          "Q_total_pu": 1.704171484755275
+        },
+        {
+          "bus_index": 168,
+          "generator_rows": [
+            29
+          ],
+          "Q_total_pu": -2.2924612986584068
+        },
+        {
+          "bus_index": 169,
+          "generator_rows": [
+            30
+          ],
+          "Q_total_pu": 5.8635702966907575
+        },
+        {
+          "bus_index": 176,
+          "generator_rows": [
+            31
+          ],
+          "Q_total_pu": 1.0796118307982931
+        },
+        {
+          "bus_index": 191,
+          "generator_rows": [
+            32
+          ],
+          "Q_total_pu": 0.6354868460558776
+        },
+        {
+          "bus_index": 198,
+          "generator_rows": [
+            33
+          ],
+          "Q_total_pu": 0.16564309464610238
+        },
+        {
+          "bus_index": 199,
+          "generator_rows": [
+            34
+          ],
+          "Q_total_pu": 2.5043762037757724
+        },
+        {
+          "bus_index": 200,
+          "generator_rows": [
+            35
+          ],
+          "Q_total_pu": 1.0542841942490289
+        },
+        {
+          "bus_index": 205,
+          "generator_rows": [
+            36
+          ],
+          "Q_total_pu": 2.9936628712395343
+        },
+        {
+          "bus_index": 208,
+          "generator_rows": [
+            37
+          ],
+          "Q_total_pu": 0.4802975702423969
+        },
+        {
+          "bus_index": 211,
+          "generator_rows": [
+            38
+          ],
+          "Q_total_pu": 1.8363065818412037
+        },
+        {
+          "bus_index": 214,
+          "generator_rows": [
+            39
+          ],
+          "Q_total_pu": 1.7669837674289428
+        },
+        {
+          "bus_index": 216,
+          "generator_rows": [
+            40
+          ],
+          "Q_total_pu": 1.9999998602067035
+        },
+        {
+          "bus_index": 217,
+          "generator_rows": [
+            41
+          ],
+          "Q_total_pu": 1.7247025341538105
+        },
+        {
+          "bus_index": 219,
+          "generator_rows": [
+            42
+          ],
+          "Q_total_pu": -1.5797095014592772
+        },
+        {
+          "bus_index": 220,
+          "generator_rows": [
+            43
+          ],
+          "Q_total_pu": 0.7700665354887015
+        },
+        {
+          "bus_index": 221,
+          "generator_rows": [
+            44
+          ],
+          "Q_total_pu": 0.3999999999990132
+        },
+        {
+          "bus_index": 246,
+          "generator_rows": [
+            45
+          ],
+          "Q_total_pu": 1.155501411379987
+        },
+        {
+          "bus_index": 247,
+          "generator_rows": [
+            46
+          ],
+          "Q_total_pu": 0.6804430500976536
+        },
+        {
+          "bus_index": 248,
+          "generator_rows": [
+            47
+          ],
+          "Q_total_pu": 4.199999975860312
+        },
+        {
+          "bus_index": 249,
+          "generator_rows": [
+            48
+          ],
+          "Q_total_pu": 1.0000000015467736
+        },
+        {
+          "bus_index": 250,
+          "generator_rows": [
+            49
+          ],
+          "Q_total_pu": 1.8354540392843857
+        },
+        {
+          "bus_index": 251,
+          "generator_rows": [
+            50
+          ],
+          "Q_total_pu": 2.660421646368388
+        },
+        {
+          "bus_index": 252,
+          "generator_rows": [
+            51
+          ],
+          "Q_total_pu": 2.598821921076963e-10
+        },
+        {
+          "bus_index": 253,
+          "generator_rows": [
+            52
+          ],
+          "Q_total_pu": 0.8862559947933702
+        },
+        {
+          "bus_index": 254,
+          "generator_rows": [
+            53
+          ],
+          "Q_total_pu": 0.5375444663903015
+        },
+        {
+          "bus_index": 255,
+          "generator_rows": [
+            54
+          ],
+          "Q_total_pu": 0.2577268558928633
+        },
+        {
+          "bus_index": 256,
+          "generator_rows": [
+            55
+          ],
+          "Q_total_pu": 0.0999999934553099
+        },
+        {
+          "bus_index": 257,
+          "generator_rows": [
+            56
+          ],
+          "Q_total_pu": 0.24999999894099845
+        },
+        {
+          "bus_index": 258,
+          "generator_rows": [
+            57
+          ],
+          "Q_total_pu": 0.4048035708001719
+        },
+        {
+          "bus_index": 259,
+          "generator_rows": [
+            58
+          ],
+          "Q_total_pu": 1.4866637925758501
+        },
+        {
+          "bus_index": 260,
+          "generator_rows": [
+            59
+          ],
+          "Q_total_pu": 1.4999999968079514
+        },
+        {
+          "bus_index": 261,
+          "generator_rows": [
+            60
+          ],
+          "Q_total_pu": 0.8017646458688374
+        },
+        {
+          "bus_index": 262,
+          "generator_rows": [
+            61
+          ],
+          "Q_total_pu": 2.87927605380098
+        },
+        {
+          "bus_index": 263,
+          "generator_rows": [
+            62
+          ],
+          "Q_total_pu": 3.116175977333457
+        },
+        {
+          "bus_index": 264,
+          "generator_rows": [
+            63
+          ],
+          "Q_total_pu": 1.2719251092024537
+        },
+        {
+          "bus_index": 266,
+          "generator_rows": [
+            64
+          ],
+          "Q_total_pu": 0.019999999396727624
+        },
+        {
+          "bus_index": 291,
+          "generator_rows": [
+            65
+          ],
+          "Q_total_pu": 0.1263263472899128
+        },
+        {
+          "bus_index": 293,
+          "generator_rows": [
+            66
+          ],
+          "Q_total_pu": 0.08740106340688189
+        },
+        {
+          "bus_index": 294,
+          "generator_rows": [
+            67
+          ],
+          "Q_total_pu": 0.379999996430152
+        },
+        {
+          "bus_index": 295,
+          "generator_rows": [
+            68
+          ],
+          "Q_total_pu": 0.0599999990954494
+        }
+      ]
+    }
+  },
+  {
+    "scenario_id": "train-004",
+    "purpose": "ORACLE DIAGNOSTIC ONLY: isolate native FP32 rounding from released +1e-12 denominator",
+    "metrics": {
+      "max_p_residual_mw": 0.0011178642356810542,
+      "max_q_residual_mvar": 0.0007830959259251813,
+      "mean_abs_p_residual_mw": 1.739154883675246e-05,
+      "mean_abs_q_residual_mvar": 9.289220921692385e-06,
+      "max_generator_component_violation_mw_or_mvar": 3.602800603630385e-06,
+      "max_voltage_violation_pu": 3.497615086445194e-09,
+      "max_branch_violation_mva": 0,
+      "max_angle_violation_deg": 0,
+      "max_rated_branch_loading": null,
+      "rated_active_branch_count": 0,
+      "unlimited_active_branch_count": 411,
+      "generation_cost_per_hour": 707673.615446158,
+      "thresholds": {
+        "balance_mva": 0.001,
+        "generator_mva": 0.001,
+        "voltage_pu": 0.0001,
+        "branch_mva": 0.001,
+        "angle_deg": 0.001
+      },
+      "all_tested_constraints_pass": false,
+      "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+      "cost_error_percent": 1.3283406141594948e-08,
+      "voltage_mae_pu": 2.8168538612760584e-10,
+      "angle_mae_deg": 9.454103623814565e-08,
+      "pg_mae_mw": 3.2971262872917475e-08,
+      "qg_mae_mvar": 2.5471011094902256e-06
+    },
+    "completion": {
+      "converged": true,
+      "iterations": 4,
+      "closure_max_residual_pu": 1.0237366510068568e-12,
+      "norm_history": [
+        1.3648081576591213,
+        0.19916898040539216,
+        0.0008446461119905324,
+        2.602815252217283e-08,
+        1.0237366510068568e-12
+      ],
+      "Q_limit_switching": false,
+      "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+      "allocation": [
+        {
+          "bus_index": 7,
+          "generator_rows": [
+            0
+          ],
+          "Q_total_pu": 0.10000000535321062
+        },
+        {
+          "bus_index": 9,
+          "generator_rows": [
+            1
+          ],
+          "Q_total_pu": 0.20000000354029432
+        },
+        {
+          "bus_index": 18,
+          "generator_rows": [
+            2
+          ],
+          "Q_total_pu": 0.20000001560846203
+        },
+        {
+          "bus_index": 54,
+          "generator_rows": [
+            3
+          ],
+          "Q_total_pu": 0.24999999960845184
+        },
+        {
+          "bus_index": 62,
+          "generator_rows": [
+            4
+          ],
+          "Q_total_pu": 0.34999997548311157
+        },
+        {
+          "bus_index": 68,
+          "generator_rows": [
+            5
+          ],
+          "Q_total_pu": 1.2904187399177087
+        },
+        {
+          "bus_index": 75,
+          "generator_rows": [
+            6
+          ],
+          "Q_total_pu": 0.12247686122522701
+        },
+        {
+          "bus_index": 76,
+          "generator_rows": [
+            7
+          ],
+          "Q_total_pu": 0.15053864690775043
+        },
+        {
+          "bus_index": 79,
+          "generator_rows": [
+            8
+          ],
+          "Q_total_pu": 0.07010545062763468
+        },
+        {
+          "bus_index": 87,
+          "generator_rows": [
+            9
+          ],
+          "Q_total_pu": 0.056798076174455196
+        },
+        {
+          "bus_index": 97,
+          "generator_rows": [
+            10
+          ],
+          "Q_total_pu": 10.196465376247103
+        },
+        {
+          "bus_index": 102,
+          "generator_rows": [
+            11
+          ],
+          "Q_total_pu": 0.9464878488948156
+        },
+        {
+          "bus_index": 103,
+          "generator_rows": [
+            12
+          ],
+          "Q_total_pu": 1.9999999941223492
+        },
+        {
+          "bus_index": 116,
+          "generator_rows": [
+            13
+          ],
+          "Q_total_pu": 2.83981543461321
+        },
+        {
+          "bus_index": 119,
+          "generator_rows": [
+            14
+          ],
+          "Q_total_pu": 0.4634774303216138
+        },
+        {
+          "bus_index": 121,
+          "generator_rows": [
+            15
+          ],
+          "Q_total_pu": 0.7782135063404239
+        },
+        {
+          "bus_index": 124,
+          "generator_rows": [
+            16
+          ],
+          "Q_total_pu": 0.35000000058882225
+        },
+        {
+          "bus_index": 125,
+          "generator_rows": [
+            17
+          ],
+          "Q_total_pu": -0.42945951628716106
+        },
+        {
+          "bus_index": 127,
+          "generator_rows": [
+            18
+          ],
+          "Q_total_pu": 0.23190572747504007
+        },
+        {
+          "bus_index": 130,
+          "generator_rows": [
+            19
+          ],
+          "Q_total_pu": -0.4999999977222087
+        },
+        {
+          "bus_index": 131,
+          "generator_rows": [
+            20
+          ],
+          "Q_total_pu": -0.4999999992142828
+        },
+        {
+          "bus_index": 134,
+          "generator_rows": [
+            21
+          ],
+          "Q_total_pu": -0.09285469474727587
+        },
+        {
+          "bus_index": 148,
+          "generator_rows": [
+            22
+          ],
+          "Q_total_pu": 0.9000000098976679
+        },
+        {
+          "bus_index": 149,
+          "generator_rows": [
+            23
+          ],
+          "Q_total_pu": 1.500000036028006
+        },
+        {
+          "bus_index": 154,
+          "generator_rows": [
+            24
+          ],
+          "Q_total_pu": 0.443858040588252
+        },
+        {
+          "bus_index": 155,
+          "generator_rows": [
+            25
+          ],
+          "Q_total_pu": 0.35000000115208446
+        },
+        {
+          "bus_index": 163,
+          "generator_rows": [
+            26
+          ],
+          "Q_total_pu": -0.12991284847486295
+        },
+        {
+          "bus_index": 164,
+          "generator_rows": [
+            27
+          ],
+          "Q_total_pu": 1.4264476349639057
+        },
+        {
+          "bus_index": 165,
+          "generator_rows": [
+            28
+          ],
+          "Q_total_pu": 1.612575165607788
+        },
+        {
+          "bus_index": 168,
+          "generator_rows": [
+            29
+          ],
+          "Q_total_pu": -2.3527290389608364
+        },
+        {
+          "bus_index": 169,
+          "generator_rows": [
+            30
+          ],
+          "Q_total_pu": 5.620940012384027
+        },
+        {
+          "bus_index": 176,
+          "generator_rows": [
+            31
+          ],
+          "Q_total_pu": 1.0000273766767092
+        },
+        {
+          "bus_index": 191,
+          "generator_rows": [
+            32
+          ],
+          "Q_total_pu": 0.5996512825674645
+        },
+        {
+          "bus_index": 198,
+          "generator_rows": [
+            33
+          ],
+          "Q_total_pu": 0.006066985485047249
+        },
+        {
+          "bus_index": 199,
+          "generator_rows": [
+            34
+          ],
+          "Q_total_pu": 2.472480781566716
+        },
+        {
+          "bus_index": 200,
+          "generator_rows": [
+            35
+          ],
+          "Q_total_pu": 0.9295875814248759
+        },
+        {
+          "bus_index": 205,
+          "generator_rows": [
+            36
+          ],
+          "Q_total_pu": 2.884212858263267
+        },
+        {
+          "bus_index": 208,
+          "generator_rows": [
+            37
+          ],
+          "Q_total_pu": 0.42269370195895634
+        },
+        {
+          "bus_index": 211,
+          "generator_rows": [
+            38
+          ],
+          "Q_total_pu": 1.8240620646631762
+        },
+        {
+          "bus_index": 214,
+          "generator_rows": [
+            39
+          ],
+          "Q_total_pu": 1.6563444104844884
+        },
+        {
+          "bus_index": 216,
+          "generator_rows": [
+            40
+          ],
+          "Q_total_pu": 1.9999998622220425
+        },
+        {
+          "bus_index": 217,
+          "generator_rows": [
+            41
+          ],
+          "Q_total_pu": 1.63374053739877
+        },
+        {
+          "bus_index": 219,
+          "generator_rows": [
+            42
+          ],
+          "Q_total_pu": -1.6595732771879637
+        },
+        {
+          "bus_index": 220,
+          "generator_rows": [
+            43
+          ],
+          "Q_total_pu": 0.7363101724945204
+        },
+        {
+          "bus_index": 221,
+          "generator_rows": [
+            44
+          ],
+          "Q_total_pu": 0.3999999999952801
+        },
+        {
+          "bus_index": 246,
+          "generator_rows": [
+            45
+          ],
+          "Q_total_pu": 1.0651073757071094
+        },
+        {
+          "bus_index": 247,
+          "generator_rows": [
+            46
+          ],
+          "Q_total_pu": 0.5951461857104264
+        },
+        {
+          "bus_index": 248,
+          "generator_rows": [
+            47
+          ],
+          "Q_total_pu": 4.199999974431269
+        },
+        {
+          "bus_index": 249,
+          "generator_rows": [
+            48
+          ],
+          "Q_total_pu": 1.000000001430161
+        },
+        {
+          "bus_index": 250,
+          "generator_rows": [
+            49
+          ],
+          "Q_total_pu": 1.7790811615693236
+        },
+        {
+          "bus_index": 251,
+          "generator_rows": [
+            50
+          ],
+          "Q_total_pu": 2.5287859150353196
+        },
+        {
+          "bus_index": 252,
+          "generator_rows": [
+            51
+          ],
+          "Q_total_pu": 2.4607439410678116e-10
+        },
+        {
+          "bus_index": 253,
+          "generator_rows": [
+            52
+          ],
+          "Q_total_pu": 0.7818948345023969
+        },
+        {
+          "bus_index": 254,
+          "generator_rows": [
+            53
+          ],
+          "Q_total_pu": 0.4727703337060318
+        },
+        {
+          "bus_index": 255,
+          "generator_rows": [
+            54
+          ],
+          "Q_total_pu": 0.09330874272808069
+        },
+        {
+          "bus_index": 256,
+          "generator_rows": [
+            55
+          ],
+          "Q_total_pu": 0.09999999285174847
+        },
+        {
+          "bus_index": 257,
+          "generator_rows": [
+            56
+          ],
+          "Q_total_pu": 0.24999999871243697
+        },
+        {
+          "bus_index": 258,
+          "generator_rows": [
+            57
+          ],
+          "Q_total_pu": 0.397443714041565
+        },
+        {
+          "bus_index": 259,
+          "generator_rows": [
+            58
+          ],
+          "Q_total_pu": 1.399535839811837
+        },
+        {
+          "bus_index": 260,
+          "generator_rows": [
+            59
+          ],
+          "Q_total_pu": 1.4999999966422037
+        },
+        {
+          "bus_index": 261,
+          "generator_rows": [
+            60
+          ],
+          "Q_total_pu": 0.7237060520507209
+        },
+        {
+          "bus_index": 262,
+          "generator_rows": [
+            61
+          ],
+          "Q_total_pu": 2.6709619247624383
+        },
+        {
+          "bus_index": 263,
+          "generator_rows": [
+            62
+          ],
+          "Q_total_pu": 3.0518224249773995
+        },
+        {
+          "bus_index": 264,
+          "generator_rows": [
+            63
+          ],
+          "Q_total_pu": 1.2768726748438435
+        },
+        {
+          "bus_index": 266,
+          "generator_rows": [
+            64
+          ],
+          "Q_total_pu": 0.01999999936850788
+        },
+        {
+          "bus_index": 291,
+          "generator_rows": [
+            65
+          ],
+          "Q_total_pu": 0.08429060529941661
+        },
+        {
+          "bus_index": 293,
+          "generator_rows": [
+            66
+          ],
+          "Q_total_pu": 0.06642798250470425
+        },
+        {
+          "bus_index": 294,
+          "generator_rows": [
+            67
+          ],
+          "Q_total_pu": 0.37999999661185746
+        },
+        {
+          "bus_index": 295,
+          "generator_rows": [
+            68
+          ],
+          "Q_total_pu": 0.05999999904651926
+        }
+      ]
+    }
+  }
+]

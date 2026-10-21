@@ -1,0 +1,1026 @@
+[
+  {
+    "method": "frozen raw",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 2681.1577010618375,
+      "p95": 3042.933206742285,
+      "worst": 3078.9067498517225
+    },
+    "max_q_residual_mvar": {
+      "median": 2997.9837396342127,
+      "p95": 3558.310129243824,
+      "worst": 3645.4699407144144
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 50.89966652063765,
+      "p95": 58.32905812792711,
+      "worst": 59.18719825084677
+    },
+    "voltage_mae_pu": {
+      "median": 0.021213141518087477,
+      "p95": 0.022377755532967742,
+      "worst": 0.022393056880151748
+    },
+    "angle_mae_deg": {
+      "median": 67.76744586966632,
+      "p95": 70.73015616240939,
+      "worst": 70.89779148473308
+    },
+    "pg_mae_mw": {
+      "median": 114.99534539176699,
+      "p95": 125.28571185112752,
+      "worst": 126.06170629129224
+    },
+    "qg_mae_mvar": {
+      "median": 92.73912829449998,
+      "p95": 101.81606263650028,
+      "worst": 101.96307355891548
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "frozen + PF",
+    "n": 30,
+    "PF_converged": 0,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 1003.5693072772231,
+      "p95": 2913.2138210895837,
+      "worst": 3847.4640144700534
+    },
+    "max_q_residual_mvar": {
+      "median": 1148.1089897446782,
+      "p95": 3594.0171620432607,
+      "worst": 4369.743482092789
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 3233.3449274757404,
+      "p95": 8526.47872543627,
+      "worst": 8644.54776293838
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.9355645163329593,
+      "p95": 2.249781401326689,
+      "worst": 3.1662867579958154
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 29.360843518504186,
+      "p95": 36.97115922698879,
+      "worst": 38.81552697911008
+    },
+    "voltage_mae_pu": {
+      "median": 0.1422730577451728,
+      "p95": 0.20022467607128047,
+      "worst": 0.20318974357464775
+    },
+    "angle_mae_deg": {
+      "median": 104.2964638849969,
+      "p95": 141.27244539320125,
+      "worst": 144.8738637157295
+    },
+    "pg_mae_mw": {
+      "median": 94.70599392265973,
+      "p95": 123.31958389801302,
+      "worst": 127.38123421813913
+    },
+    "qg_mae_mvar": {
+      "median": 361.4730432719555,
+      "p95": 458.5839108226452,
+      "worst": 552.3527501872152
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 30,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "selected raw",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 9667.8891774602,
+      "p95": 9833.218693612973,
+      "worst": 9917.15153149254
+    },
+    "max_q_residual_mvar": {
+      "median": 6230.348836740127,
+      "p95": 6828.354572251435,
+      "worst": 6960.658347722238
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.7521141179225104,
+      "p95": 1.366280653091434,
+      "worst": 1.4967934061870996
+    },
+    "voltage_mae_pu": {
+      "median": 0.018857057497045783,
+      "p95": 0.021286611156247564,
+      "worst": 0.02143093112797846
+    },
+    "angle_mae_deg": {
+      "median": 1.70926593219159,
+      "p95": 2.117983464234077,
+      "worst": 2.3844661048455422
+    },
+    "pg_mae_mw": {
+      "median": 11.892660868627637,
+      "p95": 16.661847065465818,
+      "worst": 16.711083101349733
+    },
+    "qg_mae_mvar": {
+      "median": 78.04387391777861,
+      "p95": 85.55882423034382,
+      "worst": 85.83812915570897
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "selected + PF",
+    "n": 30,
+    "PF_converged": 30,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 0.001175707424009964,
+      "p95": 0.001223510229331737,
+      "worst": 0.0012716990917169824
+    },
+    "max_q_residual_mvar": {
+      "median": 0.01109739088541395,
+      "p95": 0.011158306858117362,
+      "worst": 0.011160395909151966
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 62.3736428626637,
+      "p95": 144.38139186095825,
+      "worst": 151.538744241286
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.009489008743815974,
+      "p95": 0.010779864536688388,
+      "worst": 0.010944895909667185
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.1566322788458211,
+      "p95": 0.25051864279764746,
+      "worst": 0.2791191761494268
+    },
+    "voltage_mae_pu": {
+      "median": 0.004007797034217737,
+      "p95": 0.0052149138609116985,
+      "worst": 0.005291080963247807
+    },
+    "angle_mae_deg": {
+      "median": 4.234864975983772,
+      "p95": 8.320567230893182,
+      "worst": 8.416535574039013
+    },
+    "pg_mae_mw": {
+      "median": 13.656063302712628,
+      "p95": 18.408704628930835,
+      "worst": 18.92664318213095
+    },
+    "qg_mae_mvar": {
+      "median": 14.717386885398547,
+      "p95": 16.61696708263485,
+      "worst": 17.276660474382194
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 30,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "final raw",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 9667.8891774602,
+      "p95": 9833.218693612973,
+      "worst": 9917.15153149254
+    },
+    "max_q_residual_mvar": {
+      "median": 6230.348836740127,
+      "p95": 6828.354572251435,
+      "worst": 6960.658347722238
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.7521141179225104,
+      "p95": 1.366280653091434,
+      "worst": 1.4967934061870996
+    },
+    "voltage_mae_pu": {
+      "median": 0.018857057497045783,
+      "p95": 0.021286611156247564,
+      "worst": 0.02143093112797846
+    },
+    "angle_mae_deg": {
+      "median": 1.70926593219159,
+      "p95": 2.117983464234077,
+      "worst": 2.3844661048455422
+    },
+    "pg_mae_mw": {
+      "median": 11.892660868627637,
+      "p95": 16.661847065465818,
+      "worst": 16.711083101349733
+    },
+    "qg_mae_mvar": {
+      "median": 78.04387391777861,
+      "p95": 85.55882423034382,
+      "worst": 85.83812915570897
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "final + PF",
+    "n": 30,
+    "PF_converged": 30,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 0.001175707424009964,
+      "p95": 0.001223510229331737,
+      "worst": 0.0012716990917169824
+    },
+    "max_q_residual_mvar": {
+      "median": 0.01109739088541395,
+      "p95": 0.011158306858117362,
+      "worst": 0.011160395909151966
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 62.3736428626637,
+      "p95": 144.38139186095825,
+      "worst": 151.538744241286
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.009489008743815974,
+      "p95": 0.010779864536688388,
+      "worst": 0.010944895909667185
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.1566322788458211,
+      "p95": 0.25051864279764746,
+      "worst": 0.2791191761494268
+    },
+    "voltage_mae_pu": {
+      "median": 0.004007797034217737,
+      "p95": 0.0052149138609116985,
+      "worst": 0.005291080963247807
+    },
+    "angle_mae_deg": {
+      "median": 4.234864975983772,
+      "p95": 8.320567230893182,
+      "worst": 8.416535574039013
+    },
+    "pg_mae_mw": {
+      "median": 13.656063302712628,
+      "p95": 18.408704628930835,
+      "worst": 18.92664318213095
+    },
+    "qg_mae_mvar": {
+      "median": 14.717386885398547,
+      "p95": 16.61696708263485,
+      "worst": 17.276660474382194
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 30,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "old frozen",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 4331.317841164007,
+      "p95": 4947.55320459552,
+      "worst": 4982.480491075834
+    },
+    "max_q_residual_mvar": {
+      "median": 10519.553480567154,
+      "p95": 12574.61563844013,
+      "worst": 12647.669219622487
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 4.76837158203125e-06,
+      "p95": 4.76837158203125e-06,
+      "worst": 4.76837158203125e-06
+    },
+    "max_voltage_violation_pu": {
+      "median": 2.38418573772492e-09,
+      "p95": 2.38418573772492e-09,
+      "worst": 2.38418573772492e-09
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 56.543090391287194,
+      "p95": 57.14039038318406,
+      "worst": 57.157301546357296
+    },
+    "voltage_mae_pu": {
+      "median": 0.02711198970664097,
+      "p95": 0.02739661680039962,
+      "worst": 0.027544449049546865
+    },
+    "angle_mae_deg": {
+      "median": 42.415322495123505,
+      "p95": 62.1952131270518,
+      "worst": 62.81250140182819
+    },
+    "pg_mae_mw": {
+      "median": 195.54726879688468,
+      "p95": 195.9371113208958,
+      "worst": 196.01119861190875
+    },
+    "qg_mae_mvar": {
+      "median": 84.30595615202321,
+      "p95": 92.00007465525353,
+      "worst": 92.63798669102259
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "ridge",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 12.463246004135385,
+      "p95": 19.092284963748124,
+      "worst": 21.259933436197002
+    },
+    "max_q_residual_mvar": {
+      "median": 6.098051895581136,
+      "p95": 12.941109322343662,
+      "worst": 13.945709953059009
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 3.6280625985802235,
+      "p95": 15.801046596534755,
+      "worst": 17.599270499807485
+    },
+    "max_voltage_violation_pu": {
+      "median": 1.5122003543144302e-05,
+      "p95": 0.006366289227594434,
+      "worst": 0.0064998532451658875
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.10492632947801195,
+      "p95": 0.29721509753810266,
+      "worst": 0.3210963655981137
+    },
+    "voltage_mae_pu": {
+      "median": 0.000582177302148261,
+      "p95": 0.001021078966340042,
+      "worst": 0.001422861827288004
+    },
+    "angle_mae_deg": {
+      "median": 0.10651832715077622,
+      "p95": 0.21961147618542537,
+      "worst": 0.5150015673372971
+    },
+    "pg_mae_mw": {
+      "median": 1.0002419362949162,
+      "p95": 2.1866762047962705,
+      "worst": 3.978497712322333
+    },
+    "qg_mae_mvar": {
+      "median": 1.2477255313678104,
+      "p95": 2.0349900018377602,
+      "worst": 2.4658962754100133
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 24,
+      "voltage": 11,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "old E seed11",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 253.82964673611056,
+      "p95": 308.8819855585869,
+      "worst": 309.69770107446465
+    },
+    "max_q_residual_mvar": {
+      "median": 157.90222441374564,
+      "p95": 173.24410179667703,
+      "worst": 175.50483677545043
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 4.76837158203125e-06,
+      "p95": 4.76837158203125e-06,
+      "worst": 4.76837158203125e-06
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 2.38418573772492e-09,
+      "worst": 2.38418573772492e-09
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 1.1489436812843854,
+      "p95": 1.455740765399843,
+      "worst": 1.5265260106692689
+    },
+    "voltage_mae_pu": {
+      "median": 0.002021354461558324,
+      "p95": 0.0026884554493203316,
+      "worst": 0.0027190974584525174
+    },
+    "angle_mae_deg": {
+      "median": 1.9853616170448767,
+      "p95": 3.1719217215326956,
+      "worst": 3.304435369879381
+    },
+    "pg_mae_mw": {
+      "median": 8.255631367361197,
+      "p95": 8.661362814187507,
+      "worst": 9.915164633949226
+    },
+    "qg_mae_mvar": {
+      "median": 6.016799834311749,
+      "p95": 8.736887012460425,
+      "worst": 9.203544635583086
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "old E seed22",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 281.19611867492017,
+      "p95": 424.5137938375025,
+      "worst": 432.0076988909941
+    },
+    "max_q_residual_mvar": {
+      "median": 194.82763820541348,
+      "p95": 279.55293033990927,
+      "worst": 287.99203083240235
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 4.76837158203125e-06,
+      "p95": 4.76837158203125e-06,
+      "worst": 4.76837158203125e-06
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 2.370078197226935,
+      "p95": 3.5176065276652926,
+      "worst": 3.6081652811390788
+    },
+    "voltage_mae_pu": {
+      "median": 0.00300791225315449,
+      "p95": 0.004104133830265675,
+      "worst": 0.0041964645704716304
+    },
+    "angle_mae_deg": {
+      "median": 3.9094407431486253,
+      "p95": 5.944755998548673,
+      "worst": 6.101225729713934
+    },
+    "pg_mae_mw": {
+      "median": 11.143900051066638,
+      "p95": 12.963097286050873,
+      "worst": 13.534917116411231
+    },
+    "qg_mae_mvar": {
+      "median": 6.520257138243398,
+      "p95": 9.601364306988529,
+      "worst": 10.411326501679005
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "old E seed33",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 111.69693476037094,
+      "p95": 119.38712150061055,
+      "worst": 121.15872663328241
+    },
+    "max_q_residual_mvar": {
+      "median": 124.52081959034825,
+      "p95": 146.4938740266085,
+      "worst": 150.3856127079518
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 4.76837158203125e-06,
+      "p95": 4.76837158203125e-06,
+      "worst": 4.76837158203125e-06
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.9908946915079521,
+      "p95": 2.0137755744232506,
+      "worst": 2.102102920350014
+    },
+    "voltage_mae_pu": {
+      "median": 0.0015499433351465189,
+      "p95": 0.0023537146999198623,
+      "worst": 0.002470171331565296
+    },
+    "angle_mae_deg": {
+      "median": 3.81292185887603,
+      "p95": 6.506550817008945,
+      "worst": 6.647824748255105
+    },
+    "pg_mae_mw": {
+      "median": 6.820476985350252,
+      "p95": 9.423410102027184,
+      "worst": 11.173170488016751
+    },
+    "qg_mae_mvar": {
+      "median": 6.213707337502132,
+      "p95": 7.109917365617236,
+      "worst": 7.131678408460319
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "hybrid ridge + PF",
+    "n": 30,
+    "PF_converged": 30,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 0.001371094013175922,
+      "p95": 0.001546495580858931,
+      "worst": 0.0015531998616324927
+    },
+    "max_q_residual_mvar": {
+      "median": 0.011033126249550662,
+      "p95": 0.011100356496956421,
+      "worst": 0.011118054512955666
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 5.339243581583844,
+      "p95": 15.801046596534755,
+      "worst": 17.599270499807485
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0007288758861119238,
+      "p95": 0.006407932218958933,
+      "worst": 0.0064998532451661095
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.0017465187585695434,
+      "p95": 0.008610814549680308,
+      "worst": 0.06460224098583216
+    },
+    "voltage_mae_pu": {
+      "median": 0.0004997875698033538,
+      "p95": 0.0009798496040269214,
+      "worst": 0.001438601888992318
+    },
+    "angle_mae_deg": {
+      "median": 0.7631071023024057,
+      "p95": 2.153848562512833,
+      "worst": 2.4360173602376993
+    },
+    "pg_mae_mw": {
+      "median": 1.2833377216052848,
+      "p95": 2.72800162465337,
+      "worst": 4.228314058522483
+    },
+    "qg_mae_mvar": {
+      "median": 1.3870144195006282,
+      "p95": 2.131455577393334,
+      "worst": 2.786521940966787
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 29,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "hybrid E-11 + PF",
+    "n": 30,
+    "PF_converged": 30,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 0.0015477619676571575,
+      "p95": 0.0017144756943920925,
+      "worst": 0.0017214946569907852
+    },
+    "max_q_residual_mvar": {
+      "median": 0.011071406746406831,
+      "p95": 0.011088636439551002,
+      "worst": 0.011089617088326342
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 53.805634945911265,
+      "p95": 86.14013343116983,
+      "worst": 87.05655680766648
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.002752147692094087,
+      "p95": 0.004170839979439721,
+      "worst": 0.004680403288086499
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.07490171990689465,
+      "p95": 0.15816038258596343,
+      "worst": 0.1641396349641826
+    },
+    "voltage_mae_pu": {
+      "median": 0.0017003173887931214,
+      "p95": 0.002517557881342926,
+      "worst": 0.0026427161926955824
+    },
+    "angle_mae_deg": {
+      "median": 5.082162816337801,
+      "p95": 8.009429666201893,
+      "worst": 8.404175622260857
+    },
+    "pg_mae_mw": {
+      "median": 9.677801120545745,
+      "p95": 11.261940523298534,
+      "worst": 11.310036981086943
+    },
+    "qg_mae_mvar": {
+      "median": 7.524285203322014,
+      "p95": 8.44102987922488,
+      "worst": 8.68699263751889
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 30,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "hybrid E-22 + PF",
+    "n": 30,
+    "PF_converged": 30,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 0.0017147903178482693,
+      "p95": 0.0017348202395083944,
+      "worst": 0.0017422186489426394
+    },
+    "max_q_residual_mvar": {
+      "median": 0.010503721368579189,
+      "p95": 0.010695737147770345,
+      "worst": 0.010738408253355647
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 345.36528226156537,
+      "p95": 476.32968269123137,
+      "worst": 486.4517494665054
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.006066624888970584,
+      "p95": 0.010802751746020283,
+      "worst": 0.011509925881171723
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.4976848724461107,
+      "p95": 0.8615665933813044,
+      "worst": 0.8935732454018409
+    },
+    "voltage_mae_pu": {
+      "median": 0.004573810581927691,
+      "p95": 0.007098764340189712,
+      "worst": 0.0072056176282102825
+    },
+    "angle_mae_deg": {
+      "median": 19.687909034075265,
+      "p95": 25.52664365052876,
+      "worst": 26.024790615288016
+    },
+    "pg_mae_mw": {
+      "median": 15.94881929798997,
+      "p95": 19.408629485504473,
+      "worst": 19.592986063593035
+    },
+    "qg_mae_mvar": {
+      "median": 14.051729067977703,
+      "p95": 18.98331587324111,
+      "worst": 19.428857075428876
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 30,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "hybrid E-33 + PF",
+    "n": 30,
+    "PF_converged": 30,
+    "full_feasible": 0,
+    "max_p_residual_mw": {
+      "median": 0.00174407664226095,
+      "p95": 0.00178950388983381,
+      "worst": 0.0017918008441455413
+    },
+    "max_q_residual_mvar": {
+      "median": 0.010810542993814065,
+      "p95": 0.01083786461458427,
+      "worst": 0.010855867969773891
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 146.65268136291454,
+      "p95": 283.82439410664665,
+      "worst": 295.65693053117514
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0015685526862351251,
+      "p95": 0.004702975688323616,
+      "worst": 0.005548935062833493
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.154853084441273,
+      "p95": 0.3433595939498019,
+      "worst": 0.36513109532930355
+    },
+    "voltage_mae_pu": {
+      "median": 0.0023848628171059022,
+      "p95": 0.0033167311921674606,
+      "worst": 0.003570764348745217
+    },
+    "angle_mae_deg": {
+      "median": 10.223024648880568,
+      "p95": 14.86057726853186,
+      "worst": 15.391949804883577
+    },
+    "pg_mae_mw": {
+      "median": 9.152021053968987,
+      "p95": 11.554076195537027,
+      "worst": 12.000598588694743
+    },
+    "qg_mae_mvar": {
+      "median": 8.287009495682703,
+      "p95": 10.84054369809677,
+      "worst": 11.202410741297232
+    },
+    "violation_counts": {
+      "balance": 30,
+      "generator": 30,
+      "voltage": 29,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": null
+  },
+  {
+    "method": "conventional AC-OPF",
+    "n": 30,
+    "PF_converged": null,
+    "full_feasible": 30,
+    "max_p_residual_mw": {
+      "median": 1.6470380614919122e-11,
+      "p95": 3.229843059671111e-11,
+      "worst": 4.341131898399908e-10
+    },
+    "max_q_residual_mvar": {
+      "median": 7.550671199396675e-11,
+      "p95": 1.9202153200836836e-10,
+      "worst": 9.744383078214014e-10
+    },
+    "max_generator_component_violation_mw_or_mvar": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_voltage_violation_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "max_angle_violation_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "cost_error_percent": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "voltage_mae_pu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "angle_mae_deg": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "pg_mae_mw": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "qg_mae_mvar": {
+      "median": 0.0,
+      "p95": 0.0,
+      "worst": 0.0
+    },
+    "violation_counts": {
+      "balance": 0,
+      "generator": 0,
+      "voltage": 0,
+      "angle": 0,
+      "thermal": "N/A; all original RATE_A=0"
+    },
+    "feasible_cost_error_percent_median": 0.0
+  }
+]

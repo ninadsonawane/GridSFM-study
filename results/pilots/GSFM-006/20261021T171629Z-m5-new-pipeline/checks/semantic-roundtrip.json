@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "scenario_id": "train-000",
+      "original_bus_gen_branch_order": true,
+      "original_coefficients_taps_shunts_cost_limits": true,
+      "negative_load_buses": 17,
+      "multiple_generator_buses": 0,
+      "thermal_limits": "N/A",
+      "features_contain_solution": false
+    },
+    {
+      "scenario_id": "train-001",
+      "original_bus_gen_branch_order": true,
+      "original_coefficients_taps_shunts_cost_limits": true,
+      "negative_load_buses": 17,
+      "multiple_generator_buses": 0,
+      "thermal_limits": "N/A",
+      "features_contain_solution": false
+    },
+    {
+      "scenario_id": "train-002",
+      "original_bus_gen_branch_order": true,
+      "original_coefficients_taps_shunts_cost_limits": true,
+      "negative_load_buses": 17,
+      "multiple_generator_buses": 0,
+      "thermal_limits": "N/A",
+      "features_contain_solution": false
+    },
+    {
+      "scenario_id": "train-003",
+      "original_bus_gen_branch_order": true,
+      "original_coefficients_taps_shunts_cost_limits": true,
+      "negative_load_buses": 17,
+      "multiple_generator_buses": 0,
+      "thermal_limits": "N/A",
+      "features_contain_solution": false
+    },
+    {
+      "scenario_id": "train-004",
+      "original_bus_gen_branch_order": true,
+      "original_coefficients_taps_shunts_cost_limits": true,
+      "negative_load_buses": 17,
+      "multiple_generator_buses": 0,
+      "thermal_limits": "N/A",
+      "features_contain_solution": false
+    }
+  ],
+  "FP32_rounding": "separately quantified in gate.json; decimal source matrices untouched"
+}

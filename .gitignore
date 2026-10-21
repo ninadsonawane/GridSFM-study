@@ -19,3 +19,7 @@ paper/*.bbl
 paper/*.blg
 paper/*.out
 paper/*.log
+
+# GSFM-006 full predictions and solver traces: local artifacts, SHA256 indexed
+results/pilots/GSFM-006/*/evaluation/
+results/pilots/GSFM-006/*/conventional/

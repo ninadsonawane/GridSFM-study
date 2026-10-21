@@ -1,0 +1,56 @@
+{
+  "status": "COMPLETE",
+  "updates": 200,
+  "selected": {
+    "pg_percent": 3.772666581364596,
+    "Vctrl_MAE_pu": 0.006190225073763953,
+    "selection_score": 9.96289165512855,
+    "update": 200,
+    "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-200.pt"
+  },
+  "final_checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-200.pt",
+  "checkpoints": {
+    "50": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-50.pt",
+    "100": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-100.pt",
+    "150": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-150.pt",
+    "200": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-200.pt"
+  },
+  "fit_seconds": 107.30542391698691,
+  "adaptation_phase_seconds": 109.00534958398202,
+  "validation": [
+    {
+      "pg_percent": 6.547916238987528,
+      "Vctrl_MAE_pu": 0.011662310944257058,
+      "selection_score": 18.210227183244587,
+      "update": 50,
+      "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-50.pt"
+    },
+    {
+      "pg_percent": 4.183059008046156,
+      "Vctrl_MAE_pu": 0.00791054925604294,
+      "selection_score": 12.093608264089095,
+      "update": 100,
+      "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-100.pt"
+    },
+    {
+      "pg_percent": 3.4321041880170786,
+      "Vctrl_MAE_pu": 0.006616742976008999,
+      "selection_score": 10.048847164026078,
+      "update": 150,
+      "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-150.pt"
+    },
+    {
+      "pg_percent": 3.772666581364596,
+      "Vctrl_MAE_pu": 0.006190225073763953,
+      "selection_score": 9.96289165512855,
+      "update": 200,
+      "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-200.pt"
+    }
+  ],
+  "resources": {
+    "process_tree_RSS_bytes": 840237056,
+    "peak_RSS_bytes": 840237056,
+    "minimum_available_bytes": 39923171328
+  },
+  "schedule": "4 of400 LR epochs and4 of25 tolerance epochs; tol_final=0.013335214321633242"
+}

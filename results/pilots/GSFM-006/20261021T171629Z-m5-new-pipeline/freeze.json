@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-21T17:28:16.579062+00:00",
+  "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+  "code_sha256": {
+    "run.py": "66d7a2bbcd2f9ff7da7e7387385b9d5f33f23be7c46a2fe1e36aba8ed22759a4",
+    "common.py": "eae43901b2566ff18b67da7aa29410425b7f6918fa7e437fc63e9cd5f77f9a5f",
+    "gate.py": "25ea014128091164e5b38c9782251c10a304d70e2063cdb653855601d9abb75c"
+  },
+  "config_sha256": "aba1516ae4d1bedd43bd602915881b9af8f2663a21871779aed87099a6b18073",
+  "checker_sha256": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+  "data_manifests": {
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-004/20261021T104843Z-m5-seed11/data/manifest.json": "cd7325dc34da7473c4cb123e890663abbbf3e489f99a525bafacd2fe72b45d3b",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/data/manifest.json": "2a99ec61b3373694abe4eb1c0f3933e3b409c0c68079fd702ad0eed1ab147519"
+  },
+  "comparison": "previously viewed development cases, no retuning"
+}

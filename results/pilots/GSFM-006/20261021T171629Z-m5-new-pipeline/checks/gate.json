@@ -1,0 +1,2795 @@
+{
+  "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+  "strict_loading": true,
+  "parameters": 15146823,
+  "changed_weight_tensors": 1209,
+  "source_checkout": "/private/tmp/gsfm006-source-20261021",
+  "source_modified": false,
+  "references": [
+    {
+      "scenario": "train-000",
+      "operators": {
+        "exact": {
+          "Pmax_MW": 2.1449508835758024e-11,
+          "Qmax_MVAr": 1.1395533946100625e-10
+        },
+        "stock": {
+          "Pmax_MW": 245.06304755514358,
+          "Qmax_MVAr": 194.29666287715563
+        },
+        "new_original_precision": {
+          "Pmax_MW": 0.0011534594115403252,
+          "Qmax_MVAr": 0.000788657459116493
+        },
+        "new_native_fp32_inputs": {
+          "Pmax_MW": 0.00119202655292082,
+          "Qmax_MVAr": 0.011072478146358302
+        }
+      },
+      "oracle_completion": {
+        "converged": true,
+        "iterations": 4,
+        "closure_max_residual_pu": 6.88992593400866e-13,
+        "norm_history": [
+          1.3782782613355238,
+          0.209138670436651,
+          0.0009253677932630766,
+          3.118038893745734e-08,
+          6.88992593400866e-13
+        ],
+        "Q_limit_switching": false,
+        "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+        "allocation": [
+          {
+            "bus_index": 7,
+            "generator_rows": [
+              0
+            ],
+            "Q_total_pu": 0.09999966935965858
+          },
+          {
+            "bus_index": 9,
+            "generator_rows": [
+              1
+            ],
+            "Q_total_pu": 0.20000006188048067
+          },
+          {
+            "bus_index": 18,
+            "generator_rows": [
+              2
+            ],
+            "Q_total_pu": 0.20000065168153003
+          },
+          {
+            "bus_index": 54,
+            "generator_rows": [
+              3
+            ],
+            "Q_total_pu": 0.2500000905840664
+          },
+          {
+            "bus_index": 62,
+            "generator_rows": [
+              4
+            ],
+            "Q_total_pu": 0.34999973395374806
+          },
+          {
+            "bus_index": 68,
+            "generator_rows": [
+              5
+            ],
+            "Q_total_pu": 1.2931579176893495
+          },
+          {
+            "bus_index": 75,
+            "generator_rows": [
+              6
+            ],
+            "Q_total_pu": 0.13790536147543062
+          },
+          {
+            "bus_index": 76,
+            "generator_rows": [
+              7
+            ],
+            "Q_total_pu": 0.1472428675820089
+          },
+          {
+            "bus_index": 79,
+            "generator_rows": [
+              8
+            ],
+            "Q_total_pu": 0.07778496029983116
+          },
+          {
+            "bus_index": 87,
+            "generator_rows": [
+              9
+            ],
+            "Q_total_pu": 0.07559724883915164
+          },
+          {
+            "bus_index": 97,
+            "generator_rows": [
+              10
+            ],
+            "Q_total_pu": 10.532956930037615
+          },
+          {
+            "bus_index": 102,
+            "generator_rows": [
+              11
+            ],
+            "Q_total_pu": 0.9661759493728875
+          },
+          {
+            "bus_index": 103,
+            "generator_rows": [
+              12
+            ],
+            "Q_total_pu": 1.999999749876665
+          },
+          {
+            "bus_index": 116,
+            "generator_rows": [
+              13
+            ],
+            "Q_total_pu": 2.8265191918328334
+          },
+          {
+            "bus_index": 119,
+            "generator_rows": [
+              14
+            ],
+            "Q_total_pu": 0.48282971175991857
+          },
+          {
+            "bus_index": 121,
+            "generator_rows": [
+              15
+            ],
+            "Q_total_pu": 0.9448228843210477
+          },
+          {
+            "bus_index": 124,
+            "generator_rows": [
+              16
+            ],
+            "Q_total_pu": 0.3499999956557064
+          },
+          {
+            "bus_index": 125,
+            "generator_rows": [
+              17
+            ],
+            "Q_total_pu": -0.41457653160161734
+          },
+          {
+            "bus_index": 127,
+            "generator_rows": [
+              18
+            ],
+            "Q_total_pu": 0.22710569089438273
+          },
+          {
+            "bus_index": 130,
+            "generator_rows": [
+              19
+            ],
+            "Q_total_pu": -0.49999997744884705
+          },
+          {
+            "bus_index": 131,
+            "generator_rows": [
+              20
+            ],
+            "Q_total_pu": -0.4999997123816005
+          },
+          {
+            "bus_index": 134,
+            "generator_rows": [
+              21
+            ],
+            "Q_total_pu": -0.026518204153357816
+          },
+          {
+            "bus_index": 148,
+            "generator_rows": [
+              22
+            ],
+            "Q_total_pu": 0.899999203891648
+          },
+          {
+            "bus_index": 149,
+            "generator_rows": [
+              23
+            ],
+            "Q_total_pu": 1.5000003040357952
+          },
+          {
+            "bus_index": 154,
+            "generator_rows": [
+              24
+            ],
+            "Q_total_pu": 0.47677605129120004
+          },
+          {
+            "bus_index": 155,
+            "generator_rows": [
+              25
+            ],
+            "Q_total_pu": 0.3499999498012616
+          },
+          {
+            "bus_index": 163,
+            "generator_rows": [
+              26
+            ],
+            "Q_total_pu": -0.0790608724760812
+          },
+          {
+            "bus_index": 164,
+            "generator_rows": [
+              27
+            ],
+            "Q_total_pu": 1.4531528555148814
+          },
+          {
+            "bus_index": 165,
+            "generator_rows": [
+              28
+            ],
+            "Q_total_pu": 1.6588126198630968
+          },
+          {
+            "bus_index": 168,
+            "generator_rows": [
+              29
+            ],
+            "Q_total_pu": -2.3230336414407082
+          },
+          {
+            "bus_index": 169,
+            "generator_rows": [
+              30
+            ],
+            "Q_total_pu": 5.912002153563001
+          },
+          {
+            "bus_index": 176,
+            "generator_rows": [
+              31
+            ],
+            "Q_total_pu": 1.0381455136225728
+          },
+          {
+            "bus_index": 191,
+            "generator_rows": [
+              32
+            ],
+            "Q_total_pu": 0.6150069102790102
+          },
+          {
+            "bus_index": 198,
+            "generator_rows": [
+              33
+            ],
+            "Q_total_pu": 0.07247785961835818
+          },
+          {
+            "bus_index": 199,
+            "generator_rows": [
+              34
+            ],
+            "Q_total_pu": 2.4908523208863516
+          },
+          {
+            "bus_index": 200,
+            "generator_rows": [
+              35
+            ],
+            "Q_total_pu": 0.9470500664672848
+          },
+          {
+            "bus_index": 205,
+            "generator_rows": [
+              36
+            ],
+            "Q_total_pu": 2.9247673612139704
+          },
+          {
+            "bus_index": 208,
+            "generator_rows": [
+              37
+            ],
+            "Q_total_pu": 0.4549958056231036
+          },
+          {
+            "bus_index": 211,
+            "generator_rows": [
+              38
+            ],
+            "Q_total_pu": 1.806787082895691
+          },
+          {
+            "bus_index": 214,
+            "generator_rows": [
+              39
+            ],
+            "Q_total_pu": 1.7091581456305645
+          },
+          {
+            "bus_index": 216,
+            "generator_rows": [
+              40
+            ],
+            "Q_total_pu": 2.0000004692828055
+          },
+          {
+            "bus_index": 217,
+            "generator_rows": [
+              41
+            ],
+            "Q_total_pu": 1.6806481924469228
+          },
+          {
+            "bus_index": 219,
+            "generator_rows": [
+              42
+            ],
+            "Q_total_pu": -1.6299701133057383
+          },
+          {
+            "bus_index": 220,
+            "generator_rows": [
+              43
+            ],
+            "Q_total_pu": 0.7908398408742017
+          },
+          {
+            "bus_index": 221,
+            "generator_rows": [
+              44
+            ],
+            "Q_total_pu": 0.39999999448348056
+          },
+          {
+            "bus_index": 246,
+            "generator_rows": [
+              45
+            ],
+            "Q_total_pu": 1.1011452575022453
+          },
+          {
+            "bus_index": 247,
+            "generator_rows": [
+              46
+            ],
+            "Q_total_pu": 0.6376837595252685
+          },
+          {
+            "bus_index": 248,
+            "generator_rows": [
+              47
+            ],
+            "Q_total_pu": 4.199998974619974
+          },
+          {
+            "bus_index": 249,
+            "generator_rows": [
+              48
+            ],
+            "Q_total_pu": 1.0000000454690854
+          },
+          {
+            "bus_index": 250,
+            "generator_rows": [
+              49
+            ],
+            "Q_total_pu": 1.8013185344030984
+          },
+          {
+            "bus_index": 251,
+            "generator_rows": [
+              50
+            ],
+            "Q_total_pu": 2.6991628020811422
+          },
+          {
+            "bus_index": 252,
+            "generator_rows": [
+              51
+            ],
+            "Q_total_pu": 1.2792846471930032e-07
+          },
+          {
+            "bus_index": 253,
+            "generator_rows": [
+              52
+            ],
+            "Q_total_pu": 0.8015385673773084
+          },
+          {
+            "bus_index": 254,
+            "generator_rows": [
+              53
+            ],
+            "Q_total_pu": 0.4888043759536506
+          },
+          {
+            "bus_index": 255,
+            "generator_rows": [
+              54
+            ],
+            "Q_total_pu": 0.13875846638396638
+          },
+          {
+            "bus_index": 256,
+            "generator_rows": [
+              55
+            ],
+            "Q_total_pu": 0.09999993746425442
+          },
+          {
+            "bus_index": 257,
+            "generator_rows": [
+              56
+            ],
+            "Q_total_pu": 0.25000010565572667
+          },
+          {
+            "bus_index": 258,
+            "generator_rows": [
+              57
+            ],
+            "Q_total_pu": 0.40334607855435806
+          },
+          {
+            "bus_index": 259,
+            "generator_rows": [
+              58
+            ],
+            "Q_total_pu": 1.4235234136801302
+          },
+          {
+            "bus_index": 260,
+            "generator_rows": [
+              59
+            ],
+            "Q_total_pu": 1.4999996605607178
+          },
+          {
+            "bus_index": 261,
+            "generator_rows": [
+              60
+            ],
+            "Q_total_pu": 0.7345414312591981
+          },
+          {
+            "bus_index": 262,
+            "generator_rows": [
+              61
+            ],
+            "Q_total_pu": 2.749775848290156
+          },
+          {
+            "bus_index": 263,
+            "generator_rows": [
+              62
+            ],
+            "Q_total_pu": 3.050582801802733
+          },
+          {
+            "bus_index": 264,
+            "generator_rows": [
+              63
+            ],
+            "Q_total_pu": 1.2585839336612537
+          },
+          {
+            "bus_index": 266,
+            "generator_rows": [
+              64
+            ],
+            "Q_total_pu": 0.020000070375299005
+          },
+          {
+            "bus_index": 291,
+            "generator_rows": [
+              65
+            ],
+            "Q_total_pu": 0.1055651988558838
+          },
+          {
+            "bus_index": 293,
+            "generator_rows": [
+              66
+            ],
+            "Q_total_pu": 0.08503067236160193
+          },
+          {
+            "bus_index": 294,
+            "generator_rows": [
+              67
+            ],
+            "Q_total_pu": 0.3799999559855451
+          },
+          {
+            "bus_index": 295,
+            "generator_rows": [
+              68
+            ],
+            "Q_total_pu": 0.059999988590343174
+          }
+        ]
+      },
+      "oracle_metrics": {
+        "max_p_residual_mw": 0.0011920320958953567,
+        "max_q_residual_mvar": 0.01107252953699378,
+        "mean_abs_p_residual_mw": 2.9706831999808393e-05,
+        "mean_abs_q_residual_mvar": 0.00011099934755540236,
+        "max_generator_component_violation_mw_or_mvar": 6.516815300372514e-05,
+        "max_voltage_violation_pu": 2.950937094681194e-08,
+        "max_branch_violation_mva": 0,
+        "max_angle_violation_deg": 0,
+        "max_rated_branch_loading": null,
+        "rated_active_branch_count": 0,
+        "unlimited_active_branch_count": 411,
+        "generation_cost_per_hour": 720114.9895435412,
+        "thresholds": {
+          "balance_mva": 0.001,
+          "generator_mva": 0.001,
+          "voltage_pu": 0.0001,
+          "branch_mva": 0.001,
+          "angle_deg": 0.001
+        },
+        "all_tested_constraints_pass": false,
+        "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+        "cost_error_percent": 2.2741354259290666e-07,
+        "voltage_mae_pu": 7.217918261970269e-09,
+        "angle_mae_deg": 1.4664207823026725e-06,
+        "pg_mae_mw": 5.724714333237516e-07,
+        "qg_mae_mvar": 2.9332853070691526e-05
+      }
+    },
+    {
+      "scenario": "train-001",
+      "operators": {
+        "exact": {
+          "Pmax_MW": 1.5498713423767185e-11,
+          "Qmax_MVAr": 9.8474658581237e-11
+        },
+        "stock": {
+          "Pmax_MW": 235.38325133811148,
+          "Qmax_MVAr": 191.73870316623706
+        },
+        "new_original_precision": {
+          "Pmax_MW": 0.0011095676264671894,
+          "Qmax_MVAr": 0.0007772089739344068
+        },
+        "new_native_fp32_inputs": {
+          "Pmax_MW": 0.0012952643352689905,
+          "Qmax_MVAr": 0.011058260192646326
+        }
+      },
+      "oracle_completion": {
+        "converged": true,
+        "iterations": 4,
+        "closure_max_residual_pu": 8.730348022395285e-13,
+        "norm_history": [
+          1.3100534544550584,
+          0.19091593266196263,
+          0.0007766693768034294,
+          2.1882601342060326e-08,
+          8.730348022395285e-13
+        ],
+        "Q_limit_switching": false,
+        "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+        "allocation": [
+          {
+            "bus_index": 7,
+            "generator_rows": [
+              0
+            ],
+            "Q_total_pu": 0.09999967670033741
+          },
+          {
+            "bus_index": 9,
+            "generator_rows": [
+              1
+            ],
+            "Q_total_pu": 0.20000007210866194
+          },
+          {
+            "bus_index": 18,
+            "generator_rows": [
+              2
+            ],
+            "Q_total_pu": 0.20000069444201118
+          },
+          {
+            "bus_index": 54,
+            "generator_rows": [
+              3
+            ],
+            "Q_total_pu": 0.25000011198202704
+          },
+          {
+            "bus_index": 62,
+            "generator_rows": [
+              4
+            ],
+            "Q_total_pu": 0.34999977115213843
+          },
+          {
+            "bus_index": 68,
+            "generator_rows": [
+              5
+            ],
+            "Q_total_pu": 1.2824682834357242
+          },
+          {
+            "bus_index": 75,
+            "generator_rows": [
+              6
+            ],
+            "Q_total_pu": 0.11427933580126555
+          },
+          {
+            "bus_index": 76,
+            "generator_rows": [
+              7
+            ],
+            "Q_total_pu": 0.14841675198861679
+          },
+          {
+            "bus_index": 79,
+            "generator_rows": [
+              8
+            ],
+            "Q_total_pu": 0.06454839001515231
+          },
+          {
+            "bus_index": 87,
+            "generator_rows": [
+              9
+            ],
+            "Q_total_pu": 0.04803593392701419
+          },
+          {
+            "bus_index": 97,
+            "generator_rows": [
+              10
+            ],
+            "Q_total_pu": 9.937451090287334
+          },
+          {
+            "bus_index": 102,
+            "generator_rows": [
+              11
+            ],
+            "Q_total_pu": 0.8765618832088486
+          },
+          {
+            "bus_index": 103,
+            "generator_rows": [
+              12
+            ],
+            "Q_total_pu": 1.864236272340856
+          },
+          {
+            "bus_index": 116,
+            "generator_rows": [
+              13
+            ],
+            "Q_total_pu": 2.907167374127993
+          },
+          {
+            "bus_index": 119,
+            "generator_rows": [
+              14
+            ],
+            "Q_total_pu": 0.3891351358976164
+          },
+          {
+            "bus_index": 121,
+            "generator_rows": [
+              15
+            ],
+            "Q_total_pu": 0.695653514009166
+          },
+          {
+            "bus_index": 124,
+            "generator_rows": [
+              16
+            ],
+            "Q_total_pu": 0.35000005298664094
+          },
+          {
+            "bus_index": 125,
+            "generator_rows": [
+              17
+            ],
+            "Q_total_pu": -0.42587250268089266
+          },
+          {
+            "bus_index": 127,
+            "generator_rows": [
+              18
+            ],
+            "Q_total_pu": 0.2364916405214857
+          },
+          {
+            "bus_index": 130,
+            "generator_rows": [
+              19
+            ],
+            "Q_total_pu": -0.49999996480082076
+          },
+          {
+            "bus_index": 131,
+            "generator_rows": [
+              20
+            ],
+            "Q_total_pu": -0.49999971454510295
+          },
+          {
+            "bus_index": 134,
+            "generator_rows": [
+              21
+            ],
+            "Q_total_pu": -0.10000111470721884
+          },
+          {
+            "bus_index": 148,
+            "generator_rows": [
+              22
+            ],
+            "Q_total_pu": 0.8999990963716555
+          },
+          {
+            "bus_index": 149,
+            "generator_rows": [
+              23
+            ],
+            "Q_total_pu": 1.5000004242692948
+          },
+          {
+            "bus_index": 154,
+            "generator_rows": [
+              24
+            ],
+            "Q_total_pu": 0.4135823809825221
+          },
+          {
+            "bus_index": 155,
+            "generator_rows": [
+              25
+            ],
+            "Q_total_pu": 0.350000036356646
+          },
+          {
+            "bus_index": 163,
+            "generator_rows": [
+              26
+            ],
+            "Q_total_pu": -0.23899316466192377
+          },
+          {
+            "bus_index": 164,
+            "generator_rows": [
+              27
+            ],
+            "Q_total_pu": 1.5376214287447856
+          },
+          {
+            "bus_index": 165,
+            "generator_rows": [
+              28
+            ],
+            "Q_total_pu": 1.219397684610373
+          },
+          {
+            "bus_index": 168,
+            "generator_rows": [
+              29
+            ],
+            "Q_total_pu": -2.3564334189069136
+          },
+          {
+            "bus_index": 169,
+            "generator_rows": [
+              30
+            ],
+            "Q_total_pu": 5.506631115829866
+          },
+          {
+            "bus_index": 176,
+            "generator_rows": [
+              31
+            ],
+            "Q_total_pu": 0.9645102889245517
+          },
+          {
+            "bus_index": 191,
+            "generator_rows": [
+              32
+            ],
+            "Q_total_pu": 0.588428300290184
+          },
+          {
+            "bus_index": 198,
+            "generator_rows": [
+              33
+            ],
+            "Q_total_pu": -0.031102950183145905
+          },
+          {
+            "bus_index": 199,
+            "generator_rows": [
+              34
+            ],
+            "Q_total_pu": 2.348355179831545
+          },
+          {
+            "bus_index": 200,
+            "generator_rows": [
+              35
+            ],
+            "Q_total_pu": 0.9171777070991212
+          },
+          {
+            "bus_index": 205,
+            "generator_rows": [
+              36
+            ],
+            "Q_total_pu": 2.8745480281203633
+          },
+          {
+            "bus_index": 208,
+            "generator_rows": [
+              37
+            ],
+            "Q_total_pu": 0.3951786287943361
+          },
+          {
+            "bus_index": 211,
+            "generator_rows": [
+              38
+            ],
+            "Q_total_pu": 1.7545663078624885
+          },
+          {
+            "bus_index": 214,
+            "generator_rows": [
+              39
+            ],
+            "Q_total_pu": 1.586684779494948
+          },
+          {
+            "bus_index": 216,
+            "generator_rows": [
+              40
+            ],
+            "Q_total_pu": 2.000000550217552
+          },
+          {
+            "bus_index": 217,
+            "generator_rows": [
+              41
+            ],
+            "Q_total_pu": 1.5383842293714138
+          },
+          {
+            "bus_index": 219,
+            "generator_rows": [
+              42
+            ],
+            "Q_total_pu": -1.6696080357755807
+          },
+          {
+            "bus_index": 220,
+            "generator_rows": [
+              43
+            ],
+            "Q_total_pu": 0.6783887365678544
+          },
+          {
+            "bus_index": 221,
+            "generator_rows": [
+              44
+            ],
+            "Q_total_pu": 0.39999999113247187
+          },
+          {
+            "bus_index": 246,
+            "generator_rows": [
+              45
+            ],
+            "Q_total_pu": 1.0028490745228318
+          },
+          {
+            "bus_index": 247,
+            "generator_rows": [
+              46
+            ],
+            "Q_total_pu": 0.5587500647415692
+          },
+          {
+            "bus_index": 248,
+            "generator_rows": [
+              47
+            ],
+            "Q_total_pu": 4.199998979183133
+          },
+          {
+            "bus_index": 249,
+            "generator_rows": [
+              48
+            ],
+            "Q_total_pu": 1.0000000369800097
+          },
+          {
+            "bus_index": 250,
+            "generator_rows": [
+              49
+            ],
+            "Q_total_pu": 1.7489261960156757
+          },
+          {
+            "bus_index": 251,
+            "generator_rows": [
+              50
+            ],
+            "Q_total_pu": 2.4959698519271423
+          },
+          {
+            "bus_index": 252,
+            "generator_rows": [
+              51
+            ],
+            "Q_total_pu": 1.1539571990446199e-07
+          },
+          {
+            "bus_index": 253,
+            "generator_rows": [
+              52
+            ],
+            "Q_total_pu": 0.6750407091773912
+          },
+          {
+            "bus_index": 254,
+            "generator_rows": [
+              53
+            ],
+            "Q_total_pu": 0.4504790108890839
+          },
+          {
+            "bus_index": 255,
+            "generator_rows": [
+              54
+            ],
+            "Q_total_pu": 0.0227103976408041
+          },
+          {
+            "bus_index": 256,
+            "generator_rows": [
+              55
+            ],
+            "Q_total_pu": 0.0999998843348767
+          },
+          {
+            "bus_index": 257,
+            "generator_rows": [
+              56
+            ],
+            "Q_total_pu": 0.250000113655718
+          },
+          {
+            "bus_index": 258,
+            "generator_rows": [
+              57
+            ],
+            "Q_total_pu": 0.37555458307605244
+          },
+          {
+            "bus_index": 259,
+            "generator_rows": [
+              58
+            ],
+            "Q_total_pu": 1.356233985675515
+          },
+          {
+            "bus_index": 260,
+            "generator_rows": [
+              59
+            ],
+            "Q_total_pu": 1.4999996735377732
+          },
+          {
+            "bus_index": 261,
+            "generator_rows": [
+              60
+            ],
+            "Q_total_pu": 0.7076876956623278
+          },
+          {
+            "bus_index": 262,
+            "generator_rows": [
+              61
+            ],
+            "Q_total_pu": 2.5896851246135957
+          },
+          {
+            "bus_index": 263,
+            "generator_rows": [
+              62
+            ],
+            "Q_total_pu": 2.911213197160853
+          },
+          {
+            "bus_index": 264,
+            "generator_rows": [
+              63
+            ],
+            "Q_total_pu": 1.2322949206962166
+          },
+          {
+            "bus_index": 266,
+            "generator_rows": [
+              64
+            ],
+            "Q_total_pu": 0.020000070514867498
+          },
+          {
+            "bus_index": 291,
+            "generator_rows": [
+              65
+            ],
+            "Q_total_pu": 0.07006519004769625
+          },
+          {
+            "bus_index": 293,
+            "generator_rows": [
+              66
+            ],
+            "Q_total_pu": 0.050002359089557594
+          },
+          {
+            "bus_index": 294,
+            "generator_rows": [
+              67
+            ],
+            "Q_total_pu": 0.3799999578053581
+          },
+          {
+            "bus_index": 295,
+            "generator_rows": [
+              68
+            ],
+            "Q_total_pu": 0.059999988822477916
+          }
+        ]
+      },
+      "oracle_metrics": {
+        "max_p_residual_mw": 0.0012952703578914537,
+        "max_q_residual_mvar": 0.011058311482743832,
+        "mean_abs_p_residual_mw": 3.0313926971405708e-05,
+        "mean_abs_q_residual_mvar": 0.00011067545619572542,
+        "max_generator_component_violation_mw_or_mvar": 0.00011147072188322227,
+        "max_voltage_violation_pu": 2.5710538142931227e-08,
+        "max_branch_violation_mva": 0,
+        "max_angle_violation_deg": 0,
+        "max_rated_branch_loading": null,
+        "rated_active_branch_count": 0,
+        "unlimited_active_branch_count": 411,
+        "generation_cost_per_hour": 693201.4758633992,
+        "thresholds": {
+          "balance_mva": 0.001,
+          "generator_mva": 0.001,
+          "voltage_pu": 0.0001,
+          "branch_mva": 0.001,
+          "angle_deg": 0.001
+        },
+        "all_tested_constraints_pass": false,
+        "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+        "cost_error_percent": 6.700201394900652e-08,
+        "voltage_mae_pu": 7.138301244546952e-09,
+        "angle_mae_deg": 6.091713711953162e-07,
+        "pg_mae_mw": 1.635259687016488e-07,
+        "qg_mae_mvar": 3.054934821429552e-05
+      }
+    },
+    {
+      "scenario": "train-002",
+      "operators": {
+        "exact": {
+          "Pmax_MW": 1.7497114868092467e-11,
+          "Qmax_MVAr": 9.956480084838404e-11
+        },
+        "stock": {
+          "Pmax_MW": 210.90751318941918,
+          "Qmax_MVAr": 190.04557360554202
+        },
+        "new_original_precision": {
+          "Pmax_MW": 0.000999610412466545,
+          "Qmax_MVAr": 0.0007684029317167607
+        },
+        "new_native_fp32_inputs": {
+          "Pmax_MW": 0.001507302504932806,
+          "Qmax_MVAr": 0.010988074747802072
+        }
+      },
+      "oracle_completion": {
+        "converged": true,
+        "iterations": 4,
+        "closure_max_residual_pu": 6.977196598256796e-13,
+        "norm_history": [
+          1.107043998291438,
+          0.16302327681349882,
+          0.0005747718574344585,
+          1.197430971044966e-08,
+          6.977196598256796e-13
+        ],
+        "Q_limit_switching": false,
+        "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+        "allocation": [
+          {
+            "bus_index": 7,
+            "generator_rows": [
+              0
+            ],
+            "Q_total_pu": 0.09999964176785514
+          },
+          {
+            "bus_index": 9,
+            "generator_rows": [
+              1
+            ],
+            "Q_total_pu": 0.20000007088390082
+          },
+          {
+            "bus_index": 18,
+            "generator_rows": [
+              2
+            ],
+            "Q_total_pu": 0.20000067877481154
+          },
+          {
+            "bus_index": 54,
+            "generator_rows": [
+              3
+            ],
+            "Q_total_pu": 0.25000011898657243
+          },
+          {
+            "bus_index": 62,
+            "generator_rows": [
+              4
+            ],
+            "Q_total_pu": 0.34999976298851676
+          },
+          {
+            "bus_index": 68,
+            "generator_rows": [
+              5
+            ],
+            "Q_total_pu": 1.2377151699353717
+          },
+          {
+            "bus_index": 75,
+            "generator_rows": [
+              6
+            ],
+            "Q_total_pu": 0.07812808923025369
+          },
+          {
+            "bus_index": 76,
+            "generator_rows": [
+              7
+            ],
+            "Q_total_pu": 0.15610466427562766
+          },
+          {
+            "bus_index": 79,
+            "generator_rows": [
+              8
+            ],
+            "Q_total_pu": 0.04152481353942077
+          },
+          {
+            "bus_index": 87,
+            "generator_rows": [
+              9
+            ],
+            "Q_total_pu": -0.024552998634556535
+          },
+          {
+            "bus_index": 97,
+            "generator_rows": [
+              10
+            ],
+            "Q_total_pu": 9.146122536980924
+          },
+          {
+            "bus_index": 102,
+            "generator_rows": [
+              11
+            ],
+            "Q_total_pu": 0.7350290218735674
+          },
+          {
+            "bus_index": 103,
+            "generator_rows": [
+              12
+            ],
+            "Q_total_pu": 1.6110177645226087
+          },
+          {
+            "bus_index": 116,
+            "generator_rows": [
+              13
+            ],
+            "Q_total_pu": 2.615006732387961
+          },
+          {
+            "bus_index": 119,
+            "generator_rows": [
+              14
+            ],
+            "Q_total_pu": 0.36803804072781976
+          },
+          {
+            "bus_index": 121,
+            "generator_rows": [
+              15
+            ],
+            "Q_total_pu": 0.33393415417406064
+          },
+          {
+            "bus_index": 124,
+            "generator_rows": [
+              16
+            ],
+            "Q_total_pu": 0.35000001638299444
+          },
+          {
+            "bus_index": 125,
+            "generator_rows": [
+              17
+            ],
+            "Q_total_pu": -0.4426300994814176
+          },
+          {
+            "bus_index": 127,
+            "generator_rows": [
+              18
+            ],
+            "Q_total_pu": 0.24905299510393017
+          },
+          {
+            "bus_index": 130,
+            "generator_rows": [
+              19
+            ],
+            "Q_total_pu": -0.4999999696294515
+          },
+          {
+            "bus_index": 131,
+            "generator_rows": [
+              20
+            ],
+            "Q_total_pu": -0.49999973049346874
+          },
+          {
+            "bus_index": 134,
+            "generator_rows": [
+              21
+            ],
+            "Q_total_pu": -0.10000111095212916
+          },
+          {
+            "bus_index": 148,
+            "generator_rows": [
+              22
+            ],
+            "Q_total_pu": 0.8999990404244373
+          },
+          {
+            "bus_index": 149,
+            "generator_rows": [
+              23
+            ],
+            "Q_total_pu": 1.5000004841623964
+          },
+          {
+            "bus_index": 154,
+            "generator_rows": [
+              24
+            ],
+            "Q_total_pu": 0.3394977631838588
+          },
+          {
+            "bus_index": 155,
+            "generator_rows": [
+              25
+            ],
+            "Q_total_pu": 0.34999998350243944
+          },
+          {
+            "bus_index": 163,
+            "generator_rows": [
+              26
+            ],
+            "Q_total_pu": -0.3409138294794431
+          },
+          {
+            "bus_index": 164,
+            "generator_rows": [
+              27
+            ],
+            "Q_total_pu": 1.1450945930054814
+          },
+          {
+            "bus_index": 165,
+            "generator_rows": [
+              28
+            ],
+            "Q_total_pu": 0.8940880620438648
+          },
+          {
+            "bus_index": 168,
+            "generator_rows": [
+              29
+            ],
+            "Q_total_pu": -2.4455950434886593
+          },
+          {
+            "bus_index": 169,
+            "generator_rows": [
+              30
+            ],
+            "Q_total_pu": 5.016882615639458
+          },
+          {
+            "bus_index": 176,
+            "generator_rows": [
+              31
+            ],
+            "Q_total_pu": 0.7978267523130198
+          },
+          {
+            "bus_index": 191,
+            "generator_rows": [
+              32
+            ],
+            "Q_total_pu": 0.5212985011793339
+          },
+          {
+            "bus_index": 198,
+            "generator_rows": [
+              33
+            ],
+            "Q_total_pu": -0.2429074415594259
+          },
+          {
+            "bus_index": 199,
+            "generator_rows": [
+              34
+            ],
+            "Q_total_pu": 2.1010361830118978
+          },
+          {
+            "bus_index": 200,
+            "generator_rows": [
+              35
+            ],
+            "Q_total_pu": 0.7754671664209345
+          },
+          {
+            "bus_index": 205,
+            "generator_rows": [
+              36
+            ],
+            "Q_total_pu": 2.5974413860711563
+          },
+          {
+            "bus_index": 208,
+            "generator_rows": [
+              37
+            ],
+            "Q_total_pu": 0.2936678322548232
+          },
+          {
+            "bus_index": 211,
+            "generator_rows": [
+              38
+            ],
+            "Q_total_pu": 1.5816279351562104
+          },
+          {
+            "bus_index": 214,
+            "generator_rows": [
+              39
+            ],
+            "Q_total_pu": 1.3366302835662829
+          },
+          {
+            "bus_index": 216,
+            "generator_rows": [
+              40
+            ],
+            "Q_total_pu": 2.0000004831432485
+          },
+          {
+            "bus_index": 217,
+            "generator_rows": [
+              41
+            ],
+            "Q_total_pu": 1.325898699026808
+          },
+          {
+            "bus_index": 219,
+            "generator_rows": [
+              42
+            ],
+            "Q_total_pu": -1.7817983378758235
+          },
+          {
+            "bus_index": 220,
+            "generator_rows": [
+              43
+            ],
+            "Q_total_pu": 0.518398363223848
+          },
+          {
+            "bus_index": 221,
+            "generator_rows": [
+              44
+            ],
+            "Q_total_pu": 0.4000000051898286
+          },
+          {
+            "bus_index": 246,
+            "generator_rows": [
+              45
+            ],
+            "Q_total_pu": 0.852732254644789
+          },
+          {
+            "bus_index": 247,
+            "generator_rows": [
+              46
+            ],
+            "Q_total_pu": 0.4165545318632134
+          },
+          {
+            "bus_index": 248,
+            "generator_rows": [
+              47
+            ],
+            "Q_total_pu": 4.19999893142243
+          },
+          {
+            "bus_index": 249,
+            "generator_rows": [
+              48
+            ],
+            "Q_total_pu": 1.000000036017926
+          },
+          {
+            "bus_index": 250,
+            "generator_rows": [
+              49
+            ],
+            "Q_total_pu": 1.6466596248153031
+          },
+          {
+            "bus_index": 251,
+            "generator_rows": [
+              50
+            ],
+            "Q_total_pu": 2.34941412403285
+          },
+          {
+            "bus_index": 252,
+            "generator_rows": [
+              51
+            ],
+            "Q_total_pu": 1.2025818810439203e-07
+          },
+          {
+            "bus_index": 253,
+            "generator_rows": [
+              52
+            ],
+            "Q_total_pu": 0.41447174184969504
+          },
+          {
+            "bus_index": 254,
+            "generator_rows": [
+              53
+            ],
+            "Q_total_pu": 0.24872145630936013
+          },
+          {
+            "bus_index": 255,
+            "generator_rows": [
+              54
+            ],
+            "Q_total_pu": 1.498449148500166e-07
+          },
+          {
+            "bus_index": 256,
+            "generator_rows": [
+              55
+            ],
+            "Q_total_pu": 0.09999972648651427
+          },
+          {
+            "bus_index": 257,
+            "generator_rows": [
+              56
+            ],
+            "Q_total_pu": 0.21194301737183058
+          },
+          {
+            "bus_index": 258,
+            "generator_rows": [
+              57
+            ],
+            "Q_total_pu": 0.3211327485339159
+          },
+          {
+            "bus_index": 259,
+            "generator_rows": [
+              58
+            ],
+            "Q_total_pu": 1.2539076974112449
+          },
+          {
+            "bus_index": 260,
+            "generator_rows": [
+              59
+            ],
+            "Q_total_pu": 1.4745597711520926
+          },
+          {
+            "bus_index": 261,
+            "generator_rows": [
+              60
+            ],
+            "Q_total_pu": 0.5755967688079873
+          },
+          {
+            "bus_index": 262,
+            "generator_rows": [
+              61
+            ],
+            "Q_total_pu": 2.2512530477792643
+          },
+          {
+            "bus_index": 263,
+            "generator_rows": [
+              62
+            ],
+            "Q_total_pu": 2.6209854042901015
+          },
+          {
+            "bus_index": 264,
+            "generator_rows": [
+              63
+            ],
+            "Q_total_pu": 1.002081166854012
+          },
+          {
+            "bus_index": 266,
+            "generator_rows": [
+              64
+            ],
+            "Q_total_pu": 0.020000067681674283
+          },
+          {
+            "bus_index": 291,
+            "generator_rows": [
+              65
+            ],
+            "Q_total_pu": 0.03995690442463011
+          },
+          {
+            "bus_index": 293,
+            "generator_rows": [
+              66
+            ],
+            "Q_total_pu": 0.014514541716135164
+          },
+          {
+            "bus_index": 294,
+            "generator_rows": [
+              67
+            ],
+            "Q_total_pu": 0.37999994876025484
+          },
+          {
+            "bus_index": 295,
+            "generator_rows": [
+              68
+            ],
+            "Q_total_pu": 0.0599999867560792
+          }
+        ]
+      },
+      "oracle_metrics": {
+        "max_p_residual_mw": 0.0015072000297209343,
+        "max_q_residual_mvar": 0.010988125603260457,
+        "mean_abs_p_residual_mw": 2.980230999114634e-05,
+        "mean_abs_q_residual_mvar": 0.00010975986124454384,
+        "max_generator_component_violation_mw_or_mvar": 0.000111095212915302,
+        "max_voltage_violation_pu": 2.6159789223711982e-08,
+        "max_branch_violation_mva": 0,
+        "max_angle_violation_deg": 0,
+        "max_rated_branch_loading": null,
+        "rated_active_branch_count": 0,
+        "unlimited_active_branch_count": 411,
+        "generation_cost_per_hour": 641751.3157777358,
+        "thresholds": {
+          "balance_mva": 0.001,
+          "generator_mva": 0.001,
+          "voltage_pu": 0.0001,
+          "branch_mva": 0.001,
+          "angle_deg": 0.001
+        },
+        "all_tested_constraints_pass": false,
+        "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+        "cost_error_percent": 2.7856847864383384e-07,
+        "voltage_mae_pu": 7.201720951070338e-09,
+        "angle_mae_deg": 2.235758403704343e-06,
+        "pg_mae_mw": 6.382826410406719e-07,
+        "qg_mae_mvar": 3.0537978272267524e-05
+      }
+    },
+    {
+      "scenario": "train-003",
+      "operators": {
+        "exact": {
+          "Pmax_MW": 1.5720758028692217e-11,
+          "Qmax_MVAr": 9.632294961647858e-11
+        },
+        "stock": {
+          "Pmax_MW": 239.80932311152367,
+          "Qmax_MVAr": 192.29001276487736
+        },
+        "new_original_precision": {
+          "Pmax_MW": 0.001132760631095131,
+          "Qmax_MVAr": 0.0007810749115710891
+        },
+        "new_native_fp32_inputs": {
+          "Pmax_MW": 0.0011502482803571468,
+          "Qmax_MVAr": 0.011076075831851434
+        }
+      },
+      "oracle_completion": {
+        "converged": true,
+        "iterations": 4,
+        "closure_max_residual_pu": 5.256725299982471e-13,
+        "norm_history": [
+          1.396674204701137,
+          0.21678305981397702,
+          0.0009936579220238828,
+          3.6125778257734e-08,
+          5.256725299982471e-13
+        ],
+        "Q_limit_switching": false,
+        "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+        "allocation": [
+          {
+            "bus_index": 7,
+            "generator_rows": [
+              0
+            ],
+            "Q_total_pu": 0.09999964918372212
+          },
+          {
+            "bus_index": 9,
+            "generator_rows": [
+              1
+            ],
+            "Q_total_pu": 0.2000000686792033
+          },
+          {
+            "bus_index": 18,
+            "generator_rows": [
+              2
+            ],
+            "Q_total_pu": 0.2000007265856718
+          },
+          {
+            "bus_index": 54,
+            "generator_rows": [
+              3
+            ],
+            "Q_total_pu": 0.25000015565790984
+          },
+          {
+            "bus_index": 62,
+            "generator_rows": [
+              4
+            ],
+            "Q_total_pu": 0.34999982085275083
+          },
+          {
+            "bus_index": 68,
+            "generator_rows": [
+              5
+            ],
+            "Q_total_pu": 1.346504311744431
+          },
+          {
+            "bus_index": 75,
+            "generator_rows": [
+              6
+            ],
+            "Q_total_pu": 0.14806298782169
+          },
+          {
+            "bus_index": 76,
+            "generator_rows": [
+              7
+            ],
+            "Q_total_pu": 0.1534617397645249
+          },
+          {
+            "bus_index": 79,
+            "generator_rows": [
+              8
+            ],
+            "Q_total_pu": 0.08784807844528392
+          },
+          {
+            "bus_index": 87,
+            "generator_rows": [
+              9
+            ],
+            "Q_total_pu": 0.10854094440883771
+          },
+          {
+            "bus_index": 97,
+            "generator_rows": [
+              10
+            ],
+            "Q_total_pu": 10.95104890149898
+          },
+          {
+            "bus_index": 102,
+            "generator_rows": [
+              11
+            ],
+            "Q_total_pu": 1.0381150290228582
+          },
+          {
+            "bus_index": 103,
+            "generator_rows": [
+              12
+            ],
+            "Q_total_pu": 1.9999997027313576
+          },
+          {
+            "bus_index": 116,
+            "generator_rows": [
+              13
+            ],
+            "Q_total_pu": 2.907890886994851
+          },
+          {
+            "bus_index": 119,
+            "generator_rows": [
+              14
+            ],
+            "Q_total_pu": 0.5472792991820584
+          },
+          {
+            "bus_index": 121,
+            "generator_rows": [
+              15
+            ],
+            "Q_total_pu": 1.0720238572629306
+          },
+          {
+            "bus_index": 124,
+            "generator_rows": [
+              16
+            ],
+            "Q_total_pu": 0.3500000162423747
+          },
+          {
+            "bus_index": 125,
+            "generator_rows": [
+              17
+            ],
+            "Q_total_pu": -0.4044755776799086
+          },
+          {
+            "bus_index": 127,
+            "generator_rows": [
+              18
+            ],
+            "Q_total_pu": 0.2245567103114894
+          },
+          {
+            "bus_index": 130,
+            "generator_rows": [
+              19
+            ],
+            "Q_total_pu": -0.4999999602024161
+          },
+          {
+            "bus_index": 131,
+            "generator_rows": [
+              20
+            ],
+            "Q_total_pu": -0.4999997222693163
+          },
+          {
+            "bus_index": 134,
+            "generator_rows": [
+              21
+            ],
+            "Q_total_pu": 0.06379210302419958
+          },
+          {
+            "bus_index": 148,
+            "generator_rows": [
+              22
+            ],
+            "Q_total_pu": 0.8999990228557921
+          },
+          {
+            "bus_index": 149,
+            "generator_rows": [
+              23
+            ],
+            "Q_total_pu": 1.500000309739703
+          },
+          {
+            "bus_index": 154,
+            "generator_rows": [
+              24
+            ],
+            "Q_total_pu": 0.507389005217747
+          },
+          {
+            "bus_index": 155,
+            "generator_rows": [
+              25
+            ],
+            "Q_total_pu": 0.34999999620948485
+          },
+          {
+            "bus_index": 163,
+            "generator_rows": [
+              26
+            ],
+            "Q_total_pu": -0.04759960592179635
+          },
+          {
+            "bus_index": 164,
+            "generator_rows": [
+              27
+            ],
+            "Q_total_pu": 1.4941853823848217
+          },
+          {
+            "bus_index": 165,
+            "generator_rows": [
+              28
+            ],
+            "Q_total_pu": 1.704171958370531
+          },
+          {
+            "bus_index": 168,
+            "generator_rows": [
+              29
+            ],
+            "Q_total_pu": -2.292461358075467
+          },
+          {
+            "bus_index": 169,
+            "generator_rows": [
+              30
+            ],
+            "Q_total_pu": 5.863570417734783
+          },
+          {
+            "bus_index": 176,
+            "generator_rows": [
+              31
+            ],
+            "Q_total_pu": 1.0796119002729332
+          },
+          {
+            "bus_index": 191,
+            "generator_rows": [
+              32
+            ],
+            "Q_total_pu": 0.63548685985262
+          },
+          {
+            "bus_index": 198,
+            "generator_rows": [
+              33
+            ],
+            "Q_total_pu": 0.1656426962886971
+          },
+          {
+            "bus_index": 199,
+            "generator_rows": [
+              34
+            ],
+            "Q_total_pu": 2.504376246336687
+          },
+          {
+            "bus_index": 200,
+            "generator_rows": [
+              35
+            ],
+            "Q_total_pu": 1.0542840948309178
+          },
+          {
+            "bus_index": 205,
+            "generator_rows": [
+              36
+            ],
+            "Q_total_pu": 2.993662795145858
+          },
+          {
+            "bus_index": 208,
+            "generator_rows": [
+              37
+            ],
+            "Q_total_pu": 0.48029703864695056
+          },
+          {
+            "bus_index": 211,
+            "generator_rows": [
+              38
+            ],
+            "Q_total_pu": 1.8363064596350918
+          },
+          {
+            "bus_index": 214,
+            "generator_rows": [
+              39
+            ],
+            "Q_total_pu": 1.766985706826193
+          },
+          {
+            "bus_index": 216,
+            "generator_rows": [
+              40
+            ],
+            "Q_total_pu": 2.0000005091519597
+          },
+          {
+            "bus_index": 217,
+            "generator_rows": [
+              41
+            ],
+            "Q_total_pu": 1.7247012407791373
+          },
+          {
+            "bus_index": 219,
+            "generator_rows": [
+              42
+            ],
+            "Q_total_pu": -1.579709559681181
+          },
+          {
+            "bus_index": 220,
+            "generator_rows": [
+              43
+            ],
+            "Q_total_pu": 0.7700665343276694
+          },
+          {
+            "bus_index": 221,
+            "generator_rows": [
+              44
+            ],
+            "Q_total_pu": 0.400000007475405
+          },
+          {
+            "bus_index": 246,
+            "generator_rows": [
+              45
+            ],
+            "Q_total_pu": 1.1555017025095446
+          },
+          {
+            "bus_index": 247,
+            "generator_rows": [
+              46
+            ],
+            "Q_total_pu": 0.6804424228284159
+          },
+          {
+            "bus_index": 248,
+            "generator_rows": [
+              47
+            ],
+            "Q_total_pu": 4.199998961357003
+          },
+          {
+            "bus_index": 249,
+            "generator_rows": [
+              48
+            ],
+            "Q_total_pu": 1.0000000536394236
+          },
+          {
+            "bus_index": 250,
+            "generator_rows": [
+              49
+            ],
+            "Q_total_pu": 1.8354537119412189
+          },
+          {
+            "bus_index": 251,
+            "generator_rows": [
+              50
+            ],
+            "Q_total_pu": 2.660421978891022
+          },
+          {
+            "bus_index": 252,
+            "generator_rows": [
+              51
+            ],
+            "Q_total_pu": 1.1993490401646742e-07
+          },
+          {
+            "bus_index": 253,
+            "generator_rows": [
+              52
+            ],
+            "Q_total_pu": 0.8862556378221802
+          },
+          {
+            "bus_index": 254,
+            "generator_rows": [
+              53
+            ],
+            "Q_total_pu": 0.5375449049581839
+          },
+          {
+            "bus_index": 255,
+            "generator_rows": [
+              54
+            ],
+            "Q_total_pu": 0.257727020475272
+          },
+          {
+            "bus_index": 256,
+            "generator_rows": [
+              55
+            ],
+            "Q_total_pu": 0.10000000410188714
+          },
+          {
+            "bus_index": 257,
+            "generator_rows": [
+              56
+            ],
+            "Q_total_pu": 0.25000011401002337
+          },
+          {
+            "bus_index": 258,
+            "generator_rows": [
+              57
+            ],
+            "Q_total_pu": 0.40480366895045616
+          },
+          {
+            "bus_index": 259,
+            "generator_rows": [
+              58
+            ],
+            "Q_total_pu": 1.486663793917579
+          },
+          {
+            "bus_index": 260,
+            "generator_rows": [
+              59
+            ],
+            "Q_total_pu": 1.4999996661623147
+          },
+          {
+            "bus_index": 261,
+            "generator_rows": [
+              60
+            ],
+            "Q_total_pu": 0.8017646832830401
+          },
+          {
+            "bus_index": 262,
+            "generator_rows": [
+              61
+            ],
+            "Q_total_pu": 2.879277134406517
+          },
+          {
+            "bus_index": 263,
+            "generator_rows": [
+              62
+            ],
+            "Q_total_pu": 3.116175002261852
+          },
+          {
+            "bus_index": 264,
+            "generator_rows": [
+              63
+            ],
+            "Q_total_pu": 1.2719255073037148
+          },
+          {
+            "bus_index": 266,
+            "generator_rows": [
+              64
+            ],
+            "Q_total_pu": 0.020000069986212003
+          },
+          {
+            "bus_index": 291,
+            "generator_rows": [
+              65
+            ],
+            "Q_total_pu": 0.1263263295286869
+          },
+          {
+            "bus_index": 293,
+            "generator_rows": [
+              66
+            ],
+            "Q_total_pu": 0.08740104314988528
+          },
+          {
+            "bus_index": 294,
+            "generator_rows": [
+              67
+            ],
+            "Q_total_pu": 0.3799999547812824
+          },
+          {
+            "bus_index": 295,
+            "generator_rows": [
+              68
+            ],
+            "Q_total_pu": 0.059999988400618424
+          }
+        ]
+      },
+      "oracle_metrics": {
+        "max_p_residual_mw": 0.0011486222648784405,
+        "max_q_residual_mvar": 0.011076127080024811,
+        "mean_abs_p_residual_mw": 2.9642450361726155e-05,
+        "mean_abs_q_residual_mvar": 0.00011089132738180833,
+        "max_generator_component_violation_mw_or_mvar": 7.265856718063901e-05,
+        "max_voltage_violation_pu": 2.826136280553726e-08,
+        "max_branch_violation_mva": 0,
+        "max_angle_violation_deg": 0,
+        "max_rated_branch_loading": null,
+        "rated_active_branch_count": 0,
+        "unlimited_active_branch_count": 411,
+        "generation_cost_per_hour": 734845.1416400585,
+        "thresholds": {
+          "balance_mva": 0.001,
+          "generator_mva": 0.001,
+          "voltage_pu": 0.0001,
+          "branch_mva": 0.001,
+          "angle_deg": 0.001
+        },
+        "all_tested_constraints_pass": false,
+        "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+        "cost_error_percent": 4.725514405517464e-07,
+        "voltage_mae_pu": 7.175155604851232e-09,
+        "angle_mae_deg": 3.3381159648608143e-06,
+        "pg_mae_mw": 1.2093858957505421e-06,
+        "qg_mae_mvar": 2.948548196987984e-05
+      }
+    },
+    {
+      "scenario": "train-004",
+      "operators": {
+        "exact": {
+          "Pmax_MW": 2.525757381022231e-11,
+          "Qmax_MVAr": 1.2285727990501982e-10
+        },
+        "stock": {
+          "Pmax_MW": 237.028178539014,
+          "Qmax_MVAr": 193.08525760516594
+        },
+        "new_original_precision": {
+          "Pmax_MW": 0.0011178614965023925,
+          "Qmax_MVAr": 0.000783094065415213
+        },
+        "new_native_fp32_inputs": {
+          "Pmax_MW": 0.0012377462041988226,
+          "Qmax_MVAr": 0.011062334923722435
+        }
+      },
+      "oracle_completion": {
+        "converged": true,
+        "iterations": 4,
+        "closure_max_residual_pu": 4.29101199017623e-13,
+        "norm_history": [
+          1.3648081560353464,
+          0.1991689793349361,
+          0.0008446460781048604,
+          2.6028126487442904e-08,
+          4.29101199017623e-13
+        ],
+        "Q_limit_switching": false,
+        "export_allocation": "capability-range affine allocation, no clipping; study export adapter, not released completion module",
+        "allocation": [
+          {
+            "bus_index": 7,
+            "generator_rows": [
+              0
+            ],
+            "Q_total_pu": 0.0999996493586737
+          },
+          {
+            "bus_index": 9,
+            "generator_rows": [
+              1
+            ],
+            "Q_total_pu": 0.20000005333612697
+          },
+          {
+            "bus_index": 18,
+            "generator_rows": [
+              2
+            ],
+            "Q_total_pu": 0.20000066894366375
+          },
+          {
+            "bus_index": 54,
+            "generator_rows": [
+              3
+            ],
+            "Q_total_pu": 0.2500001054550534
+          },
+          {
+            "bus_index": 62,
+            "generator_rows": [
+              4
+            ],
+            "Q_total_pu": 0.34999977401946936
+          },
+          {
+            "bus_index": 68,
+            "generator_rows": [
+              5
+            ],
+            "Q_total_pu": 1.2904187258442796
+          },
+          {
+            "bus_index": 75,
+            "generator_rows": [
+              6
+            ],
+            "Q_total_pu": 0.12247677417074418
+          },
+          {
+            "bus_index": 76,
+            "generator_rows": [
+              7
+            ],
+            "Q_total_pu": 0.15053860214325662
+          },
+          {
+            "bus_index": 79,
+            "generator_rows": [
+              8
+            ],
+            "Q_total_pu": 0.07010542587260267
+          },
+          {
+            "bus_index": 87,
+            "generator_rows": [
+              9
+            ],
+            "Q_total_pu": 0.05679804574752935
+          },
+          {
+            "bus_index": 97,
+            "generator_rows": [
+              10
+            ],
+            "Q_total_pu": 10.19646658508712
+          },
+          {
+            "bus_index": 102,
+            "generator_rows": [
+              11
+            ],
+            "Q_total_pu": 0.946487854021992
+          },
+          {
+            "bus_index": 103,
+            "generator_rows": [
+              12
+            ],
+            "Q_total_pu": 1.9999997580893614
+          },
+          {
+            "bus_index": 116,
+            "generator_rows": [
+              13
+            ],
+            "Q_total_pu": 2.839815637883648
+          },
+          {
+            "bus_index": 119,
+            "generator_rows": [
+              14
+            ],
+            "Q_total_pu": 0.46347747802722133
+          },
+          {
+            "bus_index": 121,
+            "generator_rows": [
+              15
+            ],
+            "Q_total_pu": 0.7782137454176505
+          },
+          {
+            "bus_index": 124,
+            "generator_rows": [
+              16
+            ],
+            "Q_total_pu": 0.35000002280050335
+          },
+          {
+            "bus_index": 125,
+            "generator_rows": [
+              17
+            ],
+            "Q_total_pu": -0.42945948355864466
+          },
+          {
+            "bus_index": 127,
+            "generator_rows": [
+              18
+            ],
+            "Q_total_pu": 0.23190573562319106
+          },
+          {
+            "bus_index": 130,
+            "generator_rows": [
+              19
+            ],
+            "Q_total_pu": -0.499999966666105
+          },
+          {
+            "bus_index": 131,
+            "generator_rows": [
+              20
+            ],
+            "Q_total_pu": -0.49999972184803493
+          },
+          {
+            "bus_index": 134,
+            "generator_rows": [
+              21
+            ],
+            "Q_total_pu": -0.0928558014240235
+          },
+          {
+            "bus_index": 148,
+            "generator_rows": [
+              22
+            ],
+            "Q_total_pu": 0.8999990145726189
+          },
+          {
+            "bus_index": 149,
+            "generator_rows": [
+              23
+            ],
+            "Q_total_pu": 1.5000003965897317
+          },
+          {
+            "bus_index": 154,
+            "generator_rows": [
+              24
+            ],
+            "Q_total_pu": 0.4438580728261027
+          },
+          {
+            "bus_index": 155,
+            "generator_rows": [
+              25
+            ],
+            "Q_total_pu": 0.34999999472660226
+          },
+          {
+            "bus_index": 163,
+            "generator_rows": [
+              26
+            ],
+            "Q_total_pu": -0.12991281484846431
+          },
+          {
+            "bus_index": 164,
+            "generator_rows": [
+              27
+            ],
+            "Q_total_pu": 1.4264481110456464
+          },
+          {
+            "bus_index": 165,
+            "generator_rows": [
+              28
+            ],
+            "Q_total_pu": 1.6125756760946346
+          },
+          {
+            "bus_index": 168,
+            "generator_rows": [
+              29
+            ],
+            "Q_total_pu": -2.352729007183008
+          },
+          {
+            "bus_index": 169,
+            "generator_rows": [
+              30
+            ],
+            "Q_total_pu": 5.620940097562899
+          },
+          {
+            "bus_index": 176,
+            "generator_rows": [
+              31
+            ],
+            "Q_total_pu": 1.0000274217284313
+          },
+          {
+            "bus_index": 191,
+            "generator_rows": [
+              32
+            ],
+            "Q_total_pu": 0.5996512905751342
+          },
+          {
+            "bus_index": 198,
+            "generator_rows": [
+              33
+            ],
+            "Q_total_pu": 0.006066581288949435
+          },
+          {
+            "bus_index": 199,
+            "generator_rows": [
+              34
+            ],
+            "Q_total_pu": 2.472480722444316
+          },
+          {
+            "bus_index": 200,
+            "generator_rows": [
+              35
+            ],
+            "Q_total_pu": 0.929587513619124
+          },
+          {
+            "bus_index": 205,
+            "generator_rows": [
+              36
+            ],
+            "Q_total_pu": 2.8842129346831573
+          },
+          {
+            "bus_index": 208,
+            "generator_rows": [
+              37
+            ],
+            "Q_total_pu": 0.42269317242384535
+          },
+          {
+            "bus_index": 211,
+            "generator_rows": [
+              38
+            ],
+            "Q_total_pu": 1.8240621129006405
+          },
+          {
+            "bus_index": 214,
+            "generator_rows": [
+              39
+            ],
+            "Q_total_pu": 1.6563462902709545
+          },
+          {
+            "bus_index": 216,
+            "generator_rows": [
+              40
+            ],
+            "Q_total_pu": 2.000000466738175
+          },
+          {
+            "bus_index": 217,
+            "generator_rows": [
+              41
+            ],
+            "Q_total_pu": 1.6337392548902065
+          },
+          {
+            "bus_index": 219,
+            "generator_rows": [
+              42
+            ],
+            "Q_total_pu": -1.6595733273767763
+          },
+          {
+            "bus_index": 220,
+            "generator_rows": [
+              43
+            ],
+            "Q_total_pu": 0.7363101158503397
+          },
+          {
+            "bus_index": 221,
+            "generator_rows": [
+              44
+            ],
+            "Q_total_pu": 0.3999999927046297
+          },
+          {
+            "bus_index": 246,
+            "generator_rows": [
+              45
+            ],
+            "Q_total_pu": 1.0651076692097954
+          },
+          {
+            "bus_index": 247,
+            "generator_rows": [
+              46
+            ],
+            "Q_total_pu": 0.5951455586786786
+          },
+          {
+            "bus_index": 248,
+            "generator_rows": [
+              47
+            ],
+            "Q_total_pu": 4.199998961929418
+          },
+          {
+            "bus_index": 249,
+            "generator_rows": [
+              48
+            ],
+            "Q_total_pu": 1.0000000443716983
+          },
+          {
+            "bus_index": 250,
+            "generator_rows": [
+              49
+            ],
+            "Q_total_pu": 1.779080828856976
+          },
+          {
+            "bus_index": 251,
+            "generator_rows": [
+              50
+            ],
+            "Q_total_pu": 2.5287863895417706
+          },
+          {
+            "bus_index": 252,
+            "generator_rows": [
+              51
+            ],
+            "Q_total_pu": 1.302111004462341e-07
+          },
+          {
+            "bus_index": 253,
+            "generator_rows": [
+              52
+            ],
+            "Q_total_pu": 0.7818944796829129
+          },
+          {
+            "bus_index": 254,
+            "generator_rows": [
+              53
+            ],
+            "Q_total_pu": 0.47277076210682556
+          },
+          {
+            "bus_index": 255,
+            "generator_rows": [
+              54
+            ],
+            "Q_total_pu": 0.09330890280924663
+          },
+          {
+            "bus_index": 256,
+            "generator_rows": [
+              55
+            ],
+            "Q_total_pu": 0.09999975484170574
+          },
+          {
+            "bus_index": 257,
+            "generator_rows": [
+              56
+            ],
+            "Q_total_pu": 0.2500001084178953
+          },
+          {
+            "bus_index": 258,
+            "generator_rows": [
+              57
+            ],
+            "Q_total_pu": 0.39744380560328046
+          },
+          {
+            "bus_index": 259,
+            "generator_rows": [
+              58
+            ],
+            "Q_total_pu": 1.3995359122839037
+          },
+          {
+            "bus_index": 260,
+            "generator_rows": [
+              59
+            ],
+            "Q_total_pu": 1.4999996790923076
+          },
+          {
+            "bus_index": 261,
+            "generator_rows": [
+              60
+            ],
+            "Q_total_pu": 0.7237060757221588
+          },
+          {
+            "bus_index": 262,
+            "generator_rows": [
+              61
+            ],
+            "Q_total_pu": 2.6709630379956657
+          },
+          {
+            "bus_index": 263,
+            "generator_rows": [
+              62
+            ],
+            "Q_total_pu": 3.05182148483132
+          },
+          {
+            "bus_index": 264,
+            "generator_rows": [
+              63
+            ],
+            "Q_total_pu": 1.276873084626815
+          },
+          {
+            "bus_index": 266,
+            "generator_rows": [
+              64
+            ],
+            "Q_total_pu": 0.02000007030700677
+          },
+          {
+            "bus_index": 291,
+            "generator_rows": [
+              65
+            ],
+            "Q_total_pu": 0.08429058612995927
+          },
+          {
+            "bus_index": 293,
+            "generator_rows": [
+              66
+            ],
+            "Q_total_pu": 0.06642796245438962
+          },
+          {
+            "bus_index": 294,
+            "generator_rows": [
+              67
+            ],
+            "Q_total_pu": 0.3799999532599607
+          },
+          {
+            "bus_index": 295,
+            "generator_rows": [
+              68
+            ],
+            "Q_total_pu": 0.05999998802053269
+          }
+        ]
+      },
+      "oracle_metrics": {
+        "max_p_residual_mw": 0.0012377519579285234,
+        "max_q_residual_mvar": 0.011062386172133287,
+        "mean_abs_p_residual_mw": 3.009575398276824e-05,
+        "mean_abs_q_residual_mvar": 0.000110909719210494,
+        "max_generator_component_violation_mw_or_mvar": 6.68943663768573e-05,
+        "max_voltage_violation_pu": 2.604379334414375e-08,
+        "max_branch_violation_mva": 0,
+        "max_angle_violation_deg": 0,
+        "max_rated_branch_loading": null,
+        "rated_active_branch_count": 0,
+        "unlimited_active_branch_count": 411,
+        "generation_cost_per_hour": 707673.6172413991,
+        "thresholds": {
+          "balance_mva": 0.001,
+          "generator_mva": 0.001,
+          "voltage_pu": 0.0001,
+          "branch_mva": 0.001,
+          "angle_deg": 0.001
+        },
+        "all_tested_constraints_pass": false,
+        "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified.",
+        "cost_error_percent": 2.669654856495466e-07,
+        "voltage_mae_pu": 7.364546685447356e-09,
+        "angle_mae_deg": 2.4122115698332893e-06,
+        "pg_mae_mw": 6.626452204727684e-07,
+        "qg_mae_mvar": 3.0728111414789274e-05
+      }
+    }
+  ],
+  "status": "PASS",
+  "finite_backward": true,
+  "gradient_tensors": 1217,
+  "gradient_norm": 649935.7501806477,
+  "reload_bitwise_equal": true,
+  "label_independence": true,
+  "CPU_forward_backward": true,
+  "smoke_completion_converged": [
+    false
+  ],
+  "smoke_loss": {
+    "loss": 981.1341203955872,
+    "cost": 1036043.8339596405,
+    "eq_pen": 482.0105235977559,
+    "ineq_pen": 498.08755296387164,
+    "n_graphs": 1,
+    "max_absF": 11.181907983643194,
+    "max_Vviol": 1.2629618567238632,
+    "max_thermal": 0.0,
+    "max_Qviol": 20.500423722609995,
+    "n_Vviol": 58,
+    "n_V": 300,
+    "n_thermal": 0,
+    "n_branch": 411,
+    "n_Qviol": 36,
+    "n_Q": 69,
+    "rel_P_sum": 0.0,
+    "rel_P_n": 69,
+    "rel_Q_sum": 331.31858178272245,
+    "rel_Q_n": 69,
+    "rel_V_sum": 21.787518371112753,
+    "rel_V_n": 300,
+    "rel_T_sum": 0.0,
+    "rel_T_n": 411,
+    "rel_P_max": 0.0,
+    "rel_Q_max": 205.0042341712988,
+    "rel_V_max": 1.2629618567238632,
+    "rel_T_max": 0.0
+  },
+  "elapsed_seconds": 1.7789442500215955,
+  "resources": {
+    "process_tree_RSS_bytes": 775274496,
+    "peak_RSS_bytes": 775274496,
+    "minimum_available_bytes": 40408678400
+  }
+}

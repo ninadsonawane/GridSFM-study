@@ -1,0 +1,35 @@
+{"utc": "2026-10-21T17:25:30.309352+00:00", "event": "GATE_FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/private/tmp/gsfm006-20261021T171629Z/code/gate.py\", line 44, in <module>\n    try:main()\n        ^^^^^^\n  File \"/private/tmp/gsfm006-20261021T171629Z/code/gate.py\", line 19, in main\n    t=time.perf_counter();train=items('train',True)[:5];model=make_model();oldblob=torch.load(ROOT.parent/'GridSFM/model/checkpoints/gridsfm_open_v1.1.pt',weights_only=True,map_location='cpu');blob=torch.load(CKPT,weights_only=True,map_location='cpu')\n                                ^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/gsfm006-20261021T171629Z/code/common.py\", line 58, in items\n    man=read((OLD if old else PREV)/'data/manifest.json');return [Item(r) for r in man[split] if r['accepted']]\n                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/gsfm006-20261021T171629Z/code/common.py\", line 58, in <listcomp>\n    man=read((OLD if old else PREV)/'data/manifest.json');return [Item(r) for r in man[split] if r['accepted']]\n                                                                  ^^^^^^^\n  File \"/private/tmp/gsfm006-20261021T171629Z/code/common.py\", line 53, in __init__\n    self.rec=rec;self.path=Path(rec['path']);self.c=read(self.path/'input.json');self.ref=read(self.path/'reference.json');t=time.perf_counter();self.obj=convert(self.c);append_availability(self.obj);self.d=load_obj(self.obj);self.kept=drop_offline_rows(self.d);self.d=prepare_for_inference(self.d);self.prep_s=time.perf_counter()-t;self.case=extract_case(self.d)\n                                                                                                                                                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/gsfm006-source-20261021/model/gridsfm/data.py\", line 237, in prepare_for_inference\n    prepare_for_grid_transformer_(data)\n  File \"/private/tmp/gsfm006-source-20261021/model/gridsfm/cycle_basis.py\", line 329, in prepare_for_grid_transformer_\n    attach_cycle_basis_(data, cache=cache)\n  File \"/private/tmp/gsfm006-source-20261021/model/gridsfm/cycle_basis.py\", line 345, in attach_cycle_basis_\n    cb = cache.get_or_compute(data)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/gsfm006-source-20261021/model/gridsfm/cycle_basis.py\", line 263, in get_or_compute\n    torch.save({'_schema': _CYCLE_CACHE_SCHEMA, 'value': value}, disk)\n  File \"/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/torch/serialization.py\", line 966, in save\n    with _open_zipfile_writer(f) as opened_zipfile:\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/torch/serialization.py\", line 828, in _open_zipfile_writer\n    return container(name_or_buffer)  # type: ignore[arg-type]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/torch/serialization.py\", line 792, in __init__\n    torch._C.PyTorchFileWriter(\nRuntimeError: File /Users/ninadsonawane/.cache/gridsfm/cycle_basis/v1_9ee351a4c73235d4ed66679c5f1c2b988c334af2.pt cannot be opened.\n"}
+Traceback (most recent call last):
+  File "/private/tmp/gsfm006-20261021T171629Z/code/gate.py", line 44, in <module>
+    try:main()
+        ^^^^^^
+  File "/private/tmp/gsfm006-20261021T171629Z/code/gate.py", line 19, in main
+    t=time.perf_counter();train=items('train',True)[:5];model=make_model();oldblob=torch.load(ROOT.parent/'GridSFM/model/checkpoints/gridsfm_open_v1.1.pt',weights_only=True,map_location='cpu');blob=torch.load(CKPT,weights_only=True,map_location='cpu')
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/gsfm006-20261021T171629Z/code/common.py", line 58, in items
+    man=read((OLD if old else PREV)/'data/manifest.json');return [Item(r) for r in man[split] if r['accepted']]
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/gsfm006-20261021T171629Z/code/common.py", line 58, in <listcomp>
+    man=read((OLD if old else PREV)/'data/manifest.json');return [Item(r) for r in man[split] if r['accepted']]
+                                                                  ^^^^^^^
+  File "/private/tmp/gsfm006-20261021T171629Z/code/common.py", line 53, in __init__
+    self.rec=rec;self.path=Path(rec['path']);self.c=read(self.path/'input.json');self.ref=read(self.path/'reference.json');t=time.perf_counter();self.obj=convert(self.c);append_availability(self.obj);self.d=load_obj(self.obj);self.kept=drop_offline_rows(self.d);self.d=prepare_for_inference(self.d);self.prep_s=time.perf_counter()-t;self.case=extract_case(self.d)
+                                                                                                                                                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/gsfm006-source-20261021/model/gridsfm/data.py", line 237, in prepare_for_inference
+    prepare_for_grid_transformer_(data)
+  File "/private/tmp/gsfm006-source-20261021/model/gridsfm/cycle_basis.py", line 329, in prepare_for_grid_transformer_
+    attach_cycle_basis_(data, cache=cache)
+  File "/private/tmp/gsfm006-source-20261021/model/gridsfm/cycle_basis.py", line 345, in attach_cycle_basis_
+    cb = cache.get_or_compute(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/gsfm006-source-20261021/model/gridsfm/cycle_basis.py", line 263, in get_or_compute
+    torch.save({'_schema': _CYCLE_CACHE_SCHEMA, 'value': value}, disk)
+  File "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/torch/serialization.py", line 966, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/torch/serialization.py", line 828, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/torch/serialization.py", line 792, in __init__
+    torch._C.PyTorchFileWriter(
+RuntimeError: File /Users/ninadsonawane/.cache/gridsfm/cycle_basis/v1_9ee351a4c73235d4ed66679c5f1c2b988c334af2.pt cannot be opened.

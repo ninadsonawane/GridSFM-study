@@ -1,0 +1,25 @@
+{"utc": "2026-10-21T17:28:21.893884+00:00", "event": "EVALUATED", "label": "frozen-ordinary", "n": 30, "converged": 0, "strict_feasible": 0}
+/private/tmp/gsfm006-source-20261021/finetune_model/src/elastic_loss.py:225: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  rel_P_sum=float(rel_P.sum()), rel_P_n=int(rel_P.numel()),
+{"utc": "2026-10-21T17:28:38.079751+00:00", "event": "TRAIN_PROGRESS", "update": 25, "loss": 12210.061779736137, "seconds": 14.438356375001604}
+{"utc": "2026-10-21T17:28:50.577795+00:00", "event": "TRAIN_PROGRESS", "update": 50, "loss": 6038.738768805809, "seconds": 26.93640016700374}
+{"utc": "2026-10-21T17:28:51.903529+00:00", "event": "VALIDATION", "pg_percent": 6.547916238987528, "Vctrl_MAE_pu": 0.011662310944257058, "selection_score": 18.210227183244587, "update": 50, "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-50.pt"}
+{"utc": "2026-10-21T17:29:04.621029+00:00", "event": "TRAIN_PROGRESS", "update": 75, "loss": 3517.1416593721297, "seconds": 40.979633124981774}
+{"utc": "2026-10-21T17:29:17.133452+00:00", "event": "TRAIN_PROGRESS", "update": 100, "loss": 3809.203657415011, "seconds": 53.49205462500686}
+{"utc": "2026-10-21T17:29:18.400516+00:00", "event": "VALIDATION", "pg_percent": 4.183059008046156, "Vctrl_MAE_pu": 0.00791054925604294, "selection_score": 12.093608264089095, "update": 100, "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-100.pt"}
+{"utc": "2026-10-21T17:29:30.890504+00:00", "event": "TRAIN_PROGRESS", "update": 125, "loss": 3984.803690533787, "seconds": 67.24910604199977}
+{"utc": "2026-10-21T17:29:43.392997+00:00", "event": "TRAIN_PROGRESS", "update": 150, "loss": 3458.134914971499, "seconds": 79.75159937498393}
+{"utc": "2026-10-21T17:29:44.702472+00:00", "event": "VALIDATION", "pg_percent": 3.4321041880170786, "Vctrl_MAE_pu": 0.006616742976008999, "selection_score": 10.048847164026078, "update": 150, "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-150.pt"}
+{"utc": "2026-10-21T17:29:57.180476+00:00", "event": "TRAIN_PROGRESS", "update": 175, "loss": 3524.8580698777537, "seconds": 93.53907812500256}
+{"utc": "2026-10-21T17:30:09.685346+00:00", "event": "TRAIN_PROGRESS", "update": 200, "loss": 3251.152836268793, "seconds": 106.04394733399386}
+{"utc": "2026-10-21T17:30:10.946724+00:00", "event": "VALIDATION", "pg_percent": 3.772666581364596, "Vctrl_MAE_pu": 0.006190225073763953, "selection_score": 9.96289165512855, "update": 200, "checkpoint": "/private/tmp/gsfm006-20261021T171629Z/results/checkpoints/update-200.pt"}
+{"utc": "2026-10-21T17:30:14.712965+00:00", "event": "EVALUATED", "label": "selected-ordinary", "n": 30, "converged": 30, "strict_feasible": 0}
+{"utc": "2026-10-21T17:30:18.515848+00:00", "event": "EVALUATED", "label": "final-ordinary", "n": 30, "converged": 30, "strict_feasible": 0}
+{"utc": "2026-10-21T17:30:33.604665+00:00", "event": "TIMING_COMPLETE", "method": "frozen"}
+{"utc": "2026-10-21T17:30:44.743356+00:00", "event": "TIMING_COMPLETE", "method": "selected"}
+{"utc": "2026-10-21T17:30:49.729969+00:00", "event": "EVALUATED", "label": "frozen-spatial", "n": 28, "converged": 0, "strict_feasible": 0}
+{"utc": "2026-10-21T17:30:54.747134+00:00", "event": "EVALUATED", "label": "frozen-higher_load", "n": 30, "converged": 0, "strict_feasible": 0}
+{"utc": "2026-10-21T17:30:58.456173+00:00", "event": "EVALUATED", "label": "selected-spatial", "n": 28, "converged": 28, "strict_feasible": 0}
+{"utc": "2026-10-21T17:31:02.280999+00:00", "event": "EVALUATED", "label": "selected-higher_load", "n": 30, "converged": 30, "strict_feasible": 0}
+{"utc": "2026-10-21T17:31:02.295748+00:00", "event": "RUN_COMPLETE", "seconds": 166.0212406250066}

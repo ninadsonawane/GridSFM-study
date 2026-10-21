@@ -2,6 +2,8 @@
 
 Permanent research home for Ninad Sonawane's proposed steady-state AC-OPF study with Professor Surya Santoso and his postdoc. The professor's involvement and suggestions are **user-reported**; scope and review arrangements remain to be discussed.
 
+**GSFM-006 Experiment 9 is complete, with optional refinement not run.** See the [newer-pipeline pilot](results/pilots/GSFM-006/20261021T171629Z-m5-new-pipeline/README.md): one 200-update CPU adaptation enabled 30/30 ordinary PF completions, but 0/30 full feasibility; ridge plus the same completion remained stronger and conventional AC-OPF passed 30/30. Earlier results are preserved.
+
 **GSFM-005 Experiments 5–8 are complete.** See the [controlled follow-up results](results/pilots/GSFM-005/20261021T120300Z-m5-seeds11-22-33/README.md): twelve full-regression fits completed 1,000 updates each across seeds11/22/33. Exact KCL beat the fixed initial-magnitude control on the selected ordinary primary score for all three seeds, but a200-update sign reversal and cost/state trade-offs prevent uniform superiority. Ridge remained stronger and all raw strict feasibility counts were zero. The [GSFM-004 pilot](results/pilots/GSFM-004/20261021T104843Z-m5-seed11/README.md) is preserved; no further study was launched.
 
 The [publication plan after the VM experiments](docs/research/2026-10-21-publication-plan.md) is research background. The [initial research report](docs/research/2026-10-21-initial-study.md) remains the historical source/setup package; its unrun status and original scope are no longer the latest state.

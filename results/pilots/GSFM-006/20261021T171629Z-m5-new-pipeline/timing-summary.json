@@ -1,0 +1,146 @@
+[
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "n": 30,
+    "model_median_seconds": 0.10602575000666548,
+    "completion_median_seconds": 0.04534314599004574,
+    "total_cached_median_seconds": 0.15140360451187007,
+    "failed": 30
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "n": 30,
+    "model_median_seconds": 0.10557412498746999,
+    "completion_median_seconds": 0.04538181250973139,
+    "total_cached_median_seconds": 0.15065918801701628,
+    "failed": 30
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "n": 30,
+    "model_median_seconds": 0.10598831249808427,
+    "completion_median_seconds": 0.04578935400058981,
+    "total_cached_median_seconds": 0.15155358299671207,
+    "failed": 30
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "n": 30,
+    "model_median_seconds": 0.10535516700474545,
+    "completion_median_seconds": 0.005118979504914023,
+    "total_cached_median_seconds": 0.11050416648504324,
+    "failed": 0
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "n": 30,
+    "model_median_seconds": 0.10515006248897407,
+    "completion_median_seconds": 0.005079645503428765,
+    "total_cached_median_seconds": 0.11031968749011867,
+    "failed": 0
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "n": 30,
+    "model_median_seconds": 0.10539010449429043,
+    "completion_median_seconds": 0.005152770987479016,
+    "total_cached_median_seconds": 0.1105365624971455,
+    "failed": 0
+  },
+  {
+    "method": "conventional AC-OPF",
+    "repeat": 0,
+    "n": 30,
+    "parse_build_median_seconds": 0.040529875,
+    "solve_median_seconds": 0.1246868335,
+    "total_cached_median_seconds": 0.16932439598895144,
+    "full_feasible": 30,
+    "iterations_median": 22.0
+  },
+  {
+    "method": "conventional AC-OPF",
+    "repeat": 1,
+    "n": 30,
+    "parse_build_median_seconds": 0.0423421045,
+    "solve_median_seconds": 0.1060191875,
+    "total_cached_median_seconds": 0.15002720800112002,
+    "full_feasible": 30,
+    "iterations_median": 22.0
+  },
+  {
+    "method": "conventional AC-OPF",
+    "repeat": 2,
+    "n": 30,
+    "parse_build_median_seconds": 0.03493575,
+    "solve_median_seconds": 0.1106386875,
+    "total_cached_median_seconds": 0.15403485449496657,
+    "full_feasible": 30,
+    "iterations_median": 22.0
+  },
+  {
+    "method": "frozen end-to-end",
+    "repeat": 0,
+    "n": 30,
+    "preprocessing_median_seconds": 0.004651520503102802,
+    "model_median_seconds": 0.10603202099446207,
+    "completion_median_seconds": 0.0428259999898728,
+    "total_median_seconds": 0.1529806875041686,
+    "failed": 30
+  },
+  {
+    "method": "frozen end-to-end",
+    "repeat": 1,
+    "n": 30,
+    "preprocessing_median_seconds": 0.004717041490948759,
+    "model_median_seconds": 0.10538845851260703,
+    "completion_median_seconds": 0.043041145996539854,
+    "total_median_seconds": 0.1533236664981814,
+    "failed": 30
+  },
+  {
+    "method": "frozen end-to-end",
+    "repeat": 2,
+    "n": 30,
+    "preprocessing_median_seconds": 0.004705604005721398,
+    "model_median_seconds": 0.10551922849845141,
+    "completion_median_seconds": 0.04307468749175314,
+    "total_median_seconds": 0.1531204580096528,
+    "failed": 30
+  },
+  {
+    "method": "selected end-to-end",
+    "repeat": 0,
+    "n": 30,
+    "preprocessing_median_seconds": 0.004824562507565133,
+    "model_median_seconds": 0.10581241699401289,
+    "completion_median_seconds": 0.004894562502158806,
+    "total_median_seconds": 0.11561372950382065,
+    "failed": 0
+  },
+  {
+    "method": "selected end-to-end",
+    "repeat": 1,
+    "n": 30,
+    "preprocessing_median_seconds": 0.004873687503277324,
+    "model_median_seconds": 0.10593741649063304,
+    "completion_median_seconds": 0.004972437513060868,
+    "total_median_seconds": 0.11576635450182948,
+    "failed": 0
+  },
+  {
+    "method": "selected end-to-end",
+    "repeat": 2,
+    "n": 30,
+    "preprocessing_median_seconds": 0.004924853987176903,
+    "model_median_seconds": 0.1052754999982426,
+    "completion_median_seconds": 0.004975937496055849,
+    "total_median_seconds": 0.11529137448815163,
+    "failed": 0
+  }
+]

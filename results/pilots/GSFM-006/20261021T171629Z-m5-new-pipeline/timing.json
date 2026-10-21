@@ -1,0 +1,1640 @@
+[
+  {
+    "method": "frozen",
+    "repeat": -1,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.1057020420266781,
+    "completion_seconds": 0.045541083003627136,
+    "total_cached_seconds": 0.15124312503030524,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.10604958300245926,
+    "completion_seconds": 0.060683917021378875,
+    "total_cached_seconds": 0.16673350002383813,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-001",
+    "model_seconds": 0.1173672919976525,
+    "completion_seconds": 0.04569699999410659,
+    "total_cached_seconds": 0.1630642919917591,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-002",
+    "model_seconds": 0.10648937500081956,
+    "completion_seconds": 0.0451518330082763,
+    "total_cached_seconds": 0.15164120800909586,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-003",
+    "model_seconds": 0.10538033398916014,
+    "completion_seconds": 0.04401941699325107,
+    "total_cached_seconds": 0.1493997509824112,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-004",
+    "model_seconds": 0.10539541600155644,
+    "completion_seconds": 0.04534133299603127,
+    "total_cached_seconds": 0.1507367489975877,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-005",
+    "model_seconds": 0.10610683300183155,
+    "completion_seconds": 0.04534495898406021,
+    "total_cached_seconds": 0.15145179198589176,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-006",
+    "model_seconds": 0.12991108300047927,
+    "completion_seconds": 0.0469987079850398,
+    "total_cached_seconds": 0.17690979098551907,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-007",
+    "model_seconds": 0.1063162500213366,
+    "completion_seconds": 0.04503916701651178,
+    "total_cached_seconds": 0.15135541703784838,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-008",
+    "model_seconds": 0.10544762501376681,
+    "completion_seconds": 0.04622291697887704,
+    "total_cached_seconds": 0.15167054199264385,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-009",
+    "model_seconds": 0.10571316600544378,
+    "completion_seconds": 0.0450697080232203,
+    "total_cached_seconds": 0.15078287402866408,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-010",
+    "model_seconds": 0.10634008300257847,
+    "completion_seconds": 0.04732383298687637,
+    "total_cached_seconds": 0.15366391598945484,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-011",
+    "model_seconds": 0.10522458399645984,
+    "completion_seconds": 0.045687667006859556,
+    "total_cached_seconds": 0.1509122510033194,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-012",
+    "model_seconds": 0.10683116700965911,
+    "completion_seconds": 0.04482850001659244,
+    "total_cached_seconds": 0.15165966702625155,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-013",
+    "model_seconds": 0.1066924589977134,
+    "completion_seconds": 0.04478604200994596,
+    "total_cached_seconds": 0.15147850100765936,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-014",
+    "model_seconds": 0.10622549999970943,
+    "completion_seconds": 0.04588933300692588,
+    "total_cached_seconds": 0.1521148330066353,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-015",
+    "model_seconds": 0.10618987499037758,
+    "completion_seconds": 0.04692366599920206,
+    "total_cached_seconds": 0.15311354098957963,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-016",
+    "model_seconds": 0.10539895799593069,
+    "completion_seconds": 0.04533495899522677,
+    "total_cached_seconds": 0.15073391699115746,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-017",
+    "model_seconds": 0.10609679200570099,
+    "completion_seconds": 0.044599374989047647,
+    "total_cached_seconds": 0.15069616699474864,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-018",
+    "model_seconds": 0.10537350000231527,
+    "completion_seconds": 0.04633924999507144,
+    "total_cached_seconds": 0.1517127499973867,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-019",
+    "model_seconds": 0.10694404097739607,
+    "completion_seconds": 0.04562575000454672,
+    "total_cached_seconds": 0.1525697909819428,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-020",
+    "model_seconds": 0.10602729200036265,
+    "completion_seconds": 0.04426537500694394,
+    "total_cached_seconds": 0.1502926670073066,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-021",
+    "model_seconds": 0.10497383400797844,
+    "completion_seconds": 0.04494208298274316,
+    "total_cached_seconds": 0.1499159169907216,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-022",
+    "model_seconds": 0.10620574999484234,
+    "completion_seconds": 0.044874750019516796,
+    "total_cached_seconds": 0.15108050001435913,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-023",
+    "model_seconds": 0.1060242080129683,
+    "completion_seconds": 0.04651654200279154,
+    "total_cached_seconds": 0.15254075001575984,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-024",
+    "model_seconds": 0.1047682500211522,
+    "completion_seconds": 0.04409537499304861,
+    "total_cached_seconds": 0.1488636250142008,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-025",
+    "model_seconds": 0.10594062501331791,
+    "completion_seconds": 0.04486083399388008,
+    "total_cached_seconds": 0.150801459007198,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-026",
+    "model_seconds": 0.10521245800191537,
+    "completion_seconds": 0.046252917003585026,
+    "total_cached_seconds": 0.1514653750055004,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-027",
+    "model_seconds": 0.10488520801300183,
+    "completion_seconds": 0.04582524998113513,
+    "total_cached_seconds": 0.15071045799413696,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-028",
+    "model_seconds": 0.10542162499041297,
+    "completion_seconds": 0.04562608400010504,
+    "total_cached_seconds": 0.151047708990518,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 0,
+    "scenario_id": "ordinary-029",
+    "model_seconds": 0.10545495801488869,
+    "completion_seconds": 0.04423279198817909,
+    "total_cached_seconds": 0.14968775000306778,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.10523745798855089,
+    "completion_seconds": 0.04427508398657665,
+    "total_cached_seconds": 0.14951254197512753,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-001",
+    "model_seconds": 0.10506604201509617,
+    "completion_seconds": 0.04554779201862402,
+    "total_cached_seconds": 0.1506138340337202,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-002",
+    "model_seconds": 0.10471562499878928,
+    "completion_seconds": 0.04469687500386499,
+    "total_cached_seconds": 0.14941250000265427,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-003",
+    "model_seconds": 0.10473849999834783,
+    "completion_seconds": 0.044368916016537696,
+    "total_cached_seconds": 0.14910741601488553,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-004",
+    "model_seconds": 0.10582133301068097,
+    "completion_seconds": 0.04537779200472869,
+    "total_cached_seconds": 0.15119912501540966,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-005",
+    "model_seconds": 0.10544549999758601,
+    "completion_seconds": 0.044441083999117836,
+    "total_cached_seconds": 0.14988658399670385,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-006",
+    "model_seconds": 0.10567012499086559,
+    "completion_seconds": 0.044628083996940404,
+    "total_cached_seconds": 0.150298208987806,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-007",
+    "model_seconds": 0.10578537502442487,
+    "completion_seconds": 0.044373624987201765,
+    "total_cached_seconds": 0.15015900001162663,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-008",
+    "model_seconds": 0.10507991700433195,
+    "completion_seconds": 0.04539770900737494,
+    "total_cached_seconds": 0.1504776260117069,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-009",
+    "model_seconds": 0.10645500000100583,
+    "completion_seconds": 0.04424954199930653,
+    "total_cached_seconds": 0.15070454200031236,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-010",
+    "model_seconds": 0.10540470801061019,
+    "completion_seconds": 0.04676187501172535,
+    "total_cached_seconds": 0.15216658302233554,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-011",
+    "model_seconds": 0.10573083299095742,
+    "completion_seconds": 0.045291249989531934,
+    "total_cached_seconds": 0.15102208298048936,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-012",
+    "model_seconds": 0.10658104097819887,
+    "completion_seconds": 0.04554066702257842,
+    "total_cached_seconds": 0.1521217080007773,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-013",
+    "model_seconds": 0.10561449997476302,
+    "completion_seconds": 0.04463429201859981,
+    "total_cached_seconds": 0.15024879199336283,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-014",
+    "model_seconds": 0.10540900001069531,
+    "completion_seconds": 0.04442116600694135,
+    "total_cached_seconds": 0.14983016601763666,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-015",
+    "model_seconds": 0.1051389170170296,
+    "completion_seconds": 0.046311624988447875,
+    "total_cached_seconds": 0.15145054200547747,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-016",
+    "model_seconds": 0.10668233301839791,
+    "completion_seconds": 0.04567812499590218,
+    "total_cached_seconds": 0.1523604580143001,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-017",
+    "model_seconds": 0.10553375000017695,
+    "completion_seconds": 0.044962999993003905,
+    "total_cached_seconds": 0.15049674999318086,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-018",
+    "model_seconds": 0.1063647499831859,
+    "completion_seconds": 0.046197458024835214,
+    "total_cached_seconds": 0.15256220800802112,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-019",
+    "model_seconds": 0.10540316699189134,
+    "completion_seconds": 0.04448787501314655,
+    "total_cached_seconds": 0.1498910420050379,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-020",
+    "model_seconds": 0.10581470798933879,
+    "completion_seconds": 0.04451450001215562,
+    "total_cached_seconds": 0.1503292080014944,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-021",
+    "model_seconds": 0.10604533299920149,
+    "completion_seconds": 0.04552608399535529,
+    "total_cached_seconds": 0.15157141699455678,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-022",
+    "model_seconds": 0.104704583005514,
+    "completion_seconds": 0.04682258400134742,
+    "total_cached_seconds": 0.15152716700686142,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-023",
+    "model_seconds": 0.1047224169888068,
+    "completion_seconds": 0.045853458024794236,
+    "total_cached_seconds": 0.15057587501360103,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-024",
+    "model_seconds": 0.1055319590086583,
+    "completion_seconds": 0.04456158299581148,
+    "total_cached_seconds": 0.15009354200446978,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-025",
+    "model_seconds": 0.10538283397909254,
+    "completion_seconds": 0.04553570901043713,
+    "total_cached_seconds": 0.15091854298952967,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-026",
+    "model_seconds": 0.13026391598396003,
+    "completion_seconds": 0.047086750011658296,
+    "total_cached_seconds": 0.17735066599561833,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-027",
+    "model_seconds": 0.10721475002355874,
+    "completion_seconds": 0.04569225001614541,
+    "total_cached_seconds": 0.15290700003970414,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-028",
+    "model_seconds": 0.10570666697458364,
+    "completion_seconds": 0.04601754099712707,
+    "total_cached_seconds": 0.1517242079717107,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 1,
+    "scenario_id": "ordinary-029",
+    "model_seconds": 0.10609783299150877,
+    "completion_seconds": 0.04538583301473409,
+    "total_cached_seconds": 0.15148366600624286,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.12884504100657068,
+    "completion_seconds": 0.046378666011150926,
+    "total_cached_seconds": 0.1752237070177216,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-001",
+    "model_seconds": 0.10599745900253765,
+    "completion_seconds": 0.04671545798191801,
+    "total_cached_seconds": 0.15271291698445566,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-002",
+    "model_seconds": 0.10847458298667334,
+    "completion_seconds": 0.04472179201547988,
+    "total_cached_seconds": 0.15319637500215322,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-003",
+    "model_seconds": 0.10597316702478565,
+    "completion_seconds": 0.04420662499614991,
+    "total_cached_seconds": 0.15017979202093557,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-004",
+    "model_seconds": 0.10620666699833237,
+    "completion_seconds": 0.046005417010746896,
+    "total_cached_seconds": 0.15221208400907926,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-005",
+    "model_seconds": 0.10635158300283365,
+    "completion_seconds": 0.04504337499383837,
+    "total_cached_seconds": 0.15139495799667202,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-006",
+    "model_seconds": 0.10571045899996534,
+    "completion_seconds": 0.0456843749852851,
+    "total_cached_seconds": 0.15139483398525044,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-007",
+    "model_seconds": 0.10639983299188316,
+    "completion_seconds": 0.0450757920043543,
+    "total_cached_seconds": 0.15147562499623746,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-008",
+    "model_seconds": 0.10705600000801496,
+    "completion_seconds": 0.0467037079797592,
+    "total_cached_seconds": 0.15375970798777416,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-009",
+    "model_seconds": 0.10498579201521352,
+    "completion_seconds": 0.04438762500649318,
+    "total_cached_seconds": 0.1493734170217067,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-010",
+    "model_seconds": 0.1051844580215402,
+    "completion_seconds": 0.045798374980222434,
+    "total_cached_seconds": 0.15098283300176263,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-011",
+    "model_seconds": 0.10503545799292624,
+    "completion_seconds": 0.04556941700866446,
+    "total_cached_seconds": 0.1506048750015907,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-012",
+    "model_seconds": 0.10597916599363089,
+    "completion_seconds": 0.04565237500355579,
+    "total_cached_seconds": 0.15163154099718668,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-013",
+    "model_seconds": 0.1049295419943519,
+    "completion_seconds": 0.04502891600714065,
+    "total_cached_seconds": 0.14995845800149255,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-014",
+    "model_seconds": 0.10676799999782816,
+    "completion_seconds": 0.04604858299717307,
+    "total_cached_seconds": 0.15281658299500123,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-015",
+    "model_seconds": 0.10566691699204966,
+    "completion_seconds": 0.04692783299833536,
+    "total_cached_seconds": 0.15259474999038503,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-016",
+    "model_seconds": 0.1060922080068849,
+    "completion_seconds": 0.04587620799429715,
+    "total_cached_seconds": 0.15196841600118205,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-017",
+    "model_seconds": 0.10614554100902751,
+    "completion_seconds": 0.04417675000149757,
+    "total_cached_seconds": 0.15032229101052508,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-018",
+    "model_seconds": 0.1060680840164423,
+    "completion_seconds": 0.04589433298679069,
+    "total_cached_seconds": 0.15196241700323299,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-019",
+    "model_seconds": 0.10559616700629704,
+    "completion_seconds": 0.045200749998912215,
+    "total_cached_seconds": 0.15079691700520925,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-020",
+    "model_seconds": 0.10582829199847765,
+    "completion_seconds": 0.045468791999155656,
+    "total_cached_seconds": 0.1512970839976333,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-021",
+    "model_seconds": 0.10576129198307171,
+    "completion_seconds": 0.044438667013309896,
+    "total_cached_seconds": 0.1501999589963816,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-022",
+    "model_seconds": 0.13753145901137032,
+    "completion_seconds": 0.04699845900177024,
+    "total_cached_seconds": 0.18452991801314056,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-023",
+    "model_seconds": 0.1049266250047367,
+    "completion_seconds": 0.04625020900857635,
+    "total_cached_seconds": 0.15117683401331306,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-024",
+    "model_seconds": 0.10533416699036025,
+    "completion_seconds": 0.04456908299471252,
+    "total_cached_seconds": 0.14990324998507276,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-025",
+    "model_seconds": 0.10709312499966472,
+    "completion_seconds": 0.04578033302095719,
+    "total_cached_seconds": 0.1528734580206219,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-026",
+    "model_seconds": 0.10491962500964291,
+    "completion_seconds": 0.04589074998511933,
+    "total_cached_seconds": 0.15081037499476224,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-027",
+    "model_seconds": 0.10536045901244506,
+    "completion_seconds": 0.04688366598566063,
+    "total_cached_seconds": 0.1522441249981057,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-028",
+    "model_seconds": 0.10735141599434428,
+    "completion_seconds": 0.04619095800444484,
+    "total_cached_seconds": 0.15354237399878912,
+    "converged": false
+  },
+  {
+    "method": "frozen",
+    "repeat": 2,
+    "scenario_id": "ordinary-029",
+    "model_seconds": 0.10850095900241286,
+    "completion_seconds": 0.04625675000716001,
+    "total_cached_seconds": 0.15475770900957286,
+    "converged": false
+  },
+  {
+    "method": "selected",
+    "repeat": -1,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.10643025001627393,
+    "completion_seconds": 0.0052215830073691905,
+    "total_cached_seconds": 0.11165183302364312,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.10720837500412017,
+    "completion_seconds": 0.005217416997766122,
+    "total_cached_seconds": 0.1124257920018863,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-001",
+    "model_seconds": 0.10622283301199786,
+    "completion_seconds": 0.005137500003911555,
+    "total_cached_seconds": 0.11136033301590942,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-002",
+    "model_seconds": 0.10828379198210314,
+    "completion_seconds": 0.00500441700569354,
+    "total_cached_seconds": 0.11328820898779668,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-003",
+    "model_seconds": 0.10638029102119617,
+    "completion_seconds": 0.005154707992915064,
+    "total_cached_seconds": 0.11153499901411124,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-004",
+    "model_seconds": 0.10532816700288095,
+    "completion_seconds": 0.00512887499644421,
+    "total_cached_seconds": 0.11045704199932516,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-005",
+    "model_seconds": 0.10446491700713523,
+    "completion_seconds": 0.005293166992487386,
+    "total_cached_seconds": 0.10975808399962261,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-006",
+    "model_seconds": 0.1089791250124108,
+    "completion_seconds": 0.005259290977846831,
+    "total_cached_seconds": 0.11423841599025764,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-007",
+    "model_seconds": 0.10468925000168383,
+    "completion_seconds": 0.0050117080099880695,
+    "total_cached_seconds": 0.1097009580116719,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-008",
+    "model_seconds": 0.10453587502706796,
+    "completion_seconds": 0.005149750009877607,
+    "total_cached_seconds": 0.10968562503694557,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-009",
+    "model_seconds": 0.10577908300911076,
+    "completion_seconds": 0.005453082994790748,
+    "total_cached_seconds": 0.11123216600390151,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-010",
+    "model_seconds": 0.10950900000170805,
+    "completion_seconds": 0.005223708983976394,
+    "total_cached_seconds": 0.11473270898568444,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-011",
+    "model_seconds": 0.10538216700660996,
+    "completion_seconds": 0.00517283400404267,
+    "total_cached_seconds": 0.11055500101065263,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-012",
+    "model_seconds": 0.11062216700520366,
+    "completion_seconds": 0.005056833004346117,
+    "total_cached_seconds": 0.11567900000954978,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-013",
+    "model_seconds": 0.10414741700515151,
+    "completion_seconds": 0.005106166994664818,
+    "total_cached_seconds": 0.10925358399981633,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-014",
+    "model_seconds": 0.10570791599457152,
+    "completion_seconds": 0.005079459020635113,
+    "total_cached_seconds": 0.11078737501520663,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-015",
+    "model_seconds": 0.10572841699467972,
+    "completion_seconds": 0.005104958021547645,
+    "total_cached_seconds": 0.11083337501622736,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-016",
+    "model_seconds": 0.10597604201757349,
+    "completion_seconds": 0.005082708026748151,
+    "total_cached_seconds": 0.11105875004432164,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-017",
+    "model_seconds": 0.10520537500269711,
+    "completion_seconds": 0.005012541980249807,
+    "total_cached_seconds": 0.11021791698294692,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-018",
+    "model_seconds": 0.10547437498462386,
+    "completion_seconds": 0.004993167007341981,
+    "total_cached_seconds": 0.11046754199196585,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-019",
+    "model_seconds": 0.10528654098743573,
+    "completion_seconds": 0.0051090840133838356,
+    "total_cached_seconds": 0.11039562500081956,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-020",
+    "model_seconds": 0.10472554198349826,
+    "completion_seconds": 0.0049548340030014515,
+    "total_cached_seconds": 0.10968037598649971,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-021",
+    "model_seconds": 0.10498512501362711,
+    "completion_seconds": 0.00514479199773632,
+    "total_cached_seconds": 0.11012991701136343,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-022",
+    "model_seconds": 0.10527716600336134,
+    "completion_seconds": 0.005141749978065491,
+    "total_cached_seconds": 0.11041891598142684,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-023",
+    "model_seconds": 0.10499879199778661,
+    "completion_seconds": 0.005044499994255602,
+    "total_cached_seconds": 0.11004329199204221,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-024",
+    "model_seconds": 0.10517083399463445,
+    "completion_seconds": 0.0050388329837005585,
+    "total_cached_seconds": 0.11020966697833501,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-025",
+    "model_seconds": 0.10584345800452866,
+    "completion_seconds": 0.005170082993572578,
+    "total_cached_seconds": 0.11101354099810123,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-026",
+    "model_seconds": 0.10529849998420104,
+    "completion_seconds": 0.005242290993919596,
+    "total_cached_seconds": 0.11054079097812064,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-027",
+    "model_seconds": 0.10474150002119131,
+    "completion_seconds": 0.004936208017170429,
+    "total_cached_seconds": 0.10967770803836174,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-028",
+    "model_seconds": 0.10506062500644475,
+    "completion_seconds": 0.005053875007433817,
+    "total_cached_seconds": 0.11011450001387857,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 0,
+    "scenario_id": "ordinary-029",
+    "model_seconds": 0.1061444999941159,
+    "completion_seconds": 0.00513937501818873,
+    "total_cached_seconds": 0.11128387501230463,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.10763187499833293,
+    "completion_seconds": 0.005059417017037049,
+    "total_cached_seconds": 0.11269129201536998,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-001",
+    "model_seconds": 0.10626450000563636,
+    "completion_seconds": 0.0050688750052358955,
+    "total_cached_seconds": 0.11133337501087226,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-002",
+    "model_seconds": 0.10614245900069363,
+    "completion_seconds": 0.005170708987861872,
+    "total_cached_seconds": 0.1113131679885555,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-003",
+    "model_seconds": 0.1055919999780599,
+    "completion_seconds": 0.005073375010397285,
+    "total_cached_seconds": 0.11066537498845719,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-004",
+    "model_seconds": 0.10472220799420029,
+    "completion_seconds": 0.005096958018839359,
+    "total_cached_seconds": 0.10981916601303965,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-005",
+    "model_seconds": 0.1055107090214733,
+    "completion_seconds": 0.005066709010861814,
+    "total_cached_seconds": 0.11057741803233512,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-006",
+    "model_seconds": 0.10553662499296479,
+    "completion_seconds": 0.005042500008130446,
+    "total_cached_seconds": 0.11057912500109524,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-007",
+    "model_seconds": 0.1050048750184942,
+    "completion_seconds": 0.005219082988332957,
+    "total_cached_seconds": 0.11022395800682716,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-008",
+    "model_seconds": 0.10521174999303184,
+    "completion_seconds": 0.005102082999655977,
+    "total_cached_seconds": 0.11031383299268782,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-009",
+    "model_seconds": 0.10498466700664721,
+    "completion_seconds": 0.005013708985643461,
+    "total_cached_seconds": 0.10999837599229068,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-010",
+    "model_seconds": 0.10536479201982729,
+    "completion_seconds": 0.005073875014204532,
+    "total_cached_seconds": 0.11043866703403182,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-011",
+    "model_seconds": 0.10508649999974295,
+    "completion_seconds": 0.00502254199818708,
+    "total_cached_seconds": 0.11010904199793003,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-012",
+    "model_seconds": 0.10454699999536388,
+    "completion_seconds": 0.005017792020225897,
+    "total_cached_seconds": 0.10956479201558977,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-013",
+    "model_seconds": 0.10539545799838379,
+    "completion_seconds": 0.005124458984937519,
+    "total_cached_seconds": 0.11051991698332131,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-014",
+    "model_seconds": 0.10418283299077302,
+    "completion_seconds": 0.005054625013144687,
+    "total_cached_seconds": 0.10923745800391771,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-015",
+    "model_seconds": 0.10473066699341871,
+    "completion_seconds": 0.005009000014979392,
+    "total_cached_seconds": 0.1097396670083981,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-016",
+    "model_seconds": 0.10606637501041405,
+    "completion_seconds": 0.004997207986889407,
+    "total_cached_seconds": 0.11106358299730346,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-017",
+    "model_seconds": 0.10660516598727554,
+    "completion_seconds": 0.005085584009066224,
+    "total_cached_seconds": 0.11169074999634176,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-018",
+    "model_seconds": 0.10405550000723451,
+    "completion_seconds": 0.005087208992335945,
+    "total_cached_seconds": 0.10914270899957046,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-019",
+    "model_seconds": 0.1050579589791596,
+    "completion_seconds": 0.00526758300838992,
+    "total_cached_seconds": 0.11032554198754951,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-020",
+    "model_seconds": 0.10410850000334904,
+    "completion_seconds": 0.00508029101183638,
+    "total_cached_seconds": 0.10918879101518542,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-021",
+    "model_seconds": 0.1056931669882033,
+    "completion_seconds": 0.005283584003336728,
+    "total_cached_seconds": 0.11097675099154003,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-022",
+    "model_seconds": 0.10467091598547995,
+    "completion_seconds": 0.005200042010983452,
+    "total_cached_seconds": 0.1098709579964634,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-023",
+    "model_seconds": 0.1050883749849163,
+    "completion_seconds": 0.005029207997722551,
+    "total_cached_seconds": 0.11011758298263885,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-024",
+    "model_seconds": 0.10462816699873656,
+    "completion_seconds": 0.005151833000127226,
+    "total_cached_seconds": 0.10977999999886379,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-025",
+    "model_seconds": 0.10653575000469573,
+    "completion_seconds": 0.005287790991133079,
+    "total_cached_seconds": 0.11182354099582881,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-026",
+    "model_seconds": 0.10439904101076536,
+    "completion_seconds": 0.005117041990160942,
+    "total_cached_seconds": 0.1095160830009263,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-027",
+    "model_seconds": 0.10486637501162477,
+    "completion_seconds": 0.005097374989418313,
+    "total_cached_seconds": 0.10996375000104308,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-028",
+    "model_seconds": 0.10628437501145527,
+    "completion_seconds": 0.0050789999950211495,
+    "total_cached_seconds": 0.11136337500647642,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 1,
+    "scenario_id": "ordinary-029",
+    "model_seconds": 0.1057887920178473,
+    "completion_seconds": 0.005023416975745931,
+    "total_cached_seconds": 0.11081220899359323,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-000",
+    "model_seconds": 0.10482729200157337,
+    "completion_seconds": 0.005166540999198332,
+    "total_cached_seconds": 0.1099938330007717,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-001",
+    "model_seconds": 0.10586054198211059,
+    "completion_seconds": 0.005248500005109236,
+    "total_cached_seconds": 0.11110904198721983,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-002",
+    "model_seconds": 0.10607770801289007,
+    "completion_seconds": 0.005265249987132847,
+    "total_cached_seconds": 0.11134295800002292,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-003",
+    "model_seconds": 0.10630424998817034,
+    "completion_seconds": 0.005298292002407834,
+    "total_cached_seconds": 0.11160254199057817,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-004",
+    "model_seconds": 0.10539508398505859,
+    "completion_seconds": 0.005119709006976336,
+    "total_cached_seconds": 0.11051479299203493,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-005",
+    "model_seconds": 0.1054249579901807,
+    "completion_seconds": 0.005112000013468787,
+    "total_cached_seconds": 0.11053695800364949,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-006",
+    "model_seconds": 0.10546125000109896,
+    "completion_seconds": 0.005074916989542544,
+    "total_cached_seconds": 0.1105361669906415,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-007",
+    "model_seconds": 0.10538512500352226,
+    "completion_seconds": 0.005324124998878688,
+    "total_cached_seconds": 0.11070925000240095,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-008",
+    "model_seconds": 0.1043512910255231,
+    "completion_seconds": 0.005203415988944471,
+    "total_cached_seconds": 0.10955470701446757,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-009",
+    "model_seconds": 0.10652687499532476,
+    "completion_seconds": 0.00546383298933506,
+    "total_cached_seconds": 0.11199070798465982,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-010",
+    "model_seconds": 0.10520812499453314,
+    "completion_seconds": 0.005054250010289252,
+    "total_cached_seconds": 0.11026237500482239,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-011",
+    "model_seconds": 0.1058282500016503,
+    "completion_seconds": 0.005367708014091477,
+    "total_cached_seconds": 0.11119595801574178,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-012",
+    "model_seconds": 0.10575412501930259,
+    "completion_seconds": 0.005054290988482535,
+    "total_cached_seconds": 0.11080841600778513,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-013",
+    "model_seconds": 0.10571908298879862,
+    "completion_seconds": 0.005049333005445078,
+    "total_cached_seconds": 0.1107684159942437,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-014",
+    "model_seconds": 0.10503716699895449,
+    "completion_seconds": 0.005086040997412056,
+    "total_cached_seconds": 0.11012320799636655,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-015",
+    "model_seconds": 0.10500199999660254,
+    "completion_seconds": 0.00510404200758785,
+    "total_cached_seconds": 0.11010604200419039,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-016",
+    "model_seconds": 0.10548191700945608,
+    "completion_seconds": 0.0051174160034861416,
+    "total_cached_seconds": 0.11059933301294222,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-017",
+    "model_seconds": 0.10488983397954144,
+    "completion_seconds": 0.005096208013128489,
+    "total_cached_seconds": 0.10998604199266993,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-018",
+    "model_seconds": 0.10530254201148637,
+    "completion_seconds": 0.0050456669996492565,
+    "total_cached_seconds": 0.11034820901113562,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-019",
+    "model_seconds": 0.10535683398484252,
+    "completion_seconds": 0.005183458008104935,
+    "total_cached_seconds": 0.11054029199294746,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-020",
+    "model_seconds": 0.10406629199860618,
+    "completion_seconds": 0.005298916017636657,
+    "total_cached_seconds": 0.10936520801624283,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-021",
+    "model_seconds": 0.10439362499164417,
+    "completion_seconds": 0.00509637501090765,
+    "total_cached_seconds": 0.10949000000255182,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-022",
+    "model_seconds": 0.10483566700713709,
+    "completion_seconds": 0.005015665985411033,
+    "total_cached_seconds": 0.10985133299254812,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-023",
+    "model_seconds": 0.10463587500271387,
+    "completion_seconds": 0.005144416994880885,
+    "total_cached_seconds": 0.10978029199759476,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-024",
+    "model_seconds": 0.10542175002046861,
+    "completion_seconds": 0.005156250001164153,
+    "total_cached_seconds": 0.11057800002163276,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-025",
+    "model_seconds": 0.10992825002176687,
+    "completion_seconds": 0.0069315420114435256,
+    "total_cached_seconds": 0.1168597920332104,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-026",
+    "model_seconds": 0.12670366698876023,
+    "completion_seconds": 0.005200542014790699,
+    "total_cached_seconds": 0.13190420900355093,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-027",
+    "model_seconds": 0.10485491700819694,
+    "completion_seconds": 0.005149291973793879,
+    "total_cached_seconds": 0.11000420898199081,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-028",
+    "model_seconds": 0.10495516599621624,
+    "completion_seconds": 0.0051647910149767995,
+    "total_cached_seconds": 0.11011995701119304,
+    "converged": true
+  },
+  {
+    "method": "selected",
+    "repeat": 2,
+    "scenario_id": "ordinary-029",
+    "model_seconds": 0.10542499998700805,
+    "completion_seconds": 0.005223707994446158,
+    "total_cached_seconds": 0.11064870798145421,
+    "converged": true
+  }
+]

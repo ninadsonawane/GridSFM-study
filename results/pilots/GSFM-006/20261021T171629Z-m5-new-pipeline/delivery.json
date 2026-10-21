@@ -1,0 +1,14 @@
+{
+  "permanent_run_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-006/20261021T171629Z-m5-new-pipeline",
+  "working_run_path": "/private/tmp/gsfm006-20261021T171629Z/results",
+  "permanent_source_checkout": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075",
+  "permanent_base_checkpoint": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/data/checkpoints/GSFM-006-gridsfm_open_v2.pt",
+  "permanent_script_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm006",
+  "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+  "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+  "local_path_mapping": {
+    "/private/tmp/gsfm006-20261021T171629Z/results": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-006/20261021T171629Z-m5-new-pipeline"
+  },
+  "note": "Original execution paths retained in per-run JSON; corresponding durable copies have identical bytes. Replay requires a new WORK/RUN/START in common.py; do not rerun against this completed run. Isolated environment is disposable and can be rebuilt using existing read-only dependencies; source/base checkpoint have durable copies.",
+  "compute_status": "COMPLETE"
+}

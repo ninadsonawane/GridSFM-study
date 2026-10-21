@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "elapsed_runner_seconds": 166.01038454199443,
+  "wall_seconds_since_original_start": 873.2848908901215,
+  "resources": {
+    "process_tree_RSS_bytes": 936607744,
+    "peak_RSS_bytes": 936738816,
+    "minimum_available_bytes": 39866400768
+  },
+  "N4": "NOT RUN: documented projection/refinement implementation absent from pinned public source; no substitute algorithm",
+  "source_modified": false
+}

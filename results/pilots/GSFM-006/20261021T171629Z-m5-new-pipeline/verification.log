@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "rescored_saved_predictions": 412,
+  "all_ordinary_attempts_retained": true,
+  "checkpoint_strict_reload_and_saved_prediction_equal": true,
+  "raw_cases_and_references_unchanged": true,
+  "old_checkpoint_preserved": true,
+  "upstream_source_clean": true,
+  "config_and_execution_source_hashes_match": true,
+  "three_timed_repeats_30_cases_each": true,
+  "conventional_timed_feasible": 90,
+  "scientific_limitation": "Native oracle and every learned/completed method remain below100% strict feasibility; no score relaxation",
+  "resources": {
+    "process_tree_RSS_bytes": 652705792,
+    "peak_RSS_bytes": 652705792,
+    "minimum_available_bytes": 39624916992
+  },
+  "elapsed_wall_seconds": 1155.0632791519165
+}

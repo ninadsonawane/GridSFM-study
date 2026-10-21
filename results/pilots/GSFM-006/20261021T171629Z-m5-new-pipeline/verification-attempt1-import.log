@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/private/tmp/gsfm006-20261021T171629Z/code/verify.py", line 39, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/private/tmp/gsfm006-20261021T171629Z/code/verify.py", line 36, in main
+    assert subprocess.check_output(['git','-C',str(SRC),'status','--short'],text=True)==''
+           ^^^^^^^^^^
+NameError: name 'subprocess' is not defined

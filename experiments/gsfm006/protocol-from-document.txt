@@ -1,0 +1,55 @@
+TASK GSFM-006 — Experiment 9: newer GridSFM pipeline on original MATPOWER case300
+
+Status: READY — new experiment requested by Ninad on 21 October 2026. Claim this task once by adding worker, unique run ID and actual UTC start. Preserve completed GSFM-004/005 To-do and Results below. This is the current task; the older COMPLETE task is history.
+
+QUESTION: Does the newer paper's released pipeline improve actual physical feasibility on original case300, and what is contributed by model prediction, numerical power-flow completion and small target-grid adaptation? This is a compatibility and descriptive evaluation pilot, not a claim of novelty or a reproduction of the entire paper.
+
+SOURCE / IMPORTANT CONTEXT
+
+Use https://github.com/lukebhan/gridsfm at audited commit 517a07531ea55a11bd81a89a6c6879695a2ba4b4. Paper: https://arxiv.org/html/2609.30173v2. Record exact source and checkpoint hashes. The newer code uses r*r+x*x+1e-12 in its relevant line/transformer and closure calculations, instead of the old loss's clamp_min(1e-6). The denominator change alone is therefore not our new method. Do not silently call the new code exact original physics.
+
+Its README documents base/gridsfm_open_v2.pt and CUDA training. Our previous experiments used the earlier released checkpoint; equivalence is NOT established. Use the documented base checkpoint, not a case500-finetuned model or random weights passed off as pretrained. Fetch only required public files, not the entire released dataset/checkpoint collection. Report architecture, normalization, clipping, control extraction and weight-loading differences. A comparison with GSFM-005 is a release/pipeline comparison, not an isolated causal ablation of the denominator.
+
+BUDGET / DEVICE
+
+M5 Pro, 64 GB; maximum FOUR HOURS inclusive of setup, checks, compute and reporting. Stop compute by 3h40m and reserve 20 minutes for delivery; finish early when complete. No paid/cloud compute, parallel training jobs, whole-dataset downloads or broad device/parameter sweeps. Use a separate checkout/environment/output directory; preserve the working old environment and completed artifacts. Stop/checkpoint if process-tree RSS exceeds 32 GiB, available memory falls below 12 GiB, intermediate values become nonfinite, or the deadline is reached. Never reset the clock after a failure.
+
+9A — COMPATIBILITY AND CORRECTNESS GATE (first 45 minutes; extend only within the four-hour total if a concrete small fix is already identified)
+
+Inspect the actual loader, model, control extraction, closure and device requirements. Test CPU forward and the existing SuperLU closure path first. CPU closure availability does not establish that end-to-end CPU training works. MPS/CUDA substitutions must not silently change the algorithm. If CPU execution requires only small device/plumbing edits, record an isolated diff and verify it. Do not undertake a large backend port. If unavailable, deliver a precise BLOCKED/PARTIAL report with failing command, stack trace, dependency/device requirement and which independent checks succeeded.
+
+Load original case300 without changing topology, branch coefficients, taps, shunts, loads, limits, costs or base. Preserve negative/zero loads, generator order, multiple-generator bus mapping and reference angle. RATE_A=0 means unlimited; thermal checking is N/A, not zero congestion. Stop if the new converter requires invented ratings, clips original parameters or otherwise changes the physical problem.
+
+Reuse five TRAINING references for smoke checks, never evaluation labels. Check unit conversion, original-ID mapping, masks, finite intermediates and strict checkpoint loading (no silently missing weights). Compare identical verified reference states under (i) independent original-parameter FP64 equations, (ii) old stock operator, (iii) newer operator. Report residuals from all three; no assumption of equivalence. Then pass reference controls through numerical completion as an ORACLE DIAGNOSTIC only. Document exactly which Pg/voltage/angle/Qg quantities are controls and which are solved, slack treatment, PV/PQ handling, Newton tolerance/iteration cap, convergence and generator-limit handling. Keep this oracle test separate from model inference. No reference V/theta/Pg/Qg may initialize prediction evaluation unless explicitly designated as an oracle diagnostic.
+
+9B — FROZEN NEW-PIPELINE EVALUATION (mandatory if 9A passes)
+
+Reuse GSFM-004's unchanged 50 training and 10 validation examples and GSFM-005's fixed 30 ordinary evaluation cases. These evaluation cases have already been viewed: call this development comparison, NOT a fresh final test set. Freeze/hash the conversion, configuration, checkpoint and metrics before inspecting new evaluation outcomes. Use exactly the same inputs for each method. Preserve all failures in denominators; do not replace failed cases.
+
+Record separately N0: the documented base model's raw outputs, and N1: its predicted controls followed by the newer numerical completion. If raw full-state outputs are unavailable, report controls-only metrics and mark full-state metrics N/A; do not fabricate a raw state. Save raw and completed predictions independently. Log each completion's convergence, iterations, residual and any clipping or repair. Successful PF convergence is NOT automatically full OPF feasibility.
+
+Include the saved old frozen, ridge and all three GSFM-005 selected-E seeds as historical comparators on the identical cases. Do not cherry-pick the best seed or rerun old fitting. If the new architecture cannot consume the old checkpoint, disclose this rather than force compatibility. Running completion on ridge/old controls is optional only if the same valid control mapping is available; label such hybrids separately.
+
+9C — ONE SMALL ADAPTATION RUN (conditional, at most 45 minutes including smoke/validation)
+
+Proceed only after forward, numerical completion, finite gradients and checkpoint reload pass on disposable training smoke examples. Use the official newer elastic/closure-based recipe with FULL regression fine-tuning, not LoRA. Start fresh from the documented base checkpoint after smoke checks. Use the same 50 training and 10 validation examples, seed11, batch1, and at most 200 optimizer updates or 30 fit-minutes, whichever comes first. Preserve the release's objective coefficients and schedule semantics; record the fully resolved configuration and any small-batch/schedule accommodation before starting. No learning-rate or penalty search.
+
+Save initial, every50-update and final checkpoints. Select using only the official validation score/tie rule, recording the exact formula before the run. Report both selected and final endpoints. Keep validation selection out of the independent feasibility checker. Evaluate N2 raw/control predictions and N3 numerical-completed predictions on the same 30 cases, retaining every failure. If backward is unsupported on this Mac or the correctness gate fails, skip adaptation and report N0/N1 plus the exact blocker. A short fit is a pilot, not proof that the published training recipe has failed.
+
+9D — OPTIONAL REFINEMENT / SHIFT CHECK (only with time remaining; no additional fitting)
+
+If the documented projection/OPF-refinement path is readily runnable, report it as N4, separately from N1/N3. Compare against conventional AC-OPF using the SAME solver, tolerances, termination rules, iteration/time limits and hardware. Record all network inputs and starting-state differences; do not count oracle initialization. If warm-start refinement is unavailable, mark it NOT RUN rather than substitute a different method silently. If time permits, evaluate the frozen/selected configurations on the existing 28 spatial and 30 higher-load cases; no tuning from these outcomes.
+
+INDEPENDENT SCORING / TIMING
+
+Use the existing original-parameter FP64 checker and unchanged strict tolerances: P/Q balance and generator-bound violations <=1e-3 MW/MVAr, voltage violation <=1e-4 pu, active angle violation <=1e-3 degrees; thermal N/A on original case300. Report scenario-maximum P/Q residuals (median/p95/worst), convergence and full-feasibility counts out of ALL attempted cases, violated constraints, Vm/angle/Pg/Qg errors and generation cost. Angle errors require consistent reference anchoring. For failed outputs keep failure counts separate and identify any valid-output-only summaries. Cost on infeasible outputs is only a diagnostic; cost gaps on feasible outputs are relative to the local AC-OPF reference, not a certified global optimum.
+
+Report model-only, completion, refinement and total per-case times separately, including failed attempts. Separate loading/cache construction/training from inference. Use one excluded warm-up and three sequential timing repeats of the 30 fixed ordinary cases if affordable; report actual timing coverage. Compare end-to-end runtime against a freshly timed conventional solver under matched settings, not historical timings from a different setup. Include peak RSS, backend, dtype, threads and all actual phase durations.
+
+DELIVER / STOP
+
+Append a NEW GSFM-006 Results block; preserve previous Results. Mark 9A/9B/9C/9D COMPLETE, PARTIAL, BLOCKED or NOT RUN with reasons. Save scripts, resolved configs, source/weight/data hashes, predictions before/after completion, per-case metrics, convergence/failure logs and timing under results/pilots/GSFM-006/<unique-run-id>/. Commit/push reviewed scripts and compact evidence through the existing study-repo workflow; keep large checkpoint/data files locally with hashes and retrieval paths. No force-push, email or submission.
+
+Return one compact comparison table and five plain-language answers: (1) what actually ran on M5, (2) did the newer equations grade the known correct references properly, (3) did numerical completion make predictions balanced and fully feasible, (4) did small adaptation add anything, (5) what remains unresolved and whether a larger experiment is justified. Report negative results and incompatibilities honestly; no guaranteed paper/novelty/speedup claims. Do NOT launch two connected case300s, another topology, LoRA, scratch training or further sweeps in this task. Then STOP.
+
+END GSFM-006 TO-DO
