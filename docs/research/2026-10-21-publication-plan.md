@@ -1,5 +1,7 @@
 # A publication decision after the frozen-model experiments
 
+**Later same-day amendment:** the user requested a broader experiment-discovery round. [GSFM-004](../experiments/GSFM-004.md) and [decision0003](../decisions/0003-bounded-discovery-pilot.md) now control the next hardware run. The focused hypothesis and main-study matrix below remain proposals, not a selected paper claim or instructions to launch additional runs.
+
 Prepared 21 October 2026, Asia/Kolkata. **Recommendation, not a completed adaptation study or acceptance prediction.** Read the [latest VM report](../context/2026-10-21-exchange-results.txt), then [decision 0002](../decisions/0002-physics-loss-study.md). The original report and decision remain historical records.
 
 ## Recommendation in plain language

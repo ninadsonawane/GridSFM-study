@@ -1,5 +1,7 @@
 # GSFM-003: test whether the physics mismatch matters for learning
 
+**Operational amendment,21October2026:** the user's broader hardware request is now [GSFM-004](GSFM-004.md). Reuse this task's correctness checks;004 supersedes the smoke-only stop for its explicitly bounded pilot. The original003 text below is preserved as history.
+
 Status: READY for the bounded diagnostic/smoke work below. Main paper training is a separate proposed stage, not authorized by this task. Preserve GSFM-001/002 results. Keep original checkpoint/model files unchanged; implement experimental operators in a separate module or checkout.
 
 ## Objective and inputs

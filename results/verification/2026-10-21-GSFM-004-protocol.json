@@ -1,0 +1,36 @@
+{
+  "scope": "Local document-link and arithmetic checks only; no AC-OPF solve, checkpoint inference or training",
+  "documents_checked": 6,
+  "missing_links": [],
+  "source_sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+  "spatial_candidates_checked": 20,
+  "positive_Pd_bus_count": 191,
+  "centers": [
+    1,
+    191,
+    249,
+    154
+  ],
+  "region_sizes": [
+    48,
+    48,
+    48,
+    48
+  ],
+  "row_space_ranks": [
+    2
+  ],
+  "max_total_PQ_roundoff": [
+    5.093170329928398e-11,
+    1.2732925824820995e-11
+  ],
+  "factor_min_max": [
+    0.9,
+    1.1
+  ],
+  "redistributed_MW_min_max": [
+    405.40027629515487,
+    696.171602014157
+  ],
+  "limitations": "These candidates are unfiltered mathematical perturbations, not accepted/feasible labels. Hardware worker must implement and validate its actual generator and solver."
+}

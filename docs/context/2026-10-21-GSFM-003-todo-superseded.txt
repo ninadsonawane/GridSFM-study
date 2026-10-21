@@ -1,0 +1,18 @@
+To do:
+TASK GSFM-003 — Does the physics mismatch affect learning?
+Status: READY for diagnostics and a bounded smoke check only. Preserve all existing Results. No main training or LoRA sweep yet.
+
+Read the complete protocol at study commit 82457c8f410eecdc7c24ebe393593a4e08472c96:
+https://github.com/ninadsonawane/GridSFM-study/blob/82457c8f410eecdc7c24ebe393593a4e08472c96/docs/experiments/GSFM-003.md
+
+Purpose: test whether the released KCL loss trains against altered branch physics, and whether that difference materially changes gradients. This does not assume it caused the frozen checkpoint errors. Case300 stays the primary standard benchmark.
+
+1. Synchronize the existing diagnostic scripts and compact result/provenance summaries to GridSFM-study after reviewing contents/licensing. Preserve source matrices, checkpoint binaries and caches locally with hashes; report remaining local-only evidence.
+2. Audit every actual loss contribution and gradient. Include the capacity normalization/worst-bus margin and active branch counts: zero ratings may remove all original case300 branch-flow supervision.
+3. Compare exact versus clamped KCL using identical states and original float64 parameters. Match arithmetic, weights and aggregation; leave backbone features, forward computation and the benchmark unchanged. Disable feasibility/stress auxiliaries equally in the training comparisons.
+4. Use accepted reference states, a shipped-sample exposure audit, case39 as a verified no-clamp operator control, and a same-physical-state 25/100/400-MVA rebase check. These are operator checks, not new grid-generalization claims.
+5. Build only 8 training and 4 validation case300 load scenarios using the protocol. Compare three identical checkpoint copies: KCL disabled; stock KCL; exact KCL. Use the same batches/optimizer. Hard cap per arm: 20 updates or 120 seconds, whichever comes first. Stop on invalid labels, nonfinite gradients or adapter errors. No final test-set evaluation.
+6. Return loss/gradient evidence, exact-physics train/validation metrics, failures, seconds/update, peak process memory, reproducible commands and estimated main-study cost. Then stop for the next decision. A 20-step check establishes wiring and cost, not publication-quality performance.
+
+If the pilot supports continuation, the proposed paper compares frozen/no-KCL/stock-KCL/exact-KCL adaptation on 100 training, 30 validation and 100 untouched test points with 3 training seeds. Main training requires a separate decision. Full literature, novelty limits and the 20-day schedule:
+https://github.com/ninadsonawane/GridSFM-study/blob/82457c8f410eecdc7c24ebe393593a4e08472c96/docs/research/2026-10-21-publication-plan.md

@@ -1,5 +1,13 @@
 # Handoff after the initial research package
 
+## Current amendment: bounded discovery pilot, 21 October 2026
+
+The user explicitly requested a new hardware To-do with multiple hypothesis-screening experiments for M5 Pro/64GB. Read **`docs/experiments/GSFM-004.md`** and decision0003 first. This supersedes003's smoke-only operational stop, while retaining its uncompleted correctness checks. The latest live Exchange read still contained only frozen/diagnostic results; no new adaptation result was reported.
+
+New scope: one50-label dataset, nearest-example/ridge/frozen baselines, six neural variants (full no/stock/exact KCL, heads, rank2 FFN-LoRA+heads, scratch), at most two balanced seeds, <=400common updates and30minutes per fit, <=8hours total including implementation/data/reporting. CPU FP32 model + CPU float64 original-parameter physics, sequential execution. Ordinary, paired spatial-demand and higher-load evaluation slices are all development data. Optional small cross-case operator audit only within the cap. No automatic final-study training, paid compute, publication submission or correspondence. Existing publication-plan sections below are historical proposals until this pilot chooses a hypothesis.
+
+The hardware worker must mark task ownership/status, preserve prior Results, implement/validate a bounded runner, and return actual traces and failures. The planner has written instructions, not run these experiments. Use the commit-pinned protocol link in Exchange and synchronize without overwriting local VM artifacts.
+
 ## Latest amendment: post-experiment publication research, 21 October 2026
 
 **This amendment supersedes the operational next steps below; the original handoff is preserved as history.** Start with `docs/research/2026-10-21-publication-plan.md`, decision0002 and `docs/experiments/GSFM-003.md`.
