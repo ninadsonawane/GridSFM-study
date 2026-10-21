@@ -6,4 +6,6 @@ Prepared a bounded four-stage follow-up: training-only initial KCL gradient-norm
 
 Five-hour inclusive limit and mandatory cheap baselines are retained. Fresh evaluation is gated by correctness/time rather than positive outcomes. Three seeds assess training randomness with a fixed dataset, not unseen-grid generalization. No novelty, feasibility or publication success is claimed.
 
-Updated README's stale no-training/unmeasured-throughput statements to reflect the hardware results, and added a current HANDOFF amendment while preserving historical instructions. Protocol delivery is planned through a commit-pinned Exchange link; the final delivery check records document save/readback and preservation of Results.
+Updated README's stale no-training/unmeasured-throughput statements to reflect the hardware results, and added a current HANDOFF amendment while preserving historical instructions.
+
+Delivery verified: Exchange's To-do now contains GSFM-005 Experiments 5–8 and the protocol pinned to `c547542caaa85c430ab529526d5e095c62903e9b`. A complete clipboard readback matched the prepared To-do; the entire Results suffix was exactly unchanged from the pre-edit read. Google Docs reported Saved to Drive. A local screenshot records the visible updated To-do. The pinned protocol commit was pushed and its hash matched origin/main at delivery. Independent review clarified exact RNG-state preservation around diagnostic probes. No scientific experiment was launched in this planning session.
