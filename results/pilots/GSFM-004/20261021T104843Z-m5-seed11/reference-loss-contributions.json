@@ -1,0 +1,97 @@
+{
+  "scenario_id": "smoke_train-000",
+  "precision": "original accepted reference values FP64, original physics FP64; shared feature cost coefficients as released; identical prediction and target make supervised/cost terms zero",
+  "coefficient_policy": "all supervised/cost1; C/E KCL1 withlog1p; auxiliary0 skipped; eligiblebranch0",
+  "arms": {
+    "S": {
+      "raw": {
+        "theta": 1.380384943637498e-66,
+        "V": 0.0,
+        "Pg": 0.0,
+        "Qg": 0.0,
+        "cost": 0.0,
+        "kcl_p": 0.0,
+        "kcl_q": 0.0
+      },
+      "weighted": {
+        "theta": 1.380384943637498e-66,
+        "V": 0.0,
+        "Pg": 0.0,
+        "Qg": 0.0,
+        "cost": 0.0,
+        "kcl_p": 0.0,
+        "kcl_q": 0.0
+      },
+      "active": {
+        "feasible_graphs": 1,
+        "buses": 300,
+        "generators": 69,
+        "rated_branches": 0,
+        "branch_supervision": 0,
+        "feasibility_objective": false,
+        "stress_objective": false
+      },
+      "total": 1.380384943637498e-66
+    },
+    "C": {
+      "raw": {
+        "theta": 1.380384943637498e-66,
+        "V": 0.0,
+        "Pg": 0.0,
+        "Qg": 0.0,
+        "cost": 0.0,
+        "kcl_p": 1.7849740296486393e-05,
+        "kcl_q": 0.003008135535418726
+      },
+      "weighted": {
+        "theta": 1.380384943637498e-66,
+        "V": 0.0,
+        "Pg": 0.0,
+        "Qg": 0.0,
+        "cost": 0.0,
+        "kcl_p": 1.7849580991767762e-05,
+        "kcl_q": 0.0030036201487161455
+      },
+      "active": {
+        "feasible_graphs": 1,
+        "buses": 300,
+        "generators": 69,
+        "rated_branches": 0,
+        "branch_supervision": 0,
+        "feasibility_objective": false,
+        "stress_objective": false
+      },
+      "total": 0.003021469729707913
+    },
+    "E": {
+      "raw": {
+        "theta": 1.380384943637498e-66,
+        "V": 0.0,
+        "Pg": 0.0,
+        "Qg": 0.0,
+        "cost": 0.0,
+        "kcl_p": 2.3287035273024444e-18,
+        "kcl_q": 2.2363648847362526e-17
+      },
+      "weighted": {
+        "theta": 1.380384943637498e-66,
+        "V": 0.0,
+        "Pg": 0.0,
+        "Qg": 0.0,
+        "cost": 0.0,
+        "kcl_p": 2.3287035273024444e-18,
+        "kcl_q": 2.2363648847362526e-17
+      },
+      "active": {
+        "feasible_graphs": 1,
+        "buses": 300,
+        "generators": 69,
+        "rated_branches": 0,
+        "branch_supervision": 0,
+        "feasibility_objective": false,
+        "stress_objective": false
+      },
+      "total": 2.469235237466497e-17
+    }
+  }
+}

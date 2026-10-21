@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "shared_data_counts": {
+    "smoke_train": {
+      "accepted": 8,
+      "attempted": 8
+    },
+    "smoke_validation": {
+      "accepted": 4,
+      "attempted": 4
+    },
+    "train": {
+      "accepted": 50,
+      "attempted": 50
+    },
+    "validation": {
+      "accepted": 10,
+      "attempted": 10
+    },
+    "ordinary": {
+      "accepted": 10,
+      "attempted": 10
+    },
+    "higher_load": {
+      "accepted": 10,
+      "attempted": 12
+    },
+    "spatial": {
+      "accepted": 10,
+      "attempted": 10
+    }
+  },
+  "unique_candidate_inputs": 104,
+  "six_main_fits": true,
+  "updates_per_fit": 200,
+  "identical_order_all_arms": true,
+  "validation_only_selection_verified": true,
+  "selected_and_fixed_endpoints": true,
+  "summary_rows": 45,
+  "paired_rows": 150,
+  "strict_feasible_predictions": 0,
+  "old_results_and_base_checkpoint_unchanged": true,
+  "all_time_memory_caps_passed": true,
+  "numerical_failures_in_main_fits": 0,
+  "resolved_setup_failure": "checks/failure-before-random-default-fix",
+  "reused_reference_acceptance_records": true
+}

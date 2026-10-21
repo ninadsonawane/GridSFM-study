@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "U": 200,
+  "slowest_p95_seconds_per_update": 0.49862470559892247,
+  "estimated_validation_seconds_per_fit": 5.730752599993139,
+  "smoke": [
+    {
+      "arm": "S",
+      "status": "PASS",
+      "updates": 20,
+      "elapsed": 11.393054457992548,
+      "p95_update_seconds": 0.49862470559892247,
+      "median_update_seconds": 0.4802667705080239,
+      "four_validation_seconds": 0.4044528339873068,
+      "peak_RSS_bytes": 1116684288,
+      "reload_equivalence": true,
+      "frozen_parameters_unchanged": true,
+      "intermediate_hooks": true,
+      "sanitizer_inputs_checked": true
+    },
+    {
+      "arm": "C",
+      "status": "PASS",
+      "updates": 20,
+      "elapsed": 11.398731624998618,
+      "p95_update_seconds": 0.4877713374909945,
+      "median_update_seconds": 0.480786125495797,
+      "four_validation_seconds": 0.4125267080089543,
+      "peak_RSS_bytes": 1309048832,
+      "reload_equivalence": true,
+      "frozen_parameters_unchanged": true,
+      "intermediate_hooks": true,
+      "sanitizer_inputs_checked": true
+    },
+    {
+      "arm": "E",
+      "status": "PASS",
+      "updates": 20,
+      "elapsed": 11.459192375012208,
+      "p95_update_seconds": 0.4954250166498241,
+      "median_update_seconds": 0.47818627051310614,
+      "four_validation_seconds": 0.4584602079994511,
+      "peak_RSS_bytes": 1415069696,
+      "reload_equivalence": true,
+      "frozen_parameters_unchanged": true,
+      "intermediate_hooks": true,
+      "sanitizer_inputs_checked": true
+    },
+    {
+      "arm": "H",
+      "status": "PASS",
+      "updates": 20,
+      "elapsed": 6.293614916008664,
+      "p95_update_seconds": 0.24784168298792794,
+      "median_update_seconds": 0.23479568751645274,
+      "four_validation_seconds": 0.4152265839802567,
+      "peak_RSS_bytes": 1415086080,
+      "reload_equivalence": true,
+      "frozen_parameters_unchanged": true,
+      "intermediate_hooks": true,
+      "sanitizer_inputs_checked": true
+    },
+    {
+      "arm": "L",
+      "status": "PASS",
+      "updates": 20,
+      "elapsed": 9.817682582972338,
+      "p95_update_seconds": 0.41500624166365013,
+      "median_update_seconds": 0.3953683540021302,
+      "four_validation_seconds": 0.457665875001112,
+      "peak_RSS_bytes": 1417740288,
+      "reload_equivalence": true,
+      "frozen_parameters_unchanged": true,
+      "intermediate_hooks": true,
+      "sanitizer_inputs_checked": true
+    },
+    {
+      "arm": "R",
+      "status": "PASS",
+      "updates": 20,
+      "elapsed": 11.406636792002246,
+      "p95_update_seconds": 0.48852421309711647,
+      "median_update_seconds": 0.48325164601556025,
+      "four_validation_seconds": 0.41021808300865814,
+      "peak_RSS_bytes": 709574656,
+      "reload_equivalence": true,
+      "frozen_parameters_unchanged": true,
+      "intermediate_hooks": true,
+      "sanitizer_inputs_checked": true
+    }
+  ],
+  "rule": "min(200,50*floor(900/(50*t))); t slowest smoke p95; no learning outcome used to choose U"
+}

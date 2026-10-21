@@ -1,0 +1,78 @@
+{
+  "run_id": "20261021T104843Z-m5-seed11",
+  "status": "COMPLETE",
+  "code_commit": "59673ebef06c70661afaff59f536bca3a56d3837",
+  "protocol_commit": "1d2808a8bb32b6052beca725cb58e8e91cde3223",
+  "original_start_utc": "2026-10-21T10:48:43Z",
+  "compute_cutoff_utc": "2026-10-21T15:28:43Z",
+  "hard_end_utc": "2026-10-21T15:48:43Z",
+  "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+  "hardware": "Apple M5 Pro,64GiB,18 cores;4 torch threads,1 BLAS thread,CPU FP32 model/FP64 physics",
+  "baseline_environment": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/environment.json",
+  "scripts_sha256": {
+    "experiments/gsfm004/README.md": "a9ccf97634ed055b18bcb8c3b75107406a1d432b2c356f1f0e7d6f3a216ebf44",
+    "experiments/gsfm004/UPSTREAM_LICENSE": "13b0fc4e2bf771907f8d65a841e13963799e09a2656945ba7cdb92ce8bef55d7",
+    "experiments/gsfm004/audit.py": "baa8cc75afa1dfe7f480a40da705fb1d75389ae237d931c0317e2ab5f44a9478",
+    "experiments/gsfm004/baseline_timing.py": "2f9a097cf982cfbb45326d4fb471947abdcd5bd8e379bb47bcdebc4e46175c29",
+    "experiments/gsfm004/common.py": "2167c776c8bd4739c6fdd1b35a0aab733716616a8c3820bd5e596dc49390f219",
+    "experiments/gsfm004/data.py": "9bbe8c1845d0512ef291d81ad7883753f50cf966ca120b67d259e529fd609b91",
+    "experiments/gsfm004/fit.py": "29a22e03d08bef9ce01c231861e5ece119ec84611d624a07bf95dcf70eb4c881",
+    "experiments/gsfm004/label_server.jl": "c94c9bc7323b6b4299fd1195edd4aa224c7b2f7a331793fbf4f8bb77d61af826",
+    "experiments/gsfm004/neural.py": "2f1e583498dcee1b699dc960e337f104f7a0d54c7e251c5e781f3d258bb7a060",
+    "experiments/gsfm004/reference_loss_audit.py": "bc45c2c2bd6f7be00ef5a3ddfd67eb5d0e5b91a789c8e7f8f4a73d6183895bc6",
+    "experiments/gsfm004/report.py": "def4fab14a4ee19386b3a6f985687500727064d6d3153c02947488ac8bb68c1d",
+    "experiments/gsfm004/verify.py": "76f34de818807596073bb94b00f2dfaa70c745334dbea6d0d97776b5f6ba0023"
+  },
+  "preserved_prior_README": "git stash GSFM-004 preserve earlier local README before protocol sync; backup /private/tmp/GSFM-004-preserved-local-README.md",
+  "correctness": "checks.json PASS; initial random-arm setup failure retained in checks/failure-before-random-default-fix",
+  "data_counts": {
+    "smoke_train": {
+      "accepted": 8,
+      "attempted": 8
+    },
+    "smoke_validation": {
+      "accepted": 4,
+      "attempted": 4
+    },
+    "train": {
+      "accepted": 50,
+      "attempted": 50
+    },
+    "validation": {
+      "accepted": 10,
+      "attempted": 10
+    },
+    "ordinary": {
+      "accepted": 10,
+      "attempted": 10
+    },
+    "higher_load": {
+      "accepted": 10,
+      "attempted": 12
+    },
+    "spatial": {
+      "accepted": 10,
+      "attempted": 10
+    }
+  },
+  "scientific_compute_end_utc": "2026-10-21T11:19:14Z",
+  "verification_end_utc": "2026-10-21T11:23:23Z",
+  "report_finalized_utc": "2026-10-21T11:26:44.723532+00:00",
+  "report_delivery": "Google Doc Results section; compact artifacts committed separately after execution commit",
+  "source_model_commit": "1e5e3a1640b27768e3eaf32680184f26b407caab",
+  "raw_artifacts": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/pilots/GSFM-004/20261021T104843Z-m5-seed11",
+  "resolved_setup_failure": "Optional arch metadata absent; applied released loader default fallback. Reused five passed smokes; reran only missing R smoke.",
+  "no_additional_study": true,
+  "commands": [
+    "cd /Users/ninadsonawane/workspace/research-dev/GridSFM-study",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/data.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/audit.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/audit.py --resume-smoke",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/fit.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/baseline_timing.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/reference_loss_audit.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/report.py",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python -B experiments/gsfm004/verify.py"
+  ],
+  "artifact_hash_policy": "artifact-manifest.json covers all run files except itself; verify byte hashes before use. Full matrices/checkpoints/predictions are local-only, compact summaries public."
+}

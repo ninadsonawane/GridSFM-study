@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "operator_audit": "operator-audit.json",
+  "smoke_audit": "smoke-summary.json",
+  "shared_data_counts": {
+    "smoke_train": {
+      "accepted": 8,
+      "attempted": 8
+    },
+    "smoke_validation": {
+      "accepted": 4,
+      "attempted": 4
+    },
+    "train": {
+      "accepted": 50,
+      "attempted": 50
+    },
+    "validation": {
+      "accepted": 10,
+      "attempted": 10
+    },
+    "ordinary": {
+      "accepted": 10,
+      "attempted": 10
+    },
+    "higher_load": {
+      "accepted": 10,
+      "attempted": 12
+    },
+    "spatial": {
+      "accepted": 10,
+      "attempted": 10
+    }
+  },
+  "U": 200
+}

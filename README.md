@@ -2,7 +2,7 @@
 
 Permanent research home for Ninad Sonawane's proposed steady-state AC-OPF study with Professor Surya Santoso and his postdoc. The professor's involvement and suggestions are **user-reported**; scope and review arrangements remain to be discussed.
 
-**Current next hardware task: [GSFM-004 revision2, five-hour discovery pilot](docs/experiments/GSFM-004.md).** The user reduced the M5 Pro/64GB pilot to a five-hour ceiling including all work: six adaptation/control variants, one seed, <=200updates/25minutes per fit,90development examples, simple baselines and demand-shift evaluation. Second seed, extra-network checks and MPS probing are deferred. See [decision0003](docs/decisions/0003-bounded-discovery-pilot.md). GSFM-003 correctness checks remain prerequisites; its smoke-only stop is superseded for this task. No adaptation result has yet been posted in the freshly read Exchange document.
+**GSFM-004 revision 2 is complete.** See the [bounded pilot results](results/pilots/GSFM-004/20261021T104843Z-m5-seed11/README.md): six seed-11 fits completed 200 updates each, all checks passed, and all raw feasibility counts were zero. Ridge outperformed every neural arm on physical imbalance. Exact-KCL showed selected-checkpoint improvement with state/cost and fixed-endpoint trade-offs; no uniform dominance or useful adaptation claim is established. Further studies remain deferred.
 
 The [publication plan after the VM experiments](docs/research/2026-10-21-publication-plan.md) is research background. The [initial research report](docs/research/2026-10-21-initial-study.md) remains the historical source/setup package; its unrun status and original scope are no longer the latest state.
 
