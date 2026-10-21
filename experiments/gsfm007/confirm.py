@@ -1,5 +1,13 @@
 from common import *
 import gc,signal
+OriginalServer=Server
+class Server(OriginalServer):
+ def request(self,it,folder,*args,**kwargs):
+  t=time.perf_counter()
+  try:return super().request(it,folder,*args,**kwargs)
+  except (KeyError,ValueError) as exc:
+   result=dict(status='NO_VALID_SOLVER_STATE',request_seconds=time.perf_counter()-t,error=str(exc),reference_failure_is_infeasibility=False)
+   save(Path(folder)/'unusable-output.json',result);return result
 
 class Ridge:
  def __init__(self,z):self.z=z
@@ -89,8 +97,8 @@ def online(server,it,model,folder):
     final=rr['state'];status='FEASIBLE';break
    if 'state' in rr:final=rr['state']
   t=time.perf_counter();fm=score(it,final) if final else None;times['independent_validation_seconds']=time.perf_counter()-t
- except (TimeoutError,FloatingPointError) as exc:
-  status='DEADLINE' if isinstance(exc,TimeoutError) else 'NONFINITE';times['failure']=str(exc)
+ except TimeoutError as exc:
+  status='DEADLINE';times['failure']=str(exc)
   if isinstance(exc,TimeoutError) and server.proc.poll() is None:server.proc.kill();server.proc.wait()
   if attempts and 'request_seconds' not in attempts[-1]:attempts[-1].update(status=status,failed_attempt_seconds=time.perf_counter()-t)
  finally:signal.setitimer(signal.ITIMER_REAL,0)
