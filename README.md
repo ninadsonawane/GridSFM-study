@@ -1,4 +1,12 @@
-# GridSFM case300 adaptation study
+# GridSFM case300 physical-validity study
+
+**23 October 2026 — hardware-account handoff:** [Start here](docs/context/2026-10-23-hardware-handoff.md) for the professor's ten core questions, current conclusions and the next experiments. [HANDOFF.md](HANDOFF.md) identifies the current reading order and execution gate.
+
+Experiments **11A, 11B, 11C-1 and 11D are complete**; their result links are in the handoff. Experiments **12–14 are detailed protocols, not completed runs**: [shared evaluation rules](docs/experiments/GSFM-012-014-common.md), [12: connected case300 systems](docs/experiments/GSFM-012.md), [13: bus accuracy, sensitivity and cancellation](docs/experiments/GSFM-013.md), [14: thermal constraints on rated variants](docs/experiments/GSFM-014.md). The hardware account should read and verify readiness, then wait for Ninad's start instruction. Each experiment stops for review before the next.
+
+Current focus: frozen model approximation and physical/operational validity against AC-OPF and DC-OPF. Earlier adaptation and solver-speed work is retained as history. [Decision 0007](docs/decisions/0007-experiments12-14-handoff.md) supersedes older next-step/status paragraphs below for this continuation.
+
+## Historical project notes through 22 October 2026
 
 **Current paper scope — 22 October 2026:** physical validity of frozen GridSFM versus AC-OPF and DC-OPF on case300. The user has set adaptation and cost/runtime comparisons aside. [Decision 0006](docs/decisions/0006-physical-validity-first.md) and the [question register / proposed Experiment 11](docs/experiments/GSFM-008.md) control future planning. The starter is proposed, not launched; older study directions below are historical.
 

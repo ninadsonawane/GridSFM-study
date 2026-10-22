@@ -1,4 +1,18 @@
-# Handoff after the initial research package
+# Handoff — frozen GridSFM physical-validity study
+
+## Current handoff — 23 October 2026
+
+**For the hardware Codex account: start with [the concise context and ten-question register](docs/context/2026-10-23-hardware-handoff.md).** It explains the professor's direction, verified conclusions, remaining gaps and safe continuation. The working paper title is *Assessing the Practical Utility of GridSFM for AC Optimal Power Flow on Standard Networks*.
+
+Completed evidence: [11A audit](results/audits/GSFM-011A/20261022-case300-pipeline/README.md), [11B base comparison](results/comparisons/GSFM-011B/20261022-original-case300/README.md), [11C-1 loading](results/comparisons/GSFM-011C-1/20261022-loading-only/README.md), [11D diagnosis](results/diagnosis/GSFM-011D/20261022-saved-states/README.md). The entire older 31-input Experiment 11 plan was not executed.
+
+Next, **documented but unrun**: [shared instructions](docs/experiments/GSFM-012-014-common.md), [12: connected case300 copies](docs/experiments/GSFM-012.md), [13: accuracy/sensitivity/cancellation](docs/experiments/GSFM-013.md), [14: rated variants and thermal constraints](docs/experiments/GSFM-014.md). Read and check readiness first. Ninad will start each on the hardware account; do not launch jobs merely because this handoff was pulled. After each run, report and stop for review. No adaptation, PF completion or OPF repair is included.
+
+Preserve local raw results when syncing. Missing artifacts or inconsistent settings must be reported, not guessed. [Decision 0007](docs/decisions/0007-experiments12-14-handoff.md) records the publication scope. The entries below are historical and do not override this section's execution state or next steps.
+
+---
+
+# Historical handoff entries through 22 October 2026
 
 ## Latest scope — professor-directed physical-validity study, 22 October 2026
 
