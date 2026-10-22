@@ -1,0 +1,57 @@
+[
+  {
+    "method": "AC-OPF",
+    "balance_law": "Original FP64 AC Ybus; includes shunts once",
+    "max_P_imbalance_MW": 4.3087311496492475e-11,
+    "max_Q_imbalance_MVAr": 33.13364099268222,
+    "max_Pg_violation_MW": 0.0,
+    "max_Qg_violation_MVAr": 0.0,
+    "max_Vm_violation_pu": 0.0,
+    "max_angle_difference_violation_deg": 0,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": false,
+    "dispatch_cost_per_hour": 846779.4796595825,
+    "solver_status": "LOCALLY_INFEASIBLE"
+  },
+  {
+    "method": "DC-OPF",
+    "balance_law": "DC only; AC P/Q balance N/A",
+    "max_P_imbalance_MW": 9.748646334628575e-12,
+    "max_Q_imbalance_MVAr": null,
+    "max_Pg_violation_MW": 0.0,
+    "max_Qg_violation_MVAr": null,
+    "max_Vm_violation_pu": null,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": null,
+    "native_DC_constraints_pass": true,
+    "solver_status": "CONVERGED"
+  },
+  {
+    "method": "Microsoft v1.1",
+    "balance_law": "Original FP64 AC Ybus; includes shunts once",
+    "max_P_imbalance_MW": 2934.986994290375,
+    "max_Q_imbalance_MVAr": 7952.510955550029,
+    "max_Pg_violation_MW": 0.0,
+    "max_Qg_violation_MVAr": 4.76837158203125e-06,
+    "max_Vm_violation_pu": 2.38418573772492e-09,
+    "max_angle_difference_violation_deg": 0,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": false,
+    "dispatch_cost_per_hour": 392692.1681458256,
+    "solver_status": "NATIVE_RETURNED"
+  },
+  {
+    "method": "Newer v2",
+    "balance_law": "Original FP64 AC Ybus; includes shunts once",
+    "max_P_imbalance_MW": 4399.153952035643,
+    "max_Q_imbalance_MVAr": 9233.34037514604,
+    "max_Pg_violation_MW": 3.814697265625e-05,
+    "max_Qg_violation_MVAr": 4.76837158203125e-06,
+    "max_Vm_violation_pu": 2.38418573772492e-09,
+    "max_angle_difference_violation_deg": 0,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": false,
+    "dispatch_cost_per_hour": 1042078.9216537592,
+    "solver_status": "NATIVE_RETURNED"
+  }
+]

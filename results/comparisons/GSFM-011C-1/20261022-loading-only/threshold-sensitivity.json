@@ -1,0 +1,21 @@
+{
+  "balance_only_pass_counts_including_reused_base": {
+    "0.001": {
+      "AC-OPF": 6,
+      "Microsoft v1.1": 0,
+      "Newer v2": 0
+    },
+    "0.01": {
+      "AC-OPF": 6,
+      "Microsoft v1.1": 0,
+      "Newer v2": 0
+    },
+    "0.1": {
+      "AC-OPF": 6,
+      "Microsoft v1.1": 0,
+      "Newer v2": 0
+    }
+  },
+  "denominator_per_method": 7,
+  "primary_threshold_unchanged": 0.001
+}

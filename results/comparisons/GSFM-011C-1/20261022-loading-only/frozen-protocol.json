@@ -1,0 +1,74 @@
+{
+  "experiment": "11C-1",
+  "status": "FROZEN_BEFORE_RUNS",
+  "study_code_commit": "1f8ab6645bc20be808d5d40d20f3d73f0856f6de",
+  "scales_in_fixed_order": [
+    0.8,
+    0.9,
+    0.95,
+    1.03,
+    1.06,
+    1.1
+  ],
+  "inputs": [
+    {
+      "id": "load-0.80",
+      "scale": 0.8,
+      "case_sha256": "e479d59dc007657a28ed760b631ca8c11dba86611377c145e3721a8736e7f544",
+      "input_sha256": "a207ef4e87e8d98323650effaaf5a50ab9a39b4f6c6fcdcf7adceb3fa9c87f2d",
+      "only_Pd_Qd_changed": true
+    },
+    {
+      "id": "load-0.90",
+      "scale": 0.9,
+      "case_sha256": "e70c8c980efddd0aac738b2679e4da229669b828e66ba79b753ee7c7801f05f8",
+      "input_sha256": "9b82e9210b3eca4856ffd7df01a4e6ff1620c13adf654261193da8b85ea274fb",
+      "only_Pd_Qd_changed": true
+    },
+    {
+      "id": "load-0.95",
+      "scale": 0.95,
+      "case_sha256": "f0318425dcbaaefd5da288a766db15b56c5c73399ca9f4daed6b9e0f85526356",
+      "input_sha256": "b763b5560b5df01c1104a540e6a470fede8cf9e73861fcae7ca0f4fb1788b9b9",
+      "only_Pd_Qd_changed": true
+    },
+    {
+      "id": "load-1.03",
+      "scale": 1.03,
+      "case_sha256": "97315aa6ff6d24b2759bd4eb82049a190431804b1e9277aa327f5df91a24a1d4",
+      "input_sha256": "21a3239d57278af15898cd97858e1a9db10f455850a9c30bc221a2a743e8143b",
+      "only_Pd_Qd_changed": true
+    },
+    {
+      "id": "load-1.06",
+      "scale": 1.06,
+      "case_sha256": "454473d6c0517844c5482efca1d3f0f4f4022e48b8d0b744336f0a71df63afc8",
+      "input_sha256": "e973701e28405b93790d7da9ee25bb5344da69e66526ae0f4af7ba36700bab60",
+      "only_Pd_Qd_changed": true
+    },
+    {
+      "id": "load-1.10",
+      "scale": 1.1,
+      "case_sha256": "1e278dec5ca55e50689704e494a09c637c50a04b50729d11931b6fbc33bb7931",
+      "input_sha256": "23d2fb19244237ef2528e999875cb70eb6fe8117b5b08c2c7732344fdf908379",
+      "only_Pd_Qd_changed": true
+    }
+  ],
+  "original_case_sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+  "base_reused_directory": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011B/20261022-original-case300",
+  "base_artifact_inventory_sha256": "83d088fc3cc6ac87339888d55c56611fcef6c06da4f7043cb9c66a7606fc2ee2",
+  "thresholds": {
+    "P_Q_balance_MW_MVAr": 0.001,
+    "Pg_Qg_bounds_MW_MVAr": 0.001,
+    "Vm_bounds_pu": 0.0001,
+    "angle_deg": 0.001
+  },
+  "default_settings": "Exact 11B settings; no clipping override; CPU; no PF completion/repair/training; no model selection",
+  "scripts_sha256": {
+    "experiments/gsfm011c1/run_model.py": "c8931f673ab027564fecd15c0556de39ce3b219dc42cd11e3341ab582b7e68e0",
+    "experiments/gsfm011c1/evaluate.py": "b0bb9e02309109a922fa1ee69da1845e0d54c4a8d4993972f7d57754e190bc65",
+    "experiments/gsfm011c1/run_dc.py": "1eb28d1d4127dfe97ec17398bbc74133c66596e28ac096a5f63345a3923d693c",
+    "experiments/gsfm011c1/run_ac.py": "7eacf4a52142cd59ff19efa63864180b3c4bd561858cfd1a3ae3d7febce94c1e"
+  },
+  "failed_reference_policy": "No approximation error if AC reference does not pass; retain numerical failure as UNKNOWN; continue scoring native model states"
+}

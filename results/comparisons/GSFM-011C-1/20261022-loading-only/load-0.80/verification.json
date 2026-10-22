@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+  "methods": {
+    "AC-OPF": {
+      "Ybus_matches_independent_branch_checker": true,
+      "original_constraints_pass": true,
+      "source_reference_bus_id": 7049,
+      "unaligned_to_aligned_angle_max_deg": 0.0,
+      "angle_wrapping_changed_error_max_deg": 0.0
+    },
+    "DC-OPF": {
+      "native_Qg_and_Vm_null": true,
+      "DC_balance_pass": true,
+      "flow_recomputed_max_disagreement_MW": 0.0
+    },
+    "Microsoft v1.1": {
+      "Ybus_matches_independent_branch_checker": true,
+      "original_constraints_pass": false,
+      "source_reference_bus_id": 7049,
+      "unaligned_to_aligned_angle_max_deg": 69.29878767569762,
+      "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+      "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.032957150806396385,
+      "native_returned_saved_unchanged_before_recomputation": true
+    },
+    "Newer v2": {
+      "Ybus_matches_independent_branch_checker": true,
+      "original_constraints_pass": false,
+      "source_reference_bus_id": 7049,
+      "unaligned_to_aligned_angle_max_deg": 66.84897358408105,
+      "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+      "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.04063259423492127,
+      "native_returned_saved_unchanged_before_recomputation": true
+    }
+  },
+  "same_input_sha256": "a207ef4e87e8d98323650effaaf5a50ab9a39b4f6c6fcdcf7adceb3fa9c87f2d",
+  "AC_reference_independently_feasible": true,
+  "DC_native_fields_not_fabricated": true
+}

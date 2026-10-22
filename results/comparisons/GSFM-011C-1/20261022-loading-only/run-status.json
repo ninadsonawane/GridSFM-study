@@ -1,0 +1,374 @@
+[
+  {
+    "case": "load-0.80",
+    "method": "AC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_ac.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.80"
+    ],
+    "started_utc": "2026-10-22T09:55:15Z",
+    "timeout_seconds": 120,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 6.2377768750011455
+  },
+  {
+    "case": "load-0.80",
+    "method": "DC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_dc.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.80"
+    ],
+    "started_utc": "2026-10-22T09:55:21Z",
+    "timeout_seconds": 30,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 0.21591662502032705
+  },
+  {
+    "case": "load-0.80",
+    "method": "Microsoft_v1.1",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "microsoft-v1.1",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.80"
+    ],
+    "started_utc": "2026-10-22T09:55:21Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.5970166669867467
+  },
+  {
+    "case": "load-0.80",
+    "method": "newer_v2",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "newer-base-v2",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.80"
+    ],
+    "started_utc": "2026-10-22T09:55:23Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.7249375409737695
+  },
+  {
+    "case": "load-0.90",
+    "method": "AC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_ac.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.90"
+    ],
+    "started_utc": "2026-10-22T09:55:25Z",
+    "timeout_seconds": 120,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 5.611424417002127
+  },
+  {
+    "case": "load-0.90",
+    "method": "DC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_dc.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.90"
+    ],
+    "started_utc": "2026-10-22T09:55:31Z",
+    "timeout_seconds": 30,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 0.21094975000596605
+  },
+  {
+    "case": "load-0.90",
+    "method": "Microsoft_v1.1",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "microsoft-v1.1",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.90"
+    ],
+    "started_utc": "2026-10-22T09:55:31Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.5281813750043511
+  },
+  {
+    "case": "load-0.90",
+    "method": "newer_v2",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "newer-base-v2",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.90"
+    ],
+    "started_utc": "2026-10-22T09:55:32Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.529209540982265
+  },
+  {
+    "case": "load-0.95",
+    "method": "AC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_ac.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.95"
+    ],
+    "started_utc": "2026-10-22T09:55:34Z",
+    "timeout_seconds": 120,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 5.408489499997813
+  },
+  {
+    "case": "load-0.95",
+    "method": "DC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_dc.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.95"
+    ],
+    "started_utc": "2026-10-22T09:55:39Z",
+    "timeout_seconds": 30,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 0.22046304098330438
+  },
+  {
+    "case": "load-0.95",
+    "method": "Microsoft_v1.1",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "microsoft-v1.1",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.95"
+    ],
+    "started_utc": "2026-10-22T09:55:40Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.6557811250095256
+  },
+  {
+    "case": "load-0.95",
+    "method": "newer_v2",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "newer-base-v2",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-0.95"
+    ],
+    "started_utc": "2026-10-22T09:55:41Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.589045791013632
+  },
+  {
+    "case": "load-1.03",
+    "method": "AC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_ac.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03"
+    ],
+    "started_utc": "2026-10-22T09:55:43Z",
+    "timeout_seconds": 120,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 5.384353750006994
+  },
+  {
+    "case": "load-1.03",
+    "method": "DC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_dc.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03"
+    ],
+    "started_utc": "2026-10-22T09:55:48Z",
+    "timeout_seconds": 30,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 0.21378383302362636
+  },
+  {
+    "case": "load-1.03",
+    "method": "Microsoft_v1.1",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "microsoft-v1.1",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03"
+    ],
+    "started_utc": "2026-10-22T09:55:49Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.5782832079858053
+  },
+  {
+    "case": "load-1.03",
+    "method": "newer_v2",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "newer-base-v2",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03"
+    ],
+    "started_utc": "2026-10-22T09:55:50Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.5322882500186097
+  },
+  {
+    "case": "load-1.06",
+    "method": "AC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_ac.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.06"
+    ],
+    "started_utc": "2026-10-22T09:55:52Z",
+    "timeout_seconds": 120,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 5.314664583012927
+  },
+  {
+    "case": "load-1.06",
+    "method": "DC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_dc.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.06"
+    ],
+    "started_utc": "2026-10-22T09:55:57Z",
+    "timeout_seconds": 30,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 0.20853591698687524
+  },
+  {
+    "case": "load-1.06",
+    "method": "Microsoft_v1.1",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "microsoft-v1.1",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.06"
+    ],
+    "started_utc": "2026-10-22T09:55:57Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.5205773749912623
+  },
+  {
+    "case": "load-1.06",
+    "method": "newer_v2",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "newer-base-v2",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.06"
+    ],
+    "started_utc": "2026-10-22T09:55:59Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.495719917002134
+  },
+  {
+    "case": "load-1.10",
+    "method": "AC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_ac.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.10"
+    ],
+    "started_utc": "2026-10-22T09:56:01Z",
+    "timeout_seconds": 120,
+    "returncode": 1,
+    "status": "FAILED_UNKNOWN",
+    "elapsed_seconds": 5.897021458018571
+  },
+  {
+    "case": "load-1.10",
+    "method": "DC",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_dc.py",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.10"
+    ],
+    "started_utc": "2026-10-22T09:56:07Z",
+    "timeout_seconds": 30,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 0.2185860839963425
+  },
+  {
+    "case": "load-1.10",
+    "method": "Microsoft_v1.1",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "microsoft-v1.1",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.10"
+    ],
+    "started_utc": "2026-10-22T09:56:07Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.5549222499830648
+  },
+  {
+    "case": "load-1.10",
+    "method": "newer_v2",
+    "command": [
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+      "-B",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011c1/run_model.py",
+      "newer-base-v2",
+      "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.10"
+    ],
+    "started_utc": "2026-10-22T09:56:08Z",
+    "timeout_seconds": 90,
+    "returncode": 0,
+    "status": "RETURNED",
+    "elapsed_seconds": 1.6130723750102334
+  }
+]

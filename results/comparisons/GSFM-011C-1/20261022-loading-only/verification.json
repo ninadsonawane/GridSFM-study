@@ -1,0 +1,301 @@
+{
+  "status": "PASS",
+  "new_input_count": 6,
+  "scientific_calls": 24,
+  "new_base_calls": 0,
+  "11B_inventory_unchanged": true,
+  "per_case": {
+    "0.8": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": true,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 0.0,
+          "angle_wrapping_changed_error_max_deg": 0.0
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 69.29878767569762,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.032957150806396385,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 66.84897358408105,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.04063259423492127,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "a207ef4e87e8d98323650effaaf5a50ab9a39b4f6c6fcdcf7adceb3fa9c87f2d",
+      "AC_reference_independently_feasible": true,
+      "DC_native_fields_not_fabricated": true
+    },
+    "0.9": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": true,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 0.0,
+          "angle_wrapping_changed_error_max_deg": 0.0
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 87.59588078417437,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.034693866977249854,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 74.78160351717705,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.04592849296750501,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "9b82e9210b3eca4856ffd7df01a4e6ff1620c13adf654261193da8b85ea274fb",
+      "AC_reference_independently_feasible": true,
+      "DC_native_fields_not_fabricated": true
+    },
+    "0.95": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": true,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 0.0,
+          "angle_wrapping_changed_error_max_deg": 0.0
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 63.57191909840269,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.03694121529406402,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 76.67384761816504,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.018498720848924677,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "b763b5560b5df01c1104a540e6a470fede8cf9e73861fcae7ca0f4fb1788b9b9",
+      "AC_reference_independently_feasible": true,
+      "DC_native_fields_not_fabricated": true
+    },
+    "1.0": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, no 11C",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": true,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 0.0,
+          "angle_wrapping_changed_error_max_deg": 0.0
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 38.176428293182624,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.03166258404235123,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 78.95659097936601,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.007994069098913315,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed",
+      "AC_reference_independently_feasible": true,
+      "DC_native_fields_not_fabricated": true
+    },
+    "1.03": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": true,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 0.0,
+          "angle_wrapping_changed_error_max_deg": 0.0
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 40.348438372565155,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.03056912639112852,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 81.19052543215899,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.024049781905205236,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "21a3239d57278af15898cd97858e1a9db10f455850a9c30bc221a2a743e8143b",
+      "AC_reference_independently_feasible": true,
+      "DC_native_fields_not_fabricated": true
+    },
+    "1.06": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": true,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 0.0,
+          "angle_wrapping_changed_error_max_deg": 0.0
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 44.231489952902635,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.036257810071219865,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": 83.63486228309016,
+          "angle_wrapping_changed_error_max_deg": 1.4210854715202004e-14,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.028103043785677073,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "e973701e28405b93790d7da9ee25bb5344da69e66526ae0f4af7ba36700bab60",
+      "AC_reference_independently_feasible": true,
+      "DC_native_fields_not_fabricated": true
+    },
+    "1.1": {
+      "status": "PASS",
+      "scope": "one original case300; no PF completion, no numerical repair, no training, no sigmoid override, six-point loading-only 11C-1",
+      "methods": {
+        "AC-OPF": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": null,
+          "angle_wrapping_changed_error_max_deg": null
+        },
+        "DC-OPF": {
+          "native_Qg_and_Vm_null": true,
+          "DC_balance_pass": true,
+          "flow_recomputed_max_disagreement_MW": 0.0
+        },
+        "Microsoft v1.1": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": null,
+          "angle_wrapping_changed_error_max_deg": null,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.027589228934630228,
+          "native_returned_saved_unchanged_before_recomputation": true
+        },
+        "Newer v2": {
+          "Ybus_matches_independent_branch_checker": true,
+          "original_constraints_pass": false,
+          "source_reference_bus_id": 7049,
+          "unaligned_to_aligned_angle_max_deg": null,
+          "angle_wrapping_changed_error_max_deg": null,
+          "API_derived_vs_original_recomputed_flow_max_component_difference_MVA": 0.0423924600220289,
+          "native_returned_saved_unchanged_before_recomputation": true
+        }
+      },
+      "same_input_sha256": "23d2fb19244237ef2528e999875cb70eb6fe8117b5b08c2c7732344fdf908379",
+      "AC_reference_independently_feasible": false,
+      "reference_solver_status": "LOCALLY_INFEASIBLE",
+      "DC_native_fields_not_fabricated": true
+    }
+  },
+  "new_AC_references_verified": 5,
+  "new_DC_successes": 6,
+  "new_model_native_points": 12,
+  "failed_solves": 1,
+  "failure": "load1.10 AC: LOCALLY_INFEASIBLE; physical feasibility UNKNOWN; no reference errors",
+  "thermal_coverage": "N/A: all RATE_A=0",
+  "no_training_PF_completion_OPF_repair_or_other_scenarios": true,
+  "code_sha256": {
+    "run_six.py": "41e3c320bdaa3578415c882015d333e56fcc045c21a75bfdfda8b6a3ba3a94d3",
+    "plot.py": "8a10679e4e5c344a9bfd508ab97aa2832f05b73e308c0e34f1d73aaf9dee690d",
+    "evaluate_saved.py": "4d5c5ab029b223c73863bcd13b5b1dc99b2ee854ac7905d30dc39cdfdd873ae4",
+    "run_model.py": "c8931f673ab027564fecd15c0556de39ce3b219dc42cd11e3341ab582b7e68e0",
+    "summarize.py": "8dba680502e96a8e235a004b0f7670041d4fbe9ab5561b986010442505fdd39b",
+    "evaluate.py": "b0bb9e02309109a922fa1ee69da1845e0d54c4a8d4993972f7d57754e190bc65",
+    "run_dc.py": "1eb28d1d4127dfe97ec17398bbc74133c66596e28ac096a5f63345a3923d693c",
+    "prepare.py": "3b1948a34b988d29fd70219656489fc1dc23fe1349c4ca14041511f814374901",
+    "run_ac.py": "7eacf4a52142cd59ff19efa63864180b3c4bd561858cfd1a3ae3d7febce94c1e"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/ninadsonawane/julia/bin/julia",
+    "--startup-file=no",
+    "--history-file=no",
+    "--compiled-modules=existing",
+    "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm007/solver_server.jl"
+  ],
+  "request": {
+    "run_id": "11B-one-case300-AC",
+    "method": "default",
+    "matpower_file": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03/case300.m",
+    "log_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03/ac-solver.log",
+    "result_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/load-1.03/ac-result.json",
+    "load_scale": 1.0,
+    "remaining_seconds": 30.0,
+    "capture_internal_iterate": false
+  },
+  "returncode": 0,
+  "wall_seconds": 5.188578917004634
+}

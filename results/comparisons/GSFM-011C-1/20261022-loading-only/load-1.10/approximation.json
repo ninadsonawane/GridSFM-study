@@ -1,0 +1,46 @@
+[
+  {
+    "method": "AC-OPF",
+    "Pg_MW": null,
+    "aligned_angle_deg": null,
+    "active_branch_flow_MW_both_ends": null,
+    "Qg_MVAr": null,
+    "Vm_pu": null,
+    "flow_definition": "Original exact AC branch equations from native Vm/angle; all original taps/shunts/parallel rows",
+    "DC_native_Qg_Vm": null,
+    "reference_status": "UNAVAILABLE: LOCALLY_INFEASIBLE"
+  },
+  {
+    "method": "DC-OPF",
+    "Pg_MW": null,
+    "aligned_angle_deg": null,
+    "active_branch_flow_MW_both_ends": null,
+    "Qg_MVAr": null,
+    "Vm_pu": null,
+    "flow_definition": "DC law, Pf=-Pt; no losses",
+    "DC_native_Qg_Vm": "N/A",
+    "reference_status": "UNAVAILABLE: LOCALLY_INFEASIBLE"
+  },
+  {
+    "method": "Microsoft v1.1",
+    "Pg_MW": null,
+    "aligned_angle_deg": null,
+    "active_branch_flow_MW_both_ends": null,
+    "Qg_MVAr": null,
+    "Vm_pu": null,
+    "flow_definition": "Original exact AC branch equations from native Vm/angle; all original taps/shunts/parallel rows",
+    "DC_native_Qg_Vm": null,
+    "reference_status": "UNAVAILABLE: LOCALLY_INFEASIBLE"
+  },
+  {
+    "method": "Newer v2",
+    "Pg_MW": null,
+    "aligned_angle_deg": null,
+    "active_branch_flow_MW_both_ends": null,
+    "Qg_MVAr": null,
+    "Vm_pu": null,
+    "flow_definition": "Original exact AC branch equations from native Vm/angle; all original taps/shunts/parallel rows",
+    "DC_native_Qg_Vm": null,
+    "reference_status": "UNAVAILABLE: LOCALLY_INFEASIBLE"
+  }
+]
