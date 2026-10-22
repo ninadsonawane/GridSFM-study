@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "pinned_MATPOWER_commit": "1a828c7af590714499284e36ee9c81273388c594",
+  "pinned_source_sha256": {
+    "makeBdc.m": "d35ce7e785a73dd27def6e3fb9d499e34eef37be2d02ceefbd966a8576d47b0a",
+    "opf_setup.m": "96ab979f6836460fc066fda48ebf77d4bdc449ca2c33796b4dfa72c08968b1f8",
+    "makeAang.m": "870c4cfe7fc7cc6c5e33771c3bc27d4c4189913e6c44252c7350e8c34e5b8173"
+  },
+  "implementation_sha256": {
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/pypower/makeBdc.py": "80aa357c0e5df778230b9643b356085420f89afdfcd491420fd047c5248dcd59",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/pypower/opf_setup.py": "c9d336979c7f33b5528f907258474f85dee0bc1c5d514c41a518a3b9a1074af4",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/pypower/dcopf_solver.py": "7f09545f6922a8cd8238565a3d49dc0bc42c49eaab7e286e78ae609c43837aa7"
+  },
+  "max_matrix_disagreement": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "equations": "Bbus=Cft.T diag(status/x/tap) Cft; Bf=diag(status/x/tap) Cft; Pfinj=-(status/x/tap)*shift_rad; Pbusinj=Cft.T Pfinj; CgPg-(Pd+Gs)=baseMVA*(Bbus theta+Pbusinj)",
+  "generation_cost": "Original quadratic polynomial in MW; same coefficients and Pg bounds; Q costs absent. Positive-semidefinite diagonal Hessian. No cost rescaling/replacement.",
+  "native_DC_variables": "Pg and bus angles only; Vm and Qg placeholders in PYPOWER result are not predictions and excluded.",
+  "finite_RATE_A_constraints": 0,
+  "active_angle_constraints": 0,
+  "original_taps_preserved": true,
+  "nonbenchmark_algebra_probe": [
+    {
+      "status": 1,
+      "tap": 1.07,
+      "phase_deg": 17,
+      "Bf": [
+        [
+          18.69158878504673,
+          -18.69158878504673
+        ]
+      ],
+      "Pfinj": [
+        -5.5459060343745055
+      ]
+    },
+    {
+      "status": 0,
+      "tap": 1.07,
+      "phase_deg": 17,
+      "Bf": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "Pfinj": [
+        -0.0
+      ]
+    }
+  ],
+  "solver": "PYPOWER5.1.21 rundcopf, explicit PIPS QP algorithm200; not assumed equivalent merely from a DCP name"
+}

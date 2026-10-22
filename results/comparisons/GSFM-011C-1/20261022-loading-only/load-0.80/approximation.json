@@ -1,0 +1,114 @@
+[
+  {
+    "method": "AC-OPF",
+    "Pg_MW": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "maximum": 0.0
+    },
+    "aligned_angle_deg": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "maximum": 0.0
+    },
+    "active_branch_flow_MW_both_ends": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "maximum": 0.0
+    },
+    "Qg_MVAr": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "maximum": 0.0
+    },
+    "Vm_pu": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "maximum": 0.0
+    },
+    "flow_definition": "Original exact AC branch equations from native Vm/angle; all original taps/shunts/parallel rows",
+    "DC_native_Qg_Vm": null
+  },
+  {
+    "method": "DC-OPF",
+    "Pg_MW": {
+      "MAE": 13.179730221932706,
+      "RMSE": 19.824708531137393,
+      "maximum": 68.1113424397613
+    },
+    "aligned_angle_deg": {
+      "MAE": 4.072005552132132,
+      "RMSE": 4.929075156149005,
+      "maximum": 11.50346826598016
+    },
+    "active_branch_flow_MW_both_ends": {
+      "MAE": 13.414699281197704,
+      "RMSE": 25.35911815860515,
+      "maximum": 141.444513326251
+    },
+    "Qg_MVAr": null,
+    "Vm_pu": null,
+    "flow_definition": "DC law, Pf=-Pt; no losses",
+    "DC_native_Qg_Vm": "N/A"
+  },
+  {
+    "method": "Microsoft v1.1",
+    "Pg_MW": {
+      "MAE": 171.463796761111,
+      "RMSE": 228.41800548950886,
+      "maximum": 760.4899080401137
+    },
+    "aligned_angle_deg": {
+      "MAE": 48.281237674627434,
+      "RMSE": 49.286831846269905,
+      "maximum": 69.29878767569762
+    },
+    "active_branch_flow_MW_both_ends": {
+      "MAE": 98.13307532013874,
+      "RMSE": 292.30993210775546,
+      "maximum": 5036.119503100391
+    },
+    "Qg_MVAr": {
+      "MAE": 71.05520239654774,
+      "RMSE": 104.72052281910042,
+      "maximum": 375.20884297903547
+    },
+    "Vm_pu": {
+      "MAE": 0.02921980513652033,
+      "RMSE": 0.0368197978528218,
+      "maximum": 0.12000000206489614
+    },
+    "flow_definition": "Original exact AC branch equations from native Vm/angle; all original taps/shunts/parallel rows",
+    "DC_native_Qg_Vm": null
+  },
+  {
+    "method": "Newer v2",
+    "Pg_MW": {
+      "MAE": 148.01465784704084,
+      "RMSE": 234.01753155788188,
+      "maximum": 1440.3923034644613
+    },
+    "aligned_angle_deg": {
+      "MAE": 43.87053476213518,
+      "RMSE": 45.64496751481702,
+      "maximum": 66.84897358408105
+    },
+    "active_branch_flow_MW_both_ends": {
+      "MAE": 104.30252477918415,
+      "RMSE": 377.0077873821899,
+      "maximum": 6407.815201144098
+    },
+    "Qg_MVAr": {
+      "MAE": 79.7275719846926,
+      "RMSE": 121.19868807500694,
+      "maximum": 452.50674559753713
+    },
+    "Vm_pu": {
+      "MAE": 0.04593966180265097,
+      "RMSE": 0.05411580685486387,
+      "maximum": 0.12000000237693254
+    },
+    "flow_definition": "Original exact AC branch equations from native Vm/angle; all original taps/shunts/parallel rows",
+    "DC_native_Qg_Vm": null
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "python": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+  "hardware": "Apple M5 Pro",
+  "memory_bytes": "68719476736",
+  "env": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "scientific_calls": {
+    "AC": 6,
+    "DC": 6,
+    "Microsoft_v1.1": 6,
+    "newer_v2": 6
+  },
+  "base_1_00": "reused; no new call",
+  "packages_reused_from_verified_11B": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.8.0",
+    "torch-geometric": "2.8.0.post1",
+    "PYPOWER": "5.1.21"
+  },
+  "Julia": "1.11.9",
+  "PowerModels": "0.21.5",
+  "Ipopt": "1.14.0"
+}

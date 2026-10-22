@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "date_IST": "2026-10-22",
+  "document_url": "https://docs.google.com/document/d/19jzhfyde3PvHPJAd97ITYNX1WQqMtkC1F8siDWOhJM0",
+  "prior_document_body_structurally_identical": true,
+  "old_body_end_index": 99638,
+  "native_result_tables": {
+    "count": 2,
+    "each_rows": 29,
+    "each_columns": 7,
+    "filled_cells_each": 203
+  },
+  "added_plot_count": 2,
+  "final_export_pages": 45,
+  "new_result_pages": [
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "visual_checks": "Instruction screenshots inspected; final approximation, physical and plots pages42,43,44 rendered and inspected. Tables fit separate pages, both plots fit one page. Prior results unchanged.",
+  "private_export_path": "/private/tmp/gsfm011c1-20261022/11C-results-final.pdf",
+  "private_export_sha256": "d4dbbb58aa681414703317d0f6499552fe8d417278554755b81d8bc159bcdd29",
+  "instruction_screenshots": {
+    "11C-instructions-page-1.png": "800abee274ff32dc2f04a12db34f42f65566bc17bff8b050305f730c43b5db88",
+    "11C-instructions-page-3.png": "047c7c882f284ef0ef20b47f0df3655771c1388390cb540f8c68dbe2c50c4e0b"
+  }
+}

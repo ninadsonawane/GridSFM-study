@@ -1,0 +1,86 @@
+[
+  {
+    "loading": 0.8,
+    "method": "Microsoft v1.1",
+    "Pg_MAE_difference_vs_DC_MW": 158.2840665391783,
+    "angle_MAE_difference_vs_DC_deg": 44.2092321224953,
+    "Pflow_MAE_difference_vs_DC_MW": 84.71837603894105
+  },
+  {
+    "loading": 0.8,
+    "method": "Newer v2",
+    "Pg_MAE_difference_vs_DC_MW": 134.83492762510812,
+    "angle_MAE_difference_vs_DC_deg": 39.798529210003046,
+    "Pflow_MAE_difference_vs_DC_MW": 90.88782549798646
+  },
+  {
+    "loading": 0.9,
+    "method": "Microsoft v1.1",
+    "Pg_MAE_difference_vs_DC_MW": 175.72787576999357,
+    "angle_MAE_difference_vs_DC_deg": 58.45787539465525,
+    "Pflow_MAE_difference_vs_DC_MW": 79.16161742812108
+  },
+  {
+    "loading": 0.9,
+    "method": "Newer v2",
+    "Pg_MAE_difference_vs_DC_MW": 109.92681366328561,
+    "angle_MAE_difference_vs_DC_deg": 42.11126043382416,
+    "Pflow_MAE_difference_vs_DC_MW": 93.95532377619081
+  },
+  {
+    "loading": 0.95,
+    "method": "Microsoft v1.1",
+    "Pg_MAE_difference_vs_DC_MW": 174.91828635057155,
+    "angle_MAE_difference_vs_DC_deg": 39.743203468680036,
+    "Pflow_MAE_difference_vs_DC_MW": 68.30193594171016
+  },
+  {
+    "loading": 0.95,
+    "method": "Newer v2",
+    "Pg_MAE_difference_vs_DC_MW": 96.12088187259653,
+    "angle_MAE_difference_vs_DC_deg": 41.64615038063357,
+    "Pflow_MAE_difference_vs_DC_MW": 81.98779700860803
+  },
+  {
+    "loading": 1.0,
+    "method": "Microsoft v1.1",
+    "Pg_MAE_difference_vs_DC_MW": 169.0433831191657,
+    "angle_MAE_difference_vs_DC_deg": 16.076734733724827,
+    "Pflow_MAE_difference_vs_DC_MW": 56.007919344990874
+  },
+  {
+    "loading": 1.0,
+    "method": "Newer v2",
+    "Pg_MAE_difference_vs_DC_MW": 80.3080919839209,
+    "angle_MAE_difference_vs_DC_deg": 41.603434076842966,
+    "Pflow_MAE_difference_vs_DC_MW": 77.1831065247394
+  },
+  {
+    "loading": 1.03,
+    "method": "Microsoft v1.1",
+    "Pg_MAE_difference_vs_DC_MW": 167.66715919445906,
+    "angle_MAE_difference_vs_DC_deg": 18.79829616184043,
+    "Pflow_MAE_difference_vs_DC_MW": 51.49021055643453
+  },
+  {
+    "loading": 1.03,
+    "method": "Newer v2",
+    "Pg_MAE_difference_vs_DC_MW": 70.36498042139274,
+    "angle_MAE_difference_vs_DC_deg": 42.37742301257518,
+    "Pflow_MAE_difference_vs_DC_MW": 76.38522972698917
+  },
+  {
+    "loading": 1.06,
+    "method": "Microsoft v1.1",
+    "Pg_MAE_difference_vs_DC_MW": 160.625399201671,
+    "angle_MAE_difference_vs_DC_deg": 22.20887766471338,
+    "Pflow_MAE_difference_vs_DC_MW": 48.84600957108023
+  },
+  {
+    "loading": 1.06,
+    "method": "Newer v2",
+    "Pg_MAE_difference_vs_DC_MW": 50.94458950839226,
+    "angle_MAE_difference_vs_DC_deg": 43.469015310925755,
+    "Pflow_MAE_difference_vs_DC_MW": 75.99828987668923
+  }
+]

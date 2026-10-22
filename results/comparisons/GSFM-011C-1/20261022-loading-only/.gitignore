@@ -1,0 +1,14 @@
+# Large/raw local evidence; compact hashes are tracked.
+load-*/case300.m
+load-*/input.json
+load-*/*-native.json
+load-*/*-returned.json
+load-*/*-input.pyg.json
+load-*/ac-result.json
+load-*/dc-result-raw.json
+load-*/*.log
+load-*/bus-diagnostics.csv
+load-*/branch-approximation.csv
+load-*/*-exact-metrics.json
+load-*/ac-independent-metrics.json
+load-*/dc-status.json

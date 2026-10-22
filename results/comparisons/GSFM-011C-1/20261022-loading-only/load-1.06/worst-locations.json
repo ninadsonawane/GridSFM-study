@@ -1,0 +1,111 @@
+{
+  "AC-OPF": {
+    "P_balance_AC": {
+      "original_bus_id": 214,
+      "bus_area": 1,
+      "bus_row_1based": 193,
+      "signed_value": -3.1594282745572855e-11,
+      "absolute_value": 3.1594282745572855e-11
+    },
+    "Q_balance_AC": {
+      "original_bus_id": 213,
+      "bus_area": 1,
+      "bus_row_1based": 192,
+      "signed_value": -1.6190426777029643e-10,
+      "absolute_value": 1.6190426777029643e-10
+    },
+    "Pg_bounds": null,
+    "Qg_bounds": null,
+    "Vm_bounds": null
+  },
+  "DC-OPF": {
+    "P_balance_DC": {
+      "original_bus_id": 137,
+      "bus_area": 1,
+      "bus_row_1based": 116,
+      "signed_value": 7.275957614183426e-12,
+      "absolute_value": 7.275957614183426e-12
+    },
+    "Q_balance_AC": null,
+    "Pg_bounds": null,
+    "Qg_bounds": null,
+    "Vm_bounds": null,
+    "AC_P_balance": null
+  },
+  "Microsoft v1.1": {
+    "P_balance_AC": {
+      "original_bus_id": 238,
+      "bus_area": 1,
+      "bus_row_1based": 217,
+      "signed_value": 3146.8504583694166,
+      "absolute_value": 3146.8504583694166
+    },
+    "Q_balance_AC": {
+      "original_bus_id": 238,
+      "bus_area": 1,
+      "bus_row_1based": 217,
+      "signed_value": 7975.335471359958,
+      "absolute_value": 7975.335471359958
+    },
+    "Pg_bounds": null,
+    "Qg_bounds": {
+      "generator_row_1based": 12,
+      "original_bus_id": 124,
+      "bus_area": 1,
+      "predicted_value": 120.00000476837158,
+      "lower_limit": -60.0,
+      "upper_limit": 120.0,
+      "violation": 4.76837158203125e-06
+    },
+    "Vm_bounds": {
+      "original_bus_id": 63,
+      "bus_area": 1,
+      "predicted_Vm_pu": 0.9399999976158142,
+      "Vmin_pu": 0.94,
+      "Vmax_pu": 1.06,
+      "violation_pu": 2.38418573772492e-09
+    }
+  },
+  "Newer v2": {
+    "P_balance_AC": {
+      "original_bus_id": 231,
+      "bus_area": 1,
+      "bus_row_1based": 210,
+      "signed_value": 3872.940053056609,
+      "absolute_value": 3872.940053056609
+    },
+    "Q_balance_AC": {
+      "original_bus_id": 137,
+      "bus_area": 1,
+      "bus_row_1based": 116,
+      "signed_value": 9233.332972135633,
+      "absolute_value": 9233.332972135633
+    },
+    "Pg_bounds": {
+      "generator_row_1based": 48,
+      "original_bus_id": 7003,
+      "bus_area": 1,
+      "predicted_value": 1310.0000381469727,
+      "lower_limit": 0.0,
+      "upper_limit": 1310.0,
+      "violation": 3.814697265625e-05
+    },
+    "Qg_bounds": {
+      "generator_row_1based": 12,
+      "original_bus_id": 124,
+      "bus_area": 1,
+      "predicted_value": 120.00000476837158,
+      "lower_limit": -60.0,
+      "upper_limit": 120.0,
+      "violation": 4.76837158203125e-06
+    },
+    "Vm_bounds": {
+      "original_bus_id": 4,
+      "bus_area": 1,
+      "predicted_Vm_pu": 0.9399999976158142,
+      "Vmin_pu": 0.94,
+      "Vmax_pu": 1.06,
+      "violation_pu": 2.38418573772492e-09
+    }
+  }
+}

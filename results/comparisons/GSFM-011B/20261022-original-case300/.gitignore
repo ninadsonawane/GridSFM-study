@@ -1,0 +1,9 @@
+input.json
+*-input.pyg.json
+*-returned.json
+*-native.json
+ac-result.json
+dc-result-raw.json
+*-exact-metrics.json
+ac-independent-metrics.json
+*-solver.log

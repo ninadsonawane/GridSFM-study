@@ -1,0 +1,53 @@
+[
+  {
+    "method": "AC-OPF",
+    "balance_law": "Original FP64 AC Ybus; includes shunts once",
+    "max_P_imbalance_MW": 1.5944619930552866e-11,
+    "max_Q_imbalance_MVAr": 6.177329273616832e-11,
+    "max_Pg_violation_MW": 0.0,
+    "max_Qg_violation_MVAr": 0.0,
+    "max_Vm_violation_pu": 0.0,
+    "max_angle_difference_violation_deg": 0,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": true,
+    "dispatch_cost_per_hour": 671937.5562098925
+  },
+  {
+    "method": "DC-OPF",
+    "balance_law": "DC only; AC P/Q balance N/A",
+    "max_P_imbalance_MW": 1.0306422382200253e-11,
+    "max_Q_imbalance_MVAr": null,
+    "max_Pg_violation_MW": 0.0,
+    "max_Qg_violation_MVAr": null,
+    "max_Vm_violation_pu": null,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": null,
+    "native_DC_constraints_pass": true
+  },
+  {
+    "method": "Microsoft v1.1",
+    "balance_law": "Original FP64 AC Ybus; includes shunts once",
+    "max_P_imbalance_MW": 4425.681553256606,
+    "max_Q_imbalance_MVAr": 10778.387677580036,
+    "max_Pg_violation_MW": 0.0,
+    "max_Qg_violation_MVAr": 4.76837158203125e-06,
+    "max_Vm_violation_pu": 2.38418573772492e-09,
+    "max_angle_difference_violation_deg": 0,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": false,
+    "dispatch_cost_per_hour": 290950.0892529188
+  },
+  {
+    "method": "Newer v2",
+    "balance_law": "Original FP64 AC Ybus; includes shunts once",
+    "max_P_imbalance_MW": 2913.391769714132,
+    "max_Q_imbalance_MVAr": 7380.6683790534435,
+    "max_Pg_violation_MW": 3.814697265625e-05,
+    "max_Qg_violation_MVAr": 4.76837158203125e-06,
+    "max_Vm_violation_pu": 2.38418573772492e-09,
+    "max_angle_difference_violation_deg": 0,
+    "thermal_assessment": "N/A: all original RATE_A=0",
+    "AC_feasibility": false,
+    "dispatch_cost_per_hour": 986270.6761621395
+  }
+]
