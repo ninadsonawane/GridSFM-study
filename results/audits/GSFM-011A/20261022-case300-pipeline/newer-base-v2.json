@@ -1,0 +1,227 @@
+{
+  "status": "PASS",
+  "audit": "11A setup/pipeline only; no fitting, selection, OPF/PF solves or sweeps",
+  "release": "newer-base-v2",
+  "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+  "source_import": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075/model/gridsfm/__init__.py",
+  "source_files_sha256": {
+    "model/gridsfm/__init__.py": "a45239266836091df9f2be2065078f5930485de5a8958572f436d7721867bbb1",
+    "model/gridsfm/blocks.py": "3b1ac45237092273cc0a20c7d0eedf25242b419fda5ce9a2e0dc10e1107f08d8",
+    "model/gridsfm/checkpoint.py": "251842f8141a1b09fb0fe076f996cfd1783a3b7cb5aef81d961b066497cab5c6",
+    "model/gridsfm/cycle_basis.py": "4f1a324975f27bc2341387994c7c8cfbd2f4901a2769717bff5ed20dfa0d0eeb",
+    "model/gridsfm/data.py": "260daeceea5414c90aca3d9337c7973b1f12d48da34a0e7f7bbe5f33ae3f3ec0",
+    "model/gridsfm/dc_prior.py": "f57371ca75ef3b44beb09e85aa668e1ee3f9ecf2bbaf52e56795f527f8e2038b",
+    "model/gridsfm/hodge_pe.py": "8dd3c0a2d9b7be24902c2243ce002c0d0616b7fabc00d03693d80f743e64868c",
+    "model/gridsfm/model.py": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+    "model/gridsfm/pe_features.py": "c097f8b2ab92ccfb9fa58c7af1a82c76e665389c70002a7632c4794f6a9de8af",
+    "model/gridsfm/schema.py": "939b87fe8ecbbe5dc210b406a2429bbcdf1281edac731ca9861d8379bbacd459",
+    "model/gridsfm/signed_incidence.py": "16194ea450844962226100644f01bfb61391ecf81ce4bd20000cfa668f91f37e",
+    "model/gridsfm/stress_features.py": "9621946a6d454d20953d5782883401c74f8f043a461d8622b9deea91579601af"
+  },
+  "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/data/checkpoints/GSFM-006-gridsfm_open_v2.pt",
+  "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+  "checkpoint_arch_metadata": {
+    "name": "GridSFM-open-v2",
+    "hash": "70c308350e245fa7670f27863d613db27a3691c238383ad5100308dba8ac79ab"
+  },
+  "strict_state_dict_load": "<All keys matched successfully>",
+  "parameters": 15146823,
+  "clip_mode": "clamp",
+  "leaky_alpha": 0.0,
+  "independent_branch_prediction_head": false,
+  "native_predict_runs_newton_PF": false,
+  "model_output_fields": [
+    "theta",
+    "V",
+    "Pg",
+    "Qg",
+    "Pij",
+    "Qij",
+    "Pji",
+    "Qji",
+    "flow_edge_types",
+    "flow_edge_counts",
+    "feas",
+    "feas_logit"
+  ],
+  "case_source_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300.m",
+  "manifest_original_local_path_exists": false,
+  "case_source_sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+  "case_input_sha256": "67885a16ba8ab6922b55384ae705fb461d5f6d00463748a071321e026b3e172a",
+  "case_canonical_sha256": "ee6a3f5e71225ad4e912e4f86e081bc67b00667046e19d4a7be69f11aa4c4f68",
+  "case_counts": {
+    "buses": 300,
+    "generators": 69,
+    "branches": 411,
+    "finite_positive_RATE_A": 0,
+    "online_generators": 69,
+    "online_branches": 411,
+    "parallel_pairs": {
+      "(9003, 9006)": 2,
+      "(9002, 9012)": 2
+    },
+    "negative_P_load_bus_ids": [
+      51,
+      207,
+      250,
+      281,
+      323,
+      552,
+      664,
+      1200
+    ],
+    "negative_Q_load_bus_ids": [
+      40,
+      157,
+      205,
+      207,
+      250,
+      281,
+      319,
+      320,
+      322,
+      324,
+      526,
+      528,
+      552
+    ],
+    "zero_P_and_Q_load_buses": 99,
+    "nonunity_taps": 62,
+    "nonzero_phase_shifts": 0,
+    "bus_shunts": 29,
+    "small_impedance_loss_floor_rows_1based": [
+      1,
+      317,
+      321
+    ]
+  },
+  "label_independence": {
+    "status": "PASS",
+    "variants": [
+      "unlabeled",
+      "poisoned_labels",
+      "different_labels"
+    ],
+    "all_returned_tensor_predictions_bitwise_identical": true,
+    "scalar_and_layout_outputs_identical_and_finite": true,
+    "raw_grid_features_identical": true,
+    "original_PG_QG_VG_verified": true,
+    "base_input_matrix_equal_to_pinned_unsolved_source": true
+  },
+  "reference_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300-reference.json",
+  "reference_sha256": "c6f6ef5110422baab7269099cc2eb8c47803bc38bfe77e439af48f2203644461",
+  "reference_exact_metrics": {
+    "max_p_residual_mw": 1.2289369522022753e-10,
+    "max_q_residual_mvar": 1.6635457456004588e-09,
+    "mean_abs_p_residual_mw": 1.3077535350921229e-12,
+    "mean_abs_q_residual_mvar": 7.628357806608238e-12,
+    "max_generator_component_violation_mw_or_mvar": 0.0,
+    "max_voltage_violation_pu": 0.0,
+    "max_branch_violation_mva": 0,
+    "max_angle_violation_deg": 0,
+    "max_rated_branch_loading": null,
+    "rated_active_branch_count": 0,
+    "unlimited_active_branch_count": 411,
+    "generation_cost_per_hour": 719725.0988803704,
+    "thresholds": {
+      "balance_mva": 0.001,
+      "generator_mva": 0.001,
+      "voltage_pu": 0.0001,
+      "branch_mva": 0.001,
+      "angle_deg": 0.001
+    },
+    "all_tested_constraints_pass": true,
+    "coverage_note": "Original box, balance, angle and positive RATE_A limits only; unlimited branches are not thermally certified."
+  },
+  "reference_original_Ybus_crosscheck": {
+    "equation": "Cg(Pg+jQg)-(Pd+jQd)-baseMVA*V*conj(Ybus*V); Ybus includes bus shunts exactly once",
+    "reference_residual": {
+      "max_abs_P_MW": 1.2254223340536036e-10,
+      "mean_abs_P_MW": 1.379008847464367e-12,
+      "max_abs_Q_MVAr": 1.6636114708035166e-09,
+      "mean_abs_Q_MVAr": 7.797529088645394e-12
+    },
+    "branch_sum_residual": {
+      "max_abs_P_MW": 1.2289369522022753e-10,
+      "mean_abs_P_MW": 1.3099710205466408e-12,
+      "max_abs_Q_MVAr": 1.6635449684443415e-09,
+      "mean_abs_Q_MVAr": 7.628500609044781e-12
+    },
+    "max_complex_residual_checker_disagreement_MVA": 3.1505595135385646e-11,
+    "max_both_end_branch_flow_disagreement_MVA": 2.972243663718816e-12,
+    "Ybus_nonzeros": 1118,
+    "implementation": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/pypower/makeYbus.py",
+    "implementation_sha256": "671797eff455512abc91d9df3a8b54de1a452b51dcd119d1bb288088bfc17341"
+  },
+  "reference_model_operator": {
+    "native_FP32": {
+      "forward_pi_operator": {
+        "max_abs_P_MW": 0.004059821367263794,
+        "mean_abs_P_MW": 0.00015114290658459206,
+        "max_abs_Q_MVAr": 0.023669004440307617,
+        "mean_abs_Q_MVAr": 0.0006955051607410234
+      },
+      "training_loss_pi_operator": {
+        "max_abs_P_MW": 0.004059821367263794,
+        "mean_abs_P_MW": 0.00015114290658459206,
+        "max_abs_Q_MVAr": 0.023669004440307617,
+        "mean_abs_Q_MVAr": 0.0006955051607410234
+      },
+      "training_operator_note": "Newer elastic_loss uses the same model branch operator; no gridsfm.loss module in this release",
+      "max_forward_minus_original_complex_nodal_MVA": 0.023923597471471242,
+      "note": "Reference state only; coefficient/operation rounding and denominator changes are diagnostics, not an attribution of frozen error."
+    },
+    "original_coefficients_FP64": {
+      "forward_pi_operator": {
+        "max_abs_P_MW": 0.0011488369221979156,
+        "mean_abs_P_MW": 1.796753525301583e-05,
+        "max_abs_Q_MVAr": 0.0007845367672416614,
+        "mean_abs_Q_MVAr": 9.34341588054285e-06
+      },
+      "training_loss_pi_operator": {
+        "max_abs_P_MW": 0.0011488369221979156,
+        "mean_abs_P_MW": 1.796753525301583e-05,
+        "max_abs_Q_MVAr": 0.0007845367672416614,
+        "mean_abs_Q_MVAr": 9.34341588054285e-06
+      },
+      "training_operator_note": "Newer elastic_loss uses the same model branch operator; no gridsfm.loss module in this release",
+      "max_forward_minus_original_complex_nodal_MVA": 0.0013911592938708657,
+      "note": "Reference state only; coefficient/operation rounding and denominator changes are diagnostics, not an attribution of frozen error."
+    }
+  },
+  "algebra_unit_fixture_phase_tap_shunt_status": {
+    "equation": "Cg(Pg+jQg)-(Pd+jQd)-baseMVA*V*conj(Ybus*V); Ybus includes bus shunts exactly once",
+    "reference_residual": {
+      "max_abs_P_MW": 162.50415443294884,
+      "mean_abs_P_MW": 158.5948229491463,
+      "max_abs_Q_MVAr": 16.112677687068008,
+      "mean_abs_Q_MVAr": 11.99238584146735
+    },
+    "branch_sum_residual": {
+      "max_abs_P_MW": 162.50415443294892,
+      "mean_abs_P_MW": 158.59482294914625,
+      "max_abs_Q_MVAr": 16.112677687067844,
+      "mean_abs_Q_MVAr": 11.99238584146713
+    },
+    "max_complex_residual_checker_disagreement_MVA": 2.865390776410835e-13,
+    "max_both_end_branch_flow_disagreement_MVA": 3.6703160499169786e-13,
+    "Ybus_nonzeros": 4,
+    "implementation": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/lib/python3.11/site-packages/pypower/makeYbus.py",
+    "implementation_sha256": "671797eff455512abc91d9df3a8b54de1a452b51dcd119d1bb288088bfc17341"
+  },
+  "DC_OPF": {
+    "available": true,
+    "import_pass": true,
+    "callable": true,
+    "case300_DC_OPF_executed": false,
+    "version": "5.1.21"
+  },
+  "environment": {
+    "python": "3.11.17 (main, Oct  1 2026, 00:48:48) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "torch": "2.8.0",
+    "numpy": "2.4.6",
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "UTC": "2026-10-22T08:25:14.924519+00:00",
+  "study_execution_commit": "202c9bb4f8f5460435dd991273ade14a8ed4df6e"
+}

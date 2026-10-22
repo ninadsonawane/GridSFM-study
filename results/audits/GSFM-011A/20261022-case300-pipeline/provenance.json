@@ -1,0 +1,27 @@
+{
+  "date_IST": "2026-10-22",
+  "scope": "11A only; no training, 11B/11C or sweeps",
+  "execution_study_commit": "202c9bb4f8f5460435dd991273ade14a8ed4df6e",
+  "files_sha256": {
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/scripts/python/gridsfm_convert.py": "4fdc363fc03069ce78aa04f168182bff1530203c4f9681a3349cb60462ecaeb7",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/scripts/python/physics_metrics.py": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/manifests/matpower-source.json": "92bea0fd96c1e5caa4a45356d810a970197548e7866ab7e16651b62706232ff0",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm007/common.py": "522017a8efd4ec7517b76b36cb8449282c13a1459d49e9c12eebc65aa6a9c2f2",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm007/solver_server.jl": "b36ca5cdf1da5b6044b204267deec25bfca88b54b35994fb4b4ccc9d5008e036",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075/finetune_model/src/closure.py": "35a02632bc00e0a87a28ca73f62a44f40f086ff82a1d50dd83010bda35ca980a",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075/finetune_model/src/elastic_loss.py": "96c9161d2f40082eab9608daa2ebc13472478da5a69cfffbd3a4e3db9267c3e5",
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm011a/audit.py": "5bc86035e3fec07277391dfe8a7fffd8301b093d4379f1ca9fb0621d3ee409ee"
+  },
+  "output_root": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/audits/GSFM-011A/20261022-case300-pipeline",
+  "temporary_exact_microsoft_source": "/private/tmp/gsfm011a-20261022-audit/microsoft-source",
+  "old_source_environment_mutations": "none",
+  "source_capability_is_not_checkpoint_training_provenance": true,
+  "prior_evidence_reused": [
+    "results/inference/2026-10-21-base-cases/case300-reference.json",
+    "results/diagnosis/2026-10-21-frozen-and-initialization/physics-mismatch.json",
+    "results/pilots/GSFM-007/20261021T195824Z-m5-practical/checks/gate.json"
+  ],
+  "UTC": "2026-10-22T08:23:57.987852+00:00",
+  "julia_import_check": "Julia1.11.9 PowerModels0.21.5 Ipopt1.14.0 ACP=true DCP=true; --compiled-modules=existing; no new solve",
+  "validation_extension": "Repeated only the two label-independence smokes to explicitly check scalar classifier outputs and returned layout metadata, as well as tensor outputs."
+}
