@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "gate_completed_before_interpretation": true,
+  "date_UTC": "2026-10-22T15:40:35.277945+00:00",
+  "study_execution_commit": "7b3ee3a98c9e258ca20800fecc8d92142dadbcac",
+  "saved_artifact_inventories": {
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011B/20261022-original-case300/artifact-inventory.json": {
+      "sha256": "83d088fc3cc6ac87339888d55c56611fcef6c06da4f7043cb9c66a7606fc2ee2",
+      "files_verified": 35
+    },
+    "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011C-1/20261022-loading-only/artifact-inventory.json": {
+      "sha256": "cb1a06b8b2577a882b451ec15895fb82b4b96bff136fde3bab94b9d23c40dc39",
+      "files_verified": 240
+    }
+  },
+  "source_checkpoints_settings": {
+    "microsoft-v1.1": {
+      "source_commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6",
+      "source_model_sha256": "03b786662daa55857a4dac0cca8fb633d6a363c090a9e19fb8623a4340748f53",
+      "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/checkpoints/gridsfm_open_v1.1.pt",
+      "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+      "clip_mode": "leaky_clip",
+      "leaky_alpha": 0.0
+    },
+    "newer-base-v2": {
+      "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+      "source_model_sha256": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+      "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/data/checkpoints/GSFM-006-gridsfm_open_v2.pt",
+      "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+      "clip_mode": "clamp",
+      "leaky_alpha": 0.0
+    }
+  },
+  "input_native_hashes": {
+    "0.8": {
+      "input": "a207ef4e87e8d98323650effaaf5a50ab9a39b4f6c6fcdcf7adceb3fa9c87f2d",
+      "native": {
+        "microsoft-v1.1": "3342677b87a73079d9e8b25daad67b23a3d2cac5af0645d2727a55660ec2f298",
+        "newer-base-v2": "1ba354ed003727877e5ed3e044b4ce08a1dc4ca0f19b56d00f179ff6153423d6"
+      },
+      "AC_reference": "3acdfbe5132c1d5778dbe47daf69ff2978a16444243d4fb1e6e0e05b1fe2a154"
+    },
+    "0.9": {
+      "input": "9b82e9210b3eca4856ffd7df01a4e6ff1620c13adf654261193da8b85ea274fb",
+      "native": {
+        "microsoft-v1.1": "90e56a7f1fa85a984d5553771ea0b0faedc8da7a0c0d981a94aab83872f379c5",
+        "newer-base-v2": "4e2d91db69bf88d9e9197dae23ae269b1e9a8de7f7f36e553a9694cee15dce36"
+      },
+      "AC_reference": "0bd7e6a8b396807280b6fcf44735bae2beb47d1085d4397215db99de49d68a43"
+    },
+    "0.95": {
+      "input": "b763b5560b5df01c1104a540e6a470fede8cf9e73861fcae7ca0f4fb1788b9b9",
+      "native": {
+        "microsoft-v1.1": "fa7a646ef7c476b06af4a816c30fb82362f1a907283c71081350b7ecd63e971c",
+        "newer-base-v2": "9823c17a12bb0bdbf710a98515603d54c81b0e3858aae4e392d2ef4a0ef4e8de"
+      },
+      "AC_reference": "c35577b90225e6fd5fa955f62974cb4b7d4e4235cb8c74be2d895a97087ab6a4"
+    },
+    "1.0": {
+      "input": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed",
+      "native": {
+        "microsoft-v1.1": "6153ff6d55762fd61ae2fa8bf1406f742a8962375766b1bdd40a0f41448a58ca",
+        "newer-base-v2": "7151c655cfc762c6ff26ccf990120e53961fa204943d20eef5ec42e60436925e"
+      },
+      "AC_reference": "c6f6ef5110422baab7269099cc2eb8c47803bc38bfe77e439af48f2203644461"
+    },
+    "1.03": {
+      "input": "21a3239d57278af15898cd97858e1a9db10f455850a9c30bc221a2a743e8143b",
+      "native": {
+        "microsoft-v1.1": "f218ae3c51147574b3a0b5db7bd593c9dad09447bdb060bd96d158cf0ea4b2c7",
+        "newer-base-v2": "41b9d4ca6664c69e9ecc645ecf47b2ce64a6b91fff1ad9f0d5bc7bac9a82a735"
+      },
+      "AC_reference": "de03ed6c262eca1efb9356774313e99850880c504b586c761628eb011c53eec3"
+    },
+    "1.06": {
+      "input": "e973701e28405b93790d7da9ee25bb5344da69e66526ae0f4af7ba36700bab60",
+      "native": {
+        "microsoft-v1.1": "2a2a9f46dcf6c8de7ff9ccf72c0593bbb4cf1e7ccbe5aba7f4f3674686ce6700",
+        "newer-base-v2": "16bf94aab2fe4e39936b32c1e1dc7a13c89781c6a5521f6f2466592ce35102af"
+      },
+      "AC_reference": "ea93daf35e0307218d86ebd52baec0f38eafe953d8e54747d741f6f624c5bee5"
+    },
+    "1.1": {
+      "input": "23d2fb19244237ef2528e999875cb70eb6fe8117b5b08c2c7732344fdf908379",
+      "native": {
+        "microsoft-v1.1": "0f8d8f7010a0c647c1a4422207a01559b818143d88c1b14dd584babde08294eb",
+        "newer-base-v2": "9e19752a6db9f5c2cf16daf35f1b7a79a72276674a5819bc50a100f439ba21ff"
+      }
+    }
+  },
+  "crosschecks": [
+    {
+      "scale": 0.8,
+      "state": "AC-reference",
+      "max_crosscheck_error_MW_MVAr": 4.34885371179669e-11,
+      "saved_residual_max_difference": 4.292743938094645e-11
+    },
+    {
+      "scale": 0.8,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 3.285529941092762e-11,
+      "saved_residual_max_difference": 2.4556356947869062e-11
+    },
+    {
+      "scale": 0.8,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 4.7930564935134874e-11,
+      "saved_residual_max_difference": 3.842615114990622e-11
+    },
+    {
+      "scale": 0.9,
+      "state": "AC-reference",
+      "max_crosscheck_error_MW_MVAr": 5.1817338297438525e-11,
+      "saved_residual_max_difference": 5.100275757285999e-11
+    },
+    {
+      "scale": 0.9,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 4.5787576778125313e-11,
+      "saved_residual_max_difference": 4.547473508864641e-11
+    },
+    {
+      "scale": 0.9,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 4.2493487772975826e-11,
+      "saved_residual_max_difference": 4.206412995699793e-11
+    },
+    {
+      "scale": 0.95,
+      "state": "AC-reference",
+      "max_crosscheck_error_MW_MVAr": 6.842302836961318e-11,
+      "saved_residual_max_difference": 6.80948630815692e-11
+    },
+    {
+      "scale": 0.95,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 6.235557231930487e-11,
+      "saved_residual_max_difference": 4.501998773775995e-11
+    },
+    {
+      "scale": 0.95,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 5.7640011539895054e-11,
+      "saved_residual_max_difference": 4.774847184307873e-11
+    },
+    {
+      "scale": 1.0,
+      "state": "AC-reference",
+      "max_crosscheck_error_MW_MVAr": 3.1505595135385646e-11,
+      "saved_residual_max_difference": 3.136070501042114e-11
+    },
+    {
+      "scale": 1.0,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 7.463893724233446e-11,
+      "saved_residual_max_difference": 7.412381819449365e-11
+    },
+    {
+      "scale": 1.0,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 9.1792529732099e-11,
+      "saved_residual_max_difference": 8.36735125631094e-11
+    },
+    {
+      "scale": 1.03,
+      "state": "AC-reference",
+      "max_crosscheck_error_MW_MVAr": 1.1853945511312174e-10,
+      "saved_residual_max_difference": 1.184332631964935e-10
+    },
+    {
+      "scale": 1.03,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 3.4475474961723146e-11,
+      "saved_residual_max_difference": 3.433342499192804e-11
+    },
+    {
+      "scale": 1.03,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 6.829400272774555e-11,
+      "saved_residual_max_difference": 6.74162947689183e-11
+    },
+    {
+      "scale": 1.06,
+      "state": "AC-reference",
+      "max_crosscheck_error_MW_MVAr": 9.843913323681992e-11,
+      "saved_residual_max_difference": 9.843859061220428e-11
+    },
+    {
+      "scale": 1.06,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 5.4302522797986686e-11,
+      "saved_residual_max_difference": 5.3660187404602766e-11
+    },
+    {
+      "scale": 1.06,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 5.036172931055394e-11,
+      "saved_residual_max_difference": 3.7971403799019754e-11
+    },
+    {
+      "scale": 1.1,
+      "state": "microsoft-v1.1",
+      "max_crosscheck_error_MW_MVAr": 7.351716181151791e-11,
+      "saved_residual_max_difference": 6.912159733474255e-11
+    },
+    {
+      "scale": 1.1,
+      "state": "newer-base-v2",
+      "max_crosscheck_error_MW_MVAr": 3.95558317752558e-11,
+      "saved_residual_max_difference": 3.888089850079268e-11
+    }
+  ],
+  "max_crosscheck_error": 1.1853945511312174e-10,
+  "max_saved_residual_difference": 1.184332631964935e-10,
+  "units": "Vm pu, angle degrees converted once to radians in phasors, Pg/Qg MW/MVAr (native per-unit API multiplied by100); r MW+jMVAr",
+  "orientation": "Original from/to preserved; from-side complex tap exp(+j shift), Yft=-y/conj(tap), Ytf=-y/tap; branch charging at both ends; bus shunt (Gs-jBs)*Vm\u00b2 once",
+  "branch_identity": "Original 1-based row numbers, including both parallel row pairs; not keyed only by bus pair",
+  "scope": "14 saved native model states +6 valid saved references. AC1.10 values never loaded as reference. No inference/solver/training/new scenarios/network modification.",
+  "forbidden_operation_count": 0
+}

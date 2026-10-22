@@ -1,0 +1,134 @@
+[
+  {
+    "release": "microsoft-v1.1",
+    "component": "P",
+    "total_absolute_imbalance": 26783.69988128103,
+    "top1_fraction": 0.14016284538899174,
+    "outside_top1_absolute": 23029.620295875884,
+    "top1_bus_ids": [
+      238
+    ],
+    "top5_fraction": 0.3941088471074569,
+    "outside_top5_absolute": 16228.006799797236,
+    "top5_bus_ids": [
+      238,
+      235,
+      119,
+      191,
+      9001
+    ],
+    "top10_fraction": 0.517378406294049,
+    "outside_top10_absolute": 12926.391922045743,
+    "top10_bus_ids": [
+      238,
+      235,
+      119,
+      191,
+      9001,
+      37,
+      186,
+      3,
+      187,
+      220
+    ]
+  },
+  {
+    "release": "microsoft-v1.1",
+    "component": "Q",
+    "total_absolute_imbalance": 81782.218313412,
+    "top1_fraction": 0.10928987126139314,
+    "outside_top1_absolute": 72844.25020246804,
+    "top1_bus_ids": [
+      238
+    ],
+    "top5_fraction": 0.38421616814659776,
+    "outside_top5_absolute": 50360.167770504326,
+    "top5_bus_ids": [
+      238,
+      235,
+      9001,
+      37,
+      231
+    ],
+    "top10_fraction": 0.47539649511546067,
+    "outside_top10_absolute": 42903.238364448494,
+    "top10_bus_ids": [
+      238,
+      235,
+      9001,
+      37,
+      231,
+      237,
+      3,
+      223,
+      221,
+      220
+    ]
+  },
+  {
+    "release": "newer-base-v2",
+    "component": "P",
+    "total_absolute_imbalance": 49284.303104492355,
+    "top1_fraction": 0.06514580126693209,
+    "outside_top1_absolute": 46073.637688867864,
+    "top1_bus_ids": [
+      231
+    ],
+    "top5_fraction": 0.20467957023164282,
+    "outside_top5_absolute": 39196.81312589884,
+    "top5_bus_ids": [
+      231,
+      237,
+      3,
+      108,
+      99
+    ],
+    "top10_fraction": 0.3218183577809155,
+    "outside_top10_absolute": 33423.70961502775,
+    "top10_bus_ids": [
+      231,
+      237,
+      3,
+      108,
+      99,
+      137,
+      150,
+      9001,
+      37,
+      238
+    ]
+  },
+  {
+    "release": "newer-base-v2",
+    "component": "Q",
+    "total_absolute_imbalance": 109035.80316517285,
+    "top1_fraction": 0.07298544966096994,
+    "outside_top1_absolute": 101077.7760420177,
+    "top1_bus_ids": [
+      137
+    ],
+    "top5_fraction": 0.2790175958821424,
+    "outside_top5_absolute": 78612.89550094781,
+    "top5_bus_ids": [
+      137,
+      117,
+      118,
+      3,
+      188
+    ],
+    "top10_fraction": 0.3912348752117433,
+    "outside_top10_absolute": 66377.19432023424,
+    "top10_bus_ids": [
+      137,
+      117,
+      118,
+      3,
+      188,
+      4,
+      99,
+      108,
+      9001,
+      150
+    ]
+  }
+]

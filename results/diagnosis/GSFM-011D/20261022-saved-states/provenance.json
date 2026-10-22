@@ -1,0 +1,37 @@
+{
+  "date_IST": "2026-10-22",
+  "completed_UTC": "2026-10-22T15:48:00.135194+00:00",
+  "study_execution_commit": "7b3ee3a98c9e258ca20800fecc8d92142dadbcac",
+  "scope": "11D only:14 saved native states,6 feasible saved references;0 new neural/solver/training/scenario calls",
+  "script_sha256": {
+    "experiments/gsfm011d/README.md": "931989f3e4829ba05b6aab89c504cfd179fc03fd98be2ed719361e1330aea9db",
+    "experiments/gsfm011d/diagnose.py": "54a423a3614d4702156a627e008fd0a085abba601f3fa10ead1d87e3dc58a628",
+    "experiments/gsfm011d/plot.py": "0fd974f83cae8723a8385c40c1114c2313c09eccbdfca13eed8fe8072e5ef6c2",
+    "experiments/gsfm011d/report.py": "52c1597e66cae7fabcabe3396ead649c66ac8ec26740d11a258dec7db1bf0d97",
+    "experiments/gsfm011d/verify_saved.py": "136d602a090d764ee32ef2c253d34733b6265f0ca543fc33bdd53a53cf6f1052"
+  },
+  "exact_checker_sha256": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+  "existing_independent_makeYbus_module": "PYPOWER5.1.21",
+  "python_executable": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+  "python_version": "3.11.17 (main, Oct  1 2026, 00:48:48) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "PYPOWER": "5.1.21"
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "hardware": "Apple M5 Pro",
+  "memory_bytes": "68719476736",
+  "commands": [
+    "python -B experiments/gsfm011d/diagnose.py",
+    "python -B experiments/gsfm011d/report.py",
+    "existing Python3.12 -B experiments/gsfm011d/plot.py",
+    "python -B experiments/gsfm011d/verify_saved.py"
+  ],
+  "previous_results_preserved": true,
+  "full_document_export_kept_private": true,
+  "all_110_percent_analysis_reference_free": true,
+  "frozen_identity_file": "verification.json",
+  "oracle_verification_file": "oracle-verification.json",
+  "no_mutations_to_environments_or_external_source_repositories": true
+}

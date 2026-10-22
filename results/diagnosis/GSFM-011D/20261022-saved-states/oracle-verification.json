@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "complete_network_combinations": 96,
+  "expected": 96,
+  "G_block": "All online Pg and Qg together; original gen ordering",
+  "Vm_block": "All300 magnitudes",
+  "angle_block": "All300 angles aligned to original REF7049; no branch-wise independent angles",
+  "branch_and_shunt_recomputed_each_time": true,
+  "Ybus_branch_crosscheck_asserted_every_combination": true,
+  "000_matches_saved_native_within_1e_minus6_aggregate": true,
+  "111_returns_independently_feasible_reference": true,
+  "110_percent_oracle_count": 0,
+  "interpretation": "Oracle diagnostics using known AC answers, not practical predictions, feasible completions or repairs. Changes can worsen and interact."
+}

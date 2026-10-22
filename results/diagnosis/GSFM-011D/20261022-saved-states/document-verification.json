@@ -1,0 +1,21 @@
+{
+  "prior_preserved": true,
+  "table_count": 5,
+  "cells_verified": 258,
+  "mismatches": [],
+  "document_url": "https://docs.google.com/document/d/19jzhfyde3PvHPJAd97ITYNX1WQqMtkC1F8siDWOhJM0",
+  "final_export_pages": 55,
+  "added_result_pages": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "four_figures_rendered_and_visually_inspected": true,
+  "all_added_pages_rendered_and_inspected": true,
+  "private_full_export": "/private/tmp/gsfm011d-20261022/11D-results-final.pdf",
+  "private_export_sha256": "0a6fc4cd0ed434d8bfe602b0501d8eddf29432c727e4040be9cc155debb52ede"
+}

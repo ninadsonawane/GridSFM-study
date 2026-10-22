@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "base_bus_rows": 600,
+  "native_states": 14,
+  "valid_references": 6,
+  "oracle_combinations": 96,
+  "oracle_masks_complete_per_reference_valid_load": true,
+  "all_110_percent_reference_and_error_fields_empty": true,
+  "fixed_focus_and_comparators_unchanged_across_loads": true,
+  "signed_term_identity_all600_base_rows": true,
+  "concentration_independently_recomputed_from_CSV": true,
+  "all11B_and11C1_artifact_hashes_unchanged": true,
+  "inference_solver_training_new_scenarios_or_network_modifications": 0
+}
