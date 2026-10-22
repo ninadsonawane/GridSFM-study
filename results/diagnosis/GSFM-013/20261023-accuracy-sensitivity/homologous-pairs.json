@@ -1,0 +1,2102 @@
+[
+  {
+    "source_id": 1,
+    "A_bus_id": 1,
+    "B_bus_id": 301,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 2,
+    "A_bus_id": 2,
+    "B_bus_id": 302,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 3,
+    "A_bus_id": 3,
+    "B_bus_id": 303,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 4,
+    "A_bus_id": 4,
+    "B_bus_id": 304,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 5,
+    "A_bus_id": 5,
+    "B_bus_id": 305,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 6,
+    "A_bus_id": 6,
+    "B_bus_id": 306,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7,
+    "A_bus_id": 7,
+    "B_bus_id": 307,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 8,
+    "A_bus_id": 8,
+    "B_bus_id": 308,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9,
+    "A_bus_id": 9,
+    "B_bus_id": 309,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 10,
+    "A_bus_id": 10,
+    "B_bus_id": 310,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 11,
+    "A_bus_id": 11,
+    "B_bus_id": 311,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 12,
+    "A_bus_id": 12,
+    "B_bus_id": 312,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 13,
+    "A_bus_id": 13,
+    "B_bus_id": 313,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 14,
+    "A_bus_id": 14,
+    "B_bus_id": 314,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 15,
+    "A_bus_id": 15,
+    "B_bus_id": 315,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 16,
+    "A_bus_id": 16,
+    "B_bus_id": 316,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 17,
+    "A_bus_id": 17,
+    "B_bus_id": 317,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 19,
+    "A_bus_id": 18,
+    "B_bus_id": 318,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 20,
+    "A_bus_id": 19,
+    "B_bus_id": 319,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 21,
+    "A_bus_id": 20,
+    "B_bus_id": 320,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 22,
+    "A_bus_id": 21,
+    "B_bus_id": 321,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 23,
+    "A_bus_id": 22,
+    "B_bus_id": 322,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 24,
+    "A_bus_id": 23,
+    "B_bus_id": 323,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 25,
+    "A_bus_id": 24,
+    "B_bus_id": 324,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 26,
+    "A_bus_id": 25,
+    "B_bus_id": 325,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 27,
+    "A_bus_id": 26,
+    "B_bus_id": 326,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 33,
+    "A_bus_id": 27,
+    "B_bus_id": 327,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 34,
+    "A_bus_id": 28,
+    "B_bus_id": 328,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 35,
+    "A_bus_id": 29,
+    "B_bus_id": 329,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 36,
+    "A_bus_id": 30,
+    "B_bus_id": 330,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 37,
+    "A_bus_id": 31,
+    "B_bus_id": 331,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 38,
+    "A_bus_id": 32,
+    "B_bus_id": 332,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 39,
+    "A_bus_id": 33,
+    "B_bus_id": 333,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 40,
+    "A_bus_id": 34,
+    "B_bus_id": 334,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 41,
+    "A_bus_id": 35,
+    "B_bus_id": 335,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 42,
+    "A_bus_id": 36,
+    "B_bus_id": 336,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 43,
+    "A_bus_id": 37,
+    "B_bus_id": 337,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 44,
+    "A_bus_id": 38,
+    "B_bus_id": 338,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 45,
+    "A_bus_id": 39,
+    "B_bus_id": 339,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 46,
+    "A_bus_id": 40,
+    "B_bus_id": 340,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 47,
+    "A_bus_id": 41,
+    "B_bus_id": 341,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 48,
+    "A_bus_id": 42,
+    "B_bus_id": 342,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 49,
+    "A_bus_id": 43,
+    "B_bus_id": 343,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": true
+  },
+  {
+    "source_id": 51,
+    "A_bus_id": 44,
+    "B_bus_id": 344,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 52,
+    "A_bus_id": 45,
+    "B_bus_id": 345,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 53,
+    "A_bus_id": 46,
+    "B_bus_id": 346,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 54,
+    "A_bus_id": 47,
+    "B_bus_id": 347,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 55,
+    "A_bus_id": 48,
+    "B_bus_id": 348,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 57,
+    "A_bus_id": 49,
+    "B_bus_id": 349,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 58,
+    "A_bus_id": 50,
+    "B_bus_id": 350,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 59,
+    "A_bus_id": 51,
+    "B_bus_id": 351,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 60,
+    "A_bus_id": 52,
+    "B_bus_id": 352,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 61,
+    "A_bus_id": 53,
+    "B_bus_id": 353,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 62,
+    "A_bus_id": 54,
+    "B_bus_id": 354,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 63,
+    "A_bus_id": 55,
+    "B_bus_id": 355,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 64,
+    "A_bus_id": 56,
+    "B_bus_id": 356,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 69,
+    "A_bus_id": 57,
+    "B_bus_id": 357,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 70,
+    "A_bus_id": 58,
+    "B_bus_id": 358,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 71,
+    "A_bus_id": 59,
+    "B_bus_id": 359,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 72,
+    "A_bus_id": 60,
+    "B_bus_id": 360,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 73,
+    "A_bus_id": 61,
+    "B_bus_id": 361,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 74,
+    "A_bus_id": 62,
+    "B_bus_id": 362,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 76,
+    "A_bus_id": 63,
+    "B_bus_id": 363,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 77,
+    "A_bus_id": 64,
+    "B_bus_id": 364,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 78,
+    "A_bus_id": 65,
+    "B_bus_id": 365,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 79,
+    "A_bus_id": 66,
+    "B_bus_id": 366,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 80,
+    "A_bus_id": 67,
+    "B_bus_id": 367,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 81,
+    "A_bus_id": 68,
+    "B_bus_id": 368,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 84,
+    "A_bus_id": 69,
+    "B_bus_id": 369,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 85,
+    "A_bus_id": 70,
+    "B_bus_id": 370,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 86,
+    "A_bus_id": 71,
+    "B_bus_id": 371,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 87,
+    "A_bus_id": 72,
+    "B_bus_id": 372,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 88,
+    "A_bus_id": 73,
+    "B_bus_id": 373,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 89,
+    "A_bus_id": 74,
+    "B_bus_id": 374,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 90,
+    "A_bus_id": 75,
+    "B_bus_id": 375,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 91,
+    "A_bus_id": 76,
+    "B_bus_id": 376,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 92,
+    "A_bus_id": 77,
+    "B_bus_id": 377,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 94,
+    "A_bus_id": 78,
+    "B_bus_id": 378,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 97,
+    "A_bus_id": 79,
+    "B_bus_id": 379,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 98,
+    "A_bus_id": 80,
+    "B_bus_id": 380,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 99,
+    "A_bus_id": 81,
+    "B_bus_id": 381,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 100,
+    "A_bus_id": 82,
+    "B_bus_id": 382,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 102,
+    "A_bus_id": 83,
+    "B_bus_id": 383,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 103,
+    "A_bus_id": 84,
+    "B_bus_id": 384,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 104,
+    "A_bus_id": 85,
+    "B_bus_id": 385,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 105,
+    "A_bus_id": 86,
+    "B_bus_id": 386,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 107,
+    "A_bus_id": 87,
+    "B_bus_id": 387,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 108,
+    "A_bus_id": 88,
+    "B_bus_id": 388,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 109,
+    "A_bus_id": 89,
+    "B_bus_id": 389,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 110,
+    "A_bus_id": 90,
+    "B_bus_id": 390,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 112,
+    "A_bus_id": 91,
+    "B_bus_id": 391,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 113,
+    "A_bus_id": 92,
+    "B_bus_id": 392,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 114,
+    "A_bus_id": 93,
+    "B_bus_id": 393,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 115,
+    "A_bus_id": 94,
+    "B_bus_id": 394,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 116,
+    "A_bus_id": 95,
+    "B_bus_id": 395,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 117,
+    "A_bus_id": 96,
+    "B_bus_id": 396,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 118,
+    "A_bus_id": 97,
+    "B_bus_id": 397,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 119,
+    "A_bus_id": 98,
+    "B_bus_id": 398,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 120,
+    "A_bus_id": 99,
+    "B_bus_id": 399,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 121,
+    "A_bus_id": 100,
+    "B_bus_id": 400,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 122,
+    "A_bus_id": 101,
+    "B_bus_id": 401,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 123,
+    "A_bus_id": 102,
+    "B_bus_id": 402,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 124,
+    "A_bus_id": 103,
+    "B_bus_id": 403,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 125,
+    "A_bus_id": 104,
+    "B_bus_id": 404,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 126,
+    "A_bus_id": 105,
+    "B_bus_id": 405,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 127,
+    "A_bus_id": 106,
+    "B_bus_id": 406,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 128,
+    "A_bus_id": 107,
+    "B_bus_id": 407,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 129,
+    "A_bus_id": 108,
+    "B_bus_id": 408,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 130,
+    "A_bus_id": 109,
+    "B_bus_id": 409,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 131,
+    "A_bus_id": 110,
+    "B_bus_id": 410,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 132,
+    "A_bus_id": 111,
+    "B_bus_id": 411,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 133,
+    "A_bus_id": 112,
+    "B_bus_id": 412,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 134,
+    "A_bus_id": 113,
+    "B_bus_id": 413,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 135,
+    "A_bus_id": 114,
+    "B_bus_id": 414,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 136,
+    "A_bus_id": 115,
+    "B_bus_id": 415,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 137,
+    "A_bus_id": 116,
+    "B_bus_id": 416,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 138,
+    "A_bus_id": 117,
+    "B_bus_id": 417,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 139,
+    "A_bus_id": 118,
+    "B_bus_id": 418,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 140,
+    "A_bus_id": 119,
+    "B_bus_id": 419,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 141,
+    "A_bus_id": 120,
+    "B_bus_id": 420,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 142,
+    "A_bus_id": 121,
+    "B_bus_id": 421,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 143,
+    "A_bus_id": 122,
+    "B_bus_id": 422,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 144,
+    "A_bus_id": 123,
+    "B_bus_id": 423,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 145,
+    "A_bus_id": 124,
+    "B_bus_id": 424,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 146,
+    "A_bus_id": 125,
+    "B_bus_id": 425,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 147,
+    "A_bus_id": 126,
+    "B_bus_id": 426,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 148,
+    "A_bus_id": 127,
+    "B_bus_id": 427,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 149,
+    "A_bus_id": 128,
+    "B_bus_id": 428,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 150,
+    "A_bus_id": 129,
+    "B_bus_id": 429,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 151,
+    "A_bus_id": 130,
+    "B_bus_id": 430,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 152,
+    "A_bus_id": 131,
+    "B_bus_id": 431,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 153,
+    "A_bus_id": 132,
+    "B_bus_id": 432,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 154,
+    "A_bus_id": 133,
+    "B_bus_id": 433,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 155,
+    "A_bus_id": 134,
+    "B_bus_id": 434,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 156,
+    "A_bus_id": 135,
+    "B_bus_id": 435,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 157,
+    "A_bus_id": 136,
+    "B_bus_id": 436,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 158,
+    "A_bus_id": 137,
+    "B_bus_id": 437,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 159,
+    "A_bus_id": 138,
+    "B_bus_id": 438,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 160,
+    "A_bus_id": 139,
+    "B_bus_id": 439,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 161,
+    "A_bus_id": 140,
+    "B_bus_id": 440,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 162,
+    "A_bus_id": 141,
+    "B_bus_id": 441,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 163,
+    "A_bus_id": 142,
+    "B_bus_id": 442,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 164,
+    "A_bus_id": 143,
+    "B_bus_id": 443,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 165,
+    "A_bus_id": 144,
+    "B_bus_id": 444,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 166,
+    "A_bus_id": 145,
+    "B_bus_id": 445,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 167,
+    "A_bus_id": 146,
+    "B_bus_id": 446,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 168,
+    "A_bus_id": 147,
+    "B_bus_id": 447,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 169,
+    "A_bus_id": 148,
+    "B_bus_id": 448,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 170,
+    "A_bus_id": 149,
+    "B_bus_id": 449,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 171,
+    "A_bus_id": 150,
+    "B_bus_id": 450,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 172,
+    "A_bus_id": 151,
+    "B_bus_id": 451,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 173,
+    "A_bus_id": 152,
+    "B_bus_id": 452,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 174,
+    "A_bus_id": 153,
+    "B_bus_id": 453,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 175,
+    "A_bus_id": 154,
+    "B_bus_id": 454,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 176,
+    "A_bus_id": 155,
+    "B_bus_id": 455,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 177,
+    "A_bus_id": 156,
+    "B_bus_id": 456,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 178,
+    "A_bus_id": 157,
+    "B_bus_id": 457,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 179,
+    "A_bus_id": 158,
+    "B_bus_id": 458,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 180,
+    "A_bus_id": 159,
+    "B_bus_id": 459,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 181,
+    "A_bus_id": 160,
+    "B_bus_id": 460,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 182,
+    "A_bus_id": 161,
+    "B_bus_id": 461,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 183,
+    "A_bus_id": 162,
+    "B_bus_id": 462,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 184,
+    "A_bus_id": 163,
+    "B_bus_id": 463,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 185,
+    "A_bus_id": 164,
+    "B_bus_id": 464,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 186,
+    "A_bus_id": 165,
+    "B_bus_id": 465,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 187,
+    "A_bus_id": 166,
+    "B_bus_id": 466,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 188,
+    "A_bus_id": 167,
+    "B_bus_id": 467,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 189,
+    "A_bus_id": 168,
+    "B_bus_id": 468,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 190,
+    "A_bus_id": 169,
+    "B_bus_id": 469,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 191,
+    "A_bus_id": 170,
+    "B_bus_id": 470,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 192,
+    "A_bus_id": 171,
+    "B_bus_id": 471,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 193,
+    "A_bus_id": 172,
+    "B_bus_id": 472,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 194,
+    "A_bus_id": 173,
+    "B_bus_id": 473,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 195,
+    "A_bus_id": 174,
+    "B_bus_id": 474,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 196,
+    "A_bus_id": 175,
+    "B_bus_id": 475,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 197,
+    "A_bus_id": 176,
+    "B_bus_id": 476,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 198,
+    "A_bus_id": 177,
+    "B_bus_id": 477,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 199,
+    "A_bus_id": 178,
+    "B_bus_id": 478,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 200,
+    "A_bus_id": 179,
+    "B_bus_id": 479,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 201,
+    "A_bus_id": 180,
+    "B_bus_id": 480,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 202,
+    "A_bus_id": 181,
+    "B_bus_id": 481,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 203,
+    "A_bus_id": 182,
+    "B_bus_id": 482,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 204,
+    "A_bus_id": 183,
+    "B_bus_id": 483,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 205,
+    "A_bus_id": 184,
+    "B_bus_id": 484,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 206,
+    "A_bus_id": 185,
+    "B_bus_id": 485,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 207,
+    "A_bus_id": 186,
+    "B_bus_id": 486,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 208,
+    "A_bus_id": 187,
+    "B_bus_id": 487,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 209,
+    "A_bus_id": 188,
+    "B_bus_id": 488,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 210,
+    "A_bus_id": 189,
+    "B_bus_id": 489,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 211,
+    "A_bus_id": 190,
+    "B_bus_id": 490,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 212,
+    "A_bus_id": 191,
+    "B_bus_id": 491,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 213,
+    "A_bus_id": 192,
+    "B_bus_id": 492,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 214,
+    "A_bus_id": 193,
+    "B_bus_id": 493,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 215,
+    "A_bus_id": 194,
+    "B_bus_id": 494,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 216,
+    "A_bus_id": 195,
+    "B_bus_id": 495,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 217,
+    "A_bus_id": 196,
+    "B_bus_id": 496,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 218,
+    "A_bus_id": 197,
+    "B_bus_id": 497,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 219,
+    "A_bus_id": 198,
+    "B_bus_id": 498,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 220,
+    "A_bus_id": 199,
+    "B_bus_id": 499,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 221,
+    "A_bus_id": 200,
+    "B_bus_id": 500,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 222,
+    "A_bus_id": 201,
+    "B_bus_id": 501,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 223,
+    "A_bus_id": 202,
+    "B_bus_id": 502,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 224,
+    "A_bus_id": 203,
+    "B_bus_id": 503,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 225,
+    "A_bus_id": 204,
+    "B_bus_id": 504,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 226,
+    "A_bus_id": 205,
+    "B_bus_id": 505,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 227,
+    "A_bus_id": 206,
+    "B_bus_id": 506,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 228,
+    "A_bus_id": 207,
+    "B_bus_id": 507,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 229,
+    "A_bus_id": 208,
+    "B_bus_id": 508,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 230,
+    "A_bus_id": 209,
+    "B_bus_id": 509,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 231,
+    "A_bus_id": 210,
+    "B_bus_id": 510,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 232,
+    "A_bus_id": 211,
+    "B_bus_id": 511,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 233,
+    "A_bus_id": 212,
+    "B_bus_id": 512,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 234,
+    "A_bus_id": 213,
+    "B_bus_id": 513,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 235,
+    "A_bus_id": 214,
+    "B_bus_id": 514,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 236,
+    "A_bus_id": 215,
+    "B_bus_id": 515,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 237,
+    "A_bus_id": 216,
+    "B_bus_id": 516,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 238,
+    "A_bus_id": 217,
+    "B_bus_id": 517,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 239,
+    "A_bus_id": 218,
+    "B_bus_id": 518,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 240,
+    "A_bus_id": 219,
+    "B_bus_id": 519,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 241,
+    "A_bus_id": 220,
+    "B_bus_id": 520,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 242,
+    "A_bus_id": 221,
+    "B_bus_id": 521,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 243,
+    "A_bus_id": 222,
+    "B_bus_id": 522,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 244,
+    "A_bus_id": 223,
+    "B_bus_id": 523,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 245,
+    "A_bus_id": 224,
+    "B_bus_id": 524,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 246,
+    "A_bus_id": 225,
+    "B_bus_id": 525,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 247,
+    "A_bus_id": 226,
+    "B_bus_id": 526,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 248,
+    "A_bus_id": 227,
+    "B_bus_id": 527,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 249,
+    "A_bus_id": 228,
+    "B_bus_id": 528,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 250,
+    "A_bus_id": 229,
+    "B_bus_id": 529,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 281,
+    "A_bus_id": 230,
+    "B_bus_id": 530,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 319,
+    "A_bus_id": 231,
+    "B_bus_id": 531,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 320,
+    "A_bus_id": 232,
+    "B_bus_id": 532,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 322,
+    "A_bus_id": 233,
+    "B_bus_id": 533,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 323,
+    "A_bus_id": 234,
+    "B_bus_id": 534,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 324,
+    "A_bus_id": 235,
+    "B_bus_id": 535,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 526,
+    "A_bus_id": 236,
+    "B_bus_id": 536,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 528,
+    "A_bus_id": 237,
+    "B_bus_id": 537,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 531,
+    "A_bus_id": 238,
+    "B_bus_id": 538,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 552,
+    "A_bus_id": 239,
+    "B_bus_id": 539,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 562,
+    "A_bus_id": 240,
+    "B_bus_id": 540,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 609,
+    "A_bus_id": 241,
+    "B_bus_id": 541,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 664,
+    "A_bus_id": 242,
+    "B_bus_id": 542,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 1190,
+    "A_bus_id": 243,
+    "B_bus_id": 543,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 1200,
+    "A_bus_id": 244,
+    "B_bus_id": 544,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 1201,
+    "A_bus_id": 245,
+    "B_bus_id": 545,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 2040,
+    "A_bus_id": 246,
+    "B_bus_id": 546,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7001,
+    "A_bus_id": 247,
+    "B_bus_id": 547,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7002,
+    "A_bus_id": 248,
+    "B_bus_id": 548,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7003,
+    "A_bus_id": 249,
+    "B_bus_id": 549,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7011,
+    "A_bus_id": 250,
+    "B_bus_id": 550,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7012,
+    "A_bus_id": 251,
+    "B_bus_id": 551,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7017,
+    "A_bus_id": 252,
+    "B_bus_id": 552,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7023,
+    "A_bus_id": 253,
+    "B_bus_id": 553,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7024,
+    "A_bus_id": 254,
+    "B_bus_id": 554,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7039,
+    "A_bus_id": 255,
+    "B_bus_id": 555,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7044,
+    "A_bus_id": 256,
+    "B_bus_id": 556,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7049,
+    "A_bus_id": 257,
+    "B_bus_id": 557,
+    "exclude_REF_PV_pair": true,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7055,
+    "A_bus_id": 258,
+    "B_bus_id": 558,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7057,
+    "A_bus_id": 259,
+    "B_bus_id": 559,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7061,
+    "A_bus_id": 260,
+    "B_bus_id": 560,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7062,
+    "A_bus_id": 261,
+    "B_bus_id": 561,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7071,
+    "A_bus_id": 262,
+    "B_bus_id": 562,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7130,
+    "A_bus_id": 263,
+    "B_bus_id": 563,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7139,
+    "A_bus_id": 264,
+    "B_bus_id": 564,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 7166,
+    "A_bus_id": 265,
+    "B_bus_id": 565,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9001,
+    "A_bus_id": 266,
+    "B_bus_id": 566,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9002,
+    "A_bus_id": 267,
+    "B_bus_id": 567,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9003,
+    "A_bus_id": 268,
+    "B_bus_id": 568,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9004,
+    "A_bus_id": 269,
+    "B_bus_id": 569,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9005,
+    "A_bus_id": 270,
+    "B_bus_id": 570,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9006,
+    "A_bus_id": 271,
+    "B_bus_id": 571,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9007,
+    "A_bus_id": 272,
+    "B_bus_id": 572,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9012,
+    "A_bus_id": 273,
+    "B_bus_id": 573,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9021,
+    "A_bus_id": 274,
+    "B_bus_id": 574,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9022,
+    "A_bus_id": 275,
+    "B_bus_id": 575,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9023,
+    "A_bus_id": 276,
+    "B_bus_id": 576,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9024,
+    "A_bus_id": 277,
+    "B_bus_id": 577,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9025,
+    "A_bus_id": 278,
+    "B_bus_id": 578,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9026,
+    "A_bus_id": 279,
+    "B_bus_id": 579,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9031,
+    "A_bus_id": 280,
+    "B_bus_id": 580,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9032,
+    "A_bus_id": 281,
+    "B_bus_id": 581,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9033,
+    "A_bus_id": 282,
+    "B_bus_id": 582,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9034,
+    "A_bus_id": 283,
+    "B_bus_id": 583,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9035,
+    "A_bus_id": 284,
+    "B_bus_id": 584,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9036,
+    "A_bus_id": 285,
+    "B_bus_id": 585,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9037,
+    "A_bus_id": 286,
+    "B_bus_id": 586,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9038,
+    "A_bus_id": 287,
+    "B_bus_id": 587,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9041,
+    "A_bus_id": 288,
+    "B_bus_id": 588,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9042,
+    "A_bus_id": 289,
+    "B_bus_id": 589,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9043,
+    "A_bus_id": 290,
+    "B_bus_id": 590,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9044,
+    "A_bus_id": 291,
+    "B_bus_id": 591,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9051,
+    "A_bus_id": 292,
+    "B_bus_id": 592,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9052,
+    "A_bus_id": 293,
+    "B_bus_id": 593,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9053,
+    "A_bus_id": 294,
+    "B_bus_id": 594,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9054,
+    "A_bus_id": 295,
+    "B_bus_id": 595,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9055,
+    "A_bus_id": 296,
+    "B_bus_id": 596,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9071,
+    "A_bus_id": 297,
+    "B_bus_id": 597,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9072,
+    "A_bus_id": 298,
+    "B_bus_id": 598,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9121,
+    "A_bus_id": 299,
+    "B_bus_id": 599,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  },
+  {
+    "source_id": 9533,
+    "A_bus_id": 300,
+    "B_bus_id": 600,
+    "exclude_REF_PV_pair": false,
+    "onehop_type_pattern_differs": false
+  }
+]

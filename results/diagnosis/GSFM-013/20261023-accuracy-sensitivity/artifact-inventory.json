@@ -1,0 +1,163 @@
+{
+  "artifact_root": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/diagnosis/GSFM-013/20261023-accuracy-sensitivity",
+  "availability": "Files marked local_only exist only on this Mac; not remotely retrievable from these hashes. All other files are in the public results commit.",
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/.gitignore",
+      "bytes": 397,
+      "sha256": "004d3721d9b4cb29d2733dc525d219b381e4e5f5a4321fdb90894372c5bca5cd",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/01-state-error.pdf",
+      "bytes": 82837,
+      "sha256": "7445d8ee6a582230c0e482746947f50194af622688188e5649eeeba68a598a6c",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/01-state-error.png",
+      "bytes": 261410,
+      "sha256": "71403d8dad9bbc80a3d2cfc466fcc8d3ff67884506572db7edcce2166f2041de",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/02-sensitivity.pdf",
+      "bytes": 76921,
+      "sha256": "46106ab77f65c634a1cc6d22a8559963befdf251fef3f465c479d9d80253bc8d",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/02-sensitivity.png",
+      "bytes": 285290,
+      "sha256": "c944f63db0e5428b7544a4d016da51158c46c58fc6e5f583822da795266f44d0",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/03-gross-net.pdf",
+      "bytes": 205322,
+      "sha256": "600dd0da6799085cff2a9656cd4a520e89198d5a3e448315115d05dc556f2c84",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/03-gross-net.png",
+      "bytes": 248499,
+      "sha256": "b1424f551933cc0d08316fc2682cf40ed575f396be64fa49cf6395e9f705219e",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/04-matched-budgets.pdf",
+      "bytes": 20518,
+      "sha256": "769c060f96801aef066faf95873356f32f50da0a5634c4e2707c080e2a8af8c0",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/04-matched-budgets.png",
+      "bytes": 85835,
+      "sha256": "4d8b6f5008301aa2453634ca7ae523d85b6378dc972c39993ebd8720e713b3bd",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/README.md",
+      "bytes": 6893,
+      "sha256": "de74e851156840e6b70b49b4786e6b4f58603dfb2c1bd5be1b458573db485cd1",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/admissible-pairs.csv",
+      "bytes": 99573,
+      "sha256": "4806b7c286c684a203fc621a3dccb5fb0a555c87c34fd2c8d871bafca6fe824a",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/bus-decomposition.csv",
+      "bytes": 6353873,
+      "sha256": "0e7c68b7546aac86f7e0f58164ad33880cf13df987dbbe335d596c754fa12704",
+      "local_only": true
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/eligible-high-low-pairs.csv",
+      "bytes": 20193,
+      "sha256": "ae08bbe0b0aecaa5490150cf596cff8458eb7733ad61eba33f53f3f765ba898f",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/execution-provenance.json",
+      "bytes": 3175,
+      "sha256": "0538f72ba7446b5999b75fd106de4b680b245b3754318d311ac193649ad8a906",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/gates.json",
+      "bytes": 4888,
+      "sha256": "ff1101f47d4aa1f7098ce89c55d0313f1935d31a25a110edd03df91fb9ec63ac",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/homologous-comparison.csv",
+      "bytes": 93360,
+      "sha256": "20ab717b2fe02b3c176d20f0f92b2e7b3227706e46863d3bab5267e9bffb3ebf",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/homologous-pairs.json",
+      "bytes": 44261,
+      "sha256": "5ec5c5bd0964b3227822af1e8d98cbd95ea21b60b36bf9e75dd51b9ed1527143",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/jacobian-checks.json",
+      "bytes": 6849,
+      "sha256": "34b717d9bd9acc5b7f9d240975367af0abf0c8e3261b4f13a852880ae9567d18",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/load-tracking.csv",
+      "bytes": 183583,
+      "sha256": "4aa81b46ad724cd74b74d3705a467054d1114c597f3543d7d0ae9907cb64bca4",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/matched-examples.csv",
+      "bytes": 1051,
+      "sha256": "57c99caedea1792f316abdc11e7cf9f1a529b26387462febfc5f5e1a7c22fce9",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/matching-rule.json",
+      "bytes": 905,
+      "sha256": "715eb2f480cf4e1988f831a06dfee7d6673a25cfc58882ae5157237bb8be24c4",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/report-table.json",
+      "bytes": 936,
+      "sha256": "ebb8fc372a31ec759f57221d641bcaebe07d07e1b05af587f5365d9eb12a7ea0",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/source-bus-features.json",
+      "bytes": 764161,
+      "sha256": "841167246829ce21e2ea5f5d9a5d0335fed8831dda5ea1acc6685f0e45ced0bf",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/summary.json",
+      "bytes": 6195,
+      "sha256": "ebc939831c2a458aa5ba52aaae753f575b3b8e2775ec718c05a60f4349eb11e4",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/unmatched-hotspots.csv",
+      "bytes": 50117,
+      "sha256": "e4b956ce0c800f4e0ef710a15103291e0f11c882d83b80a05bed4976ee7424d1",
+      "local_only": false
+    },
+    {
+      "path": "results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/verification.json",
+      "bytes": 728,
+      "sha256": "a99894d83fefe1df73f6a8ed8f80beb62ab90b32a184c82a3693e535036ed0e6",
+      "local_only": false
+    }
+  ]
+}

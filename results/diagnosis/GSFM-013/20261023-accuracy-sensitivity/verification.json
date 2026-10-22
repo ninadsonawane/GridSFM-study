@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "rows": 7200,
+  "original_source_and_generated_bus_IDs_verified": true,
+  "max_saved_residual_difference": 8.36735125631094e-11,
+  "all_signed_cancellation_identities_pass": true,
+  "jacobian_blocks_checked": 18,
+  "all_Jacobian_checks_pass": true,
+  "admissible_source_pair_hash_preserved": true,
+  "illustrative_pairs": 24,
+  "maximum_per_component_release_across_networks": 6,
+  "original_110_reference_dependent_rows": 0,
+  "new_model_inference_solves_training": 0,
+  "prior_inventories_unchanged": {
+    "results/comparisons/GSFM-011B/20261022-original-case300": 35,
+    "results/comparisons/GSFM-011C-1/20261022-loading-only": 240,
+    "results/diagnosis/GSFM-011D/20261022-saved-states": 31
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "groups": [
+    {
+      "network": "original300",
+      "release": "newer-base-v2",
+      "component": "P",
+      "source_pairs": 506,
+      "eligible": 33,
+      "selected": 3,
+      "unmatched_high": 63,
+      "named_unmatched": [
+        [
+          "original",
+          "137"
+        ],
+        [
+          "original",
+          "231"
+        ],
+        [
+          "original",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 10.045134689305302,
+        "median": 3.735713860452247,
+        "p95": 43.69149704953935,
+        "max": 164.5246535618919,
+        "count": 300
+      }
+    },
+    {
+      "network": "original300",
+      "release": "newer-base-v2",
+      "component": "Q",
+      "source_pairs": 506,
+      "eligible": 35,
+      "selected": 1,
+      "unmatched_high": 61,
+      "named_unmatched": [
+        [
+          "original",
+          "137"
+        ],
+        [
+          "original",
+          "231"
+        ],
+        [
+          "original",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 26.905170662466062,
+        "median": 6.239197311523128,
+        "p95": 107.0534983179589,
+        "max": 924.7067355064473,
+        "count": 300
+      }
+    },
+    {
+      "network": "original300",
+      "release": "microsoft-v1.1",
+      "component": "P",
+      "source_pairs": 506,
+      "eligible": 42,
+      "selected": 3,
+      "unmatched_high": 59,
+      "named_unmatched": [
+        [
+          "original",
+          "137"
+        ],
+        [
+          "original",
+          "231"
+        ],
+        [
+          "original",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 4.204608647643136,
+        "median": 1.2587979489022456,
+        "p95": 15.743053164870059,
+        "max": 200.89787239147245,
+        "count": 300
+      }
+    },
+    {
+      "network": "original300",
+      "release": "microsoft-v1.1",
+      "component": "Q",
+      "source_pairs": 506,
+      "eligible": 30,
+      "selected": 4,
+      "unmatched_high": 63,
+      "named_unmatched": [
+        [
+          "original",
+          "231"
+        ],
+        [
+          "original",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 11.719969514594638,
+        "median": 3.4885153064601226,
+        "p95": 43.363944462546804,
+        "max": 489.58792026714036,
+        "count": 300
+      }
+    },
+    {
+      "network": "constructed600",
+      "release": "newer-base-v2",
+      "component": "P",
+      "source_pairs": 1031,
+      "eligible": 62,
+      "selected": 3,
+      "unmatched_high": 132,
+      "named_unmatched": [
+        [
+          "A",
+          "137"
+        ],
+        [
+          "A",
+          "231"
+        ],
+        [
+          "A",
+          "238"
+        ],
+        [
+          "B",
+          "137"
+        ],
+        [
+          "B",
+          "231"
+        ],
+        [
+          "B",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 9.06472764250524,
+        "median": 3.020322957311677,
+        "p95": 39.082374496916955,
+        "max": 183.0110411131202,
+        "count": 600
+      }
+    },
+    {
+      "network": "constructed600",
+      "release": "newer-base-v2",
+      "component": "Q",
+      "source_pairs": 1031,
+      "eligible": 118,
+      "selected": 5,
+      "unmatched_high": 119,
+      "named_unmatched": [
+        [
+          "A",
+          "137"
+        ],
+        [
+          "B",
+          "137"
+        ],
+        [
+          "B",
+          "231"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 22.39771814454598,
+        "median": 4.55972302080691,
+        "p95": 95.97321805555768,
+        "max": 1073.1043065695485,
+        "count": 600
+      }
+    },
+    {
+      "network": "constructed600",
+      "release": "microsoft-v1.1",
+      "component": "P",
+      "source_pairs": 1031,
+      "eligible": 80,
+      "selected": 3,
+      "unmatched_high": 117,
+      "named_unmatched": [
+        [
+          "A",
+          "137"
+        ],
+        [
+          "A",
+          "231"
+        ],
+        [
+          "A",
+          "238"
+        ],
+        [
+          "B",
+          "137"
+        ],
+        [
+          "B",
+          "231"
+        ],
+        [
+          "B",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 3.666310981312933,
+        "median": 0.9023676627501498,
+        "p95": 18.107425938908275,
+        "max": 71.73636602714157,
+        "count": 600
+      }
+    },
+    {
+      "network": "constructed600",
+      "release": "microsoft-v1.1",
+      "component": "Q",
+      "source_pairs": 1031,
+      "eligible": 45,
+      "selected": 2,
+      "unmatched_high": 129,
+      "named_unmatched": [
+        [
+          "A",
+          "137"
+        ],
+        [
+          "A",
+          "231"
+        ],
+        [
+          "A",
+          "238"
+        ],
+        [
+          "B",
+          "137"
+        ],
+        [
+          "B",
+          "238"
+        ]
+      ],
+      "strict_accurate_neighborhood_count": 0,
+      "nonlinear_remainder_abs": {
+        "mean": 10.760732933294257,
+        "median": 2.5098510479445166,
+        "p95": 46.30944924759943,
+        "max": 336.09622876401926,
+        "count": 600
+      }
+    }
+  ],
+  "first_newer_Q_comparator_bus34": {
+    "Vm_signed_error_pu": "0.005600662938829437",
+    "onehop_Vm_error_mean_pu": "0.00990772535690465",
+    "Q_native_residual": "-6.340611319778181",
+    "Q_gross_individual_error": "57.35947187181017",
+    "Q_cancellation": "0.8894583385644167",
+    "P_native_residual": "122.69554347942912",
+    "P_gross_individual_error": "306.9593712608772",
+    "P_cancellation": "0.6002873508131074"
+  },
+  "max_jacobian_halfstep_relative": 3.488035192775401e-10,
+  "max_analytic_vs_fd_relative": 2.7573689478292604e-10
+}

@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "matching_frozen_before_outcomes": true,
+  "all_Jacobian_halfstep_and_analytic_checks_pass": true,
+  "source_state_hashes": [
+    {
+      "network": "original300",
+      "scenario": "base",
+      "input_sha256": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed",
+      "reference_sha256": "c6f6ef5110422baab7269099cc2eb8c47803bc38bfe77e439af48f2203644461",
+      "newer-base-v2_native_sha256": "7151c655cfc762c6ff26ccf990120e53961fa204943d20eef5ec42e60436925e",
+      "microsoft-v1.1_native_sha256": "6153ff6d55762fd61ae2fa8bf1406f742a8962375766b1bdd40a0f41448a58ca"
+    },
+    {
+      "network": "original300",
+      "scenario": "load0.80",
+      "input_sha256": "a207ef4e87e8d98323650effaaf5a50ab9a39b4f6c6fcdcf7adceb3fa9c87f2d",
+      "reference_sha256": "3acdfbe5132c1d5778dbe47daf69ff2978a16444243d4fb1e6e0e05b1fe2a154",
+      "newer-base-v2_native_sha256": "1ba354ed003727877e5ed3e044b4ce08a1dc4ca0f19b56d00f179ff6153423d6",
+      "microsoft-v1.1_native_sha256": "3342677b87a73079d9e8b25daad67b23a3d2cac5af0645d2727a55660ec2f298"
+    },
+    {
+      "network": "original300",
+      "scenario": "load0.90",
+      "input_sha256": "9b82e9210b3eca4856ffd7df01a4e6ff1620c13adf654261193da8b85ea274fb",
+      "reference_sha256": "0bd7e6a8b396807280b6fcf44735bae2beb47d1085d4397215db99de49d68a43",
+      "newer-base-v2_native_sha256": "4e2d91db69bf88d9e9197dae23ae269b1e9a8de7f7f36e553a9694cee15dce36",
+      "microsoft-v1.1_native_sha256": "90e56a7f1fa85a984d5553771ea0b0faedc8da7a0c0d981a94aab83872f379c5"
+    },
+    {
+      "network": "original300",
+      "scenario": "load0.95",
+      "input_sha256": "b763b5560b5df01c1104a540e6a470fede8cf9e73861fcae7ca0f4fb1788b9b9",
+      "reference_sha256": "c35577b90225e6fd5fa955f62974cb4b7d4e4235cb8c74be2d895a97087ab6a4",
+      "newer-base-v2_native_sha256": "9823c17a12bb0bdbf710a98515603d54c81b0e3858aae4e392d2ef4a0ef4e8de",
+      "microsoft-v1.1_native_sha256": "fa7a646ef7c476b06af4a816c30fb82362f1a907283c71081350b7ecd63e971c"
+    },
+    {
+      "network": "original300",
+      "scenario": "load1.03",
+      "input_sha256": "21a3239d57278af15898cd97858e1a9db10f455850a9c30bc221a2a743e8143b",
+      "reference_sha256": "de03ed6c262eca1efb9356774313e99850880c504b586c761628eb011c53eec3",
+      "newer-base-v2_native_sha256": "41b9d4ca6664c69e9ecc645ecf47b2ce64a6b91fff1ad9f0d5bc7bac9a82a735",
+      "microsoft-v1.1_native_sha256": "f218ae3c51147574b3a0b5db7bd593c9dad09447bdb060bd96d158cf0ea4b2c7"
+    },
+    {
+      "network": "original300",
+      "scenario": "load1.06",
+      "input_sha256": "e973701e28405b93790d7da9ee25bb5344da69e66526ae0f4af7ba36700bab60",
+      "reference_sha256": "ea93daf35e0307218d86ebd52baec0f38eafe953d8e54747d741f6f624c5bee5",
+      "newer-base-v2_native_sha256": "16bf94aab2fe4e39936b32c1e1dc7a13c89781c6a5521f6f2466592ce35102af",
+      "microsoft-v1.1_native_sha256": "2a2a9f46dcf6c8de7ff9ccf72c0593bbb4cf1e7ccbe5aba7f4f3674686ce6700"
+    },
+    {
+      "network": "constructed600",
+      "scenario": "S0",
+      "input_sha256": "73883ff8c061999d8b50aa27c43bd9b40527b448ffe98fab9aacd073bf04c0f6",
+      "reference_sha256": "5ba81697fb279d35ff49e4a09eb081af8ffb8cfe7e781e886d150e25c6b5813e",
+      "newer-base-v2_native_sha256": "803c7ee5bb5dad4edcf3d9ecd1561741e77829a1111dda75963c47a05762220b",
+      "microsoft-v1.1_native_sha256": "959ba24ee6bddc6e05ef8f3be6887972bfe1e48ba25aba552e290b851d120842"
+    },
+    {
+      "network": "constructed600",
+      "scenario": "Splus",
+      "input_sha256": "dee30cea053c2f21b021f58fdd7f32e516da0be83c8a23e192e4934fd0ebb4cd",
+      "reference_sha256": "6c602ccfa1215157704e246b294d0994b6443b7f2e3063feeeacc49661f02390",
+      "newer-base-v2_native_sha256": "1d97aebbe4d381bb7cbf5abe2b1b41981480054bc853106b6d0128f5f251dd1a",
+      "microsoft-v1.1_native_sha256": "7e1ca4156b22f1bdcbd50a54035bc25ca593d6b72d2abee7604269a8ac8b1deb"
+    },
+    {
+      "network": "constructed600",
+      "scenario": "Sminus",
+      "input_sha256": "ef0b8b19db44a51579623e9f99b91b640383b0b85d30dae787a3ce9c445d854c",
+      "reference_sha256": "e79ed1f2808bd730296ae8dff6aa67a5389d9faa88a4068830fab17dfac9b943",
+      "newer-base-v2_native_sha256": "ac75020428d396bdac2d78cff85a845d8aa8d03abdf27f68612b637976fd9256",
+      "microsoft-v1.1_native_sha256": "925adaea24c2b8361f3fc2716505b5ff2d3ccef2687521d7cfe3aca4b90aa937"
+    }
+  ],
+  "network_scenarios": 9,
+  "release_state_count": 18,
+  "original_110_reference_dependent_rows": 0,
+  "admissible_pairs": 1537,
+  "eligible_high_low_pairs": 445,
+  "selected_example_pairs": 24,
+  "all_native_reference_Ybus_branch_gates_pass": true,
+  "new_inference_solves_training": 0,
+  "started_UTC": "2026-10-22T20:19:54.392212+00:00",
+  "finished_UTC": "2026-10-22T20:19:55.560348+00:00",
+  "example_cap": "Six per component/release across both networks combined; distance then high/low IDs, network final tie"
+}

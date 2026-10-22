@@ -1,0 +1,20 @@
+{
+  "started_UTC": "2026-10-22T20:19:54.392212+00:00",
+  "frozen_before_outcomes": true,
+  "pair_file_sha256": "4806b7c286c684a203fc621a3dccb5fb0a555c87c34fd2c8d871bafca6fe824a",
+  "exact_match": [
+    "bus_type",
+    "online_generator_count",
+    "base_kV",
+    "structural_zero_injection",
+    "nonzero_shunt_presence",
+    "incident_transformer_count",
+    "parallel_excess"
+  ],
+  "degree_and_unique_neighbors_caliper": 1,
+  "signed_Pd_Qd_caliper": 0.25,
+  "load_distance_denominator": "max(10,abs(a),abs(b))",
+  "no_impedance_sensitivity_or_prediction_for_admissibility": true,
+  "accuracy_example_definition": "All local/onehop absVm errors<=.001pu, all incident angle-difference errors<=.001rad, and local generator Pg/Qg errors<=.001MW/MVAr if generators exist",
+  "high_low_imbalance_rule": "top/bottom floor(N/4), absolute component then external-ID tie break; networks/releases/P/Q separate"
+}

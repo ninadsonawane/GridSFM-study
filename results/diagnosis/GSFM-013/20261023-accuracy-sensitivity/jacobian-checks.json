@@ -1,0 +1,200 @@
+[
+  {
+    "network": "original300",
+    "scenario": "base",
+    "block": "V",
+    "relative_Frobenius_halfstep": 2.812838462742168e-10,
+    "max_row_entry_disagreement": 7.334946047632836e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.317158823217545e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "base",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.5282284489316433e-10,
+    "max_row_entry_disagreement": 3.706184116870787e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.326983423611135e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load0.80",
+    "block": "V",
+    "relative_Frobenius_halfstep": 3.037516381342204e-10,
+    "max_row_entry_disagreement": 0.00012124607726372925,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.1908401078429255e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load0.80",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.6956265539280697e-10,
+    "max_row_entry_disagreement": 4.7647324029481164e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.4719779302415342e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load0.90",
+    "block": "V",
+    "relative_Frobenius_halfstep": 2.700522875776195e-10,
+    "max_row_entry_disagreement": 9.719977861086175e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.9544384577779306e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load0.90",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.8352326093642305e-10,
+    "max_row_entry_disagreement": 7.189958688467359e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.6076253605119647e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load0.95",
+    "block": "V",
+    "relative_Frobenius_halfstep": 3.326071572675005e-10,
+    "max_row_entry_disagreement": 9.855766666737278e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.3548821735510727e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load0.95",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.2069707680363432e-10,
+    "max_row_entry_disagreement": 2.463940749383081e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.4639883347041296e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load1.03",
+    "block": "V",
+    "relative_Frobenius_halfstep": 3.488035192775401e-10,
+    "max_row_entry_disagreement": 0.00014168245439452905,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.7573689478292604e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load1.03",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.8406595839150264e-10,
+    "max_row_entry_disagreement": 7.110906930479054e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.3399188705126793e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load1.06",
+    "block": "V",
+    "relative_Frobenius_halfstep": 3.0753919887493346e-10,
+    "max_row_entry_disagreement": 0.00014218531294340808,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.4585938118374855e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "original300",
+    "scenario": "load1.06",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.8066940976766295e-10,
+    "max_row_entry_disagreement": 7.197154481595169e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.6100756281592097e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "constructed600",
+    "scenario": "S0",
+    "block": "V",
+    "relative_Frobenius_halfstep": 3.299802953341112e-10,
+    "max_row_entry_disagreement": 0.00012125445916124295,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.468396483019297e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "constructed600",
+    "scenario": "S0",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 2.106909055721395e-10,
+    "max_row_entry_disagreement": 7.26468556156084e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.8530825145227704e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "constructed600",
+    "scenario": "Splus",
+    "block": "V",
+    "relative_Frobenius_halfstep": 2.7161289094934527e-10,
+    "max_row_entry_disagreement": 9.599712768082443e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.175889058739055e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "constructed600",
+    "scenario": "Splus",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.80735150708704e-10,
+    "max_row_entry_disagreement": 7.223847612766546e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.5338064723967753e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "constructed600",
+    "scenario": "Sminus",
+    "block": "V",
+    "relative_Frobenius_halfstep": 2.817253842548332e-10,
+    "max_row_entry_disagreement": 0.00011980574347578634,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 2.3119243748987819e-10,
+    "units": "MW/MVAr perpu",
+    "fixed_reference_angle_column_excluded": true
+  },
+  {
+    "network": "constructed600",
+    "scenario": "Sminus",
+    "block": "theta",
+    "relative_Frobenius_halfstep": 1.8313411775673795e-10,
+    "max_row_entry_disagreement": 7.193060646205792e-05,
+    "all_inspected_rows_pass": true,
+    "analytic_vs_halfstep_relative": 1.8159815347152406e-10,
+    "units": "MW/MVAr perrad",
+    "fixed_reference_angle_column_excluded": true
+  }
+]

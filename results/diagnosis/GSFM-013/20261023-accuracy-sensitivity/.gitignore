@@ -1,0 +1,19 @@
+# Raw scientific inputs/states remain local; see artifact-inventory.json.
+*/input.json
+*/mapping.json
+*/case.m
+*/*-native.json
+*/*-returned.json
+*/*-input.pyg.json
+*/*-poison*.json
+*/*-metadata.json
+*/ac-attempt*.json
+*/ac-failed-iterate.json
+*/dc-raw.json
+*/invalid-format*.json
+!*/invalid-format-attempt0-dc-failure.json
+*/*.log
+source/*.m
+bus-metrics.csv
+branch-flows.csv
+bus-decomposition.csv
