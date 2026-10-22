@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "stage": 12,
+  "scenario_count": 3,
+  "accepted_reference_count": 3,
+  "native_frozen_points": 6,
+  "native_joint_feasible_count": 0,
+  "valid_DC_count": 3,
+  "additional_poisoned_label_forward_calls": 4,
+  "max_Ybus_branch_disagreement_MW_MVAr": 6.772167717995639e-11,
+  "all_CSV_bus_and_branch_ids_match_original_input": true,
+  "DC_Qg_Vm_and_AC_feasibility_NA": true,
+  "all_fixed_Pg_checks_pass": true,
+  "fixed_Pg_counts_per_native_case": [],
+  "no_failed_reference_label_use": true,
+  "prior_inventories_unchanged": {
+    "results/comparisons/GSFM-011B/20261022-original-case300": 35,
+    "results/comparisons/GSFM-011C-1/20261022-loading-only": 240,
+    "results/diagnosis/GSFM-011D/20261022-saved-states": 31
+  },
+  "cases": [
+    {
+      "scenario": "S0",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "Splus",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "Sminus",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    }
+  ],
+  "invalid_DC_format_calls_retained": 0
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "method": "AC-OPF",
+    "S0_Vm_A_B_MAE": 1.8118839761882555e-15,
+    "S0_Pg_A_B_MAE": 1.2197264138927565e-12,
+    "S0_P_residual_A_B_MAE": 7.129617035639413e-13,
+    "REF_PV_distinction_source_bus": 7049,
+    "caveat": "One system angle reference; REF/PV and graph-context distinctions retained; no independent area rotations or causal bus-count/equivariance claim",
+    "paired_Splus_Sminus_swap_Pg_MAE": 1.5708336490621597e-12,
+    "paired_swap_Vm_MAE": 2.2385796919858574e-15,
+    "paired_swap_angle_MAE_one_global_gauge": 6.305829932292303e-13
+  },
+  {
+    "method": "DC-OPF",
+    "S0_Vm_A_B_MAE": null,
+    "S0_Pg_A_B_MAE": 2.185043128719556e-11,
+    "S0_P_residual_A_B_MAE": 3.815920503803123e-13,
+    "REF_PV_distinction_source_bus": 7049,
+    "caveat": "One system angle reference; REF/PV and graph-context distinctions retained; no independent area rotations or causal bus-count/equivariance claim",
+    "paired_Splus_Sminus_swap_Pg_MAE": 5.2013346930628856e-11,
+    "paired_swap_Vm_MAE": null,
+    "paired_swap_angle_MAE_one_global_gauge": 1.7720059493816128e-10
+  },
+  {
+    "method": "microsoft-v1.1",
+    "S0_Vm_A_B_MAE": 0.011188418467839559,
+    "S0_Pg_A_B_MAE": 30.487278190211974,
+    "S0_P_residual_A_B_MAE": 25.34861007779689,
+    "REF_PV_distinction_source_bus": 7049,
+    "caveat": "One system angle reference; REF/PV and graph-context distinctions retained; no independent area rotations or causal bus-count/equivariance claim",
+    "paired_Splus_Sminus_swap_Pg_MAE": 31.382311189520188,
+    "paired_swap_Vm_MAE": 0.011056389609972636,
+    "paired_swap_angle_MAE_one_global_gauge": 26.70485267032494
+  },
+  {
+    "method": "newer-base-v2",
+    "S0_Vm_A_B_MAE": 0.00035210609436035154,
+    "S0_Pg_A_B_MAE": 0.5604075348895529,
+    "S0_P_residual_A_B_MAE": 32.57239653562952,
+    "REF_PV_distinction_source_bus": 7049,
+    "caveat": "One system angle reference; REF/PV and graph-context distinctions retained; no independent area rotations or causal bus-count/equivariance claim",
+    "paired_Splus_Sminus_swap_Pg_MAE": 0.7888524860575579,
+    "paired_swap_Vm_MAE": 0.0005999838312466939,
+    "paired_swap_angle_MAE_one_global_gauge": 5.946488568953594
+  }
+]

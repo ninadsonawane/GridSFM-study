@@ -1,0 +1,110 @@
+[
+  {
+    "scenario": "S0",
+    "method": "microsoft-v1.1",
+    "component": "P",
+    "total_absolute": 19982.40967459192,
+    "tie_bus_absolute": 258.6805846986492,
+    "tie_bus_fraction": 0.012945414937997562,
+    "elsewhere_absolute": 19723.72908989327
+  },
+  {
+    "scenario": "S0",
+    "method": "microsoft-v1.1",
+    "component": "Q",
+    "total_absolute": 106711.22924790285,
+    "tie_bus_absolute": 1464.9221946146843,
+    "tie_bus_fraction": 0.013727910407736903,
+    "elsewhere_absolute": 105246.30705328817
+  },
+  {
+    "scenario": "S0",
+    "method": "newer-base-v2",
+    "component": "P",
+    "total_absolute": 91033.74726926602,
+    "tie_bus_absolute": 6565.010265802368,
+    "tie_bus_fraction": 0.07211622571554611,
+    "elsewhere_absolute": 84468.73700346366
+  },
+  {
+    "scenario": "S0",
+    "method": "newer-base-v2",
+    "component": "Q",
+    "total_absolute": 170159.26095588054,
+    "tie_bus_absolute": 1128.0802783203053,
+    "tie_bus_fraction": 0.006629555582124899,
+    "elsewhere_absolute": 169031.18067756025
+  },
+  {
+    "scenario": "Splus",
+    "method": "microsoft-v1.1",
+    "component": "P",
+    "total_absolute": 21324.634950738113,
+    "tie_bus_absolute": 322.2149706940203,
+    "tie_bus_fraction": 0.015109987647543172,
+    "elsewhere_absolute": 21002.41998004409
+  },
+  {
+    "scenario": "Splus",
+    "method": "microsoft-v1.1",
+    "component": "Q",
+    "total_absolute": 111752.69095300818,
+    "tie_bus_absolute": 1886.0592678332446,
+    "tie_bus_fraction": 0.01687708145324509,
+    "elsewhere_absolute": 109866.63168517493
+  },
+  {
+    "scenario": "Splus",
+    "method": "newer-base-v2",
+    "component": "P",
+    "total_absolute": 94290.40832644342,
+    "tie_bus_absolute": 6866.202097415153,
+    "tie_bus_fraction": 0.0728197302279531,
+    "elsewhere_absolute": 87424.20622902826
+  },
+  {
+    "scenario": "Splus",
+    "method": "newer-base-v2",
+    "component": "Q",
+    "total_absolute": 179964.516443885,
+    "tie_bus_absolute": 1508.5847135458946,
+    "tie_bus_fraction": 0.008382678671082855,
+    "elsewhere_absolute": 178455.9317303391
+  },
+  {
+    "scenario": "Sminus",
+    "method": "microsoft-v1.1",
+    "component": "P",
+    "total_absolute": 19708.680038158454,
+    "tie_bus_absolute": 191.93997204547048,
+    "tie_bus_fraction": 0.00973885474186251,
+    "elsewhere_absolute": 19516.740066112983
+  },
+  {
+    "scenario": "Sminus",
+    "method": "microsoft-v1.1",
+    "component": "Q",
+    "total_absolute": 100067.80439276555,
+    "tie_bus_absolute": 1490.4409007743375,
+    "tie_bus_fraction": 0.014894310011283605,
+    "elsewhere_absolute": 98577.36349199121
+  },
+  {
+    "scenario": "Sminus",
+    "method": "newer-base-v2",
+    "component": "P",
+    "total_absolute": 99303.82045150023,
+    "tie_bus_absolute": 6706.283089777145,
+    "tie_bus_fraction": 0.067532981704893,
+    "elsewhere_absolute": 92597.53736172308
+  },
+  {
+    "scenario": "Sminus",
+    "method": "newer-base-v2",
+    "component": "Q",
+    "total_absolute": 178094.70430440185,
+    "tie_bus_absolute": 1296.2776288333957,
+    "tie_bus_fraction": 0.007278586041602791,
+    "elsewhere_absolute": 176798.42667556845
+  }
+]

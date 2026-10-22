@@ -1,0 +1,33 @@
+{
+  "attempts": [
+    {
+      "returncode": 0,
+      "method": "default",
+      "seconds": 5.398910332995001,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm012_014/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "12-Sminus-0",
+        "method": "default",
+        "matpower_file": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-012/20261023-frozen-two-copy/Sminus/case.m",
+        "log_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-012/20261023-frozen-two-copy/Sminus/ac-attempt0.log",
+        "result_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-012/20261023-frozen-two-copy/Sminus/ac-attempt0.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_SOLVED",
+      "iterations": 29,
+      "independent_pass": true,
+      "objective": 1441695.1098369383
+    }
+  ],
+  "verified_reference": true,
+  "feasibility": "verified feasible local optimum"
+}
