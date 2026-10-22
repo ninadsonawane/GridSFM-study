@@ -1,6 +1,6 @@
 # Experiment 12 — frozen GridSFM on two connected case300 systems
 
-Status: **PROPOSED, not run.** Read [shared instructions](GSFM-012-014-common.md). Execute this experiment only, then stop for review.
+Status: **COMPLETE, 23 October 2026.** [Verified report](../../results/comparisons/GSFM-012/20261023-frozen-two-copy/README.md). Executed sequentially under Ninad’s explicit instruction to run 12–14 and push results. Earlier planning/review gates below are preserved as protocol history.
 
 ## Question
 

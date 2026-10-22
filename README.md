@@ -2,7 +2,13 @@
 
 **23 October 2026 — hardware-account handoff:** [Start here](docs/context/2026-10-23-hardware-handoff.md) for the professor's ten core questions, current conclusions and the next experiments. [HANDOFF.md](HANDOFF.md) identifies the current reading order and execution gate.
 
-Experiments **11A, 11B, 11C-1 and 11D are complete**; their result links are in the handoff. Experiments **12–14 are detailed protocols, not completed runs**: [shared evaluation rules](docs/experiments/GSFM-012-014-common.md), [12: connected case300 systems](docs/experiments/GSFM-012.md), [13: bus accuracy, sensitivity and cancellation](docs/experiments/GSFM-013.md), [14: thermal constraints on rated variants](docs/experiments/GSFM-014.md). The hardware account should read and verify readiness, then wait for Ninad's start instruction. Each experiment stops for review before the next.
+**23 October 2026 — Experiments 12, 13 and 14 completed on explicit instruction to run all three and push results.**
+
+- [12: connected case300 copies](results/comparisons/GSFM-012/20261023-frozen-two-copy/README.md): all three AC references independently pass; all six native frozen states fail AC balance. Both releases overload the synthetic ties in Splus.
+- [13: saved-state diagnosis](results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/README.md): source-only matching, checked Jacobians, separate state accuracy/sensitivity/cancellation; 445 eligible high/low comparisons, 24 selected examples. Low net imbalance can conceal cancellation. No new inference or solves.
+- [14: complete published PGLib rated variants](results/comparisons/GSFM-014/20261023-rated-variants/README.md): five accepted AC references, three UNKNOWN after allowed retries; all 16 native states fail joint feasibility, and both releases overload branches on every rated input. Eight initial DC adapter-invalid outputs were rejected/preserved; eight corrected baselines pass original DC constraints. This deviation is disclosed.
+
+Both checkpoint releases retain shipped defaults. No training, PF completion or OPF repair. Earlier 11B/C/D artifact hashes are unchanged. Raw inputs/states remain **local-only**, with SHA256 inventories; compact evidence, code, mappings and figures are published. No durable remote raw-artifact store is configured. Stop: no further experiments or external correspondence are authorized by this completed task.
 
 Current focus: frozen model approximation and physical/operational validity against AC-OPF and DC-OPF. Earlier adaptation and solver-speed work is retained as history. [Decision 0007](docs/decisions/0007-experiments12-14-handoff.md) supersedes older next-step/status paragraphs below for this continuation.
 

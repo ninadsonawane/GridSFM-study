@@ -1,6 +1,6 @@
 # Experiment 14 — thermal-limit assessment on rated 300- and 600-bus variants
 
-Status: **PROPOSED, not run.** Read [shared instructions](GSFM-012-014-common.md). Start after review of the earlier experiments. No adaptation or numerical repair.
+Status: **COMPLETE, 23 October 2026.** [Verified report](../../results/comparisons/GSFM-014/20261023-rated-variants/README.md). Executed sequentially under Ninad’s explicit instruction to run 12–14 and push results. Five accepted AC references; three solver outcomes UNKNOWN. See the retained DC-format incident and corrected baselines.
 
 ## Question and benchmark choice
 

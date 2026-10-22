@@ -6,7 +6,13 @@
 
 Completed evidence: [11A audit](results/audits/GSFM-011A/20261022-case300-pipeline/README.md), [11B base comparison](results/comparisons/GSFM-011B/20261022-original-case300/README.md), [11C-1 loading](results/comparisons/GSFM-011C-1/20261022-loading-only/README.md), [11D diagnosis](results/diagnosis/GSFM-011D/20261022-saved-states/README.md). The entire older 31-input Experiment 11 plan was not executed.
 
-Next, **documented but unrun**: [shared instructions](docs/experiments/GSFM-012-014-common.md), [12: connected case300 copies](docs/experiments/GSFM-012.md), [13: accuracy/sensitivity/cancellation](docs/experiments/GSFM-013.md), [14: rated variants and thermal constraints](docs/experiments/GSFM-014.md). Read and check readiness first. Ninad will start each on the hardware account; do not launch jobs merely because this handoff was pulled. After each run, report and stop for review. No adaptation, PF completion or OPF repair is included.
+**23 October 2026 — Experiments 12, 13 and 14 completed on explicit instruction to run all three and push results.**
+
+- [12: connected case300 copies](results/comparisons/GSFM-012/20261023-frozen-two-copy/README.md): all three AC references independently pass; all six native frozen states fail AC balance. Both releases overload the synthetic ties in Splus.
+- [13: saved-state diagnosis](results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/README.md): source-only matching, checked Jacobians, separate state accuracy/sensitivity/cancellation; 445 eligible high/low comparisons, 24 selected examples. Low net imbalance can conceal cancellation. No new inference or solves.
+- [14: complete published PGLib rated variants](results/comparisons/GSFM-014/20261023-rated-variants/README.md): five accepted AC references, three UNKNOWN after allowed retries; all 16 native states fail joint feasibility, and both releases overload branches on every rated input. Eight initial DC adapter-invalid outputs were rejected/preserved; eight corrected baselines pass original DC constraints. This deviation is disclosed.
+
+Both checkpoint releases retain shipped defaults. No training, PF completion or OPF repair. Earlier 11B/C/D artifact hashes are unchanged. Raw inputs/states remain **local-only**, with SHA256 inventories; compact evidence, code, mappings and figures are published. No durable remote raw-artifact store is configured. Stop: no further experiments or external correspondence are authorized by this completed task.
 
 Preserve local raw results when syncing. Missing artifacts or inconsistent settings must be reported, not guessed. [Decision 0007](docs/decisions/0007-experiments12-14-handoff.md) records the publication scope. The entries below are historical and do not override this section's execution state or next steps.
 

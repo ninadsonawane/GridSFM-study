@@ -1,6 +1,6 @@
 # Experiment 13 — accuracy, electrical sensitivity and cancellation at individual buses
 
-Status: **PROPOSED, not run.** Read [shared instructions](GSFM-012-014-common.md). Start after review of Experiment 12. This is saved-state analysis; no training, new model inference, PF completion or reference solves.
+Status: **COMPLETE, 23 October 2026.** [Verified report](../../results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/README.md). Executed sequentially under Ninad’s explicit instruction to run 12–14 and push results. Earlier planning/review gates below are preserved as protocol history.
 
 ## Question and why this adds something
 

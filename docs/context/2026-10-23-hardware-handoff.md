@@ -1,6 +1,14 @@
 # Hardware Codex handoff — questions, findings and Experiments 12–14
 
-23 October 2026. **Start here when continuing from another Codex account.** This is a concise research-context handoff, not a full chat transcript. Existing result files remain the evidence; the detailed next protocols are linked below. No Experiment 12–14 run is claimed.
+23 October 2026. **Start here when continuing from another Codex account.** This is a concise research-context handoff, not a full chat transcript. Existing result files remain the evidence; the detailed next protocols are linked below. This opening handoff was written before execution; the dated completion update below supersedes its unrun status.
+
+**23 October 2026 — Experiments 12, 13 and 14 completed on explicit instruction to run all three and push results.**
+
+- [12: connected case300 copies](../../results/comparisons/GSFM-012/20261023-frozen-two-copy/README.md): all three AC references independently pass; all six native frozen states fail AC balance. Both releases overload the synthetic ties in Splus.
+- [13: saved-state diagnosis](../../results/diagnosis/GSFM-013/20261023-accuracy-sensitivity/README.md): source-only matching, checked Jacobians, separate state accuracy/sensitivity/cancellation; 445 eligible high/low comparisons, 24 selected examples. Low net imbalance can conceal cancellation. No new inference or solves.
+- [14: complete published PGLib rated variants](../../results/comparisons/GSFM-014/20261023-rated-variants/README.md): five accepted AC references, three UNKNOWN after allowed retries; all 16 native states fail joint feasibility, and both releases overload branches on every rated input. Eight initial DC adapter-invalid outputs were rejected/preserved; eight corrected baselines pass original DC constraints. This deviation is disclosed.
+
+Both checkpoint releases retain shipped defaults. No training, PF completion or OPF repair. Earlier 11B/C/D artifact hashes are unchanged. Raw inputs/states remain **local-only**, with SHA256 inventories; compact evidence, code, mappings and figures are published. No durable remote raw-artifact store is configured. Stop: no further experiments or external correspondence are authorized by this completed task.
 
 ## 1. What Ninad and the professor want
 
