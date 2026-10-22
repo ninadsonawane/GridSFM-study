@@ -1,0 +1,5 @@
+method,balance_law,max_P_imbalance_MW,max_Q_imbalance_MVAr,max_Pg_violation_MW,max_Qg_violation_MVAr,max_Vm_violation_pu,max_angle_difference_violation_deg,thermal_assessment,AC_feasibility,dispatch_cost_per_hour,native_DC_constraints_pass
+AC-OPF,Original FP64 AC Ybus; includes shunts once,1.2254223340536036e-10,1.6636114708035166e-09,0.0,0.0,0.0,0,N/A: all original RATE_A=0,True,719725.0988803704,
+DC-OPF,DC only; AC P/Q balance N/A,5.115907697472721e-12,,0.0,,,,N/A: all original RATE_A=0,,,True
+Microsoft v1.1,Original FP64 AC Ybus; includes shunts once,3754.079585405147,8937.968110943955,0.0,4.76837158203125e-06,2.38418573772492e-09,0,N/A: all original RATE_A=0,False,324075.4980464783,
+Newer v2,Original FP64 AC Ybus; includes shunts once,3210.6654156245036,7958.02712315516,3.814697265625e-05,4.76837158203125e-06,2.38418573772492e-09,0,N/A: all original RATE_A=0,False,1006918.5894895509,

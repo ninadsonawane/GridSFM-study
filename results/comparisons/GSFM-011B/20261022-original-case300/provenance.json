@@ -1,0 +1,37 @@
+{
+  "date_IST": "2026-10-22",
+  "scope": "11B only; one original case300; no completion/repair, training, sigmoid override or11C",
+  "start": {
+    "UTC": "2026-10-22T08:44:51.152327+00:00",
+    "scope": "11B only, one original case300; no completion/repair, training, sigmoid override, sweeps, 11C"
+  },
+  "completed_UTC": "2026-10-22T08:55:26.222990+00:00",
+  "execution_study_commit": "852687c59c6ca39266eede757ffa0e44efaa2810",
+  "source_case_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/inference/2026-10-21-base-cases/case300.m",
+  "source_case_sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+  "input_sha256": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed",
+  "script_sha256": {
+    "experiments/gsfm011b/run_baselines.py": "d420b4fbe1aaa529128ebd2e8f97b2d0848ce1fb4451a0acf9192aadf7aa9046",
+    "experiments/gsfm011b/run_model.py": "993a026390a49c137cfd96bb22bc4fbcf3e1ad8bf79d2885b201468a8c0fb9c1",
+    "experiments/gsfm011b/evaluate.py": "503dc2527ce40300a337353dbda93e4f3c8c0c756f1b09faeccf163178eb955b"
+  },
+  "solver_builder_sha256": "b36ca5cdf1da5b6044b204267deec25bfca88b54b35994fb4b4ccc9d5008e036",
+  "exact_checker_sha256": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834",
+  "audit11A_model_source_hashes_reverified": true,
+  "old_results_untouched": true,
+  "raw_root": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-011B/20261022-original-case300",
+  "environment": {
+    "python_executable": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+    "packages": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "torch": "2.8.0",
+      "torch-geometric": "2.8.0.post1",
+      "PYPOWER": "5.1.21"
+    },
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "failed_solves": 0,
+  "native_state_count": 4,
+  "reference_type": "independently verified feasible local AC optimum; no global certificate"
+}
