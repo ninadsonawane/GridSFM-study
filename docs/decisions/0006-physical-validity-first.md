@@ -1,0 +1,7 @@
+# Decision 0006: physical validity first, frozen AC/DC comparison
+
+22 October 2026. The user supplied Professor Santoso's email and explicitly requested setting adaptation, generation-cost and computational-time comparisons aside. The main paper now concerns frozen GridSFM's approximation of AC-OPF, physical/operational validity, comparison against DC-OPF and conditions producing errors or infeasible predicted points on case300. Cost remains in the OPF objective; it is not the primary evaluation metric.
+
+The complete question register and proposed starter are [GSFM-008 / Experiment 11](../experiments/GSFM-008.md). This is a planning document, not a hardware launch. Exchange To-do was not edited in this turn. Keep all completed adaptation studies, including Experiment10 at `202c9bb`, as history/supporting evidence; do not continue training automatically.
+
+The new starter has 31 inputs and no training. DC-OPF native outputs are incomplete AC states; use paired shared-output errors and separately labeled common AC-PF dispatch checks. Original case300 has no finite thermal ratings, so a rated extension needs an explicit separate-source design. Keep Microsoft v1.1 and the newer base release distinct; the professor's email refers to the Microsoft whitepaper while recent experiments used the newer release. Discuss the primary release, thermal extension and DC recovery assumptions with Dr. Li. This decision authorizes neither contacting him nor scheduling a meeting without the user's instruction.

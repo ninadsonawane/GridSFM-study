@@ -1,5 +1,9 @@
 # Handoff after the initial research package
 
+## Latest scope — professor-directed physical-validity study, 22 October 2026
+
+The user explicitly sets adaptation and cost/runtime evaluation aside. Read [decision 0006](docs/decisions/0006-physical-validity-first.md) and [GSFM-008 / Experiment 11](docs/experiments/GSFM-008.md): a complete question register and proposed 31-input frozen AC-OPF/DC-OPF/GridSFM comparison. It has not been launched or inserted into Exchange. Preserve completed Experiment10; no further training. Do not interpret this planning update as an automatic hardware task or authority to contact Dr. Li. The existing completed-task stop remains in force until a new execution instruction.
+
 **22 October 2026 — GSFM-007 / Experiment10 COMPLETE.** All six1,500-update fits and180 fresh fixed candidates completed. Adaptation enabled case300 PF completion but all native PF full-feasibility counts remained zero; common OPF refinement gave identical89/90 case300 and90/90 PGLib118 quality coverage, with no pooled end-to-end speed benefit. [Verified results](results/pilots/GSFM-007/20261021T195824Z-m5-practical/README.md). One case300 spatial solver failure remains UNKNOWN. STOP: no automatic further experiment/training. Earlier READY instructions below are historical.
 
 
@@ -37,7 +41,7 @@ The hardware worker must mark task ownership/status, preserve prior Results, imp
 
 The user asked to read the latest Exchange results and deeply assess a tangible novel experiment for PESGM. The document now reports completed frozen inference, exact-reference checks, source-physics mismatch diagnostics and a negative solver-initialization pilot. Its research content is archived in `docs/context/2026-10-21-exchange-results.txt`. VM hardware is Apple M5 Pro/64 GB; no GPU-training claim is established. Raw experiment artifacts remain on that Mac and are not included in this research commit. Treat document numbers as VM-reported, not independently rerun here.
 
-New primary research includes October2026 error-geometry work, LUMINA/LUMINA-Bench, HydraGNN adaptation and UNION. Plain OOD failure, physical violation reporting, full FT and LoRA are already close prior art. Recommended primary experiment: frozen/no-KCL/stock-clamped-KCL/exact-KCL adaptation on original case300, with identical settings, followed by original-physics scoring. The initial task is bounded to operator/gradient checks and20 updates/120seconds per arm. Main training remains a proposed separately authorized stage. LoRA, extra interconnections and warm-start acceleration are not requirements of this study.
+New primary research includes October 2026 error-geometry work, LUMINA/LUMINA-Bench, HydraGNN adaptation and UNION. Plain OOD failure, physical violation reporting, full FT and LoRA are already close prior art. Recommended primary experiment: frozen/no-KCL/stock-clamped-KCL/exact-KCL adaptation on original case300, with identical settings, followed by original-physics scoring. The initial task is bounded to operator/gradient checks and20 updates/120seconds per arm. Main training remains a proposed separately authorized stage. LoRA, extra interconnections and warm-start acceleration are not requirements of this study.
 
 Important: released `loss.py` is documented for fine-tuning; its mismatch does not establish the cause of frozen errors or original pretraining. Disable feasibility/stress auxiliaries equally, retain context and other losses, account for empty branch-supervision masks, and match precision. Detailed controls/gates are in the new plan. If there is no meaningful adaptation effect, reassess publication rather than claim a novel solver.
 

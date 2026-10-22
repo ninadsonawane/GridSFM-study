@@ -1,5 +1,7 @@
 # GridSFM case300 adaptation study
 
+**Current paper scope — 22 October 2026:** physical validity of frozen GridSFM versus AC-OPF and DC-OPF on case300. The user has set adaptation and cost/runtime comparisons aside. [Decision 0006](docs/decisions/0006-physical-validity-first.md) and the [question register / proposed Experiment 11](docs/experiments/GSFM-008.md) control future planning. The starter is proposed, not launched; older study directions below are historical.
+
 **22 October 2026 — GSFM-007 / Experiment10 COMPLETE.** All six1,500-update fits and180 fresh fixed candidates completed. Adaptation enabled case300 PF completion but all native PF full-feasibility counts remained zero; common OPF refinement gave identical89/90 case300 and90/90 PGLib118 quality coverage, with no pooled end-to-end speed benefit. [Verified results](results/pilots/GSFM-007/20261021T195824Z-m5-practical/README.md). One case300 spatial solver failure remains UNKNOWN. STOP: no automatic further experiment/training. Earlier READY instructions below are historical.
 
 
@@ -13,7 +15,7 @@ Permanent research home for Ninad Sonawane's proposed steady-state AC-OPF study 
 
 The [publication plan after the VM experiments](docs/research/2026-10-21-publication-plan.md) is research background. The [initial research report](docs/research/2026-10-21-initial-study.md) remains the historical source/setup package; its unrun status and original scope are no longer the latest state.
 
-Current question: **Does target-grid adaptation improve GridSFM's complete feasible AC-OPF workflow, or primarily enable power-flow completion?** See [decision 0005](docs/decisions/0005-practical-utility-benchmark.md). The earlier KCL question and [decision 0004](docs/decisions/0004-controlled-kcl-followup.md) remain historical. Constructed case300x2 and further LoRA work are deferred. These are candidate contributions, not established novelty or a publication promise.
+Current question: **How accurately does frozen GridSFM approximate AC-OPF, does it satisfy the original physical and operating constraints, and when does it fail compared with DC-OPF?** See [decision 0006](docs/decisions/0006-physical-validity-first.md). The adaptation question in [decision 0005](docs/decisions/0005-practical-utility-benchmark.md) and the KCL question in [decision 0004](docs/decisions/0004-controlled-kcl-followup.md) remain historical. Constructed case300x2 and further training are deferred. These are candidate contributions, not established novelty or a publication promise.
 
 Target: **2027 IEEE PES General Meeting, San Francisco, 25–29 July 2027**. Current [submission portal](https://submissions.mirasmart.com/PESGM2027/login.aspx) cutoff verified 21 October: **10 November 2026, 11:59 p.m. Eastern / 11 November, 10:29 a.m. IST**. Five pages **including references**. Internal ready date: 8 November. See [verified rules](docs/technical/conference-verification.md).
 
