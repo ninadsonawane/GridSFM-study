@@ -1,0 +1,5 @@
+{
+  "status": "FAILED_UNKNOWN",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm012_014/run_dc.py\", line 9, in <module>\n    save(D/'dc-raw.json',res);assert np.array_equal(res['bus'][:,0],np.array(c['bus'])[:,0]);assert np.array_equal(res['gen'][:,0],np.array(c['gen'])[:,0]);assert np.array_equal(res['branch'][:,:13],np.array(c['branch']));assert np.array_equal(res['gencost'],np.array(c['gencost']))\n                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "seconds": 0.04612637497484684
+}

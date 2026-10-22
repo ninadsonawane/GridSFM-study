@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "original_generator_columns": 10,
+  "solver_generator_columns": 21,
+  "optional_missing_generator_columns_zero_extended_only": true,
+  "original_all_fields_and_branch_angles_preserved": true,
+  "reason": "PYPOWER loadcase infers v1 from<21 gen columns even with dict version2; zero-extension preserves MATPOWERv2 semantics"
+}

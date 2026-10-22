@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "R300-base",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": true,
+    "reference_valid": true
+  },
+  {
+    "scenario": "R600-base",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": true,
+    "reference_valid": true
+  },
+  {
+    "scenario": "U300-base",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": true
+  },
+  {
+    "scenario": "U600-base",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": true
+  },
+  {
+    "scenario": "R300-low",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": true
+  },
+  {
+    "scenario": "R300-high",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": false
+  },
+  {
+    "scenario": "R600-A",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": false
+  },
+  {
+    "scenario": "R600-B",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": false
+  }
+]

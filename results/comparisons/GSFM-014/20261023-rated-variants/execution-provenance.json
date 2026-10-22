@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-23",
+  "parent_commit": "96888bc4ecd792022f54ada495aad90f45d989dc",
+  "experiment": 14,
+  "code_sha256": {
+    "experiments/gsfm012_014/analyze13.py": "93d266b18f1485f2a1a93847d8de9170248ed54cade8a2c863b95af683f092d2",
+    "experiments/gsfm012_014/audit_rating_features.py": "af09a2e0ed4833ac9ecee75dd84ef1b245d6b27babb1550f3950aca5353be2a8",
+    "experiments/gsfm012_014/electrical.py": "a2a8f2b4919eb5fe23b8d8e8ea237d4e1bdea72e6bab25bf502543a3377284c3",
+    "experiments/gsfm012_014/plots.py": "bbff4e1b9a5f74b354899ffd950cfcda2fbeda048803284c1ca5c5ef236679c7",
+    "experiments/gsfm012_014/prepare12.py": "c16a39fe3e9ea3a0553b3964654703643e4d294c847f4d5be8310bfe3c055f22",
+    "experiments/gsfm012_014/prepare14.py": "7fcd440f40ea18c8c2e679769418dea0a64943dbb0feb30ccfc8409024c7d6df",
+    "experiments/gsfm012_014/report12.py": "47bfdfa72d464981c8f7702a7ceac9cef4b362351a0a4b29af6f0c63dd2cf6f6",
+    "experiments/gsfm012_014/report13.py": "3a915f5bb0351695e4f8cc146e1c33e1195af0f2200809196581e26686adb512",
+    "experiments/gsfm012_014/report14.py": "e0c3b0ef0f2df5702c19f14c124972764ef0a6854bb1577c3486c47956d6d3d3",
+    "experiments/gsfm012_014/rescore_saved.py": "2acf8ff87738041e1f4da16cbb3ddf2438e4302175328330286b8f72962ea505",
+    "experiments/gsfm012_014/response14.py": "13f05a6aa02c8069fd5d9b7c738839e2d8dc2e9e720e8aa598afe9a70ab398fa",
+    "experiments/gsfm012_014/run_cases.py": "4317328a2d68a7c119c45c72a0b6e5d2983f7b6dc00bd5d02fa67ec516c31608",
+    "experiments/gsfm012_014/run_dc.py": "2f14397530f6c80229b8875dcdcd3f29ea33c97f9e48e11467043832f174284f",
+    "experiments/gsfm012_014/run_model.py": "2a2c4f8aff6f7a35790ed05d2b6a0ffae1553e368b55c8faec109c698f207f32",
+    "experiments/gsfm012_014/select13_examples.py": "819326d867238c26994d1f010c6c1c33d97069a8d6d96ebf94dd43163aa186ec",
+    "experiments/gsfm012_014/solver_server.jl": "b50e340f06a0c3cd0562fa64d053b762940ff05725caa513b6ec546dd06adf4e",
+    "experiments/gsfm012_014/verify_delivery.py": "31f625f72189d44b2466a39dc98ee7e3904c62cc111166978318b974785f8a96"
+  },
+  "hardware": {
+    "hw.model": "Mac17,8",
+    "machdep.cpu.brand_string": "Apple M5 Pro",
+    "hw.memsize": "68719476736",
+    "hw.ncpu": "18"
+  },
+  "python_scientific": "3.11; torch2.8.0 numpy2.4.6 scipy1.17.1 PYPOWER5.1.21 torch-geometric2.8.0.post1",
+  "julia": "1.11.9; PowerModels0.21.5 Ipopt1.14.0",
+  "execution": "Sequential CPU FP32 neural inference; original FP64 independent equations; batch1; no training/PF completion/OPF repair",
+  "actual_calls": {
+    "AC_attempts": 11,
+    "DC_invalid_format_attempts": 8,
+    "DC_corrected_attempts": 8,
+    "native_forwards": 16,
+    "label_audit_forwards": 8
+  },
+  "reporting_correction": "Initial newly exported bus-ID labels used normalized evaluator IDs. Corrected original/generated external IDs and re-exported saved-state tables; electrical calculations/model inputs were unchanged. Final verification checks exported IDs against inputs.",
+  "DC_incident": "See GSFM-014 dc-format-incident.json. Optional-field solver adapter corrected; eight rejected outputs preserved, eight corrected DC solves. No extra scenarios or model/AC reruns.",
+  "raw_artifact_availability": "Local-only on this Mac, not downloadable from hashes. No external durable artifact storage was configured.",
+  "torch_seed": 0,
+  "threads": {
+    "torch": 4,
+    "OMP": 4,
+    "OPENBLAS": 1,
+    "MKL": 1
+  }
+}

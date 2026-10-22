@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "release": "microsoft-v1.1",
+  "audits": [
+    {
+      "scenario": "R300-base",
+      "fixed_Pg_rows": 12,
+      "fixed_Pg_limits_preserved_and_native_pass": true,
+      "all_RATE_A_B_C_FP32_features_match_original_div_baseMVA": true,
+      "max_FP32_roundoff_pu": 1.2207031204525265e-05
+    },
+    {
+      "scenario": "R600-base",
+      "fixed_Pg_rows": 24,
+      "fixed_Pg_limits_preserved_and_native_pass": true,
+      "all_RATE_A_B_C_FP32_features_match_original_div_baseMVA": true,
+      "max_FP32_roundoff_pu": 1.2207031204525265e-05
+    },
+    {
+      "scenario": "U300-base",
+      "fixed_Pg_rows": 12,
+      "fixed_Pg_limits_preserved_and_native_pass": true,
+      "all_RATE_A_B_C_FP32_features_match_original_div_baseMVA": true,
+      "max_FP32_roundoff_pu": 0
+    },
+    {
+      "scenario": "U600-base",
+      "fixed_Pg_rows": 24,
+      "fixed_Pg_limits_preserved_and_native_pass": true,
+      "all_RATE_A_B_C_FP32_features_match_original_div_baseMVA": true,
+      "max_FP32_roundoff_pu": 0
+    }
+  ],
+  "source_path_notes": "data.py wires all raw edge features; pe_features.py promotes branch attributes to branch nodes; model.py input_proj encodes full node x. RATE_A also feeds global/stress features. No hard output thermal projection. Zero-rate stress denominator clamp is a feature computation, not authoritative thermal scoring.",
+  "new_model_forward_calls": 0
+}

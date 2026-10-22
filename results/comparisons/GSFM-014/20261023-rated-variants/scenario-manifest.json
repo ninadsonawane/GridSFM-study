@@ -1,0 +1,65 @@
+{
+  "experiment": 14,
+  "started_UTC": "2026-10-22T20:23:36.893775+00:00",
+  "inclusive_cap_minutes": 120,
+  "scenarios": [
+    {
+      "id": "R300-base",
+      "input_sha256": "2040b93a3e01af684829ffb17e9cc93dcbc40e4dd0647cd0cfcd7ea269188f4c",
+      "rated_online_branches": 411,
+      "fixed_Pg_generators": 12,
+      "source_preserved": true
+    },
+    {
+      "id": "R600-base",
+      "input_sha256": "755fbd4880482d32fb5296c2f46205a07ddc10fe208ba92ceda0ad6521907647",
+      "rated_online_branches": 824,
+      "fixed_Pg_generators": 24,
+      "source_preserved": true
+    },
+    {
+      "id": "U300-base",
+      "input_sha256": "290698a4e9403d04d21c8bd20ce7fb2df4c8c276902aa179547a4a1c88288b38",
+      "rated_online_branches": 0,
+      "fixed_Pg_generators": 12,
+      "source_preserved": true
+    },
+    {
+      "id": "U600-base",
+      "input_sha256": "744ecb3d106104e2557d51edf6ec955d5f20f7826854b15a07e95bfa86c024d7",
+      "rated_online_branches": 2,
+      "fixed_Pg_generators": 24,
+      "source_preserved": true
+    },
+    {
+      "id": "R300-low",
+      "input_sha256": "3d0d3db4382471d984b82983b5a78054d477de44c1c785c95a7e44d70c986634",
+      "rated_online_branches": 411,
+      "fixed_Pg_generators": 12,
+      "source_preserved": true
+    },
+    {
+      "id": "R300-high",
+      "input_sha256": "7ffaca18bd0dd2e1bc7b2ca5f33d7324a46fb4f677633b05685fd75b4138756a",
+      "rated_online_branches": 411,
+      "fixed_Pg_generators": 12,
+      "source_preserved": true
+    },
+    {
+      "id": "R600-A",
+      "input_sha256": "0b39b12bf8bc004b93de5d3f851dd84d1423eb57dcd2f1edfc9a0a1c3ecbd476",
+      "rated_online_branches": 824,
+      "fixed_Pg_generators": 24,
+      "source_preserved": true
+    },
+    {
+      "id": "R600-B",
+      "input_sha256": "8a7fc77d35ceb0a074709f09867a3cf6797fab18edaa38ec0f7fd49d76878c94",
+      "rated_online_branches": 824,
+      "fixed_Pg_generators": 24,
+      "source_preserved": true
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "settings": "Two pinned frozen releases, shipped clamps; no widening fixed-P bounds; original FP64 physics; AC3000iter120s one flat retry only; DC PIPS200; matrices immutable after freeze"
+}

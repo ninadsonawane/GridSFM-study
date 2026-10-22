@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "additional_forward_calls": 2,
+  "variants": [
+    {
+      "variant": 0,
+      "identical_all_returned_tensors": true
+    },
+    {
+      "variant": 1,
+      "identical_all_returned_tensors": true
+    }
+  ]
+}

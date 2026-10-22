@@ -1,0 +1,12 @@
+{
+  "issue": "PGLib published10-column gen table triggered PYPOWER v1 heuristic; raw returned angle limits reset",
+  "invalid_initial_DC_calls": 8,
+  "corrected_DC_calls": 8,
+  "all_initial_outputs_retained": true,
+  "accepted_DC_calls": 8,
+  "no_repeated_AC_or_model_calls": true,
+  "published_network_and_limits_unchanged": true,
+  "correction": "Zero-extend omitted optional MATPOWERv2 gen fields only at solver boundary; verify loadcase roundtrip BEFORE solve",
+  "all_corrected_DC_constraints_pass": true,
+  "execution_deviation": "Eight invalid converter-level attempts plus eight corrected DC solves, rather than eight total DC calls; reported explicitly, no extra input cases"
+}

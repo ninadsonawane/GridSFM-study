@@ -1,0 +1,20 @@
+{
+  "verified_AC_inputs": [
+    "R300-base",
+    "R600-base",
+    "U300-base",
+    "U600-base",
+    "R300-low"
+  ],
+  "UNKNOWN_inputs": [
+    "R300-high",
+    "R600-A",
+    "R600-B"
+  ],
+  "native_model_points": 16,
+  "native_model_joint_feasible": 0,
+  "valid_DC_converged": 8,
+  "invalid_DC_format_attempts_retained": 8,
+  "label_audit_additional_forward_calls": 8,
+  "AC_attempts": 11
+}

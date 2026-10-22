@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "stage": 14,
+  "scenario_count": 8,
+  "accepted_reference_count": 5,
+  "native_frozen_points": 16,
+  "native_joint_feasible_count": 0,
+  "valid_DC_count": 8,
+  "additional_poisoned_label_forward_calls": 8,
+  "max_Ybus_branch_disagreement_MW_MVAr": 9.854711653071334e-11,
+  "all_CSV_bus_and_branch_ids_match_original_input": true,
+  "DC_Qg_Vm_and_AC_feasibility_NA": true,
+  "all_fixed_Pg_checks_pass": true,
+  "fixed_Pg_counts_per_native_case": [
+    12,
+    12,
+    24,
+    24,
+    12,
+    12,
+    24,
+    24,
+    12,
+    12,
+    12,
+    12,
+    24,
+    24,
+    24,
+    24
+  ],
+  "no_failed_reference_label_use": true,
+  "prior_inventories_unchanged": {
+    "results/comparisons/GSFM-011B/20261022-original-case300": 35,
+    "results/comparisons/GSFM-011C-1/20261022-loading-only": 240,
+    "results/diagnosis/GSFM-011D/20261022-saved-states": 31
+  },
+  "cases": [
+    {
+      "scenario": "R300-base",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "R600-base",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "U300-base",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "U600-base",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "R300-low",
+      "reference_valid": true,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "R300-high",
+      "reference_valid": false,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "R600-A",
+      "reference_valid": false,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    },
+    {
+      "scenario": "R600-B",
+      "reference_valid": false,
+      "native_points": 2,
+      "DC_original_constraints_pass": true
+    }
+  ],
+  "invalid_DC_format_calls_retained": 8
+}

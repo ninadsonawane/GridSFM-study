@@ -1,0 +1,1795 @@
+{
+  "artifact_root": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants",
+  "availability": "Files marked local_only exist only on this Mac; not remotely retrievable from these hashes. All other files are in the public results commit.",
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/.gitignore",
+      "bytes": 397,
+      "sha256": "004d3721d9b4cb29d2733dc525d219b381e4e5f5a4321fdb90894372c5bca5cd",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/01-rated-feasibility.pdf",
+      "bytes": 25739,
+      "sha256": "f19c1a63d83adcc2a6a6204405484e5f69828ffbf875cd36883411dd4e836304",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/01-rated-feasibility.png",
+      "bytes": 84279,
+      "sha256": "b1d1d92b1532540875e99c40a77acdc05c083a11057fcb0bc331f05971756ead",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/02-ranked-ratios.pdf",
+      "bytes": 39387,
+      "sha256": "16da91a51e0a192e1de9f178e15218f103576255d7481d626d3a9c8e59dcd4f1",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/02-ranked-ratios.png",
+      "bytes": 111026,
+      "sha256": "571a7d5567b4b6610d0d0218574669847facd1e01f9da745a855be50a5c05827",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/03-rating-response.pdf",
+      "bytes": 21796,
+      "sha256": "d1b57136afe4ae630aa958267bdb699bf51f79bfedbd2ede08e786a2063c02d8",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/03-rating-response.png",
+      "bytes": 65275,
+      "sha256": "99bf45b00773530545b28ad49c2832bff72c8596eb9cdbe2e88e5139abd2ddf0",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/ac-attempt0-native.json",
+      "bytes": 17657,
+      "sha256": "446c7cb23d6d8010fd43b1ad8261ac4a6dc1c0eb46f040c03dd67868cd316be2",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/ac-attempt0.json",
+      "bytes": 716990,
+      "sha256": "3e3f694d53939209f173be8a133f5c8b75ee63d5c207d9dcc73549d379a2d543",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/ac-native.json",
+      "bytes": 17657,
+      "sha256": "446c7cb23d6d8010fd43b1ad8261ac4a6dc1c0eb46f040c03dd67868cd316be2",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/ac-server0.log",
+      "bytes": 495,
+      "sha256": "2d311d2c219dcc6699397baf4931328056bad9cf8dbf5fe3a409e21dd95aa84c",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/ac-status.json",
+      "bytes": 1407,
+      "sha256": "dccdc10730b12d42510741a117e5b26981d9a7af0d95aa55b1867f1be9f8c6f0",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/case.m",
+      "bytes": 59904,
+      "sha256": "079c030e388f8590dd41cd4f7722633084bfe2659c1bdcdc69354aa6d211e44d",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/dc-native.json",
+      "bytes": 28610,
+      "sha256": "32df6bb51f4627a81fadc666426e6dcb4554ad87f4171549b90a2ef922b3274e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/dc-raw.json",
+      "bytes": 861249,
+      "sha256": "10de53f73c68782325989b1e6530cbea05da4f4ec862b839818603888467880d",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/dc-status.json",
+      "bytes": 1372,
+      "sha256": "d90dc8b2e4b2c39e8d05c21f851d78313638fe414d1ec2f00cb6a3211d7b3ba9",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/input.json",
+      "bytes": 135977,
+      "sha256": "2040b93a3e01af684829ffb17e9cc93dcbc40e4dd0647cd0cfcd7ea269188f4c",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "a972a1b3fa88f17d588ac9e30969b00d9a23195bb5ce13233394efad4f54c080",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/invalid-format-attempt0-dc-raw.json",
+      "bytes": 832103,
+      "sha256": "88e541914cb0535b2e4ca31917de30fa467e9a22e93581a91dad7b00b9e440b6",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-input.pyg.json",
+      "bytes": 74865,
+      "sha256": "bb75e4544b9db404bc76d1204fec541bcf30ecd30719799780e873bbd2cfe130",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-label-invariance.json",
+      "bytes": 232,
+      "sha256": "38fec4ce2da0e9b81329658e7bc9a545042e8b18b149b7ff0c55776f2bb84b71",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-metadata.json",
+      "bytes": 25739,
+      "sha256": "bd01eb5db955de7978c9b925a39c6e86792e7b21f7721b4efe54514c2d456e0e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-native.json",
+      "bytes": 17341,
+      "sha256": "fb4011bb48e16d3286ebac5370e2d8b755005f89a4fa29706cb5a5a09ecb4d51",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-poison0.json",
+      "bytes": 67287,
+      "sha256": "49002f3a6a05ca31b6e1397639c638c46cfbc0de1916702a08130672b613f25b",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-poison1.json",
+      "bytes": 68040,
+      "sha256": "5c9a08ee7807eff18ff2181df49454c7443ed75a574de4f4505c40fd2bbc151e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-returned.json",
+      "bytes": 58896,
+      "sha256": "b06225456acbdc07f4176302299e966b3e31e4dd4fc6b059db4471e750259139",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-input.pyg.json",
+      "bytes": 79915,
+      "sha256": "badf60d8bc5f7a2ec07c3fe5156b2b7a8afd92a48f4ba88e949942fee908bbb7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-label-invariance.json",
+      "bytes": 232,
+      "sha256": "38fec4ce2da0e9b81329658e7bc9a545042e8b18b149b7ff0c55776f2bb84b71",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-metadata.json",
+      "bytes": 25743,
+      "sha256": "16870df0741dc45bfd2af9cbcba4adb59fcec381f33e45234bb51a2de7800c74",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-native.json",
+      "bytes": 17358,
+      "sha256": "1c96e55c9a3de72110af5608a3bd31d3c0910c5119527049a6b6bb777474da5b",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-poison0.json",
+      "bytes": 72337,
+      "sha256": "480b4130c18be3afe745915439a2476346884d1a7ae1f1709d103a136599b1a9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-poison1.json",
+      "bytes": 73090,
+      "sha256": "78dd98fd242c7ceb76bf25f23478076f38eb96688cef863e08b1746c0ae5a021",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-returned.json",
+      "bytes": 58487,
+      "sha256": "41ef70357867a40a232e4c67d8cf5d1a4f70ef16f21c58371f6b1cb78a6f289d",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base/summary.json",
+      "bytes": 10201,
+      "sha256": "5e513188cecae284beb54518d244fae0981fc466730dfe397fcab217e15e2d70",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt0-native.json",
+      "bytes": 17549,
+      "sha256": "a5929e25d4ead1af8c62bb674a897cd17befc802ef062401130cf29eb178c972",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt0.json",
+      "bytes": 1066909,
+      "sha256": "e2c677cf75ff9a54fcfef2ef0b125ad5d79cf056f00a4d5631f22e8b6b2e10cf",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt1-native.json",
+      "bytes": 17556,
+      "sha256": "010e1e77a9180d8f02e9d50095f6c7ea50b81f96427b24647dfcb3dba3b307d8",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt1.json",
+      "bytes": 992310,
+      "sha256": "869c35576b762b396489e5ab86ed74b732ec7a9fb299567c1aac8c9a22f99615",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt1.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-failed-iterate.json",
+      "bytes": 17556,
+      "sha256": "010e1e77a9180d8f02e9d50095f6c7ea50b81f96427b24647dfcb3dba3b307d8",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-server0.log",
+      "bytes": 501,
+      "sha256": "69f282de6a1517de48c9b63a582a3d4135de3ad17263b0f27c8dd69d8959d2d0",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-server1.log",
+      "bytes": 501,
+      "sha256": "471ba4e5a7eb8c8c44b7fbce347b18c08b99550711b4270c2efab7fe39e2d82a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-status.json",
+      "bytes": 2696,
+      "sha256": "b92e5b0331c5c3250069752eea04e784789542e44a981bd0e98aee7e4c657b4f",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/case.m",
+      "bytes": 62801,
+      "sha256": "e4c8a90ee83ab74f179564eeeedc0f9cf92bbe4862d3cdee78c2055b0185166c",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/dc-native.json",
+      "bytes": 28453,
+      "sha256": "4e08015a9a72896fee89ab7c09d335c295440b7fed0b9926a1baaecdc8f387d6",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/dc-raw.json",
+      "bytes": 868563,
+      "sha256": "3933ba80e10529c50e77201b7298584b7c334558d1d15b41dafbdba8981b8959",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/dc-status.json",
+      "bytes": 1373,
+      "sha256": "900ef2ac8267cb1973afcd92c0e1447df809db9fc527b26c0835347accff18d0",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/input.json",
+      "bytes": 138076,
+      "sha256": "7ffaca18bd0dd2e1bc7b2ca5f33d7324a46fb4f677633b05685fd75b4138756a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "ba514bffa60c33e114a18378a060e1bfca082cb5f97a18fd8a7641806925022c",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/invalid-format-attempt0-dc-raw.json",
+      "bytes": 840268,
+      "sha256": "6ddca4d11782b7e354ea0d0065d935ca11e5eef2d3c35e063107fd593eaab657",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/microsoft-v1.1-input.pyg.json",
+      "bytes": 76721,
+      "sha256": "de35f247f7f44e3a762149ae46bb2caad7a4969de4eb361437de3930f243a87f",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/microsoft-v1.1-metadata.json",
+      "bytes": 25739,
+      "sha256": "98a9448fc2d1cc040fd935ecff116ab775e7fc53135708397c3604c0204a5467",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/microsoft-v1.1-native.json",
+      "bytes": 17292,
+      "sha256": "e4c4f2a19ae2dd07beec7bb324ebbd0f1da5f26087af1964b8cc655b2612b166",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/microsoft-v1.1-returned.json",
+      "bytes": 58774,
+      "sha256": "92949eae4476e2f8155db100e30a9c039ae67b44fe399eb069ca7f379c290c63",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/newer-base-v2-input.pyg.json",
+      "bytes": 81771,
+      "sha256": "77d0b619942d06b9305d9ac8c6ef78e54d6ce7dde0f04585a55272c25906d0ec",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/newer-base-v2-metadata.json",
+      "bytes": 25743,
+      "sha256": "465f51cd0a526dd186edc922504265e21fa95696aaebf8d2fd9858b732c07056",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/newer-base-v2-native.json",
+      "bytes": 17337,
+      "sha256": "c2cefed0fd2bcf14634b898b0d6a773352009d89557287a474587c1f80976d34",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/newer-base-v2-returned.json",
+      "bytes": 58383,
+      "sha256": "295db909069ae414d838f86254ddf6e5dfcfba84d64c3e87d28a222bdf02b2f1",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-high/summary.json",
+      "bytes": 4903,
+      "sha256": "db8393c600cbaa66a6cc0032c3cb6a21e9fe23aa495b54c5897679734187d293",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/ac-attempt0-native.json",
+      "bytes": 17675,
+      "sha256": "6bba88766aea72045a7f1d527cbb2aa9acce3b6fd09de21cece9466d5938b350",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/ac-attempt0.json",
+      "bytes": 719362,
+      "sha256": "5d5a025db65123aecb607b8b5d12f0a8e8640632ec00175346c9e6109f4ffed3",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/ac-native.json",
+      "bytes": 17675,
+      "sha256": "6bba88766aea72045a7f1d527cbb2aa9acce3b6fd09de21cece9466d5938b350",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/ac-server0.log",
+      "bytes": 494,
+      "sha256": "1699d2f7503df66ba4c7407c6ed0009b7bb48d269563db33b3772a75fd8f3bd3",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/ac-status.json",
+      "bytes": 1403,
+      "sha256": "abab358acbd47455a9232fa414662055f61d25062b7cfb85c4ddde52d47fadb2",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/case.m",
+      "bytes": 62887,
+      "sha256": "fe9c59a361d08a64472628a1d4484d284c31d4af216f7b0f8ebb074b12917761",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/dc-native.json",
+      "bytes": 28631,
+      "sha256": "e23cb0c693ed234ce1bacddc135fca78f3d3702351478e77b172ac3067feb262",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/dc-raw.json",
+      "bytes": 864226,
+      "sha256": "4c986e91ce4cb38b73fdae04a86fc3658edc5c54d712e18a37fc47fb5d01f194",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/dc-status.json",
+      "bytes": 1374,
+      "sha256": "fdd244d19604d195c97fa32e905809498cc470a9ce6f398553fd39b351d8784b",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/input.json",
+      "bytes": 138221,
+      "sha256": "3d0d3db4382471d984b82983b5a78054d477de44c1c785c95a7e44d70c986634",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "139a34335a16c06da69afdf5e52ea64271df6e5ef347d84d28682af2ec357c1f",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/invalid-format-attempt0-dc-raw.json",
+      "bytes": 835689,
+      "sha256": "5fa1a906cb38701f638d7ea5a718022f056b0595c3c3a079d0b05b533fb181a4",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/microsoft-v1.1-input.pyg.json",
+      "bytes": 76985,
+      "sha256": "c868274c51549752a3b322fc9c1b732cc6b85ad0088de54bf4bb0bb06c98fda7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/microsoft-v1.1-metadata.json",
+      "bytes": 25738,
+      "sha256": "58d8e64e4a97a632df07e032199d671c24b711ca5b71e15b784a65efa49e112e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/microsoft-v1.1-native.json",
+      "bytes": 17345,
+      "sha256": "5cf8654a400a52e48dd3318a51305babbc8492842243fab413120780b81eaa4a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/microsoft-v1.1-returned.json",
+      "bytes": 58913,
+      "sha256": "6bc70a95502e3ac7640d057f8dee7c672ab92ed4d003ae22e079dfe0907bf199",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/newer-base-v2-input.pyg.json",
+      "bytes": 82035,
+      "sha256": "ea74bb8f473036ec8862e7522f9793ee2b44a147e3d5047bab332ba722908004",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/newer-base-v2-metadata.json",
+      "bytes": 25743,
+      "sha256": "5d1775e3163c0939df8ede608cdbbe951fdbd94ecf7dd3fac8a14c8dac980325",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/newer-base-v2-native.json",
+      "bytes": 17362,
+      "sha256": "60e66a11f3b9b6a349ecec6adb9e4ce08dc9a335f24fc03702441cb40a9bc7ef",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/newer-base-v2-returned.json",
+      "bytes": 58502,
+      "sha256": "e65814b80dc595bbcf559cb66e94fd3ca23f5010bef8fed1f6311b75475ba6c7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R300-low/summary.json",
+      "bytes": 10184,
+      "sha256": "6b4b17e80b01c1e7bea282499ad24f303d7f0f1aec3e56771c008c4e027bb1e3",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-attempt0-native.json",
+      "bytes": 34805,
+      "sha256": "bb29029cd52995137abdfb651a5695c3e67f60d681c50fa2c85879e0a278e8b2",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-attempt0.json",
+      "bytes": 1487425,
+      "sha256": "72e7c6deb29e31d57030d52ecf9ff600a924e10a19d3fbf28ba90245a190a158",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-attempt1-native.json",
+      "bytes": 34786,
+      "sha256": "cad7b6f7bec214f03cea262b8cabacdf65d70e248e197375cae5a93b3dc3dc0a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-attempt1.json",
+      "bytes": 1548962,
+      "sha256": "e06d27957aacf3461cd9486d37c79670b5f386fb7253ff8986f77b507f617281",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-attempt1.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-failed-iterate.json",
+      "bytes": 34786,
+      "sha256": "cad7b6f7bec214f03cea262b8cabacdf65d70e248e197375cae5a93b3dc3dc0a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-server0.log",
+      "bytes": 497,
+      "sha256": "8cc50044ea88e3b12322ccaba85209d1557f9db5c221020f219e2ac00105c728",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-server1.log",
+      "bytes": 496,
+      "sha256": "a5713533a690228f6f2e264a1ac58d0d182d09a8d28a418589682d239b7056e6",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/ac-status.json",
+      "bytes": 2671,
+      "sha256": "7a6a5545989c7b922eedee8a2db0f5b939fd38bc51a695402509e9b7dee3d9de",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/case.m",
+      "bytes": 125926,
+      "sha256": "70687e0d3d3b79a286177acf6a4e96694cd4cfda6c142cea3d32d0255ea8ae6e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/dc-native.json",
+      "bytes": 56923,
+      "sha256": "599caf1da8863a3302051314881d0b763523473b04c031d3cef29064b5143007",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/dc-raw.json",
+      "bytes": 1480849,
+      "sha256": "a688f63b674d7d140112668fbd555167e570c5cda23046448870fec0cbda1425",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/dc-status.json",
+      "bytes": 1374,
+      "sha256": "63679666871fe8b202db1baf5793a85c1c9e6c96167c2154717437e6d8ad42ea",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/input.json",
+      "bytes": 300662,
+      "sha256": "0b39b12bf8bc004b93de5d3f851dd84d1423eb57dcd2f1edfc9a0a1c3ecbd476",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/invalid-format-attempt0-dc-failure.json",
+      "bytes": 768,
+      "sha256": "02d6240b8574da0887e724ae65275da847d63ef0b3c32684c1bcb726dfe31228",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/invalid-format-attempt0-dc-raw.json",
+      "bytes": 1424927,
+      "sha256": "fac2ef35aed2089ae3539d2be30fe19ebcc3ee9860cd4211a4516ebeb0ffeeff",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/mapping.json",
+      "bytes": 191830,
+      "sha256": "b577529ad7279ad151497227ef7ed740da0d7a544d7a59100d391622c8a23db9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/microsoft-v1.1-input.pyg.json",
+      "bytes": 160442,
+      "sha256": "bf463c0c07fad5562bc3d6529be1c89034d1a838e06953b432967a431caa8087",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/microsoft-v1.1-metadata.json",
+      "bytes": 56758,
+      "sha256": "2c4e328b2aacd64237f637fbbaddbddb190369aa7b396609f33b7f8b7aa68ab8",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/microsoft-v1.1-native.json",
+      "bytes": 34408,
+      "sha256": "7eea0e8fd222cea1fa7f468626182b913ed64d37536e6a3d981e9a884fb9c9f5",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/microsoft-v1.1-returned.json",
+      "bytes": 116933,
+      "sha256": "86268016137271436e04dfa9df8dcc8addffc4fa07efee690f45a83d588065a7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/newer-base-v2-input.pyg.json",
+      "bytes": 170552,
+      "sha256": "51c405f361751d8dee44181f51219ca3e106e8b34564a8a78601a18392413a2e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/newer-base-v2-metadata.json",
+      "bytes": 56763,
+      "sha256": "0aad644961a6c63e942b544d25457a2a1f62a786b4b9bcde7380c091ea9a28b0",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/newer-base-v2-native.json",
+      "bytes": 34444,
+      "sha256": "beff2c18d8943717fb58688330f0114bb138ad8557581e52fc2ea2f8b2b20874",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/newer-base-v2-returned.json",
+      "bytes": 116593,
+      "sha256": "67b96da26790134aa19a60e9e407b65daa4327129fb7d43499a2ad400e406278",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-A/summary.json",
+      "bytes": 4886,
+      "sha256": "fc788e4b44d728f3b0df543e9d6fe52cd2b3dbc2710e4de8996d8cda6d25be45",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-attempt0-native.json",
+      "bytes": 35064,
+      "sha256": "e7ae2acbbb3da247bfdb8499bd4703b962813a71dd36380536474247c79635ab",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-attempt0.json",
+      "bytes": 1529614,
+      "sha256": "5e80e2161a5635e6aa237d9274560925893a3a00947aebeef33d409d7bbd0f16",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-attempt1-native.json",
+      "bytes": 35089,
+      "sha256": "b8755d614110345a7bac6b2bbb1b85c361b248443899c5cb66c59b95353c169b",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-attempt1.json",
+      "bytes": 1574220,
+      "sha256": "2caf2b89c8f5ad552afef9c7ff04cf47f71ef716d238bd7c807980f9bd4f1b24",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-attempt1.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-failed-iterate.json",
+      "bytes": 35089,
+      "sha256": "b8755d614110345a7bac6b2bbb1b85c361b248443899c5cb66c59b95353c169b",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-server0.log",
+      "bytes": 497,
+      "sha256": "4f9c39569fb1786cb5f7006d2105aace41d025f2d08ae366f85db30d73f444e4",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-server1.log",
+      "bytes": 497,
+      "sha256": "5b31cac23394c716535b7aa076d92b6355fbda08f54f9ea90d31f47156034147",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/ac-status.json",
+      "bytes": 2672,
+      "sha256": "1953590afee78887ef45670a273a88ed6d35b887a651ee5cd904c3dad766f29a",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/case.m",
+      "bytes": 125926,
+      "sha256": "bda75e9b5de784ed2275bb60472a3bd13e4b6aeb8e54d98efd9082094566bd5e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/dc-native.json",
+      "bytes": 57007,
+      "sha256": "4f09da3e86b313d34a0e44c59205149b5316956e9a6df65a9646a9521de70388",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/dc-raw.json",
+      "bytes": 1480782,
+      "sha256": "1aecbab6fe02ddf9e04ee7da419d7d9e382c2abf68243ac4b503d2789083dd5f",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/dc-status.json",
+      "bytes": 1373,
+      "sha256": "b2b6eada9759534680026ac9c516288ac998a8155bf1b29b5d7f17baaed31f6e",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/input.json",
+      "bytes": 300662,
+      "sha256": "8a7fc77d35ceb0a074709f09867a3cf6797fab18edaa38ec0f7fd49d76878c94",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "6b8515b9019ca4c081cefb668e4329cbc180a111e5c63ece20f42c81ce164d28",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/invalid-format-attempt0-dc-raw.json",
+      "bytes": 1425077,
+      "sha256": "7357fd701f8e5f3c55c570037bf707d2ced322c19b394f7773ac3f5cf2c3df85",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/mapping.json",
+      "bytes": 191831,
+      "sha256": "46e4379d514c531e85cc4925610a5c17bfb2a4ccfed3d8a05b7e3fb9233f2e89",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/microsoft-v1.1-input.pyg.json",
+      "bytes": 160442,
+      "sha256": "71bf2d738f7758763202849dcf91f3e317edb091a21badf9a440b4e12845b78a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/microsoft-v1.1-metadata.json",
+      "bytes": 56759,
+      "sha256": "7d6d5117f18c19511da753d7d8a3c015f2a39d1fa2bff4e25e52d972ab4b2302",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/microsoft-v1.1-native.json",
+      "bytes": 34646,
+      "sha256": "bd62d3bd8ec20dc7dc898f00400b088136ae8998f3ee81fc29598f6ef465030e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/microsoft-v1.1-returned.json",
+      "bytes": 117506,
+      "sha256": "c50e2509e737b9616bb4a9055f37114f9fe13bddf32ebcd050fcb90013e592a3",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/newer-base-v2-input.pyg.json",
+      "bytes": 170552,
+      "sha256": "2a9a26383a9d1c1601179a1b83d577e14d3a6a3e882fb74fb9397e33633a616b",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/newer-base-v2-metadata.json",
+      "bytes": 56763,
+      "sha256": "c8d9ba06c68684299d8c88415e882bb7abe538fc0cf20bfa9c12a4b1db543ad9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/newer-base-v2-native.json",
+      "bytes": 34522,
+      "sha256": "0379296e4a539442eafdc6b7a95db2160b1abf372e3fa23eeaa83f317864dce4",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/newer-base-v2-returned.json",
+      "bytes": 116750,
+      "sha256": "ecb7ea98ade24919ed551ddca0cedd512990ba1183fae5861a97cc15a758965e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-B/summary.json",
+      "bytes": 4923,
+      "sha256": "0ef551354247e778a63b6b6b585ef6d75b3eaf182eff46b027292bbce4ac11c3",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/ac-attempt0-native.json",
+      "bytes": 35223,
+      "sha256": "6abc594c004b93fc582467c36365b0a713011d9a66e84b767f4f2351ea425193",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/ac-attempt0.json",
+      "bytes": 1431072,
+      "sha256": "b05d3d02cc00fe7d8f9a9ff8357d594e83268ee987b7282d0f5ad2bd186e4a8a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/ac-native.json",
+      "bytes": 35223,
+      "sha256": "6abc594c004b93fc582467c36365b0a713011d9a66e84b767f4f2351ea425193",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/ac-server0.log",
+      "bytes": 495,
+      "sha256": "69fd6de3a65745eede29b2e8c31a9cb92f6c009bb4ea898bb94916fb8ba55d05",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/ac-status.json",
+      "bytes": 1407,
+      "sha256": "5454c69cdfe7efd711c58713672019eda6eb479f2f9e34b54ef73d88dc5aabce",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/case.m",
+      "bytes": 120046,
+      "sha256": "c480098d7e0c5e16be55f8f15e66327cc09493f33358aa46de9bb435ff9e1bc7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/dc-native.json",
+      "bytes": 57109,
+      "sha256": "c0ca170d5f290c5ae54ec7a2143c0270ed6f9fad5704313acbe6db62abfc80fa",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/dc-raw.json",
+      "bytes": 1467247,
+      "sha256": "c45a6a3ca17ef8e6d7c9d4bd50a099ca028a3c49e8db92843648a20357f67465",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/dc-status.json",
+      "bytes": 1371,
+      "sha256": "b07f6e056318e543b08f33af129408bb3854cec935d2cc6c423fbc431df02af8",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/input.json",
+      "bytes": 296319,
+      "sha256": "755fbd4880482d32fb5296c2f46205a07ddc10fe208ba92ceda0ad6521907647",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "a24baf1609e9cdcc76a6d424e32364da454ad8d576e03b53a43b460990f3d1c3",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/invalid-format-attempt0-dc-raw.json",
+      "bytes": 1411204,
+      "sha256": "2882c9b291eaa66621d5769cffc4f83a3b0c5fd72513b453c23e50e07ff8bf80",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/mapping.json",
+      "bytes": 191829,
+      "sha256": "9e307123adbecae3c46c2257fc7f38b80d650d66884505a991604c7092e4b907",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-input.pyg.json",
+      "bytes": 156466,
+      "sha256": "a15573fb095e4e3a887b5ceab5a13971e401f82440210d13e60de4c6cba86d12",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-label-invariance.json",
+      "bytes": 232,
+      "sha256": "38fec4ce2da0e9b81329658e7bc9a545042e8b18b149b7ff0c55776f2bb84b71",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-metadata.json",
+      "bytes": 56758,
+      "sha256": "8037232226a0716170f5128ea1a66183d56572eeecf14a16ea2a3b11ebc8f462",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-native.json",
+      "bytes": 34348,
+      "sha256": "b559908715e8f4c3706199eb8029013e4c1786a84fbc11e7977b57e4a59a1c81",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-poison0.json",
+      "bytes": 134956,
+      "sha256": "249909b0b7bcd6c3d4d75b7eb8541cd9262fcb273110ff57cbcf8e2b8bfa0d20",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-poison1.json",
+      "bytes": 136447,
+      "sha256": "29f7dbc7f7274ddddd9203d7d285cd840d14e0687ef313f4c4f434cc139efdb4",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-returned.json",
+      "bytes": 117043,
+      "sha256": "b9dab897b114a510f81f53057ebf1f2b4fd130a73113b78ede92589bc712d8a5",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-input.pyg.json",
+      "bytes": 166576,
+      "sha256": "c6c42a0eee96f23cafb2e9442c2f79660ba09f7f327488a8704b6324837828e5",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-label-invariance.json",
+      "bytes": 232,
+      "sha256": "38fec4ce2da0e9b81329658e7bc9a545042e8b18b149b7ff0c55776f2bb84b71",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-metadata.json",
+      "bytes": 56762,
+      "sha256": "f4b2ab4c9e09af188b15b69d5f83c485e31cc06cea1a0957deca15ce23d65651",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-native.json",
+      "bytes": 34658,
+      "sha256": "bd17cacf30379e9f983c38c5c40329dcb5195532d68bf073f2e73939062400a1",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-poison0.json",
+      "bytes": 145066,
+      "sha256": "e779d2643da17561327c6a18f592c55cde5480aa07d51410849d41574de90d8e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-poison1.json",
+      "bytes": 146557,
+      "sha256": "718138ddb27e89495bd53827188a8931f69253f409d5d36dbe82c8d747eba002",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-returned.json",
+      "bytes": 117008,
+      "sha256": "a34f2c239c14bc012aa624f9f2a70a139abe64af0d9e00831c1db0179c4ab59f",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base/summary.json",
+      "bytes": 10219,
+      "sha256": "83e7144dec565f953128506ff3e1d2c3bd8ed52a0ca4efcbbe7b715b932a99cf",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/README.md",
+      "bytes": 10585,
+      "sha256": "6e002182091df9b2e66fe1f17ffe1d92eaa6ac65fde8a2b43d4b9fc6377e5c29",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/ac-attempt0-native.json",
+      "bytes": 17650,
+      "sha256": "98f0a46be15647c8eadd4f3f4e99d9dc7f0ca73c78f529d8dcc165b1bf74edd2",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/ac-attempt0.json",
+      "bytes": 678621,
+      "sha256": "3fb94680bea53ea35538981df450c7b79e3c62f8803ba95aa5ac09c24e257ac9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/ac-native.json",
+      "bytes": 17650,
+      "sha256": "98f0a46be15647c8eadd4f3f4e99d9dc7f0ca73c78f529d8dcc165b1bf74edd2",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/ac-server0.log",
+      "bytes": 494,
+      "sha256": "3df3a45f8fb956ea8ed0ca6274511b6bfb5178cbb77d098828c5a852069ba374",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/ac-status.json",
+      "bytes": 1405,
+      "sha256": "6d5cb821ee9ab398223f6d5c7da3c1f5ce1908937397aa6f1d8daaf589a4273a",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/case.m",
+      "bytes": 57271,
+      "sha256": "bf2f51e9cb0e9b31493b3f809a46d3c2ab254b6022f26387b4da831eb91dcfdc",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/dc-native.json",
+      "bytes": 28604,
+      "sha256": "113202a1217c359b0c36c07351339efedfb20040576aada97b9c0970d2c8df42",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/dc-raw.json",
+      "bytes": 790928,
+      "sha256": "f3a4af6b0c97aca4cf0c463007d3e5654402cb1589110c89f4213723163a5c42",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/dc-status.json",
+      "bytes": 1374,
+      "sha256": "105810e1f491e14a413a33896a90f80211f46e8413ac8f4e84128a7aec5c0694",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/input.json",
+      "bytes": 133344,
+      "sha256": "290698a4e9403d04d21c8bd20ce7fb2df4c8c276902aa179547a4a1c88288b38",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "2ae451237bdf080f97e39f32cc152816a04727b75654c063c82370c94397e55d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/invalid-format-attempt0-dc-raw.json",
+      "bytes": 761292,
+      "sha256": "5140c4b435678c4c10f3c5316b5c19756c11f4dd2fa84e356d898016992b5772",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/microsoft-v1.1-input.pyg.json",
+      "bytes": 73417,
+      "sha256": "66ebf5e7056237b2c2c065a9699ff9925c67609fc949b1e97592d086dbcdb16a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/microsoft-v1.1-metadata.json",
+      "bytes": 25739,
+      "sha256": "d07244b5171d011d91ca95d9404533ccbb4ac0cde648a253c9fefc927da8ee22",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/microsoft-v1.1-native.json",
+      "bytes": 17395,
+      "sha256": "84dfcda9a3c3377e7f3bd2c73d6d4add823cbaf48686b1e27dad2777ca600f7c",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/microsoft-v1.1-returned.json",
+      "bytes": 58750,
+      "sha256": "c870e26a23b92e7ad3a5b5e741d698cf8170a4d98deba89cd7c64d86288b3f92",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/newer-base-v2-input.pyg.json",
+      "bytes": 78467,
+      "sha256": "48a53b48de05d73ead940858d9a8cf84a81aed11bcbe4a1b30a1bc781fc62cc9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/newer-base-v2-metadata.json",
+      "bytes": 25742,
+      "sha256": "e4d9fab2fa6182e04690baf5a766510bedea4f3d737c8d0eb7e482c7c4e13bb2",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/newer-base-v2-native.json",
+      "bytes": 17329,
+      "sha256": "de261c56894a8558cd86c06301deed76bc26f2bb049055703e357a26e7b16be1",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/newer-base-v2-returned.json",
+      "bytes": 58491,
+      "sha256": "9156c0afe2e3423305daec6723d55d69dba6dcd119a8da2802c440cca34ca763",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base/summary.json",
+      "bytes": 10119,
+      "sha256": "a62016660f0992d8d218b3ec787a7f0b3d591bb690e4def4b5781bc028acfc0d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U300-base-field-diff.csv",
+      "bytes": 19631,
+      "sha256": "cbf843b6315c31cad6e54fc834dcf8942e23370d608f62c1328c9d107a35adfd",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/ac-attempt0-native.json",
+      "bytes": 35209,
+      "sha256": "7308a839a136e0152609f5c6e44f8125617eba4a8df33d99225c32486db049c1",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/ac-attempt0.json",
+      "bytes": 1353266,
+      "sha256": "c024f2b72c3a07f27e93b31e2f94ba18b5ef13d5984f98c89ee06f911ae5435e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/ac-attempt0.log",
+      "bytes": 387,
+      "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/ac-native.json",
+      "bytes": 35209,
+      "sha256": "7308a839a136e0152609f5c6e44f8125617eba4a8df33d99225c32486db049c1",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/ac-server0.log",
+      "bytes": 495,
+      "sha256": "ff0e4a8982d993eea97a1f67b9fca85e2ad4661db308fb462b838e8575306d94",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/ac-status.json",
+      "bytes": 1407,
+      "sha256": "7d1504a226dadcd05609d5537e6a560e8f8d1bb804a94bc52350e206ea81b424",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/case.m",
+      "bytes": 114780,
+      "sha256": "2bf8db58b70c104f1f4a83ac34a569e71504006f1ac84eaf72b0bab8de4a8b0a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/dc-input-adapter-audit.json",
+      "bytes": 350,
+      "sha256": "2570b6eed3729dc7650878688d308898c099e91d457e08a42dc9ef3afc33671d",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/dc-native.json",
+      "bytes": 57179,
+      "sha256": "f05ee21594af8703b63240771b494247b9d1768fd598fdcc8c908800c05e7ccf",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/dc-raw.json",
+      "bytes": 1332381,
+      "sha256": "e9206f709add7d82bdf8b4ee76afdb0b0168be0c5b95623a60a65429a15482ba",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/dc-status.json",
+      "bytes": 1373,
+      "sha256": "86483a4e639379c2f1381ca70ad0eb8c6dfddb924fd2a8d13a87f2abe934951b",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/dc-worker-corrected.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/input.json",
+      "bytes": 291053,
+      "sha256": "744ecb3d106104e2557d51edf6ec955d5f20f7826854b15a07e95bfa86c024d7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/invalid-format-attempt0-dc-failure.json",
+      "bytes": 770,
+      "sha256": "bf6f4a6e213c8c8d9ad1ca9bc185b17d7ecd1c9111e36cccaa766ef8547d5eb9",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/invalid-format-attempt0-dc-raw.json",
+      "bytes": 1272401,
+      "sha256": "faa3173904705ec4804b1785aebb6a26b87a0f6aa7f18a0372fbe64c7df6f4fd",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/invalid-format-attempt0-dc-worker.log",
+      "bytes": 8,
+      "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/invalid-format-attempt0-dc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/mapping.json",
+      "bytes": 191829,
+      "sha256": "9e307123adbecae3c46c2257fc7f38b80d650d66884505a991604c7092e4b907",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/microsoft-v1.1-input.pyg.json",
+      "bytes": 153570,
+      "sha256": "f1d3da2908cd44b1dc960e866af8b9081615ab96442cc785dc3a2cf26fa78197",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/microsoft-v1.1-metadata.json",
+      "bytes": 56758,
+      "sha256": "bfb70dfd136736eb339250771a8627fea068e80544cde7c516aad092becded1f",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/microsoft-v1.1-native.json",
+      "bytes": 34944,
+      "sha256": "b3f4c3e939f09053bbd038f3c7f32d9c93b275663917f92ec56dd295ba35b8df",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/microsoft-v1.1-returned.json",
+      "bytes": 117605,
+      "sha256": "22112843503a2eb9d28d8340d2804fcc34dab98e26984203c6e62f52497a3188",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/microsoft-v1.1-worker.log",
+      "bytes": 65,
+      "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/newer-base-v2-input.pyg.json",
+      "bytes": 163680,
+      "sha256": "0ae871e5146e53983bce4a436d303ea60f05747d9434fbe280a2fb89cc9d0314",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/newer-base-v2-metadata.json",
+      "bytes": 56763,
+      "sha256": "1d7888d879cb601a3f2a17f5e6d074564946705503432c835c4a0a9e80323bb5",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/newer-base-v2-native.json",
+      "bytes": 34612,
+      "sha256": "cbd381c0044631a521f4e458e180c7accf2aa28f316b1e7c75443d487dafc4ae",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/newer-base-v2-returned.json",
+      "bytes": 116719,
+      "sha256": "428d619722af54b720b3cd1d291bfe1f48d6485ebcbecfd0a2feeeb1476d6eb7",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/newer-base-v2-worker.log",
+      "bytes": 59,
+      "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base/summary.json",
+      "bytes": 10179,
+      "sha256": "d46ebc01c13d5383afba4746b036e36a1514849a866477752d7c6b9eec29b118",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/U600-base-field-diff.csv",
+      "bytes": 39526,
+      "sha256": "1350ff7d539f1f8a75256b537b56ecd2e8ba6243651976521f99415f67769b64",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/area-exchange.csv",
+      "bytes": 16656,
+      "sha256": "4bc3ee6c2bc13c8e471e227fe20f340e5404b0150ccb9dfbac5e002b4fc2bf08",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/binding-and-branch-response.csv",
+      "bytes": 379893,
+      "sha256": "dd05be6eb3b37ffd8419006917a4b716f9f3a5b84bb6d7d4bd85ab6bb3468329",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/branch-flows.csv",
+      "bytes": 4074072,
+      "sha256": "de2293b8569c4db67707686693cc8761b51397632bcba84dcda5a119aca79293",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/branch_map.csv",
+      "bytes": 16780,
+      "sha256": "cc905dfc7175c12096016867b02530704dbe216b0e874cbc2b5d7a0480ceb804",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/bus-metrics.csv",
+      "bytes": 2386681,
+      "sha256": "26d464bb48dca3aa0197a9a3d5f05dfea6325da4881c7aebd34a2a6b350cf637",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/bus_map.csv",
+      "bytes": 14009,
+      "sha256": "0a1e4ce94471cd7c057a0e60d7ef1cb3753a3b673c5e1c734463c8e38058de71",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/counterfactual-U-against-R.json",
+      "bytes": 2211,
+      "sha256": "a4ee8577d82887f264687a367059227d84c29c20d019f96f17925820d5d6df30",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/dc-format-incident.json",
+      "bytes": 687,
+      "sha256": "26c3c1d58203f0c607ebe4d55ef25cf7e49499e09a6f10c2eb6d32bfedf1f6d5",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/execution-provenance.json",
+      "bytes": 3407,
+      "sha256": "e6cf051bffba1ce237d3a5cbe390dcb5e044725f406c328ff8195bbfb2513aae",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/gates.json",
+      "bytes": 2213,
+      "sha256": "31e5c8afa55bed11599bf1f167ed70d60d62d171083b7f60d8cc78b8f3428334",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/gen_map.csv",
+      "bytes": 2562,
+      "sha256": "384282d913eab4d08bf94a85b6657c79f8ebf80ced6ea2bb5e67b3df2525e520",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/matpower-versus-pglib.csv",
+      "bytes": 81383,
+      "sha256": "3800fbd6c83a3c15b144b5a36dc0eed71d694a04c51c4dd8caeffa8e4cba4233",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/method-summary.csv",
+      "bytes": 3538,
+      "sha256": "528c613560a95807aaa5a6b105b337f956f924657d91b98a4a7f547e0476bc28",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/method-summary.json",
+      "bytes": 65593,
+      "sha256": "873eb38e7610fc2be91e018f4145d9dcc9948535fd1c22a66ab0c8545ea9ce23",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/microsoft-v1.1-rating-feature-audit.json",
+      "bytes": 1406,
+      "sha256": "27a6a8881dced58cbccf8148883c3061023022e0ad8a96395e66e765c9da13d2",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/model-audit.json",
+      "bytes": 12711,
+      "sha256": "6ea8e9fc58194646cd0ca36bcd907304fe82cd011255d88916da47a9e80d9b84",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/newer-base-v2-rating-feature-audit.json",
+      "bytes": 1405,
+      "sha256": "21b548e262f2418b117da8ad5d57053aee1d3ba039ddd75c82c8893c3e316e5a",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/outcome-summary.json",
+      "bytes": 390,
+      "sha256": "0b625a8dc84d18da942957c12be99e464155b71a67a841f66ed5a12f357e0bda",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/overload-electrical-context.csv",
+      "bytes": 36604,
+      "sha256": "170727eee308ff7b8ae1f01056ba48c84cf25e6e1bb39b805034d4599e2182f0",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/rating-response.json",
+      "bytes": 8669,
+      "sha256": "9cf055a3acd214664427bd91e7ede7396dd94bb2082341af1e772c12351b8674",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/reference-relevant-rating-response.csv",
+      "bytes": 5123,
+      "sha256": "d764931af718d0075268fe533cacdcf8be6a86667bbf190a976a7615d9ecb05f",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/report-table.json",
+      "bytes": 4641,
+      "sha256": "3ae31cff3062c9aa10d8b8602091aedde7dbf0e36ecece852dc314bbf19584f1",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/run-status.json",
+      "bytes": 43684,
+      "sha256": "1ab550d309b20df0f31e651206db8d880644d60d14f3207d9ec48e097b15a49e",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/scenario-manifest.json",
+      "bytes": 2179,
+      "sha256": "f46b7603c8d19e9462147ad1a0bc82a260fc4d8db2fdea0051616226fad80892",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/source/pglib_opf_case300_ieee.m",
+      "bytes": 154407,
+      "sha256": "7ecf056d5942135765200ad7ae8791c28f0d35fb1dc888ba2c32dfc950f3c2f5",
+      "local_only": true
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/source-manifest.json",
+      "bytes": 3726,
+      "sha256": "8adb31f0bbfb42e591d84981b82600b45c6899e0ff3bb576aad4be6606711591",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/thermal-by-group.csv",
+      "bytes": 5435,
+      "sha256": "910ef0ac4183b0295e9f1c1f0b2693c82229e896ca11e3e9de5411634fc87aaa",
+      "local_only": false
+    },
+    {
+      "path": "results/comparisons/GSFM-014/20261023-rated-variants/verification.json",
+      "bytes": 2084,
+      "sha256": "5611fbcdd1f339d95d8ecafb9747148a9f2aef2aa87e8bb0a041b5589460c4ca",
+      "local_only": false
+    }
+  ]
+}

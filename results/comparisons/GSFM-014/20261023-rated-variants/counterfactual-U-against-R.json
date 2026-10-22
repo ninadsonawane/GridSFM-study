@@ -1,0 +1,74 @@
+[
+  {
+    "network": "300",
+    "method": "AC-OPF",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 4,
+    "max_excess": 382.7375230636907,
+    "max_ratio": 1.6606315486273735,
+    "AC_thermal_feasibility": false
+  },
+  {
+    "network": "300",
+    "method": "DC-OPF",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 18,
+    "max_excess": 595.9999999999982,
+    "max_ratio": 1.8020952524463845,
+    "AC_thermal_feasibility": "N/A"
+  },
+  {
+    "network": "300",
+    "method": "microsoft-v1.1",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 5,
+    "max_excess": 50.17526727051475,
+    "max_ratio": 1.6453444231981134,
+    "AC_thermal_feasibility": false
+  },
+  {
+    "network": "300",
+    "method": "newer-base-v2",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 10,
+    "max_excess": 10311.86139099353,
+    "max_ratio": 2.041602160706417,
+    "AC_thermal_feasibility": false
+  },
+  {
+    "network": "600",
+    "method": "AC-OPF",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 8,
+    "max_excess": 382.92846174968304,
+    "max_ratio": 1.6610114704487562,
+    "AC_thermal_feasibility": false
+  },
+  {
+    "network": "600",
+    "method": "DC-OPF",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 37,
+    "max_excess": 595.9999999999998,
+    "max_ratio": 1.80209525244639,
+    "AC_thermal_feasibility": "N/A"
+  },
+  {
+    "network": "600",
+    "method": "microsoft-v1.1",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 20,
+    "max_excess": 65.4459438884802,
+    "max_ratio": 1.6259123809726304,
+    "AC_thermal_feasibility": false
+  },
+  {
+    "network": "600",
+    "method": "newer-base-v2",
+    "audit": "U native point scored against paired R ratings, not a new solve",
+    "overloaded_count": 17,
+    "max_excess": 10316.083972876539,
+    "max_ratio": 2.067314585108802,
+    "AC_thermal_feasibility": false
+  }
+]

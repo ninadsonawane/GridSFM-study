@@ -1,0 +1,60 @@
+{
+  "attempts": [
+    {
+      "returncode": 0,
+      "method": "default",
+      "seconds": 17.346994874998927,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm012_014/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "14-R300-high-0",
+        "method": "default",
+        "matpower_file": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants/R300-high/case.m",
+        "log_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt0.log",
+        "result_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt0.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 2027,
+      "independent_pass": false,
+      "objective": 738908.6819272392
+    },
+    {
+      "returncode": 0,
+      "method": "flat",
+      "seconds": 13.735158707946539,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm012_014/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "14-R300-high-1",
+        "method": "flat",
+        "matpower_file": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants/R300-high/case.m",
+        "log_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt1.log",
+        "result_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/results/comparisons/GSFM-014/20261023-rated-variants/R300-high/ac-attempt1.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 1486,
+      "independent_pass": false,
+      "objective": 739080.8754901431
+    }
+  ],
+  "verified_reference": false,
+  "feasibility": "UNKNOWN"
+}
