@@ -2,6 +2,9 @@
 
 ## Current handoff — 23 October 2026
 
+**23 October2026 — [Experiment15: three focused load/location/charging tests](results/comparisons/GSFM-015/20261023-load-location-charging/README.md) COMPLETE.** Eighteen inputs,12 verified AC references and6 UNKNOWN reduced-charging outcomes; all36 native frozen points fail joint AC feasibility. Exact pre/post clamp observations and explanatory tables are saved. [Protocol](docs/experiments/GSFM-015.md). No training or repair. Earlier completed-task stops are historical relative to this explicit new request; stop after these three tests.
+
+
 **For the hardware Codex account: start with [the concise context and ten-question register](docs/context/2026-10-23-hardware-handoff.md).** It explains the professor's direction, verified conclusions, remaining gaps and safe continuation. The working paper title is *Assessing the Practical Utility of GridSFM for AC Optimal Power Flow on Standard Networks*.
 
 Completed evidence: [11A audit](results/audits/GSFM-011A/20261022-case300-pipeline/README.md), [11B base comparison](results/comparisons/GSFM-011B/20261022-original-case300/README.md), [11C-1 loading](results/comparisons/GSFM-011C-1/20261022-loading-only/README.md), [11D diagnosis](results/diagnosis/GSFM-011D/20261022-saved-states/README.md). The entire older 31-input Experiment 11 plan was not executed.

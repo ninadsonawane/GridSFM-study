@@ -1,0 +1,164 @@
+[
+  {
+    "scenario": "G300-0.90",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": true
+  },
+  {
+    "scenario": "G300-1.00",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": true
+  },
+  {
+    "scenario": "G300-1.06",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": true
+  },
+  {
+    "scenario": "G600-0.90",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "G600-1.00",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": true
+  },
+  {
+    "scenario": "G600-1.06",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "L300-weak",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "L300-strong",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "L600-Splus",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": true
+  },
+  {
+    "scenario": "L600-Sminus",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": true
+  },
+  {
+    "scenario": "C300-L0.90-B0.50",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C300-L0.90-B0.00",
+    "input_hash_pass": true,
+    "AC_reference_verified": false,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C300-L1.06-B0.50",
+    "input_hash_pass": true,
+    "AC_reference_verified": false,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C300-L1.06-B0.00",
+    "input_hash_pass": true,
+    "AC_reference_verified": false,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C600-L0.90-B0.50",
+    "input_hash_pass": true,
+    "AC_reference_verified": true,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C600-L0.90-B0.00",
+    "input_hash_pass": true,
+    "AC_reference_verified": false,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C600-L1.06-B0.50",
+    "input_hash_pass": true,
+    "AC_reference_verified": false,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  },
+  {
+    "scenario": "C600-L1.06-B0.00",
+    "input_hash_pass": true,
+    "AC_reference_verified": false,
+    "DC_original_equations_and_limits_pass": true,
+    "model_pins_and_clamp_identity_pass": true,
+    "Ybus_vs_branch_sum_pass": true,
+    "saved_native_equality_pass": null
+  }
+]

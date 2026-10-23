@@ -1,0 +1,1604 @@
+[
+  {
+    "scenario": "G600-0.90",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.92384820902953,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-G600-0.90-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 20,
+        "independent_pass": true,
+        "objective": 1250519.2265952425
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.536433000001125,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 1228901.7547177477,
+      "seconds": 0.1901940000243485,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.633769750013016
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2142078329925425
+      }
+    }
+  },
+  {
+    "scenario": "G600-1.06",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.442542375007179,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-G600-1.06-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 31,
+        "independent_pass": true,
+        "objective": 1563333.877927064
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4548400000203401,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1526674.9718487891,
+      "seconds": 0.19310358399525285,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2831187499687076
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.286321332969237
+      }
+    }
+  },
+  {
+    "scenario": "L300-weak",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.938156708027236,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-L300-weak-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 23,
+        "independent_pass": true,
+        "objective": 719969.9744274179
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3088699579820968,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.07049254101002589,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0930737080052495
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0721837500459515
+      }
+    }
+  },
+  {
+    "scenario": "L300-strong",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.35889875004068,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-L300-strong-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 719553.4428313912
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3068490410223603,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436091,
+      "seconds": 0.07057158305542544,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0758675420074724
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1097217919887044
+      }
+    }
+  },
+  {
+    "scenario": "C300-L0.90-B0.50",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.371021707949694,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L0.90-B0.50-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 625471.1260559151
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3072559169959277,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 614450.8773588741,
+      "seconds": 0.07166483299806714,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1081228330149315
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0681961250375025
+      }
+    }
+  },
+  {
+    "scenario": "C300-L0.90-B0.00",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.258212958986405,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L0.90-B0.00-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 219,
+        "independent_pass": false,
+        "objective": 664883.5869008021
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 8.033188125002198,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L0.90-B0.00-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 182,
+        "independent_pass": false,
+        "objective": 664883.6187444985
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30729058402357623,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 614450.8773588741,
+      "seconds": 0.07108308299211785,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0888567920192145
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0564851670060307
+      }
+    }
+  },
+  {
+    "scenario": "C300-L1.06-B0.50",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.813113667012658,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L1.06-B0.50-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 128,
+        "independent_pass": false,
+        "objective": 806501.7757497531
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 7.7568977500195615,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L1.06-B0.50-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 104,
+        "independent_pass": false,
+        "objective": 806501.8561187724
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3080618749954738,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 11,
+      "message": "Converged",
+      "objective": 763337.4859243946,
+      "seconds": 0.06950562499696389,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.050858208036516
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.036057625024114
+      }
+    }
+  },
+  {
+    "scenario": "C300-L1.06-B0.00",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.923198082949966,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L1.06-B0.00-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 164,
+        "independent_pass": false,
+        "objective": 805616.7210805548
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 7.973065333033446,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C300-L1.06-B0.00-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 179,
+        "independent_pass": false,
+        "objective": 805616.7213857424
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3065464160172269,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 11,
+      "message": "Converged",
+      "objective": 763337.4859243946,
+      "seconds": 0.06943316699471325,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0660716660204343
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0971275420160964
+      }
+    }
+  },
+  {
+    "scenario": "C600-L0.90-B0.50",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.785289083025418,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L0.90-B0.50-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 21,
+        "independent_pass": true,
+        "objective": 1250936.7952932033
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42592079198220745,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 1228901.7547177477,
+      "seconds": 0.18662550003500655,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1370950419805013
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2018764169770293
+      }
+    }
+  },
+  {
+    "scenario": "C600-L0.90-B0.00",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.546666499983985,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L0.90-B0.00-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 188,
+        "independent_pass": false,
+        "objective": 1329766.318321317
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 10.782343166007195,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L0.90-B0.00-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 222,
+        "independent_pass": false,
+        "objective": 1329765.9783033058
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.45068854198325425,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 1228901.7547177477,
+      "seconds": 0.19362687499960884,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.277360874984879
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.230411832977552
+      }
+    }
+  },
+  {
+    "scenario": "C600-L1.06-B0.50",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.634871707996354,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L1.06-B0.50-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 139,
+        "independent_pass": false,
+        "objective": 1612858.153040627
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 9.144918499980122,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L1.06-B0.50-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 133,
+        "independent_pass": false,
+        "objective": 1612858.1757691156
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42653970897663385,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1526674.9718487891,
+      "seconds": 0.18545600003562868,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1360652500297874
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1260726249893196
+      }
+    }
+  },
+  {
+    "scenario": "C600-L1.06-B0.00",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.81001220899634,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L1.06-B0.00-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 182,
+        "independent_pass": false,
+        "objective": 1611233.4417267542
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 9.288308540999424,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "15-C600-L1.06-B0.00-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00/case.m",
+          "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 190,
+        "independent_pass": false,
+        "objective": 1611233.4429411513
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.428589417017065,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1526674.9718487891,
+      "seconds": 0.1853961660526693,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1153669169871137
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.102644208993297
+      }
+    }
+  }
+]

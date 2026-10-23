@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scenarios": 18,
+  "reference_valid": 12,
+  "method_rows": 72,
+  "native_states": 36,
+  "clamp_variables": 108,
+  "preclip_diagnostics": 144,
+  "prior_files_unchanged": 744,
+  "source_reused_native_points_exactly_reproduced": 12,
+  "independent_physics_and_no_label_input": true,
+  "finished_UTC": "2026-10-23T17:16:42.619609+00:00"
+}

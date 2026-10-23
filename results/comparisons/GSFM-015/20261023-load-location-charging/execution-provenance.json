@@ -1,0 +1,42 @@
+{
+  "parent_commit": "b7cd1418ba8ae9e948cb2bb85e79543ca1684331",
+  "code_sha256": {
+    "experiments/gsfm015/analyze.py": "70fc66b35dfbe9a95e5a0fdaef8f81b0dbb3e4461d61bda631b1ed6a0e99ca91",
+    "experiments/gsfm015/capture_reused.py": "51dcc0036be37fa10d7d88f36ed4459dce22a43f8fd4e086827ab1724b604a66",
+    "experiments/gsfm015/electrical.py": "a2a8f2b4919eb5fe23b8d8e8ea237d4e1bdea72e6bab25bf502543a3377284c3",
+    "experiments/gsfm015/prepare.py": "2b973864a63be78793d71c66c97149f672e8ab3712cb5d7c571c09dbfa42d3b0",
+    "experiments/gsfm015/report.py": "66c5d5e295ab72e87f1717bcbdd78b15361ae233479d06b93a54aea03b02ea1a",
+    "experiments/gsfm015/rescore_saved.py": "2acf8ff87738041e1f4da16cbb3ddf2438e4302175328330286b8f72962ea505",
+    "experiments/gsfm015/run_cases.py": "4317328a2d68a7c119c45c72a0b6e5d2983f7b6dc00bd5d02fa67ec516c31608",
+    "experiments/gsfm015/run_dc.py": "2f14397530f6c80229b8875dcdcd3f29ea33c97f9e48e11467043832f174284f",
+    "experiments/gsfm015/run_model.py": "104fafe418af561c19db1438a111643d43d0af320c7ca52efa3eaba4a2edb9c7",
+    "experiments/gsfm015/solver_server.jl": "b50e340f06a0c3cd0562fa64d053b762940ff05725caa513b6ec546dd06adf4e"
+  },
+  "started_UTC": "2026-10-23T17:11:01.321246+00:00",
+  "packaged_UTC": "2026-10-23T17:18:48.824415+00:00",
+  "hardware": {
+    "hw.model": "Mac17,8",
+    "machdep.cpu.brand_string": "Apple M5 Pro",
+    "hw.memsize": "68719476736",
+    "hw.ncpu": "18"
+  },
+  "scientific_python": "3.11 existing GridSFM venv; numpy2.4.6 scipy1.17.1 torch2.8.0 torch-geometric2.8.0.post1 PYPOWER5.1.21",
+  "solver": "Julia1.11.9 PowerModels0.21.5 Ipopt1.14.0 existing project; same audited12 options",
+  "seed": 0,
+  "threads": {
+    "torch": 4,
+    "OMP": 4,
+    "OPENBLAS": 1,
+    "MKL": 1
+  },
+  "actual_calls": {
+    "new_AC_attempts": 18,
+    "new_DC_solves": 12,
+    "new_input_native_forwards": 24,
+    "reused_input_native_forwards": 12,
+    "additional_PF_OPF_repairs_training": 0
+  },
+  "raw_storage": "This Mac only under artifact_root; no external durable raw store configured; hashes do not provide download access",
+  "scientific_failures": "6 reference outcomes UNKNOWN, both default and flat attempts retained; no replacement inputs",
+  "analysis_schema_accommodation": "Historical DC success field read as success or solver_success; original saved statuses untouched. No new solve for this reporting-only accommodation."
+}

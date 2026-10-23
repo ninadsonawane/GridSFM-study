@@ -1,0 +1,60 @@
+{
+  "attempts": [
+    {
+      "returncode": 0,
+      "method": "default",
+      "seconds": 7.923198082949966,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "15-C300-L1.06-B0.00-0",
+        "method": "default",
+        "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/case.m",
+        "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt0.log",
+        "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt0.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 164,
+      "independent_pass": false,
+      "objective": 805616.7210805548
+    },
+    {
+      "returncode": 0,
+      "method": "flat",
+      "seconds": 7.973065333033446,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "15-C300-L1.06-B0.00-1",
+        "method": "flat",
+        "matpower_file": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/case.m",
+        "log_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt1.log",
+        "result_path": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00/ac-attempt1.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 179,
+      "independent_pass": false,
+      "objective": 805616.7213857424
+    }
+  ],
+  "verified_reference": false,
+  "feasibility": "UNKNOWN"
+}

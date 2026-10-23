@@ -1,5 +1,8 @@
 # GridSFM case300 physical-validity study
 
+**23 October2026 — [Experiment15: three focused load/location/charging tests](results/comparisons/GSFM-015/20261023-load-location-charging/README.md) COMPLETE.** Eighteen inputs,12 verified AC references and6 UNKNOWN reduced-charging outcomes; all36 native frozen points fail joint AC feasibility. Exact pre/post clamp observations and explanatory tables are saved. [Protocol](docs/experiments/GSFM-015.md). No training or repair. Earlier completed-task stops are historical relative to this explicit new request; stop after these three tests.
+
+
 **23 October 2026 — hardware-account handoff:** [Start here](docs/context/2026-10-23-hardware-handoff.md) for the professor's ten core questions, current conclusions and the next experiments. [HANDOFF.md](HANDOFF.md) identifies the current reading order and execution gate.
 
 **23 October 2026 — Experiments 12, 13 and 14 completed on explicit instruction to run all three and push results.**

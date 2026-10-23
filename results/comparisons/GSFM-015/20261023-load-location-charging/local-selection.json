@@ -1,0 +1,21 @@
+{
+  "frozen_before_predictions": true,
+  "rule": "Among PQ buses with positive Pd and Qd in most common kV stratum, take bottom/top5 |Ybus_ii| with original-ID ties. This source admittance proxy is not a full voltage-stability/short-circuit-strength measure.",
+  "base_kV": 115.0,
+  "weak_bus_ids": [
+    609.0,
+    531.0,
+    154.0,
+    173.0,
+    179.0
+  ],
+  "strong_bus_ids": [
+    2.0,
+    1.0,
+    77.0,
+    118.0,
+    37.0
+  ],
+  "transfer_MW": 63.82000000000001,
+  "transfer_MVAr": 16.02
+}

@@ -1,0 +1,19 @@
+# Local-only scientific states and traces; inventory records SHA256.
+*/input.json
+*/case.m
+*/*-native.json
+*/*-saved-native.json
+*/*-returned.json
+*/*-input.pyg.json
+*/*-metadata.json
+*/*-clamps.json
+*/ac-attempt*.json
+*/ac-failed-iterate.json
+*/dc-raw.json
+*/*.log
+bus-metrics.csv
+branch-flows.csv
+clipping-events.csv
+preclip-diagnostics.json
+prior-artifacts.json
+*/dc-status.json

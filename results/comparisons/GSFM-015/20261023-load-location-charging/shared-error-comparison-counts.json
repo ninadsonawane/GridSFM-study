@@ -1,0 +1,86 @@
+[
+  {
+    "network": "300",
+    "metric": "Pg_per_generator_MW",
+    "release": "microsoft-v1.1",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "300",
+    "metric": "Pg_per_generator_MW",
+    "release": "newer-base-v2",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "300",
+    "metric": "aligned_angle_deg",
+    "release": "microsoft-v1.1",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "300",
+    "metric": "aligned_angle_deg",
+    "release": "newer-base-v2",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "300",
+    "metric": "branch_P_MW",
+    "release": "microsoft-v1.1",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "300",
+    "metric": "branch_P_MW",
+    "release": "newer-base-v2",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "600",
+    "metric": "Pg_per_generator_MW",
+    "release": "microsoft-v1.1",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "600",
+    "metric": "Pg_per_generator_MW",
+    "release": "newer-base-v2",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "600",
+    "metric": "aligned_angle_deg",
+    "release": "microsoft-v1.1",
+    "model_lower_MAE_than_DC": 1,
+    "valid_inputs": 6
+  },
+  {
+    "network": "600",
+    "metric": "aligned_angle_deg",
+    "release": "newer-base-v2",
+    "model_lower_MAE_than_DC": 1,
+    "valid_inputs": 6
+  },
+  {
+    "network": "600",
+    "metric": "branch_P_MW",
+    "release": "microsoft-v1.1",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  },
+  {
+    "network": "600",
+    "metric": "branch_P_MW",
+    "release": "newer-base-v2",
+    "model_lower_MAE_than_DC": 0,
+    "valid_inputs": 6
+  }
+]
