@@ -1,0 +1,256 @@
+{
+  "headers": [
+    "condition",
+    "AC-OPF",
+    "DC-OPF",
+    "Microsoft v1.1",
+    "newer base v2"
+  ],
+  "rows": [
+    [
+      "P10-300",
+      "PASS; cost\u0394 13.9%; Q-bound 28",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 20/12/45; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2193; \u0394P/Q \u2191/\u2191; clip 52/29/286; thermal None"
+    ],
+    [
+      "Q10-300",
+      "PASS; cost\u0394 0.335%; Q-bound 29",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2193/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 22/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2191; \u0394P/Q \u2191/\u2191; clip 50/26/277; thermal None"
+    ],
+    [
+      "ADD-concentrated-300",
+      "PASS; cost\u0394 0.114%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2193/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2191; \u0394P/Q \u2193/\u2191; clip 51/27/281; thermal None"
+    ],
+    [
+      "ADD-distributed-300",
+      "PASS; cost\u0394 0.114%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2191/\u2191; clip 51/27/280; thermal None"
+    ],
+    [
+      "SHUNT50-300",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 22",
+      "own DC PASS; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2191/\u2191; clip 21/8/38; thermal None",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2191/\u2191; clip 50/27/280; thermal None"
+    ],
+    [
+      "QBOX80-300",
+      "PASS; cost\u0394 0.0493%; Q-bound 31",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2193/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 21/10/40; thermal None",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2191; \u0394P/Q \u2193/\u2191; clip 52/28/275; thermal None"
+    ],
+    [
+      "GENOUT-300",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 35",
+      "own DC PASS; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 22/8/51; thermal None",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2191/\u2191; clip 54/27/276; thermal None"
+    ],
+    [
+      "COST2-300",
+      "PASS; cost\u0394 4.86%; Q-bound 26",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 22/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2191/\u2193/\u2193/\u2191; \u0394P/Q \u2193/\u2191; clip 51/27/278; thermal None"
+    ],
+    [
+      "TAP102-300",
+      "PASS; cost\u0394 0.0433%; Q-bound 24",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2193; \u0394P/Q \u2193/\u2191; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2193/\u2193; \u0394P/Q \u2193/\u2193; clip 51/27/281; thermal None"
+    ],
+    [
+      "SHIFT2-300",
+      "PASS; cost\u0394 -3.88e-13%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2248/\u2248/\u2248",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2193/\u2191; \u0394P/Q \u2191/\u2191; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 51/27/281; thermal None"
+    ],
+    [
+      "VBOX80-300",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 20",
+      "own DC PASS; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 21/8/77; thermal None",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 51/26/285; thermal None"
+    ],
+    [
+      "R110-300",
+      "PASS; cost\u0394 0.000127%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2193/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2191/\u2248/\u2191/\u2191; \u0394P/Q \u2191/\u2191; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2191; clip 51/27/281; thermal None"
+    ],
+    [
+      "X110-300",
+      "PASS; cost\u0394 -5.36e-06%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2193",
+      "\u0394G/V/\u03b8/F \u2193/\u2248/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2191; clip 51/27/281; thermal None"
+    ],
+    [
+      "REP-renumber-300",
+      "PASS; cost\u0394 -6.47e-14%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2248/\u2248/\u2248",
+      "\u0394G/V/\u03b8/F \u2248/\u2248/\u2248/\u2248; \u0394P/Q \u2248/\u2248; clip 21/8/39; thermal None",
+      "\u0394G/V/\u03b8/F \u2248/\u2248/\u2248/\u2248; \u0394P/Q \u2248/\u2248; clip 51/27/281; thermal None"
+    ],
+    [
+      "REP-reorder-300",
+      "PASS; cost\u0394 8.09e-14%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2248/\u2248/\u2248",
+      "\u0394G/V/\u03b8/F \u2191/\u2193/\u2191/\u2191; \u0394P/Q \u2193/\u2193; clip 26/11/26; thermal None",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2191; \u0394P/Q \u2191/\u2191; clip 45/27/277; thermal None"
+    ],
+    [
+      "P10-600",
+      "PASS; cost\u0394 13.9%; Q-bound 56",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 37/21/78; thermal 0",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2193; \u0394P/Q \u2191/\u2191; clip 100/54/564; thermal 0"
+    ],
+    [
+      "Q10-600",
+      "PASS; cost\u0394 0.335%; Q-bound 58",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2193/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 38/20/101; thermal 0",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2191; \u0394P/Q \u2191/\u2193; clip 101/54/560; thermal 0"
+    ],
+    [
+      "ADD-concentrated-600",
+      "PASS; cost\u0394 0.0568%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2193/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2191; clip 39/20/98; thermal 0",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 97/54/567; thermal 0"
+    ],
+    [
+      "ADD-distributed-600",
+      "PASS; cost\u0394 0.0571%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2191; clip 39/20/98; thermal 0",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2191/\u2193; clip 97/54/567; thermal 0"
+    ],
+    [
+      "SHUNT50-600",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 45",
+      "own DC PASS; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2191/\u2193; clip 39/20/99; thermal 0",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 99/56/577; thermal 0"
+    ],
+    [
+      "QBOX80-600",
+      "PASS; cost\u0394 0.0492%; Q-bound 64",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2193/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 38/21/102; thermal 0",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2191; \u0394P/Q \u2193/\u2193; clip 101/56/576; thermal 0"
+    ],
+    [
+      "GENOUT-600",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 58",
+      "own DC PASS; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 38/20/93; thermal 0",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 100/56/568; thermal 0"
+    ],
+    [
+      "COST2-600",
+      "PASS; cost\u0394 2.39%; Q-bound 51",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2191; clip 39/20/97; thermal 0",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2191; clip 99/54/566; thermal 0"
+    ],
+    [
+      "TAP102-600",
+      "PASS; cost\u0394 0.0433%; Q-bound 48",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2193/\u2193; \u0394P/Q \u2193/\u2191; clip 39/20/99; thermal 0",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2193/\u2193; \u0394P/Q \u2191/\u2193; clip 97/54/567; thermal 0"
+    ],
+    [
+      "SHIFT2-600",
+      "PASS; cost\u0394 5.5e-13%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2248/\u2248/\u2248",
+      "\u0394G/V/\u03b8/F \u2193/\u2248/\u2193/\u2191; \u0394P/Q \u2191/\u2191; clip 39/20/99; thermal 0",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2193/\u2191; \u0394P/Q \u2193/\u2193; clip 97/54/567; thermal 0"
+    ],
+    [
+      "VBOX80-600",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 39/20/222; thermal 0",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2193; clip 97/54/570; thermal 0"
+    ],
+    [
+      "R110-600",
+      "PASS; cost\u0394 0.000114%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2193/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2248/\u2191/\u2191; \u0394P/Q \u2191/\u2191; clip 39/20/99; thermal 0",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2191; clip 97/54/567; thermal 0"
+    ],
+    [
+      "X110-600",
+      "PASS; cost\u0394 -5.86e-06%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2193",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2191/\u2193; clip 39/20/99; thermal 0",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2191; clip 97/54/567; thermal 0"
+    ],
+    [
+      "REP-renumber-600",
+      "PASS; cost\u0394 -1.94e-13%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2248/\u2248/\u2248",
+      "\u0394G/V/\u03b8/F \u2248/\u2248/\u2248/\u2248; \u0394P/Q \u2248/\u2248; clip 39/20/99; thermal 0",
+      "\u0394G/V/\u03b8/F \u2248/\u2248/\u2248/\u2248; \u0394P/Q \u2248/\u2248; clip 97/54/567; thermal 0"
+    ],
+    [
+      "REP-reorder-600",
+      "PASS; cost\u0394 -1.13e-13%; Q-bound 46",
+      "own DC PASS; \u0394G/\u03b8/F \u2248/\u2248/\u2248",
+      "\u0394G/V/\u03b8/F \u2191/\u2193/\u2191/\u2191; \u0394P/Q \u2191/\u2193; clip 34/14/89; thermal 0",
+      "\u0394G/V/\u03b8/F \u2191/\u2191/\u2191/\u2191; \u0394P/Q \u2193/\u2191; clip 82/54/555; thermal 0"
+    ],
+    [
+      "LINEOUT-300",
+      "PASS; cost\u0394 0.000356%; Q-bound 23",
+      "own DC PASS; \u0394G/\u03b8/F \u2193/\u2191/\u2191",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 21/4/36; thermal None",
+      "\u0394G/V/\u03b8/F \u2193/\u2191/\u2191/\u2193; \u0394P/Q \u2193/\u2193; clip 51/27/276; thermal None"
+    ],
+    [
+      "TIEOUT-600",
+      "PASS; cost\u0394 0.002%; Q-bound 52",
+      "own DC PASS; \u0394G/\u03b8/F \u2193/\u2193/\u2193",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2191; \u0394P/Q \u2193/\u2191; clip 39/21/90; thermal 1",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2191; \u0394P/Q \u2193/\u2193; clip 97/53/558; thermal 1"
+    ],
+    [
+      "TIEX2-600",
+      "PASS; cost\u0394 -0.000241%; Q-bound 52",
+      "own DC PASS; \u0394G/\u03b8/F \u2191/\u2191/\u2193",
+      "\u0394G/V/\u03b8/F \u2193/\u2193/\u2191/\u2193; \u0394P/Q \u2191/\u2191; clip 39/20/95; thermal 2",
+      "\u0394G/V/\u03b8/F \u2191/\u2193/\u2191/\u2193; \u0394P/Q \u2193/\u2191; clip 96/54/557; thermal 2"
+    ],
+    [
+      "RATE80-300",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 32",
+      "FAILED UNKNOWN, own-law FAIL; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2191; clip 29/15/28; thermal 17",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2191; clip 25/14/280; thermal 25"
+    ],
+    [
+      "RATE80-600",
+      "UNKNOWN; cost\u0394 N/A; Q-bound 64",
+      "FAILED UNKNOWN, own-law FAIL; \u0394G/\u03b8/F N/A/N/A/N/A",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2191/\u2191; clip 64/25/63; thermal 27",
+      "\u0394G/V/\u03b8/F N/A/N/A/N/A/N/A; \u0394P/Q \u2193/\u2191; clip 50/26/566; thermal 52"
+    ]
+  ]
+}

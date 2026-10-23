@@ -1,0 +1,10 @@
+{
+  "frozen_source_only": true,
+  "load_bus": 192.0,
+  "source_gen_row_1based": 31,
+  "gen_bus": 191.0,
+  "source_tap_branch_row_1based": 1,
+  "source_stiff_branch_row_1based": 317,
+  "source_parallel_outage_branch_row_1based": 13,
+  "scope": "Generator/cost/load interventions in600 affect areaA only except explicitly distributed total addition; inherited impedance/transformer/shunt/limit interventions affect both copies; ties changed only in coupling/outage cases."
+}

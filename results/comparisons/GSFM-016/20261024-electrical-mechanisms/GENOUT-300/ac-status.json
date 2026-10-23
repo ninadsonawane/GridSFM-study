@@ -1,0 +1,60 @@
+{
+  "attempts": [
+    {
+      "returncode": 0,
+      "method": "default",
+      "seconds": 8.046649499970954,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "16-GENOUT-300-0",
+        "method": "default",
+        "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/case.m",
+        "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt0.log",
+        "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt0.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 168,
+      "independent_pass": false,
+      "objective": 744397.891844445
+    },
+    {
+      "returncode": 0,
+      "method": "flat",
+      "seconds": 7.917071749980096,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "16-GENOUT-300-1",
+        "method": "flat",
+        "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/case.m",
+        "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt1.log",
+        "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt1.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 152,
+      "independent_pass": false,
+      "objective": 744427.2016056939
+    }
+  ],
+  "verified_reference": false,
+  "feasibility": "UNKNOWN"
+}

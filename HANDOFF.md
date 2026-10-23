@@ -2,6 +2,9 @@
 
 ## Current handoff — 23 October 2026
 
+**[Experiment16: distinct electrical mechanisms, all four methods](results/comparisons/GSFM-016/20261024-electrical-mechanisms/README.md) COMPLETE.**35 new +20 reused inputs;41/55 acceptedAC references,53/55 own-lawDC passes,0/110 native model joint-feasibility passes. All prior artifacts unchanged. New row-order control shows substantial pipeline sensitivity despite physically equivalent matrices/raw graphs; cause unresolved. Full errors/limits/clipping and UNKNOWN outcomes retained. [Protocol](docs/experiments/GSFM-016.md). Stop after this bounded study; no training/repair.
+
+
 **23 October2026 — [Experiment15: three focused load/location/charging tests](results/comparisons/GSFM-015/20261023-load-location-charging/README.md) COMPLETE.** Eighteen inputs,12 verified AC references and6 UNKNOWN reduced-charging outcomes; all36 native frozen points fail joint AC feasibility. Exact pre/post clamp observations and explanatory tables are saved. [Protocol](docs/experiments/GSFM-015.md). No training or repair. Earlier completed-task stops are historical relative to this explicit new request; stop after these three tests.
 
 

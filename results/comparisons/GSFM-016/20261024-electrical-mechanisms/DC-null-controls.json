@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "Q10-300",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "SHUNT50-300",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "QBOX80-300",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "VBOX80-300",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "R110-300",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "Q10-600",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "SHUNT50-600",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "QBOX80-600",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "VBOX80-600",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  },
+  {
+    "scenario": "R110-600",
+    "method": "DC-OPF",
+    "max_state_or_flow_difference": 0.0,
+    "reason": "The changed reactive quantity, voltage box or resistance is omitted by this standard DC approximation, not evidence of AC robustness"
+  }
+]

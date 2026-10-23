@@ -1,0 +1,43 @@
+{
+  "parent_commit": "bf1be9cfb6b37bfff9ae5bf7e82e4eacee4b75e3",
+  "started_UTC": "2026-10-23T18:31:36.363041+00:00",
+  "finished_analysis_UTC": "2026-10-23T18:43:50.583446+00:00",
+  "hardware": {
+    "hw.model": "Mac17,8",
+    "machdep.cpu.brand_string": "Apple M5 Pro",
+    "hw.memsize": "68719476736",
+    "hw.ncpu": "18"
+  },
+  "environment": "Existing read-only Python3.11 torch2.8.0 PyG2.8.0.post1 numpy2.4.6 scipy1.17.1 PYPOWER5.1.21; Julia1.11.9 PowerModels0.21.5 Ipopt1.14.0; sequential CPU FP32 model, original FP64 physics",
+  "seed": 0,
+  "threads": {
+    "torch": 4,
+    "OMP": 4,
+    "OPENBLAS": 1,
+    "MKL": 1
+  },
+  "actual_calls": {
+    "new_AC_attempts": 43,
+    "new_DC_solves": 35,
+    "new_scenario_native_forwards": 70,
+    "label_audit_forwards": 8,
+    "reused_rated_baseline_clip_forwards": 4,
+    "total_new_model_forwards": 82,
+    "training_PF_completion_OPF_repair_calls": 0
+  },
+  "prelaunch_amendment": "prelaunch-amendment.json; initial plan preserved before both tie cases started; no case-count expansion",
+  "analysis_notes": "FailedDC numerical points are retained and explicitly fail own-constraints, never accepted baselines. Offline-unit outputs map to physical zero only; raw API outputs stay separate. Full input/preprocessing/backbone order-dependence cause unresolved.",
+  "raw_artifact_availability": "Local-only on this Mac; no remote durable raw store configured; hashes do not provide download access",
+  "code_sha256": {
+    "experiments/gsfm016/electrical.py": "0f604c87ed3e706a95114df17b3bd3a5ebbaa767612ac0107ab4bbc92b6a7d44",
+    "experiments/gsfm016/audit_representation_inputs.py": "b390c15b2e0c81708ea010af454367109f698d2d26cb713b98de480283c43698",
+    "experiments/gsfm016/run_model.py": "324db2f4fdeaf39ecc85330bdfecedc770dc538de703384c8d5767abda2b3f42",
+    "experiments/gsfm016/capture_rated.py": "26a94cab8556e89f1bf6fab84b5d1761681d350f26561b18fe93bb547428cb90",
+    "experiments/gsfm016/run_cases.py": "31c7342923a0ee9c6035178152338d8b3b21fbacea185ceeee8453844dd20b65",
+    "experiments/gsfm016/run_dc.py": "2f14397530f6c80229b8875dcdcd3f29ea33c97f9e48e11467043832f174284f",
+    "experiments/gsfm016/solver_server.jl": "b50e340f06a0c3cd0562fa64d053b762940ff05725caa513b6ec546dd06adf4e",
+    "experiments/gsfm016/report.py": "de8da2634fa451391ef13558015a6713c53c6058d22a72d8f2489697ae97bdab",
+    "experiments/gsfm016/prepare.py": "ca3f83af63e56cede8dd38b16c2ab960aa0c4ab6ac67a61fc5a38055dda5b0ec",
+    "experiments/gsfm016/analyze.py": "710743191f12b2b8391124f8bd016a68c16d2bbe5e456142c9cd8bbd52e50ae9"
+  }
+}

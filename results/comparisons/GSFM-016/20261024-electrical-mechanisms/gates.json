@@ -1,0 +1,442 @@
+[
+  {
+    "scenario": "P10-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "Q10-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "ADD-concentrated-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "ADD-distributed-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "SHUNT50-300",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "QBOX80-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "GENOUT-300",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "COST2-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "TAP102-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "SHIFT2-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "VBOX80-300",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "R110-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "X110-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "REP-renumber-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "REP-reorder-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "P10-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "Q10-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "ADD-concentrated-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "ADD-distributed-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "SHUNT50-600",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "QBOX80-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "GENOUT-600",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "COST2-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "TAP102-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "SHIFT2-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "VBOX80-600",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "R110-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "X110-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "REP-renumber-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "REP-reorder-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "LINEOUT-300",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "TIEOUT-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "TIEX2-600",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "RATE80-300",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": false,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "RATE80-600",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": false,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "G300-0.90",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "G300-1.00",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "G300-1.06",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "G600-0.90",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "G600-1.00",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "G600-1.06",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "L300-weak",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "L300-strong",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "L600-Splus",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "L600-Sminus",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C300-L0.90-B0.50",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C300-L0.90-B0.00",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C300-L1.06-B0.50",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C300-L1.06-B0.00",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C600-L0.90-B0.50",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C600-L0.90-B0.00",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C600-L1.06-B0.50",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "C600-L1.06-B0.00",
+    "input_hash_pass": true,
+    "reference_valid": false,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "R300-base",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  },
+  {
+    "scenario": "R600-base",
+    "input_hash_pass": true,
+    "reference_valid": true,
+    "DC_valid": true,
+    "exact_Ybus_branch_sum": true,
+    "native_mapping_and_clamp_pass": true
+  }
+]

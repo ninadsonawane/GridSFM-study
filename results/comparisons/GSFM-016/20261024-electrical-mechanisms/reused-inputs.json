@@ -1,0 +1,144 @@
+[
+  {
+    "id": "G300-0.90",
+    "network": "300",
+    "family": "global",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-0.90",
+    "input_sha256": "9b82e9210b3eca4856ffd7df01a4e6ff1620c13adf654261193da8b85ea274fb"
+  },
+  {
+    "id": "G300-1.00",
+    "network": "300",
+    "family": "global",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-1.00",
+    "input_sha256": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed"
+  },
+  {
+    "id": "G300-1.06",
+    "network": "300",
+    "family": "global",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-1.06",
+    "input_sha256": "e973701e28405b93790d7da9ee25bb5344da69e66526ae0f4af7ba36700bab60"
+  },
+  {
+    "id": "G600-0.90",
+    "network": "600",
+    "family": "global",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-0.90",
+    "input_sha256": "b9f9f764ce2cd63d7cb84da52716060ba1f60f06cccb7a8e5e7f4907d3ed4f62"
+  },
+  {
+    "id": "G600-1.00",
+    "network": "600",
+    "family": "global",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.00",
+    "input_sha256": "73883ff8c061999d8b50aa27c43bd9b40527b448ffe98fab9aacd073bf04c0f6"
+  },
+  {
+    "id": "G600-1.06",
+    "network": "600",
+    "family": "global",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/G600-1.06",
+    "input_sha256": "93179d332adb1097d83a7a98d561de2e2a9f8a315ec54ed66ff04a797c49d686"
+  },
+  {
+    "id": "L300-weak",
+    "network": "300",
+    "family": "local",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-weak",
+    "input_sha256": "216c3900698e409fe35f59dc9a8285dd6d888e575fccc305fe404df1eae71dee"
+  },
+  {
+    "id": "L300-strong",
+    "network": "300",
+    "family": "local",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/L300-strong",
+    "input_sha256": "e1f45261cc242f5304819b57805df61cdd2daa00b09840ffa56e1b3c21d5ba3a"
+  },
+  {
+    "id": "L600-Splus",
+    "network": "600",
+    "family": "local",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/L600-Splus",
+    "input_sha256": "dee30cea053c2f21b021f58fdd7f32e516da0be83c8a23e192e4934fd0ebb4cd"
+  },
+  {
+    "id": "L600-Sminus",
+    "network": "600",
+    "family": "local",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/L600-Sminus",
+    "input_sha256": "ef0b8b19db44a51579623e9f99b91b640383b0b85d30dae787a3ce9c445d854c"
+  },
+  {
+    "id": "C300-L0.90-B0.50",
+    "network": "300",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50",
+    "input_sha256": "abbd93fb53e4fd503da165a29ee3532b054e0ba3b986a5f2575cb59db870a4d4"
+  },
+  {
+    "id": "C300-L0.90-B0.00",
+    "network": "300",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.00",
+    "input_sha256": "098d04b94de5b7bdbe196ad38e78b544dd173de08dc54d2ab73a588aa2010c39"
+  },
+  {
+    "id": "C300-L1.06-B0.50",
+    "network": "300",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.50",
+    "input_sha256": "49761923fced3e04b6dcc67af3287e89acdc0000f3622a7acebb636bd8a49860"
+  },
+  {
+    "id": "C300-L1.06-B0.00",
+    "network": "300",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L1.06-B0.00",
+    "input_sha256": "e1b9c56a6dea7ff58680e8f7d5430c873d757fd3ff8808b961560a59f3ab28d7"
+  },
+  {
+    "id": "C600-L0.90-B0.50",
+    "network": "600",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.50",
+    "input_sha256": "4fd1d90986f1ec9b735d46dc66a4dc5f5ef1e92bca43c27406870fd2e1adb78a"
+  },
+  {
+    "id": "C600-L0.90-B0.00",
+    "network": "600",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L0.90-B0.00",
+    "input_sha256": "ca60d1557091a4ecb916fb9bc3c64f6b9b510bfe600f0430b5962c303f66ee93"
+  },
+  {
+    "id": "C600-L1.06-B0.50",
+    "network": "600",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.50",
+    "input_sha256": "7fcbb84d9f4ca754b959db6b5ba849ff2961c8e9196c832e80feecb3aa7c70e0"
+  },
+  {
+    "id": "C600-L1.06-B0.00",
+    "network": "600",
+    "family": "charging",
+    "source": "results/comparisons/GSFM-015/20261023-load-location-charging/C600-L1.06-B0.00",
+    "input_sha256": "8ebae8b08c058a7ca59c9e50cff3450c742a214406458d391ec7cec5881dde09"
+  },
+  {
+    "id": "R300-base",
+    "network": "300",
+    "family": "rated-baseline",
+    "source": "results/comparisons/GSFM-014/20261023-rated-variants/R300-base",
+    "capture_dir": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R300-base",
+    "input_sha256": "2040b93a3e01af684829ffb17e9cc93dcbc40e4dd0647cd0cfcd7ea269188f4c"
+  },
+  {
+    "id": "R600-base",
+    "network": "600",
+    "family": "rated-baseline",
+    "source": "results/comparisons/GSFM-014/20261023-rated-variants/R600-base",
+    "capture_dir": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R600-base",
+    "input_sha256": "755fbd4880482d32fb5296c2f46205a07ddc10fe208ba92ceda0ad6521907647"
+  }
+]

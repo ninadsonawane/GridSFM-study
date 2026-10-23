@@ -1,0 +1,90 @@
+[
+  {
+    "scenario": "REP-renumber-300",
+    "release": "microsoft-v1.1",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-renumber-300",
+    "release": "newer-base-v2",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-reorder-300",
+    "release": "microsoft-v1.1",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-reorder-300",
+    "release": "newer-base-v2",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-renumber-600",
+    "release": "microsoft-v1.1",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-renumber-600",
+    "release": "newer-base-v2",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-reorder-600",
+    "release": "microsoft-v1.1",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  },
+  {
+    "scenario": "REP-reorder-600",
+    "release": "newer-base-v2",
+    "status": "PASS",
+    "all_node_raw_features_exact_after_map": true,
+    "all_branch_raw_features_and_direction_exact_after_map": true,
+    "generator_load_shunt_link_endpoints_exact_after_map": true,
+    "no_solution_fields": true,
+    "new_forward_calls": 0,
+    "scope": "Raw converted graph. Differences arising in released positional/cycle feature preparation or model internals not isolated by this check."
+  }
+]

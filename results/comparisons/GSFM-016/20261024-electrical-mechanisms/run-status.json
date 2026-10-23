@@ -1,0 +1,4422 @@
+[
+  {
+    "scenario": "P10-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.711899249989074,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-P10-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 26,
+        "independent_pass": true,
+        "objective": 819867.939215643
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.40103020798414946,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 801983.7464671896,
+      "seconds": 0.07200541696511209,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.35301454202272
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0708898750017397
+      }
+    }
+  },
+  {
+    "scenario": "Q10-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.393830459041055,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-Q10-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 722139.3844796191
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.312097082962282,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.07102691597538069,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.069743834028486
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0991894159815274
+      }
+    }
+  },
+  {
+    "scenario": "ADD-concentrated-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.380191708041821,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-ADD-concentrated-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 720542.2322991155
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3059515419881791,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 707092.9571482372,
+      "seconds": 0.07008570898324251,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0740231670206413
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0797131250146776
+      }
+    }
+  },
+  {
+    "scenario": "ADD-distributed-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.3784240409731865,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-ADD-distributed-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 21,
+        "independent_pass": true,
+        "objective": 720546.8169096074
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30942212499212474,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 707092.9571482373,
+      "seconds": 0.07063295796979219,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.075824833009392
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0669607499730773
+      }
+    }
+  },
+  {
+    "scenario": "SHUNT50-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.725631707988214,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-SHUNT50-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 117,
+        "independent_pass": false,
+        "objective": 754529.7061863877
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 8.400000333960634,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-SHUNT50-300-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 231,
+        "independent_pass": false,
+        "objective": 754503.0109936923
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3080703329760581,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.07042637502308935,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0407483329763636
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0555448749801144
+      }
+    }
+  },
+  {
+    "scenario": "QBOX80-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.3804027090081945,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-QBOX80-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 720080.0715916512
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30780025001149625,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.0704073749948293,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0661517920088954
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0594515000120737
+      }
+    }
+  },
+  {
+    "scenario": "GENOUT-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.046649499970954,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-GENOUT-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 168,
+        "independent_pass": false,
+        "objective": 744397.891844445
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 7.917071749980096,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-GENOUT-300-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 152,
+        "independent_pass": false,
+        "objective": 744427.2016056939
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30629350000526756,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 727205.9780565768,
+      "seconds": 0.07042054098565131,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300",
+          "--audit-labels"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2753809170098975
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-300",
+          "--audit-labels"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2617605419945903
+      }
+    }
+  },
+  {
+    "scenario": "COST2-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.375709834042937,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-COST2-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 754716.8805360151
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30833654099842533,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 727172.69203802,
+      "seconds": 0.07090137497289106,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0509222079999745
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0233093329588883
+      }
+    }
+  },
+  {
+    "scenario": "TAP102-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.389959332998842,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-TAP102-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 720036.7606253951
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30844170798081905,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.07026904099620879,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0614320000167936
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0632665420416743
+      }
+    }
+  },
+  {
+    "scenario": "SHIFT2-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.790798124973662,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-SHIFT2-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 719725.0988803674
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3309289579628967,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436091,
+      "seconds": 0.07583829201757908,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.20814129099017
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.154053208010737
+      }
+    }
+  },
+  {
+    "scenario": "VBOX80-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.038463832985144,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-VBOX80-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 175,
+        "independent_pass": false,
+        "objective": 749863.4601909752
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 8.139832666958682,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-VBOX80-300-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 178,
+        "independent_pass": false,
+        "objective": 749283.5544765578
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3080202080309391,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.0706587919848971,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0792951670009643
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.073880249983631
+      }
+    }
+  },
+  {
+    "scenario": "R110-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.364128500048537,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-R110-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 719726.0160941761
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30674683302640915,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.0700651669758372,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0853872919688
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.074174041976221
+      }
+    }
+  },
+  {
+    "scenario": "X110-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.3479981669806875,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-X110-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 719725.0602886128
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30914087494602427,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.324243609,
+      "seconds": 0.0706746659707278,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.055446000013035
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0353362080059014
+      }
+    }
+  },
+  {
+    "scenario": "REP-renumber-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.364938083046582,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-REP-renumber-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 719725.0988803697
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30820912501076236,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436093,
+      "seconds": 0.07247520796954632,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0799955840338953
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1296844159951434
+      }
+    }
+  },
+  {
+    "scenario": "REP-reorder-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.4604571249801666,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-REP-reorder-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 719725.0988803708
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.30810287495842203,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436096,
+      "seconds": 0.07009512500371784,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.069493458024226
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.060215874982532
+      }
+    }
+  },
+  {
+    "scenario": "P10-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.758774165995419,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-P10-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 1639753.0553777295
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42656833300134167,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1603967.49293438,
+      "seconds": 0.1853406250011176,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1347393749747425
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/P10-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1306151669705287
+      }
+    }
+  },
+  {
+    "scenario": "Q10-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.773704791034106,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-Q10-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 1444292.3795281393
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4245962499990128,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.18416995799634606,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1744174999766983
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/Q10-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.288735958049074
+      }
+    }
+  },
+  {
+    "scenario": "ADD-concentrated-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.1761665000231,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-ADD-concentrated-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 23,
+        "independent_pass": true,
+        "objective": 1440283.515050443
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.45870524999918416,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1413385.226566428,
+      "seconds": 0.1959572919877246,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2802917920053005
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-concentrated-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1521650420036167
+      }
+    }
+  },
+  {
+    "scenario": "ADD-distributed-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.148791374987923,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-ADD-distributed-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 23,
+        "independent_pass": true,
+        "objective": 1440288.0903078015
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4755191669682972,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1413385.2265664283,
+      "seconds": 0.1991053749807179,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.36224874999607
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/ADD-distributed-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.3849650000338443
+      }
+    }
+  },
+  {
+    "scenario": "SHUNT50-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.454824542044662,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-SHUNT50-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 129,
+        "independent_pass": false,
+        "objective": 1509242.2684626796
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 9.211477707955055,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-SHUNT50-600-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 123,
+        "independent_pass": false,
+        "objective": 1510115.501223302
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4348911250126548,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.1893456659745425,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1583535420359112
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHUNT50-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.163933041971177
+      }
+    }
+  },
+  {
+    "scenario": "QBOX80-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.843792875006329,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-QBOX80-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 1440174.9803062903
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4340752499992959,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.18753754202043638,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.146620749961585
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/QBOX80-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.166832124989014
+      }
+    }
+  },
+  {
+    "scenario": "GENOUT-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.760646582988556,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-GENOUT-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 196,
+        "independent_pass": false,
+        "objective": 1499297.1599710619
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 10.182393416005652,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-GENOUT-600-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 205,
+        "independent_pass": false,
+        "objective": 1498677.2291639068
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.430498666013591,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1432916.1177902324,
+      "seconds": 0.18611341598443687,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.220501375035383
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/GENOUT-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1387830000021495
+      }
+    }
+  },
+  {
+    "scenario": "COST2-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.76792941702297,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-COST2-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 1473886.9525422442
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42655504104914144,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1432907.8565480602,
+      "seconds": 0.1853485000319779,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1590782910352573
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/COST2-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.121354667004198
+      }
+    }
+  },
+  {
+    "scenario": "TAP102-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.778495459002443,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-TAP102-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 25,
+        "independent_pass": true,
+        "objective": 1440090.1016256332
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4283739170059562,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872187,
+      "seconds": 0.18640829098876566,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1305546250077896
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TAP102-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1374809999833815
+      }
+    }
+  },
+  {
+    "scenario": "SHIFT2-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.772051291016396,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-SHIFT2-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 1439466.449121003
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42614895798033103,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.1842324580065906,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1563355840044096
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/SHIFT2-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1174964170204476
+      }
+    }
+  },
+  {
+    "scenario": "VBOX80-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.112338292005006,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-VBOX80-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 175,
+        "independent_pass": false,
+        "objective": 1499878.5555060063
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 9.409958000003826,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-VBOX80-600-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 184,
+        "independent_pass": false,
+        "objective": 1499835.0415095591
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42778958298731595,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.18593883304856718,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1272679999819957
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.102814625017345
+      }
+    }
+  },
+  {
+    "scenario": "R110-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.705032416037284,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-R110-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 1439468.083977232
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42846495896810666,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.18520187499234453,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1419872079859488
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/R110-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2124523340025917
+      }
+    }
+  },
+  {
+    "scenario": "X110-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.811591583013069,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-X110-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 1439466.3647675747
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4310372080071829,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872187,
+      "seconds": 0.1869942499906756,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1721982499584556
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/X110-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.111175958008971
+      }
+    }
+  },
+  {
+    "scenario": "REP-renumber-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.06772141699912,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-REP-renumber-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 1439466.4491209937
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3755562499864027,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872182,
+      "seconds": 0.114260749949608,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.2198340840404853
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-renumber-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1717627919861116
+      }
+    }
+  },
+  {
+    "scenario": "REP-reorder-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.254344041983131,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-REP-reorder-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 24,
+        "independent_pass": true,
+        "objective": 1439466.449120994
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4361532499897294,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.6484872187,
+      "seconds": 0.18595520895905793,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.267879124963656
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/REP-reorder-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.165571584017016
+      }
+    }
+  },
+  {
+    "scenario": "LINEOUT-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.368401333980728,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-LINEOUT-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/LINEOUT-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/LINEOUT-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/LINEOUT-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 719727.6577508238
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/LINEOUT-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3082719999947585,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 706292.3242436096,
+      "seconds": 0.07018208398949355,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/LINEOUT-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0718885000096634
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/LINEOUT-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.0802839169627987
+      }
+    }
+  },
+  {
+    "scenario": "TIEOUT-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.783021708019078,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-TIEOUT-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEOUT-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEOUT-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEOUT-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 28,
+        "independent_pass": true,
+        "objective": 1441723.994648111
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEOUT-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.4301495839608833,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 1412809.1358352674,
+      "seconds": 0.18738474999554455,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEOUT-600",
+          "--audit-labels"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.5127782080089673
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEOUT-600",
+          "--audit-labels"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.512058958003763
+      }
+    }
+  },
+  {
+    "scenario": "TIEX2-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 7.783792541013099,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-TIEX2-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEX2-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEX2-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEX2-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 27,
+        "independent_pass": true,
+        "objective": 1441691.634528087
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEX2-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.42783041700022295,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 12,
+      "message": "Converged",
+      "objective": 1412584.64848722,
+      "seconds": 0.1861672910163179,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEX2-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.192684667010326
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/TIEX2-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1550756249926053
+      }
+    }
+  },
+  {
+    "scenario": "RATE80-300",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.240892665984575,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-RATE80-300-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 129,
+        "independent_pass": false,
+        "objective": 705275.7395872156
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 8.25980504101608,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-RATE80-300-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 138,
+        "independent_pass": false,
+        "objective": 705747.2205075785
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.44496412499574944,
+      "solver_success": false,
+      "status": "FAILED_UNKNOWN",
+      "iterations": 75,
+      "message": "Numerically failed",
+      "objective": 525488.6821646607,
+      "seconds": 0.20604541699867696,
+      "makeBdc_manual_disagreement": 1.7763568394002505e-15,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": false
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.075191208976321
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-300"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.061296542000491
+      }
+    }
+  },
+  {
+    "scenario": "RATE80-600",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 9.264995708013885,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-RATE80-600-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 137,
+        "independent_pass": false,
+        "objective": 1410841.1918368586
+      },
+      {
+        "returncode": 0,
+        "method": "flat",
+        "seconds": 9.282110707950778,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "16-RATE80-600-1",
+          "method": "flat",
+          "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600/case.m",
+          "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600/ac-attempt1.log",
+          "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600/ac-attempt1.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "iterations": 136,
+        "independent_pass": false,
+        "objective": 1410988.697518015
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_dc.py",
+        "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.7892447499907576,
+      "solver_success": false,
+      "status": "FAILED_UNKNOWN",
+      "iterations": 108,
+      "message": "Numerically failed",
+      "objective": 1050976.5364889335,
+      "seconds": 0.5451381250168197,
+      "makeBdc_manual_disagreement": 1.7763568394002505e-15,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": false
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1358046249952167
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-016/20261024-electrical-mechanisms/RATE80-600"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.1371268749935552
+      }
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "scenario": "GENOUT-300",
+    "release": "microsoft-v1.1",
+    "status": "PASS",
+    "additional_forward_calls": 2,
+    "variants": [
+      {
+        "variant": 0,
+        "identical_all_returned_tensors": true
+      },
+      {
+        "variant": 1,
+        "identical_all_returned_tensors": true
+      }
+    ]
+  },
+  {
+    "scenario": "GENOUT-300",
+    "release": "newer-base-v2",
+    "status": "PASS",
+    "additional_forward_calls": 2,
+    "variants": [
+      {
+        "variant": 0,
+        "identical_all_returned_tensors": true
+      },
+      {
+        "variant": 1,
+        "identical_all_returned_tensors": true
+      }
+    ]
+  },
+  {
+    "scenario": "TIEOUT-600",
+    "release": "microsoft-v1.1",
+    "status": "PASS",
+    "additional_forward_calls": 2,
+    "variants": [
+      {
+        "variant": 0,
+        "identical_all_returned_tensors": true
+      },
+      {
+        "variant": 1,
+        "identical_all_returned_tensors": true
+      }
+    ]
+  },
+  {
+    "scenario": "TIEOUT-600",
+    "release": "newer-base-v2",
+    "status": "PASS",
+    "additional_forward_calls": 2,
+    "variants": [
+      {
+        "variant": 0,
+        "identical_all_returned_tensors": true
+      },
+      {
+        "variant": 1,
+        "identical_all_returned_tensors": true
+      }
+    ]
+  }
+]

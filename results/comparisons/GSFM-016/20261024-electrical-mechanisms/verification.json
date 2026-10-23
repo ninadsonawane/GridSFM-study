@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "inputs": 55,
+  "new_inputs": 35,
+  "reused_inputs": 20,
+  "reference_valid": 41,
+  "reference_unknown": [
+    "SHUNT50-300",
+    "GENOUT-300",
+    "VBOX80-300",
+    "SHUNT50-600",
+    "GENOUT-600",
+    "VBOX80-600",
+    "RATE80-300",
+    "RATE80-600",
+    "C300-L0.90-B0.00",
+    "C300-L1.06-B0.50",
+    "C300-L1.06-B0.00",
+    "C600-L0.90-B0.00",
+    "C600-L1.06-B0.50",
+    "C600-L1.06-B0.00"
+  ],
+  "DC_own_constraints_pass": 53,
+  "native_states": 110,
+  "native_joint_feasible": 0,
+  "prior_files_unchanged": 1230,
+  "new_active_set_label_audits": 4,
+  "finished_UTC": "2026-10-23T18:43:50.583446+00:00"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "release": "microsoft-v1.1",
+    "metric": "Pg_per_generator_MW",
+    "lower_model_error_than_DC": 0,
+    "reference_valid_inputs": 41
+  },
+  {
+    "release": "microsoft-v1.1",
+    "metric": "aligned_angle_deg",
+    "lower_model_error_than_DC": 4,
+    "reference_valid_inputs": 41
+  },
+  {
+    "release": "microsoft-v1.1",
+    "metric": "active_branch_P_MAE_MW",
+    "lower_model_error_than_DC": 0,
+    "reference_valid_inputs": 41
+  },
+  {
+    "release": "newer-base-v2",
+    "metric": "Pg_per_generator_MW",
+    "lower_model_error_than_DC": 0,
+    "reference_valid_inputs": 41
+  },
+  {
+    "release": "newer-base-v2",
+    "metric": "aligned_angle_deg",
+    "lower_model_error_than_DC": 4,
+    "reference_valid_inputs": 41
+  },
+  {
+    "release": "newer-base-v2",
+    "metric": "active_branch_P_MAE_MW",
+    "lower_model_error_than_DC": 0,
+    "reference_valid_inputs": 41
+  }
+]

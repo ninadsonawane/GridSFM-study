@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-10-23T18:38:57.345707+00:00",
+  "reason": "Source/design correction before either tie case launched: symmetric base has nearly zero inter-area active exchange, so evaluate both tie interventions at the already-defined fixed A1.05/B0.95 load condition. No tie-result inspection, extra cases, solver/model reruns or original-results changes.35-input cap unchanged. Initial input/diff/manifest planning versions retained.",
+  "cases": [
+    {
+      "id": "TIEOUT-600",
+      "before_sha256": "cbc9823f8378d2d12bb172f02aac106cb4992670a3bfa35f67840c29bf948dc6",
+      "after_sha256": "80301da49a796e98b8d25b7adec94c5a3b04f780224365b03fd972a60c16ff29",
+      "no_solver_or_inference_started": true
+    },
+    {
+      "id": "TIEX2-600",
+      "before_sha256": "a8bd3a2a90127de725c00d847ef42c29771f7565082f41c54e60ca5b49f93176",
+      "after_sha256": "0efb32036c97d65158f23376c75aa0b63f10fd5fcd418406bfbb85c92d2c787d",
+      "no_solver_or_inference_started": true
+    }
+  ]
+}

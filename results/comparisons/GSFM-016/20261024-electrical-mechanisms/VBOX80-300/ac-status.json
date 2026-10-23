@@ -1,0 +1,60 @@
+{
+  "attempts": [
+    {
+      "returncode": 0,
+      "method": "default",
+      "seconds": 8.038463832985144,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "16-VBOX80-300-0",
+        "method": "default",
+        "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/case.m",
+        "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt0.log",
+        "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt0.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 175,
+      "independent_pass": false,
+      "objective": 749863.4601909752
+    },
+    {
+      "returncode": 0,
+      "method": "flat",
+      "seconds": 8.139832666958682,
+      "argv": [
+        "/Users/ninadsonawane/julia/bin/julia",
+        "--startup-file=no",
+        "--history-file=no",
+        "--compiled-modules=existing",
+        "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm016/solver_server.jl"
+      ],
+      "request": {
+        "run_id": "16-VBOX80-300-1",
+        "method": "flat",
+        "matpower_file": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/case.m",
+        "log_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt1.log",
+        "result_path": "results/comparisons/GSFM-016/20261024-electrical-mechanisms/VBOX80-300/ac-attempt1.json",
+        "load_scale": 1.0,
+        "remaining_seconds": 120.0,
+        "capture_internal_iterate": false
+      },
+      "solver_status": "LOCALLY_INFEASIBLE",
+      "iterations": 178,
+      "independent_pass": false,
+      "objective": 749283.5544765578
+    }
+  ],
+  "verified_reference": false,
+  "feasibility": "UNKNOWN"
+}

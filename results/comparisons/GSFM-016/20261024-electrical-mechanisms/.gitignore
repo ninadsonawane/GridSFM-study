@@ -1,0 +1,21 @@
+# Full matrices, native states, detailed arrays and traces remain local; hashes indexed.
+*/input.json
+*/case.m
+*/field-differences.json
+*/prelaunch-plan*.json
+*/*-native.json
+*/*-saved-native.json
+*/*-returned.json
+*/*-input.pyg.json
+*/*-clamps.json
+*/*-metadata.json
+*/*-poison*.json
+*/ac-attempt*.json
+*/ac-failed-iterate.json
+*/dc-raw.json
+*/dc-status.json
+*/*.log
+bus-metrics.csv
+branch-flows.csv
+clipping-events.csv
+prior-artifacts.json

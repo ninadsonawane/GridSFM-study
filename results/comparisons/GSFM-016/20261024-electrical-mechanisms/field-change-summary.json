@@ -1,0 +1,329 @@
+[
+  {
+    "scenario": "P10-300",
+    "baseline": "G300-1.00",
+    "changes": "P demand\u00d71.10, signs/zeros retained; other component unchanged",
+    "changed_field_counts": {
+      "bus": 199
+    },
+    "field_diff_sha256": "c0a632b5d949cd83fc88b46273a6e4a170f6b3ce6444db3b49b02fe7432eee21"
+  },
+  {
+    "scenario": "Q10-300",
+    "baseline": "G300-1.00",
+    "changes": "Q demand\u00d71.10, signs/zeros retained; other component unchanged",
+    "changed_field_counts": {
+      "bus": 175
+    },
+    "field_diff_sha256": "da3ef0e8ded692e2674cf32efa850715eb60764ef0c2f8d7bade56077aa04609"
+  },
+  {
+    "scenario": "ADD-concentrated-300",
+    "baseline": "G300-1.00",
+    "changes": "Add20MW/5MVAr at source-selected largest-PQ-load bus inA versus proportional positive demands network-wide",
+    "changed_field_counts": {
+      "bus": 2
+    },
+    "field_diff_sha256": "227cd8f52c91152f49c68148a67320f935b90bdfc34b9b1c0b21a61b9d36ff20"
+  },
+  {
+    "scenario": "ADD-distributed-300",
+    "baseline": "G300-1.00",
+    "changes": "Add20MW/5MVAr at source-selected largest-PQ-load bus inA versus proportional positive demands network-wide",
+    "changed_field_counts": {
+      "bus": 353
+    },
+    "field_diff_sha256": "ee61a80b206b60078ab57f13fe4a194d97fa5e6f930884d65dd1c26fc9556021"
+  },
+  {
+    "scenario": "SHUNT50-300",
+    "baseline": "G300-1.00",
+    "changes": "Positive capacitive bus Bs\u00d70.5; negative Bs and line charging unchanged",
+    "changed_field_counts": {
+      "bus": 8
+    },
+    "field_diff_sha256": "5635ab3f0c1d690f0242cff94204003cb9bb13657411c531263ed8ed252f1bdc"
+  },
+  {
+    "scenario": "QBOX80-300",
+    "baseline": "G300-1.00",
+    "changes": "Qg interval width\u00d70.8 around original midpoint; fixed bounds preserved",
+    "changed_field_counts": {
+      "gen": 138
+    },
+    "field_diff_sha256": "350ad8361877fdd386c57f05db6d1197549cbb983f73b39adb1e6a97672469e7"
+  },
+  {
+    "scenario": "GENOUT-300",
+    "baseline": "G300-1.00",
+    "changes": "Largest nonreference source generator out inA, row/status retained; former PV becomesPQ if no remaining online gen",
+    "changed_field_counts": {
+      "bus": 1,
+      "gen": 1
+    },
+    "field_diff_sha256": "eced8c3c0939024fc25616dcdd435cb9d7f88dec2b40b1069524d6041ea57ebc"
+  },
+  {
+    "scenario": "COST2-300",
+    "baseline": "G300-1.00",
+    "changes": "Cost polynomial coefficients\u00d72 for same source-selected generator inA; capacities/status unchanged",
+    "changed_field_counts": {
+      "gencost": 2
+    },
+    "field_diff_sha256": "80175ca360631f9af3263d0406276462ba277d8a519fec9d8e0534b61a1ce7a0"
+  },
+  {
+    "scenario": "TAP102-300",
+    "baseline": "G300-1.00",
+    "changes": "First original off-nominal transformer tap\u00d71.02 in each copy",
+    "changed_field_counts": {
+      "branch": 1
+    },
+    "field_diff_sha256": "fdfafd1be668149b56f3319a212a9b250977cd98704ff34adc6ea379579d254b"
+  },
+  {
+    "scenario": "SHIFT2-300",
+    "baseline": "G300-1.00",
+    "changes": "Same transformer shift+2degrees in each copy; tap unchanged",
+    "changed_field_counts": {
+      "branch": 1
+    },
+    "field_diff_sha256": "acb16f45dbdef255319d3d723ab9faf1fad39cb8cf16cb923b97ac66e3caad56"
+  },
+  {
+    "scenario": "VBOX80-300",
+    "baseline": "G300-1.00",
+    "changes": "Bus voltage interval width\u00d70.8 around original midpoint",
+    "changed_field_counts": {
+      "bus": 600
+    },
+    "field_diff_sha256": "6fdca5a0620ef69f1e56e15dd8f9e50ad96272166df6c43e9ffb5eb64bcae42b"
+  },
+  {
+    "scenario": "R110-300",
+    "baseline": "G300-1.00",
+    "changes": "Original231\u2013237 positive R\u00d71.10 in each copy; other coefficients unchanged",
+    "changed_field_counts": {
+      "branch": 1
+    },
+    "field_diff_sha256": "bff97b0c524cf1d1b608f78c8590c75614678479486fd0351b2ac55179ef9bd0"
+  },
+  {
+    "scenario": "X110-300",
+    "baseline": "G300-1.00",
+    "changes": "Original231\u2013237 positive X\u00d71.10 in each copy; other coefficients unchanged",
+    "changed_field_counts": {
+      "branch": 1
+    },
+    "field_diff_sha256": "2776692d59dd7501837dc1549634750484f688aac6aed4f0f99a7a1a633ce2fa"
+  },
+  {
+    "scenario": "REP-renumber-300",
+    "baseline": "G300-1.00",
+    "changes": "Physically equivalent input: renumber",
+    "changed_field_counts": {
+      "bus": 300,
+      "gen": 69,
+      "branch": 822
+    },
+    "field_diff_sha256": "85591e4723d889681831262663fa4501e741db2ef5e10726d4b5d20827a849f6"
+  },
+  {
+    "scenario": "REP-reorder-300",
+    "baseline": "G300-1.00",
+    "changes": "Physically equivalent input: reorder",
+    "changed_field_counts": {
+      "bus": 2056,
+      "gen": 384,
+      "branch": 2146,
+      "gencost": 68
+    },
+    "field_diff_sha256": "f05fbccb9638c6d65ea005ba039badac3ab05dc6521fbd363106c9b457fd6e74"
+  },
+  {
+    "scenario": "P10-600",
+    "baseline": "G600-1.00",
+    "changes": "P demand\u00d71.10, signs/zeros retained; other component unchanged",
+    "changed_field_counts": {
+      "bus": 398
+    },
+    "field_diff_sha256": "18b61cbd25e9a40dc6c71365c2082506108249c2a09e5eeba14bfc84b7222e43"
+  },
+  {
+    "scenario": "Q10-600",
+    "baseline": "G600-1.00",
+    "changes": "Q demand\u00d71.10, signs/zeros retained; other component unchanged",
+    "changed_field_counts": {
+      "bus": 350
+    },
+    "field_diff_sha256": "83910d1e6f4b0981bb59f00297e1f933a6ff60366313a4662afe720c51d3a49b"
+  },
+  {
+    "scenario": "ADD-concentrated-600",
+    "baseline": "G600-1.00",
+    "changes": "Add20MW/5MVAr at source-selected largest-PQ-load bus inA versus proportional positive demands network-wide",
+    "changed_field_counts": {
+      "bus": 2
+    },
+    "field_diff_sha256": "227cd8f52c91152f49c68148a67320f935b90bdfc34b9b1c0b21a61b9d36ff20"
+  },
+  {
+    "scenario": "ADD-distributed-600",
+    "baseline": "G600-1.00",
+    "changes": "Add20MW/5MVAr at source-selected largest-PQ-load bus inA versus proportional positive demands network-wide",
+    "changed_field_counts": {
+      "bus": 706
+    },
+    "field_diff_sha256": "d757c139a38fae626919917f21c2661b2f18f929701d64ebea58c3e4522f5c7a"
+  },
+  {
+    "scenario": "SHUNT50-600",
+    "baseline": "G600-1.00",
+    "changes": "Positive capacitive bus Bs\u00d70.5; negative Bs and line charging unchanged",
+    "changed_field_counts": {
+      "bus": 16
+    },
+    "field_diff_sha256": "0ccf209bff08e1bf085bc18e768d91f283e2e54e76133c16fa272972fead69fa"
+  },
+  {
+    "scenario": "QBOX80-600",
+    "baseline": "G600-1.00",
+    "changes": "Qg interval width\u00d70.8 around original midpoint; fixed bounds preserved",
+    "changed_field_counts": {
+      "gen": 276
+    },
+    "field_diff_sha256": "6caef921880efb67c5600dcaa25696da874286e9e33de8d4b2d27d37f49c53ca"
+  },
+  {
+    "scenario": "GENOUT-600",
+    "baseline": "G600-1.00",
+    "changes": "Largest nonreference source generator out inA, row/status retained; former PV becomesPQ if no remaining online gen",
+    "changed_field_counts": {
+      "bus": 1,
+      "gen": 1
+    },
+    "field_diff_sha256": "eced8c3c0939024fc25616dcdd435cb9d7f88dec2b40b1069524d6041ea57ebc"
+  },
+  {
+    "scenario": "COST2-600",
+    "baseline": "G600-1.00",
+    "changes": "Cost polynomial coefficients\u00d72 for same source-selected generator inA; capacities/status unchanged",
+    "changed_field_counts": {
+      "gencost": 2
+    },
+    "field_diff_sha256": "80175ca360631f9af3263d0406276462ba277d8a519fec9d8e0534b61a1ce7a0"
+  },
+  {
+    "scenario": "TAP102-600",
+    "baseline": "G600-1.00",
+    "changes": "First original off-nominal transformer tap\u00d71.02 in each copy",
+    "changed_field_counts": {
+      "branch": 2
+    },
+    "field_diff_sha256": "863596f346ec7ff22c6bc55e7cef0c27f5cc2de75af0a533473bffd590abbb28"
+  },
+  {
+    "scenario": "SHIFT2-600",
+    "baseline": "G600-1.00",
+    "changes": "Same transformer shift+2degrees in each copy; tap unchanged",
+    "changed_field_counts": {
+      "branch": 2
+    },
+    "field_diff_sha256": "022fd049cdbc806cd452b973c70ed56199aa2ac584177bb1f22c9c3e2dc54dc5"
+  },
+  {
+    "scenario": "VBOX80-600",
+    "baseline": "G600-1.00",
+    "changes": "Bus voltage interval width\u00d70.8 around original midpoint",
+    "changed_field_counts": {
+      "bus": 1200
+    },
+    "field_diff_sha256": "c10fdf24dd68d11224e8a49b8abd8e2800c88579b5e83b02de07c043fe745fc2"
+  },
+  {
+    "scenario": "R110-600",
+    "baseline": "G600-1.00",
+    "changes": "Original231\u2013237 positive R\u00d71.10 in each copy; other coefficients unchanged",
+    "changed_field_counts": {
+      "branch": 2
+    },
+    "field_diff_sha256": "fe65b737964d428c7e4124168e32206ec3d4d9bef309cbcf1f8b96d1ca51e148"
+  },
+  {
+    "scenario": "X110-600",
+    "baseline": "G600-1.00",
+    "changes": "Original231\u2013237 positive X\u00d71.10 in each copy; other coefficients unchanged",
+    "changed_field_counts": {
+      "branch": 2
+    },
+    "field_diff_sha256": "4aece06c876368ef0d7e32d3f77cc7412228ed8603b52afbdda728f0823e52f9"
+  },
+  {
+    "scenario": "REP-renumber-600",
+    "baseline": "G600-1.00",
+    "changes": "Physically equivalent input: renumber",
+    "changed_field_counts": {
+      "bus": 600,
+      "gen": 138,
+      "branch": 1648
+    },
+    "field_diff_sha256": "f9b1e18a6cfa2947e7279705442bdad06871e646deaf4ada7116fd0d95ccee54"
+  },
+  {
+    "scenario": "REP-reorder-600",
+    "baseline": "G600-1.00",
+    "changes": "Physically equivalent input: reorder",
+    "changed_field_counts": {
+      "bus": 4888,
+      "gen": 770,
+      "branch": 4330,
+      "gencost": 136
+    },
+    "field_diff_sha256": "92f98ddd1f9cef9c1eb3e072d22f03ddf2112c5b15043e46504923ccc95c601f"
+  },
+  {
+    "scenario": "LINEOUT-300",
+    "baseline": "G300-1.00",
+    "changes": "One original parallel branch off; row retained; connectedness verified",
+    "changed_field_counts": {
+      "branch": 1
+    },
+    "field_diff_sha256": "eb67ca31712ca730958eeec3773ed940474aa0362d923f4741575e76a4202fc4"
+  },
+  {
+    "scenario": "TIEOUT-600",
+    "baseline": "L600-Splus",
+    "changes": "One of two synthetic parallel ties off; other unchanged; no island; fixed A1.05/B0.95 load condition from15 to provide nonzero inter-area transfer",
+    "changed_field_counts": {
+      "branch": 1
+    },
+    "field_diff_sha256": "53c9b8f46c57da5109ededf84aa8f7f0223f73dbff06d2b60f1e9018491d3727"
+  },
+  {
+    "scenario": "TIEX2-600",
+    "baseline": "L600-Splus",
+    "changes": "Both synthetic tie reactances\u00d72; resistances/charging/ratings unchanged; fixed A1.05/B0.95 load condition from15 to provide nonzero inter-area transfer",
+    "changed_field_counts": {
+      "branch": 2
+    },
+    "field_diff_sha256": "be7697105dcb385a5a29b9cd25e4805d60c819f852422a1770422390f3a2b322"
+  },
+  {
+    "scenario": "RATE80-300",
+    "baseline": "R300-base",
+    "changes": "Complete published rated PGLib baseline; every positive RATE_A\u00d70.8; RATE_B/C and all other fields unchanged",
+    "changed_field_counts": {
+      "branch": 411
+    },
+    "field_diff_sha256": "af4f05909f229b33be7481625b74d72ee230fd22a2bab39be1be7334fcc1aaf0"
+  },
+  {
+    "scenario": "RATE80-600",
+    "baseline": "R600-base",
+    "changes": "Complete published rated PGLib baseline; every positive RATE_A\u00d70.8; RATE_B/C and all other fields unchanged",
+    "changed_field_counts": {
+      "branch": 824
+    },
+    "field_diff_sha256": "c544db6f9c3aa57097efe153e44a983c7f8b9874d96d7872d4feaa53a5b9c8ca"
+  }
+]
