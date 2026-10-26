@@ -1,0 +1,34 @@
+[
+  {
+    "path": "experiments/gsfm017/study.py",
+    "sha256": "9f7016848a96f9d2df943804bca3dd8ffcef14c2613ef0db531c2cbe2c6ffc23"
+  },
+  {
+    "path": "experiments/gsfm015/run_cases.py",
+    "sha256": "4317328a2d68a7c119c45c72a0b6e5d2983f7b6dc00bd5d02fa67ec516c31608"
+  },
+  {
+    "path": "experiments/gsfm015/run_model.py",
+    "sha256": "104fafe418af561c19db1438a111643d43d0af320c7ca52efa3eaba4a2edb9c7"
+  },
+  {
+    "path": "experiments/gsfm015/run_dc.py",
+    "sha256": "2f14397530f6c80229b8875dcdcd3f29ea33c97f9e48e11467043832f174284f"
+  },
+  {
+    "path": "experiments/gsfm015/solver_server.jl",
+    "sha256": "b50e340f06a0c3cd0562fa64d053b762940ff05725caa513b6ec546dd06adf4e"
+  },
+  {
+    "path": "experiments/gsfm015/electrical.py",
+    "sha256": "a2a8f2b4919eb5fe23b8d8e8ea237d4e1bdea72e6bab25bf502543a3377284c3"
+  },
+  {
+    "path": "scripts/python/physics_metrics.py",
+    "sha256": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834"
+  },
+  {
+    "path": "scripts/python/gridsfm_convert.py",
+    "sha256": "4fdc363fc03069ce78aa04f168182bff1530203c4f9681a3349cb60462ecaeb7"
+  }
+]

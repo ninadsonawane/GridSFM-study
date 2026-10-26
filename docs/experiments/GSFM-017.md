@@ -1,0 +1,9 @@
+# Experiment17 — increased branch charging, one case300 input
+
+Authorized26October2026: test increased capacitive support as a counterpart toExperiment15's50% charging test. Fixed before outcomes: originalcase300 at90%Pd/Qd, strictly positive original branch totalcharging b multiplied by1.50 (244rows). Negative/zero charging, busshunts, demand, IDs/order, generator limits/costs/status, r/x/taps/shifts and allratings unchanged. This synthetic parameter intervention is not a physical line replacement.
+
+Exactly one new AC/DC/frozenv1.1/frozenbasev2 comparison. Reuse existing90%load/100%charging and90%load/50%charging points, with independent rescoring. Use Experiment15's unchanged workers/evaluator/solver tolerances, shipped hardclipping, source/checkpoint pins; no training/PF completion/OPF repair/scenario extension. AC may have its prescribed default then one flat retry, failures retained UNKNOWN. Native predictions saved before evaluation, branch/Ybus crosscheck. AC reference must independently pass original equations and limits before approximation scoring. DC own laws only, reactive/VmmetricsN/A. Originalcase300 RATE_A allzero, thermalN/A. Observe true pre/post clamp counts; Qbound activity is not a violation. Report accuracy separately from balance count/severity and operational bounds. Existing row-order sensitivity remains unresolved.
+
+Run with experiments/gsfm017/study.py prepare; experiments/gsfm015/run_cases.py <output> 17; experiments/gsfm017/study.py report, using the existing GridSFM Pythonenvironment. prepare refuses an existing output. Freeze input/source/priorartifact hashes before runs; verify after. No environment installation, checkpoint changes or external correspondence. Raw artifacts local-only, compact code/tables/report and hashes retained. Stop after this one input.
+
+Results: [GSFM-017](../../results/comparisons/GSFM-017/20261026-increased-charging/README.md).

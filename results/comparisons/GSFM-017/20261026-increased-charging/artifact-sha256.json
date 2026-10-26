@@ -1,0 +1,217 @@
+[
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-attempt0-native.json",
+    "sha256": "b5cd0d4d2077a23ea57332ea916753d3b6f596cf712b2c95240588f46dcf2a57",
+    "bytes": 17610
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-attempt0.json",
+    "sha256": "0444cdaa40f8b84cb425e6756c3f5029d07f519e96c2658899159eb2a903ed27",
+    "bytes": 700740
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-attempt0.log",
+    "sha256": "41b8c85d13285798fd486c9431da59fb4e382867d11077b44b0cdf30e0ee23c9",
+    "bytes": 387
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-native.json",
+    "sha256": "b5cd0d4d2077a23ea57332ea916753d3b6f596cf712b2c95240588f46dcf2a57",
+    "bytes": 17610
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-server0.log",
+    "sha256": "eb8c25fe5d808cc2f1082709a23ab51a298fef98af52401057b3e794563ab43d",
+    "bytes": 448
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-status.json",
+    "sha256": "a039a21dbc283711b6d054cf5c8d043d0e1fcbdf0c7e699cde5d04b9be88b456",
+    "bytes": 1268
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/case.m",
+    "sha256": "8b12933e02064bf77979ad9462315364833f96bfc7246851c7d827f23e118a20",
+    "bytes": 71081
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/dc-input-adapter-audit.json",
+    "sha256": "8a201d1c80f69c04b8fbef25024117a49390bb0ef2277b3ba28a182acdfa0951",
+    "bytes": 350
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/dc-native.json",
+    "sha256": "4f5fda4b6d0716296e9c3ae08a34a38b864fa3b55b612702d4dfff6fb701048b",
+    "bytes": 28369
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/dc-raw.json",
+    "sha256": "eb14cbded1279149bfa3591add23d356c899216bf0ab6eef50b06239cad99dff",
+    "bytes": 750970
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/dc-status.json",
+    "sha256": "f3287cadeefd3bdd63fbfa8cde0a3b84b4fad59547a8663895e742f930c90f46",
+    "bytes": 1354
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/dc-worker.log",
+    "sha256": "a3680b6601c39b586ea892ad2bbaa58a7f72b62a64f73917b09aa8c5f188110e",
+    "bytes": 8
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/dc.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/input.json",
+    "sha256": "04b942ca0a4182fa1866f4089a8a668b81ab464974456e26f6a3b3741bea7760",
+    "bytes": 146731
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/microsoft-v1.1-clamps.json",
+    "sha256": "c1bf5e16a6ec04e16796d17da4e56829d3795e125dea65d070d04768c31d44a3",
+    "bytes": 46338
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/microsoft-v1.1-input.pyg.json",
+    "sha256": "f4c90d40eb73b4be9f394a7740df0d9a504f17815aac98b55b6d0cba3ab7af5b",
+    "bytes": 76908
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/microsoft-v1.1-metadata.json",
+    "sha256": "2f16791802210dfb4e7c2b10d3d149b50e63d9f15982e4f7cce99db173391172",
+    "bytes": 25739
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/microsoft-v1.1-native.json",
+    "sha256": "03b270a67ae314214fba1c8e509537801a916f25aaec27d13df0ba214b8ac104",
+    "bytes": 17220
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/microsoft-v1.1-returned.json",
+    "sha256": "0d04deb648902bd53c873d825d51ca84a16e16376f7e31f7b5f1eaf0d02f955a",
+    "bytes": 58435
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/microsoft-v1.1-worker.log",
+    "sha256": "62873daa34ff79f6274e16fb96871370eaec57e6b011dee4f13c5397d961821a",
+    "bytes": 65
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/newer-base-v2-clamps.json",
+    "sha256": "1041e2ec3a0b92cf105451ce7e67c2794e944e5ab9175e20c2a11a6b8fa877f7",
+    "bytes": 46115
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/newer-base-v2-input.pyg.json",
+    "sha256": "1f3c92c6950a294a8ef4d59176e2fb00aa6662891c5913ac5ab8425a2546367e",
+    "bytes": 81958
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/newer-base-v2-metadata.json",
+    "sha256": "c705a2d8eb027853845452d25ee502331bbd0afd3979ae3e9ff0a79de838967c",
+    "bytes": 25743
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/newer-base-v2-native.json",
+    "sha256": "a71ba8020d31e254d893023e03cc2aaca215d158c46b7209623ef42b6c51969c",
+    "bytes": 17145
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/newer-base-v2-returned.json",
+    "sha256": "5eb78d44e9eabcf68538109f0b4e659dd41f952e146bb47b6a8dd2d4b154bd32",
+    "bytes": 58133
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/newer-base-v2-worker.log",
+    "sha256": "acaf1a68a145f2ba62374f0396fed13b669ab7e6f24f996203070e26ff7ab74a",
+    "bytes": 59
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/summary.json",
+    "sha256": "c7201f8dfc2e0e0788c73170897ebd2735541b98d8d4496dd0fedf5642fa0e9c",
+    "bytes": 10125
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/README.md",
+    "sha256": "e58834d4ca631927103d827d7d9e1672f4d56a3de1a268a3e7984b66c9cce361",
+    "bytes": 5972
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/area-exchange.csv",
+    "sha256": "5f9e03e609578c8a739f24a0907cd5254c92e1e754a5f4b5448fc415f115f262",
+    "bytes": 1830
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/branch-flows.csv",
+    "sha256": "339de61b70dfa880782a4f798d71a77870acff0f5f612a7fb3c7d5a05e75d1c5",
+    "bytes": 1046661
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/bus-metrics.csv",
+    "sha256": "ebb0520cdaaa7dba1b76605cf180c244d8049bac9df1d0d0215e08d380aac2a8",
+    "bytes": 596321
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/clipping-summary.csv",
+    "sha256": "cceb7ab896064650345cff721816c4187797ba8f95fab843352502261c9951e8",
+    "bytes": 785
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/gates.json",
+    "sha256": "3096abb2197299112f3598dee54851f78050a31f3e006ddd8b462940f47fc5e0",
+    "bytes": 287
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/method-summary.csv",
+    "sha256": "84c220e07a4be47482395ecf86a85d08f1f21a0d1463dbe532a1ad3ad25d00e2",
+    "bytes": 3903
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/method-summary.json",
+    "sha256": "cd5ffc1f0e379612a56540b19f50ce078f476bbd62a2e5d8289e6d8a48e6cf23",
+    "bytes": 32965
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/postprocess-code-hash.json",
+    "sha256": "a4081c059b5b212da7215c31287cc5515afffcecb6726ab26380b978fb6e3496",
+    "bytes": 461
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/prior-artifacts.json",
+    "sha256": "1019554c38f0c04841923c03c447db4350365bcd52e095c0174c6be720e5e6b3",
+    "bytes": 312340
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/releases-and-environment.json",
+    "sha256": "7f4a35e176994f46240b98e48388880aa6963bf6a9825ea77cf8094cf14e4f26",
+    "bytes": 1762
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/run-status.json",
+    "sha256": "a5e24795831991a310d80ed3472149ef2c274a93b59f027d00e5597500bf3c49",
+    "bytes": 4167
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/scenario-manifest.json",
+    "sha256": "d7886cd75cedd1a465cbce1ebfb83757fd1b3e423305d1f68bcee959e8d154a4",
+    "bytes": 4269
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/source-at-preflight.py",
+    "sha256": "9f7016848a96f9d2df943804bca3dd8ffcef14c2613ef0db531c2cbe2c6ffc23",
+    "bytes": 11404
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/source-code-hashes.json",
+    "sha256": "7b329a088c7735db7efe8c52d6dcecce8f10f1b3293ca83c5a874133612d7bad",
+    "bytes": 1107
+  },
+  {
+    "path": "results/comparisons/GSFM-017/20261026-increased-charging/verification.json",
+    "sha256": "829209e4713eac984853da59a748eac1d3b5ce4adb6a44a9acaf4f15991bede4",
+    "bytes": 931
+  }
+]

@@ -1,0 +1,4 @@
+# Large/raw scientific artifacts remain local; indexed by artifact-sha256.json.
+/*/C300-*/
+/*/bus-metrics.csv
+/*/branch-flows.csv

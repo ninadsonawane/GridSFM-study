@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "new_inputs": 1,
+  "reused_inputs": 2,
+  "new_native_model_predictions": 2,
+  "all_prior_files_unchanged": 1573,
+  "DC_native_exactly_unchanged_vs100pct_charging": true,
+  "gates": [
+    {
+      "charging": "50%",
+      "reference_valid": true,
+      "physics_Ybus_branch_sum_pass": true,
+      "native_predictions_before_evaluation_and_unmodified": true
+    },
+    {
+      "charging": "100%",
+      "reference_valid": true,
+      "physics_Ybus_branch_sum_pass": true,
+      "native_predictions_before_evaluation_and_unmodified": true
+    },
+    {
+      "charging": "150%",
+      "reference_valid": true,
+      "physics_Ybus_branch_sum_pass": true,
+      "native_predictions_before_evaluation_and_unmodified": true
+    }
+  ],
+  "thermal": "N/A: original case300 RATE_A all zero",
+  "numerical_failure_policy": "UNKNOWN, never proof of infeasibility",
+  "completed_UTC": "2026-10-26T15:44:38.567715+00:00"
+}

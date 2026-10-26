@@ -1,0 +1,39 @@
+{
+  "releases": [
+    {
+      "release": "microsoft-v1.1",
+      "source_commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6",
+      "source_model_sha256": "03b786662daa55857a4dac0cca8fb633d6a363c090a9e19fb8623a4340748f53",
+      "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/checkpoints/gridsfm_open_v1.1.pt",
+      "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+      "clip_mode": "leaky_clip",
+      "leaky_alpha": 0.0,
+      "native_saved_before_evaluation": true,
+      "additional_PF_or_OPF": false,
+      "model_input_has_solution": false,
+      "input_sha256": "04b942ca0a4182fa1866f4089a8a668b81ab464974456e26f6a3b3741bea7760"
+    },
+    {
+      "release": "newer-base-v2",
+      "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+      "source_model_sha256": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+      "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/data/checkpoints/GSFM-006-gridsfm_open_v2.pt",
+      "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+      "clip_mode": "clamp",
+      "leaky_alpha": 0.0,
+      "native_saved_before_evaluation": true,
+      "additional_PF_or_OPF": false,
+      "model_input_has_solution": false,
+      "input_sha256": "04b942ca0a4182fa1866f4089a8a668b81ab464974456e26f6a3b3741bea7760"
+    }
+  ],
+  "python_distributions": {
+    "torch": "2.8.0",
+    "torch-geometric": "2.8.0.post1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pypower": "5.1.21"
+  },
+  "execution": "CPU, existing environments unchanged",
+  "model_pin_check": "checkpoint SHA verified at runtime; source_model SHA agrees with saved 100pct baseline metadata"
+}

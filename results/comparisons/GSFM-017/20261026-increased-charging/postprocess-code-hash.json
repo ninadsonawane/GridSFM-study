@@ -1,0 +1,5 @@
+{
+  "path": "experiments/gsfm017/study.py",
+  "sha256": "4b141f632b1aa0ec3f0677b758502b6bad7ca5ed3ba02dd2130b75bcf6eeb697",
+  "amendment": "Initial report compared whole DC dictionaries and stopped because reused artifact has an extra note key. All six numerical/native fields are exactly identical. Compare these fields explicitly; no solve or inference repeated. Original preflight code and hash retained in source-at-preflight.py/source-code-hashes.json."
+}

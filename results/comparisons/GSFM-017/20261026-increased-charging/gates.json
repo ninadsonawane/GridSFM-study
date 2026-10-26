@@ -1,0 +1,11 @@
+[
+  {
+    "scenario": "C300-L0.90-B1.50",
+    "matrix_roundtrip": true,
+    "solver_parameters_costs_loads_shunts_limits_roundtrip": true,
+    "model_mapping": true,
+    "physics_crosscheck_below_1e_minus6": true,
+    "label_invariance_audited": false,
+    "reference_valid": true
+  }
+]

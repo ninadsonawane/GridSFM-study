@@ -1,5 +1,7 @@
 # Handoff — frozen GridSFM physical-validity study
 
+**26 October 2026 — [Experiment17: increased charging](results/comparisons/GSFM-017/20261026-increased-charging/README.md) COMPLETE.** One new case300 input at90% loading with positive charging×1.50; existing50%/100% points reused. Verified AC reference, unchanged DC state, both frozen native states fail balance. Upper/lower Q-bound activity moves in opposite directions; model errors do not uniformly improve. All1,573 earlierExperiment15/16 files unchanged. No further runs or training.
+
 ## Current handoff — 23 October 2026
 
 **[Experiment16: distinct electrical mechanisms, all four methods](results/comparisons/GSFM-016/20261024-electrical-mechanisms/README.md) COMPLETE.**35 new +20 reused inputs;41/55 acceptedAC references,53/55 own-lawDC passes,0/110 native model joint-feasibility passes. All prior artifacts unchanged. New row-order control shows substantial pipeline sensitivity despite physically equivalent matrices/raw graphs; cause unresolved. Full errors/limits/clipping and UNKNOWN outcomes retained. [Protocol](docs/experiments/GSFM-016.md). Stop after this bounded study; no training/repair.

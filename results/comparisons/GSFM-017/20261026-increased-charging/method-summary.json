@@ -1,0 +1,1151 @@
+[
+  {
+    "method": "AC-OPF",
+    "P": {
+      "mean": 4.778816000324445e-13,
+      "median": 1.1368683772161603e-13,
+      "p95": 1.7138290786533636e-12,
+      "max": 1.2590817277668975e-11,
+      "count": 300
+    },
+    "Q": {
+      "mean": 1.9330266509116928e-12,
+      "median": 4.78991846186716e-13,
+      "p95": 6.3877791944833055e-12,
+      "max": 1.1359801987964602e-10,
+      "count": 300
+    },
+    "P_total_abs": 1.4336448000973334e-10,
+    "Q_total_abs": 5.799079952735079e-10,
+    "P_violating_buses": 0,
+    "Q_violating_buses": 0,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 0.0,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 0.0,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": true,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 5.1426535682134357e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      }
+    },
+    "charging": "50%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50",
+    "Qg_at_bound_count": 28,
+    "Qg_at_lower_count": 2,
+    "Qg_at_upper_count": 26,
+    "total_Qg_MVAr": 8552.488022345606,
+    "total_branch_Q_MVAr": 958.2620958972823,
+    "P_worst_bus": 9001,
+    "Q_worst_bus": 9001
+  },
+  {
+    "method": "DC-OPF",
+    "P": {
+      "mean": 1.883794357671535e-13,
+      "median": 4.263256414560601e-14,
+      "p95": 7.686562921412902e-13,
+      "max": 3.268496584496461e-12,
+      "count": 300
+    },
+    "Q": null,
+    "P_total_abs": 5.651383073014605e-11,
+    "Q_total_abs": null,
+    "P_violating_buses": 0,
+    "Q_violating_buses": null,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": null,
+    "Qg_violating_count": null,
+    "Vm_max_excess": null,
+    "Vm_violating_count": null,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "DC active-flow only; AC apparent thermal feasibility N/A",
+    "AC_joint_feasible": null,
+    "native_DC_constraints_pass": true,
+    "physics_crosscheck": null,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 18.216306849903937,
+        "median": 13.926987170039894,
+        "p95": 53.05676241301913,
+        "max": 82.169077855041,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 18.216306849903937,
+        "median": 13.926987170039894,
+        "p95": 53.05676241301913,
+        "max": 82.169077855041,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 5.522545724894666,
+        "median": 5.2930368541247645,
+        "p95": 11.77291611361307,
+        "max": 16.854576950401906,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 17.210797909706425,
+        "median": 6.639793660382772,
+        "p95": 67.33074871054303,
+        "max": 200.40719484949125,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": null,
+      "Qg_bus_aggregate_MVAr": null,
+      "Vm_pu": null,
+      "branch_Q_MVAr": null
+    },
+    "charging": "50%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50"
+  },
+  {
+    "method": "microsoft-v1.1",
+    "P": {
+      "mean": 96.47260228217132,
+      "median": 15.325196626031182,
+      "p95": 270.481917429668,
+      "max": 4930.514530337747,
+      "count": 300
+    },
+    "Q": {
+      "mean": 321.58216011722686,
+      "median": 70.86911145733794,
+      "p95": 775.2265795722441,
+      "max": 12641.715230919304,
+      "count": 300
+    },
+    "P_total_abs": 28941.780684651396,
+    "Q_total_abs": 96474.64803516805,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 2.618082236626313e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 192.27340409126091,
+        "median": 150.45217703864427,
+        "p95": 559.210375856925,
+        "max": 862.6339062641152,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 192.27340409126091,
+        "median": 150.45217703864427,
+        "p95": 559.210375856925,
+        "max": 862.6339062641152,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 63.38611059997796,
+        "median": 64.24075554274802,
+        "p95": 75.9603108638507,
+        "max": 86.44678135894208,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 94.80110602460722,
+        "median": 36.21170012641247,
+        "p95": 291.63666226317804,
+        "max": 4643.5160326640935,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 97.77112447772315,
+        "median": 44.46412818337434,
+        "p95": 367.5302353167493,
+        "max": 477.8912013080428,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 97.77112447772315,
+        "median": 44.46412818337434,
+        "p95": 367.5302353167493,
+        "max": 477.8912013080428,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.028606659923072684,
+        "median": 0.02215450639885519,
+        "p95": 0.07841007495606865,
+        "max": 0.1200000023783141,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 137.38256487366334,
+        "median": 32.16754598382937,
+        "p95": 365.84334250456095,
+        "max": 11713.873586074546,
+        "count": 822
+      }
+    },
+    "charging": "50%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50",
+    "Qg_at_bound_count": 7,
+    "Qg_at_lower_count": 2,
+    "Qg_at_upper_count": 5,
+    "total_Qg_MVAr": 2334.9082097411156,
+    "total_branch_Q_MVAr": 4367.057136643474,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 238
+  },
+  {
+    "method": "newer-base-v2",
+    "P": {
+      "mean": 209.17058687559074,
+      "median": 66.83922930502109,
+      "p95": 682.0260056111882,
+      "max": 7735.177279804811,
+      "count": 300
+    },
+    "Q": {
+      "mean": 470.1321240506197,
+      "median": 112.17640688025912,
+      "p95": 1413.1119818875366,
+      "max": 21371.526934997557,
+      "count": 300
+    },
+    "P_total_abs": 62751.17606267722,
+    "Q_total_abs": 141039.6372151859,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 2.09808349609375e-05,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 8.277526085087178e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 127.4760493460394,
+        "median": 104.45161203636724,
+        "p95": 235.83096216482738,
+        "max": 1372.8126841666278,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 127.4760493460394,
+        "median": 104.45161203636724,
+        "p95": 235.83096216482738,
+        "max": 1372.8126841666278,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 47.16981676262152,
+        "median": 49.84181819111424,
+        "p95": 64.7749574122783,
+        "max": 73.9947854550262,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 108.9796834204644,
+        "median": 38.553781939959805,
+        "p95": 312.5351876169005,
+        "max": 6957.366081206321,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 99.86485755698303,
+        "median": 47.42878669160382,
+        "p95": 349.55498972270414,
+        "max": 491.20370267454757,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 99.86485755698303,
+        "median": 47.42878669160382,
+        "p95": 349.55498972270414,
+        "max": 491.20370267454757,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.04617755519118636,
+        "median": 0.04395585457326934,
+        "p95": 0.10224124850197126,
+        "max": 0.12000000238262976,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 191.82698057343413,
+        "median": 46.85061720962901,
+        "p95": 612.5269412750852,
+        "max": 18710.037738428535,
+        "count": 822
+      }
+    },
+    "charging": "50%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/C300-L0.90-B0.50",
+    "Qg_at_bound_count": 25,
+    "Qg_at_lower_count": 6,
+    "Qg_at_upper_count": 19,
+    "total_Qg_MVAr": 2804.8027724027634,
+    "total_branch_Q_MVAr": 9651.35325166395,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 238
+  },
+  {
+    "method": "AC-OPF",
+    "P": {
+      "mean": 5.331408231556978e-13,
+      "median": 1.1368683772161603e-13,
+      "p95": 1.7081447367672815e-12,
+      "max": 2.4130031306413002e-11,
+      "count": 300
+    },
+    "Q": {
+      "mean": 2.0969051469734893e-12,
+      "median": 4.4941828036826337e-13,
+      "p95": 6.800759955183367e-12,
+      "max": 1.0077272349917621e-10,
+      "count": 300
+    },
+    "P_total_abs": 1.5994224694670933e-10,
+    "Q_total_abs": 6.290715440920468e-10,
+    "P_violating_buses": 0,
+    "Q_violating_buses": 0,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 0.0,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 0.0,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": true,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 5.1817338297438525e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      }
+    },
+    "charging": "100%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-0.90",
+    "Qg_at_bound_count": 22,
+    "Qg_at_lower_count": 6,
+    "Qg_at_upper_count": 16,
+    "total_Qg_MVAr": 5480.330116590216,
+    "total_branch_Q_MVAr": -2105.1831567009986,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 37
+  },
+  {
+    "method": "DC-OPF",
+    "P": {
+      "mean": 1.883794357671535e-13,
+      "median": 4.263256414560601e-14,
+      "p95": 7.686562921412902e-13,
+      "max": 3.268496584496461e-12,
+      "count": 300
+    },
+    "Q": null,
+    "P_total_abs": 5.651383073014605e-11,
+    "Q_total_abs": null,
+    "P_violating_buses": 0,
+    "Q_violating_buses": null,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": null,
+    "Qg_violating_count": null,
+    "Vm_max_excess": null,
+    "Vm_violating_count": null,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "DC active-flow only; AC apparent thermal feasibility N/A",
+    "AC_joint_feasible": null,
+    "native_DC_constraints_pass": true,
+    "physics_crosscheck": null,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 16.985624251790824,
+        "median": 12.288322460030486,
+        "p95": 46.89554146272893,
+        "max": 80.60109329796478,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 16.985624251790824,
+        "median": 12.288322460030486,
+        "p95": 46.89554146272893,
+        "max": 80.60109329796478,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 5.266630660079275,
+        "median": 5.180275280067519,
+        "p95": 11.054120794470876,
+        "max": 16.16725636967041,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 16.155107030209308,
+        "median": 6.296408331922088,
+        "p95": 64.45439424498753,
+        "max": 183.77755711364546,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": null,
+      "Qg_bus_aggregate_MVAr": null,
+      "Vm_pu": null,
+      "branch_Q_MVAr": null
+    },
+    "charging": "100%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-0.90"
+  },
+  {
+    "method": "microsoft-v1.1",
+    "P": {
+      "mean": 97.96049155394489,
+      "median": 15.756013478660197,
+      "p95": 294.11774175231244,
+      "max": 4991.08302950924,
+      "count": 300
+    },
+    "Q": {
+      "mean": 325.75741760281716,
+      "median": 71.2423995303323,
+      "p95": 782.935916395665,
+      "max": 12796.7639035098,
+      "count": 300
+    },
+    "P_total_abs": 29388.147466183465,
+    "Q_total_abs": 97727.22528084514,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 4.5787576778125313e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 192.7135000217844,
+        "median": 149.53049686896333,
+        "p95": 559.2282694833016,
+        "max": 870.8706172471279,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 192.7135000217844,
+        "median": 149.53049686896333,
+        "p95": 559.2282694833016,
+        "max": 870.8706172471279,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 63.72450605473452,
+        "median": 64.50666412242161,
+        "p95": 76.23067320386492,
+        "max": 87.59588078417437,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 95.31672445833038,
+        "median": 34.97919011313434,
+        "p95": 289.1780844675244,
+        "max": 4708.115405145467,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 79.12142414938738,
+        "median": 41.036257819664954,
+        "p95": 270.79221773388565,
+        "max": 455.0515087389237,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 79.12142414938738,
+        "median": 41.036257819664954,
+        "p95": 270.79221773388565,
+        "max": 455.0515087389237,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.02750993784200721,
+        "median": 0.020845928131422053,
+        "p95": 0.0712505217152085,
+        "max": 0.1200000023734773,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 139.276094093339,
+        "median": 32.06953453994451,
+        "p95": 374.56080673707095,
+        "max": 11853.883256722722,
+        "count": 822
+      }
+    },
+    "charging": "100%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-0.90",
+    "Qg_at_bound_count": 7,
+    "Qg_at_lower_count": 2,
+    "Qg_at_upper_count": 5,
+    "total_Qg_MVAr": 2292.2826509922743,
+    "total_branch_Q_MVAr": 1418.9067736987809,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 238
+  },
+  {
+    "method": "newer-base-v2",
+    "P": {
+      "mean": 211.83301481141442,
+      "median": 66.88304294546336,
+      "p95": 681.9882740657223,
+      "max": 7724.547703426932,
+      "count": 300
+    },
+    "Q": {
+      "mean": 470.84718094757477,
+      "median": 112.09268629857287,
+      "p95": 1406.067837282863,
+      "max": 21338.70404836963,
+      "count": 300
+    },
+    "P_total_abs": 63549.904443424326,
+    "Q_total_abs": 141254.15428427243,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 2.09808349609375e-05,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 4.2493487772975826e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 126.91243791507644,
+        "median": 104.37974765338345,
+        "p95": 233.154151100578,
+        "max": 1377.4399317582988,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 126.91243791507644,
+        "median": 104.37974765338345,
+        "p95": 233.154151100578,
+        "max": 1377.4399317582988,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 47.37789109390343,
+        "median": 50.05507735047141,
+        "p95": 65.6357599169085,
+        "max": 74.78160351717705,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 110.11043080640012,
+        "median": 37.56935757613455,
+        "p95": 319.0783610896853,
+        "max": 6947.554290206287,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 87.99896423464192,
+        "median": 52.07702287622713,
+        "p95": 301.46113946467045,
+        "max": 491.501356339894,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 87.99896423464192,
+        "median": 52.07702287622713,
+        "p95": 301.46113946467045,
+        "max": 491.501356339894,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.04643110963135737,
+        "median": 0.04135949471688949,
+        "p95": 0.10123021376259933,
+        "max": 0.12000000238248099,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 191.9523659882898,
+        "median": 43.64789784524241,
+        "p95": 637.1017863433941,
+        "max": 18723.488425941418,
+        "count": 822
+      }
+    },
+    "charging": "100%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-015/20261023-load-location-charging/G300-0.90",
+    "Qg_at_bound_count": 26,
+    "Qg_at_lower_count": 6,
+    "Qg_at_upper_count": 20,
+    "total_Qg_MVAr": 2776.179215684533,
+    "total_branch_Q_MVAr": 6677.0759796836755,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 238
+  },
+  {
+    "method": "AC-OPF",
+    "P": {
+      "mean": 7.03490321551925e-13,
+      "median": 1.2434497875801753e-13,
+      "p95": 1.875832822406671e-12,
+      "max": 4.2440717606950784e-11,
+      "count": 300
+    },
+    "Q": {
+      "mean": 2.5568900598486495e-12,
+      "median": 4.618527782440651e-13,
+      "p95": 6.242828476388251e-12,
+      "max": 1.473499100512754e-10,
+      "count": 300
+    },
+    "P_total_abs": 2.110470964655775e-10,
+    "Q_total_abs": 7.670670179545948e-10,
+    "P_violating_buses": 0,
+    "Q_violating_buses": 0,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 0.0,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 0.0,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": true,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 5.4803491933344093e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      }
+    },
+    "charging": "150%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50",
+    "Qg_at_bound_count": 21,
+    "Qg_at_lower_count": 10,
+    "Qg_at_upper_count": 11,
+    "total_Qg_MVAr": 3146.0562850618417,
+    "total_branch_Q_MVAr": -4406.773347913948,
+    "P_worst_bus": 9002,
+    "Q_worst_bus": 9002
+  },
+  {
+    "method": "DC-OPF",
+    "P": {
+      "mean": 1.883794357671535e-13,
+      "median": 4.263256414560601e-14,
+      "p95": 7.686562921412902e-13,
+      "max": 3.268496584496461e-12,
+      "count": 300
+    },
+    "Q": null,
+    "P_total_abs": 5.651383073014605e-11,
+    "Q_total_abs": null,
+    "P_violating_buses": 0,
+    "Q_violating_buses": null,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": null,
+    "Qg_violating_count": null,
+    "Vm_max_excess": null,
+    "Vm_violating_count": null,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "DC active-flow only; AC apparent thermal feasibility N/A",
+    "AC_joint_feasible": null,
+    "native_DC_constraints_pass": true,
+    "physics_crosscheck": null,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 16.653553986529975,
+        "median": 13.201962732022963,
+        "p95": 42.59347776727245,
+        "max": 78.00191562761188,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 16.653553986529975,
+        "median": 13.201962732022963,
+        "p95": 42.59347776727245,
+        "max": 78.00191562761188,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 5.156204674859197,
+        "median": 5.156490475605835,
+        "p95": 10.887707158626238,
+        "max": 13.260132874014289,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 15.813635425942127,
+        "median": 6.447613882209282,
+        "p95": 62.89204158095868,
+        "max": 177.5085642542017,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": null,
+      "Qg_bus_aggregate_MVAr": null,
+      "Vm_pu": null,
+      "branch_Q_MVAr": null
+    },
+    "charging": "150%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50"
+  },
+  {
+    "method": "microsoft-v1.1",
+    "P": {
+      "mean": 99.02759029202329,
+      "median": 16.577784997860658,
+      "p95": 293.2455151566358,
+      "max": 5043.0283685741115,
+      "count": 300
+    },
+    "Q": {
+      "mean": 329.9688214110449,
+      "median": 73.46838728093269,
+      "p95": 791.4094138309542,
+      "max": 12895.342223116892,
+      "count": 300
+    },
+    "P_total_abs": 29708.277087606988,
+    "Q_total_abs": 98990.64642331348,
+    "P_violating_buses": 299,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 6.27963117961033e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 193.4876639155108,
+        "median": 149.30901851136466,
+        "p95": 558.3020138437125,
+        "max": 876.3138032472054,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 193.4876639155108,
+        "median": 149.30901851136466,
+        "p95": 558.3020138437125,
+        "max": 876.3138032472054,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 66.01642024327808,
+        "median": 66.82091558394585,
+        "p95": 78.32612818557614,
+        "max": 94.61237833732716,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 96.21014786505027,
+        "median": 36.320139463006115,
+        "p95": 304.52726979969117,
+        "max": 4767.294743428887,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 84.51991685133248,
+        "median": 42.38702570742616,
+        "p95": 339.2107532232401,
+        "max": 539.6839183644518,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 84.51991685133248,
+        "median": 42.38702570742616,
+        "p95": 339.2107532232401,
+        "max": 539.6839183644518,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.036681535222180324,
+        "median": 0.030866622515375086,
+        "p95": 0.09109686059336075,
+        "max": 0.12000000230874242,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 144.09260412058092,
+        "median": 32.925774753723786,
+        "p95": 386.7046979636592,
+        "max": 11899.444204997275,
+        "count": 822
+      }
+    },
+    "charging": "150%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50",
+    "Qg_at_bound_count": 8,
+    "Qg_at_lower_count": 3,
+    "Qg_at_upper_count": 5,
+    "total_Qg_MVAr": 2287.550799548626,
+    "total_branch_Q_MVAr": -1493.4909351399247,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 238
+  },
+  {
+    "method": "newer-base-v2",
+    "P": {
+      "mean": 214.54911631814414,
+      "median": 67.20003419844808,
+      "p95": 681.9787344560366,
+      "max": 7705.6733576757,
+      "count": 300
+    },
+    "Q": {
+      "mean": 474.6859812223337,
+      "median": 114.10977227980433,
+      "p95": 1415.2053814317064,
+      "max": 21308.18086297623,
+      "count": 300
+    },
+    "P_total_abs": 64364.734895443245,
+    "Q_total_abs": 142405.7943667001,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 2.09808349609375e-05,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 6.91754280335096e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 129.09205736364567,
+        "median": 105.19801557557525,
+        "p95": 234.7887510789778,
+        "max": 1379.0662006429823,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 129.09205736364567,
+        "median": 105.19801557557525,
+        "p95": 234.7887510789778,
+        "max": 1379.0662006429823,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 47.34558512060515,
+        "median": 50.21327061739473,
+        "p95": 65.76318150268283,
+        "max": 75.60887119429391,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 110.83181435354146,
+        "median": 35.8292397824489,
+        "p95": 324.59473828641165,
+        "max": 6926.972001508407,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 95.19717282286022,
+        "median": 53.789091361824326,
+        "p95": 410.7023285560537,
+        "max": 521.5280101473761,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 95.19717282286022,
+        "median": 53.789091361824326,
+        "p95": 410.7023285560537,
+        "max": 521.5280101473761,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.05501323783948775,
+        "median": 0.05247682366141382,
+        "p95": 0.11113284713727233,
+        "max": 0.12000000238206532,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 201.061103124418,
+        "median": 49.02831350907801,
+        "p95": 639.0931327925737,
+        "max": 18767.216424112885,
+        "count": 822
+      }
+    },
+    "charging": "150%",
+    "reference_valid": true,
+    "artifact_directory": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50",
+    "Qg_at_bound_count": 26,
+    "Qg_at_lower_count": 6,
+    "Qg_at_upper_count": 20,
+    "total_Qg_MVAr": 2750.5564127117395,
+    "total_branch_Q_MVAr": 3708.590715161008,
+    "P_worst_bus": 238,
+    "Q_worst_bus": 238
+  }
+]

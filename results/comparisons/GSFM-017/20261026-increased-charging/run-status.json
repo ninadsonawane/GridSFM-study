@@ -1,0 +1,122 @@
+[
+  {
+    "scenario": "C300-L0.90-B1.50",
+    "AC": [
+      {
+        "returncode": 0,
+        "method": "default",
+        "seconds": 8.29911149997497,
+        "argv": [
+          "/Users/ninadsonawane/julia/bin/julia",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=/Users/ninadsonawane/workspace/research-dev/GridSFM/power_grid/US/topology_solver_pipeline",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/solver_server.jl"
+        ],
+        "request": {
+          "run_id": "17-C300-L0.90-B1.50-0",
+          "method": "default",
+          "matpower_file": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/case.m",
+          "log_path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-attempt0.log",
+          "result_path": "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50/ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 625884.7194502898
+      }
+    ],
+    "DC": {
+      "argv": [
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+        "-B",
+        "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_dc.py",
+        "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.43818795803235844,
+      "solver_success": true,
+      "status": "CONVERGED",
+      "iterations": 13,
+      "message": "Converged",
+      "objective": 614450.8773588741,
+      "seconds": 0.07514895801432431,
+      "makeBdc_manual_disagreement": 0.0,
+      "options": {
+        "PF_ALG": 1,
+        "PF_TOL": 1e-08,
+        "PF_MAX_IT": 10,
+        "PF_MAX_IT_FD": 30,
+        "PF_MAX_IT_GS": 1000,
+        "ENFORCE_Q_LIMS": false,
+        "PF_DC": false,
+        "PF_LIN_SOLVER_NR": "",
+        "CPF_PARAMETERIZATION": 3,
+        "CPF_STOP_AT": "NOSE",
+        "CPF_STEP": 0.05,
+        "CPF_ADAPT_STEP": false,
+        "CPF_ERROR_TOL": 0.001,
+        "CPF_STEP_MIN": 0.0001,
+        "CPF_STEP_MAX": 0.2,
+        "CPF_PLOT_LEVEL": 0,
+        "CPF_PLOT_BUS": "",
+        "CPF_USER_CALLBACK": "",
+        "CPF_USER_CALLBACK_ARGS": "",
+        "OPF_ALG": 0,
+        "OPF_VIOLATION": 5e-06,
+        "OPF_FLOW_LIM": 0,
+        "OPF_IGNORE_ANG_LIM": false,
+        "OPF_ALG_DC": 200,
+        "VERBOSE": 0,
+        "OUT_ALL": 0,
+        "OUT_SYS_SUM": true,
+        "OUT_AREA_SUM": false,
+        "OUT_BUS": true,
+        "OUT_BRANCH": true,
+        "OUT_GEN": false,
+        "OUT_ALL_LIM": -1,
+        "OUT_V_LIM": 1,
+        "OUT_LINE_LIM": 1,
+        "OUT_PG_LIM": 1,
+        "OUT_QG_LIM": 1,
+        "RETURN_RAW_DER": 0,
+        "PDIPM_FEASTOL": 1e-10,
+        "PDIPM_GRADTOL": 1e-09,
+        "PDIPM_COMPTOL": 1e-09,
+        "PDIPM_COSTTOL": 1e-06,
+        "PDIPM_MAX_IT": 150,
+        "SCPDIPM_RED_IT": 20,
+        "COST_MULT": 1.0
+      },
+      "independent_DC_constraints_pass": true
+    },
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "microsoft-v1.1",
+          "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.547055375005584
+      },
+      "newer-base-v2": {
+        "argv": [
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/.venv/bin/python",
+          "-B",
+          "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/experiments/gsfm015/run_model.py",
+          "newer-base-v2",
+          "results/comparisons/GSFM-017/20261026-increased-charging/C300-L0.90-B1.50"
+        ],
+        "returncode": 0,
+        "wall_seconds": 2.120105332985986
+      }
+    }
+  }
+]
