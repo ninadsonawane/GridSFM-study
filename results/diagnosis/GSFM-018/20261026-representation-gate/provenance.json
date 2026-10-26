@@ -1,0 +1,70 @@
+{
+  "date_local": "2026-10-26",
+  "timezone": "Asia/Kolkata",
+  "base_study_commit": "b4c2a02720e86482b7e60d3d7d41cc70fc3a2848",
+  "remote_main_observed_before_work": "b4c2a02720e86482b7e60d3d7d41cc70fc3a2848",
+  "publication": "local only; no push or external message",
+  "goal_objective_sha256": "6bc37b6eedb34440975460486090e16d7b0e7f1878a23a968b6ac0ec9d4afd79",
+  "working_checkout": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\goal-read-the-codex-goal-objective\\work\\GridSFM-study",
+  "older_checkout_preserved": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-21\\files-pasted-by-the-user-conduct\\outputs\\GridSFM-study",
+  "case_source": {
+    "MATPOWER_release": "8.1",
+    "commit": "1a828c7af590714499284e36ee9c81273388c594",
+    "sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+    "buses": 300,
+    "generators": 69,
+    "branches": 411,
+    "RATE_A_all_zero": true
+  },
+  "model_release_records": [
+    {
+      "release": "microsoft-v1.1",
+      "source_commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6",
+      "source_model_sha256": "03b786662daa55857a4dac0cca8fb633d6a363c090a9e19fb8623a4340748f53",
+      "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM/model/checkpoints/gridsfm_open_v1.1.pt",
+      "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+      "clip_mode": "leaky_clip",
+      "leaky_alpha": 0.0,
+      "native_saved_before_evaluation": true,
+      "additional_PF_or_OPF": false,
+      "model_input_has_solution": false,
+      "input_sha256": "04b942ca0a4182fa1866f4089a8a668b81ab464974456e26f6a3b3741bea7760"
+    },
+    {
+      "release": "newer-base-v2",
+      "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+      "source_model_sha256": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+      "checkpoint_path": "/Users/ninadsonawane/workspace/research-dev/GridSFM-study/data/checkpoints/GSFM-006-gridsfm_open_v2.pt",
+      "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+      "clip_mode": "clamp",
+      "leaky_alpha": 0.0,
+      "native_saved_before_evaluation": true,
+      "additional_PF_or_OPF": false,
+      "model_input_has_solution": false,
+      "input_sha256": "04b942ca0a4182fa1866f4089a8a668b81ab464974456e26f6a3b3741bea7760"
+    }
+  ],
+  "release_verification_scope": "Archived strict-load and runtime manifests re-read; source blobs fetched and hash-checked; no current checkpoint load. V101 not treated as a distinct checkpoint.",
+  "historical_environment": {
+    "torch": "2.8.0",
+    "torch-geometric": "2.8.0.post1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pypower": "5.1.21"
+  },
+  "current_environment_and_commands": "representation-probe.json and base-revalidation.json",
+  "raw_availability": "Missing paths and hashes in existing-evidence.json; no remote raw store. Base AC/v1/v2 arrays recovered exactly from tracked CSVs, not raw return dictionaries.",
+  "stage_status": {
+    "representation": "feature causes isolated, native-output mediation unresolved",
+    "stage_A": "three hypotheses and ten-input schedule fixed",
+    "stage_B_new_inputs": 0,
+    "stage_C_new_inputs": 0,
+    "stop_reason": "Correctness gate before dependent electrical search"
+  },
+  "code_sha256": {
+    "experiments/gsfm018/probe_representation.py": "1ec2e6fa3380aa4d920562edca9ac7f302ec7d8b4a6190c9b5adcba43ec9d5b9",
+    "experiments/gsfm018/revalidate_base.py": "4a68f57660dfc9ca20196ce113bddb776d7f3558e8c8068fd959fb5bf711f1b5",
+    "experiments/gsfm018/summarize_existing.py": "e453269674116dd5b916e310aaeff960e26a74f89177d7dc884f3150e61cc3c2"
+  },
+  "protocol_sha256": "1687ce569c72b490e2dcdac9a48a3d88ad69cee2d5889b064c9e13d980898e31"
+}

@@ -1,5 +1,7 @@
 # Handoff — frozen GridSFM physical-validity study
 
+**26 October 2026 — latest continuation: [GSFM-018](results/diagnosis/GSFM-018/20261026-representation-gate/README.md).** The user authorized bounded autonomous investigation on original case300, with the Experiment16 representation gate first. Feature-only probes now isolate row-dependent cycle construction in both releases and landmark/transformer-feature problems in v1.1. Historical native-output mediation is still unrun. Base native-state arrays recovered from tracked CSVs reproduce original hashes; independent FP64 validation confirms the AC reference and both model balance failures. No new electrical inputs or model/OPF runs. [Stage A hypotheses and ten-input schedule](docs/experiments/GSFM-018.md) are fixed but gated. Next decision: a small frozen-forward feature-isolation audit using the preserved Mac artifacts/environment. No automatic sweep, publication or correspondence. Older results and environments remain unchanged.
+
 **26 October 2026 — [Experiment17: increased charging](results/comparisons/GSFM-017/20261026-increased-charging/README.md) COMPLETE.** One new case300 input at90% loading with positive charging×1.50; existing50%/100% points reused. Verified AC reference, unchanged DC state, both frozen native states fail balance. Upper/lower Q-bound activity moves in opposite directions; model errors do not uniformly improve. All1,573 earlierExperiment15/16 files unchanged. No further runs or training.
 
 ## Current handoff — 23 October 2026
