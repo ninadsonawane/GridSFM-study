@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "no_new_solves_or_forwards": true,
+  "preserved_prior_tracked_files": 929,
+  "audited_cases": [
+    {
+      "scenario": "G300-0.91",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "e2a1b39600a32c905cac947a1c4d150746e0c3e2444fe412e24613dac7dbe161",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 634499.7828451279,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.624300693947589e-11,
+            "max_Q_MVAr": 5.638867150992155e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.154665078720838e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 5.0454751487905014e-11
+        }
+      ]
+    }
+  ]
+}

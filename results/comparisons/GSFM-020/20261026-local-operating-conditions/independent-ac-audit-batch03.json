@@ -1,0 +1,371 @@
+{
+  "status": "PASS",
+  "no_new_solves_or_forwards": true,
+  "preserved_prior_tracked_files": 929,
+  "audited_cases": [
+    {
+      "scenario": "G300-0.91",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "e2a1b39600a32c905cac947a1c4d150746e0c3e2444fe412e24613dac7dbe161",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 634499.7828451279,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.624300693947589e-11,
+            "max_Q_MVAr": 5.638867150992155e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.154665078720838e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 5.0454751487905014e-11
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.92",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "107bfcc9b55dc9907094caf5dca4ecc8cbc7fd431ce9ec12bdb7ef95a9091117",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 643792.617855891,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 8.238965065743287e-12,
+            "max_Q_MVAr": 1.1740919347857925e-10,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 2.3019949462639384e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 1.240456626305786e-10
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.93",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "75d56b369a562be7b547b9f45462125f9ec560d3b604935e5a7e01dbae4a1a5e",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 653129.8076524857,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.5006662579253316e-11,
+            "max_Q_MVAr": 6.80699940858176e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.380465664913081e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 6.778577699151356e-11
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.9301",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "003f8059804f63ed6a3b9a4892db07a6bf69f890826cad253cafc01915b8785f",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 653223.4038068869,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 3.885247679136228e-11,
+            "max_Q_MVAr": 6.665645813086485e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.738188491956174e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 6.208455971545845e-11
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.9303",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "0c98b3f6d8717ec7f79ae55a45ba871d552e0093a1726d71fcdca2f69f3007a9",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 653410.6094461621,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 8.126138650865755e-12,
+            "max_Q_MVAr": 5.682299075715491e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.584665992281545e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 5.807887504261089e-11
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.935",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "f92b10c9a030b52a521b3e95de70672fdc619e1621d51a37f439f4b21f68381b",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 657815.0601234101,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 9.279688129026908e-12,
+            "max_Q_MVAr": 8.915534976949857e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 9.647797410036771e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 8.86730688876014e-11
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.94",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "6c0f8cfbe8ab02f16cace1752f29d7108d0e8053b1e43eb19ee97bb880acfc69",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 662511.4307096353,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 7.773337529215496e-12,
+            "max_Q_MVAr": 6.252776074688882e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.799956011885185e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 5.53086465515662e-11
+        }
+      ]
+    },
+    {
+      "scenario": "G300-0.945",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "51eb83f133d6dc76b7d62464ac394275fe1685673a5a9cfd1d39eebde6f7b1dd",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 667218.929145417,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.4438228390645236e-11,
+            "max_Q_MVAr": 7.09405867382884e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.266268963227736e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 7.045741767797153e-11
+        }
+      ]
+    },
+    {
+      "scenario": "LOC-plus050",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "1fad56c9a2ae1f3bb5aa83cae6c45e381f38ee00859f4ee653320dfc3bf6ab0a",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 719837.5351499184,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.8758328224066645e-11,
+            "max_Q_MVAr": 1.0413003792564268e-10,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.424596570256853e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 1.0365042157900461e-10
+        }
+      ]
+    },
+    {
+      "scenario": "P093-Q094",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "d5dc843e7af7506930cf758c35e9b87fd420ff5e4803d775700c596218e9ae1f",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 653140.7217452718,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.921307557495311e-11,
+            "max_Q_MVAr": 9.742961992742494e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 8.34314064855702e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 7.37543359718984e-11
+        }
+      ]
+    },
+    {
+      "scenario": "P093-Q095",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "42bd439479db8a602c2a5ab295a3af0400f82ee748c0274fb5dbd7fc9d0444de",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 653151.9145320689,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 1.77351466845721e-11,
+            "max_Q_MVAr": 8.077449820120819e-11,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 8.01381727195214e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 7.595701845275471e-11
+        }
+      ]
+    },
+    {
+      "scenario": "P094-Q093",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "42432d19c7acbf545ddee6d6b4de38de53956dc82b6cd283f89c0d0c01eae3d8",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 662500.2733837955,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 5.540528036362957e-10,
+            "max_Q_MVAr": 1.2356977663330326e-09,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.005969457476852e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 1.2356977663330326e-09
+        }
+      ]
+    },
+    {
+      "scenario": "P095-Q093",
+      "status": "PASS",
+      "reference_accepted": true,
+      "input_sha256": "9e5f637b7a44137e1b432a20e69bbdbf1d7557e712ac37432441ed5dcc93877d",
+      "attempts": [
+        {
+          "attempt": 0,
+          "termination": "LOCALLY_SOLVED",
+          "objective": 671914.4535045997,
+          "expected_accept": true,
+          "parsed_fields_preserved": true,
+          "metrics": {
+            "max_P_MW": 2.283684352732962e-11,
+            "max_Q_MVAr": 1.0618350643198937e-10,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 0.0,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 8.665882391006676e-11,
+            "joint_pass": true
+          },
+          "reconstructed_vs_solver_branch_max_MVA": 1.0342660061724018e-10
+        }
+      ]
+    }
+  ]
+}

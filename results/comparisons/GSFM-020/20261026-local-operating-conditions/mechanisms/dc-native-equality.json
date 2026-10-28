@@ -1,0 +1,1946 @@
+[
+  {
+    "before": "G300-0.91",
+    "after": "G300-0.92",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 10.192000000000007,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.76900719146056,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.5923134837118766,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483064966,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483064966,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.92",
+    "after": "G300-0.93",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 10.192000000000007,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.76900719173659,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.5923134836874056,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.94554348297811,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.94554348297811,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.93",
+    "after": "G300-0.94",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 10.191999999999894,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.76900719152627,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.5923134837075779,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483045412,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483045412,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.9301",
+    "after": "G300-0.9303",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 0.2038400000000138,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 0.3953801436755384,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.011846269687211475,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 0.2589108696961375,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 0.2589108696961375,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.9303",
+    "after": "G300-0.935",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 4.79024000000004,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 9.291433380048147,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.2783873373390122,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.084405437023179,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.084405437023179,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.935",
+    "after": "G300-0.945",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 10.191999999999894,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.769007191640867,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.5923134836970263,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483013807,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483013807,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "P094-Q093",
+    "after": "P095-Q093",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 10.192000000000007,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.769007191549463,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.5923134837013109,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483033589,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483033589,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "P095-Q093",
+    "after": "P093-Q094",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 20.3839999999999,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 39.53801438307573,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 1.1846269674088887,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 25.891086966079,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 25.891086966079,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "P093-Q094",
+    "after": "P093-Q095",
+    "original_input_matrices_identical_except_bus_Qd": true,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "va_deg": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pf_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pt_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "all_four_native_arrays_exact_equal": true
+  },
+  {
+    "before": "LOC-plus050",
+    "after": "LOC-plus150",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 29.71965252064939,
+        "different_entries": 10
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1.1527845344971865e-10,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 3.9606329771933595,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 35.587787696129794,
+        "different_entries": 402
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 35.587787696129794,
+        "different_entries": 402
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "LOC-plus150",
+    "after": "LOC-minus050",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 59.43930504129878,
+        "different_entries": 10
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1.0822986951097846e-10,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 7.921265954393993,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 71.17557539234974,
+        "different_entries": 402
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 71.17557539234974,
+        "different_entries": 402
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "LOC-minus050",
+    "after": "LOC-minus150",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 29.71965252064939,
+        "different_entries": 10
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.298250809777528e-11,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 3.9606329771995608,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 35.58778769621972,
+        "different_entries": 396
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 35.58778769621972,
+        "different_entries": 396
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "A600-plus025",
+    "after": "A600-plus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 50.960000000000036,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 46.00134298488888,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 41.46732372525653,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 481.2796456939793,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 481.2796456939793,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "A600-plus075",
+    "after": "A600-minus025",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 101.92000000000007,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 46.0013429847927,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 127.50692851495711,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1430.0865343235046,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1430.0865343235046,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "A600-minus025",
+    "after": "A600-minus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 50.960000000000036,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 46.001342985165365,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 43.117193331936505,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 481.2796456896592,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 481.2796456896592,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-P0935-Q093",
+    "after": "CONF-P093-Q0935",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 5.096000000000004,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 9.884503595628757,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.29615674186411667,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.4727717415603365,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.4727717415603365,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-P093-Q0935",
+    "after": "CONF-LOC-plus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 71.34399999999994,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 136.95404029727956,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 2.8177339019865997,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 89.68303095184228,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 89.68303095184228,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-LOC-plus075",
+    "after": "CONF-LOC-plus125",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 14.859826260324667,
+        "different_entries": 10
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 2.2532731236424297e-10,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 1.9803164886247417,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 17.793893848285734,
+        "different_entries": 395
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 17.793893848285734,
+        "different_entries": 395
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-A600-plus040",
+    "after": "CONF-A600-minus040",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 81.53600000000006,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 3.115019353572279e-10,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 137.66336766297866,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1518.0910218019108,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1518.0910218019108,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.9301",
+    "after": "G300-0.945",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 15.186079999999947,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 29.455820715364553,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.88254709072325,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.288859789733124,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.288859789733124,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.93",
+    "after": "P094-Q093",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 10.191999999999894,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 19.76900719152627,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.5923134837075779,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483045412,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 12.945543483045412,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.93",
+    "after": "P095-Q093",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 20.3839999999999,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 39.53801438307573,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 1.1846269674088887,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 25.891086966079,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 25.891086966079,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.93",
+    "after": "P093-Q094",
+    "original_input_matrices_identical_except_bus_Qd": true,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "va_deg": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pf_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pt_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "all_four_native_arrays_exact_equal": true
+  },
+  {
+    "before": "G300-0.93",
+    "after": "P093-Q095",
+    "original_input_matrices_identical_except_bus_Qd": true,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "va_deg": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pf_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pt_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "all_four_native_arrays_exact_equal": true
+  },
+  {
+    "before": "G300-0.94",
+    "after": "P094-Q093",
+    "original_input_matrices_identical_except_bus_Qd": true,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "va_deg": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pf_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pt_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "all_four_native_arrays_exact_equal": true
+  },
+  {
+    "before": "A600-plus025",
+    "after": "A600-minus025",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 50.960000000000036,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 9.617906471248716e-11,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 86.03960478970058,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 948.8068886297981,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 948.8068886297981,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "A600-plus075",
+    "after": "A600-minus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 152.88,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 76.52916794910925,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 170.62412184689362,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1885.7032256723414,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1885.7032256723414,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.93",
+    "after": "CONF-P0935-Q093",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 5.096000000000004,
+        "different_entries": 199
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 9.884503595628757,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.29615674186411667,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.4727717415603365,
+        "different_entries": 411
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 6.4727717415603365,
+        "different_entries": 411
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "G300-0.93",
+    "after": "CONF-P093-Q0935",
+    "original_input_matrices_identical_except_bus_Qd": true,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "va_deg": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pf_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pt_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "all_four_native_arrays_exact_equal": true
+  },
+  {
+    "before": "G300-0.935",
+    "after": "CONF-P0935-Q093",
+    "original_input_matrices_identical_except_bus_Qd": true,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "va_deg": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pf_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "pt_mw": {
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "all_four_native_arrays_exact_equal": true
+  },
+  {
+    "before": "LOC-plus050",
+    "after": "CONF-LOC-plus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 7.429913130162362,
+        "different_entries": 10
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 1.1505107977427542e-10,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.990158244285853,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 8.896946923940163,
+        "different_entries": 400
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 8.896946923940163,
+        "different_entries": 400
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-LOC-plus125",
+    "after": "LOC-plus150",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 7.429913130162362,
+        "different_entries": 10
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 2.255546860396862e-10,
+        "different_entries": 69
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 0.9901582442827648,
+        "different_entries": 299
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 8.896946923903897,
+        "different_entries": 399
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 8.896946923903897,
+        "different_entries": 399
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "A600-plus025",
+    "after": "CONF-A600-plus040",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 15.288000000000011,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 5.663669533362281e-11,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 25.811881436837403,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 284.642066588043,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 284.642066588043,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-A600-plus040",
+    "after": "A600-plus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 35.672000000000025,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 46.001342984865914,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 15.655442288419124,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 196.6375791059363,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 196.6375791059363,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "A600-minus025",
+    "after": "CONF-A600-minus040",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 15.288000000000011,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 3.028617356903851e-10,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 25.811881436440665,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 284.6420665843425,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 284.6420665843425,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  },
+  {
+    "before": "CONF-A600-minus040",
+    "after": "A600-minus075",
+    "original_input_matrices_identical_except_bus_Qd": false,
+    "matrix_comparison_Qd_omitted": {
+      "bus": {
+        "same_shape": true,
+        "exact_equal": false,
+        "max_abs_difference": 35.672000000000025,
+        "different_entries": 398
+      },
+      "gen": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "branch": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      },
+      "gencost": {
+        "same_shape": true,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "different_entries": 0
+      }
+    },
+    "native_arrays": {
+      "pg_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 46.001342985245174,
+        "different_entries": 138
+      },
+      "va_deg": {
+        "exact_equal": false,
+        "max_abs_difference": 17.30531189549584,
+        "different_entries": 599
+      },
+      "pf_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 196.63757910558388,
+        "different_entries": 824
+      },
+      "pt_mw": {
+        "exact_equal": false,
+        "max_abs_difference": 196.63757910558388,
+        "different_entries": 824
+      }
+    },
+    "all_four_native_arrays_exact_equal": false
+  }
+]

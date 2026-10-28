@@ -1,0 +1,271 @@
+{
+  "start_UTC": "2026-10-26T16:45:13+00:00",
+  "deadline_UTC": "2026-10-26T21:45:13+00:00",
+  "compute_stop_UTC": "2026-10-26T21:15:13+00:00",
+  "discovery_limit": 24,
+  "confirmation_limit": 6,
+  "attempted": [
+    {
+      "id": "G300-0.91",
+      "batch": "01-load-transition",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:24:02.448455+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:24:35.362618+00:00"
+    },
+    {
+      "id": "G300-0.92",
+      "batch": "01-load-transition",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:24:35.367477+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:25:12.247824+00:00"
+    },
+    {
+      "id": "G300-0.93",
+      "batch": "01-load-transition",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:25:12.252489+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:25:46.890008+00:00"
+    },
+    {
+      "id": "G300-0.94",
+      "batch": "01-load-transition",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:25:46.898218+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:26:23.537022+00:00"
+    },
+    {
+      "id": "G300-0.9301",
+      "batch": "02-clamp-onset",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:27:45.402371+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:28:18.880413+00:00"
+    },
+    {
+      "id": "G300-0.9303",
+      "batch": "02-clamp-onset",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:28:18.886089+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:28:49.102139+00:00"
+    },
+    {
+      "id": "G300-0.935",
+      "batch": "02-clamp-onset",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:28:49.107183+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:29:20.413529+00:00"
+    },
+    {
+      "id": "G300-0.945",
+      "batch": "02-clamp-onset",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:29:20.427346+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:29:55.235800+00:00"
+    },
+    {
+      "id": "P094-Q093",
+      "batch": "03-P-Q-isolation",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:31:00.921475+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:31:33.182889+00:00"
+    },
+    {
+      "id": "P095-Q093",
+      "batch": "03-P-Q-isolation",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:31:33.188969+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:32:05.161729+00:00"
+    },
+    {
+      "id": "P093-Q094",
+      "batch": "03-P-Q-isolation",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:32:05.167918+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:32:39.908590+00:00"
+    },
+    {
+      "id": "P093-Q095",
+      "batch": "03-P-Q-isolation",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:32:39.915676+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:33:11.327484+00:00"
+    },
+    {
+      "id": "LOC-plus050",
+      "batch": "04-fixed-total-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:34:36.805814+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:35:08.897332+00:00"
+    },
+    {
+      "id": "LOC-plus150",
+      "batch": "04-fixed-total-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:35:08.910042+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:35:47.000971+00:00"
+    },
+    {
+      "id": "LOC-minus050",
+      "batch": "04-fixed-total-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:35:47.008626+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:36:22.383239+00:00"
+    },
+    {
+      "id": "LOC-minus150",
+      "batch": "04-fixed-total-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:36:22.393829+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:36:58.876744+00:00"
+    },
+    {
+      "id": "A600-plus025",
+      "batch": "05-existing-two-area-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:38:05.786877+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:38:45.977607+00:00"
+    },
+    {
+      "id": "A600-plus075",
+      "batch": "05-existing-two-area-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:38:45.985002+00:00",
+      "status": "COMPLETE",
+      "reference_valid": false,
+      "completed_UTC": "2026-10-26T17:39:55.290834+00:00"
+    },
+    {
+      "id": "A600-minus025",
+      "batch": "05-existing-two-area-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:39:55.296920+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:40:31.616078+00:00"
+    },
+    {
+      "id": "A600-minus075",
+      "batch": "05-existing-two-area-location",
+      "kind": "discovery",
+      "attempted_UTC": "2026-10-26T17:40:31.622317+00:00",
+      "status": "COMPLETE",
+      "reference_valid": false,
+      "completed_UTC": "2026-10-26T17:42:28.544717+00:00"
+    },
+    {
+      "id": "CONF-P0935-Q093",
+      "batch": "06-confirmation",
+      "kind": "confirmation",
+      "attempted_UTC": "2026-10-26T17:44:09.821416+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:44:39.315948+00:00"
+    },
+    {
+      "id": "CONF-P093-Q0935",
+      "batch": "06-confirmation",
+      "kind": "confirmation",
+      "attempted_UTC": "2026-10-26T17:44:39.321078+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:45:12.472093+00:00"
+    },
+    {
+      "id": "CONF-LOC-plus075",
+      "batch": "06-confirmation",
+      "kind": "confirmation",
+      "attempted_UTC": "2026-10-26T17:45:12.477888+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:45:43.261113+00:00"
+    },
+    {
+      "id": "CONF-LOC-plus125",
+      "batch": "06-confirmation",
+      "kind": "confirmation",
+      "attempted_UTC": "2026-10-26T17:45:43.266346+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:46:14.014808+00:00"
+    },
+    {
+      "id": "CONF-A600-plus040",
+      "batch": "06-confirmation",
+      "kind": "confirmation",
+      "attempted_UTC": "2026-10-26T17:46:14.021424+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:46:47.896776+00:00"
+    },
+    {
+      "id": "CONF-A600-minus040",
+      "batch": "06-confirmation",
+      "kind": "confirmation",
+      "attempted_UTC": "2026-10-26T17:46:47.902260+00:00",
+      "status": "COMPLETE",
+      "reference_valid": true,
+      "completed_UTC": "2026-10-26T17:47:21.336585+00:00"
+    }
+  ],
+  "diagnostic_forward_limit": 20,
+  "diagnostic_forwards": [
+    {
+      "release": "microsoft-v1.1",
+      "status": "PASS",
+      "exact_independent_process_all_returned_equal": true,
+      "within_process_repeat_and_label_invariance": true,
+      "failed_preprocessing_attempts": 1,
+      "actual_neural_forwards": 11,
+      "invocations_including_preprocessing_failure": 12,
+      "source_summary_preserved": "summary.json",
+      "fresh_cold_output": "cold-retry",
+      "fixed_original_order_work_allowed": true
+    },
+    {
+      "release": "newer-base-v2",
+      "status": "PASS",
+      "exact_independent_process_all_returned_equal": true,
+      "within_process_repeat_and_label_invariance": true,
+      "failed_preprocessing_attempts": 1,
+      "actual_neural_forwards": 8,
+      "invocations_including_preprocessing_failure": 9,
+      "source_summary_preserved": "summary.json",
+      "fresh_cold_output": "cold-retry",
+      "fixed_original_order_work_allowed": true
+    }
+  ],
+  "baseline_replays": []
+}

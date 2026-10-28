@@ -1,0 +1,142 @@
+[
+  {
+    "matrix": "bus",
+    "row_1based": 1,
+    "column_1based": 3,
+    "before": 90.0,
+    "after": 67.5
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 1,
+    "column_1based": 4,
+    "before": 49.0,
+    "after": 47.732267441860465
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 2,
+    "column_1based": 3,
+    "before": 56.0,
+    "after": 42.0
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 2,
+    "column_1based": 4,
+    "before": 15.0,
+    "after": 14.611918604651162
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 31,
+    "column_1based": 3,
+    "before": 85.0,
+    "after": 63.75
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 31,
+    "column_1based": 4,
+    "before": 32.0,
+    "after": 31.172093023255815
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 64,
+    "column_1based": 3,
+    "before": 74.0,
+    "after": 55.5
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 64,
+    "column_1based": 4,
+    "before": 28.0,
+    "after": 27.275581395348837
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 97,
+    "column_1based": 3,
+    "before": 14.1,
+    "after": 10.575
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 97,
+    "column_1based": 4,
+    "before": 650.0,
+    "after": 633.1831395348837
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 133,
+    "column_1based": 3,
+    "before": 70.0,
+    "after": 85.90501281686129
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 133,
+    "column_1based": 4,
+    "before": 5.0,
+    "after": 6.25
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 152,
+    "column_1based": 3,
+    "before": 163.5,
+    "after": 200.64956565081172
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 152,
+    "column_1based": 4,
+    "before": 43.0,
+    "after": 53.75
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 158,
+    "column_1based": 3,
+    "before": 74.0,
+    "after": 90.81387069211051
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 158,
+    "column_1based": 4,
+    "before": 29.0,
+    "after": 36.25
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 238,
+    "column_1based": 3,
+    "before": 14.0,
+    "after": 17.18100256337226
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 238,
+    "column_1based": 4,
+    "before": 2.5,
+    "after": 3.125
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 241,
+    "column_1based": 3,
+    "before": 29.6,
+    "after": 36.3255482768442
+  },
+  {
+    "matrix": "bus",
+    "row_1based": 241,
+    "column_1based": 4,
+    "before": 0.6,
+    "after": 0.75
+  }
+]

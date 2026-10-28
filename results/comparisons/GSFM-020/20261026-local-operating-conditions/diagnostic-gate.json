@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "gates": [
+    {
+      "release": "microsoft-v1.1",
+      "status": "PASS",
+      "exact_independent_process_all_returned_equal": true,
+      "within_process_repeat_and_label_invariance": true,
+      "failed_preprocessing_attempts": 1,
+      "actual_neural_forwards": 11,
+      "invocations_including_preprocessing_failure": 12,
+      "source_summary_preserved": "summary.json",
+      "fresh_cold_output": "cold-retry",
+      "fixed_original_order_work_allowed": true
+    },
+    {
+      "release": "newer-base-v2",
+      "status": "PASS",
+      "exact_independent_process_all_returned_equal": true,
+      "within_process_repeat_and_label_invariance": true,
+      "failed_preprocessing_attempts": 1,
+      "actual_neural_forwards": 8,
+      "invocations_including_preprocessing_failure": 9,
+      "source_summary_preserved": "summary.json",
+      "fresh_cold_output": "cold-retry",
+      "fixed_original_order_work_allowed": true
+    }
+  ],
+  "completed_UTC": "2026-10-26T17:21:37.541540+00:00",
+  "executed_neural_forwards": 19,
+  "invocations": 21,
+  "new_electrical_inputs": 0
+}

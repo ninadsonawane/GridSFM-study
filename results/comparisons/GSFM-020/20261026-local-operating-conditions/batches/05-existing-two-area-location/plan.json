@@ -1,0 +1,37 @@
+{
+  "batch": "05-existing-two-area-location",
+  "kind": "discovery",
+  "hypothesis": "Nearby fixed-total area redistributions on the existing connected two-copy system show whether native tie overload and imbalance responses differ by direction and strength, while conventional solutions enforce the two disclosed ratings.",
+  "motivation": "Batch04 original-case redistribution0.5->1.5 raises v2 Qmax7717.01->21374.64MVAr and mean378.31->544.94 with PgMAE106.30->106.81MW. Reverse controls do not show the same surge. To avoid generalizing one300-bus response, test the already existing600-bus network. Historical Splus/Sminus atdelta\u00b10.05 are reused context, not rerun.",
+  "paired_baseline": "Exact-hash-recreated existing G600-1.00 input; saved S0 and Splus/Sminus summaries atdelta0/\u00b10.05. Compare new\u00b10.025 and\u00b10.075 pairs to one another using corresponding independently verified references.",
+  "expected_AC": "Separate network-wide signed P/Q totals stay fixed; area dispatch, losses and tie exchanges can change. Two existing600MVA tie limits enforced, interior ratings remain0/unlimited. Direction symmetry is checked, not assumed for the learned representation.",
+  "expected_DC": "Spatial P redistribution changes dispatch and tie active flows under DC equations and disclosed finite active-flow ratings. Reactive quantities/joint AC validity remainN/A.",
+  "intervention_definition": "AreaA signed Pd/Qd scale1+delta, areaB scale1-delta; all branch, generator, cost, shunt, status and limit fields remain the existing baseline. No new network or tie is created.",
+  "scenarios": [
+    {
+      "id": "A600-plus025",
+      "network": 600,
+      "area_delta": 0.025,
+      "input_sha256": "8a598e4a0d4ac87f10c236d706bd435aed3e239a09a1da2f4d28a5c52cd8df2d"
+    },
+    {
+      "id": "A600-plus075",
+      "network": 600,
+      "area_delta": 0.075,
+      "input_sha256": "4ab102b0e6765bc3812036a8077cbdf1cf3bf43aff4897a3f6ca2215566973a3"
+    },
+    {
+      "id": "A600-minus025",
+      "network": 600,
+      "area_delta": -0.025,
+      "input_sha256": "d65668a092a32b01c9744e1845216920688cefed4b05579cbd0484f5672fd562"
+    },
+    {
+      "id": "A600-minus075",
+      "network": 600,
+      "area_delta": -0.075,
+      "input_sha256": "34bf4f9847a2a7fe346479193a2ebc8c4a88868c1116ab2956b40237267e0082"
+    }
+  ],
+  "frozen_UTC": "2026-10-26T17:38:04.191453+00:00"
+}

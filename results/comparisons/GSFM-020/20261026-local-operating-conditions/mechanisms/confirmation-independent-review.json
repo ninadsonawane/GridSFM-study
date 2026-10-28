@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "scope": "Independent saved-array sums, clipping, direct pi-branch equations; zero model or solver calls",
+  "script_sha256": "7e0c0a985f38f59209dd7f1880b4d29bf8495aed33f978c7b7a70f34312e2896",
+  "confirmation_checks_sha256": "7157817fe01d95086a6a4abdf1f47d629677591b226065e8280e0da46832dd44",
+  "completed_inputs": 26,
+  "native_states_recomputed": 52,
+  "native_states_with_balance_failure": 52,
+  "max_difference_from_saved_PQ_summary": 4.729372449219227e-11,
+  "Q_only_DC_equal_arrays": {
+    "pg_mw": true,
+    "va_deg": true,
+    "pf_mw": true,
+    "pt_mw": true
+  },
+  "reactive_response": {
+    "microsoft-v1.1": {
+      "native_Qg_change_MVAr": -0.8243683725595474,
+      "AC_Qg_change_MVAr": 41.3336906094255,
+      "same_clipped_rows": true,
+      "clipped_count": 7,
+      "clipped_rows_returned_Qg_change": 0
+    },
+    "newer-base-v2": {
+      "native_Qg_change_MVAr": -2.044310048222542,
+      "AC_Qg_change_MVAr": 41.3336906094255,
+      "same_clipped_rows": true,
+      "clipped_count": 26,
+      "clipped_rows_returned_Qg_change": 0
+    }
+  },
+  "v2_Vm235": {
+    "G300-0.93": {
+      "preclip": 0.9385532140731812,
+      "native": 0.9399999976158142
+    },
+    "CONF-P0935-Q093": {
+      "preclip": 0.9786313772201538,
+      "native": 0.9786313772201538
+    },
+    "CONF-P093-Q0935": {
+      "preclip": 0.9276137351989746,
+      "native": 0.9399999976158142
+    },
+    "CONF-LOC-plus075": {
+      "preclip": 1.0725646018981934,
+      "native": 1.059999942779541
+    },
+    "CONF-LOC-plus125": {
+      "preclip": 0.7886514663696289,
+      "native": 0.9399999976158142
+    }
+  },
+  "fixed_total_location_inputs": [
+    {
+      "scenario": "CONF-LOC-plus075",
+      "max_PQ_total_difference": 0.0,
+      "bus235_238_PQ_unchanged": true
+    },
+    {
+      "scenario": "CONF-LOC-plus125",
+      "max_PQ_total_difference": 0.0,
+      "bus235_238_PQ_unchanged": true
+    }
+  ],
+  "ties": {
+    "CONF-A600-plus040": {
+      "microsoft-v1.1": {
+        "max_loading_MVA": 626.9343504308888,
+        "violation_count": 2
+      },
+      "newer-base-v2": {
+        "max_loading_MVA": 495.7618662703418,
+        "violation_count": 0
+      },
+      "AC-OPF": {
+        "max_loading_MVA": 164.7104502932768,
+        "violation_count": 0
+      }
+    },
+    "CONF-A600-minus040": {
+      "microsoft-v1.1": {
+        "max_loading_MVA": 379.837713457292,
+        "violation_count": 0
+      },
+      "newer-base-v2": {
+        "max_loading_MVA": 435.2101220421468,
+        "violation_count": 0
+      },
+      "AC-OPF": {
+        "max_loading_MVA": 164.71045029327243,
+        "violation_count": 0
+      }
+    }
+  }
+}

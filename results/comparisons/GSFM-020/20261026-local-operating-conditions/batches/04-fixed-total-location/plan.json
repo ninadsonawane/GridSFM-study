@@ -1,0 +1,37 @@
+{
+  "batch": "04-fixed-total-location",
+  "kind": "discovery",
+  "hypothesis": "The large saved v2 location effect persists at nearby redistribution magnitudes and depends on direction, even though total P and total Q remain fixed. This tests a different uncertainty from global/component scaling.",
+  "motivation": "Batches01-03 show a P-driven voltage/clamp response with Q-severity changes that are not uniform across buses. Historical GSFM015 moved63.82MW/16.02MVAr toward source-selected lower-admittance group and raised v2 Qmax7958.03->21162.29, but had only one magnitude in each direction. Nearby isolated controls are missing.",
+  "paired_baseline": "Locally replayed original case300 at1.0; saved GSFM015 transfers+1/-1 with the exact same source-only groups. Reuse local baseline predictions and checksum-recovered AC reference.",
+  "expected_AC": "With separate P/Q totals fixed, local losses, Vm, reactive dispatch and active constraints may change. No global demand effect and no assumed monotonic weak-grid interpretation.",
+  "expected_DC": "Total demand fixed but spatial injection patterns change, so dispatch/angles/flows may change under audited DC equations.",
+  "intervention_definition": "Positive strength transfers toward original buses609,531,154,173,179 from2,1,77,118,37; negative reverses direction. Strength1 transfers63.82MW and16.02MVAr, allocated proportionally within each source group. Preserve signs, all other fields and ordering.",
+  "scenarios": [
+    {
+      "id": "LOC-plus050",
+      "network": 300,
+      "redistribution": 0.5,
+      "input_sha256": "1fad56c9a2ae1f3bb5aa83cae6c45e381f38ee00859f4ee653320dfc3bf6ab0a"
+    },
+    {
+      "id": "LOC-plus150",
+      "network": 300,
+      "redistribution": 1.5,
+      "input_sha256": "37972fda3bb5424f43bfcc584a720fdc82b4ca3f2fe53ac5448abe30bc2a33f9"
+    },
+    {
+      "id": "LOC-minus050",
+      "network": 300,
+      "redistribution": -0.5,
+      "input_sha256": "e5e928a8cfab517ac50d90598570c90e93fdff0ff64389ed1267714d0db01ac1"
+    },
+    {
+      "id": "LOC-minus150",
+      "network": 300,
+      "redistribution": -1.5,
+      "input_sha256": "8346f9c21312f9512c42fd4330cd04a257e80b37affe5986bb391d881b16f8bc"
+    }
+  ],
+  "frozen_UTC": "2026-10-26T17:34:36.066059+00:00"
+}

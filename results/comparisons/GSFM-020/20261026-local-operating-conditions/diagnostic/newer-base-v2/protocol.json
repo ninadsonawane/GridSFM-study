@@ -1,0 +1,65 @@
+{
+  "scope": "Existing electrical input; feature mediation only, no OPF/PF solves",
+  "input_sha256": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed",
+  "release": "newer-base-v2",
+  "max_forwards": 8,
+  "max_seconds": 1800.0,
+  "schedule_before_outcomes": [
+    [
+      "baseline-cold",
+      "original",
+      "none",
+      false
+    ],
+    [
+      "baseline-warm",
+      "original",
+      "none",
+      false
+    ],
+    [
+      "label-poison",
+      "original",
+      "none",
+      true
+    ],
+    [
+      "branch-reverse-default",
+      "branch-reverse",
+      "none",
+      false
+    ],
+    [
+      "branch-reverse-cycles",
+      "branch-reverse",
+      "cycles",
+      false
+    ],
+    [
+      "bus-reverse-default",
+      "bus-reverse",
+      "none",
+      false
+    ],
+    [
+      "bus-reverse-cycles",
+      "bus-reverse",
+      "cycles",
+      false
+    ],
+    [
+      "independent-cold",
+      "original",
+      "independent-process",
+      false
+    ]
+  ],
+  "started_unix": 1793035089.7311885,
+  "hypotheses": [
+    "Identical input has repeatable native outputs and is label invariant.",
+    "Replacing only mapped cycle nodes/features/all relations reduces branch-order output dependence.",
+    "v1 landmark moments and misplaced transformer DC features separately mediate row-order effects."
+  ],
+  "interpretation": "Feature substitution measures mediation, not a corrected release or physical repair.",
+  "script_sha256": "f843b8d3d4686c06b178714d912a5cfdfc357c491b206cf897a97752fc1211c7"
+}

@@ -1,0 +1,2013 @@
+{
+  "status": "COMPLETE",
+  "scope": "Saved-state scoring only; no inference, solve, repair or threshold change.",
+  "confirmation_status": {
+    "CONF-P0935-Q093": {
+      "AC_reference_accepted": true,
+      "DC_own_equations_pass": true
+    },
+    "CONF-P093-Q0935": {
+      "AC_reference_accepted": true,
+      "DC_own_equations_pass": true
+    },
+    "CONF-LOC-plus075": {
+      "AC_reference_accepted": true,
+      "DC_own_equations_pass": true
+    },
+    "CONF-LOC-plus125": {
+      "AC_reference_accepted": true,
+      "DC_own_equations_pass": true
+    },
+    "CONF-A600-plus040": {
+      "AC_reference_accepted": true,
+      "DC_own_equations_pass": true
+    },
+    "CONF-A600-minus040": {
+      "AC_reference_accepted": true,
+      "DC_own_equations_pass": true
+    }
+  },
+  "component_test": {
+    "frozen_expectation": "P-only releases v2 Vm235 lower clamp; Q-only retains it, verified ACQg rises, both nativeQg fall, Qg clipping membership unchanged.",
+    "baseline": "G300-0.93",
+    "baseline_v2_Vm235": {
+      "Vm_pu": 0.9399999976158142,
+      "preclip_Vm_pu": 0.9385532140731812,
+      "actual_clipping": true,
+      "at_lower": true,
+      "at_upper": false
+    },
+    "claim_checks": {
+      "v2_baseline_lower_clipped": true,
+      "v2_P_only_leaves_lower_clamp": true,
+      "v2_Q_only_stays_lower_clipped": true,
+      "Q_only_DC_four_saved_arrays_exactly_equal": true,
+      "P_only_DC_equals_same_P_global_case": true,
+      "microsoft-v1.1_Q_only_AC_Qg_rises_native_Qg_falls": true,
+      "microsoft-v1.1_Q_only_same_Qg_clipped_rows_zero_clipped_row_change": true,
+      "newer-base-v2_Q_only_AC_Qg_rises_native_Qg_falls": true,
+      "newer-base-v2_Q_only_same_Qg_clipped_rows_zero_clipped_row_change": true
+    },
+    "counterevidence": [],
+    "observations": {
+      "microsoft-v1.1": {
+        "P_only": {
+          "scenario": "CONF-P0935-Q093",
+          "operating_point": {
+            "AC_reference_accepted": true,
+            "Q_mean_MVAr": 308.59502355372706,
+            "Q_p95_MVAr": 812.2210882605742,
+            "Q_max_MVAr": 11460.452692032868,
+            "Q_violating_buses": 300,
+            "P_violating_buses": 300,
+            "native_joint_AC_feasible": false,
+            "Vm235": {
+              "Vm_pu": 1.0315537452697754,
+              "preclip_Vm_pu": 1.0315537452697754,
+              "actual_clipping": false,
+              "at_lower": false,
+              "at_upper": false
+            },
+            "Vm238": {
+              "Vm_pu": 0.9631837606430054,
+              "preclip_Vm_pu": 0.9631837606430054,
+              "actual_clipping": false,
+              "at_lower": false,
+              "at_upper": false
+            },
+            "branch321_Qt_MVAr": -9737.473308882889,
+            "branch321_Qt_algebra": {
+              "branch_row_1based": 321,
+              "from_bus": 235,
+              "to_bus": 238,
+              "series_r_pu": 0.0002,
+              "series_x_pu": 0.0006,
+              "total_charging_b_pu": 0.8,
+              "Vm_from": 1.0315537452697754,
+              "Vm_to": 0.9631837606430054,
+              "tap_magnitude": 1.0,
+              "effective_to_minus_from_angle_deg": -0.20370356180645643,
+              "Qt_voltage_gap_MVAr": -9877.928836187522,
+              "Qt_cosine_angle_MVAr": 0.9419195232797327,
+              "Qt_sine_angle_MVAr": 176.62252605202397,
+              "Qt_charging_MVAr": -37.10891827065609,
+              "Qt_components_sum_MVAr": -9737.473308882874,
+              "Qt_direct_MVAr": -9737.473308882889
+            },
+            "MAE": {
+              "Pg_per_generator_MW": 195.78588517619295,
+              "aligned_angle_deg": 56.53437408970407,
+              "branch_P_MW": 90.15827640655303,
+              "Qg_per_generator_MVAr": 81.70407676873437,
+              "Vm_pu": 0.027061162749113757
+            }
+          },
+          "reactive_response": {
+            "method": "microsoft-v1.1",
+            "total_Qd_before": 7242.8121,
+            "total_Qd_after": 7242.8121,
+            "native_total_Qg_before": 2388.3154582232237,
+            "native_total_Qg_after": 2389.166696742177,
+            "native_total_Qg_change": 0.8512385189533234,
+            "reference_total_Qg_before": 5918.7859248887,
+            "reference_total_Qg_after": 5951.689379048527,
+            "reference_total_Qg_change": 32.90345415982756,
+            "actual_Qg_clipped_count_before": 7,
+            "actual_Qg_clipped_count_after": 7,
+            "actual_Qg_clipped_rows_identical": true,
+            "Qg_change_on_rows_clipped_both_times": 0.0
+          }
+        },
+        "Q_only": {
+          "scenario": "CONF-P093-Q0935",
+          "operating_point": {
+            "AC_reference_accepted": true,
+            "Q_mean_MVAr": 312.25029166272077,
+            "Q_p95_MVAr": 802.8119989630968,
+            "Q_max_MVAr": 11689.118110638354,
+            "Q_violating_buses": 300,
+            "P_violating_buses": 300,
+            "native_joint_AC_feasible": false,
+            "Vm235": {
+              "Vm_pu": 1.0318700075149536,
+              "preclip_Vm_pu": 1.0318700075149536,
+              "actual_clipping": false,
+              "at_lower": false,
+              "at_upper": false
+            },
+            "Vm238": {
+              "Vm_pu": 0.9620422124862671,
+              "preclip_Vm_pu": 0.9620422124862671,
+              "actual_clipping": false,
+              "at_lower": false,
+              "at_upper": false
+            },
+            "branch321_Qt_MVAr": -9937.165367323068,
+            "branch321_Qt_algebra": {
+              "branch_row_1based": 321,
+              "from_bus": 235,
+              "to_bus": 238,
+              "series_r_pu": 0.0002,
+              "series_x_pu": 0.0006,
+              "total_charging_b_pu": 0.8,
+              "Vm_from": 1.0318700075149536,
+              "Vm_to": 0.9620422124862671,
+              "tap_magnitude": 1.0,
+              "effective_to_minus_from_angle_deg": -0.20260731644467,
+              "Qt_voltage_gap_MVAr": -10076.592963365272,
+              "Qt_cosine_angle_MVAr": 0.9309897777196914,
+              "Qt_sine_angle_MVAr": 175.51761500869728,
+              "Qt_charging_MVAr": -37.021008744218875,
+              "Qt_components_sum_MVAr": -9937.165367323074,
+              "Qt_direct_MVAr": -9937.165367323068
+            },
+            "MAE": {
+              "Pg_per_generator_MW": 195.28573759014893,
+              "aligned_angle_deg": 57.044399726029226,
+              "branch_P_MW": 90.83298293558295,
+              "Qg_per_generator_MVAr": 81.65319729048574,
+              "Vm_pu": 0.02721560614382919
+            }
+          },
+          "reactive_response": {
+            "method": "microsoft-v1.1",
+            "total_Qd_before": 7242.8121,
+            "total_Qd_after": 7281.751950000001,
+            "native_total_Qg_before": 2388.3154582232237,
+            "native_total_Qg_after": 2387.491089850664,
+            "native_total_Qg_change": -0.8243683725595474,
+            "reference_total_Qg_before": 5918.7859248887,
+            "reference_total_Qg_after": 5960.119615498125,
+            "reference_total_Qg_change": 41.3336906094255,
+            "actual_Qg_clipped_count_before": 7,
+            "actual_Qg_clipped_count_after": 7,
+            "actual_Qg_clipped_rows_identical": true,
+            "Qg_change_on_rows_clipped_both_times": 0.0
+          }
+        }
+      },
+      "newer-base-v2": {
+        "P_only": {
+          "scenario": "CONF-P0935-Q093",
+          "operating_point": {
+            "AC_reference_accepted": true,
+            "Q_mean_MVAr": 426.51629169158804,
+            "Q_p95_MVAr": 1392.4611188821693,
+            "Q_max_MVAr": 15164.630389636419,
+            "Q_violating_buses": 299,
+            "P_violating_buses": 300,
+            "native_joint_AC_feasible": false,
+            "Vm235": {
+              "Vm_pu": 0.9786313772201538,
+              "preclip_Vm_pu": 0.9786313772201538,
+              "actual_clipping": false,
+              "at_lower": false,
+              "at_upper": false
+            },
+            "Vm238": {
+              "Vm_pu": 1.059999942779541,
+              "preclip_Vm_pu": 1.4291355609893799,
+              "actual_clipping": true,
+              "at_lower": false,
+              "at_upper": true
+            },
+            "branch321_Qt_MVAr": 12589.584819358472,
+            "branch321_Qt_algebra": {
+              "branch_row_1based": 321,
+              "from_bus": 235,
+              "to_bus": 238,
+              "series_r_pu": 0.0002,
+              "series_x_pu": 0.0006,
+              "total_charging_b_pu": 0.8,
+              "Vm_from": 0.9786313772201538,
+              "Vm_to": 1.059999942779541,
+              "tap_magnitude": 1.0,
+              "effective_to_minus_from_angle_deg": 0.3377801752138084,
+              "Qt_voltage_gap_MVAr": 12937.601225550567,
+              "Qt_cosine_angle_MVAr": 2.7040083724176123,
+              "Qt_sine_angle_MVAr": -305.7764194167872,
+              "Qt_charging_MVAr": -44.94399514770521,
+              "Qt_components_sum_MVAr": 12589.584819358492,
+              "Qt_direct_MVAr": 12589.584819358472
+            },
+            "MAE": {
+              "Pg_per_generator_MW": 120.29611011270106,
+              "aligned_angle_deg": 47.72845761183707,
+              "branch_P_MW": 107.80850103117548,
+              "Qg_per_generator_MVAr": 91.25894728615924,
+              "Vm_pu": 0.04482535413072622
+            }
+          },
+          "reactive_response": {
+            "method": "newer-base-v2",
+            "total_Qd_before": 7242.8121,
+            "total_Qd_after": 7242.8121,
+            "native_total_Qg_before": 2741.412177309394,
+            "native_total_Qg_after": 2736.2276192754507,
+            "native_total_Qg_change": -5.184558033943176,
+            "reference_total_Qg_before": 5918.7859248887,
+            "reference_total_Qg_after": 5951.689379048527,
+            "reference_total_Qg_change": 32.90345415982756,
+            "actual_Qg_clipped_count_before": 26,
+            "actual_Qg_clipped_count_after": 26,
+            "actual_Qg_clipped_rows_identical": true,
+            "Qg_change_on_rows_clipped_both_times": 0.0
+          }
+        },
+        "Q_only": {
+          "scenario": "CONF-P093-Q0935",
+          "operating_point": {
+            "AC_reference_accepted": true,
+            "Q_mean_MVAr": 464.3457545047285,
+            "Q_p95_MVAr": 1311.127880837985,
+            "Q_max_MVAr": 21321.41267869061,
+            "Q_violating_buses": 299,
+            "P_violating_buses": 300,
+            "native_joint_AC_feasible": false,
+            "Vm235": {
+              "Vm_pu": 0.9399999976158142,
+              "preclip_Vm_pu": 0.9276137351989746,
+              "actual_clipping": true,
+              "at_lower": true,
+              "at_upper": false
+            },
+            "Vm238": {
+              "Vm_pu": 1.059999942779541,
+              "preclip_Vm_pu": 1.4260720014572144,
+              "actual_clipping": true,
+              "at_lower": false,
+              "at_upper": true
+            },
+            "branch321_Qt_MVAr": 18745.022735042076,
+            "branch321_Qt_algebra": {
+              "branch_row_1based": 321,
+              "from_bus": 235,
+              "to_bus": 238,
+              "series_r_pu": 0.0002,
+              "series_x_pu": 0.0006,
+              "total_charging_b_pu": 0.8,
+              "Vm_from": 0.9399999976158142,
+              "Vm_to": 1.059999942779541,
+              "tap_magnitude": 1.0,
+              "effective_to_minus_from_angle_deg": 0.33650976002818567,
+              "Qt_voltage_gap_MVAr": 19079.99025106477,
+              "Qt_cosine_angle_MVAr": 2.5777676803677756,
+              "Qt_sine_angle_MVAr": -292.60128855533316,
+              "Qt_charging_MVAr": -44.94399514770521,
+              "Qt_components_sum_MVAr": 18745.022735042097,
+              "Qt_direct_MVAr": 18745.022735042076
+            },
+            "MAE": {
+              "Pg_per_generator_MW": 121.22129861027581,
+              "aligned_angle_deg": 47.677915374762776,
+              "branch_P_MW": 111.45471352589831,
+              "Qg_per_generator_MVAr": 91.23336519605357,
+              "Vm_pu": 0.04503172252847742
+            }
+          },
+          "reactive_response": {
+            "method": "newer-base-v2",
+            "total_Qd_before": 7242.8121,
+            "total_Qd_after": 7281.751950000001,
+            "native_total_Qg_before": 2741.412177309394,
+            "native_total_Qg_after": 2739.3678672611713,
+            "native_total_Qg_change": -2.044310048222542,
+            "reference_total_Qg_before": 5918.7859248887,
+            "reference_total_Qg_after": 5960.119615498125,
+            "reference_total_Qg_change": 41.3336906094255,
+            "actual_Qg_clipped_count_before": 26,
+            "actual_Qg_clipped_count_after": 26,
+            "actual_Qg_clipped_rows_identical": true,
+            "Qg_change_on_rows_clipped_both_times": 0.0
+          }
+        }
+      }
+    }
+  },
+  "fixed_total_location_test": {
+    "frozen_expectation": "Quantify onset or sustained nonlocal voltage and imbalance degradation at strength0.75/1.25; no universal monotonic response assumed.",
+    "input_checks": {
+      "LOC-plus050": {
+        "total_P_MW": 23525.850000000002,
+        "total_Q_MVAr": 7787.970000000001,
+        "P_total_change_MW": 3.637978807091713e-12,
+        "Q_total_change_MVAr": 9.094947017729282e-13,
+        "235_238_PQ_unchanged_exactly": true
+      },
+      "CONF-LOC-plus075": {
+        "total_P_MW": 23525.85,
+        "total_Q_MVAr": 7787.969999999999,
+        "P_total_change_MW": 0.0,
+        "Q_total_change_MVAr": -9.094947017729282e-13,
+        "235_238_PQ_unchanged_exactly": true
+      },
+      "CONF-LOC-plus125": {
+        "total_P_MW": 23525.85,
+        "total_Q_MVAr": 7787.97,
+        "P_total_change_MW": 0.0,
+        "Q_total_change_MVAr": 0.0,
+        "235_238_PQ_unchanged_exactly": true
+      },
+      "LOC-plus150": {
+        "total_P_MW": 23525.85,
+        "total_Q_MVAr": 7787.97,
+        "P_total_change_MW": 0.0,
+        "Q_total_change_MVAr": 0.0,
+        "235_238_PQ_unchanged_exactly": true
+      }
+    },
+    "observations": {
+      "LOC-plus050": {
+        "microsoft-v1.1": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 272.50644091731124,
+          "Q_p95_MVAr": 717.5926403845978,
+          "Q_max_MVAr": 8917.593357183849,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 1.0306777954101562,
+            "preclip_Vm_pu": 1.0306777954101562,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "Vm238": {
+            "Vm_pu": 0.9786196351051331,
+            "preclip_Vm_pu": 0.9786196351051331,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "branch321_Qt_MVAr": -7527.952010547464,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.0306777954101562,
+            "Vm_to": 0.9786196351051331,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": -0.17205588028720697,
+            "Qt_voltage_gap_MVAr": -7641.770676291948,
+            "Qt_cosine_angle_MVAr": 0.682168336178857,
+            "Qt_sine_angle_MVAr": 151.44435301684692,
+            "Qt_charging_MVAr": -38.30785560853215,
+            "Qt_components_sum_MVAr": -7527.952010547454,
+            "Qt_direct_MVAr": -7527.952010547464
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 195.02631136547694,
+            "aligned_angle_deg": 23.449045112733675,
+            "branch_P_MW": 77.05614603313991,
+            "Qg_per_generator_MVAr": 89.29658786970003,
+            "Vm_pu": 0.026983702126936418
+          }
+        },
+        "newer-base-v2": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 378.31290879758825,
+          "Q_p95_MVAr": 1657.9613336796392,
+          "Q_max_MVAr": 7717.005636892609,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 1.059999942779541,
+            "preclip_Vm_pu": 1.163058876991272,
+            "actual_clipping": true,
+            "at_lower": false,
+            "at_upper": true
+          },
+          "Vm238": {
+            "Vm_pu": 1.059999942779541,
+            "preclip_Vm_pu": 1.449610948562622,
+            "actual_clipping": true,
+            "at_lower": false,
+            "at_upper": true
+          },
+          "branch321_Qt_MVAr": -344.06181303690516,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.059999942779541,
+            "Vm_to": 1.059999942779541,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.3075360975689918,
+            "Qt_voltage_gap_MVAr": 0.0,
+            "Qt_cosine_angle_MVAr": 2.427833154437367,
+            "Qt_sine_angle_MVAr": -301.5456510435966,
+            "Qt_charging_MVAr": -44.94399514770521,
+            "Qt_components_sum_MVAr": -344.0618130368644,
+            "Qt_direct_MVAr": -344.06181303690516
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 106.30330453689555,
+            "aligned_angle_deg": 48.93389850245821,
+            "branch_P_MW": 101.52691452556516,
+            "Qg_per_generator_MVAr": 98.20144722454275,
+            "Vm_pu": 0.044490304357149624
+          }
+        },
+        "AC-OPF": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 2.11782988994526e-12,
+          "Q_p95_MVAr": 6.085087989049499e-12,
+          "Q_max_MVAr": 1.0413003792564268e-10,
+          "Q_violating_buses": 0,
+          "P_violating_buses": 0,
+          "native_joint_AC_feasible": true,
+          "Vm235": {
+            "Vm_pu": 1.029523640853483
+          },
+          "Vm238": {
+            "Vm_pu": 1.0306148977152625
+          },
+          "branch321_Qt_MVAr": 59.4957247189474,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.029523640853483,
+            "Vm_to": 1.0306148977152625,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.0721906377117345,
+            "Qt_voltage_gap_MVAr": 168.69983684760558,
+            "Qt_cosine_angle_MVAr": 0.12633114645595753,
+            "Qt_sine_angle_MVAr": -66.84376057936831,
+            "Qt_charging_MVAr": -42.48668269570564,
+            "Qt_components_sum_MVAr": 59.49572471898759,
+            "Qt_direct_MVAr": 59.4957247189474
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 0.0,
+            "aligned_angle_deg": 0.0,
+            "branch_P_MW": 0.0,
+            "Qg_per_generator_MVAr": 0.0,
+            "Vm_pu": 0.0
+          }
+        }
+      },
+      "CONF-LOC-plus075": {
+        "microsoft-v1.1": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 272.4618569492339,
+          "Q_p95_MVAr": 717.3450104466475,
+          "Q_max_MVAr": 8909.075806169334,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 1.0306721925735474,
+            "preclip_Vm_pu": 1.0306721925735474,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "Vm238": {
+            "Vm_pu": 0.9786732196807861,
+            "preclip_Vm_pu": 0.9786732196807861,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "branch321_Qt_MVAr": -7520.497305002213,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.0306721925735474,
+            "Vm_to": 0.9786732196807861,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": -0.171133804749255,
+            "Qt_voltage_gap_MVAr": -7633.500333157883,
+            "Qt_cosine_angle_MVAr": 0.6749095152001188,
+            "Qt_sine_angle_MVAr": 150.6401694772933,
+            "Qt_charging_MVAr": -38.31205083681425,
+            "Qt_components_sum_MVAr": -7520.497305002204,
+            "Qt_direct_MVAr": -7520.497305002213
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 194.96652207114724,
+            "aligned_angle_deg": 23.5217782481134,
+            "branch_P_MW": 77.01256212827137,
+            "Qg_per_generator_MVAr": 89.46696880163772,
+            "Vm_pu": 0.027044263661979605
+          }
+        },
+        "newer-base-v2": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 385.7549873235302,
+          "Q_p95_MVAr": 1624.1346647428365,
+          "Q_max_MVAr": 7481.57397683438,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 1.059999942779541,
+            "preclip_Vm_pu": 1.0725646018981934,
+            "actual_clipping": true,
+            "at_lower": false,
+            "at_upper": true
+          },
+          "Vm238": {
+            "Vm_pu": 1.059999942779541,
+            "preclip_Vm_pu": 1.4252293109893799,
+            "actual_clipping": true,
+            "at_lower": false,
+            "at_upper": true
+          },
+          "branch321_Qt_MVAr": -365.21407302398507,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.059999942779541,
+            "Vm_to": 1.059999942779541,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.32947466518307067,
+            "Qt_voltage_gap_MVAr": 0.0,
+            "Qt_cosine_angle_MVAr": 2.786573714356617,
+            "Qt_sine_angle_MVAr": -323.05665159063176,
+            "Qt_charging_MVAr": -44.94399514770521,
+            "Qt_components_sum_MVAr": -365.21407302398035,
+            "Qt_direct_MVAr": -365.21407302398507
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 106.52640491578452,
+            "aligned_angle_deg": 48.98947349556214,
+            "branch_P_MW": 102.77172770713256,
+            "Qg_per_generator_MVAr": 97.82077854870903,
+            "Vm_pu": 0.04479616697012073
+          }
+        },
+        "AC-OPF": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 2.630335314607468e-12,
+          "Q_p95_MVAr": 7.338163410253175e-12,
+          "Q_max_MVAr": 1.659650195051654e-10,
+          "Q_violating_buses": 0,
+          "P_violating_buses": 0,
+          "native_joint_AC_feasible": true,
+          "Vm235": {
+            "Vm_pu": 1.0295493044455457
+          },
+          "Vm238": {
+            "Vm_pu": 1.0306403792148928
+          },
+          "branch321_Qt_MVAr": 59.47935033404581,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.0295493044455457,
+            "Vm_to": 1.0306403792148928,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.07217652464048863,
+            "Qt_voltage_gap_MVAr": 168.67585710475626,
+            "Qt_cosine_angle_MVAr": 0.12628802673459388,
+            "Qt_sine_angle_MVAr": -66.83401114674687,
+            "Qt_charging_MVAr": -42.48878365072873,
+            "Qt_components_sum_MVAr": 59.479350334015244,
+            "Qt_direct_MVAr": 59.47935033404581
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 0.0,
+            "aligned_angle_deg": 0.0,
+            "branch_P_MW": 0.0,
+            "Qg_per_generator_MVAr": 0.0,
+            "Vm_pu": 0.0
+          }
+        }
+      },
+      "CONF-LOC-plus125": {
+        "microsoft-v1.1": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 272.35591489839084,
+          "Q_p95_MVAr": 716.7893898287482,
+          "Q_max_MVAr": 8893.290612813098,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 1.0306681394577026,
+            "preclip_Vm_pu": 1.0306681394577026,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "Vm238": {
+            "Vm_pu": 0.9787787795066833,
+            "preclip_Vm_pu": 0.9787787795066833,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "branch321_Qt_MVAr": -7506.748923147688,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.0306681394577026,
+            "Vm_to": 0.9787787795066833,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": -0.16941259707841283,
+            "Qt_voltage_gap_MVAr": -7618.230660336245,
+            "Qt_cosine_angle_MVAr": 0.6614704973279959,
+            "Qt_sine_angle_MVAr": 149.14058265972915,
+            "Qt_charging_MVAr": -38.32031596850371,
+            "Qt_components_sum_MVAr": -7506.748923147691,
+            "Qt_direct_MVAr": -7506.748923147688
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 194.85567851911424,
+            "aligned_angle_deg": 23.668223017270677,
+            "branch_P_MW": 76.93356164923551,
+            "Qg_per_generator_MVAr": 89.94082902230215,
+            "Vm_pu": 0.02716192545637649
+          }
+        },
+        "newer-base-v2": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 531.2652458163841,
+          "Q_p95_MVAr": 1682.2714789202066,
+          "Q_max_MVAr": 21387.52038401733,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 0.9399999976158142,
+            "preclip_Vm_pu": 0.7886514663696289,
+            "actual_clipping": true,
+            "at_lower": true,
+            "at_upper": false
+          },
+          "Vm238": {
+            "Vm_pu": 1.059999942779541,
+            "preclip_Vm_pu": 1.3756393194198608,
+            "actual_clipping": true,
+            "at_lower": false,
+            "at_upper": true
+          },
+          "branch321_Qt_MVAr": 18710.06711639591,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 0.9399999976158142,
+            "Vm_to": 1.059999942779541,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.3774772346699251,
+            "Qt_voltage_gap_MVAr": 19079.99025106477,
+            "Qt_cosine_angle_MVAr": 3.243617625576422,
+            "Qt_sine_angle_MVAr": -328.22275714669024,
+            "Qt_charging_MVAr": -44.94399514770521,
+            "Qt_components_sum_MVAr": 18710.06711639595,
+            "Qt_direct_MVAr": 18710.06711639591
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 107.24508881140181,
+            "aligned_angle_deg": 49.150428023843475,
+            "branch_P_MW": 116.28944700984152,
+            "Qg_per_generator_MVAr": 97.8778209336138,
+            "Vm_pu": 0.047002606544841743
+          }
+        },
+        "AC-OPF": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 2.447149617248454e-12,
+          "Q_p95_MVAr": 7.143796665332056e-12,
+          "Q_max_MVAr": 9.876544027065393e-11,
+          "Q_violating_buses": 0,
+          "P_violating_buses": 0,
+          "native_joint_AC_feasible": true,
+          "Vm235": {
+            "Vm_pu": 1.029603633810373
+          },
+          "Vm238": {
+            "Vm_pu": 1.0306943376017381
+          },
+          "branch321_Qt_MVAr": 59.4456529599776,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.029603633810373,
+            "Vm_to": 1.0306943376017381,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.07214803023263872,
+            "Qt_voltage_gap_MVAr": 168.62733326413223,
+            "Qt_cosine_angle_MVAr": 0.12620159831286373,
+            "Qt_sine_angle_MVAr": -66.81464919987336,
+            "Qt_charging_MVAr": -42.49323270257143,
+            "Qt_components_sum_MVAr": 59.4456529600003,
+            "Qt_direct_MVAr": 59.4456529599776
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 0.0,
+            "aligned_angle_deg": 0.0,
+            "branch_P_MW": 0.0,
+            "Qg_per_generator_MVAr": 0.0,
+            "Vm_pu": 0.0
+          }
+        }
+      },
+      "LOC-plus150": {
+        "microsoft-v1.1": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 273.3108871324322,
+          "Q_p95_MVAr": 728.4076470637249,
+          "Q_max_MVAr": 8899.098967371681,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 1.0307921171188354,
+            "preclip_Vm_pu": 1.0307921171188354,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "Vm238": {
+            "Vm_pu": 0.9788510203361511,
+            "preclip_Vm_pu": 0.9788510203361511,
+            "actual_clipping": false,
+            "at_lower": false,
+            "at_upper": false
+          },
+          "branch321_Qt_MVAr": -7512.338724297513,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.0307921171188354,
+            "Vm_to": 0.9788510203361511,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": -0.17227786143523185,
+            "Qt_voltage_gap_MVAr": -7626.389337466399,
+            "Qt_cosine_angle_MVAr": 0.6841672824468614,
+            "Qt_sine_angle_MVAr": 151.6924186869616,
+            "Qt_charging_MVAr": -38.325972800524966,
+            "Qt_components_sum_MVAr": -7512.338724297516,
+            "Qt_direct_MVAr": -7512.338724297513
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 194.6736551877537,
+            "aligned_angle_deg": 23.66098113629866,
+            "branch_P_MW": 76.56205338837547,
+            "Qg_per_generator_MVAr": 89.97676785661355,
+            "Vm_pu": 0.027298822154858692
+          }
+        },
+        "newer-base-v2": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 544.9426559705116,
+          "Q_p95_MVAr": 1676.5920116886762,
+          "Q_max_MVAr": 21374.636156541663,
+          "Q_violating_buses": 300,
+          "P_violating_buses": 300,
+          "native_joint_AC_feasible": false,
+          "Vm235": {
+            "Vm_pu": 0.9399999976158142,
+            "preclip_Vm_pu": 0.6690781712532043,
+            "actual_clipping": true,
+            "at_lower": true,
+            "at_upper": false
+          },
+          "Vm238": {
+            "Vm_pu": 1.059999942779541,
+            "preclip_Vm_pu": 1.376589059829712,
+            "actual_clipping": true,
+            "at_lower": false,
+            "at_upper": true
+          },
+          "branch321_Qt_MVAr": 18724.24876928822,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 0.9399999976158142,
+            "Vm_to": 1.059999942779541,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.3608457240409422,
+            "Qt_voltage_gap_MVAr": 19079.99025106477,
+            "Qt_cosine_angle_MVAr": 2.9640899857612024,
+            "Qt_sine_angle_MVAr": -313.76157661461133,
+            "Qt_charging_MVAr": -44.94399514770521,
+            "Qt_components_sum_MVAr": 18724.248769288213,
+            "Qt_direct_MVAr": 18724.24876928822
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 106.81460834881536,
+            "aligned_angle_deg": 49.170836395380384,
+            "branch_P_MW": 113.58618586974698,
+            "Qg_per_generator_MVAr": 99.43794876676264,
+            "Vm_pu": 0.047516106590380906
+          }
+        },
+        "AC-OPF": {
+          "AC_reference_accepted": true,
+          "Q_mean_MVAr": 2.0792011047617768e-12,
+          "Q_p95_MVAr": 6.443912070608353e-12,
+          "Q_max_MVAr": 1.0718537168941111e-10,
+          "Q_violating_buses": 0,
+          "P_violating_buses": 0,
+          "native_joint_AC_feasible": true,
+          "Vm235": {
+            "Vm_pu": 1.0296565538116915
+          },
+          "Vm238": {
+            "Vm_pu": 1.030746854357247
+          },
+          "branch321_Qt_MVAr": 59.41231443053746,
+          "branch321_Qt_algebra": {
+            "branch_row_1based": 321,
+            "from_bus": 235,
+            "to_bus": 238,
+            "series_r_pu": 0.0002,
+            "series_x_pu": 0.0006,
+            "total_charging_b_pu": 0.8,
+            "Vm_from": 1.0296565538116915,
+            "Vm_to": 1.030746854357247,
+            "tap_magnitude": 1.0,
+            "effective_to_minus_from_angle_deg": 0.0721138119398419,
+            "Qt_voltage_gap_MVAr": 168.5735786453121,
+            "Qt_cosine_angle_MVAr": 0.12609482216121953,
+            "Qt_sine_angle_MVAr": -66.7897959262359,
+            "Qt_charging_MVAr": -42.4975631106944,
+            "Qt_components_sum_MVAr": 59.412314430543006,
+            "Qt_direct_MVAr": 59.41231443053746
+          },
+          "MAE": {
+            "Pg_per_generator_MW": 0.0,
+            "aligned_angle_deg": 0.0,
+            "branch_P_MW": 0.0,
+            "Qg_per_generator_MVAr": 0.0,
+            "Vm_pu": 0.0
+          }
+        }
+      }
+    },
+    "paired_absolute_Q_severity_MVAr": [
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "microsoft-v1.1",
+        "quantity": "Q",
+        "total_absolute_before": 81751.93227519337,
+        "total_absolute_after": 81993.26613972966,
+        "total_absolute_change": 241.3338645363004,
+        "worst_before": 8917.593357183849,
+        "worst_after": 8899.098967371681,
+        "p95_before": 717.5926403845978,
+        "p95_after": 728.4076470637249,
+        "buses_severity_increased": 135,
+        "buses_severity_decreased": 165,
+        "buses_increased_over_1e_minus6": 135,
+        "buses_decreased_over_1e_minus6": 165,
+        "sum_increases": 680.8155216630668,
+        "sum_decreases": -439.4816571267664,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": -35.16728283964585,
+        "original235_238_buses_increased": 0,
+        "original235_238_buses_decreased": 2,
+        "other_buses_increased": 135,
+        "other_buses_decreased": 163,
+        "other_buses_total_absolute_before": 64742.939794909485,
+        "other_buses_total_absolute_after": 65019.44094228543,
+        "other_buses_total_change": 276.5011473759463
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "quantity": "Q",
+        "total_absolute_before": 113493.87263927648,
+        "total_absolute_after": 163482.7967911535,
+        "total_absolute_change": 49988.924151877,
+        "worst_before": 7717.005636892609,
+        "worst_after": 21374.636156541663,
+        "p95_before": 1657.9613336796392,
+        "p95_after": 1676.5920116886762,
+        "buses_severity_increased": 182,
+        "buses_severity_decreased": 118,
+        "buses_increased_over_1e_minus6": 182,
+        "buses_decreased_over_1e_minus6": 118,
+        "sum_increases": 59611.87913619132,
+        "sum_decreases": -9622.954984314321,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": 35821.38667085476,
+        "original235_238_buses_increased": 2,
+        "original235_238_buses_decreased": 0,
+        "other_buses_increased": 180,
+        "other_buses_decreased": 118,
+        "other_buses_total_absolute_before": 111017.3803971663,
+        "other_buses_total_absolute_after": 125184.91787818857,
+        "other_buses_total_change": 14167.537481022246
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "microsoft-v1.1",
+        "quantity": "Q",
+        "total_absolute_before": 81738.55708477017,
+        "total_absolute_after": 81706.77446951726,
+        "total_absolute_change": -31.782615252916713,
+        "worst_before": 8909.075806169334,
+        "worst_after": 8893.290612813098,
+        "p95_before": 717.3450104466475,
+        "p95_after": 716.7893898287482,
+        "buses_severity_increased": 122,
+        "buses_severity_decreased": 178,
+        "buses_increased_over_1e_minus6": 122,
+        "buses_decreased_over_1e_minus6": 178,
+        "sum_increases": 208.55871089326214,
+        "sum_decreases": -240.34132614617886,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": -31.039033482867126,
+        "original235_238_buses_increased": 0,
+        "original235_238_buses_decreased": 2,
+        "other_buses_increased": 122,
+        "other_buses_decreased": 176,
+        "other_buses_total_absolute_before": 64746.368564352364,
+        "other_buses_total_absolute_after": 64745.62498258231,
+        "other_buses_total_change": -0.7435817700495857
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "quantity": "Q",
+        "total_absolute_before": 115726.49619705905,
+        "total_absolute_after": 159379.57374491522,
+        "total_absolute_change": 43653.077547856155,
+        "worst_before": 7481.57397683438,
+        "worst_after": 21387.52038401733,
+        "p95_before": 1624.1346647428365,
+        "p95_after": 1682.2714789202066,
+        "buses_severity_increased": 180,
+        "buses_severity_decreased": 120,
+        "buses_increased_over_1e_minus6": 180,
+        "buses_decreased_over_1e_minus6": 120,
+        "sum_increases": 50553.82431172651,
+        "sum_decreases": -6900.746763870363,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": 35646.76764786696,
+        "original235_238_buses_increased": 2,
+        "original235_238_buses_decreased": 0,
+        "other_buses_increased": 178,
+        "other_buses_decreased": 120,
+        "other_buses_total_absolute_before": 113077.23327393393,
+        "other_buses_total_absolute_after": 121083.54317392313,
+        "other_buses_total_change": 8006.309899989191
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "microsoft-v1.1",
+        "quantity": "Q",
+        "total_absolute_before": 81751.93227519337,
+        "total_absolute_after": 81738.55708477017,
+        "total_absolute_change": -13.375190423192286,
+        "worst_before": 8917.593357183849,
+        "worst_after": 8909.075806169334,
+        "p95_before": 717.5926403845978,
+        "p95_after": 717.3450104466475,
+        "buses_severity_increased": 127,
+        "buses_severity_decreased": 173,
+        "buses_increased_over_1e_minus6": 127,
+        "buses_decreased_over_1e_minus6": 173,
+        "sum_increases": 108.10472620630217,
+        "sum_decreases": -121.47991662949447,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": -16.803959866071636,
+        "original235_238_buses_increased": 0,
+        "original235_238_buses_decreased": 2,
+        "other_buses_increased": 127,
+        "other_buses_decreased": 171,
+        "other_buses_total_absolute_before": 64742.939794909485,
+        "other_buses_total_absolute_after": 64746.368564352364,
+        "other_buses_total_change": 3.4287694428793483
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "quantity": "Q",
+        "total_absolute_before": 113493.87263927648,
+        "total_absolute_after": 115726.49619705905,
+        "total_absolute_change": 2232.6235577825687,
+        "worst_before": 7717.005636892609,
+        "worst_after": 7481.57397683438,
+        "p95_before": 1657.9613336796392,
+        "p95_after": 1624.1346647428365,
+        "buses_severity_increased": 167,
+        "buses_severity_decreased": 133,
+        "buses_increased_over_1e_minus6": 167,
+        "buses_decreased_over_1e_minus6": 133,
+        "sum_increases": 3837.71369995694,
+        "sum_decreases": -1605.090142174372,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": 172.77068101492938,
+        "original235_238_buses_increased": 2,
+        "original235_238_buses_decreased": 0,
+        "other_buses_increased": 165,
+        "other_buses_decreased": 133,
+        "other_buses_total_absolute_before": 111017.3803971663,
+        "other_buses_total_absolute_after": 113077.23327393393,
+        "other_buses_total_change": 2059.852876767639
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "microsoft-v1.1",
+        "quantity": "Q",
+        "total_absolute_before": 81706.77446951726,
+        "total_absolute_after": 81993.26613972966,
+        "total_absolute_change": 286.4916702124094,
+        "worst_before": 8893.290612813098,
+        "worst_after": 8899.098967371681,
+        "p95_before": 716.7893898287482,
+        "p95_after": 728.4076470637249,
+        "buses_severity_increased": 161,
+        "buses_severity_decreased": 139,
+        "buses_increased_over_1e_minus6": 161,
+        "buses_decreased_over_1e_minus6": 139,
+        "sum_increases": 417.72010173976514,
+        "sum_decreases": -131.22843152735572,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": 12.675710509292912,
+        "original235_238_buses_increased": 2,
+        "original235_238_buses_decreased": 0,
+        "other_buses_increased": 159,
+        "other_buses_decreased": 139,
+        "other_buses_total_absolute_before": 64745.62498258231,
+        "other_buses_total_absolute_after": 65019.44094228543,
+        "other_buses_total_change": 273.8159597031165
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "quantity": "Q",
+        "total_absolute_before": 159379.57374491522,
+        "total_absolute_after": 163482.7967911535,
+        "total_absolute_change": 4103.223046238278,
+        "worst_before": 21387.52038401733,
+        "worst_after": 21374.636156541663,
+        "p95_before": 1682.2714789202066,
+        "p95_after": 1676.5920116886762,
+        "buses_severity_increased": 162,
+        "buses_severity_decreased": 138,
+        "buses_increased_over_1e_minus6": 162,
+        "buses_decreased_over_1e_minus6": 138,
+        "sum_increases": 6889.610018556791,
+        "sum_decreases": -2786.386972318513,
+        "original235_238_bus_count": 2,
+        "other_bus_count": 298,
+        "original235_238_total_change": 1.8483419728618173,
+        "original235_238_buses_increased": 1,
+        "original235_238_buses_decreased": 1,
+        "other_buses_increased": 161,
+        "other_buses_decreased": 137,
+        "other_buses_total_absolute_before": 121083.54317392313,
+        "other_buses_total_absolute_after": 125184.91787818857,
+        "other_buses_total_change": 4101.374704265416
+      }
+    ],
+    "v2_symmetric_error_change_attribution": [
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 3.6054044530011606,
+        "native_motion_max_abs": 35.480690002441406,
+        "accepted_references_both": true,
+        "error_mean_before": 106.30330453689555,
+        "error_mean_after": 106.81460834881536,
+        "error_mean_change": 0.5113038119198093,
+        "native_algebraic_contribution": 0.5325507426607436,
+        "reference_algebraic_contribution": -0.02124693074093426,
+        "reference_motion_mean_abs": 1.3625594066429882,
+        "reference_motion_max_abs": 9.587503784322365
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Qg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 7.098120170226996,
+        "native_motion_max_abs": 107.75619931519032,
+        "accepted_references_both": true,
+        "error_mean_before": 98.20144722454275,
+        "error_mean_after": 99.43794876676264,
+        "error_mean_change": 1.2365015422199006,
+        "native_algebraic_contribution": 1.2491369028840653,
+        "reference_algebraic_contribution": -0.012635360664165197,
+        "reference_motion_mean_abs": 1.6398968648330114,
+        "reference_motion_max_abs": 22.123084808495022
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Vm",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.009309881528218588,
+        "native_motion_max_abs": 0.1199999451637268,
+        "accepted_references_both": true,
+        "error_mean_before": 0.044490304357149624,
+        "error_mean_after": 0.047516106590380906,
+        "error_mean_change": 0.0030258022332312856,
+        "native_algebraic_contribution": 0.0027256927522933995,
+        "reference_algebraic_contribution": 0.00030010948093788604,
+        "reference_motion_mean_abs": 0.0008031388939513476,
+        "reference_motion_max_abs": 0.03506691296537512
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "angle",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.716017211510656,
+        "native_motion_max_abs": 4.176845092570375,
+        "accepted_references_both": true,
+        "error_mean_before": 48.93389850245821,
+        "error_mean_after": 49.170836395380384,
+        "error_mean_change": 0.23693789292216474,
+        "native_algebraic_contribution": 0.4147364971584231,
+        "reference_algebraic_contribution": -0.17779860423625837,
+        "reference_motion_mean_abs": 0.24055000413005095,
+        "reference_motion_max_abs": 3.5899503452715464
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pflow",
+        "compared_components": 822,
+        "native_motion_mean_abs": 34.187230927450585,
+        "native_motion_max_abs": 6396.823279345099,
+        "accepted_references_both": true,
+        "error_mean_before": 101.52691452556516,
+        "error_mean_after": 113.58618586974698,
+        "error_mean_change": 12.059271344181818,
+        "native_algebraic_contribution": 11.771660201670601,
+        "reference_algebraic_contribution": 0.28761114251121905,
+        "reference_motion_mean_abs": 1.7032045094005637,
+        "reference_motion_max_abs": 29.474255331694906
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 2.241008912307629,
+        "native_motion_max_abs": 32.62767791748047,
+        "accepted_references_both": true,
+        "error_mean_before": 106.52640491578452,
+        "error_mean_after": 107.24508881140181,
+        "error_mean_change": 0.7186838956172903,
+        "native_algebraic_contribution": 0.7684534442597541,
+        "reference_algebraic_contribution": -0.049769548642463815,
+        "reference_motion_mean_abs": 0.4229083168593901,
+        "reference_motion_max_abs": 1.577372962475124
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Qg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 3.447332443750423,
+        "native_motion_max_abs": 60.572804510593414,
+        "accepted_references_both": true,
+        "error_mean_before": 97.82077854870903,
+        "error_mean_after": 97.8778209336138,
+        "error_mean_change": 0.05704238490474793,
+        "native_algebraic_contribution": -0.058861319785533155,
+        "reference_algebraic_contribution": 0.11590370469028101,
+        "reference_motion_mean_abs": 0.758507778149128,
+        "reference_motion_max_abs": 11.83875921647224
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Vm",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.00557448168595632,
+        "native_motion_max_abs": 0.1199999451637268,
+        "accepted_references_both": true,
+        "error_mean_before": 0.04479616697012073,
+        "error_mean_after": 0.047002606544841743,
+        "error_mean_change": 0.0022064395747210088,
+        "native_algebraic_contribution": 0.0020443676511521154,
+        "reference_algebraic_contribution": 0.00016207192356889314,
+        "reference_motion_mean_abs": 0.00038384513570898225,
+        "reference_motion_max_abs": 0.017733695654660653
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "angle",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.4177699492317302,
+        "native_motion_max_abs": 2.197306006938959,
+        "accepted_references_both": true,
+        "error_mean_before": 48.98947349556214,
+        "error_mean_after": 49.150428023843475,
+        "error_mean_change": 0.160954528281345,
+        "native_algebraic_contribution": 0.279224138144767,
+        "reference_algebraic_contribution": -0.118269609863422,
+        "reference_motion_mean_abs": 0.13069090976585623,
+        "reference_motion_max_abs": 1.7820181188105835
+      },
+      {
+        "before": "CONF-LOC-plus075",
+        "after": "CONF-LOC-plus125",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pflow",
+        "compared_components": 822,
+        "native_motion_mean_abs": 26.682423279795756,
+        "native_motion_max_abs": 6375.647414993483,
+        "accepted_references_both": true,
+        "error_mean_before": 102.77172770713256,
+        "error_mean_after": 116.28944700984152,
+        "error_mean_change": 13.51771930270898,
+        "native_algebraic_contribution": 13.489653789223011,
+        "reference_algebraic_contribution": 0.028065513485969064,
+        "reference_motion_mean_abs": 0.7782959291968475,
+        "reference_motion_max_abs": 11.600486329457055
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 0.7079440614451533,
+        "native_motion_max_abs": 9.208166599273682,
+        "accepted_references_both": true,
+        "error_mean_before": 106.30330453689555,
+        "error_mean_after": 106.52640491578452,
+        "error_mean_change": 0.22310037888897113,
+        "native_algebraic_contribution": 0.24523337682088217,
+        "reference_algebraic_contribution": -0.022132997931911022,
+        "reference_motion_mean_abs": 0.20797224816453486,
+        "reference_motion_max_abs": 0.7849265889177559
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Qg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 1.2192810062265051,
+        "native_motion_max_abs": 7.347464561462402,
+        "accepted_references_both": true,
+        "error_mean_before": 98.20144722454275,
+        "error_mean_after": 97.82077854870903,
+        "error_mean_change": -0.3806686758336904,
+        "native_algebraic_contribution": -0.4573864214446234,
+        "reference_algebraic_contribution": 0.07671774561093302,
+        "reference_motion_mean_abs": 0.40435925909421905,
+        "reference_motion_max_abs": 6.69105024747396
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Vm",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.0016647140185038249,
+        "native_motion_max_abs": 0.08069473505020142,
+        "accepted_references_both": true,
+        "error_mean_before": 0.044490304357149624,
+        "error_mean_after": 0.04479616697012073,
+        "error_mean_change": 0.00030586261297110915,
+        "native_algebraic_contribution": 0.00023403807524488378,
+        "reference_algebraic_contribution": 7.182453772622536e-05,
+        "reference_motion_mean_abs": 0.00017863673096304655,
+        "reference_motion_max_abs": 0.007617653046384842
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "angle",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.17587706946114026,
+        "native_motion_max_abs": 1.012104261401646,
+        "accepted_references_both": true,
+        "error_mean_before": 48.93389850245821,
+        "error_mean_after": 48.98947349556214,
+        "error_mean_change": 0.05557499310392283,
+        "native_algebraic_contribution": 0.11477555180039042,
+        "reference_algebraic_contribution": -0.05920055869646759,
+        "reference_motion_mean_abs": 0.06539109769146449,
+        "reference_motion_max_abs": 0.8571680628024012
+      },
+      {
+        "before": "LOC-plus050",
+        "after": "CONF-LOC-plus075",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pflow",
+        "compared_components": 822,
+        "native_motion_mean_abs": 4.21084023743578,
+        "native_motion_max_abs": 338.73343846455464,
+        "accepted_references_both": true,
+        "error_mean_before": 101.52691452556516,
+        "error_mean_after": 102.77172770713256,
+        "error_mean_change": 1.2448131815673762,
+        "native_algebraic_contribution": 1.2245061485960647,
+        "reference_algebraic_contribution": 0.020307032971310927,
+        "reference_motion_mean_abs": 0.3877827725757755,
+        "reference_motion_max_abs": 5.782125540406639
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 1.2218614851219067,
+        "native_motion_max_abs": 17.60382652282715,
+        "accepted_references_both": true,
+        "error_mean_before": 107.24508881140181,
+        "error_mean_after": 106.81460834881536,
+        "error_mean_change": -0.4304804625864521,
+        "native_algebraic_contribution": -0.4811360784198927,
+        "reference_algebraic_contribution": 0.050655615833440575,
+        "reference_motion_mean_abs": 0.9434419152024989,
+        "reference_motion_max_abs": 11.063221890256699
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Qg",
+        "compared_components": 69,
+        "native_motion_mean_abs": 3.3053102619622066,
+        "native_motion_max_abs": 63.920170068740845,
+        "accepted_references_both": true,
+        "error_mean_before": 97.8778209336138,
+        "error_mean_after": 99.43794876676264,
+        "error_mean_change": 1.5601278331488426,
+        "native_algebraic_contribution": 1.7333198376103152,
+        "reference_algebraic_contribution": -0.17319200446147243,
+        "reference_motion_mean_abs": 0.5435375743033508,
+        "reference_motion_max_abs": 8.708372479985428
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Vm",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.0024054827292760215,
+        "native_motion_max_abs": 0.10616177320480347,
+        "accepted_references_both": true,
+        "error_mean_before": 0.047002606544841743,
+        "error_mean_after": 0.047516106590380906,
+        "error_mean_change": 0.0005135000455391677,
+        "native_algebraic_contribution": 0.0004233861902220304,
+        "reference_algebraic_contribution": 9.01138553171373e-05,
+        "reference_motion_mean_abs": 0.00030839514220274756,
+        "reference_motion_max_abs": 0.009715564264329624
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "angle",
+        "compared_components": 300,
+        "native_motion_mean_abs": 0.1927362815215765,
+        "native_motion_max_abs": 1.048642358366635,
+        "accepted_references_both": true,
+        "error_mean_before": 49.150428023843475,
+        "error_mean_after": 49.170836395380384,
+        "error_mean_change": 0.020408371536896938,
+        "native_algebraic_contribution": 0.020736807213265537,
+        "reference_algebraic_contribution": -0.00032843567636859917,
+        "reference_motion_mean_abs": 0.12283564817341158,
+        "reference_motion_max_abs": 1.029387445648041
+      },
+      {
+        "before": "CONF-LOC-plus125",
+        "after": "LOC-plus150",
+        "before_evidence": "FRESH_FOUR_METHOD_CASE",
+        "after_evidence": "FRESH_FOUR_METHOD_CASE",
+        "method": "newer-base-v2",
+        "variable": "Pflow",
+        "compared_components": 822,
+        "native_motion_mean_abs": 8.136968112153994,
+        "native_motion_max_abs": 470.94317259966465,
+        "accepted_references_both": true,
+        "error_mean_before": 116.28944700984152,
+        "error_mean_after": 113.58618586974698,
+        "error_mean_change": -2.703261140094538,
+        "native_algebraic_contribution": -2.9696696362309076,
+        "reference_algebraic_contribution": 0.2664084961363695,
+        "reference_motion_mean_abs": 0.6694662149509346,
+        "reference_motion_max_abs": 12.091643461831211
+      }
+    ],
+    "counterevidence_or_limits": [
+      "At least one intermediate positive location point does not exceed discovery strength0.5 Qmax; do not claim a monotone threshold.",
+      "At least one intermediate positive location point is not lower-clamped at Vm235; the tested points bracket a change, not its exact threshold."
+    ],
+    "attribution_note": "Native/reference error split is symmetric algebra, not identified model causality. Hotspot235/238 totals and all other298 buses are retained separately."
+  },
+  "existing600_tie_test": {
+    "frozen_expectation": "Preserve signed strength0.04 finite-rating result and ACaccepted/UNKNOWN classification; no inference of system infeasibility.",
+    "observations": {
+      "A600-plus025": {
+        "AC_reference": "AC_ACCEPTED",
+        "methods": {
+          "microsoft-v1.1": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 450.6823365074165,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -403.13226766888454,
+            "first_tie_Pt_MW": 406.5286622310982,
+            "first_tie_Qf_MVAr": 102.96311818269473,
+            "first_tie_Qt_MVAr": -194.54823367067038,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "newer-base-v2": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 301.2139069512667,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -287.0283046669406,
+            "first_tie_Pt_MW": 288.51962192658164,
+            "first_tie_Qf_MVAr": -25.939100044533433,
+            "first_tie_Qt_MVAr": -86.5230923175354,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "DC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MW",
+            "max_loading": 294.07312499886694,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -294.07312499886694,
+            "first_tie_Pt_MW": 294.07312499886694,
+            "first_tie_Qf_MVAr": null,
+            "first_tie_Qt_MVAr": null,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": null,
+            "native_DC_constraints_pass": true
+          },
+          "AC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 118.65908897360208,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -84.9849348552192,
+            "first_tie_Pt_MW": 85.12405382605084,
+            "first_tie_Qf_MVAr": -40.51456727424891,
+            "first_tie_Qt_MVAr": -82.66725383284977,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": true,
+            "native_DC_constraints_pass": null
+          }
+        }
+      },
+      "CONF-A600-plus040": {
+        "AC_reference": "AC_ACCEPTED",
+        "methods": {
+          "microsoft-v1.1": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 626.9343504308888,
+            "max_excess": 26.9343504308888,
+            "violating_count": 2,
+            "first_tie_Pf_MW": -588.0839400816792,
+            "first_tie_Pt_MW": 594.9987747788485,
+            "first_tie_Qf_MVAr": 139.43536166940277,
+            "first_tie_Qt_MVAr": -197.54274920095003,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "newer-base-v2": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 495.7618662703418,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -482.493216101887,
+            "first_tie_Pt_MW": 486.7270738390115,
+            "first_tie_Qf_MVAr": 7.807565294429111,
+            "first_tie_Qt_MVAr": -94.21562312040234,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "DC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MW",
+            "max_loading": 470.51699999847756,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -470.51699999847756,
+            "first_tie_Pt_MW": 470.51699999847756,
+            "first_tie_Qf_MVAr": null,
+            "first_tie_Qt_MVAr": null,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": null,
+            "native_DC_constraints_pass": true
+          },
+          "AC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 164.7104502932768,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -134.94855414172304,
+            "first_tie_Pt_MW": 135.2994610002807,
+            "first_tie_Qf_MVAr": -27.259018671928686,
+            "first_tie_Qt_MVAr": -93.93395705945501,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": true,
+            "native_DC_constraints_pass": null
+          }
+        }
+      },
+      "A600-plus075": {
+        "AC_reference": "UNKNOWN",
+        "methods": {
+          "microsoft-v1.1": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 1017.6117103551535,
+            "max_excess": 417.6117103551536,
+            "violating_count": 2,
+            "first_tie_Pf_MW": -982.3340487186542,
+            "first_tie_Pt_MW": 1001.2042394253247,
+            "first_tie_Qf_MVAr": 237.4939457742624,
+            "first_tie_Qt_MVAr": -181.99907694463303,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "newer-base-v2": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 974.5570133719601,
+            "max_excess": 374.5570133719601,
+            "violating_count": 2,
+            "first_tie_Pf_MW": -954.0666778799687,
+            "first_tie_Pt_MW": 970.8523684806672,
+            "first_tie_Qf_MVAr": 117.7287059448104,
+            "first_tie_Qt_MVAr": -84.8943515668363,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "DC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MW",
+            "max_loading": 599.9999999999588,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": -599.9999999999588,
+            "first_tie_Pt_MW": 599.9999999999588,
+            "first_tie_Qf_MVAr": null,
+            "first_tie_Qt_MVAr": null,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": null,
+            "native_DC_constraints_pass": true
+          }
+        }
+      },
+      "A600-minus025": {
+        "AC_reference": "AC_ACCEPTED",
+        "methods": {
+          "microsoft-v1.1": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 244.59969015307297,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 200.4028958844851,
+            "first_tie_Pt_MW": -199.5447749494905,
+            "first_tie_Qf_MVAr": 25.68299584488939,
+            "first_tie_Qt_MVAr": -141.45985725051645,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "newer-base-v2": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 297.76570193579005,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 284.9779962300785,
+            "first_tie_Pt_MW": -283.5229958651674,
+            "first_tie_Qf_MVAr": -86.32470627811688,
+            "first_tie_Qt_MVAr": -26.482496583879986,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "DC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MW",
+            "max_loading": 294.0731250013856,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 294.0731250013856,
+            "first_tie_Pt_MW": -294.0731250013856,
+            "first_tie_Qf_MVAr": null,
+            "first_tie_Qt_MVAr": null,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": null,
+            "native_DC_constraints_pass": true
+          },
+          "AC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 118.65908897356813,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 85.12405382601501,
+            "first_tie_Pt_MW": -84.98493485518331,
+            "first_tie_Qf_MVAr": -82.66725383283793,
+            "first_tie_Qt_MVAr": -40.51456727426107,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": true,
+            "native_DC_constraints_pass": null
+          }
+        }
+      },
+      "CONF-A600-minus040": {
+        "AC_reference": "AC_ACCEPTED",
+        "methods": {
+          "microsoft-v1.1": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 379.837713457292,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 364.00196454641275,
+            "first_tie_Pt_MW": -361.5237836488333,
+            "first_tie_Qf_MVAr": 16.10696822592172,
+            "first_tie_Qt_MVAr": -116.52142472822521,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "newer-base-v2": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 435.2101220421468,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 425.2564957203556,
+            "first_tie_Pt_MW": -422.02229196369865,
+            "first_tie_Qf_MVAr": -92.54600572463124,
+            "first_tie_Qt_MVAr": -3.358764915783876,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "DC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MW",
+            "max_loading": 470.5169999990005,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 470.5169999990005,
+            "first_tie_Pt_MW": -470.5169999990005,
+            "first_tie_Qf_MVAr": null,
+            "first_tie_Qt_MVAr": null,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": null,
+            "native_DC_constraints_pass": true
+          },
+          "AC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 164.71045029327252,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 135.299461000283,
+            "first_tie_Pt_MW": -134.94855414172508,
+            "first_tie_Qf_MVAr": -93.93395705944415,
+            "first_tie_Qt_MVAr": -27.2590186719404,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": true,
+            "native_DC_constraints_pass": null
+          }
+        }
+      },
+      "A600-minus075": {
+        "AC_reference": "UNKNOWN",
+        "methods": {
+          "microsoft-v1.1": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 700.6257277397069,
+            "max_excess": 100.62572773970692,
+            "violating_count": 2,
+            "first_tie_Pf_MW": 700.535723060526,
+            "first_tie_Pt_MW": -691.6762903269741,
+            "first_tie_Qf_MVAr": 11.229919272189818,
+            "first_tie_Qt_MVAr": -51.067681172000604,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "newer-base-v2": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MVA",
+            "max_loading": 694.2758584791675,
+            "max_excess": 94.27585847916748,
+            "violating_count": 2,
+            "first_tie_Pf_MW": 687.7195745781491,
+            "first_tie_Pt_MW": -679.2828682483907,
+            "first_tie_Qf_MVAr": -95.18799508884784,
+            "first_tie_Qt_MVAr": 48.70699889289318,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": false,
+            "native_DC_constraints_pass": null
+          },
+          "DC-OPF": {
+            "finite_rated_tie_rows": [
+              823,
+              824
+            ],
+            "rating": 600.0,
+            "unit": "MW",
+            "max_loading": 599.9999999999592,
+            "max_excess": 0.0,
+            "violating_count": 0,
+            "first_tie_Pf_MW": 599.9999999999592,
+            "first_tie_Pt_MW": -599.9999999999592,
+            "first_tie_Qf_MVAr": null,
+            "first_tie_Qt_MVAr": null,
+            "both_parallel_ties_identical": true,
+            "native_joint_AC_feasible": null,
+            "native_DC_constraints_pass": true
+          }
+        }
+      }
+    },
+    "confirmation_native_tie_violating_counts": {
+      "CONF-A600-plus040": {
+        "microsoft-v1.1": 2,
+        "newer-base-v2": 0
+      },
+      "CONF-A600-minus040": {
+        "microsoft-v1.1": 0,
+        "newer-base-v2": 0
+      }
+    },
+    "counterevidence_or_limits": [
+      "Thermal direction or magnitude alone is not a new physical law. Failed AC references atstrength0.075 remainUNKNOWN.",
+      "DC active-power rating and AC apparent-power rating test different equations; DC success does not establish AC feasibility."
+    ]
+  },
+  "native_feasibility": {
+    "new_operating_points": 52,
+    "feasible_count": 0,
+    "feasible_points": []
+  }
+}

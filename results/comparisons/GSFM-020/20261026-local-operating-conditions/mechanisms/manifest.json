@@ -1,0 +1,466 @@
+{
+  "scope": "Postprocessing saved completed batches only; no new input, inference, solve or repair.",
+  "created_UTC": "2026-10-26T17:53:29.627547+00:00",
+  "completed_batches": [
+    "01-load-transition",
+    "02-clamp-onset",
+    "03-P-Q-isolation",
+    "04-fixed-total-location",
+    "05-existing-two-area-location",
+    "06-confirmation"
+  ],
+  "cases": [
+    "G300-0.91",
+    "G300-0.92",
+    "G300-0.93",
+    "G300-0.94",
+    "G300-0.9301",
+    "G300-0.9303",
+    "G300-0.935",
+    "G300-0.945",
+    "P094-Q093",
+    "P095-Q093",
+    "P093-Q094",
+    "P093-Q095",
+    "LOC-plus050",
+    "LOC-plus150",
+    "LOC-minus050",
+    "LOC-minus150",
+    "A600-plus025",
+    "A600-plus075",
+    "A600-minus025",
+    "A600-minus075",
+    "CONF-P0935-Q093",
+    "CONF-P093-Q0935",
+    "CONF-LOC-plus075",
+    "CONF-LOC-plus125",
+    "CONF-A600-plus040",
+    "CONF-A600-minus040"
+  ],
+  "auxiliary_baselines": [
+    "G300-1.00-REPLAY"
+  ],
+  "pairs": [
+    [
+      "G300-0.91",
+      "G300-0.92"
+    ],
+    [
+      "G300-0.92",
+      "G300-0.93"
+    ],
+    [
+      "G300-0.93",
+      "G300-0.94"
+    ],
+    [
+      "G300-0.9301",
+      "G300-0.9303"
+    ],
+    [
+      "G300-0.9303",
+      "G300-0.935"
+    ],
+    [
+      "G300-0.935",
+      "G300-0.945"
+    ],
+    [
+      "P094-Q093",
+      "P095-Q093"
+    ],
+    [
+      "P095-Q093",
+      "P093-Q094"
+    ],
+    [
+      "P093-Q094",
+      "P093-Q095"
+    ],
+    [
+      "LOC-plus050",
+      "LOC-plus150"
+    ],
+    [
+      "LOC-plus150",
+      "LOC-minus050"
+    ],
+    [
+      "LOC-minus050",
+      "LOC-minus150"
+    ],
+    [
+      "A600-plus025",
+      "A600-plus075"
+    ],
+    [
+      "A600-plus075",
+      "A600-minus025"
+    ],
+    [
+      "A600-minus025",
+      "A600-minus075"
+    ],
+    [
+      "CONF-P0935-Q093",
+      "CONF-P093-Q0935"
+    ],
+    [
+      "CONF-P093-Q0935",
+      "CONF-LOC-plus075"
+    ],
+    [
+      "CONF-LOC-plus075",
+      "CONF-LOC-plus125"
+    ],
+    [
+      "CONF-A600-plus040",
+      "CONF-A600-minus040"
+    ],
+    [
+      "G300-0.9301",
+      "G300-0.945"
+    ],
+    [
+      "G300-0.93",
+      "P094-Q093"
+    ],
+    [
+      "G300-0.93",
+      "P095-Q093"
+    ],
+    [
+      "G300-0.93",
+      "P093-Q094"
+    ],
+    [
+      "G300-0.93",
+      "P093-Q095"
+    ],
+    [
+      "G300-0.94",
+      "P094-Q093"
+    ],
+    [
+      "G300-1.00-REPLAY",
+      "LOC-plus050"
+    ],
+    [
+      "G300-1.00-REPLAY",
+      "LOC-plus150"
+    ],
+    [
+      "G300-1.00-REPLAY",
+      "LOC-minus050"
+    ],
+    [
+      "G300-1.00-REPLAY",
+      "LOC-minus150"
+    ],
+    [
+      "A600-plus025",
+      "A600-minus025"
+    ],
+    [
+      "A600-plus075",
+      "A600-minus075"
+    ],
+    [
+      "G300-0.93",
+      "CONF-P0935-Q093"
+    ],
+    [
+      "G300-0.93",
+      "CONF-P093-Q0935"
+    ],
+    [
+      "G300-0.935",
+      "CONF-P0935-Q093"
+    ],
+    [
+      "G300-1.00-REPLAY",
+      "CONF-LOC-plus075"
+    ],
+    [
+      "G300-1.00-REPLAY",
+      "CONF-LOC-plus125"
+    ],
+    [
+      "LOC-plus050",
+      "CONF-LOC-plus075"
+    ],
+    [
+      "CONF-LOC-plus125",
+      "LOC-plus150"
+    ],
+    [
+      "A600-plus025",
+      "CONF-A600-plus040"
+    ],
+    [
+      "CONF-A600-plus040",
+      "A600-plus075"
+    ],
+    [
+      "A600-minus025",
+      "CONF-A600-minus040"
+    ],
+    [
+      "CONF-A600-minus040",
+      "A600-minus075"
+    ]
+  ],
+  "pending_config_pairs": [],
+  "thresholds": {
+    "P": 0.001,
+    "Q": 0.001,
+    "Pg": 0.001,
+    "Qg": 0.001,
+    "Vm": 0.0001,
+    "angle": 0.001,
+    "thermal": 0.001
+  },
+  "source_sha256": {
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\01-load-transition\\plan.json": "1368afbb5b5e319e0e980378c2e2a47ccda6495fb03bcff6be855b4f099ec443",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\01-load-transition\\verification.json": "d07407b4a9eac4d53d0b542e88217ba4cbeb44cfc148c4f46eab1a49012b99e7",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\ac-status.json": "2d07c568ba5c680799620892a257d2eb54b439d8434e578f375205463d9ce149",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\ac-native.json": "177d3dac8cca9904d07ca9ec73a519e4f48991b0cb28da40afa31c5c3e656549",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\dc-native.json": "5e7feb5c5488b8b7c1cf7f43b00c44547af27980bdbcd6ef0b38c99c97eef528",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\microsoft-v1.1-native.json": "f6ad5269e6eaea77139398c97a998d4e384b3f08c95d46ee54cd0962279898f4",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\microsoft-v1.1-clamps.json": "88a110472329f6c96615217cb6578415a207ccd37e6956ca5274191bdccec52a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\newer-base-v2-native.json": "a0d9a3e633e496ab65fb5741b886a39619a6cb947d6ed5e2f3cd7cd59d95bd8a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\newer-base-v2-clamps.json": "37c38b897f6f7bfe656aa9c3a96bb2c694f9238c1f045fbd3213b66c55cfa9a0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.91\\input.json": "e2a1b39600a32c905cac947a1c4d150746e0c3e2444fe412e24613dac7dbe161",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\ac-status.json": "37c7e243bec054b180b197915156e3abd863949076071d9c5f5d312be7e0ca93",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\ac-native.json": "981443922c72debcdd99b5690374fe1a4653b15006721d51ad0e013bc2f1a614",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\dc-native.json": "3b4b08cefeddb7a10f733222c470af347c6aaeddfc81e57d0fb16312526d9fab",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\microsoft-v1.1-native.json": "5c4cbfc21314055e3ab06b654ae15b955b0512d8b56021eb25d2ae937befbd53",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\microsoft-v1.1-clamps.json": "a59a77b97caec487b83518127cdcd55d540aed8348c47b6d092c781bb2e6dbeb",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\newer-base-v2-native.json": "3d34f944c706ae3dad00089ebf082c5a421d419bdfbc2702fed043507ccac7a7",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\newer-base-v2-clamps.json": "16d6e3bc8b2b179361340fbc04908c8888018320f5e98525205df07f4379224e",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.92\\input.json": "107bfcc9b55dc9907094caf5dca4ecc8cbc7fd431ce9ec12bdb7ef95a9091117",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\ac-status.json": "53b98cf0a626636417e9c599010414a9125fcc87871cb5a5df56feadcea50357",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\ac-native.json": "e6131a595d09f957939dc23e806f4d280b4ac782ae2f9b6d2141146044424890",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\dc-native.json": "8a745037ae2b4353de2871bb952f0d758b1d05baec35a48a90cf7be1026b9d25",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\microsoft-v1.1-native.json": "2be16e2f274ccc43d71d0a01d51b245c10233a9895047962b6943797c571a628",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\microsoft-v1.1-clamps.json": "5e687a044ce3fd413a215601e740df873fa56077bb9bc91deffa4ea4fb5ac952",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\newer-base-v2-native.json": "0a1f8ec1e88e021e27816c467066512a5e92dadc82374bc50793255377bbd351",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\newer-base-v2-clamps.json": "8baa46a8c0885e4cd69ac69df8eaa84fe213aeaf15455958338193c3e7528ead",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.93\\input.json": "75d56b369a562be7b547b9f45462125f9ec560d3b604935e5a7e01dbae4a1a5e",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\ac-status.json": "61968b06adc9ca25cec204c7f5744741889d6861d263f8c92a36d0695358bfa7",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\ac-native.json": "b20f7d99cccee0267ab13301b96890dc82e7398433f2a0858364763f234abebb",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\dc-native.json": "2528f7cba50b7d7b319c990e536cb02cc0b6d2700a3bc85a0b20f5d59004d4bc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\microsoft-v1.1-native.json": "124fe08096a84de7a9c9347941f6f15eee918ea99b898f357359346f4c0c4c2a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\microsoft-v1.1-clamps.json": "6c974ac04fe2a8f0ac99910f69f36a660157864db049595c6b36533b5b98066e",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\newer-base-v2-native.json": "8a39fb10715ed0a186b75cfee434b3acab355d121986e1d376307d18b9490b95",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\newer-base-v2-clamps.json": "cfb3ba13d291b0f12315e9df481b54a368028a906840102d1bd4f885bd522344",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.94\\input.json": "6c0f8cfbe8ab02f16cace1752f29d7108d0e8053b1e43eb19ee97bb880acfc69",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\02-clamp-onset\\plan.json": "4e1c09b0ab8b1d55205581e64f1c77742c7449d14bc3573fd58b7f3fac1f5dd3",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\02-clamp-onset\\verification.json": "37bba4f84704bd2f59bba4c29229ed5f09116de7c393e4fcf44682de2a75d96b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\ac-status.json": "3f1354c67fa5c65564a47ff234aafae2e6f5a4ddffff190908829defccbf8d92",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\ac-native.json": "4a451c6a005634f81e35101de697899a7b4a86ec9a6bea0aca6bda26e2b8e70a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\dc-native.json": "a8d5f6f9c35612521b11b1e5f6e063c95a11f9baf19eaba84aed523281be525b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\microsoft-v1.1-native.json": "b4611b7bc73922adb224fdc7445a7dd6a6cf1fe0b1bc6788b280a94a1c759eff",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\microsoft-v1.1-clamps.json": "2be6726cab1063f47bce50404f0b35afc916a7657c4cbea603243b3cd17a07da",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\newer-base-v2-native.json": "2d24c58c4e80f8b650e15dfff2507f87e1ed7c072102a5c2db52328ffc9806bb",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\newer-base-v2-clamps.json": "004ab98c2376291efd4711fc7cda73162db819436cec57b56b23004f41d85047",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\input.json": "003f8059804f63ed6a3b9a4892db07a6bf69f890826cad253cafc01915b8785f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\ac-status.json": "61cfff066c8483d1d6f9fb5d800884a93567d8cc7f367e186b5876ea754da160",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\ac-native.json": "f1b5e1eaedfbb806e61f3eeb977c17259ee03a7ce42f87e5dfce340b6a26737a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\dc-native.json": "8cdf1bca72a3eb422cbc42bce0b9457df2d6b1025fbbc37c9c4953d972b084ae",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\microsoft-v1.1-native.json": "be0f3345bfa07dc3d753a6ef8501566db8902c816bda771633bed81f7a46fe9c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\microsoft-v1.1-clamps.json": "8d52c2fa4b73c2ee78b6f5c5c650d5fe1eceab2832b49af36da133e2195ff75a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\newer-base-v2-native.json": "0e3fb551591f95f5e26be167191e24ceb10b36d0a025d8b7a26621306ec65d9b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\newer-base-v2-clamps.json": "01714201a33920134d2eca68fce0f5e47c495f68e25e0698060f1a2e3616f793",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\input.json": "0c98b3f6d8717ec7f79ae55a45ba871d552e0093a1726d71fcdca2f69f3007a9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\ac-status.json": "57760e4bf21df252f283c47b5fb93c6567f5255bcd12e1a3613f20319d6fdc5a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\ac-native.json": "1cbdacec36d767f055006e944fb3a7c194cf8cb9667c6922526ef4c8bca9f625",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\dc-native.json": "d9541350264e62875fcdb9e0b8eaf57d58629b26cbd47900d4ceff9d4829b336",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\microsoft-v1.1-native.json": "09a556060e76bfad81d6db1887aee7f4695957b4f39375e31c4c683195d7507a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\microsoft-v1.1-clamps.json": "a2e2bf78abccbba2eee19ee7e05b0c8e05365119217f68f3e237344a48558c93",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\newer-base-v2-native.json": "29e2ed42d0b45e9daa2f6083d7543fea0caf5edd7401eea794a67712a0b772de",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\newer-base-v2-clamps.json": "889a327b51c02bedd31ee51c9e1a8a647070f82b4e847820ae8c149b7f74b553",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\input.json": "f92b10c9a030b52a521b3e95de70672fdc619e1621d51a37f439f4b21f68381b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\ac-status.json": "a83dcb6da1f3bb704f66e1cfe551a5ead6cb6be8ab90eef58c52eaca5057592f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\ac-native.json": "ec29d39b28b27e8943be2c9c5b3ec2bd528f7a3e6735859829f533ae7a7c9ba4",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\dc-native.json": "3d4fcf4c32d8de9f53c1c9cf8dfe4efbdc5c3dc5ca85167033c3dea4666d4c08",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\microsoft-v1.1-native.json": "1a18967df8a81a3db5135af3ba41544edc5c3e27cadd32d908f2a7718b33bf4f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\microsoft-v1.1-clamps.json": "a4c7275d65b9b0ea148937defbca93387eedb1adf743fe6202e1a273c3783627",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\newer-base-v2-native.json": "23a489a0f140fd64f10cd85470c2295c5ce68afb63f9315c0dd0a1d17017cf5b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\newer-base-v2-clamps.json": "9593b9346666383dc264edc2c0eae78ec2ad55c031bde9b421bbd5290163dc24",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\input.json": "51eb83f133d6dc76b7d62464ac394275fe1685673a5a9cfd1d39eebde6f7b1dd",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\03-P-Q-isolation\\plan.json": "3b82830a2be43883f3d540894fd5a94588adc975d50417b3e87113d2f5cd3e16",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\03-P-Q-isolation\\verification.json": "eb3d6fae7608a5c5b8c705ac19901a1e4365a96f72ef0fb97e6a604580f4c57c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\ac-status.json": "bdf6a3ecefa6b2095fdeb9343335978cc73eef2cf53d8f68ac8b365119c86f71",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\ac-native.json": "6846ffd38fc868a5416ae90f9d138d335297c3d323bae30827fbde821e4d48a3",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\dc-native.json": "2528f7cba50b7d7b319c990e536cb02cc0b6d2700a3bc85a0b20f5d59004d4bc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\microsoft-v1.1-native.json": "eb6a6b8cfebce28e2c4d0ee81f1043384978cc973b91e494ebb832fd7b2551de",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\microsoft-v1.1-clamps.json": "5414c3cc19d0bba24c249688eb6fdad51e6ff7a9cf9d69373c47e119b48fd79c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\newer-base-v2-native.json": "971fa403b3f2fba37d634c526b6d362a0256afb6cb0fc15b1fa0723cfe1d4bf1",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\newer-base-v2-clamps.json": "e11f3d959cfca7757f402b9f378daccb9ce3f84a38f9c1d1e4d5fd1c22991d66",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P094-Q093\\input.json": "42432d19c7acbf545ddee6d6b4de38de53956dc82b6cd283f89c0d0c01eae3d8",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\ac-status.json": "20320158e761a3211b979ec78ccb731cdaf1056fd21fd8f93b679b7ac33e3b1c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\ac-native.json": "4af36ea9ace619cea4d970bd7c3803691627380db76081385b395511b80fe383",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\dc-native.json": "3bcce8671b9cc16dcbeff26ef01e4d48ac38724db5f4c399a8363e98b9a43b35",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\microsoft-v1.1-native.json": "89bea1f0cc6804dd438e505424e48be241a99e03c1188d0d48ebb5649328336f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\microsoft-v1.1-clamps.json": "242dfdda3926ae197d9eb0b7bd26b0d1f62abc41a9acf67df909906e31f11771",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\newer-base-v2-native.json": "65dd8153a46c11d4809bf5f603b03bf7303133ebda49f9a389c72203840e64a6",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\newer-base-v2-clamps.json": "de25d8d92796ed6e9571ae3931f346972dc49cc8904185ffcf5422303e8ca5c9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P095-Q093\\input.json": "9e5f637b7a44137e1b432a20e69bbdbf1d7557e712ac37432441ed5dcc93877d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\ac-status.json": "dff6bcb3bf658d872a8aa4278d3f7bd820c781c95151c43dac81e39cf78d0767",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\ac-native.json": "0685bec9ecbc43ee2799bc2dc2f2a500fd148d3f5dfc761ea222d4708e54c0b4",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\dc-native.json": "8a745037ae2b4353de2871bb952f0d758b1d05baec35a48a90cf7be1026b9d25",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\microsoft-v1.1-native.json": "21487a9ece8d91c2df42103825b62b81479a94f9d4dfd838e7cba952c48a8441",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\microsoft-v1.1-clamps.json": "676382137085a44d9de7cfefcb98870dca48862a26f8889d1a436cb8bd832f31",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\newer-base-v2-native.json": "f5debbc8ea72958aefe63dc645bcdd0eb7164b03b1cb2e4afe32b1d12bf4e042",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\newer-base-v2-clamps.json": "f51234adb9d665fef0d37d1fcbbed222ff1859a07654705db127976462eb3d2d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q094\\input.json": "d5dc843e7af7506930cf758c35e9b87fd420ff5e4803d775700c596218e9ae1f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\ac-status.json": "0031c75a3e26590f9c269a6644c6d2aa39f1bca74c6f94c23d6fb44f976932c9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\ac-native.json": "302ce48207ae2cf6cdbc0c7905a51d58da7dbd5da2189c2ab122365258e42dcc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\dc-native.json": "8a745037ae2b4353de2871bb952f0d758b1d05baec35a48a90cf7be1026b9d25",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\microsoft-v1.1-native.json": "e7dda76e8c27e5f90faf640c5891930a4bd7a1a76cc3b3c825fa06a340bac677",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\microsoft-v1.1-clamps.json": "a6f52eec16a0a5abc85ffdecddab0cfbf21b949357a06c7aa05476a9d1f0f3fd",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\newer-base-v2-native.json": "e38cb19fc219dd006657aa8bbc9246480e83327ded8cde11afa2c4489a392ff3",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\newer-base-v2-clamps.json": "992d66fa8fbdeecb24400a325dae32d099e8ec8151613d99ebd5b4fde2764b69",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\P093-Q095\\input.json": "42bd439479db8a602c2a5ab295a3af0400f82ee748c0274fb5dbd7fc9d0444de",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\04-fixed-total-location\\plan.json": "8dfa5e42267cbe27d1449332fe9d6ade984ef559ccf8a3b161b438fddceed713",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\04-fixed-total-location\\verification.json": "e3cdc92dacb03aee4f859ba61eec93adc8bbe509409304a68b11c0b0f6ddf4c9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\ac-status.json": "82e794bb72ca184606c9fbf6d8d2e852607031b3eaf20874684386840bab3b49",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\ac-native.json": "02220f0d851964f52b101b6b3048300397f000833dfd1a5208520fd91f1b8b16",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\dc-native.json": "fc9a1965e6a6f5ddc94f7c82df5d7cd92e6403c395f07ee1d7c8819c21013ab2",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\microsoft-v1.1-native.json": "26cf94e6ee35bd3ea41751918b8e78a96b3923ae3b52cea2239e4b0de3fc0aa7",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\microsoft-v1.1-clamps.json": "d13e2fd337c6b1a722efffc24f648693a7a7c3feedeafa6f0c6c63349c8cae32",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\newer-base-v2-native.json": "aae46e342f9782ef2236f7ad4237fabdd5ec41b3f25ea79311156106b19ef94c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\newer-base-v2-clamps.json": "b1e1614f8c5d17d7bcf1e2f4196268772917b3d8d5902f49217bc3daa32317d2",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus050\\input.json": "1fad56c9a2ae1f3bb5aa83cae6c45e381f38ee00859f4ee653320dfc3bf6ab0a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\ac-status.json": "8b9a3bbfa275f962956272e3c3abe575bb548dd7aa4ffece3ed78f8166dee54f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\ac-native.json": "8f7d2945bef9fc6c2580862fbd91acaa912f92299513698696f016df1f0d9d30",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\dc-native.json": "d83fdb3538b4c36964c36c90a7c5b4337fee13c23f5e5ec1a50af268edf01ff9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\microsoft-v1.1-native.json": "ebe94a1bdd98245df88adf5607675200547bcac70a9b4f235a653c074677c14c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\microsoft-v1.1-clamps.json": "8e1704f3d3ad4e01204b70a224befcadbdf693433147f17e32562ee90fecdaaf",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\newer-base-v2-native.json": "ce48a6dae87cb2d5fdd3e9b34c043e212ac5cc8512262b94bb9504667518931a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\newer-base-v2-clamps.json": "53553a30ce464100870f6d798fec9c2286f1345bf4564a00d1783bbbe0e1abcb",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-plus150\\input.json": "37972fda3bb5424f43bfcc584a720fdc82b4ca3f2fe53ac5448abe30bc2a33f9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\ac-status.json": "e267ec0a3c07f28bea606a13c96bfecaefce54f5ab73c67f1d4c57b08a1fb5a6",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\ac-native.json": "0218e08048c7d219efe3fc93169c52bce4ac23c4c6557d549b1e46975bda5046",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\dc-native.json": "bf93ac1239eccbb796e517067661c194e8accbca930808fe1a8241a73f747338",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\microsoft-v1.1-native.json": "02f6a5ccdadf613066129539612285a712ddc9d53ab797361da6624b18d0afea",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\microsoft-v1.1-clamps.json": "8743a3d6e3a76a279802ca179f0d8f6512241ca3612960b5e2ea11db7cea1527",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\newer-base-v2-native.json": "f25f580c1ff973ca4a180090ed11edf64aca8f5ee7822cb06d98b88411a9708d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\newer-base-v2-clamps.json": "bfd7f9da9bdc4af2a68673c988fbb365a21af1c83f488e3676c6958748c63fa5",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus050\\input.json": "e5e928a8cfab517ac50d90598570c90e93fdff0ff64389ed1267714d0db01ac1",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\ac-status.json": "1992db55800f5ea0a93f3fa4c78b20d1b721048b3946b6d23652c8f7b0e6b9a9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\ac-native.json": "21d9e2617f68878a6ff3ed00d5a8537cf9b1f97976ccc91a9b31b438443faac6",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\dc-native.json": "4acaf7fcea5afc74fd52c7105c7530a098c7c8d98af006b4e7f69c0b62bcda84",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\microsoft-v1.1-native.json": "1d9e9ecb45de8e9d540fb5365597ada904971b544a5a00e13c11c1b44a1302ad",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\microsoft-v1.1-clamps.json": "f1315981dfaad48a78bdb03f8e0db9740cd88fb7b2ba8a8777233dd6a44f2beb",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\newer-base-v2-native.json": "ff979f46ad866da718a161a53d07402b2911915bca1e63a7823858092435f219",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\newer-base-v2-clamps.json": "6710e80dbd4e4ca3808f283f5239a4625f1d8070adbf6cc3a98cc61ab54f62af",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\LOC-minus150\\input.json": "8346f9c21312f9512c42fd4330cd04a257e80b37affe5986bb391d881b16f8bc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\05-existing-two-area-location\\plan.json": "61b3c0d85efcf7c45c018d55c762be224c98791a57b4d41aefce8de983fa69e0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\05-existing-two-area-location\\verification.json": "b0ea85b67c725cf87977c41c0f6014adeebd74061a91d7e9d0da3e2aa954ce2e",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\ac-status.json": "e4bc31b43b6ea6c01ff4bf80044d3fcbe0dba2f7c08c1f3ff8391ffab8486094",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\ac-native.json": "0d39d1602931bd7bd10d80fddb57bf7e6bfb7b125797c7396736335aac5847dc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\dc-native.json": "89cdfba10f2177b370bb1a5c69b5bf6e0043a35b9b43bcf434507f9c64007d7c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\microsoft-v1.1-native.json": "9db487a0a63ea861542aca31ecda87d4f5b53d89ccd386af80e27e31f223ddd0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\microsoft-v1.1-clamps.json": "2591a3e87efe94528001c5a1e8e4b82375937be333432566c763ae00b82d7490",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\newer-base-v2-native.json": "00b3a0b35b26f3094db93a29ba8120d7774068467643cef3295dbb2a4f711a3c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\newer-base-v2-clamps.json": "6adf0c910c3f7734b743e88b7c9d7ceac16e4fffa8a3c64adb168a3fd9b025dc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus025\\input.json": "8a598e4a0d4ac87f10c236d706bd435aed3e239a09a1da2f4d28a5c52cd8df2d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\ac-status.json": "77a2932c9ecfd480963093eb1e086fe64317d81daac817196094997b0fa780f9",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\ac-failed-iterate.json": "d1ed319e0abccd40f74b214ae263c2e92d03eed1e13113e0a049d78cdd32d7f4",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\dc-native.json": "74cce202562f46cd4c5b71aae13a204114c91734f92f2e3e862a4583756f42e8",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\microsoft-v1.1-native.json": "ed9522b7f19cf2dd04adefeaa7a3bf603238b1208dc112787053715df9224f02",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\microsoft-v1.1-clamps.json": "de2a6c41e702ebd5fb9416ba75fe490c64f9866ee541874f7d216b290da8198f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\newer-base-v2-native.json": "1686d5aa75744194111a264dab2d8df4d6da7fbfbca1890f2cbe7cb6be4b0390",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\newer-base-v2-clamps.json": "d5c2ccc045c3fc29a3eaabca4cea8d78b9dc09baa2ff75829a33fe880c091e1e",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-plus075\\input.json": "4ab102b0e6765bc3812036a8077cbdf1cf3bf43aff4897a3f6ca2215566973a3",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\ac-status.json": "972567a8e17d67b7f8c9b34a9e9cba3092756b52a4259fd04f9dcdbc3e98180f",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\ac-native.json": "982b0ab9bcc9adb8f22ffa666970572135c87a65bdca6a61d1445f34479d65d8",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\dc-native.json": "55657c14da1e98ad6430388d6b556d3befb2577fdf59b8e7316177d96afb3202",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\microsoft-v1.1-native.json": "61657cd4491d0a0a282c55b6af71ca8f4a5afaeb0047bb0d7235436ff0608d17",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\microsoft-v1.1-clamps.json": "98cfc8e5306232e57ce241893e9f9634be60c80a51abf3be40dc6b05922b1ad2",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\newer-base-v2-native.json": "85e40d42ecbec18cf526793402e6c8365981b6bbb04a0db010f24bd12bf5dabd",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\newer-base-v2-clamps.json": "d1f4f7158d1c743ffdac647eacc96e5621620f523e3f8569fdd33cea6b19c1d0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus025\\input.json": "d65668a092a32b01c9744e1845216920688cefed4b05579cbd0484f5672fd562",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\ac-status.json": "fcb9f667209539a14b3103acef9f91de994a3b124f667514ed1ef5927a89c7db",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\ac-failed-iterate.json": "4d0553b648f1f5732634716fb2da3163c17c2fbb37e9eff6164bf782ea3f9a34",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\dc-native.json": "368f8a07626cc580d0b8650b59b243a739b697fce9343f068299dbdd7a32c4b4",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\microsoft-v1.1-native.json": "4afb6bdf69d0641148e2b389742379cbd3bf9f70f068f23dd8ac87cbfbc4bebd",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\microsoft-v1.1-clamps.json": "c90425181022cd000f05e64871228df6fe820dea67283ec65c12afb1f67a95dc",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\newer-base-v2-native.json": "3df08de9dae0ba85d0a084ba3d7b237d458cfdd0363bce2787f419ee70316165",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\newer-base-v2-clamps.json": "7580590af215e8e0a9e7ca64dd5251b740e571de8e1c73bd6644c03fc0c857c0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\A600-minus075\\input.json": "34bf4f9847a2a7fe346479193a2ebc8c4a88868c1116ab2956b40237267e0082",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\06-confirmation\\plan.json": "2f107d8e49c936773737169b379342c7677a6057846dd02adeceda98148d3e2a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\batches\\06-confirmation\\verification.json": "7d867c02e02028378cbcc5b04c4283f5c6b01ddc90b5d7731b0a943ee712bc09",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\ac-status.json": "ac2ba8259cda5b6ae4b8b9566f503f628ead6e6ba0082eedd14dd908df43eba2",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\ac-native.json": "1931bfe3275c31099c98a9f8ebe187e0640676b148cfbe31c282b1b43839c213",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\dc-native.json": "d9541350264e62875fcdb9e0b8eaf57d58629b26cbd47900d4ceff9d4829b336",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\microsoft-v1.1-native.json": "c76e74b70fa0f9c1301e5ffe9413fa2c0e7558e7f51815477471cbc85a6f2873",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\microsoft-v1.1-clamps.json": "aa9d145875f9aa98a87f8f755ef0f970461a0f224baf9e78c06a6d3be3fc8105",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\newer-base-v2-native.json": "8a14170766c8cfb2a2921352925537cb06f79c5ebfbf93ecd4fa6e7664587982",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\newer-base-v2-clamps.json": "ebb7d5828377c19da282667cf2d95d4ce0401624b78c323471a0a1b71c69170b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P0935-Q093\\input.json": "b4ee54b5317d030f6ffccb9c77631577338c5ac80210e223ba26a101876aad53",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\ac-status.json": "ac64328cc6e46e49910102530e9306cd3273a62f27539c137b8b5fcdeb1be89d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\ac-native.json": "8cce51e22a8cedad91542dadd9a9e2dca21d2a03effbd50445bacebe7fefeeb8",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\dc-native.json": "8a745037ae2b4353de2871bb952f0d758b1d05baec35a48a90cf7be1026b9d25",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\microsoft-v1.1-native.json": "ffe51cf7baa099226ebbbd2ebe9606f64a9f560274160f0e0fab4ab236d02977",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\microsoft-v1.1-clamps.json": "fdb33ca561b07dadadf8ed06a429640d9c98b584cd420cf47abccdecf0bda110",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\newer-base-v2-native.json": "b521daff4df14df839d400ce93cba4d2ecf7e06258a7edbfd60fd0578fb28c03",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\newer-base-v2-clamps.json": "f7d86fe4686a6d70ed8b5e0a44352c6c377130ef1bd32d992c1d9535ee26c9b8",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-P093-Q0935\\input.json": "dc7c52c922793a946943df7a937f5b5661665dcc73f3c73e9db4e1d43cdce3fa",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\ac-status.json": "8fead583dbcbca80ade59c37ef4b29124e867ea3e5193dee3fa60936a6326867",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\ac-native.json": "5b4fbd9d5220febb18ac7616216082589f2acebae97b81b43aee8fe0d8549fe2",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\dc-native.json": "3b55dc2ef9cdcc916f704e32735963b340390f6262733774d5121cca66b00f8b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\microsoft-v1.1-native.json": "96c01cd68f5b46d1b6f60b2791e6110cdfda98ed76fab0670a028c58af382ba0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\microsoft-v1.1-clamps.json": "e5821c4a65a87124fb170ea2dad1b3bbceb4763c4b2b2eb391e0692617babf62",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\newer-base-v2-native.json": "6b1503436dcdced2a977f98d0e9f0998775cc608b2863621868c167925780766",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\newer-base-v2-clamps.json": "48a0b310d1c3acc9879a4cd921500422484e2b123c6fd0dbb59fe135fabd8d64",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus075\\input.json": "dcbf8f83cadde0cf205dfdfabad9a3f040ebdb54d49aa4d67a5a6bfcc6d855be",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\ac-status.json": "c8c271532a360b66ebe37310471cd849e411d583062767bc4f4904397846f11b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\ac-native.json": "0a18c5e3f3be987a29749cfa132ec1d928255eaa45358410f2ad742a4d053701",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\dc-native.json": "bda82858046117708031a9ada1742cc91884841b96a0cad6f66423f1c0da8355",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\microsoft-v1.1-native.json": "d7aa265abd58de4a758c4a46e17a99d6f1b0e6f343c95672824695ecfa4add1e",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\microsoft-v1.1-clamps.json": "842a9c7cca98cff56ab3e22e331d2eeebb8f76e5b31f5aa8b47d0dbd0ffa2c37",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\newer-base-v2-native.json": "1bcbf9179b624b8da5c012201def93a608c327a20234a5a2b3410ee9d6b29ac2",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\newer-base-v2-clamps.json": "7e1f317bc3cf13294a5769661186c4179f90eba24c2cbaa6cdcf46489faaa717",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-LOC-plus125\\input.json": "3ecf331702552ca5c2d97f1914e3a8566d11627d2dcf9a8a3a2bc8f566eb5895",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\ac-status.json": "f9a899c07cd3c2b669767c3f4ef851b11944e4a7d18017040f7ea4711c923c6b",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\ac-native.json": "3d12b3d63da12b3174c2eae6270debb732973217d0ae41dab3275cc0d4622225",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\dc-native.json": "65730a5aae49e8eb962661e302a49081a429d649517130332e0bd5fa4092de69",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\microsoft-v1.1-native.json": "256e7fa98b90f8db00bd450bc2a1f7ca17b94dd467f2eb8855715991c1e96d9c",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\microsoft-v1.1-clamps.json": "2c0b9ecc50bd8a9b0ceaa6cd3fa72438d6edd76b4f6ca2193a8962e234f5cfe1",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\newer-base-v2-native.json": "cb743ff7881df9948e002e22e8d9319083427b326b181bbfdb962cbebf2f6bd0",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\newer-base-v2-clamps.json": "e4c516fa568913e3dbabcf025c61c4a39e03ed5c9e247a62699c00f54d52e7bd",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-plus040\\input.json": "e409a93193cca66f5d89a022f6b1a5c15914181ad2c23382605132f4f60900fa",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\ac-status.json": "b88e7cc0eee2b67752ea0133b61af16a2ca6de8d0324c56ac0b88a129f057a1a",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\ac-native.json": "867c5aca62cc0b9143b223e599dbfd8884170eed2cee451f0e6242cfcf28ab4d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\dc-native.json": "4ebd06e4299d891ba247f21d43878399e4852ae54586bcbcdd3f1122216e6c87",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\microsoft-v1.1-native.json": "4de4fda41227b8528778646d5385985a535b92446087f93820d9fde815ca7663",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\microsoft-v1.1-clamps.json": "b738b325fd650c1686bdb11658b04af9482145e5fa721fc9ee65cfe8e1e0b7e8",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\newer-base-v2-native.json": "1244b4e25b16ccfb609f0ae7080ffbec1f7a75e7c750c82745da3e2bd913dc69",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\newer-base-v2-clamps.json": "f2474b44f2bb53fcf8adbc431146efc3c7459d135521aca5f5388e8bda279ea1",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\CONF-A600-minus040\\input.json": "eb4cd6c63b622c3aebc74cac525441af9029fe4384b0f27d8b3809e7a95f6f91",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\bases\\300\\input.json": "b17262cb24fffd05fb0bf7aeb8be13aafab47cc676a112016921c2969772deed",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\recovered-base\\AC-reference-DERIVED-state.json": "9a4151d709e18f58e5a37e295210c8c11a278b330042e911f74596418b96447d",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\diagnostic\\microsoft-v1.1\\baseline-cold\\microsoft-v1.1-native.json": "04fdb0fd29f1a1383e9ed7a29b22155ba0c7e4783693904fb450daa09ff603e4",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\diagnostic\\microsoft-v1.1\\baseline-cold\\microsoft-v1.1-clamps.json": "53ba099b90ca88ff42178fd1c07d942d92db9b74ddeb4bfa8eaae182e704fe20",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\diagnostic\\newer-base-v2\\baseline-cold\\newer-base-v2-native.json": "afe9014e29d441f525b0129ead934c9c1619ce07f4ead3e5c933bb82823cb1de",
+    "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\diagnostic\\newer-base-v2\\baseline-cold\\newer-base-v2-clamps.json": "e98d0524dd1a332bc00eb0eab0d692bace117c67ee47ee6601de66d394418ed0",
+    "experiments\\gsfm020\\mechanism-pairs.json": "233752d0327248e7f048b10de5039b43d3d79408a409a3cac9bb4fb80696fe2f",
+    "results\\diagnosis\\GSFM-011D\\20261022-saved-states\\fixed-bus-loading-terms.csv": "f07e97702b2f6fd0eae4aec10e34f386b59de2fc816cbe11fe5ebc46b2a64f46",
+    "results\\diagnosis\\GSFM-011D\\20261022-saved-states\\incident-branches.csv": "db61737a236f8155e904c49a41f748a59a82b2921a2278c97b27ffec0d5705b6",
+    "experiments\\gsfm020\\postprocess_mechanisms.py": "03b1663d05be1973999143b2d54dad21b89b6996afe182a54876d5310ce6663d",
+    "experiments\\gsfm020\\electrical.py": "0f604c87ed3e706a95114df17b3bd3a5ebbaa767612ac0107ab4bbc92b6a7d44",
+    "scripts\\python\\physics_metrics.py": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834"
+  },
+  "code_sha256": "03b1663d05be1973999143b2d54dad21b89b6996afe182a54876d5310ce6663d",
+  "notes": [
+    "Constraint-location counts checked against audited score for every saved method.",
+    "Near physical bound uses fixed feasibility tolerance; exactly at shipped bound uses captured FP32 bound equality. Neither establishes actual clipping.",
+    "Actual clipping means captured input differs from unmodified captured output; material clipping additionally exceeds fixed feasibility tolerance.",
+    "Native/reference split is symmetric algebraic error-change attribution, not causal identification.",
+    "Adjacent preregistered cases are paired for descriptive inspection; these pairs do not establish isolated causality if inputs vary in more than one factor.",
+    "Historical overlays are reduced saved CSV evidence, not freshly recovered raw returned dictionaries."
+  ]
+}

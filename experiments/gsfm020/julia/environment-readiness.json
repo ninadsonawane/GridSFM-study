@@ -1,0 +1,60 @@
+{
+  "status": "READY_IMPORTS_AND_SERVER_STARTUP_ONLY",
+  "solver_calls": 0,
+  "electrical_inputs_prepared": 0,
+  "utc_recorded": "2026-10-26T17:24:41.1794247Z",
+  "environment": {
+    "blas": "LBTConfig([ILP64] libopenblas64_.dll, [LP64] libopenblas.dll)",
+    "electrical_inputs_prepared": 0,
+    "JuMP": "1.29.4",
+    "project_sha256": "7f13bfc0513445f6524ec2d6a09c7cf15c0f04f08df11312d49914fb65edc8d7",
+    "architecture": "x86_64",
+    "status": "READY_IMPORTS_ONLY",
+    "cpu": "goldmont",
+    "solver_calls": 0,
+    "blas_threads": 1,
+    "JSON": "0.21.4",
+    "Ipopt_jl": "1.14.0",
+    "depot_path": [
+      "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\julia\\depot"
+    ],
+    "PowerModels": "0.21.5",
+    "manifest_sha256": "8509d4041692e953d3334df63416d7049a69ba2fbf41e83dad1f786b03ba3624",
+    "julia": "1.11.9",
+    "active_project": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\julia\\Project.toml",
+    "kernel": "NT",
+    "MathOptInterface": "1.49.0"
+  },
+  "startup": {
+    "options": {
+      "tol": 1E-09,
+      "bound_relax_factor": 0.0,
+      "max_cpu_time": 120.0,
+      "acceptable_tol": 1E-09,
+      "max_iter": 3000,
+      "constr_viol_tol": 1E-10,
+      "print_level": 0
+    },
+    "julia": "1.11.9",
+    "ready": true,
+    "PowerModels": "0.21.5",
+    "julia_import_seconds": 2.8340001106262207,
+    "Ipopt": "1.14.0"
+  },
+  "julia_archive_url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.11/julia-1.11.9-win64.zip",
+  "julia_archive_sha256": "1ae5f16cb10cf23089e002626304c467a8d14ba750a7e02dff32df7cdec85074",
+  "official_checksum_url": "https://julialang-s3.julialang.org/bin/checksums/julia-1.11.9.sha256",
+  "julia_executable": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\julia\\julia-1.11.9\\bin\\julia.exe",
+  "julia_executable_sha256": "fbc8dd1f6c4c01bad1386820a898328b9f6621ef181b3a0abbad81a47a92ec72",
+  "upstream_lock_base": "https://raw.githubusercontent.com/microsoft/GridSFM/1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6/power_grid/US/topology_solver_pipeline/",
+  "solver_source": "experiments/gsfm016/solver_server.jl",
+  "solver_source_sha256": "b50e340f06a0c3cd0562fa64d053b762940ff05725caa513b6ec546dd06adf4e",
+  "lock_warning": "The unchanged upstream Project/Manifest pair produced a dependencies-or-compat-changed warning. No resolve/update was run; exact original lock hashes remain unchanged.",
+  "portability_limit": "Windows x86_64 runtime with upstream locked packages. Historic Mac full transitive environment was not available; this is not a byte-identical Mac environment. Independent physical validation is required for each solve.",
+  "setup_attempts": [
+    "Initial setup comment syntax failed before package instantiation; corrected.",
+    "Restricted import precompile failed with pipe_open EBADF; log preserved at work/julia/verify-environment.stderr.log.",
+    "Authorized compiler subprocess precompile succeeded; work/julia/verify-environment-attempt1.stderr.log.",
+    "Historical server startup passed with only quit request under ordinary sandbox and --compiled-modules=existing."
+  ]
+}

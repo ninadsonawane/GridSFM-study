@@ -1,0 +1,5193 @@
+{
+  "status": "PASS",
+  "started_UTC": "2026-10-26T17:50:18.548821+00:00",
+  "completed_UTC": "2026-10-26T17:50:22.223490+00:00",
+  "scope": "Read-only saved-artifact verification; zero model forwards, PF calls or OPF solves",
+  "counts": {
+    "discovery": 20,
+    "confirmation": 6
+  },
+  "input_limit": 30,
+  "wall_clock_limit_hours": 5,
+  "deadline_UTC": "2026-10-26T21:45:13+00:00",
+  "fixed_tolerances": {
+    "balance_MW_MVAr": 0.001,
+    "generator_MW_MVAr": 0.001,
+    "voltage_pu": 0.0001,
+    "angle_deg": 0.001,
+    "thermal_MVA": 0.001
+  },
+  "prior_tracked_files_preserved": 929,
+  "unique_electrical_inputs": 26,
+  "confirmation_preregistration_checks": [
+    {
+      "batch": "06-confirmation",
+      "frozen_UTC": "2026-10-26T17:44:09.076044+00:00",
+      "latest_discovery_completion_UTC": "2026-10-26T17:42:28.544717+00:00",
+      "first_confirmation_attempt_UTC": "2026-10-26T17:44:09.821416+00:00",
+      "plan_sha256": "2f107d8e49c936773737169b379342c7677a6057846dd02adeceda98148d3e2a"
+    }
+  ],
+  "preregistration_evidence": "Saved plan hashes, frozen timestamps, ledger attempts and model attempt timestamps agree; no external timestamp notarization is claimed.",
+  "diagnostic_actual_neural_forwards": 19,
+  "diagnostic_worker_invocations": 21,
+  "diagnostic_pre_forward_failures": 2,
+  "diagnostic_limit_note": "The 20-forward gate counts actual neural forwards. Pre-forward preprocessing failures are reported separately and preserved; total worker invocations are not relabelled as forwards.",
+  "release_identity": {
+    "microsoft-v1.1": {
+      "source_commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6",
+      "source_hashes": {
+        "model/gridsfm/blocks.py": "e37a7c360b5164c686d87443d81b5c72895a0a4be7ed33d23c66f1a7f8278c03",
+        "model/gridsfm/checkpoint.py": "251842f8141a1b09fb0fe076f996cfd1783a3b7cb5aef81d961b066497cab5c6",
+        "model/gridsfm/cycle_basis.py": "4f1a324975f27bc2341387994c7c8cfbd2f4901a2769717bff5ed20dfa0d0eeb",
+        "model/gridsfm/data.py": "0bef859cea51b08c39c40b658143236d33334a65d5b63982c6507e3a24b06f77",
+        "model/gridsfm/dc_prior.py": "63b9b48cd44a185e571e5de6b1ce660cc43cc0c064e3538f616fe3b0e12c8a59",
+        "model/gridsfm/eval.py": "4f8be644750e6ec9048679ec6c4055f539389ee6d3650944f5d3883cac9cb5d5",
+        "model/gridsfm/finetune_opfdata.py": "697b8a7057acbab7327a070668d69c8e4f8d23ecd8d6f42f4b61ac9e00ca9472",
+        "model/gridsfm/hodge_pe.py": "8dd3c0a2d9b7be24902c2243ce002c0d0616b7fabc00d03693d80f743e64868c",
+        "model/gridsfm/loss.py": "19f51612d7bce0f1dc45e802e6f77bfebd954b36f990145ccea851a400d893fe",
+        "model/gridsfm/model.py": "03b786662daa55857a4dac0cca8fb633d6a363c090a9e19fb8623a4340748f53",
+        "model/gridsfm/opfdata_train.py": "e6547ef0e4f2c38d79041d6794c9f4f72829ef4001c0dde0c940b14bae6e5eca",
+        "model/gridsfm/pe_features.py": "51643d05e6b0d3b649043fac4c4801749abd2f70aa471416e9ee5a029de7b808",
+        "model/gridsfm/schema.py": "9de2b4501f502650f19a394e560338c0aa7c09f5eb4adf82e3aee8230c18f8f3",
+        "model/gridsfm/signed_incidence.py": "16194ea450844962226100644f01bfb61391ecf81ce4bd20000cfa668f91f37e",
+        "model/gridsfm/stress_features.py": "7a3c489b456d650a87c240bfbb545fd429bfd5428c9470fd74b5381cfaa78fc5",
+        "model/gridsfm/synthetic.py": "544651f149c73a6dab6b1ca5db24baa7b3c9a7ab8be36ec3c3f42c88749fda74",
+        "model/gridsfm/__init__.py": "a650665386f7e775bce391634a8ee6d1b0638266b298c342ffc83eb74ef68a9b",
+        "model/gridsfm/hf_util/gridsfm_pg_loader.py": "fa779688bc89a787b2fa60395efb94ce26e1478e99b6814978f8478a2f944fa6",
+        "model/gridsfm/hf_util/__init__.py": "2c9a5dc7b87c64143451f33255ba25a9a389ab7867e33cdc0011aa7fbd979fd7"
+      },
+      "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831"
+    },
+    "newer-base-v2": {
+      "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+      "source_hashes": {
+        "model/gridsfm/blocks.py": "3b1ac45237092273cc0a20c7d0eedf25242b419fda5ce9a2e0dc10e1107f08d8",
+        "model/gridsfm/checkpoint.py": "251842f8141a1b09fb0fe076f996cfd1783a3b7cb5aef81d961b066497cab5c6",
+        "model/gridsfm/cycle_basis.py": "4f1a324975f27bc2341387994c7c8cfbd2f4901a2769717bff5ed20dfa0d0eeb",
+        "model/gridsfm/data.py": "260daeceea5414c90aca3d9337c7973b1f12d48da34a0e7f7bbe5f33ae3f3ec0",
+        "model/gridsfm/dc_prior.py": "f57371ca75ef3b44beb09e85aa668e1ee3f9ecf2bbaf52e56795f527f8e2038b",
+        "model/gridsfm/hodge_pe.py": "8dd3c0a2d9b7be24902c2243ce002c0d0616b7fabc00d03693d80f743e64868c",
+        "model/gridsfm/model.py": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+        "model/gridsfm/pe_features.py": "c097f8b2ab92ccfb9fa58c7af1a82c76e665389c70002a7632c4794f6a9de8af",
+        "model/gridsfm/schema.py": "939b87fe8ecbbe5dc210b406a2429bbcdf1281edac731ca9861d8379bbacd459",
+        "model/gridsfm/signed_incidence.py": "16194ea450844962226100644f01bfb61391ecf81ce4bd20000cfa668f91f37e",
+        "model/gridsfm/stress_features.py": "9621946a6d454d20953d5782883401c74f8f043a461d8622b9deea91579601af",
+        "model/gridsfm/__init__.py": "a45239266836091df9f2be2065078f5930485de5a8958572f436d7721867bbb1"
+      },
+      "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7"
+    }
+  },
+  "cases": [
+    {
+      "scenario": "G300-0.91",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "e2a1b39600a32c905cac947a1c4d150746e0c3e2444fe412e24613dac7dbe161",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "0e1dcef9f0fa822050657ee1de662ddaf75e8277f891a377f27b5a9035eace70"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.91",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "e2a1b39600a32c905cac947a1c4d150746e0c3e2444fe412e24613dac7dbe161",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 634499.7828451279,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.624300693947589e-11,
+              "max_Q_MVAr": 5.638867150992155e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.154665078720838e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 5.0454751487905014e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 9.379164112033322e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:24:10.261124+00:00",
+          "raw_return_sha256": "9921ccfa144771c6cb1bdd919271a51ba45507a41f7a002b1842f24bb10bb065",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4898.277459281968,
+            "max_Q_MVAr": 12545.234712062671,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.158301039527977e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:24:17.958994+00:00",
+          "raw_return_sha256": "62dcfc398cc354d118320ad2e5a69150e3d697549f8af19885ab2b794368e888",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7759.278611518951,
+            "max_Q_MVAr": 21330.268362166007,
+            "Pg_excess_MW": 2.09808349609375e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.7477017273697816e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.92",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "107bfcc9b55dc9907094caf5dca4ecc8cbc7fd431ce9ec12bdb7ef95a9091117",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "073685ec29fc98474ff9256036176beae96c9b89bb0ac51763ac67dfc373d4cb"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.92",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "107bfcc9b55dc9907094caf5dca4ecc8cbc7fd431ce9ec12bdb7ef95a9091117",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 643792.617855891,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 8.238965065743287e-12,
+              "max_Q_MVAr": 1.1740919347857925e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 2.3019949462639384e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.240456626305786e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.1368683772161603e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:24:45.218969+00:00",
+          "raw_return_sha256": "583bd4ee7033b8e063da3117326abbbf47f948943f500b7aff121cabb7803e6e",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4795.96223424304,
+            "max_Q_MVAr": 12119.538282171146,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.424597804466007e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:24:52.684148+00:00",
+          "raw_return_sha256": "5caf8bfb5347226257b005827c3ac667e761549afc2da8e6534fe71121675c15",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7785.170539812645,
+            "max_Q_MVAr": 21324.82095176954,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.015334775755929e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.93",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "75d56b369a562be7b547b9f45462125f9ec560d3b604935e5a7e01dbae4a1a5e",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "3fd0546fb9c9a256c3238a73f0489b5e9710480a72909fd3c24887ddda04724e"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.93",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "75d56b369a562be7b547b9f45462125f9ec560d3b604935e5a7e01dbae4a1a5e",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 653129.8076524857,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.5006662579253316e-11,
+              "max_Q_MVAr": 6.80699940858176e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.380465664913081e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 6.778577699151356e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.071498445526231e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:25:20.392566+00:00",
+          "raw_return_sha256": "ba62164d3187dcdb378f3c922c82be8f1a453b908a9b7590a63b0c681b4beee4",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4685.702500934172,
+            "max_Q_MVAr": 11689.794749453245,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.9862437917347277e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:25:29.675977+00:00",
+          "raw_return_sha256": "4e875089607f157a54e5bfd5ea5e272bf0e530886fca558606184f75b4e86d0f",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7807.557038109891,
+            "max_Q_MVAr": 21320.44941191414,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.346228625304251e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.94",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "6c0f8cfbe8ab02f16cace1752f29d7108d0e8053b1e43eb19ee97bb880acfc69",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "1c7cf2bba98bd1e9890a415832a6725b1fd16f7816e319c7868085967058d2ad"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.94",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "6c0f8cfbe8ab02f16cace1752f29d7108d0e8053b1e43eb19ee97bb880acfc69",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 662511.4307096353,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 7.773337529215496e-12,
+              "max_Q_MVAr": 6.252776074688882e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.799956011885185e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 5.53086465515662e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 4.320099833421409e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:25:55.971503+00:00",
+          "raw_return_sha256": "fe984ddf5324a467db27fffbebe1f12b4185fc39c6a1a7f9bad0a1cef2624fb8",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4553.742715829582,
+            "max_Q_MVAr": 11232.679132900805,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.608256514132165e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:26:04.285221+00:00",
+          "raw_return_sha256": "ac0cebbc5b190809f37c4cb0e36f5d0a3ae1e89fd974548a05d705fd62fb964a",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4908.002937223442,
+            "max_Q_MVAr": 12413.001506511824,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.510991198991338e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.9301",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "003f8059804f63ed6a3b9a4892db07a6bf69f890826cad253cafc01915b8785f",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "f0b1b7baa006a0ba62b9c59af4d4f8de61f8b5ca29b5173843f0c80cb9300846"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.9301",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "003f8059804f63ed6a3b9a4892db07a6bf69f890826cad253cafc01915b8785f",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 653223.4038068869,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 3.885247679136228e-11,
+              "max_Q_MVAr": 6.665645813086485e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.738188491956174e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 6.208455971545845e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.2050804798491299e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:27:52.048753+00:00",
+          "raw_return_sha256": "b57280db538a53bb872eb8342d5c2e72a9300c3da11cc8c66ee465a55ce7feb6",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4684.514759265517,
+            "max_Q_MVAr": 11685.219916884314,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.373741870846648e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:28:02.067235+00:00",
+          "raw_return_sha256": "ec1b896349fd842357cebd5cf9910c87d3c9c8007f44ea4513578200c6e7c264",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7807.741681305052,
+            "max_Q_MVAr": 21320.417589567696,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.2744967079260627e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.9303",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "0c98b3f6d8717ec7f79ae55a45ba871d552e0093a1726d71fcdca2f69f3007a9",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "593c29d03152593e0cb832c13bc0d7389c52f8c4d2eb460d5e810c112d9e9c45"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.9303",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "0c98b3f6d8717ec7f79ae55a45ba871d552e0093a1726d71fcdca2f69f3007a9",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 653410.6094461621,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 8.126138650865755e-12,
+              "max_Q_MVAr": 5.682299075715491e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.584665992281545e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 5.807887504261089e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.5234036254696548e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:28:26.078559+00:00",
+          "raw_return_sha256": "e63e414f5450cc92aec92ab31c09acf336678fd8b47bc7071dd4387d80973fa4",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4682.198569925354,
+            "max_Q_MVAr": 11676.056343186163,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.246271862294588e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:28:32.927251+00:00",
+          "raw_return_sha256": "ba848c38e8b9dbea3a796a8761e99d5eceab74e10bd5d91bcb47bed1ba32ed32",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7780.462245517539,
+            "max_Q_MVAr": 21235.64363891355,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.768920146284194e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.935",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "f92b10c9a030b52a521b3e95de70672fdc619e1621d51a37f439f4b21f68381b",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "5654168eadd56f0c61b69b76424aff773aed802d81f9c9f1131f1a1abb636732"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.935",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "f92b10c9a030b52a521b3e95de70672fdc619e1621d51a37f439f4b21f68381b",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 657815.0601234101,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 9.279688129026908e-12,
+              "max_Q_MVAr": 8.915534976949857e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 9.647797410036771e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 8.86730688876014e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 6.821210263296962e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:28:55.895985+00:00",
+          "raw_return_sha256": "fadf6ce89546748110112e0d047655c239f002551358ed0f1bb9ea9686ffd344",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4616.304108413651,
+            "max_Q_MVAr": 11459.680366173296,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.130324883708483e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:29:04.588105+00:00",
+          "raw_return_sha256": "1a209ba672749cf0c984196730493aab92cbd67fb6c2c7cdc89ee199435ed887",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 6274.177699928957,
+            "max_Q_MVAr": 16602.813552843552,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.921278583070993e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "G300-0.945",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "51eb83f133d6dc76b7d62464ac394275fe1685673a5a9cfd1d39eebde6f7b1dd",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "169ebba2cadd6d6d4cd45979aa54767b8cfb2871a16f4e7dd519f818e7d9fded"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "G300-0.945",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "51eb83f133d6dc76b7d62464ac394275fe1685673a5a9cfd1d39eebde6f7b1dd",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 667218.929145417,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.4438228390645236e-11,
+              "max_Q_MVAr": 7.09405867382884e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.266268963227736e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 7.045741767797153e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 8.86757334228605e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:29:29.351094+00:00",
+          "raw_return_sha256": "25a12a3effd3c235e5615985a347b6408aa45688d9e5daca9edc9f67fcf7e165",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4490.489407052955,
+            "max_Q_MVAr": 11003.221941262871,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.131168154395404e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:29:36.995970+00:00",
+          "raw_return_sha256": "4c6052b6e8645084341abaf4e02eb4d97de5d599b7dbb0f2d4f30e0e615bda3b",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3540.7521481338445,
+            "max_Q_MVAr": 8232.166396857687,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.1888624641758175e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "P094-Q093",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "42432d19c7acbf545ddee6d6b4de38de53956dc82b6cd283f89c0d0c01eae3d8",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "4530834d867af4331f8002f8801d00cbe653c49b2bf643cd9e38f457b65bbcf8"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "P094-Q093",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "42432d19c7acbf545ddee6d6b4de38de53956dc82b6cd283f89c0d0c01eae3d8",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 662500.2733837955,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 5.540528036362957e-10,
+              "max_Q_MVAr": 1.2356977663330326e-09,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.005969457476852e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.2356977663330326e-09
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 4.320099833421409e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:31:08.458400+00:00",
+          "raw_return_sha256": "9eb0c813fc7256324420e2d44621fdcd43185eff29efb64c2847d06aa7d2278e",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4554.629161686149,
+            "max_Q_MVAr": 11234.500605270227,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.327829671382665e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:31:16.563263+00:00",
+          "raw_return_sha256": "c66ef17ada9ca55e8dcb30f80fa43e54a575babd334646d098510c14f97351e1",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3980.199670931259,
+            "max_Q_MVAr": 9589.301241662783,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.573105152450858e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "P095-Q093",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "9e5f637b7a44137e1b432a20e69bbdbf1d7557e712ac37432441ed5dcc93877d",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "545382b9fc6dbc727a5573fd83496db7381445ae7ac7ff643e4519fe47ac6ff4"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "P095-Q093",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "9e5f637b7a44137e1b432a20e69bbdbf1d7557e712ac37432441ed5dcc93877d",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 671914.4535045997,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 2.283684352732962e-11,
+              "max_Q_MVAr": 1.0618350643198937e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 8.665882391006676e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.0342660061724018e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 6.821210263296962e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:31:40.321244+00:00",
+          "raw_return_sha256": "188720bc616f7cbba791ed5a255d022e41513724aeb05e91dd1af826b8960449",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4427.834560339202,
+            "max_Q_MVAr": 10783.053432811626,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 2.7353913117550444e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:31:47.670931+00:00",
+          "raw_return_sha256": "d28b7eeed4b827f56f72e9e6ab4a2f4782f86eb152d8b28023e3c0fb2ef2efb7",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 2945.8450548933806,
+            "max_Q_MVAr": 7409.6193949119615,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.9844438951244745e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "P093-Q094",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "d5dc843e7af7506930cf758c35e9b87fd420ff5e4803d775700c596218e9ae1f",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "90edc84d6f3932ae24779855c05bc17a6af824d98f1203500d1a832c3b1731c7"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "P093-Q094",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "d5dc843e7af7506930cf758c35e9b87fd420ff5e4803d775700c596218e9ae1f",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 653140.7217452718,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.921307557495311e-11,
+              "max_Q_MVAr": 9.742961992742494e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 8.34314064855702e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 7.37543359718984e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.071498445526231e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:32:12.324251+00:00",
+          "raw_return_sha256": "f47a4be2b73fb062f4782453c50aecaaa0d1a9cd4c2e45edef3f3c88ac01f471",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4684.995011525833,
+            "max_Q_MVAr": 11688.448789080225,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.2880438766713696e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:32:21.766858+00:00",
+          "raw_return_sha256": "d9779cf27dba2ab91896476c81f84d142e599f378ffbba78eb97bae760e9cf48",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7803.986423164046,
+            "max_Q_MVAr": 21322.47200134489,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.799043207137749e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "P093-Q095",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "42bd439479db8a602c2a5ab295a3af0400f82ee748c0274fb5dbd7fc9d0444de",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "e97fd2e2f894d169f0cee15bf673e8a37ae0209a81c9854bfacb50eb49fa83ec"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "P093-Q095",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "42bd439479db8a602c2a5ab295a3af0400f82ee748c0274fb5dbd7fc9d0444de",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 653151.9145320689,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.77351466845721e-11,
+              "max_Q_MVAr": 8.077449820120819e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 8.01381727195214e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 7.595701845275471e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.071498445526231e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:32:47.481523+00:00",
+          "raw_return_sha256": "d383bf7c02510e7b9c60961e08fb2127bc3efbdc754370a8a2d309f4163e60dc",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4684.235389389369,
+            "max_Q_MVAr": 11687.0759250125,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.594131793621994e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:32:55.206187+00:00",
+          "raw_return_sha256": "985779f9836a5a22a146af83ba0221f2b15ea430aeb6eff02c3852725b8d4472",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7799.136367184287,
+            "max_Q_MVAr": 21324.853641400285,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.636895623264282e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "LOC-plus050",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "1fad56c9a2ae1f3bb5aa83cae6c45e381f38ee00859f4ee653320dfc3bf6ab0a",
+        "field_difference_count": 20,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "f9839550c25b386c083a5b8952134bf3b9486c769444515d7d322cedd2dd9fa2"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "LOC-plus050",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "1fad56c9a2ae1f3bb5aa83cae6c45e381f38ee00859f4ee653320dfc3bf6ab0a",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 719837.5351499184,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.8758328224066645e-11,
+              "max_Q_MVAr": 1.0413003792564268e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.424596570256853e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.0365042157900461e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 7.275957614183426e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:34:43.860337+00:00",
+          "raw_return_sha256": "074400de3ea2c5e1cad943fdd63d2483df589c510cc98554543b53066cbfb0b4",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3739.9990112423,
+            "max_Q_MVAr": 8917.593357183849,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 9.576184556448357e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:34:51.261552+00:00",
+          "raw_return_sha256": "e6a06a6a0416ac09dd76eee9cea23a53ee5a29b65ab6d771ee1d5eab8354f3a3",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3095.299687503849,
+            "max_Q_MVAr": 7717.005636892609,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.2002999109448197e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "LOC-plus150",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "37972fda3bb5424f43bfcc584a720fdc82b4ca3f2fe53ac5448abe30bc2a33f9",
+        "field_difference_count": 20,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "d65467532b50b1da8b83a150460fd16ba807325c9302b778bea63b45d2a23b40"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "LOC-plus150",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "37972fda3bb5424f43bfcc584a720fdc82b4ca3f2fe53ac5448abe30bc2a33f9",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 720142.698598691,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.057287590811029e-11,
+              "max_Q_MVAr": 1.0718537168941111e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.149564333237011e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.0672707162484585e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 8.640199666842818e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:35:17.902948+00:00",
+          "raw_return_sha256": "80c2e00a9ec5058de7cc29dba7f8aa998fb797fb74ab25ab1638904f1bb50dda",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3734.2741108519654,
+            "max_Q_MVAr": 8899.098967371681,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.465348151140104e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:35:25.962201+00:00",
+          "raw_return_sha256": "8ee3bc71bf48f8c43a6d0e7de861b715d6d5cfc5661f859e20b531c566054410",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7851.919583840103,
+            "max_Q_MVAr": 21374.63615654166,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.061421504478915e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "LOC-minus050",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "e5e928a8cfab517ac50d90598570c90e93fdff0ff64389ed1267714d0db01ac1",
+        "field_difference_count": 20,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "33524ac23ac307169e60093b7fd8c3eb9c3a2ed6f43690f561c29f73f47e1369"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "LOC-minus050",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "e5e928a8cfab517ac50d90598570c90e93fdff0ff64389ed1267714d0db01ac1",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 719630.9031359755,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 5.6843418860808015e-11,
+              "max_Q_MVAr": 3.944649051845772e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.731809411509762e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 2.1243806713755475e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 6.252776074688882e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:35:56.729694+00:00",
+          "raw_return_sha256": "0f63d6af0fbd0b98c2f97fd9ad7b51880c3fabe566dfbf3b7eef30cd8ceacd9c",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3774.1606768904985,
+            "max_Q_MVAr": 8978.731606596353,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.588218236905755e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:36:04.229374+00:00",
+          "raw_return_sha256": "4820bb80c677e11dca98eecb8e4e0bd4a868d866a11ade37f6d7262ceb1e44f2",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3256.788929671727,
+            "max_Q_MVAr": 8139.993812827689,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.287077425857683e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "LOC-minus150",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "8346f9c21312f9512c42fd4330cd04a257e80b37affe5986bb391d881b16f8bc",
+        "field_difference_count": 20,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "01c41757f6d2ca10aa0709372e3101c5d9ecc25cb33c73c37fdf52efc58c3ce2"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "LOC-minus150",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "8346f9c21312f9512c42fd4330cd04a257e80b37affe5986bb391d881b16f8bc",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 719491.6129820803,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.397637561240117e-11,
+              "max_Q_MVAr": 7.911715727004776e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.9615736588031145e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 7.467093610102893e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 3.410605131648481e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:36:30.614971+00:00",
+          "raw_return_sha256": "7684cf24279d1b445e6770e05af44e67dc7fdcef269765b06109e59a3ca5799c",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3807.38580175083,
+            "max_Q_MVAr": 9038.611678553227,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.712253898258232e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:36:40.177548+00:00",
+          "raw_return_sha256": "d6d49ae3c1f04a5431a5d240c733dbf9ac3c72422323940c1f0475d7db74031c",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3202.425045305505,
+            "max_Q_MVAr": 7821.156782952385,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.7545820481782864e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "A600-plus025",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "8a598e4a0d4ac87f10c236d706bd435aed3e239a09a1da2f4d28a5c52cd8df2d",
+        "field_difference_count": 748,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "9c45538bc41752e54fa710ea92cd64075019fd31d83e69b3eb4eaaf43e7344dd"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "A600-plus025",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "8a598e4a0d4ac87f10c236d706bd435aed3e239a09a1da2f4d28a5c52cd8df2d",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 1439683.6126848827,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.4239276424632408e-11,
+              "max_Q_MVAr": 1.0882850176585634e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.336457506063795e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.0514966675145843e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 3.2803981753204425e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": 0.0,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:38:14.650000+00:00",
+          "raw_return_sha256": "4ff5b711cafad8d7cdb5bc7fe3754eda21b934647116af82831f3866df0f5b1b",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 1257.5306104209071,
+            "max_Q_MVAr": 9332.031404268726,
+            "Pg_excess_MW": 9.5367431640625e-06,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.246781700060593e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:38:25.620411+00:00",
+          "raw_return_sha256": "9556c4e43571c46faf4f2faa1ee853e9d28415fc03e82857607775d1a3d7c7cf",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4995.792607023811,
+            "max_Q_MVAr": 9230.51677262754,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.97827592111512e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "A600-plus075",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "4ab102b0e6765bc3812036a8077cbdf1cf3bf43aff4897a3f6ca2215566973a3",
+        "field_difference_count": 748,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "8b52ed66efa5e55591d3b4ebaf7df511569b78a54949779c8f50d3aa88d3fa9e"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "A600-plus075",
+        "status": "PASS",
+        "reference_accepted": false,
+        "input_sha256": "4ab102b0e6765bc3812036a8077cbdf1cf3bf43aff4897a3f6ca2215566973a3",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_INFEASIBLE",
+            "objective": 1471962.7364082714,
+            "expected_accept": false,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.1592078408284578e-09,
+              "max_Q_MVAr": 3.5179903835881987,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.119395838742957e-11,
+              "joint_pass": false
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 0.761826854872389
+          },
+          {
+            "attempt": 1,
+            "termination": "LOCALLY_INFEASIBLE",
+            "objective": 1473034.8237922792,
+            "expected_accept": false,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.1592078408284578e-09,
+              "max_Q_MVAr": 3.5179851093144237,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 1.120800377644472e-10,
+              "joint_pass": false
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 0.727118727134787
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.2298073670535814e-10,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": 0.0,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:38:54.566201+00:00",
+          "raw_return_sha256": "15dcaa5de46fceaa216991d11828b2f13b5a64d932ecbbf46108f8a558db5a19",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 1702.4989688376445,
+            "max_Q_MVAr": 9264.353424804418,
+            "Pg_excess_MW": 9.5367431640625e-06,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 417.6117103551537,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 1.346493221853459e-10,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:39:02.258017+00:00",
+          "raw_return_sha256": "59ab869b770a70c1226b7506252e3d6b71c857245a1e5c396022b6114fb8d37a",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 5104.028914329977,
+            "max_Q_MVAr": 9228.140599646373,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 374.5570133719601,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.799099362250915e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "A600-minus025",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "d65668a092a32b01c9744e1845216920688cefed4b05579cbd0484f5672fd562",
+        "field_difference_count": 748,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "0f69b2d45b79b8245e5526633f69b2b919a7b0c8d6c4457037d39af943762def"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "A600-minus025",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "d65668a092a32b01c9744e1845216920688cefed4b05579cbd0484f5672fd562",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 1439683.6126848836,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 2.8535396268125623e-11,
+              "max_Q_MVAr": 9.399414580002485e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.3620987859116944e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.028510610012745e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.7765344750841905e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": 0.0,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:40:03.682713+00:00",
+          "raw_return_sha256": "ffd82f486d54c142de722adc1c83650bfb1ba46bbdb88f43ac5484b5e396182d",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 1035.7137277344884,
+            "max_Q_MVAr": 9073.645182459073,
+            "Pg_excess_MW": 9.5367431640625e-06,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.2689303490170935e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:40:13.112550+00:00",
+          "raw_return_sha256": "1c139c8882823c8ae1d6e13f644460e2988c28c4fb2bea83256d0e299ed14d0d",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4954.7440947301475,
+            "max_Q_MVAr": 9234.539176099841,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.997252494805328e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "A600-minus075",
+      "kind": "discovery",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "34bf4f9847a2a7fe346479193a2ebc8c4a88868c1116ab2956b40237267e0082",
+        "field_difference_count": 748,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "e352cad4a0420ddf9980724fd418ab508dadd61f692670e9671fc149618dc63a"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "A600-minus075",
+        "status": "PASS",
+        "reference_accepted": false,
+        "input_sha256": "34bf4f9847a2a7fe346479193a2ebc8c4a88868c1116ab2956b40237267e0082",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_INFEASIBLE",
+            "objective": 1473518.7580189786,
+            "expected_accept": false,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.7484467207395937e-09,
+              "max_Q_MVAr": 3.517980855316381,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.583660310729897e-11,
+              "joint_pass": false
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 0.8203771729201748
+          },
+          {
+            "attempt": 1,
+            "termination": "LOCALLY_INFEASIBLE",
+            "objective": 1486854.591046367,
+            "expected_accept": false,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 6.400568963726982e-11,
+              "max_Q_MVAr": 3.5179801209975494,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.035127091241994e-11,
+              "joint_pass": false
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 0.7285024341174449
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 8.413003627083526e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": 0.0,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:40:38.944795+00:00",
+          "raw_return_sha256": "77216327ad5fde884eabeb4cd00682c89c5a129c2137f5f6dcc1464cdbe285fe",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 833.4537223671003,
+            "max_Q_MVAr": 8396.926639871846,
+            "Pg_excess_MW": 9.5367431640625e-06,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 100.62572773970692,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.5203531323351565e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:40:46.007449+00:00",
+          "raw_return_sha256": "68f23a0dd9e49040e8dbbd5c739874067bc3334f045c70c0a470846adfb8ccee",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 5090.112518901786,
+            "max_Q_MVAr": 9234.98973745926,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 94.27585847916748,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 7.271693108035589e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "CONF-P0935-Q093",
+      "kind": "confirmation",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "b4ee54b5317d030f6ffccb9c77631577338c5ac80210e223ba26a101876aad53",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "cbdcbf52228b36ef6de45a7e1e2ebd579a64ad26a7906fbf1d4e44fd70934a91"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "CONF-P0935-Q093",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "b4ee54b5317d030f6ffccb9c77631577338c5ac80210e223ba26a101876aad53",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 657809.5775257323,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.8030732462648302e-10,
+              "max_Q_MVAr": 4.0386538557868334e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.7782031450317914e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 4.0386538557868334e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 6.821210263296962e-12,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:44:17.013752+00:00",
+          "raw_return_sha256": "c8e8ea36247351fd5a8b247308681f4c74706a3f00d62d55fa3578e6848d4b2f",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4616.688253826306,
+            "max_Q_MVAr": 11460.452692032868,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.645119538334448e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:44:23.031534+00:00",
+          "raw_return_sha256": "52f9fec084ad0cff73670e0b2064d97fe559c4b8535907f330547a6b0ee09408",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 5803.512712807121,
+            "max_Q_MVAr": 15164.630389636419,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.766111345216009e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "CONF-P093-Q0935",
+      "kind": "confirmation",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "dc7c52c922793a946943df7a937f5b5661665dcc73f3c73e9db4e1d43cdce3fa",
+        "field_difference_count": 374,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "2e2b2f52bf85236873ab444bbf4b6122d178eca2528def864080713ad016c78b"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "CONF-P093-Q0935",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "dc7c52c922793a946943df7a937f5b5661665dcc73f3c73e9db4e1d43cdce3fa",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 653135.2299273144,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.7351453607261647e-11,
+              "max_Q_MVAr": 1.2679990391006868e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.54477442182358e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.2603518229070687e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.071498445526231e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:44:47.571884+00:00",
+          "raw_return_sha256": "1424e4180f4955a92110fafff38be75fc0240540fcf963f2bcf354c81705c5e8",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4685.33593603379,
+            "max_Q_MVAr": 11689.118110638356,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.157628024167927e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:44:56.102331+00:00",
+          "raw_return_sha256": "1e8db9a497676bad4825e5259abbbd1a6a4a76a51a205b4b557c7423f242583b",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7805.952185090311,
+            "max_Q_MVAr": 21321.41267869061,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.138220608241973e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "CONF-LOC-plus075",
+      "kind": "confirmation",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "dcbf8f83cadde0cf205dfdfabad9a3f040ebdb54d49aa4d67a5a6bfcc6d855be",
+        "field_difference_count": 20,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "b78522fa97bb357d5758d9c7798ff6614b10f73353d77f65727aadf58886c1a6"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "CONF-LOC-plus075",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "dcbf8f83cadde0cf205dfdfabad9a3f040ebdb54d49aa4d67a5a6bfcc6d855be",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 719901.1290034931,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.907096702780109e-11,
+              "max_Q_MVAr": 1.659792303598806e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 2.62373601005195e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.6328094432083162e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.1823431123048067e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:45:19.594037+00:00",
+          "raw_return_sha256": "bdcc14b17c9d2188347e62c004423a5a71e0f1df819d6f63e2c93c6b76b8099a",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3733.870038579607,
+            "max_Q_MVAr": 8909.075806169334,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.580324037213542e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:45:26.398348+00:00",
+          "raw_return_sha256": "d43d52a7f7fb4c45438e89608eb05715c3a93acff208efb2ae1629c934a7d3a1",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 2983.2792226308384,
+            "max_Q_MVAr": 7481.57397683438,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 3.22878625145462e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "CONF-LOC-plus125",
+      "kind": "confirmation",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "3ecf331702552ca5c2d97f1914e3a8566d11627d2dcf9a8a3a2bc8f566eb5895",
+        "field_difference_count": 20,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "89c5b7ae191a49467078149343c17a341d4a8c94bc5d3923adde487435767dfe"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "CONF-LOC-plus125",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "3ecf331702552ca5c2d97f1914e3a8566d11627d2dcf9a8a3a2bc8f566eb5895",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 720045.9792607366,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.7962520360015333e-11,
+              "max_Q_MVAr": 9.876544027065393e-11,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 0,
+              "thermal_excess_MVA": null,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.5280843170910617e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 7.628386811120436e-11
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 1.2050804798491299e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": null,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:45:50.384277+00:00",
+          "raw_return_sha256": "45a05ca0b4de51908e9b1ed4f1783673100b16ed8d227f8031e3eb734739d57e",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 3722.442900461957,
+            "max_Q_MVAr": 8893.2906128131,
+            "Pg_excess_MW": 0.0,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.4278083794091744e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:45:59.141475+00:00",
+          "raw_return_sha256": "af6f5e936d4186f1b4bafc19157c62738d0c727ca93903520692308277d832c7",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                300
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                69
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                411
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 7911.689692493549,
+            "max_Q_MVAr": 21387.52038401733,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 0,
+            "thermal_excess_MVA": null,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 9.396586801776719e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "CONF-A600-plus040",
+      "kind": "confirmation",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "e409a93193cca66f5d89a022f6b1a5c15914181ad2c23382605132f4f60900fa",
+        "field_difference_count": 748,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "a71bd74c2406e793adbf57ddb11d4d8222f7887625143507bb30b9527848eb4c"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "CONF-A600-plus040",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "e409a93193cca66f5d89a022f6b1a5c15914181ad2c23382605132f4f60900fa",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 1440535.3944043722,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 1.7690737763587094e-11,
+              "max_Q_MVAr": 1.142055339187209e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.876504809643615e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.1235279373522644e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 4.070166426117794e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": 0.0,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:46:22.790544+00:00",
+          "raw_return_sha256": "ecb2725f7cf7b227401631a42970e7c6a5fa1475c1878e26b15038467a8fe12f",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 1346.732267923296,
+            "max_Q_MVAr": 9369.217347521926,
+            "Pg_excess_MW": 9.5367431640625e-06,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 26.9343504308888,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 4.4706544879706964e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:46:30.038619+00:00",
+          "raw_return_sha256": "ec5355705ffc1099202361b21589a0af9723c9c541458c0a9c9d3b80012275b3",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 5046.447751723043,
+            "max_Q_MVAr": 9229.583247083943,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.611258621108755e-11,
+            "joint_pass": false
+          }
+        }
+      }
+    },
+    {
+      "scenario": "CONF-A600-minus040",
+      "kind": "confirmation",
+      "status": "PASS",
+      "input": {
+        "input_sha256": "eb4cd6c63b622c3aebc74cac525441af9029fe4384b0f27d8b3809e7a95f6f91",
+        "field_difference_count": 748,
+        "fixed_original_order": true,
+        "unchanged_except_preregistered_fields": true,
+        "electrical_signature": "6abccc3d69ca4dcb3ca7576fe310ed063af1f242d816fa47bbdbb5e09dfebfb6"
+      },
+      "all_four_methods_attempted": true,
+      "AC": {
+        "scenario": "CONF-A600-minus040",
+        "status": "PASS",
+        "reference_accepted": true,
+        "input_sha256": "eb4cd6c63b622c3aebc74cac525441af9029fe4384b0f27d8b3809e7a95f6f91",
+        "attempts": [
+          {
+            "attempt": 0,
+            "termination": "LOCALLY_SOLVED",
+            "objective": 1440535.394404373,
+            "expected_accept": true,
+            "parsed_fields_preserved": true,
+            "metrics": {
+              "max_P_MW": 2.0310864101702464e-11,
+              "max_Q_MVAr": 1.6085532905663058e-10,
+              "Pg_excess_MW": 0.0,
+              "Qg_excess_MVAr": 0.0,
+              "Vm_excess_pu": 0.0,
+              "angle_excess_deg": 0.0,
+              "rated_branches": 2,
+              "thermal_excess_MVA": 0.0,
+              "direct_stamp_vs_PYPOWER_Ybus_MVA": 6.354771997600532e-11,
+              "joint_pass": true
+            },
+            "reconstructed_vs_solver_branch_max_MVA": 1.5717205315013416e-10
+          }
+        ]
+      },
+      "DC": {
+        "status": "PASS",
+        "own_equations_pass": true,
+        "solver_success": true,
+        "maximum_P_residual_MW": 3.366551482031355e-11,
+        "Pg_excess_MW": 0.0,
+        "thermal_excess_DC_MW": 0.0,
+        "Qg_Vm_joint_AC_NA": true,
+        "input_fields_preserved": true
+      },
+      "models": {
+        "microsoft-v1.1": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:46:54.725055+00:00",
+          "raw_return_sha256": "bfd6695fe1e56f59fcd8d4e90655e0c0e97d84090d2c5ae9f6f0859457c755fa",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 978.5448771843136,
+            "max_Q_MVAr": 8911.394276797655,
+            "Pg_excess_MW": 9.5367431640625e-06,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 0.0,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 5.494712565365614e-11,
+            "joint_pass": false
+          }
+        },
+        "newer-base-v2": {
+          "status": "PASS",
+          "raw_tensors_equal_json": true,
+          "native_mapping_exact": true,
+          "shipped_features_unaltered": true,
+          "observed_clamps_exact": true,
+          "started_UTC": "2026-10-26T17:47:03.267838+00:00",
+          "raw_return_sha256": "47fee8d35e02f1e748abba2116560d491ef12ed239cd1193e90971e41820c923",
+          "raw_tensor_metadata": {
+            "theta": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "V": {
+              "shape": [
+                600
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qg": {
+              "shape": [
+                138
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qij": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Pji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            },
+            "Qji": {
+              "shape": [
+                824
+              ],
+              "dtype": "torch.float32"
+            }
+          },
+          "physics": {
+            "max_P_MW": 4995.541939698163,
+            "max_Q_MVAr": 9235.33999011331,
+            "Pg_excess_MW": 3.814697265625e-05,
+            "Qg_excess_MVAr": 4.76837158203125e-06,
+            "Vm_excess_pu": 2.38418573772492e-09,
+            "angle_excess_deg": 0.0,
+            "rated_branches": 2,
+            "thermal_excess_MVA": 0.0,
+            "direct_stamp_vs_PYPOWER_Ybus_MVA": 1.0273592127299866e-10,
+            "joint_pass": false
+          }
+        }
+      }
+    }
+  ]
+}

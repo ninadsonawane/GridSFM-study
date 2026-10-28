@@ -1,0 +1,236 @@
+[
+  {
+    "release": "microsoft-v1.1",
+    "fresh_vs_historical_native": {
+      "vm": {
+        "max_abs": 2.384185791015625e-07,
+        "mean_abs": 2.2451082865397134e-08
+      },
+      "va_deg": {
+        "max_abs": 9.562264837903456e-05,
+        "mean_abs": 3.120258085835788e-05
+      },
+      "pg_mw": {
+        "max_abs": 0.0004291534423828125,
+        "mean_abs": 9.834766387939453e-05
+      },
+      "qg_mvar": {
+        "max_abs": 0.0001728534698486328,
+        "mean_abs": 3.106028273485709e-05
+      }
+    },
+    "fresh_native_score": {
+      "method": "microsoft-v1.1",
+      "P": {
+        "mean": 89.27906106621707,
+        "median": 15.71510913010302,
+        "p95": 250.04413101042454,
+        "max": 3754.086767577575,
+        "count": 300
+      },
+      "Q": {
+        "mean": 272.607337425903,
+        "median": 73.74960719337491,
+        "p95": 718.0415177095813,
+        "max": 8937.954902940382,
+        "count": 300
+      },
+      "P_total_abs": 26783.718319865122,
+      "Q_total_abs": 81782.2012277709,
+      "P_violating_buses": 300,
+      "Q_violating_buses": 300,
+      "Pg_max_excess": 0.0,
+      "Pg_violating_count": 0,
+      "Qg_max_excess": 4.76837158203125e-06,
+      "Qg_violating_count": 0,
+      "Vm_max_excess": 2.38418573772492e-09,
+      "Vm_violating_count": 0,
+      "angle_max_excess_deg": 0.0,
+      "angle_violating_count": 0,
+      "rated_online_branch_count": 0,
+      "thermal_max_excess_MVA_or_DC_MW": null,
+      "thermal_max_ratio": null,
+      "thermal_violating_count": null,
+      "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+      "AC_joint_feasible": false,
+      "native_DC_constraints_pass": null,
+      "physics_crosscheck": 3.993499994994663e-11,
+      "approximation": {
+        "Pg_per_generator_MW": {
+          "mean": 195.13378387589202,
+          "median": 141.01822973253755,
+          "p95": 631.4581009915752,
+          "max": 897.8334608970724,
+          "count": 69
+        },
+        "Pg_bus_aggregate_MW": {
+          "mean": 195.13378387589202,
+          "median": 141.01822973253755,
+          "p95": 631.4581009915752,
+          "max": 897.8334608970724,
+          "count": 69
+        },
+        "aligned_angle_deg": {
+          "mean": 23.305114184911208,
+          "median": 23.209725222663224,
+          "p95": 35.4687869969937,
+          "max": 38.17643853846636,
+          "count": 300
+        },
+        "branch_P_MW": {
+          "mean": 77.14169712655253,
+          "median": 30.985113576221742,
+          "p95": 237.9039639051707,
+          "max": 3406.8162769408573,
+          "count": 822
+        },
+        "Qg_per_generator_MVAr": {
+          "mean": 89.09680765542618,
+          "median": 47.73275851537917,
+          "p95": 311.16756052890133,
+          "max": 546.6929492372647,
+          "count": 69
+        },
+        "Qg_bus_aggregate_MVAr": {
+          "mean": 89.09680765542618,
+          "median": 47.73275851537917,
+          "p95": 311.16756052890133,
+          "max": 546.6929492372647,
+          "count": 69
+        },
+        "Vm_pu": {
+          "mean": 0.026868821698965074,
+          "median": 0.020125495810880523,
+          "p95": 0.07843243973662022,
+          "max": 0.1105303772379368,
+          "count": 300
+        },
+        "branch_Q_MVAr": {
+          "mean": 118.65883369843151,
+          "median": 32.58201797783788,
+          "p95": 357.4494902458915,
+          "max": 8019.060493264295,
+          "count": 822
+        }
+      }
+    },
+    "note": "Direct cross-platform replay comparison; separate from exact within-platform repeatability."
+  },
+  {
+    "release": "newer-base-v2",
+    "fresh_vs_historical_native": {
+      "vm": {
+        "max_abs": 1.3709068298339844e-06,
+        "mean_abs": 4.192193349202474e-08
+      },
+      "va_deg": {
+        "max_abs": 6.830189170159429e-05,
+        "mean_abs": 2.0632863117750616e-05
+      },
+      "pg_mw": {
+        "max_abs": 0.001913309097290039,
+        "mean_abs": 8.448310520337975e-05
+      },
+      "qg_mvar": {
+        "max_abs": 0.0005960464477539062,
+        "mean_abs": 7.694614106330319e-05
+      }
+    },
+    "fresh_native_score": {
+      "method": "newer-base-v2",
+      "P": {
+        "mean": 164.28125358072967,
+        "median": 60.46889091923376,
+        "p95": 713.8292963263877,
+        "max": 3210.723454766307,
+        "count": 300
+      },
+      "Q": {
+        "mean": 363.4529331438576,
+        "median": 98.87213401521137,
+        "p95": 1372.9164210840215,
+        "max": 7958.032932538045,
+        "count": 300
+      },
+      "P_total_abs": 49284.376074218904,
+      "Q_total_abs": 109035.87994315728,
+      "P_violating_buses": 300,
+      "Q_violating_buses": 300,
+      "Pg_max_excess": 3.814697265625e-05,
+      "Pg_violating_count": 0,
+      "Qg_max_excess": 4.76837158203125e-06,
+      "Qg_violating_count": 0,
+      "Vm_max_excess": 2.38418573772492e-09,
+      "Vm_violating_count": 0,
+      "angle_max_excess_deg": 0.0,
+      "angle_violating_count": 0,
+      "rated_online_branch_count": 0,
+      "thermal_max_excess_MVA_or_DC_MW": null,
+      "thermal_max_ratio": null,
+      "thermal_violating_count": null,
+      "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+      "AC_joint_feasible": false,
+      "native_DC_constraints_pass": null,
+      "physics_crosscheck": 5.61912074589208e-11,
+      "approximation": {
+        "Pg_per_generator_MW": {
+          "mean": 106.39847654373288,
+          "median": 91.78438511587082,
+          "p95": 167.00017427054047,
+          "max": 1333.1892719464777,
+          "count": 69
+        },
+        "Pg_bus_aggregate_MW": {
+          "mean": 106.39847654373288,
+          "median": 91.78438511587082,
+          "p95": 167.00017427054047,
+          "max": 1333.1892719464777,
+          "count": 69
+        },
+        "aligned_angle_deg": {
+          "mean": 48.831863109510884,
+          "median": 51.466480697902185,
+          "p95": 68.80768085987634,
+          "max": 78.95662854540646,
+          "count": 300
+        },
+        "branch_P_MW": {
+          "mean": 98.31695914596172,
+          "median": 37.588169807961165,
+          "p95": 339.4384149400647,
+          "max": 2729.3126375958564,
+          "count": 822
+        },
+        "Qg_per_generator_MVAr": {
+          "mean": 98.65860027069857,
+          "median": 53.163418295003396,
+          "p95": 327.25963242788146,
+          "max": 553.2271639660589,
+          "count": 69
+        },
+        "Qg_bus_aggregate_MVAr": {
+          "mean": 98.65860027069857,
+          "median": 53.163418295003396,
+          "p95": 327.25963242788146,
+          "max": 553.2271639660589,
+          "count": 69
+        },
+        "Vm_pu": {
+          "mean": 0.043526880261809696,
+          "median": 0.03999213689387471,
+          "p95": 0.10054685530461714,
+          "max": 0.12000000238292508,
+          "count": 300
+        },
+        "branch_Q_MVAr": {
+          "mean": 156.6619015252775,
+          "median": 41.9995557354836,
+          "p95": 598.3094172286931,
+          "max": 6756.187606414318,
+          "count": 822
+        }
+      }
+    },
+    "note": "Direct cross-platform replay comparison; separate from exact within-platform repeatability."
+  }
+]

@@ -1,0 +1,21 @@
+{
+ "batch":"06-confirmation", "kind":"confirmation",
+ "hypothesis":"Confirm the P-driven clamp exit and opposite Qg response at a smaller component change; confirm the fixed-total location response at two previously untested strengths; check a nearby signed area-shift control with existing ties.",
+ "motivation":"Twenty discovery inputs attempted in five batches. Original-case references all pass. Global and P-only changes release v2 Vm235 lower clamp, while Q-only keeps it lower-clamped and both models reduce totalQg despite increasing verified ACQg. Location+.5->+1.5 flips native Vm235 upper->lower and raises v2 mean/maxQ with fixed loads at235/238. Existing600 ±.025 references pass; ±.075 references remainUNKNOWN after both attempts; DC own-law passes and native tie outcomes are retained.",
+ "paired_baseline":"P/Q controls against fresh G300-0.93; positive-location controls against freshLOC-plus050/plus150 and reused local1.00 replay; area controls against newA600±.025 and historical±.05 summaries. All six settings fixed here before any confirmation outcome.",
+ "expected_AC":"P-only raises demand and can alter Q through losses. Q-only should require greater net reactive supply locally as in the discovery points, but verify actual reference. Location/area changes retain totalP/Q and change local dispatch/flows. Failed reference remainsUNKNOWN and is not replaced.",
+ "expected_DC":"Q-only confirmation must exactly match G300-0.93 nativeDC arrays; other conditions affect P spatial/scalar inputs. DC Qg/Vm/jointAC remainN/A.",
+ "claim_tests":[
+  "At intermediate P=.935,Q=.93, v2 Vm235 leaves lower clamp; at P=.93,Q=.935 it stays lower-clamped. The latter AC totalQg rises while both frozen native totalQg fall, without attributing it to new Qg-clamp membership.",
+  "At positive location strengths.75 and1.25, quantify whether the onset/sustained v2 voltage/imbalance degradation is reproduced; no universal monotonic response or threshold is assumed.",
+  "At area shifts±.04, preserve full finite-tie outcome and corresponding verifiedAC/UNKNOWN classification; these nearby controls cannot certify the failed±.075 cases infeasible."
+ ],
+ "scenarios":[
+  {"id":"CONF-P0935-Q093","network":300,"p_scale":0.935,"q_scale":0.93},
+  {"id":"CONF-P093-Q0935","network":300,"p_scale":0.93,"q_scale":0.935},
+  {"id":"CONF-LOC-plus075","network":300,"redistribution":0.75},
+  {"id":"CONF-LOC-plus125","network":300,"redistribution":1.25},
+  {"id":"CONF-A600-plus040","network":600,"area_delta":0.04},
+  {"id":"CONF-A600-minus040","network":600,"area_delta":-0.04}
+ ]
+}

@@ -37,3 +37,14 @@ results/pilots/GSFM-007/*/pilot-wrapper/
 /results/pilots/GSFM-007/*/online-partial.json
 /results/pilots/GSFM-007/*/online-rows.jsonl
 /results/pilots/GSFM-007/*/ridge/**/*.npz
+
+# GSFM-020 full raw evidence: GitHub release gsfm-020-2026-10-26, SHA256 indexed.
+# Deliberately committed compact summaries remain tracked under these paths.
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/bases/
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/cases/
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/diagnostic/
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/mechanisms/bound-clipping-activity.csv
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/mechanisms/constraint-locations.csv
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/mechanisms/paired-local-budgets.csv
+/results/comparisons/GSFM-020/20261026-local-operating-conditions/mechanisms/signed-bus-budgets.csv

@@ -1,0 +1,330 @@
+[
+  {
+    "scenario": "G300-0.9301",
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "microsoft-v1.1",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\microsoft",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v1.1.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301"
+        ],
+        "returncode": 0,
+        "wall_seconds": 8.027971799951047
+      },
+      "newer-base-v2": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "newer-base-v2",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\newer",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v2.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301"
+        ],
+        "returncode": 0,
+        "wall_seconds": 9.76765269995667
+      }
+    },
+    "DC": {
+      "argv": [
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\run_dc.py",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.2123099999735132
+    },
+    "AC": [
+      {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\julia\\julia-1.11.9\\bin\\julia.exe",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\julia",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\solver_server.jl"
+        ],
+        "returncode": 0,
+        "wall_seconds": 14.103079300024547,
+        "method": "default",
+        "request": {
+          "run_id": "20-G300-0.9301-0",
+          "method": "default",
+          "matpower_file": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\case.m",
+          "log_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\ac-attempt0.log",
+          "result_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9301\\ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 21,
+        "independent_pass": true,
+        "objective": 653223.4038068866
+      }
+    ]
+  },
+  {
+    "scenario": "G300-0.9303",
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "microsoft-v1.1",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\microsoft",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v1.1.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303"
+        ],
+        "returncode": 0,
+        "wall_seconds": 8.083851300063543
+      },
+      "newer-base-v2": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "newer-base-v2",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\newer",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v2.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303"
+        ],
+        "returncode": 0,
+        "wall_seconds": 6.835343900020234
+      }
+    },
+    "DC": {
+      "argv": [
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\run_dc.py",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.0289566999999806
+    },
+    "AC": [
+      {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\julia\\julia-1.11.9\\bin\\julia.exe",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\julia",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\solver_server.jl"
+        ],
+        "returncode": 0,
+        "wall_seconds": 13.846561299986206,
+        "method": "default",
+        "request": {
+          "run_id": "20-G300-0.9303-0",
+          "method": "default",
+          "matpower_file": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\case.m",
+          "log_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\ac-attempt0.log",
+          "result_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.9303\\ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 21,
+        "independent_pass": true,
+        "objective": 653410.6094461624
+      }
+    ]
+  },
+  {
+    "scenario": "G300-0.935",
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "microsoft-v1.1",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\microsoft",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v1.1.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935"
+        ],
+        "returncode": 0,
+        "wall_seconds": 7.629594499943778
+      },
+      "newer-base-v2": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "newer-base-v2",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\newer",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v2.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935"
+        ],
+        "returncode": 0,
+        "wall_seconds": 8.736021199962124
+      }
+    },
+    "DC": {
+      "argv": [
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\run_dc.py",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.0322728999890387
+    },
+    "AC": [
+      {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\julia\\julia-1.11.9\\bin\\julia.exe",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\julia",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\solver_server.jl"
+        ],
+        "returncode": 0,
+        "wall_seconds": 13.479182400042191,
+        "method": "default",
+        "request": {
+          "run_id": "20-G300-0.935-0",
+          "method": "default",
+          "matpower_file": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\case.m",
+          "log_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\ac-attempt0.log",
+          "result_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.935\\ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 22,
+        "independent_pass": true,
+        "objective": 657815.0601234098
+      }
+    ]
+  },
+  {
+    "scenario": "G300-0.945",
+    "models": {
+      "microsoft-v1.1": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "microsoft-v1.1",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\microsoft",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v1.1.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945"
+        ],
+        "returncode": 0,
+        "wall_seconds": 9.630112300044857
+      },
+      "newer-base-v2": {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+          "-B",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+          "--release",
+          "newer-base-v2",
+          "--source",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\newer",
+          "--checkpoint",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v2.pt",
+          "--input",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\input.json",
+          "--out",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945"
+        ],
+        "returncode": 0,
+        "wall_seconds": 7.621127600083128
+      }
+    },
+    "DC": {
+      "argv": [
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\run_dc.py",
+        "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.101514899986796
+    },
+    "AC": [
+      {
+        "argv": [
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\julia\\julia-1.11.9\\bin\\julia.exe",
+          "--startup-file=no",
+          "--history-file=no",
+          "--compiled-modules=existing",
+          "--project=C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\julia",
+          "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\solver_server.jl"
+        ],
+        "returncode": 0,
+        "wall_seconds": 15.778381499927491,
+        "method": "default",
+        "request": {
+          "run_id": "20-G300-0.945-0",
+          "method": "default",
+          "matpower_file": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\case.m",
+          "log_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\ac-attempt0.log",
+          "result_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\cases\\G300-0.945\\ac-attempt0.json",
+          "load_scale": 1.0,
+          "remaining_seconds": 120.0,
+          "capture_internal_iterate": false
+        },
+        "solver_status": "LOCALLY_SOLVED",
+        "iterations": 20,
+        "independent_pass": true,
+        "objective": 667218.9291454167
+      }
+    ]
+  }
+]

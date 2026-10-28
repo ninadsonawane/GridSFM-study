@@ -1,0 +1,14 @@
+{
+ "batch":"03-P-Q-isolation", "kind":"discovery",
+ "hypothesis":"The native bus235 clamp transition under joint loading can be isolated into P-demand and Q-demand responses. It may be driven mostly by P despite being observed as a Q-balance improvement.",
+ "motivation":"Batch02 brackets the first sampled native clamp exit between0.9301(preclip0.9392124, clipped0.94) and0.9303(preclip/native0.9405317). At0.945 Qmax8232.17MVAr. All eight AC references pass. Rather than generalizing a global-load threshold, isolate each demand component at the same fixed topology/order.",
+ "paired_baseline":"Fresh G300-0.93 (both components0.93), G300-0.94 and0.945, plus saved0.95. Each new input changes exactly one component from0.93.",
+ "expected_AC":"P-only raises active supply/losses and may alter Q/voltage through coupling; Q-only changes reactive supply/voltage and may alter active losses. No assumed uniform perbus voltage direction.",
+ "expected_DC":"Q-only states should be exactly identical to fresh G300-0.93 because P/GS/branches/costs are unchanged. P-only states should match corresponding joint-P scale when available. Validate numerical invariance, not just qualitative behavior.",
+ "scenarios":[
+  {"id":"P094-Q093","network":300,"p_scale":0.94,"q_scale":0.93},
+  {"id":"P095-Q093","network":300,"p_scale":0.95,"q_scale":0.93},
+  {"id":"P093-Q094","network":300,"p_scale":0.93,"q_scale":0.94},
+  {"id":"P093-Q095","network":300,"p_scale":0.93,"q_scale":0.95}
+ ]
+}

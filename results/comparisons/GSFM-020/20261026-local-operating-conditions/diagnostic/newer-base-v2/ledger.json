@@ -1,0 +1,200 @@
+[
+  {
+    "name": "baseline-cold",
+    "status": "PASS",
+    "started_unix": 1793035096.5468109,
+    "elapsed_seconds": 0.3601111000170931
+  },
+  {
+    "name": "baseline-warm",
+    "status": "PASS",
+    "started_unix": 1793035097.0315266,
+    "elapsed_seconds": 0.3004604000598192,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "va_deg": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "pg_mw": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "qg_mvar": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      }
+    },
+    "exact_all_returned_values_equal_baseline": true
+  },
+  {
+    "name": "label-poison",
+    "status": "PASS",
+    "started_unix": 1793035097.4571588,
+    "elapsed_seconds": 0.3613294999813661,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "va_deg": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "pg_mw": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "qg_mvar": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      }
+    },
+    "exact_all_returned_values_equal_baseline": true
+  },
+  {
+    "name": "branch-reverse-default",
+    "status": "PASS",
+    "started_unix": 1793035097.9557474,
+    "elapsed_seconds": 0.4073280000593513,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.1199999451637268,
+        "mean_abs": 0.013128332893053691,
+        "nonzero_count": 50
+      },
+      "va_deg": {
+        "max_abs": 10.068890704608968,
+        "mean_abs": 2.9564921484382043,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 247.11761474609375,
+        "mean_abs": 18.29531978869784,
+        "nonzero_count": 22
+      },
+      "qg_mvar": {
+        "max_abs": 63.94679546356201,
+        "mean_abs": 12.448386642811954,
+        "nonzero_count": 44
+      }
+    }
+  },
+  {
+    "name": "branch-reverse-cycles",
+    "status": "PASS",
+    "started_unix": 1793035098.5053055,
+    "elapsed_seconds": 0.35136589989997447,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 1.1324882507324219e-06,
+        "mean_abs": 2.6027361551920572e-08,
+        "nonzero_count": 16
+      },
+      "va_deg": {
+        "max_abs": 2.7320756686322056e-05,
+        "mean_abs": 7.114780385160715e-06,
+        "nonzero_count": 243
+      },
+      "pg_mw": {
+        "max_abs": 0.00035762786865234375,
+        "mean_abs": 3.800875898720562e-05,
+        "nonzero_count": 16
+      },
+      "qg_mvar": {
+        "max_abs": 0.0003337860107421875,
+        "mean_abs": 4.415278849394425e-05,
+        "nonzero_count": 40
+      }
+    }
+  },
+  {
+    "name": "bus-reverse-default",
+    "status": "PASS",
+    "started_unix": 1793035098.991948,
+    "elapsed_seconds": 0.37036440009251237,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.1199999451637268,
+        "mean_abs": 0.028063735365867613,
+        "nonzero_count": 86
+      },
+      "va_deg": {
+        "max_abs": 13.627460243320627,
+        "mean_abs": 3.1641242927596482,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 269.4628715515137,
+        "mean_abs": 23.332580880842347,
+        "nonzero_count": 29
+      },
+      "qg_mvar": {
+        "max_abs": 150.0039517879486,
+        "mean_abs": 23.523203434719555,
+        "nonzero_count": 47
+      }
+    }
+  },
+  {
+    "name": "bus-reverse-cycles",
+    "status": "PASS",
+    "started_unix": 1793035099.6092813,
+    "elapsed_seconds": 0.3902367999544367,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 5.125999450683594e-06,
+        "mean_abs": 8.185704549153646e-08,
+        "nonzero_count": 18
+      },
+      "va_deg": {
+        "max_abs": 4.781132419395817e-05,
+        "mean_abs": 1.4018963271434186e-05,
+        "nonzero_count": 255
+      },
+      "pg_mw": {
+        "max_abs": 0.0009059906005859375,
+        "mean_abs": 6.331913713095845e-05,
+        "nonzero_count": 17
+      },
+      "qg_mvar": {
+        "max_abs": 0.0008106231689453125,
+        "mean_abs": 7.368786179501078e-05,
+        "nonzero_count": 39
+      }
+    }
+  },
+  {
+    "name": "independent-cold",
+    "status": "FAILED",
+    "started_unix": 1793035100.1260264,
+    "argv": [
+      "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+      "-B",
+      "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+      "--release",
+      "newer-base-v2",
+      "--source",
+      "..\\runtime\\sources\\newer",
+      "--checkpoint",
+      "..\\runtime\\checkpoints\\gridsfm_open_v2.pt",
+      "--input",
+      "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\bases\\300\\input.json",
+      "--out",
+      "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\diagnostic\\newer-base-v2\\independent-cold"
+    ],
+    "returncode": 1,
+    "error": "AssertionError('Independent cold-process forward failed')"
+  }
+]

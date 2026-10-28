@@ -1,0 +1,9 @@
+{
+  "study_commit": "2aa8778e0cc97cc39e748b40fdb8b36a475e4d0f",
+  "case_source_sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+  "config_sha256": "6ccdcb76f02a173f0181a0f9894c7a74260f93654df2ca92fe939c726e4193d5",
+  "protocol_sha256": "e0dab2897a0f23b7edc5bfa4721ce33e741f9b3a0c36dd09e183a91a164a9b97",
+  "initialized_UTC": "2026-10-26T17:09:41.799280+00:00",
+  "local_setup_authorized": true,
+  "no_publication": true
+}

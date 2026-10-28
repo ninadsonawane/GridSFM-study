@@ -1,0 +1,480 @@
+{
+  "status": "PASS",
+  "date_UTC": "2026-10-26T17:12:23.079616+00:00",
+  "scope": "Original base input only; reconstructed tracked CSV states; no inference, solve, repair or new electrical input.",
+  "study_HEAD": "2aa8778e0cc97cc39e748b40fdb8b36a475e4d0f",
+  "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\Ninad\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.1",
+  "command": [
+    "C:\\Users\\Ninad\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "-B",
+    "experiments/gsfm018/revalidate_base.py",
+    "--case",
+    "data\\source\\matpower-8.1\\case300.m"
+  ],
+  "code_sha256": {
+    "experiments\\gsfm018\\revalidate_base.py": "4a68f57660dfc9ca20196ce113bddb776d7f3558e8c8068fd959fb5bf711f1b5",
+    "scripts\\python\\matpower_case.py": "f200f52dd96529aaa7f4bddb05f7e76f14d5fbd55c4a40880c9a7b5577968511",
+    "scripts\\python\\physics_metrics.py": "947714c17c7c4125963540ebe28884627b667220fd07073e460129183e963834"
+  },
+  "input_artifacts": [
+    {
+      "path": "data\\source\\matpower-8.1\\case300.m",
+      "sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5",
+      "bytes": 66034,
+      "repo_relative_path": null
+    },
+    {
+      "path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\diagnosis\\GSFM-011D\\20261022-saved-states\\base-bus-terms.csv",
+      "sha256": "f020c2311695cf7cf47b17f499ebd38a6374c9841d3db777c043f8fde0b61e16",
+      "bytes": 290959,
+      "repo_relative_path": "results/diagnosis/GSFM-011D/20261022-saved-states/base-bus-terms.csv",
+      "git_HEAD_blob_sha256": "f020c2311695cf7cf47b17f499ebd38a6374c9841d3db777c043f8fde0b61e16",
+      "working_text_matches_HEAD_after_newline_normalization": true
+    },
+    {
+      "path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\diagnosis\\GSFM-011D\\20261022-saved-states\\base-generators.csv",
+      "sha256": "e254f6b29ed48163bf67fa74c6e653d8d4cd96892429553bc2f1a0ca8a1b0d6f",
+      "bytes": 17855,
+      "repo_relative_path": "results/diagnosis/GSFM-011D/20261022-saved-states/base-generators.csv",
+      "git_HEAD_blob_sha256": "e254f6b29ed48163bf67fa74c6e653d8d4cd96892429553bc2f1a0ca8a1b0d6f",
+      "working_text_matches_HEAD_after_newline_normalization": true
+    },
+    {
+      "path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-011B\\20261022-original-case300\\artifact-inventory.json",
+      "sha256": "83d088fc3cc6ac87339888d55c56611fcef6c06da4f7043cb9c66a7606fc2ee2",
+      "bytes": 4679,
+      "repo_relative_path": "results/comparisons/GSFM-011B/20261022-original-case300/artifact-inventory.json",
+      "git_HEAD_blob_sha256": "83d088fc3cc6ac87339888d55c56611fcef6c06da4f7043cb9c66a7606fc2ee2",
+      "working_text_matches_HEAD_after_newline_normalization": true
+    },
+    {
+      "path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\results\\comparisons\\GSFM-011B\\20261022-original-case300\\bus-diagnostics.csv",
+      "sha256": "48a810197c75e26bf9f2f331ab09ef39e4e6f8139801bdb703b7677ad176d3b5",
+      "bytes": 83608,
+      "repo_relative_path": "results/comparisons/GSFM-011B/20261022-original-case300/bus-diagnostics.csv",
+      "git_HEAD_blob_sha256": "48a810197c75e26bf9f2f331ab09ef39e4e6f8139801bdb703b7677ad176d3b5",
+      "working_text_matches_HEAD_after_newline_normalization": true
+    }
+  ],
+  "derived_state_artifacts": {
+    "microsoft-v1.1": {
+      "path": "results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/microsoft-v1.1-DERIVED-state.json",
+      "sha256": "b9130fc568008f74cae06838857579f0c933b94e2684035e11915fa2d7d2638c",
+      "bytes": 22568
+    },
+    "newer-base-v2": {
+      "path": "results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/newer-base-v2-DERIVED-state.json",
+      "sha256": "e004b3962b47870ad6226b081e12782ad6c29cbafa3d48898faf655f13b786df",
+      "bytes": 22237
+    },
+    "AC-reference": {
+      "path": "results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/AC-reference-DERIVED-state.json",
+      "sha256": "9a4151d709e18f58e5a37e295210c8c11a278b330042e911f74596418b96447d",
+      "bytes": 22731
+    }
+  },
+  "raw_artifact_presence_in_current_checkout": {
+    "input.json": false,
+    "ac-native.json": false,
+    "ac-result.json": false,
+    "microsoft-v1.1-native.json": false,
+    "newer-base-v2-native.json": false,
+    "microsoft-v1.1-returned.json": false,
+    "newer-base-v2-returned.json": false,
+    "microsoft-v1.1-input.pyg.json": false,
+    "newer-base-v2-input.pyg.json": false
+  },
+  "historical_native_serialization_checks": {
+    "microsoft-v1.1": {
+      "historical_native_filename": "microsoft-v1.1-native.json",
+      "historical_native_sha256": "6153ff6d55762fd61ae2fa8bf1406f742a8962375766b1bdd40a0f41448a58ca",
+      "reconstructed_native_serialization_sha256": "6153ff6d55762fd61ae2fa8bf1406f742a8962375766b1bdd40a0f41448a58ca",
+      "exact_historical_native_serialization_hash_match": true
+    },
+    "newer-base-v2": {
+      "historical_native_filename": "newer-base-v2-native.json",
+      "historical_native_sha256": "7151c655cfc762c6ff26ccf990120e53961fa204943d20eef5ec42e60436925e",
+      "reconstructed_native_serialization_sha256": "7151c655cfc762c6ff26ccf990120e53961fa204943d20eef5ec42e60436925e",
+      "exact_historical_native_serialization_hash_match": true
+    },
+    "AC-reference": {
+      "historical_native_filename": "ac-native.json",
+      "historical_native_sha256": "c6f6ef5110422baab7269099cc2eb8c47803bc38bfe77e439af48f2203644461",
+      "reconstructed_native_serialization_sha256": "c6f6ef5110422baab7269099cc2eb8c47803bc38bfe77e439af48f2203644461",
+      "exact_historical_native_serialization_hash_match": true
+    }
+  },
+  "duplicate_reference_arrays_exactly_equal_across_two_release_CSV_blocks": true,
+  "rounding_assessment": "CSV numeric strings parsed directly to binary64 without intentional rounding; historical native serialization hashes are tested separately. Raw predict dictionaries remain absent.",
+  "independent_matrix_method": "Standalone dense complex128 MATPOWER pi stamp, separate from existing stdlib branch checker; no PYPOWER import or solve.",
+  "crosscheck_acceptance_MW_MVAr": 1e-07,
+  "fixed_feasibility_tolerances": {
+    "P_Q_balance_MW_MVAr": 0.001,
+    "Pg_Qg_bounds_MW_MVAr": 0.001,
+    "Vm_bounds_pu": 0.0001,
+    "active_angle_bounds_deg": 0.001
+  },
+  "metrics": {
+    "microsoft-v1.1": {
+      "joint_AC_constraints_pass": false,
+      "P_residual_MW": {
+        "mean_abs": 89.27899960427001,
+        "median_abs": 15.714955905603194,
+        "p95_abs_linear_interpolation": 250.04561908549323,
+        "max_abs": 3754.079585405154,
+        "max_abs_bus_id": 238,
+        "violating_bus_count_at_0.001": 300,
+        "top5_absolute": [
+          {
+            "bus_id": 238,
+            "signed_residual": 3754.079585405154
+          },
+          {
+            "bus_id": 235,
+            "signed_residual": -3520.3787260769063
+          },
+          {
+            "bus_id": 119,
+            "signed_residual": -1304.0890722924737
+          },
+          {
+            "bus_id": 191,
+            "signed_residual": -994.7627674645839
+          },
+          {
+            "bus_id": 9001,
+            "signed_residual": -982.3829302446591
+          }
+        ]
+      },
+      "Q_residual_MVAr": {
+        "mean_abs": 272.60739437804006,
+        "median_abs": 73.74922421931937,
+        "p95_abs_linear_interpolation": 718.0422742439343,
+        "max_abs": 8937.968110943944,
+        "max_abs_bus_id": 238,
+        "violating_bus_count_at_0.001": 300,
+        "top5_absolute": [
+          {
+            "bus_id": 238,
+            "signed_residual": 8937.968110943944
+          },
+          {
+            "bus_id": 235,
+            "signed_residual": -8111.3034273438525
+          },
+          {
+            "bus_id": 9001,
+            "signed_residual": -5880.210750248673
+          },
+          {
+            "bus_id": 37,
+            "signed_residual": 5088.442279304054
+          },
+          {
+            "bus_id": 231,
+            "signed_residual": -3404.1259750671506
+          }
+        ]
+      },
+      "crosschecks": {
+        "branch_sum_vs_Ybus_max_complex_MVA": 2.8717574248452267e-11,
+        "from_flows_vs_Yf_max_complex_MVA": 1.481483478391979e-11,
+        "to_flows_vs_Yt_max_complex_MVA": 1.4396179750320764e-11,
+        "recomputed_vs_tracked_11B_max_complex_residual_MVA": 7.559285676431309e-11,
+        "recomputed_vs_tracked_11D_max_complex_residual_MVA": 2.5571452812076194e-11
+      },
+      "Pg_MW": {
+        "tolerance": 0.001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 0.0,
+        "max_upper_excess": 0.0,
+        "lower_active_count": 17,
+        "upper_active_count": 4,
+        "violations": []
+      },
+      "Qg_MVAr": {
+        "tolerance": 0.001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 6.079673759984416e-07,
+        "max_upper_excess": 4.76837158203125e-06,
+        "lower_active_count": 5,
+        "upper_active_count": 3,
+        "violations": []
+      },
+      "Vm_pu": {
+        "tolerance": 0.0001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 2.38418573772492e-09,
+        "max_upper_excess": 0.0,
+        "lower_active_count": 1,
+        "upper_active_count": 38,
+        "violations": []
+      },
+      "active_angle_limit_count": 0,
+      "thermal_assessment": "N/A: all original RATE_A are zero",
+      "actual_clipping_counts_and_magnitudes": null,
+      "clipping_note": "Cannot infer actual clipping from state bound activity; pre-clipping activations unavailable.",
+      "detail_artifact": {
+        "path": "results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/microsoft-v1.1-DERIVED-diagnostics.json",
+        "sha256": "6a837690b6595ca258badb3a137307793d06584fd7e32b4df598872e9c4d6f4d",
+        "bytes": 61271
+      },
+      "FP32_lattice_max_difference": {
+        "vm": 0.0,
+        "pg_mw": 0.0,
+        "qg_mvar": 0.0
+      },
+      "approximation_MAE_against_DERIVED_verified_AC_reference": {
+        "pg_mw": 195.13378029097498,
+        "qg_mvar": 89.09681115935864,
+        "vm": 0.026868827063383106,
+        "reference_aligned_angle_deg": 23.305144158058017,
+        "both_end_original_AC_Pflow_MW": 77.14167983017506
+      }
+    },
+    "newer-base-v2": {
+      "joint_AC_constraints_pass": false,
+      "P_residual_MW": {
+        "mean_abs": 164.28101034830775,
+        "median_abs": 60.46957262401477,
+        "p95_abs_linear_interpolation": 713.8287070363656,
+        "max_abs": 3210.6654156244977,
+        "max_abs_bus_id": 231,
+        "violating_bus_count_at_0.001": 300,
+        "top5_absolute": [
+          {
+            "bus_id": 231,
+            "signed_residual": 3210.6654156244977
+          },
+          {
+            "bus_id": 237,
+            "signed_residual": -2426.1844154246246
+          },
+          {
+            "bus_id": 3,
+            "signed_residual": -1792.283723897458
+          },
+          {
+            "bus_id": 108,
+            "signed_residual": -1336.9189116031898
+          },
+          {
+            "bus_id": 99,
+            "signed_residual": 1321.437512043739
+          }
+        ]
+      },
+      "Q_residual_MVAr": {
+        "mean_abs": 363.4526772172428,
+        "median_abs": 98.87178095451168,
+        "p95_abs_linear_interpolation": 1372.90580712837,
+        "max_abs": 7958.02712315516,
+        "max_abs_bus_id": 137,
+        "violating_bus_count_at_0.001": 300,
+        "top5_absolute": [
+          {
+            "bus_id": 137,
+            "signed_residual": 7958.02712315516
+          },
+          {
+            "bus_id": 117,
+            "signed_residual": -7025.00314901812
+          },
+          {
+            "bus_id": 118,
+            "signed_residual": 6056.172468159638
+          },
+          {
+            "bus_id": 3,
+            "signed_residual": -5590.756897656564
+          },
+          {
+            "bus_id": 188,
+            "signed_residual": -3792.9480262355505
+          }
+        ]
+      },
+      "crosschecks": {
+        "branch_sum_vs_Ybus_max_complex_MVA": 7.946311473570682e-11,
+        "from_flows_vs_Yf_max_complex_MVA": 2.3725710348468102e-11,
+        "to_flows_vs_Yt_max_complex_MVA": 1.968884047512026e-11,
+        "recomputed_vs_tracked_11B_max_complex_residual_MVA": 9.16992705297926e-11,
+        "recomputed_vs_tracked_11D_max_complex_residual_MVA": 9.973388023109376e-12
+      },
+      "Pg_MW": {
+        "tolerance": 0.001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 0.0,
+        "max_upper_excess": 3.814697265625e-05,
+        "lower_active_count": 2,
+        "upper_active_count": 49,
+        "violations": []
+      },
+      "Qg_MVAr": {
+        "tolerance": 0.001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 2.384185791015625e-06,
+        "max_upper_excess": 4.76837158203125e-06,
+        "lower_active_count": 7,
+        "upper_active_count": 20,
+        "violations": []
+      },
+      "Vm_pu": {
+        "tolerance": 0.0001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 2.38418573772492e-09,
+        "max_upper_excess": 0.0,
+        "lower_active_count": 44,
+        "upper_active_count": 237,
+        "violations": []
+      },
+      "active_angle_limit_count": 0,
+      "thermal_assessment": "N/A: all original RATE_A are zero",
+      "actual_clipping_counts_and_magnitudes": null,
+      "clipping_note": "Cannot infer actual clipping from state bound activity; pre-clipping activations unavailable.",
+      "detail_artifact": {
+        "path": "results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/newer-base-v2-DERIVED-diagnostics.json",
+        "sha256": "a332d88606173c88a1e66fa1abe1be0b3675681b87182ad2228ef7a9088dfad7",
+        "bytes": 61206
+      },
+      "FP32_lattice_max_difference": {
+        "vm": 0.0,
+        "pg_mw": 0.0,
+        "qg_mvar": 0.0
+      },
+      "approximation_MAE_against_DERIVED_verified_AC_reference": {
+        "pg_mw": 106.39848915573019,
+        "qg_mvar": 98.65862699560724,
+        "vm": 0.0435268653606485,
+        "reference_aligned_angle_deg": 48.83184350117615,
+        "both_end_original_AC_Pflow_MW": 98.31686700992361
+      }
+    },
+    "AC-reference": {
+      "joint_AC_constraints_pass": true,
+      "P_residual_MW": {
+        "mean_abs": 1.2817872689178482e-12,
+        "median_abs": 1.1723955140041653e-13,
+        "p95_abs_linear_interpolation": 2.992450731653662e-12,
+        "max_abs": 1.2214229627716122e-10,
+        "max_abs_bus_id": 9005,
+        "violating_bus_count_at_0.001": 0,
+        "top5_absolute": [
+          {
+            "bus_id": 9005,
+            "signed_residual": -1.2214229627716122e-10
+          },
+          {
+            "bus_id": 9053,
+            "signed_residual": 8.23128232241288e-11
+          },
+          {
+            "bus_id": 9533,
+            "signed_residual": -2.3246959912626153e-11
+          },
+          {
+            "bus_id": 235,
+            "signed_residual": 1.0118128557223827e-11
+          },
+          {
+            "bus_id": 237,
+            "signed_residual": 9.663381206337363e-12
+          }
+        ]
+      },
+      "Q_residual_MVAr": {
+        "mean_abs": 7.623290410228686e-12,
+        "median_abs": 5.258016244624741e-13,
+        "p95_abs_linear_interpolation": 7.630873710695598e-12,
+        "max_abs": 1.6635457456004588e-09,
+        "max_abs_bus_id": 9053,
+        "violating_bus_count_at_0.001": 0,
+        "top5_absolute": [
+          {
+            "bus_id": 9053,
+            "signed_residual": -1.6635457456004588e-09
+          },
+          {
+            "bus_id": 9001,
+            "signed_residual": -6.045830502898752e-11
+          },
+          {
+            "bus_id": 9051,
+            "signed_residual": -4.913047746413213e-11
+          },
+          {
+            "bus_id": 238,
+            "signed_residual": -3.803535264523816e-11
+          },
+          {
+            "bus_id": 37,
+            "signed_residual": -3.33422178755427e-11
+          }
+        ]
+      },
+      "crosschecks": {
+        "branch_sum_vs_Ybus_max_complex_MVA": 3.4082084179699884e-11,
+        "from_flows_vs_Yf_max_complex_MVA": 1.2565481709641175e-11,
+        "to_flows_vs_Yt_max_complex_MVA": 8.015728308451453e-12,
+        "recomputed_vs_tracked_11B_max_complex_residual_MVA": 3.153388625461632e-11,
+        "recomputed_vs_tracked_11D_max_complex_residual_MVA": 1.1660696898394995e-11
+      },
+      "Pg_MW": {
+        "tolerance": 0.001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 0.0,
+        "max_upper_excess": 0.0,
+        "lower_active_count": 3,
+        "upper_active_count": 1,
+        "violations": []
+      },
+      "Qg_MVAr": {
+        "tolerance": 0.001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 0.0,
+        "max_upper_excess": 0.0,
+        "lower_active_count": 4,
+        "upper_active_count": 19,
+        "violations": []
+      },
+      "Vm_pu": {
+        "tolerance": 0.0001,
+        "lower_violation_count": 0,
+        "upper_violation_count": 0,
+        "max_lower_excess": 0.0,
+        "max_upper_excess": 0.0,
+        "lower_active_count": 0,
+        "upper_active_count": 27,
+        "violations": []
+      },
+      "active_angle_limit_count": 0,
+      "thermal_assessment": "N/A: all original RATE_A are zero",
+      "actual_clipping_counts_and_magnitudes": null,
+      "clipping_note": "Cannot infer actual clipping from state bound activity; pre-clipping activations unavailable.",
+      "detail_artifact": {
+        "path": "results/comparisons/GSFM-020/20261026-local-operating-conditions/recovered-base/AC-reference-DERIVED-diagnostics.json",
+        "sha256": "dd6458975326dee54a4acc930b61b83737cfd1fe2574a0de9a0041c4e0013ae7",
+        "bytes": 63277
+      }
+    }
+  },
+  "limitations": [
+    "Derivative state recovery is not a new inference or solver run.",
+    "No checkpoint bytes, raw predict dictionaries, original feature tensors, or pre-clipping activations are recovered.",
+    "AC local-optimum status is inherited from historical solver records; this run independently checks physical feasibility only.",
+    "This validates base-state physics, not representation invariance or electrical sensitivity.",
+    "Original angle limits are disabled and thermal assessment is N/A."
+  ]
+}

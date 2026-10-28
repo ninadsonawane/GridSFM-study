@@ -1,0 +1,14 @@
+{
+ "batch":"01-load-transition", "kind":"discovery",
+ "hypothesis":"The saved v2 90%-95% Q-imbalance drop reflects a reproducible native Vm/clamp transition near buses235/238, rather than an isolated point.",
+ "motivation":"GSFM-011D/018 saved v2 maxQ21338.70 to7380.67MVAr; branch321 outgoingQ at23818763.58 to1563.10MVAr.",
+ "paired_baseline":"Saved G300-0.90 and load-0.95; same original ordering. Compare the four nearby new inputs with each other and with available historical metrics.",
+ "expected_AC":"Increasing active demand generally raises total generation/losses. Reactive/voltage active sets may change; no presumed monotonic bus Vm.",
+ "expected_DC":"Dispatch and angles respond to P demand under the same audited DC equations; no Q/Vm prediction.",
+ "scenarios":[
+  {"id":"G300-0.91","network":300,"load_scale":0.91},
+  {"id":"G300-0.92","network":300,"load_scale":0.92},
+  {"id":"G300-0.93","network":300,"load_scale":0.93},
+  {"id":"G300-0.94","network":300,"load_scale":0.94}
+ ]
+}

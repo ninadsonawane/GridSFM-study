@@ -1,0 +1,284 @@
+[
+  {
+    "name": "baseline-cold",
+    "status": "PASS",
+    "started_unix": 1793035097.5638852,
+    "elapsed_seconds": 0.3764019999653101
+  },
+  {
+    "name": "baseline-warm",
+    "status": "PASS",
+    "started_unix": 1793035098.0728865,
+    "elapsed_seconds": 0.39778349990956485,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "va_deg": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "pg_mw": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "qg_mvar": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      }
+    },
+    "exact_all_returned_values_equal_baseline": true
+  },
+  {
+    "name": "label-poison",
+    "status": "PASS",
+    "started_unix": 1793035098.606098,
+    "elapsed_seconds": 0.346671300008893,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "va_deg": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "pg_mw": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      },
+      "qg_mvar": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "nonzero_count": 0
+      }
+    },
+    "exact_all_returned_values_equal_baseline": true
+  },
+  {
+    "name": "branch-reverse-default",
+    "status": "PASS",
+    "started_unix": 1793035099.0943806,
+    "elapsed_seconds": 0.37203349999617785,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.08589786291122437,
+        "mean_abs": 0.013382910887400309,
+        "nonzero_count": 277
+      },
+      "va_deg": {
+        "max_abs": 55.086332844893676,
+        "mean_abs": 32.666619686587026,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 125.18525123596191,
+        "mean_abs": 19.59144974100417,
+        "nonzero_count": 48
+      },
+      "qg_mvar": {
+        "max_abs": 59.95575785636902,
+        "mean_abs": 16.386685374638308,
+        "nonzero_count": 65
+      }
+    }
+  },
+  {
+    "name": "branch-reverse-cycles",
+    "status": "PASS",
+    "started_unix": 1793035099.6068864,
+    "elapsed_seconds": 0.3891738000093028,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.05012500286102295,
+        "mean_abs": 0.006931643486022949,
+        "nonzero_count": 271
+      },
+      "va_deg": {
+        "max_abs": 76.98394322961666,
+        "mean_abs": 57.61317909821538,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 174.71318244934082,
+        "mean_abs": 17.95890642249066,
+        "nonzero_count": 49
+      },
+      "qg_mvar": {
+        "max_abs": 40.255532041192055,
+        "mean_abs": 7.337803701343744,
+        "nonzero_count": 64
+      }
+    }
+  },
+  {
+    "name": "bus-reverse-default",
+    "status": "PASS",
+    "started_unix": 1793035100.1235955,
+    "elapsed_seconds": 0.41580819990485907,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.0859910249710083,
+        "mean_abs": 0.010918817718823751,
+        "nonzero_count": 270
+      },
+      "va_deg": {
+        "max_abs": 28.219544688027568,
+        "mean_abs": 5.76989428694092,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 123.89192581176758,
+        "mean_abs": 17.84757427547289,
+        "nonzero_count": 48
+      },
+      "qg_mvar": {
+        "max_abs": 74.84405040740967,
+        "mean_abs": 12.201414419257123,
+        "nonzero_count": 64
+      }
+    }
+  },
+  {
+    "name": "bus-reverse-cycles",
+    "status": "PASS",
+    "started_unix": 1793035100.8487287,
+    "elapsed_seconds": 0.41960390005260706,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.00019431114196777344,
+        "mean_abs": 6.04252020517985e-06,
+        "nonzero_count": 258
+      },
+      "va_deg": {
+        "max_abs": 0.015306453929998742,
+        "mean_abs": 0.007884337799215303,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 0.10333061218261719,
+        "mean_abs": 0.009734993395598038,
+        "nonzero_count": 48
+      },
+      "qg_mvar": {
+        "max_abs": 0.022542476654052734,
+        "mean_abs": 0.003906814516454503,
+        "nonzero_count": 61
+      }
+    }
+  },
+  {
+    "name": "bus-reverse-landmarks",
+    "status": "PASS",
+    "started_unix": 1793035101.3987155,
+    "elapsed_seconds": 0.39522810000926256,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.0859910249710083,
+        "mean_abs": 0.01091826895872752,
+        "nonzero_count": 270
+      },
+      "va_deg": {
+        "max_abs": 28.22319542413894,
+        "mean_abs": 5.76857960643765,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 123.9065170288086,
+        "mean_abs": 17.847219627836477,
+        "nonzero_count": 48
+      },
+      "qg_mvar": {
+        "max_abs": 74.87691640853882,
+        "mean_abs": 12.204381054186303,
+        "nonzero_count": 64
+      }
+    }
+  },
+  {
+    "name": "branch-reverse-transformer",
+    "status": "PASS",
+    "started_unix": 1793035101.9228144,
+    "elapsed_seconds": 0.3910520999925211,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 0.07483923435211182,
+        "mean_abs": 0.00986726423104604,
+        "nonzero_count": 274
+      },
+      "va_deg": {
+        "max_abs": 7.651116436545749,
+        "mean_abs": 2.5549063495202913,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 114.14728164672852,
+        "mean_abs": 14.46629702181056,
+        "nonzero_count": 48
+      },
+      "qg_mvar": {
+        "max_abs": 63.34367170929909,
+        "mean_abs": 10.74118448448354,
+        "nonzero_count": 63
+      }
+    }
+  },
+  {
+    "name": "branch-reverse-cycles-transformer",
+    "status": "PASS",
+    "started_unix": 1793035102.4476032,
+    "elapsed_seconds": 0.34515310009010136,
+    "native_difference_vs_original_baseline": {
+      "vm": {
+        "max_abs": 2.384185791015625e-07,
+        "mean_abs": 1.5497207641601563e-08,
+        "nonzero_count": 42
+      },
+      "va_deg": {
+        "max_abs": 0.00011269812130532131,
+        "mean_abs": 3.484534841563266e-05,
+        "nonzero_count": 299
+      },
+      "pg_mw": {
+        "max_abs": 0.0004291534423828125,
+        "mean_abs": 5.1225441089574843e-05,
+        "nonzero_count": 42
+      },
+      "qg_mvar": {
+        "max_abs": 0.00011920928955078125,
+        "mean_abs": 2.2772861563641094e-05,
+        "nonzero_count": 56
+      }
+    }
+  },
+  {
+    "name": "independent-cold",
+    "status": "FAILED",
+    "started_unix": 1793035102.9202015,
+    "argv": [
+      "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+      "-B",
+      "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\experiments\\gsfm020\\model_worker.py",
+      "--release",
+      "microsoft-v1.1",
+      "--source",
+      "..\\runtime\\sources\\microsoft",
+      "--checkpoint",
+      "..\\runtime\\checkpoints\\gridsfm_open_v1.1.pt",
+      "--input",
+      "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\bases\\300\\input.json",
+      "--out",
+      "results\\comparisons\\GSFM-020\\20261026-local-operating-conditions\\diagnostic\\microsoft-v1.1\\independent-cold"
+    ],
+    "returncode": 1,
+    "error": "AssertionError('Independent cold-process forward failed')"
+  }
+]

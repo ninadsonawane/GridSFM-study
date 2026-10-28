@@ -1,0 +1,14 @@
+# Operating-condition comparison: final
+
+S = absolute reactive-balance residual severity in MVAr; E = mean absolute approximation error against the accepted AC reference. Arrows describe the named quantity, not overall quality. The original case300 has no applicable thermal ratings. The 600-bus results cover only its two existing 600-MVA ties.
+
+| Operating condition, before → after | AC-OPF | DC-OPF | Frozen v1.1 | Frozen base v2 | Supported interpretation |
+|---|---|---|---|---|---|
+| Global P/Q scale 0.93 → 0.94 | Accepted; Vm235 1.025989 → 1.026369 ↑ pu | Both own-law valid | Qmax S 11,689.80 → 11,232.68 ↓ | Qmax S 21,320.45 → 12,413.00 ↓; Q p95 S 1,282.38 → 1,429.64 ↑; Qg E 90.98 → 92.05 ↑; Q violating buses 299 → 300 ↑ | Large hotspot improvement coexists with a worse tail, Qg error and violation count. |
+| **Confirmation:** P scale 0.93 → 0.935, Q fixed 0.93 | Accepted | Same saved DC state as global scale 0.935 | Qmax S 11,689.80 → 11,460.45 ↓ | Qmax S 21,320.45 → 15,164.63 ↓; native Vm235 0.94 → 0.978631 ↑ pu | P-only change releases the v2 lower voltage clamp and reproduces the severity reduction. |
+| **Confirmation:** Q scale 0.93 → 0.935, P fixed 0.93 | Total Qg 5,918.79 → 5,960.12 ↑ MVAr | Pg, angle and both-end active-flow arrays exactly unchanged | Total Qg 2,388.32 → 2,387.49 ↓ MVAr | Total Qg 2,741.41 → 2,739.37 ↓ MVAr; Vm235 remains lower-clipped | Both native reactive-generation responses oppose the verified AC response; unchanged clipping membership does not explain the decrease. |
+| **Confirmation:** fixed-total demand relocation, strength +0.75 → +1.25 | Accepted; Vm235 1.029549 → 1.029604 ↑ pu | Own-law valid; Pflow E 20.747 → 20.496 ↓ MW | Qmax S 8,909.08 → 8,893.29 ↓ | Qmax S 7,481.57 → 21,387.52 ↑; mean Q S 385.75 → 531.27 ↑; Pflow E 102.77 → 116.29 ↑ MW | Large nonlocal v2 voltage/flow deterioration despite unchanged system demand and unchanged demand at buses 235/238. |
+| **Confirmation:** 600-bus area shift −0.04 → +0.04 | Accepted in both directions; maximum tie loading 164.71 → 164.71 MVA | Both valid; maximum tie active flow 470.52 → 470.52 MW | Maximum tie loading 379.84 → 626.93 ↑ MVA; violating ties 0 → 2 ↑ | Maximum tie loading 435.21 → 495.76 ↑ MVA; violating ties 0 → 0 | v1.1 exhibits a direction-dependent thermal failure at an AC-feasible condition; v2 passes the tie limits but still fails AC balance. |
+| 600-bus area shifts ±0.025 → ±0.075 | ±0.025 accepted; both ±0.075 UNKNOWN after default and flat attempts | All valid; ±0.075 reaches 600 MW per tie | Tie violations 0 → 2 in each direction; worst excess +417.61 MVA | Tie violations 0 → 2 in each direction; worst excess +374.56 MVA | Native thermal failures are measurable; failed AC references cannot establish infeasibility or support accuracy comparisons. |
+
+The complete [104-row table](live-table.md) and [machine-readable metrics](method-summary.csv) retain every input and negative result.

@@ -1,0 +1,432 @@
+[
+  {
+    "method": "AC-OPF",
+    "P": {
+      "mean": 4.0263396783313253e-13,
+      "median": 1.2789769243681803e-13,
+      "p95": 1.820410489017377e-12,
+      "max": 8.125944361836446e-12,
+      "count": 300
+    },
+    "Q": {
+      "mean": 1.8452247073789486e-12,
+      "median": 4.289901767151605e-13,
+      "p95": 5.31699129169283e-12,
+      "max": 5.682299075715491e-11,
+      "count": 300
+    },
+    "P_total_abs": 1.2079019034993976e-10,
+    "Q_total_abs": 5.535674122136846e-10,
+    "P_violating_buses": 0,
+    "Q_violating_buses": 0,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 0.0,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 0.0,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": true,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 7.57903732318219e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "count": 822
+      }
+    },
+    "scenario": "G300-0.9303",
+    "reference_valid": true,
+    "status": "VERIFIED_LOCAL_REFERENCE",
+    "P_worst_bus": 9001,
+    "P_severity_band_counts": {
+      "0.001-1": 0,
+      "1-10": 0,
+      "10-100": 0,
+      "100-1000": 0,
+      "over1000": 0
+    },
+    "Q_worst_bus": 9001,
+    "Q_severity_band_counts": {
+      "0.001-1": 0,
+      "1-10": 0,
+      "10-100": 0,
+      "100-1000": 0,
+      "over1000": 0
+    },
+    "total_Qg_MVAr": 5923.231139899148,
+    "total_Pg_MW": 22158.760341497804,
+    "Qg_at_lower_count": 6,
+    "Qg_at_upper_count": 17
+  },
+  {
+    "method": "DC-OPF",
+    "P": {
+      "mean": 3.4368369261628123e-13,
+      "median": 5.684341886080802e-14,
+      "p95": 1.34008359964355e-12,
+      "max": 1.3557155398302712e-11,
+      "count": 300
+    },
+    "Q": null,
+    "P_total_abs": 1.0310510778488437e-10,
+    "Q_total_abs": null,
+    "P_violating_buses": 0,
+    "Q_violating_buses": null,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": null,
+    "Qg_violating_count": null,
+    "Vm_max_excess": null,
+    "Vm_violating_count": null,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "DC active-flow only; AC apparent thermal feasibility N/A",
+    "AC_joint_feasible": null,
+    "native_DC_constraints_pass": true,
+    "physics_crosscheck": null,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 19.417817065394452,
+        "median": 15.837789925500669,
+        "p95": 53.924141431275615,
+        "max": 89.58757065979353,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 19.417817065394452,
+        "median": 15.837789925500669,
+        "p95": 53.924141431275615,
+        "max": 89.58757065979353,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 5.8804660953918075,
+        "median": 5.079153044056113,
+        "p95": 12.919972500482732,
+        "max": 18.675940054389145,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 17.59400146633244,
+        "median": 7.371899130476866,
+        "p95": 70.48307201421645,
+        "max": 208.0459595523913,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": null,
+      "Qg_bus_aggregate_MVAr": null,
+      "Vm_pu": null,
+      "branch_Q_MVAr": null
+    },
+    "scenario": "G300-0.9303",
+    "reference_valid": true,
+    "status": "CONVERGED",
+    "P_worst_bus": 137,
+    "P_severity_band_counts": {
+      "0.001-1": 0,
+      "1-10": 0,
+      "10-100": 0,
+      "100-1000": 0,
+      "over1000": 0
+    }
+  },
+  {
+    "method": "microsoft-v1.1",
+    "P": {
+      "mean": 96.31336704165453,
+      "median": 17.35598569858277,
+      "p95": 299.5421294193202,
+      "max": 4682.198569925354,
+      "count": 300
+    },
+    "Q": {
+      "mean": 312.04258746158456,
+      "median": 76.68771225323894,
+      "p95": 803.1888947780004,
+      "max": 11676.056343186163,
+      "count": 300
+    },
+    "P_total_abs": 28894.01011249636,
+    "Q_total_abs": 93612.77623847537,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 300,
+    "Pg_max_excess": 0.0,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 3.252079506926807e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 195.3721197511907,
+        "median": 151.47536521787418,
+        "p95": 584.7210454011096,
+        "max": 886.5083972517957,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 195.3721197511907,
+        "median": 151.47536521787418,
+        "p95": 584.7210454011096,
+        "max": 886.5083972517957,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 57.39956763205036,
+        "median": 57.54316915962668,
+        "p95": 69.09419738378284,
+        "max": 78.60306881306204,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 90.85954783255848,
+        "median": 33.26184206798675,
+        "p95": 279.5155176306324,
+        "max": 4367.454588557811,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 81.37443959769315,
+        "median": 45.724034703382145,
+        "p95": 282.30656368812936,
+        "max": 481.49488624566646,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 81.37443959769315,
+        "median": 45.724034703382145,
+        "p95": 282.30656368812936,
+        "max": 481.49488624566646,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.027177236180468103,
+        "median": 0.020769117337455567,
+        "p95": 0.07287394429638848,
+        "max": 0.12000000237561048,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 133.90082708207711,
+        "median": 31.02974205268611,
+        "p95": 364.8241731404269,
+        "max": 10706.908434100475,
+        "count": 822
+      }
+    },
+    "scenario": "G300-0.9303",
+    "reference_valid": true,
+    "status": "NATIVE_RETURNED",
+    "P_worst_bus": 238,
+    "P_severity_band_counts": {
+      "0.001-1": 33,
+      "1-10": 78,
+      "10-100": 142,
+      "100-1000": 42,
+      "over1000": 5
+    },
+    "Q_worst_bus": 238,
+    "Q_severity_band_counts": {
+      "0.001-1": 11,
+      "1-10": 37,
+      "10-100": 125,
+      "100-1000": 114,
+      "over1000": 13
+    },
+    "total_Qg_MVAr": 2388.804318010807,
+    "total_Pg_MW": 10505.355069041252,
+    "Qg_at_lower_count": 4,
+    "Qg_at_upper_count": 3
+  },
+  {
+    "method": "newer-base-v2",
+    "P": {
+      "mean": 208.6863983501213,
+      "median": 60.034542071551016,
+      "p95": 695.4514685623388,
+      "max": 7780.462245517539,
+      "count": 300
+    },
+    "Q": {
+      "mean": 462.9343605145362,
+      "median": 109.81637327690221,
+      "p95": 1291.4762590025136,
+      "max": 21235.64363891355,
+      "count": 300
+    },
+    "P_total_abs": 62605.91950503639,
+    "Q_total_abs": 138880.30815436086,
+    "P_violating_buses": 300,
+    "Q_violating_buses": 299,
+    "Pg_max_excess": 3.814697265625e-05,
+    "Pg_violating_count": 0,
+    "Qg_max_excess": 4.76837158203125e-06,
+    "Qg_violating_count": 0,
+    "Vm_max_excess": 2.38418573772492e-09,
+    "Vm_violating_count": 0,
+    "angle_max_excess_deg": 0.0,
+    "angle_violating_count": 0,
+    "rated_online_branch_count": 0,
+    "thermal_max_excess_MVA_or_DC_MW": null,
+    "thermal_max_ratio": null,
+    "thermal_violating_count": null,
+    "thermal_definition": "max both-end |P+jQ|; original RATE_A; zero unlimited",
+    "AC_joint_feasible": false,
+    "native_DC_constraints_pass": null,
+    "physics_crosscheck": 3.760423090366923e-11,
+    "approximation": {
+      "Pg_per_generator_MW": {
+        "mean": 121.1769798732476,
+        "median": 99.99999999686555,
+        "p95": 215.43647090021054,
+        "max": 1359.8325792350086,
+        "count": 69
+      },
+      "Pg_bus_aggregate_MW": {
+        "mean": 121.1769798732476,
+        "median": 99.99999999686555,
+        "p95": 215.43647090021054,
+        "max": 1359.8325792350086,
+        "count": 69
+      },
+      "aligned_angle_deg": {
+        "mean": 47.678480510035804,
+        "median": 50.22657019332647,
+        "p95": 66.39844631019668,
+        "max": 75.85601041269587,
+        "count": 300
+      },
+      "branch_P_MW": {
+        "mean": 111.56337761697078,
+        "median": 40.90426246580301,
+        "p95": 318.93360990475,
+        "max": 6970.831399477321,
+        "count": 822
+      },
+      "Qg_per_generator_MVAr": {
+        "mean": 91.01202261269076,
+        "median": 47.70160850652348,
+        "p95": 308.60163400003705,
+        "max": 504.6163689890694,
+        "count": 69
+      },
+      "Qg_bus_aggregate_MVAr": {
+        "mean": 91.01202261269076,
+        "median": 47.70160850652348,
+        "p95": 308.60163400003705,
+        "max": 504.6163689890694,
+        "count": 69
+      },
+      "Vm_pu": {
+        "mean": 0.04500564171779155,
+        "median": 0.04133228639545794,
+        "p95": 0.09918501031742034,
+        "max": 0.12000000238262909,
+        "count": 300
+      },
+      "branch_Q_MVAr": {
+        "mean": 190.74640450011705,
+        "median": 40.665933538158086,
+        "p95": 641.4190528563402,
+        "max": 18614.013654041573,
+        "count": 822
+      }
+    },
+    "scenario": "G300-0.9303",
+    "reference_valid": true,
+    "status": "NATIVE_RETURNED",
+    "P_worst_bus": 238,
+    "P_severity_band_counts": {
+      "0.001-1": 13,
+      "1-10": 42,
+      "10-100": 126,
+      "100-1000": 109,
+      "over1000": 10
+    },
+    "Q_worst_bus": 238,
+    "Q_severity_band_counts": {
+      "0.001-1": 3,
+      "1-10": 39,
+      "10-100": 104,
+      "100-1000": 124,
+      "over1000": 29
+    },
+    "total_Qg_MVAr": 2740.878948569298,
+    "total_Pg_MW": 28990.88141620159,
+    "Qg_at_lower_count": 6,
+    "Qg_at_upper_count": 20
+  }
+]

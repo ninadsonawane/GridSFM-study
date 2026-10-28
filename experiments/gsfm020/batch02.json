@@ -1,0 +1,14 @@
+{
+ "batch":"02-clamp-onset", "kind":"discovery",
+ "hypothesis":"The onset of bus235 leaving its lower Vm clamp is near0.9302, followed by a continuous native-voltage movement that reduces Q severity on branch321; local improvement need not improve Qg accuracy or feasibility.",
+ "motivation":"Batch01 accepted all four AC references. v2 at0.93 has Vm235 preclip0.9385532 and output0.94; at0.94 both are0.9959068. Qmax21320.45->12413.00MVAr, mean463.47->412.50; QgMAE90.98->92.05MVAr. This narrows the saved0.90-0.95 transition.",
+ "paired_baseline":"New G300-0.93/G300-0.94, historical0.95 and local exact-order base1.00. All nonload fields fixed.",
+ "expected_AC":"Nearby smooth P-demand response; reactive active-set transitions remain possible and are checked rather than assumed. Inspect reference Vm235 independently.",
+ "expected_DC":"Own-law valid dispatch/angle response to P demand, no Vm/Qg response claimed.",
+ "scenarios":[
+  {"id":"G300-0.9301","network":300,"load_scale":0.9301},
+  {"id":"G300-0.9303","network":300,"load_scale":0.9303},
+  {"id":"G300-0.935","network":300,"load_scale":0.935},
+  {"id":"G300-0.945","network":300,"load_scale":0.945}
+ ]
+}

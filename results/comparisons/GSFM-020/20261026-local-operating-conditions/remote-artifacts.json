@@ -1,0 +1,10 @@
+{
+  "publication_request_date": "2026-10-28",
+  "repository": "ninadsonawane/GridSFM-study",
+  "release_tag": "gsfm-020-2026-10-26",
+  "asset_name": "GSFM-020-evidence.zip",
+  "asset_bytes": 54872758,
+  "sha256": "32f6dda1ea3238d78920f8efd212139f0dad65eea44cf3098eaee70855e62754",
+  "download_url": "https://github.com/ninadsonawane/GridSFM-study/releases/download/gsfm-020-2026-10-26/GSFM-020-evidence.zip",
+  "scope": "Original complete GSFM-020 delivery snapshot; raw outputs and diagnostic artifacts included; installed runtimes/checkpoint binaries excluded."
+}

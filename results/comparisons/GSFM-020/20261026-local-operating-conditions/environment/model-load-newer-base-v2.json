@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Imports, checkpoint byte hash, pinned source identity, strict checkpoint load; no model forward or conventional solve.",
+  "release": "newer-base-v2",
+  "python_executable": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\python\\Scripts\\python.exe",
+  "python": "3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpu_count": 20,
+  "packages": {
+    "torch": "2.8.0",
+    "torch-geometric": "2.8.0.post1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pypower": "5.1.21",
+    "huggingface-hub": "0.34.4"
+  },
+  "checkpoint_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\checkpoints\\gridsfm_open_v2.pt",
+  "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+  "checkpoint_bytes": 61057675,
+  "source_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\newer",
+  "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+  "source_import": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\runtime\\sources\\newer\\model\\gridsfm\\__init__.py",
+  "source_model_sha256": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+  "source_files_sha256": {
+    "model\\gridsfm\\__init__.py": "a45239266836091df9f2be2065078f5930485de5a8958572f436d7721867bbb1",
+    "model\\gridsfm\\blocks.py": "3b1ac45237092273cc0a20c7d0eedf25242b419fda5ce9a2e0dc10e1107f08d8",
+    "model\\gridsfm\\checkpoint.py": "251842f8141a1b09fb0fe076f996cfd1783a3b7cb5aef81d961b066497cab5c6",
+    "model\\gridsfm\\cycle_basis.py": "4f1a324975f27bc2341387994c7c8cfbd2f4901a2769717bff5ed20dfa0d0eeb",
+    "model\\gridsfm\\data.py": "260daeceea5414c90aca3d9337c7973b1f12d48da34a0e7f7bbe5f33ae3f3ec0",
+    "model\\gridsfm\\dc_prior.py": "f57371ca75ef3b44beb09e85aa668e1ee3f9ecf2bbaf52e56795f527f8e2038b",
+    "model\\gridsfm\\hodge_pe.py": "8dd3c0a2d9b7be24902c2243ce002c0d0616b7fabc00d03693d80f743e64868c",
+    "model\\gridsfm\\model.py": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+    "model\\gridsfm\\pe_features.py": "c097f8b2ab92ccfb9fa58c7af1a82c76e665389c70002a7632c4794f6a9de8af",
+    "model\\gridsfm\\schema.py": "939b87fe8ecbbe5dc210b406a2429bbcdf1281edac731ca9861d8379bbacd459",
+    "model\\gridsfm\\signed_incidence.py": "16194ea450844962226100644f01bfb61391ecf81ce4bd20000cfa668f91f37e",
+    "model\\gridsfm\\stress_features.py": "9621946a6d454d20953d5782883401c74f8f043a461d8622b9deea91579601af"
+  },
+  "strict_load": "<All keys matched successfully>",
+  "parameters": 15146823,
+  "checkpoint_metadata": {
+    "name": "GridSFM-open-v2",
+    "hash": "70c308350e245fa7670f27863d613db27a3691c238383ad5100308dba8ac79ab"
+  },
+  "clip_mode": "clamp",
+  "leaky_alpha": 0.0,
+  "threads": 4,
+  "historical_direct_versions_matched": true,
+  "execution_platform_changed": "Windows x86_64; reconstructed locally from exact source and checkpoint pins; historical runs were macOS."
+}

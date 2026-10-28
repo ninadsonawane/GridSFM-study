@@ -1,0 +1,30 @@
+{
+  "scope": "Read-only saved-state comparisons; future cases remain pending until their complete batch is available.",
+  "pairs": [
+    ["G300-0.9301", "G300-0.945"],
+    ["G300-0.93", "P094-Q093"],
+    ["G300-0.93", "P095-Q093"],
+    ["G300-0.93", "P093-Q094"],
+    ["G300-0.93", "P093-Q095"],
+    ["G300-0.94", "P094-Q093"],
+    ["G300-1.00-REPLAY", "LOC-plus050"],
+    ["G300-1.00-REPLAY", "LOC-plus150"],
+    ["G300-1.00-REPLAY", "LOC-minus050"],
+    ["G300-1.00-REPLAY", "LOC-minus150"],
+    ["A600-plus025", "A600-minus025"],
+    ["A600-plus075", "A600-minus075"],
+    ["G300-0.93", "CONF-P0935-Q093"],
+    ["G300-0.93", "CONF-P093-Q0935"],
+    ["G300-0.935", "CONF-P0935-Q093"],
+    ["G300-1.00-REPLAY", "CONF-LOC-plus075"],
+    ["G300-1.00-REPLAY", "CONF-LOC-plus125"],
+    ["LOC-plus050", "CONF-LOC-plus075"],
+    ["CONF-LOC-plus075", "CONF-LOC-plus125"],
+    ["CONF-LOC-plus125", "LOC-plus150"],
+    ["A600-plus025", "CONF-A600-plus040"],
+    ["CONF-A600-plus040", "A600-plus075"],
+    ["A600-minus025", "CONF-A600-minus040"],
+    ["CONF-A600-minus040", "A600-minus075"],
+    ["CONF-A600-plus040", "CONF-A600-minus040"]
+  ]
+}
