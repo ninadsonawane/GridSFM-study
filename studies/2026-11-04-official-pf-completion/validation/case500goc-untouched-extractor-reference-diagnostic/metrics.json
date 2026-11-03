@@ -1,0 +1,84 @@
+{
+  "method": "UNMAPPED-EXTRACTOR-DIAGNOSTIC",
+  "P_balance_MW": {
+    "max_abs": 1.1136023851766819,
+    "mean_abs": 0.002247610635529216,
+    "p95_abs": 8.441729846211359e-05,
+    "violating_bus_count": 1,
+    "bus_count": 500
+  },
+  "Q_balance_MVAr": {
+    "max_abs": 664.0274780920294,
+    "mean_abs": 1.3281106581651674,
+    "p95_abs": 0.00028599140788729776,
+    "violating_bus_count": 6,
+    "bus_count": 500
+  },
+  "constraints": {
+    "Pg_MW": {
+      "eligible_count": 224,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_angle_deg": {
+      "eligible_count": 728,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "Qg_MVAr": {
+      "eligible_count": 224,
+      "violating_count": 25,
+      "maximum": 65.00782261360523,
+      "mean_all": 0.6019753622681756,
+      "mean_violating": 5.393694462502541
+    },
+    "voltage_pu": {
+      "eligible_count": 500,
+      "violating_count": 0,
+      "maximum": 2.2818802092317014e-07,
+      "mean_all": 4.563760418463403e-10,
+      "mean_violating": 0.0
+    },
+    "branch_thermal_MVA": {
+      "eligible_count": 728,
+      "violating_count": 1,
+      "maximum": 0.002525102571894422,
+      "mean_all": 3.4685474888659644e-06,
+      "mean_violating": 0.002525102571894422
+    },
+    "branch_active_MW": null
+  },
+  "accuracy": {
+    "Pg_MW": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "count": 171
+    },
+    "Qg_MVAr": {
+      "MAE": 4.211828905698007,
+      "RMSE": 20.88028379429473,
+      "count": 171
+    },
+    "V_pu": {
+      "MAE": 0.0007422258575513494,
+      "RMSE": 0.0028724404268976,
+      "count": 500
+    },
+    "aligned_angle_deg": {
+      "MAE": 0.14235789205612787,
+      "RMSE": 0.1438065526784177,
+      "count": 500
+    }
+  },
+  "AC_joint_pass": false,
+  "DC_own_constraints_pass": null,
+  "reference_valid": true,
+  "scenario": "case500goc-base",
+  "PF_converged": true,
+  "mapping_supported": false,
+  "successful_AC_operating_point": false
+}

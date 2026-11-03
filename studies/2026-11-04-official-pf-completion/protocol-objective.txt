@@ -1,0 +1,191 @@
+You are continuing our GridSFM study for a paper draft for Dr. Guan-Yi Li and Professor Surya Santoso. Execute the following work chronologically. Reuse validated completed work; implement and run the additional official V2 Newton power-flow completion comparison. Continue through analysis and the manuscript, rather than stopping after code, baseline tables or a list of possible experiments.
+
+## Goal
+
+**Determine what, if any, useful understanding these measurements add beyond existing research:** under matched P-only, Q-only and combined loading, establish which errors in frozen GridSFM V1/V2 survive official V2 Newton power-flow completion, which constraints remain violated, and what explains the observed response. Produce reproducible comparisons on case300, interconnected two-copy case300 and case500goc, a supported answer relative to the closest literature, and an evidence-backed paper draft within our agreed scope.
+
+If goal tracking is available, create this goal when no unfinished goal already exists. Track actual progress and remaining requirements. Do not mark the goal achieved just because runs finish or a PDF exists. A defensible negative finding is acceptable; inventing novelty or extending experiments indefinitely is not.
+
+## Fixed scope and working locations
+
+- Research notes: `/Users/ninadsonawane/workspace/research/prof-surya`.
+- Implementation repository: `/Users/ninadsonawane/workspace/research-dev/GridSFM-study`; remote `https://github.com/ninadsonawane/GridSFM-study`.
+- Completed study: `/Users/ninadsonawane/workspace/research-dev/GridSFM-study/studies/2026-11-04-independent-pq-loading`.
+- Prior protocol: `/Users/ninadsonawane/workspace/research/prof-surya/notes/2026-11-03-benchmark-execution-checklist.md`.
+- Audit: `/Users/ninadsonawane/workspace/research/prof-surya/notes/2026-11-04-loading-study-audit.md`, with the adjacent audit JSON.
+- Pinned author-source checkout: `/Users/ninadsonawane/workspace/research-dev/GridSFM-study/work/GSFM-006-source-517a075`. Inspect `finetune_model/README.md`, `finetune_model/src/closure.py`, inference/evaluation callers and the relevant configuration; verify the revision rather than assuming a directory name establishes it.
+- Put new code, manifests, raw outputs, summaries and the revised manuscript in a **new, clearly named extension study directory** in the implementation repository. Link to the existing study rather than overwriting it or copying its entire evidence tree.
+- Read applicable AGENTS instructions and current context first. Read the implementation repository's required entry files, then distinguish historical stop instructions from this newer authorized extension. Inspect Git status/remotes before synchronizing and preserve local work.
+- Authorized extension: official V2 inference/completion, matched evaluation, electrical diagnosis, literature comparison and paper drafting. Retain cost, APE/MAPE and runtime/acceleration comparisons as deferred. Do not introduce LoRA, architecture/loss searches, new networks, outages, changing line ratings, or unrelated experiments.
+- Prefer already released, verifiable adapted weights when relevant. New long training jobs and paid compute remain subject to the repository's authorization rule. First make any necessary request concrete with the missing checkpoint, proposed data/split, recipe, resources and deliverables. Continue all independent work while that dependency remains unresolved.
+
+## 1. Audit what is already complete and define the question
+
+Verify the existing manifest, saved results and artifact checksums. The audited prior result is **59 unique inputs, 57 checked AC references, two UNKNOWN references, 59 native DC passes and 118 native model states with zero joint AC-feasibility passes**. Treat these as previously verified results to check and reuse, not as new runs.
+
+Reuse valid AC/DC/raw V1/V2 states and the evaluator. Rerun only when an input, source, setting or integrity problem makes reuse invalid; record why. Two UNKNOWN AC references are retained attempted outcomes, not proof of global infeasibility.
+
+Open the revised manuscript skeleton immediately. Central question:
+
+> When P and Q demand change independently, which observed GridSFM errors arise in the native output, which persist in the predicted controls after Newton completion, and which operational limits remain unsatisfied?
+
+Start a related-work comparison table before interpreting new results: prior question/task, evaluated workflow, relevant finding, and the exact distinction our experiment can test. Cover the three papers Dr. Li supplied, the GridSFM V2 paper and the closest recent accuracy/physics-consistency work. Read the actual sections; do not rely only on titles or our earlier summaries. Record bibliographic details and primary-source links. Generic accuracy-versus-feasibility gaps are already known; a new combination of plots is not automatically a research contribution.
+
+## 2. Freeze the three networks and every method stage
+
+Reuse the canonical original matrices, loads, statuses, costs and limits:
+
+1. MATPOWER 8.1 case300.
+2. Our existing interconnected two-copy case300, called case300x2; preserve the exact two parallel ties and one angle reference. It is a constructed 600-bus system, not an independent standard IEEE 600-bus benchmark.
+3. The existing pinned PGLib case500goc variant; verify the exact file and version.
+
+Preserve original rating semantics: case300 has no finite branch RATE_A ratings; case300x2 has rated synthetic ties but unrated original internal branches. Missing thermal limits are N/A. Do not add ratings to obtain more constraint results.
+
+Freeze case/source/checkpoint hashes, conversions, clipping modes, units/baseMVA, generator mappings, seeds and environment. Record topology exposure and operating-point exposure separately for each checkpoint; case500goc being a training topology does not establish that these exact scenarios were seen.
+
+Use these distinct rows:
+
+| Method/stage | Required interpretation |
+| --- | --- |
+| AC-OPF | Independently checked numerical reference; reuse valid saved solutions. |
+| DC-OPF | Native linear formulation; retain its AC-inapplicable fields as N/A. |
+| V1-native | Original frozen Microsoft v1.1, unchanged. |
+| V2-native | Original frozen base V2, unchanged. |
+| V2-frozen+official-PF | **Required new comparison on all three networks:** frozen V2 controls followed by the author's Newton completion. |
+| V2-adapted+official-PF | Separate row only with verified, compatible target-grid adapted weights and recorded provenance. Inspect availability for each network. |
+
+Map the complete published workflow, including where adaptation, PF completion and any downstream projection/AC-OPF warm start occur. **Do not call frozen V2 plus PF a reproduction of grid-specific fine-tuning.** If an adapted stage cannot be reproduced with available compatible weights, document the exact missing component and report that part as incomplete. Do not use a case500-specific adapted checkpoint as a case300-adapted checkpoint.
+
+Projection and a finished warm-started AC-OPF solve are separate downstream procedures, not hidden repairs or substitutes for the required PF stage. Document them in the workflow map; do not add their benchmarking to this scope without a subsequent instruction.
+
+## 3. Preserve the common evaluator and all agreed metrics
+
+Apply one external evaluator to the **original physical case and actual prescribed scenario loads**, independently of model and closure internals.
+
+| Category | Required outputs |
+| --- | --- |
+| State accuracy | Pg, Qg and all-bus voltage magnitude MAE/RMSE against the matched accepted AC reference; angle MAE/RMSE after common reference alignment and wrapping. Units: MW, MVAr, p.u., degrees. |
+| P/Q balance | Separate maximum absolute, mean absolute and p95 absolute mismatch, and violating-bus count, over all buses. Retain signed residuals for diagnosis. |
+| Equipment constraints | Generator P, generator Q, voltage, applicable branch apparent-power and angle limits: violation count, maximum excess and mean nonnegative excess, including zeros over eligible entities. Use the larger apparent flow at the two branch ends and count each physical branch once. |
+| Overall feasibility | Scenario pass/fail for all applicable AC constraints; joint pass counts and percentages by network, path and method. Also report attempted, returned, nonconverged, missing and unevaluable counts. |
+
+Preserve existing tolerances: balance and generator limits `1e-3 MW/MVAr`; voltage `1e-4 p.u.`; finite thermal limits `1e-3 MVA`; branch angle limits `1e-3 degrees`; independent equation agreement `1e-6 MVA`. Any numerical robustness check is separately labeled; do not replace these thresholds after observing results.
+
+Use common scenario denominators. Report passes/attempts and passes/evaluable with explicit counts where they differ; unknown outputs must not inflate success percentages. A finite failed-PF iterate may be scored as a failed candidate, clearly labeled; a nonfinite or absent state has missing metrics and no successful operating point.
+
+State errors require a valid AC label; physical checks do not. Preserve DC's native applicability: Pg/aligned-angle comparisons are valid, while native Qg, voltage, AC balance and full AC feasibility are N/A. Different feasible solutions can have different states; label disagreement alone is not physical failure. We are not measuring objective quality or claiming optimality.
+
+## 4. Implement and validate the official V2 completion
+
+Begin with a case500goc integration check, then validate all three networks before launching the sweep.
+
+- Use the pinned author implementation and its actual callers, not an unrelated generic PF repair. Record the exact control extraction, clipping, initialization, Newton residual equations, convergence tolerance, iteration cap and backtracking. Resolve paper/code preset differences explicitly. Translate p.u. convergence thresholds into physical units before comparing with our evaluator.
+- Supply predicted generator active-power controls and voltage magnitudes at the appropriate controlled buses. Recover non-reference angles, PQ-bus voltages, generator Q and slack P through the documented completion. Native predicted Qg is not a substitute for recovered Qg.
+- Preserve the requested loads. Check the closure's admittance, shunts, taps, charging, phase shifts, statuses and graph-to-case mapping against the original matrices. Identify preprocessing transformations that change the effective physics; do not silently call changed physics the original-case solution.
+- Handle multiple generators at a bus, offline generators and allocation of recovered injections explicitly. In case500goc, the original reference bus has an offline generator: verify the supported slack/control mapping rather than turning that generator on or silently changing limits. Equivalent angle-reference changes must preserve the physical case; changing the balancing generator must be disclosed.
+- Use the documented inference initialization without AC-OPF solution leakage. Do not seed a candidate with the matched solved reference, or introduce scenario-order warm starts without labeling that procedure. Record caches and initialization sources.
+- Keep raw native and completed states separately. Save closure status, residual history/failure reason, recovered injections and any changes to supposedly fixed controls. If ordinary completion leaves a Q or voltage violation, score it; do not clip it away afterward and retain a convergence claim.
+- Check the adapter with known reference controls for validation only, independent equation comparisons and deliberate balance/limit perturbations. Never count the reference-control validation as a model result. Where the existing evaluator is unchanged, reuse its completed validation rather than rewriting it.
+
+Output: a documented, checked stage adapter and a stage-availability table for all three networks. Integration failures are reportable outcomes to diagnose, not evidence of a scientific model limitation until representation and numerical issues are excluded.
+
+## 5. Produce the expanded baseline comparison
+
+At original nominal P0/Q0, compare all available required rows on each network. Reuse accepted AC references and unchanged native results. Apply every applicable selected metric to each completed V2 state.
+
+Inspect implausible values before scaling the run. Distinguish PF convergence, original-equation balance and full equipment feasibility. Save per-bus, per-generator and per-branch details, not only aggregate tables.
+
+Output: three baseline tables and a concise explanation of what completion changed and what it left unresolved.
+
+## 6. Freeze and reuse the matched loading manifest
+
+| Test | Active demand | Reactive demand |
+| --- | --- | --- |
+| Baseline | P0 | Q0 |
+| P-only | alpha P0 | Q0 |
+| Q-only | P0 | alpha Q0 |
+| Combined | alpha P0 | alpha Q0 |
+
+Reuse `alpha = 1.00, 1.01, 1.02, 1.05, 1.10`; count baseline once: **13 main inputs/network, 39 total**. Preserve the load distribution, signed Q scaling, topology and limits. Do not introduce a different baseline for one method to make it pass.
+
+Reuse the existing **14 case-3 inputs** under their original case300 conditions and **six half-step sensitivity inputs**. Thus the initial extension uses the same **59 unique inputs**, not a new dataset or a new 59-input batch per analysis. Check the scenario IDs and exact matrices in the saved manifest before execution.
+
+Keep the exact case-3 absolute scales around 0.93 and 0.94. The change 0.93 to 0.94 is one percentage point of nominal demand, approximately 1.075% relative to 0.93; it is not nominal 1.00 to 1.01. Do not silently substitute one for the other.
+
+## 7. Execute the matched extension and retain every outcome
+
+Run V2-frozen+official-PF on all 59 existing inputs, and compatible adapted+PF rows where actually available. Reuse other verified rows. Run in resumable scenario batches, preserve original inputs/weights and record source/config hashes for each result.
+
+Retain failed/nonfinite outputs, solver traces, reference UNKNOWN status and stage applicability. Produce a complete scenario-by-method coverage table. Do not replace failures with another method's state or omit them from summaries.
+
+Generate every selected metric for the main sweep, with common axes/units and correctly labeled stages. Report rated-branch coverage. Separate frozen-versus-adapted differences from completion effects; a change in weights, clipping and PF simultaneously cannot isolate the effect of PF alone.
+
+Output: raw state archive, detailed constraint tables, all-metrics table, feasibility summaries, loading figures and a reproducibility manifest.
+
+## 8. Analyze the main results, integrating case 3
+
+For every path/network, identify what improves, worsens or remains unchanged after completion. Locate the responsible buses/generators/branches. If all states fail, compare severity and distribution rather than inventing a feasibility-onset threshold.
+
+For case 3:
+
+- Reproduce the native maximum-versus-p95/count divergence from saved results, then check whether it survives completion and any available adapted row.
+- Track worst-bus identity and all improving/worsening buses. Show max, mean, p95 and counts together.
+- Examine voltages, angles, generator Q, adjacent reactive flows, shunts and charging. Check the established buses 235/238 and branch row 321, but do not presume they remain dominant after completion.
+- Use exact AC electrical accounting to explain localized versus network-wide changes. Inspect reference active constraints. Distinguish an algebraic explanation of residual changes from an unproven explanation of neural training behavior.
+
+A divergence disappearing after completion is informative: it limits the original claim to native output. A divergence persisting in equipment violations supports a different, precisely stated conclusion.
+
+## 9. Perform sensitivity as the final focused experimental test
+
+Compare each available model stage with AC-OPF for changes in bus V, generator Pg and Qg per loading increment. Reuse endpoint states. Use baseline to +0.5%, baseline to +1%, and adjacent +1% to +2% P-only and Q-only changes, as in the completed study.
+
+Report response MAE/RMSE, direction agreement and response-magnitude comparison using the existing definitions and material-change thresholds. Separate baseline offsets from response errors. Inspect step-size consistency and changes in reference binding constraints; these are directional finite differences, not a full OPF Jacobian or guaranteed derivative at a switching point.
+
+Pay particular attention to native Qg versus PF-recovered Qg. A physically completed reactive response can differ from raw-head predictions. Do not assume total Qg must increase under every possible Q-demand change; compare with the checked reference for these particular conditions.
+
+No additional variation family is required. Add numerical refinement only to resolve a named ambiguity, and log the reason before inspecting the new result.
+
+## 10. Answer the research questions and finish the paper
+
+Create a claim-to-evidence table answering:
+
+1. Which method/stage serves the prescribed demand and satisfies all applicable constraints at baseline and along each P/Q path?
+2. Which failures disappear with completion, and which remain in generator P/Q, voltage or branch limits?
+3. Does independent Q loading expose different behavior from P-only or combined loading, and does that conclusion survive completion?
+4. Does the case-3 distributional effect persist, disappear or change form? What exact electrical mechanism explains the observed change?
+5. Are observed response errors mainly baseline offsets, incorrect response direction/magnitude, or reference constraint transitions?
+6. Which observations replicate across these selected systems, and which are specific to the two related case300 constructions or one checkpoint?
+7. **What useful understanding do these measurements add beyond existing research?** Name the closest prior result, the additional observation we actually establish, its evidence, its limits, and the practical decision it informs.
+
+For every candidate contribution, state: **known already → additional tested question → observed evidence → useful implication → limitation**. Try to falsify the candidate interpretation using the matched existing results. Distinguish established knowledge, empirical replication, a supported new empirical observation and a speculative mechanism.
+
+Possible outcomes to test, not predetermined conclusions: native Q-response errors disappear under completion; balance restoration transfers the limiting problem to generator Q/slack P or line constraints; independently varied Q reveals a stage-specific weakness concealed by combined scaling; or case-3 improvement is confined to a dominant branch while other errors worsen. None is novel merely because we measured it. If prior work already establishes the same conclusion, say so.
+
+Do not claim a learned-model benefit from convergence or balance enforced by Newton itself, or full feasibility from projection by construction. Our selected metrics do not support speedup, cost-quality or superiority-to-optimization claims.
+
+Revise the manuscript around the strongest **supported** answer. Include methodology, stage diagram, baseline/loading results, integrated case 3, final focused sensitivity, related-work distinction and limitations. Add the three Dr. Li papers where relevant. Generate tables/figures from saved results and crosscheck every headline number.
+
+Maintain the five-page target including references for the intended PES paper; verify current venue/template requirements from official sources before final formatting. Compile the actual IEEE source and inspect the PDF. Keep full metrics in reproducibility material. Do not invent final authors/affiliations, send correspondence or submit the paper.
+
+## Completion and reporting contract
+
+Deliver:
+
+- Versioned protocol and official-workflow/stage-availability map.
+- Matched baseline and P/Q loading comparisons on all three networks, with all four selected metric categories.
+- Reproducible raw/native/completed states, numerical statuses, checksums and coverage records.
+- Integrated case-3 explanation and the final focused sensitivity results.
+- Literature comparison and claim-to-evidence table, including rejected contribution claims.
+- Revised paper source, compiled/inspected PDF, and a brief plain-language note for Dr. Li: what we tested, what completion changed, what remains unreliable and what we learned beyond prior work.
+
+Continue autonomously through these requirements within the authorized scope; do not stop after a successful smoke test. Keep status concise and resumable. Follow tool-specific rules for genuine resource/permission blockers; a blocked optional stage does not justify abandoning independent analysis.
+
+Success means a credible, traceable answer to the research question, **not a guaranteed positive novelty claim or conference acceptance**. If no defensible contribution emerges from this finite protocol, deliver the evidence and explain that honestly, with the smallest justified next decision. Do not start an open-ended search, change metrics or tune against these discovery scenarios until a favorable story appears. A genuinely missing required reproduction component must remain explicitly incomplete, not be relabeled as achieved.
+
+Primary sources to inspect:
+
+- [GridSFM V2 paper, Sections IV and VI](https://arxiv.org/html/2609.30173v2) and [author code](https://github.com/lukebhan/gridsfm). The paper distinguishes control prediction, physics-informed adaptation, Newton completion and downstream procedures; verify those distinctions in the selected release.
+- [Learning to Solve the AC-OPF Using Sensitivity-Informed Deep Neural Networks](https://arxiv.org/abs/2103.14779). Our finite-difference diagnostic is not implementation of its training method.
+- [Topology-Aware Graph Neural Networks for Learning Feasible and Adaptive AC-OPF Solutions](https://arxiv.org/abs/2205.10129).
+- [Unsupervised Learning for Solving AC Optimal Power Flows: Design, Analysis, and Experiment](https://www.mhchen.com/papers/DeepOPF_NGT.TPS.24.pdf).
+- [Physics-Informed but Not Physics-Consistent: Error Geometry and Subspace Projection for Neural AC Power Flow](https://arxiv.org/html/2610.05959v1). Establish the AC-PF versus released AC-OPF task differences before asserting overlap or novelty.

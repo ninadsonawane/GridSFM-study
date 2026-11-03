@@ -1,0 +1,17 @@
+{
+  "repository": "lukebhan/gridsfm",
+  "revision": "970a413556fd1dc8c843cafdb03b01f9f8ef6f44",
+  "path": "case500_goc/n0100/control_model.pt",
+  "sha256": "8903c5270be2bd651e1c21ffa98ad3f3f3be46f77e799b6c7231af26d372f3bc",
+  "size": 61068436,
+  "published_lfs": {
+    "oid": "8903c5270be2bd651e1c21ffa98ad3f3f3be46f77e799b6c7231af26d372f3bc",
+    "size": 61068436,
+    "pointerSize": 133
+  },
+  "local_path": "C:\\Users\\Ninad\\Documents\\Codex\\2026-10-26\\don-t-wait-for-max-anything\\work\\GridSFM-study\\work\\checkpoints\\case500_goc-n0100-control_model.pt",
+  "selection": "n0100 chosen before observing results, matching the published 100-label comparison; no selection across checkpoints",
+  "topology_compatibility": "all baseMVA/bus/gen/branch/gencost matrices exactly equal pinned author case500_goc source (integration-inspection.json)",
+  "case300_and_case300x2": "No compatible target-grid adapted checkpoint in released model roster; not substituted with case500 weights",
+  "operating_point_exposure": "Exact training/validation/test membership of the 59 study scenarios is UNVERIFIED; do not claim held-out generalization"
+}

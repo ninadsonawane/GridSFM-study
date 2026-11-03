@@ -1,0 +1,85 @@
+{
+  "status": "PASS_WITH_DECLARED_GRAPH_PHYSICS_DIFFERENCE",
+  "original_matrix_known_control_gates_pass": true,
+  "unchanged_external_evaluator_reused": true,
+  "perturbations_detected": [
+    "+1MW Pg",
+    "Qg beyond Qmax",
+    "Vm beyond Vmax"
+  ],
+  "rows": [
+    {
+      "network": "case500goc",
+      "path": "released-graph",
+      "converged": true,
+      "iterations": 6,
+      "P_max_MW": 0.0008069525101745967,
+      "Q_max_MVAr": 0.002655743647235198,
+      "joint_pass": false,
+      "balancing_buses": [
+        272
+      ]
+    },
+    {
+      "network": "case500goc",
+      "path": "exact-matrix",
+      "converged": true,
+      "iterations": 6,
+      "P_max_MW": 4.751797177959816e-09,
+      "Q_max_MVAr": 3.60152796474722e-09,
+      "joint_pass": true,
+      "balancing_buses": [
+        272
+      ]
+    },
+    {
+      "network": "case300",
+      "path": "released-graph",
+      "converged": true,
+      "iterations": 4,
+      "P_max_MW": 0.001190852233833084,
+      "Q_max_MVAr": 0.01107520653690841,
+      "joint_pass": false,
+      "balancing_buses": [
+        7049
+      ]
+    },
+    {
+      "network": "case300",
+      "path": "exact-matrix",
+      "converged": true,
+      "iterations": 4,
+      "P_max_MW": 4.816271825802687e-09,
+      "Q_max_MVAr": 9.189413674448588e-09,
+      "joint_pass": true,
+      "balancing_buses": [
+        7049
+      ]
+    },
+    {
+      "network": "case300x2",
+      "path": "released-graph",
+      "converged": true,
+      "iterations": 5,
+      "P_max_MW": 0.0011907632270720114,
+      "Q_max_MVAr": 0.011075232645213262,
+      "joint_pass": false,
+      "balancing_buses": [
+        257
+      ]
+    },
+    {
+      "network": "case300x2",
+      "path": "exact-matrix",
+      "converged": true,
+      "iterations": 5,
+      "P_max_MW": 3.154809746774845e-11,
+      "Q_max_MVAr": 9.629275155020878e-11,
+      "joint_pass": true,
+      "balancing_buses": [
+        257
+      ]
+    }
+  ],
+  "no_model_results_in_this_file": true
+}

@@ -1,0 +1,267 @@
+{
+  "status": "PASS",
+  "checked_UTC": "2026-11-03T19:47:11.854397+00:00",
+  "prior_files_verified": 3081,
+  "prior_archive_sha256": "185cc64b3e08416c6adae56f6efb00a4781068d920457968ff9c5486ed0414c6",
+  "prior_inventory_sha256": "b3a950c33ebcf91a95376c4ee097a05a0dfba8c2ef85e1d5950efbc47eac6916",
+  "prior_revision": "66fa11342a2a3c5fb4b0e6d15f5b697cb12b74a8",
+  "prior_results": {
+    "status": "PASS",
+    "verified_UTC": "2026-11-03T18:39:32.896413+00:00",
+    "counts": {
+      "inputs": 59,
+      "AC_checked": 57,
+      "AC_UNKNOWN": 2,
+      "DC_own_pass": 59,
+      "native_states": 118,
+      "native_AC_pass": 0
+    },
+    "maximum_accepted_reference_balance_residual_MW_MVAr": 6.252946604945464e-09,
+    "independent_evaluator_agreement": true,
+    "raw_native_mapping_verified": true,
+    "Q_only_DC_invariance": [
+      {
+        "scenario": "case300-Q-p1.0000-q1.0100",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300-Q-p1.0000-q1.0200",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300-Q-p1.0000-q1.0500",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300-Q-p1.0000-q1.1000",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300-sensitivity-Q-p1.0000-q1.0050",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300x2-Q-p1.0000-q1.0100",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300x2-Q-p1.0000-q1.0200",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300x2-Q-p1.0000-q1.0500",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300x2-Q-p1.0000-q1.1000",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case300x2-sensitivity-Q-p1.0000-q1.0050",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case500goc-Q-p1.0000-q1.0100",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case500goc-Q-p1.0000-q1.0200",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case500goc-Q-p1.0000-q1.0500",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case500goc-Q-p1.0000-q1.1000",
+        "maximum_DC_array_difference": 0.0
+      },
+      {
+        "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+        "maximum_DC_array_difference": 0.0
+      }
+    ],
+    "reference_failures_retained": [
+      {
+        "scenario": "case300-PQ-p1.1000-q1.1000",
+        "attempts": [
+          {
+            "attempt": 0,
+            "solver_status": "LOCALLY_INFEASIBLE",
+            "Q_violating_buses": [
+              {
+                "bus_id": 118,
+                "Q_residual_MVAr": -33.133640992679034
+              },
+              {
+                "bus_id": 178,
+                "Q_residual_MVAr": -15.87773654902665
+              }
+            ],
+            "P_max_MW": 4.388311936054379e-11,
+            "Q_max_MVAr": 33.133640992679034,
+            "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+          },
+          {
+            "attempt": 1,
+            "solver_status": "LOCALLY_INFEASIBLE",
+            "Q_violating_buses": [
+              {
+                "bus_id": 118,
+                "Q_residual_MVAr": -33.13364145048695
+              },
+              {
+                "bus_id": 178,
+                "Q_residual_MVAr": -15.877736471937055
+              }
+            ],
+            "P_max_MW": 4.3428372009657323e-11,
+            "Q_max_MVAr": 33.13364145048695,
+            "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+          }
+        ]
+      },
+      {
+        "scenario": "case300x2-PQ-p1.1000-q1.1000",
+        "attempts": [
+          {
+            "attempt": 0,
+            "solver_status": "LOCALLY_INFEASIBLE",
+            "Q_violating_buses": [
+              {
+                "bus_id": 97,
+                "Q_residual_MVAr": -33.133639488396966
+              },
+              {
+                "bus_id": 157,
+                "Q_residual_MVAr": -15.877736491050513
+              },
+              {
+                "bus_id": 397,
+                "Q_residual_MVAr": -33.133639000912126
+              },
+              {
+                "bus_id": 457,
+                "Q_residual_MVAr": -15.877736686257578
+              }
+            ],
+            "P_max_MW": 4.388311936054379e-11,
+            "Q_max_MVAr": 33.133639488396966,
+            "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+          },
+          {
+            "attempt": 1,
+            "solver_status": "LOCALLY_INFEASIBLE",
+            "Q_violating_buses": [
+              {
+                "bus_id": 97,
+                "Q_residual_MVAr": -33.13363889546838
+              },
+              {
+                "bus_id": 157,
+                "Q_residual_MVAr": -15.877736850527327
+              },
+              {
+                "bus_id": 397,
+                "Q_residual_MVAr": -33.1336400908109
+              },
+              {
+                "bus_id": 457,
+                "Q_residual_MVAr": -15.877736465993536
+              }
+            ],
+            "P_max_MW": 4.376943252282217e-11,
+            "Q_max_MVAr": 33.1336400908109,
+            "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Training scenario overlap is not recoverable from checkpoint metadata; see training-exposure.json.",
+      "Only fixed original order and the selected releases are evaluated.",
+      "No global infeasibility or optimality certificates."
+    ]
+  },
+  "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+  "source_export": "git archive of exact committed tree; does not reuse dirty working files",
+  "source_files": {
+    ".gitattributes": "96a034fb38499fa76ec7edf768494e744e35d687fe9b845e51b8a998acc22390",
+    ".gitignore": "43c4c7c4dfdb46f5ec942e9e35130fd7e34454ab8859e581eb1c3c16cc60ebea",
+    "LICENSE": "f0e2df114d15accf5f4c3bcda39e6cc9cee7486bdeb48cb506ed9927b0cb8161",
+    "README.md": "3690b420fc845fc355b64d2e47d41b8230b71b70be10ee11760d73082549831c",
+    "requirements.txt": "893937f5b94b23419d039a046b93622b8ebf19a99a5642dccac048e4fde46702",
+    "finetune_model/README.md": "1f8165b01f2c8357f489aef269102936bd0e9bc08f7746220303e12875cebd5b",
+    "generate_finetune_dataset/README.md": "9901025f93dbf2be18c505141a31035864fdcce97694f2d0d8127746dffc3da8",
+    "model/README.md": "cf2cf9b9474bcbd3b37b646174b10c2e6e00e470311d4ec3c9f41eefba949126",
+    "model/gridsfm/blocks.py": "3b1ac45237092273cc0a20c7d0eedf25242b419fda5ce9a2e0dc10e1107f08d8",
+    "model/gridsfm/checkpoint.py": "251842f8141a1b09fb0fe076f996cfd1783a3b7cb5aef81d961b066497cab5c6",
+    "model/gridsfm/cycle_basis.py": "4f1a324975f27bc2341387994c7c8cfbd2f4901a2769717bff5ed20dfa0d0eeb",
+    "model/gridsfm/data.py": "260daeceea5414c90aca3d9337c7973b1f12d48da34a0e7f7bbe5f33ae3f3ec0",
+    "model/gridsfm/dc_prior.py": "f57371ca75ef3b44beb09e85aa668e1ee3f9ecf2bbaf52e56795f527f8e2038b",
+    "model/gridsfm/hodge_pe.py": "8dd3c0a2d9b7be24902c2243ce002c0d0616b7fabc00d03693d80f743e64868c",
+    "model/gridsfm/model.py": "283384500e972379c72fe627b6e301e12d6ca705078cbbbf41ea1cf475d7dc60",
+    "model/gridsfm/pe_features.py": "c097f8b2ab92ccfb9fa58c7af1a82c76e665389c70002a7632c4794f6a9de8af",
+    "model/gridsfm/schema.py": "939b87fe8ecbbe5dc210b406a2429bbcdf1281edac731ca9861d8379bbacd459",
+    "model/gridsfm/signed_incidence.py": "16194ea450844962226100644f01bfb61391ecf81ce4bd20000cfa668f91f37e",
+    "model/gridsfm/stress_features.py": "9621946a6d454d20953d5782883401c74f8f043a461d8622b9deea91579601af",
+    "model/gridsfm/__init__.py": "a45239266836091df9f2be2065078f5930485de5a8958572f436d7721867bbb1",
+    "generate_finetune_dataset/config/activsg10k.yaml": "c3d5ddbf923c71a1613179f8755feabcf4c590be12054118db9c434b1e24f85b",
+    "generate_finetune_dataset/config/case500_goc.yaml": "cd082ec2ab6611939e784738603d363e3cde9890a6f6735fa1d669e8a620f42a",
+    "generate_finetune_dataset/config/case6470_rte.yaml": "83ec9edc23d5b868c543b4343f0e4b7a9ba3c01ae5f294c4bbabd8742f368091",
+    "generate_finetune_dataset/config/tx2k.yaml": "ac776041f173d442f4459978fb9f20ed04c30d879eb2babcdcdb1ab0e2a958b5",
+    "generate_finetune_dataset/data/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "generate_finetune_dataset/scripts/generate_finetune_dataset.py": "dc2e6080ae214ce44110e5140d346c834f4c73e646a676b0a2bbcd3134f38eb7",
+    "generate_finetune_dataset/scripts/validate_config.py": "dfa1e0572cd897d390e2a3f1b01dedd54b31a814adc5334605a94fe55216a061",
+    "generate_finetune_dataset/scripts/validate_dataset.py": "55dc713bdb2fa5ea75d8b983eeba14d3cc2960e7ed79a218867c171668c15a0f",
+    "generate_finetune_dataset/src/config.py": "2e59b51643766a40be8198a6922f8fff50e3d6f153fe534a49503a30917a0dd4",
+    "generate_finetune_dataset/src/dataset.py": "2791aba0b6b99e222a3aa7f7f208a12ec04622351cdda29ca480f5a18e04d9b3",
+    "generate_finetune_dataset/src/export_gridsfm.jl": "c2cd44dd0b251df870b4f72c960025cbe73c4be1ac18b41e5ff859446878fa3d",
+    "generate_finetune_dataset/src/gridstats.py": "8e64ef001ac78fdb919969bfad39eadf280344404e2e262db76bda4f97a00098",
+    "generate_finetune_dataset/src/Manifest.toml": "b794d46e8bd61e0228e57c66a72f66199fc0c8cde9c14da15e277cce00b3fc41",
+    "generate_finetune_dataset/src/orchestrate.py": "f56ed32e04c618f1a5d9637ffa35646ef825f233944e9bb0d2d574c86b7138e2",
+    "generate_finetune_dataset/src/perturb_modes.jl": "b89b1dad3080e8ad8b4246354e13b34c78e8936b161cbfac45d8f0e6d9ef232b",
+    "generate_finetune_dataset/src/Project.toml": "1913f1e8ff75b2f51bcf9a5d923e4a237998ca83b934e0ad7e020c9b0d80c1a8",
+    "generate_finetune_dataset/src/stats.py": "cd6ca02bde3e6cfc22d7bed28cfbe8c1399e1a4c80d8e296ee53a8c66f53616e",
+    "generate_finetune_dataset/src/worker.jl": "68f50f6c9d76a6386f8e70a6c8685c6171ae9de90e9cdb63635a6d3f786e1918",
+    "generate_finetune_dataset/topologies/ACTIVSg10k.m": "2319a8b6e60a34638e03605f906ecfe593142096d61ef1ef498d67696d743f80",
+    "generate_finetune_dataset/topologies/pglib_opf_case500_goc.m": "36c298d571605019ef16c17dd74680adca1386d91ed47d69a0d909aebc90a1b6",
+    "generate_finetune_dataset/topologies/pglib_opf_case6470_rte.m": "7aa5946a62279c9c24a82d4b06002e40cf202c8a7b878f913e3a44f7445c4fff",
+    "generate_finetune_dataset/topologies/Texas2k_series25_case1_summerpeak.m": "ac4184c07fd2abe902a07937af8cc400d7c388defd6440575d454a57def36ea0",
+    "finetune_model/cache/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "finetune_model/checkpoints/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "finetune_model/config/activsg10k_finetune.yaml": "32f6bc76b3323174df1e19037bd1fc087d5500e31498ea2adab6b616c080367a",
+    "finetune_model/config/activsg10k_scratch1k.yaml": "16ac08bf22f9f98fed505cd051e6af599f5f81db6fef9d2ad26c65f32ae22ebc",
+    "finetune_model/config/case500_goc_finetune.yaml": "71a01a8deec2fbe963f5a7338a0941ff93a795590440088c1938d2a7c9480535",
+    "finetune_model/config/case500_goc_scratch1k.yaml": "d89f677421eb9bdc2e8ec606f0d2e532aa94548d3f34ddc407ba78c5a4ca65f8",
+    "finetune_model/config/case6470_rte_finetune.yaml": "88bd24ed0d27c243fb79e19caf70f638aad60b131a6ec0c4dacff79cf489472e",
+    "finetune_model/config/case6470_rte_scratch1k.yaml": "89fdbe6a843834059831ef90a098f471445ed7eadbc52bf15dcabbf6fcbc35e3",
+    "finetune_model/config/defaults.yaml": "248364be5e4462bbf5e5eeb9835268a89c0eca205ace301d303fbdb0cc6d06c4",
+    "finetune_model/config/tx2k_finetune.yaml": "d063e82611db005611f0596f897eddf340aadc89a468d1ca7de1fbda37d32a8d",
+    "finetune_model/config/tx2k_scratch1k.yaml": "ce37631661291d427325cfce2d52c9143a1684e2f6ea4922bd0e83060294a983",
+    "finetune_model/logs/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "finetune_model/results/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "finetune_model/scripts/finetune.py": "0249ed3046532d88d13078dc521ffb8a3c30d4a052d6c1da6c68e955b7c9d9d8",
+    "finetune_model/scripts/prep_cache.py": "3f7e9e25f1fd5f98c8961a50cefe8a86f111a801b4cc94997c5f192eeed6f16c",
+    "finetune_model/scripts/train_grid.sh": "d0cada66cf641a6c9dad20bb6270e1a96f9e2b6ba9068bcae597afdab52f651e",
+    "finetune_model/scripts/validate_config.py": "6a74f1a9ab8f08f1d5b9bc13a5c7dc4dd8ba667f5440def88fe7e87343ef9f67",
+    "finetune_model/scripts/_bootstrap.py": "4e751570bf1265420c4e34c6a6a27bae1659d46f58d6538a6b0d12daeabd2f1b",
+    "finetune_model/src/cache.py": "2921344c9874afe0a66e9ea3a6862b5ea93a39b343d0f4323c369131f51dd8e6",
+    "finetune_model/src/closure.py": "35a02632bc00e0a87a28ca73f62a44f40f086ff82a1d50dd83010bda35ca980a",
+    "finetune_model/src/config.py": "b2cefe163c56288d698f653948bcf6055816ff85f26dd42b1870135c10df3f84",
+    "finetune_model/src/dataset.py": "edd3a3854e6f2acf4ef05f3cae5af5c03ecac3ff37b629343c76d0f42c2eff99",
+    "finetune_model/src/elastic_loss.py": "96c9161d2f40082eab9608daa2ebc13472478da5a69cfffbd3a4e3db9267c3e5",
+    "finetune_model/src/evaluate.py": "b7056dc83859ad1b648d824916aadc2ab39f14b9856fbbb7d102ce01089eea68",
+    "finetune_model/src/gpu_solver.py": "a058779c4f970c11a88995225cf9f87cd6823a616b5853600d3e8d2cd03fa197",
+    "finetune_model/src/history.py": "50de14d38a0321f30ce102b7ecf43c5185497f468666c4b420981d8d71f56e77",
+    "finetune_model/src/loss.py": "86771a658a1c25381e62bfad0fd7e15c2a85c2f2bfc103116799216cbe145db3",
+    "finetune_model/src/masks.py": "1705acf392394faaa408623dd9c4a3b3ce2a526872d14b512905f40ea5cd91f8",
+    "finetune_model/src/optim.py": "8123cedd7b22be89becb8dc48a1693e7f6b90ca44b518ec37b2c339ad9aeb72d",
+    "finetune_model/src/plots.py": "fdc2ec610ea5cf1f268fc469be25ff68d16bf0a9dfdbfbcb27fbf49ccc506c68",
+    "finetune_model/src/store.py": "fe757b1d8a0af33b5d396aea6f09664f022b0c15cebbbb4ddddb7c4053adf078",
+    "finetune_model/src/subset.py": "557e03482916d14d246c467c226c8afda35527af8734b71572163fc9c1f1d2c6",
+    "finetune_model/src/train.py": "10c06a6ddbd42bcaf594b3b3dfbe41cbc65c861d263b77996287b517b860df55",
+    "finetune_model/src/train_elastic.py": "09fb939217e12faa8b31107d73e8c79b56c3836305df8c2d05ea3b57413d2c34"
+  },
+  "environment_location_note": "Requested macOS paths are not mounted on this Windows host. Existing verified Windows repository and runtime are reused. The referenced Mac checklist/audit notes are unavailable locally; the complete new objective controls this extension."
+}

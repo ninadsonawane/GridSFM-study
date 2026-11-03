@@ -1,0 +1,84 @@
+{
+  "method": "REFERENCE-CONTROL-VALIDATION-ONLY",
+  "P_balance_MW": {
+    "max_abs": 4.751797177959816e-09,
+    "mean_abs": 2.4706279792517876e-11,
+    "p95_abs": 2.2995139126180493e-11,
+    "violating_bus_count": 0,
+    "bus_count": 500
+  },
+  "Q_balance_MVAr": {
+    "max_abs": 3.60152796474722e-09,
+    "mean_abs": 1.567354723233152e-11,
+    "p95_abs": 3.266906745125196e-11,
+    "violating_bus_count": 0,
+    "bus_count": 500
+  },
+  "constraints": {
+    "Pg_MW": {
+      "eligible_count": 224,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_angle_deg": {
+      "eligible_count": 728,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "Qg_MVAr": {
+      "eligible_count": 224,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "voltage_pu": {
+      "eligible_count": 500,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_thermal_MVA": {
+      "eligible_count": 728,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_active_MW": null
+  },
+  "accuracy": {
+    "Pg_MW": {
+      "MAE": 8.539020043358851e-12,
+      "RMSE": 1.1166217633760859e-10,
+      "count": 171
+    },
+    "Qg_MVAr": {
+      "MAE": 5.3779901665848936e-11,
+      "RMSE": 2.5209133245390024e-10,
+      "count": 171
+    },
+    "V_pu": {
+      "MAE": 2.6163959887526288e-14,
+      "RMSE": 9.899596060976325e-14,
+      "count": 500
+    },
+    "aligned_angle_deg": {
+      "MAE": 1.1910969988093712e-12,
+      "RMSE": 3.704227024687305e-12,
+      "count": 500
+    }
+  },
+  "AC_joint_pass": true,
+  "DC_own_constraints_pass": null,
+  "reference_valid": true,
+  "scenario": "case500goc-base",
+  "PF_converged": true,
+  "mapping_supported": true,
+  "successful_AC_operating_point": true
+}

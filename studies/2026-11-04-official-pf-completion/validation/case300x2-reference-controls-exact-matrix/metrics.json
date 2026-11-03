@@ -1,0 +1,78 @@
+{
+  "method": "REFERENCE-CONTROL-VALIDATION-ONLY",
+  "P_balance_MW": {
+    "max_abs": 3.154809746774845e-11,
+    "mean_abs": 7.104349805201841e-13,
+    "p95_abs": 2.7881696951226305e-12,
+    "violating_bus_count": 0,
+    "bus_count": 600
+  },
+  "Q_balance_MVAr": {
+    "max_abs": 9.629275155020878e-11,
+    "mean_abs": 3.0236887197443344e-12,
+    "p95_abs": 1.2146017525083144e-11,
+    "violating_bus_count": 0,
+    "bus_count": 600
+  },
+  "constraints": {
+    "Pg_MW": {
+      "eligible_count": 138,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_angle_deg": null,
+    "Qg_MVAr": {
+      "eligible_count": 138,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "voltage_pu": {
+      "eligible_count": 600,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_thermal_MVA": {
+      "eligible_count": 2,
+      "violating_count": 0,
+      "maximum": 0.0,
+      "mean_all": 0.0,
+      "mean_violating": 0.0
+    },
+    "branch_active_MW": null
+  },
+  "accuracy": {
+    "Pg_MW": {
+      "MAE": 3.782352852821519e-13,
+      "RMSE": 4.443258543285656e-12,
+      "count": 138
+    },
+    "Qg_MVAr": {
+      "MAE": 5.75988286390217e-12,
+      "RMSE": 1.086613917713109e-11,
+      "count": 138
+    },
+    "V_pu": {
+      "MAE": 3.7370107008882765e-15,
+      "RMSE": 1.0504710605734274e-14,
+      "count": 600
+    },
+    "aligned_angle_deg": {
+      "MAE": 2.4095925255096518e-12,
+      "RMSE": 2.5006544567229314e-12,
+      "count": 600
+    }
+  },
+  "AC_joint_pass": true,
+  "DC_own_constraints_pass": null,
+  "reference_valid": true,
+  "scenario": "case300x2-base",
+  "PF_converged": true,
+  "mapping_supported": true,
+  "successful_AC_operating_point": true
+}
