@@ -1,0 +1,172 @@
+# Baseline comparisons
+
+Nominal loads and unchanged original equipment limits. State errors use independently checked AC-OPF references. P and Q are MW and MVAr; V is pu; angles are degrees. DC Q, V, apparent thermal and full AC feasibility are N/A. Mean equipment excess includes all eligible items, including zeros. Generator state errors average online generators only; equipment checks include required zero output of offline units.
+
+## case300
+
+| Metric | AC-OPF | DC-OPF | V1 | V2 |
+|---|---:|---:|---:|---:|
+| P_balance_MW.max_abs | 1.2021e-10 | 4.2633e-12 | 3754.1 | 3210.7 |
+| P_balance_MW.mean_abs | 1.3256e-12 | 2.6273e-13 | 89.279 | 164.28 |
+| P_balance_MW.p95_abs | 2.9974e-12 | 1.1966e-12 | 250.04 | 713.83 |
+| P_balance_MW.violating_bus_count | 0 | 0 | 300 | 300 |
+| P_balance_MW.bus_count | 300 | 300 | 300 | 300 |
+| Q_balance_MVAr.max_abs | 1.6636e-09 | N/A | 8938 | 7958 |
+| Q_balance_MVAr.mean_abs | 7.571e-12 | N/A | 272.61 | 363.45 |
+| Q_balance_MVAr.p95_abs | 8.5706e-12 | N/A | 718.04 | 1372.9 |
+| Q_balance_MVAr.violating_bus_count | 0 | N/A | 300 | 300 |
+| Q_balance_MVAr.bus_count | 300 | N/A | 300 | 300 |
+| constraints.Pg_MW.eligible_count | 69 | 69 | 69 | 69 |
+| constraints.Pg_MW.violating_count | 0 | 0 | 0 | 0 |
+| constraints.Pg_MW.maximum | 0 | 0 | 0 | 3.8147e-05 |
+| constraints.Pg_MW.mean_all | 0 | 0 | 0 | 2.0801e-06 |
+| constraints.Pg_MW.mean_violating | 0 | 0 | 0 | 0 |
+| constraints.branch_angle_deg | N/A | N/A | N/A | N/A |
+| constraints.Qg_MVAr.eligible_count | 69 | N/A | 69 | 69 |
+| constraints.Qg_MVAr.violating_count | 0 | N/A | 0 | 0 |
+| constraints.Qg_MVAr.maximum | 0 | N/A | 4.7684e-06 | 4.7684e-06 |
+| constraints.Qg_MVAr.mean_all | 0 | N/A | 9.9427e-08 | 1.364e-07 |
+| constraints.Qg_MVAr.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.voltage_pu.eligible_count | 300 | N/A | 300 | 300 |
+| constraints.voltage_pu.violating_count | 0 | N/A | 0 | 0 |
+| constraints.voltage_pu.maximum | 0 | N/A | 2.3842e-09 | 2.3842e-09 |
+| constraints.voltage_pu.mean_all | 0 | N/A | 7.9473e-12 | 3.4968e-10 |
+| constraints.voltage_pu.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.branch_thermal_MVA | N/A | N/A | N/A | N/A |
+| constraints.branch_active_MW | N/A | N/A | N/A | N/A |
+| accuracy.Pg_MW.MAE | 0 | 26.09 | 195.13 | 106.4 |
+| accuracy.Pg_MW.RMSE | 0 | 36.138 | 271.99 | 187.2 |
+| accuracy.Qg_MVAr.MAE | 0 | N/A | 89.097 | 98.659 |
+| accuracy.Qg_MVAr.RMSE | 0 | N/A | 140.62 | 159.65 |
+| accuracy.V_pu.MAE | 0 | N/A | 0.026869 | 0.043527 |
+| accuracy.V_pu.RMSE | 0 | N/A | 0.035869 | 0.052874 |
+| accuracy.aligned_angle_deg.MAE | 0 | 7.2284 | 23.305 | 48.832 |
+| accuracy.aligned_angle_deg.RMSE | 0 | 9.0951 | 24.325 | 51.006 |
+| AC_joint_pass | PASS | N/A | FAIL | FAIL |
+| DC_own_constraints_pass | N/A | PASS | N/A | N/A |
+| Q_balance_MVAr | N/A | N/A | N/A | N/A |
+| constraints.Qg_MVAr | N/A | N/A | N/A | N/A |
+| constraints.voltage_pu | N/A | N/A | N/A | N/A |
+| accuracy.Qg_MVAr | N/A | N/A | N/A | N/A |
+| accuracy.V_pu | N/A | N/A | N/A | N/A |
+
+## case300x2
+
+| Metric | AC-OPF | DC-OPF | V1 | V2 |
+|---|---:|---:|---:|---:|
+| P_balance_MW.max_abs | 2.666e-11 | 5.5138e-12 | 1141.6 | 4915.5 |
+| P_balance_MW.mean_abs | 4.9751e-13 | 2.6638e-13 | 33.304 | 151.72 |
+| P_balance_MW.p95_abs | 1.3756e-12 | 1.411e-12 | 115.14 | 653.85 |
+| P_balance_MW.violating_bus_count | 0 | 0 | 599 | 600 |
+| P_balance_MW.bus_count | 600 | 600 | 600 | 600 |
+| Q_balance_MVAr.max_abs | 1.0201e-10 | N/A | 9376.5 | 9231.5 |
+| Q_balance_MVAr.mean_abs | 2.2019e-12 | N/A | 177.85 | 283.6 |
+| Q_balance_MVAr.p95_abs | 6.7118e-12 | N/A | 511.89 | 1159.9 |
+| Q_balance_MVAr.violating_bus_count | 0 | N/A | 600 | 600 |
+| Q_balance_MVAr.bus_count | 600 | N/A | 600 | 600 |
+| constraints.Pg_MW.eligible_count | 138 | 138 | 138 | 138 |
+| constraints.Pg_MW.violating_count | 0 | 0 | 0 | 0 |
+| constraints.Pg_MW.maximum | 0 | 0 | 9.5367e-06 | 3.8147e-05 |
+| constraints.Pg_MW.mean_all | 0 | 0 | 2.4878e-07 | 1.9004e-06 |
+| constraints.Pg_MW.mean_violating | 0 | 0 | 0 | 0 |
+| constraints.branch_angle_deg | N/A | N/A | N/A | N/A |
+| constraints.Qg_MVAr.eligible_count | 138 | N/A | 138 | 138 |
+| constraints.Qg_MVAr.violating_count | 0 | N/A | 0 | 0 |
+| constraints.Qg_MVAr.maximum | 0 | N/A | 4.7684e-06 | 4.7684e-06 |
+| constraints.Qg_MVAr.mean_all | 0 | N/A | 8.9623e-08 | 1.364e-07 |
+| constraints.Qg_MVAr.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.voltage_pu.eligible_count | 600 | N/A | 600 | 600 |
+| constraints.voltage_pu.violating_count | 0 | N/A | 0 | 0 |
+| constraints.voltage_pu.maximum | 0 | N/A | 0 | 2.3842e-09 |
+| constraints.voltage_pu.mean_all | 0 | N/A | 0 | 2.9405e-10 |
+| constraints.voltage_pu.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.branch_thermal_MVA.eligible_count | 2 | N/A | 2 | 2 |
+| constraints.branch_thermal_MVA.violating_count | 0 | N/A | 0 | 0 |
+| constraints.branch_thermal_MVA.maximum | 0 | N/A | 0 | 0 |
+| constraints.branch_thermal_MVA.mean_all | 0 | N/A | 0 | 0 |
+| constraints.branch_thermal_MVA.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.branch_active_MW | N/A | N/A | N/A | N/A |
+| accuracy.Pg_MW.MAE | 0 | 26.09 | 122.53 | 106.04 |
+| accuracy.Pg_MW.RMSE | 0 | 36.135 | 222.39 | 186.09 |
+| accuracy.Qg_MVAr.MAE | 0 | N/A | 89.302 | 100.15 |
+| accuracy.Qg_MVAr.RMSE | 0 | N/A | 141.44 | 161.37 |
+| accuracy.V_pu.MAE | 0 | N/A | 0.026674 | 0.042242 |
+| accuracy.V_pu.RMSE | 0 | N/A | 0.035033 | 0.051474 |
+| accuracy.aligned_angle_deg.MAE | 0 | 7.2278 | 30.199 | 48.986 |
+| accuracy.aligned_angle_deg.RMSE | 0 | 9.0947 | 33.59 | 51.112 |
+| AC_joint_pass | PASS | N/A | FAIL | FAIL |
+| DC_own_constraints_pass | N/A | PASS | N/A | N/A |
+| Q_balance_MVAr | N/A | N/A | N/A | N/A |
+| constraints.Qg_MVAr | N/A | N/A | N/A | N/A |
+| constraints.voltage_pu | N/A | N/A | N/A | N/A |
+| constraints.branch_thermal_MVA | N/A | N/A | N/A | N/A |
+| constraints.branch_active_MW.eligible_count | N/A | 2 | N/A | N/A |
+| constraints.branch_active_MW.violating_count | N/A | 0 | N/A | N/A |
+| constraints.branch_active_MW.maximum | N/A | 0 | N/A | N/A |
+| constraints.branch_active_MW.mean_all | N/A | 0 | N/A | N/A |
+| constraints.branch_active_MW.mean_violating | N/A | 0 | N/A | N/A |
+| accuracy.Qg_MVAr | N/A | N/A | N/A | N/A |
+| accuracy.V_pu | N/A | N/A | N/A | N/A |
+
+## case500goc
+
+| Metric | AC-OPF | DC-OPF | V1 | V2 |
+|---|---:|---:|---:|---:|
+| P_balance_MW.max_abs | 4.3218e-10 | 1.1369e-11 | 114.61 | 3807.4 |
+| P_balance_MW.mean_abs | 2.905e-12 | 5.5632e-13 | 15.379 | 114.25 |
+| P_balance_MW.p95_abs | 8.0171e-12 | 2.8422e-12 | 76.556 | 402.15 |
+| P_balance_MW.violating_bus_count | 0 | 0 | 500 | 500 |
+| P_balance_MW.bus_count | 500 | 500 | 500 | 500 |
+| Q_balance_MVAr.max_abs | 2.8673e-09 | N/A | 72.256 | 21753 |
+| Q_balance_MVAr.mean_abs | 9.77e-12 | N/A | 10.847 | 374.6 |
+| Q_balance_MVAr.p95_abs | 2.0642e-11 | N/A | 37.699 | 876.11 |
+| Q_balance_MVAr.violating_bus_count | 0 | N/A | 500 | 499 |
+| Q_balance_MVAr.bus_count | 500 | N/A | 500 | 500 |
+| constraints.Pg_MW.eligible_count | 224 | 224 | 224 | 224 |
+| constraints.Pg_MW.violating_count | 0 | 0 | 0 | 0 |
+| constraints.Pg_MW.maximum | 0 | 0 | 3.4149e-05 | 3.4149e-05 |
+| constraints.Pg_MW.mean_all | 0 | 0 | 9.555e-07 | 9.7795e-07 |
+| constraints.Pg_MW.mean_violating | 0 | 0 | 0 | 0 |
+| constraints.branch_angle_deg.eligible_count | 728 | 728 | 728 | 728 |
+| constraints.branch_angle_deg.violating_count | 0 | 0 | 0 | 0 |
+| constraints.branch_angle_deg.maximum | 0 | 0 | 0 | 0 |
+| constraints.branch_angle_deg.mean_all | 0 | 0 | 0 | 0 |
+| constraints.branch_angle_deg.mean_violating | 0 | 0 | 0 | 0 |
+| constraints.Qg_MVAr.eligible_count | 224 | N/A | 224 | 224 |
+| constraints.Qg_MVAr.violating_count | 0 | N/A | 0 | 0 |
+| constraints.Qg_MVAr.maximum | 0 | N/A | 3.4308e-07 | 1.462e-06 |
+| constraints.Qg_MVAr.mean_all | 0 | N/A | 5.7208e-09 | 7.9043e-08 |
+| constraints.Qg_MVAr.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.voltage_pu.eligible_count | 500 | N/A | 500 | 500 |
+| constraints.voltage_pu.violating_count | 0 | N/A | 0 | 0 |
+| constraints.voltage_pu.maximum | 0 | N/A | 2.3842e-08 | 2.3842e-08 |
+| constraints.voltage_pu.mean_all | 0 | N/A | 4.2915e-10 | 2.3508e-08 |
+| constraints.voltage_pu.mean_violating | 0 | N/A | 0 | 0 |
+| constraints.branch_thermal_MVA.eligible_count | 728 | N/A | 728 | 728 |
+| constraints.branch_thermal_MVA.violating_count | 0 | N/A | 2 | 36 |
+| constraints.branch_thermal_MVA.maximum | 0 | N/A | 19.706 | 8468.4 |
+| constraints.branch_thermal_MVA.mean_all | 0 | N/A | 0.033357 | 39.611 |
+| constraints.branch_thermal_MVA.mean_violating | 0 | N/A | 12.142 | 801.02 |
+| constraints.branch_active_MW | N/A | N/A | N/A | N/A |
+| accuracy.Pg_MW.MAE | 0 | 1.8912 | 0.69685 | 2.1666 |
+| accuracy.Pg_MW.RMSE | 0 | 7.691 | 3.3346 | 8.6676 |
+| accuracy.Qg_MVAr.MAE | 0 | N/A | 4.135 | 19.444 |
+| accuracy.Qg_MVAr.RMSE | 0 | N/A | 6.658 | 33.144 |
+| accuracy.V_pu.MAE | 0 | N/A | 0.0011514 | 0.033769 |
+| accuracy.V_pu.RMSE | 0 | N/A | 0.001529 | 0.043627 |
+| accuracy.aligned_angle_deg.MAE | 0 | 2.3053 | 1.2986 | 1.7475 |
+| accuracy.aligned_angle_deg.RMSE | 0 | 2.8425 | 1.5799 | 2.0537 |
+| AC_joint_pass | PASS | N/A | FAIL | FAIL |
+| DC_own_constraints_pass | N/A | PASS | N/A | N/A |
+| Q_balance_MVAr | N/A | N/A | N/A | N/A |
+| constraints.Qg_MVAr | N/A | N/A | N/A | N/A |
+| constraints.voltage_pu | N/A | N/A | N/A | N/A |
+| constraints.branch_thermal_MVA | N/A | N/A | N/A | N/A |
+| constraints.branch_active_MW.eligible_count | N/A | 728 | N/A | N/A |
+| constraints.branch_active_MW.violating_count | N/A | 0 | N/A | N/A |
+| constraints.branch_active_MW.maximum | N/A | 0 | N/A | N/A |
+| constraints.branch_active_MW.mean_all | N/A | 0 | N/A | N/A |
+| constraints.branch_active_MW.mean_violating | N/A | 0 | N/A | N/A |
+| accuracy.Qg_MVAr | N/A | N/A | N/A | N/A |
+| accuracy.V_pu | N/A | N/A | N/A | N/A |
+

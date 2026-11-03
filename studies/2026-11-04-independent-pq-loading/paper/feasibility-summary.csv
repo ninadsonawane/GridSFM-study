@@ -1,0 +1,13 @@
+network,method,attempted,returned,passes,pass_percent,definition,accepted_references
+case300,AC-OPF,13,12,12,92.3076923076923,all applicable AC constraints,12
+case300,DC-OPF,13,13,13,100.0,own DC constraints,12
+case300,microsoft-v1.1,13,13,0,0.0,all applicable AC constraints,12
+case300,newer-base-v2,13,13,0,0.0,all applicable AC constraints,12
+case300x2,AC-OPF,13,12,12,92.3076923076923,all applicable AC constraints,12
+case300x2,DC-OPF,13,13,13,100.0,own DC constraints,12
+case300x2,microsoft-v1.1,13,13,0,0.0,all applicable AC constraints,12
+case300x2,newer-base-v2,13,13,0,0.0,all applicable AC constraints,12
+case500goc,AC-OPF,13,13,13,100.0,all applicable AC constraints,13
+case500goc,DC-OPF,13,13,13,100.0,own DC constraints,13
+case500goc,microsoft-v1.1,13,13,0,0.0,all applicable AC constraints,13
+case500goc,newer-base-v2,13,13,0,0.0,all applicable AC constraints,13

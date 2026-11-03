@@ -1,0 +1,16 @@
+{
+  "options": {
+    "tol": 1e-09,
+    "bound_relax_factor": 0.0,
+    "max_cpu_time": 120.0,
+    "acceptable_tol": 1e-09,
+    "max_iter": 3000,
+    "constr_viol_tol": 1e-10,
+    "print_level": 0
+  },
+  "julia": "1.11.9",
+  "ready": true,
+  "PowerModels": "0.21.5",
+  "julia_import_seconds": 3.865999937057495,
+  "Ipopt": "1.14.0"
+}

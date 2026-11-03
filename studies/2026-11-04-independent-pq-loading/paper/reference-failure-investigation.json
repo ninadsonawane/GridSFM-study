@@ -1,0 +1,96 @@
+[
+  {
+    "scenario": "case300-PQ-p1.1000-q1.1000",
+    "attempts": [
+      {
+        "attempt": 0,
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "Q_violating_buses": [
+          {
+            "bus_id": 118,
+            "Q_residual_MVAr": -33.133640992679034
+          },
+          {
+            "bus_id": 178,
+            "Q_residual_MVAr": -15.87773654902665
+          }
+        ],
+        "P_max_MW": 4.388311936054379e-11,
+        "Q_max_MVAr": 33.133640992679034,
+        "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+      },
+      {
+        "attempt": 1,
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "Q_violating_buses": [
+          {
+            "bus_id": 118,
+            "Q_residual_MVAr": -33.13364145048695
+          },
+          {
+            "bus_id": 178,
+            "Q_residual_MVAr": -15.877736471937055
+          }
+        ],
+        "P_max_MW": 4.3428372009657323e-11,
+        "Q_max_MVAr": 33.13364145048695,
+        "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+      }
+    ]
+  },
+  {
+    "scenario": "case300x2-PQ-p1.1000-q1.1000",
+    "attempts": [
+      {
+        "attempt": 0,
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "Q_violating_buses": [
+          {
+            "bus_id": 97,
+            "Q_residual_MVAr": -33.133639488396966
+          },
+          {
+            "bus_id": 157,
+            "Q_residual_MVAr": -15.877736491050513
+          },
+          {
+            "bus_id": 397,
+            "Q_residual_MVAr": -33.133639000912126
+          },
+          {
+            "bus_id": 457,
+            "Q_residual_MVAr": -15.877736686257578
+          }
+        ],
+        "P_max_MW": 4.388311936054379e-11,
+        "Q_max_MVAr": 33.133639488396966,
+        "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+      },
+      {
+        "attempt": 1,
+        "solver_status": "LOCALLY_INFEASIBLE",
+        "Q_violating_buses": [
+          {
+            "bus_id": 97,
+            "Q_residual_MVAr": -33.13363889546838
+          },
+          {
+            "bus_id": 157,
+            "Q_residual_MVAr": -15.877736850527327
+          },
+          {
+            "bus_id": 397,
+            "Q_residual_MVAr": -33.1336400908109
+          },
+          {
+            "bus_id": 457,
+            "Q_residual_MVAr": -15.877736465993536
+          }
+        ],
+        "P_max_MW": 4.376943252282217e-11,
+        "Q_max_MVAr": 33.1336400908109,
+        "interpretation": "Local infeasibility status under two starts; no global infeasibility certificate."
+      }
+    ]
+  }
+]

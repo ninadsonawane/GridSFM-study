@@ -1,0 +1,15 @@
+{
+  "phase": "loading",
+  "completed_UTC": "2026-11-03T18:34:27.090546+00:00",
+  "scenario_count": 50,
+  "code_sha256": {
+    "experiments\\loading\\analyze.py": "0770d6e8db9d8baec79a71b338fa2b911bfbb8cbf4defbaf29810380cdb17476",
+    "experiments\\loading\\electrical.py": "0f604c87ed3e706a95114df17b3bd3a5ebbaa767612ac0107ab4bbc92b6a7d44",
+    "experiments\\loading\\model_batch.py": "9482e3a1646200b6d1c6cd00b1e774b6758ad7cccb834bf282d8d2b6a50af72c",
+    "experiments\\loading\\model_worker.py": "20b1f8368c1bebddf59badca920556e4fcad4600a8b441ce5b217210be048cbb",
+    "experiments\\loading\\run.py": "6575961cec90af9a6c2b0fe1f133535aafaf23689de1b6915148ef012c55cdd7",
+    "experiments\\loading\\run_dc.py": "2f14397530f6c80229b8875dcdcd3f29ea33c97f9e48e11467043832f174284f",
+    "experiments\\loading\\solver_checks.py": "b602da80062c82ff9af115dd074ac592826970d92bb0d44abea27895308debbf",
+    "experiments\\loading\\study.py": "1d4a3e1f9039e4241cec087447ccd42c4d77bc3936254ba04e167f37368b93b9"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date_UTC": "2026-11-03T18:49:07.868367+00:00",
+  "frozen_manifest_sha256": "2981915b899153c5982fa34eea35e08c683e1ec33366d2bbda674d2a916e3214",
+  "training_exposure_file": "paper/training-exposure.json",
+  "training_exposure_sha256": "617408b1d9c4b3e22ce2922622898bb5a59520da2761d24c367c9ce87f52442b",
+  "case500_source_exact_pinned_git_object": true,
+  "bundled_Julia_environment_byte_identical_to_executed": true,
+  "executed_study_py_sha256": "1d4a3e1f9039e4241cec087447ccd42c4d77bc3936254ba04e167f37368b93b9",
+  "executed_study_py_file": "experiments/executed-source/study.py",
+  "path_only_portability_update": "Final study.py accepts GRIDSFM_RUNTIME_ROOT and bundled Julia Project/Manifest. Original executed source retained with phase-matching hash.",
+  "hardware": {
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpus": 20,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "physical_core_count_and_RAM": "UNKNOWN: CIM read denied; no claim of exact model or RAM"
+  },
+  "paper": {
+    "pdf": "paper/GridSFM-five-page-draft.pdf",
+    "pages": 5,
+    "all_five_pages_visually_inspected": true,
+    "LaTeX_source_compiled": false,
+    "conference_template_certified": false
+  },
+  "venue": {
+    "user_specified": "IEEE PES, five pages, San Francisco",
+    "resolved": "2027 IEEE PES General Meeting",
+    "deadline_date": "2026-11-10",
+    "cutoff_time": "UNVERIFIED in this run",
+    "primary_source": "https://pes-gm.org/wp-content/uploads/2026/06/6.8.26-Flyer_2027-IEEE-PES-GM-CFP.pdf",
+    "direct_Dr_Li_confirmation": false
+  },
+  "publication_status": "Local draft and evidence only; not submitted; no external messages sent"
+}

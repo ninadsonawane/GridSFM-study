@@ -1,0 +1,26 @@
+{
+  "audit_date_IST": "2026-11-04",
+  "policy": "Separate source-reported topology exposure from exact checkpoint and scenario membership. No exposure-based causal claim.",
+  "microsoft-v1.1": {
+    "source_commit": "1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6",
+    "checkpoint_sha256": "f8a4396122e603e8303afdebe3b093819c0f64dac0878394aed0bd63205fd831",
+    "metadata_name": "GridSFM-open-v1.1",
+    "metadata_training_roster": "ABSENT; metadata contains name and hash only",
+    "case300": "Below the publicly documented >=500-bus training range. Exact checkpoint training-membership ledger unavailable.",
+    "case300x2": "Study-created topology; 600 buses alone does not establish training exposure or distribution membership.",
+    "case500goc": "Present in pinned sample set and named in public model-card evaluation. The model card reports PGLib training but does not give a checkpoint-specific training roster. Exact exposure for this hash remains UNVERIFIED.",
+    "evidence": ["https://github.com/microsoft/GridSFM/tree/1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6/model/samples", "https://huggingface.co/microsoft/GridSFM_Open/blob/main/README.md", "https://github.com/microsoft/GridSFM/blob/main/model/README.md"]
+  },
+  "newer-base-v2": {
+    "source_commit": "517a07531ea55a11bd81a89a6c6879695a2ba4b4",
+    "checkpoint_sha256": "9e5333ce0573a3322432cb96c1f62031abc457299a81f66871b10232ba8ea9c7",
+    "metadata_name": "GridSFM-open-v2",
+    "metadata_training_roster": "ABSENT; metadata contains name and hash only",
+    "case300": "Below the 500-4000-bus pretraining range described in the associated paper. Exact checkpoint ledger unavailable.",
+    "case300x2": "Study-created topology; not a topology generalization certificate or a size-only in-distribution control.",
+    "case500goc": "Associated paper section VI-C explicitly identifies case500_goc as a pretraining topology. This is source-reported topology exposure; the downloaded base checkpoint does not contain a training roster or scenario split hashes.",
+    "checkpoint_kind": "base/gridsfm_open_v2.pt; no case500 fine-tuned checkpoint used",
+    "evidence": ["https://arxiv.org/html/2609.30173v2", "https://github.com/lukebhan/gridsfm/tree/517a07531ea55a11bd81a89a6c6879695a2ba4b4", "https://huggingface.co/lukebhan/gridsfm/tree/main/base"]
+  },
+  "remaining_confirmation": "Only the authors or an authoritative checkpoint-specific training manifest can establish exact data exposure and scenario overlap. No author confirmation was obtained or claimed."
+}

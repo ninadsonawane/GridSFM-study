@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "network": "case300",
+      "baseline_checked": true,
+      "generation_perturbation_MW_MVAr": [
+        10,
+        7
+      ],
+      "Pg_bound_excess_MW": 5,
+      "voltage_bound_detection": true,
+      "global_angle_shift_invariance": true,
+      "both_end_thermal_excess_MVA": 1,
+      "independent_branch_stamp_Ybus_agreement": true
+    },
+    {
+      "network": "case300x2",
+      "baseline_checked": true,
+      "generation_perturbation_MW_MVAr": [
+        10,
+        7
+      ],
+      "Pg_bound_excess_MW": 5,
+      "voltage_bound_detection": true,
+      "global_angle_shift_invariance": true,
+      "both_end_thermal_excess_MVA": 1,
+      "independent_branch_stamp_Ybus_agreement": true
+    },
+    {
+      "network": "case500goc",
+      "baseline_checked": true,
+      "generation_perturbation_MW_MVAr": [
+        10,
+        7
+      ],
+      "Pg_bound_excess_MW": 5,
+      "voltage_bound_detection": true,
+      "global_angle_shift_invariance": true,
+      "both_end_thermal_excess_MVA": 1,
+      "independent_branch_stamp_Ybus_agreement": true
+    }
+  ],
+  "completed_UTC": "2026-11-03T18:28:52.883295+00:00",
+  "code_sha256": "1d4a3e1f9039e4241cec087447ccd42c4d77bc3936254ba04e167f37368b93b9"
+}
