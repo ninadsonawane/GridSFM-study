@@ -1,0 +1,324 @@
+{
+  "_id": "6aab06326529d032bf450867",
+  "id": "lukebhan/gridsfm",
+  "private": false,
+  "tags": [
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "lukebhan/gridsfm",
+  "author": "lukebhan",
+  "sha": "970a413556fd1dc8c843cafdb03b01f9f8ef6f44",
+  "lastModified": "2026-09-16T22:31:37.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "activsg10k/n0010/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0010/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0010/last.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0025/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0025/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0025/last.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0050/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0050/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0050/last.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0100/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0100/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0100/last.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0200/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0200/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0200/last.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0500/PROVENANCE.txt"
+    },
+    {
+      "rfilename": "activsg10k/n0500/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0500/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n0500/last.pt"
+    },
+    {
+      "rfilename": "activsg10k/n1000_scratch/arch.json"
+    },
+    {
+      "rfilename": "activsg10k/n1000_scratch/best_train_loss.pt"
+    },
+    {
+      "rfilename": "activsg10k/n1000_scratch/best_val.pt"
+    },
+    {
+      "rfilename": "activsg10k/n1000_scratch/control_model.json"
+    },
+    {
+      "rfilename": "activsg10k/n1000_scratch/control_model.pt"
+    },
+    {
+      "rfilename": "activsg10k/n1000_scratch/last.pt"
+    },
+    {
+      "rfilename": "base/gridsfm_open_v2.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0010/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0010/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0010/last.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0025/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0025/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0025/last.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0050/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0050/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0050/last.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0100/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0100/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0100/last.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0200/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0200/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0200/last.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0500/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0500/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n0500/last.pt"
+    },
+    {
+      "rfilename": "case500_goc/n1000_scratch/arch.json"
+    },
+    {
+      "rfilename": "case500_goc/n1000_scratch/best_train_loss.pt"
+    },
+    {
+      "rfilename": "case500_goc/n1000_scratch/best_val.pt"
+    },
+    {
+      "rfilename": "case500_goc/n1000_scratch/control_model.json"
+    },
+    {
+      "rfilename": "case500_goc/n1000_scratch/control_model.pt"
+    },
+    {
+      "rfilename": "case500_goc/n1000_scratch/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0010/best_val.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0010/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0010/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0025/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0025/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0050/best_val.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0050/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0050/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0100/best_val.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0100/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0100/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0200/best_val.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0200/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0200/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0500/best_val.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0500/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n0500/last.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n1000_scratch/arch.json"
+    },
+    {
+      "rfilename": "case6470_rte/n1000_scratch/best_train_loss.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n1000_scratch/best_val.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n1000_scratch/control_model.json"
+    },
+    {
+      "rfilename": "case6470_rte/n1000_scratch/control_model.pt"
+    },
+    {
+      "rfilename": "case6470_rte/n1000_scratch/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n0010/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n0010/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n0010/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n0025/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n0025/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n0025/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n0050/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n0050/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n0050/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n0100/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n0100/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n0100/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n0200/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n0200/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n0200/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n0500/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n0500/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n0500/last.pt"
+    },
+    {
+      "rfilename": "tx2k/n1000_scratch/arch.json"
+    },
+    {
+      "rfilename": "tx2k/n1000_scratch/best_train_loss.pt"
+    },
+    {
+      "rfilename": "tx2k/n1000_scratch/best_val.pt"
+    },
+    {
+      "rfilename": "tx2k/n1000_scratch/control_model.json"
+    },
+    {
+      "rfilename": "tx2k/n1000_scratch/control_model.pt"
+    },
+    {
+      "rfilename": "tx2k/n1000_scratch/last.pt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-09-16T21:12:18.000Z",
+  "usedStorage": 4523994238
+}

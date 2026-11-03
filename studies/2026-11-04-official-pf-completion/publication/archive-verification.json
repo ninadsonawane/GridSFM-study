@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "archive": "GridSFM-official-PF-checkpoint-evidence.zip",
+  "archive_bytes": 23124330,
+  "archive_sha256": "51c7148f9749e4438dda3abff0f4e941987860baa9f9694c0efd411b8d8e2ac6",
+  "payload_files": 1107,
+  "archive_files": 1108,
+  "git_payload_files": 111,
+  "release_only_payload_files": 996,
+  "prior_inventory_files_verified": 3081,
+  "prior_archive_sha256": "185cc64b3e08416c6adae56f6efb00a4781068d920457968ff9c5486ed0414c6",
+  "all_archive_entries_verified_against_exact_local_bytes": true,
+  "frozen_code_and_59_input_state_feature_hashes_verified": true,
+  "json_csv_python_integrity_checks": "PASS",
+  "numerical_reexecution": false,
+  "research_goal_complete": false,
+  "coverage": {
+    "unique_inputs": 59,
+    "new_states": 163,
+    "slots": 531,
+    "attempted_including_reused": 399,
+    "unavailable": 132,
+    "pending_runs": 0
+  },
+  "stage_counts": {
+    "frozen-official": 59,
+    "frozen-exact": 59,
+    "adapted-native": 15,
+    "adapted-official": 15,
+    "adapted-exact": 15
+  },
+  "PF_converged": {
+    "frozen-official": 4,
+    "frozen-exact": 4,
+    "adapted-official": 15,
+    "adapted-exact": 15
+  },
+  "AC_joint_passes": {
+    "frozen-official": 0,
+    "frozen-exact": 0,
+    "adapted-native": 0,
+    "adapted-official": 0,
+    "adapted-exact": 0
+  }
+}

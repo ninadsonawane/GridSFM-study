@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "scenario_count": 3,
+  "ids": [
+    "case300-base",
+    "case300x2-base",
+    "case500goc-base"
+  ],
+  "UTC": "2026-11-03T19:55:58.727920+00:00"
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "method": "AC-OPF",
+    "Q_093": {
+      "max": 6.80699940858176e-11,
+      "mean": 2.2027984491287047e-12,
+      "p95": 6.37552233229144e-12,
+      "count": 0
+    },
+    "Q_094": {
+      "max": 6.252776074688882e-11,
+      "mean": 1.905642723503084e-12,
+      "p95": 5.051180307358301e-12,
+      "count": 0
+    },
+    "PF_093": null,
+    "PF_094": null,
+    "worst_bus_093": 235,
+    "worst_bus_094": 231,
+    "improving_buses": 0,
+    "worsening_buses": 0,
+    "unchanged_buses": 300,
+    "branch321_Qt_change": 1.9657079758598215,
+    "branch321_voltage_gap_component": 2.4674063259698187,
+    "branch321_angle_component": -0.4691973477815736,
+    "branch321_charging_component": -0.03250100232842357,
+    "interpretation": "checked reference"
+  },
+  {
+    "method": "microsoft-v1.1",
+    "Q_093": {
+      "max": 11689.794749453247,
+      "mean": 312.2423119972297,
+      "p95": 802.49137765773,
+      "count": 300
+    },
+    "Q_094": {
+      "max": 11232.679132900805,
+      "mean": 305.45128935695385,
+      "p95": 817.1827196686323,
+      "count": 300
+    },
+    "PF_093": null,
+    "PF_094": null,
+    "worst_bus_093": 238,
+    "worst_bus_094": 238,
+    "improving_buses": 159,
+    "worsening_buses": 141,
+    "unchanged_buses": 0,
+    "branch321_Qt_change": 395.87860665929423,
+    "branch321_voltage_gap_component": 394.0586160876337,
+    "branch321_angle_component": 2.014856747360625,
+    "branch321_charging_component": -0.19486617570009912,
+    "interpretation": "native-output comparison"
+  },
+  {
+    "method": "newer-base-v2",
+    "Q_093": {
+      "max": 21320.44941191414,
+      "mean": 463.4743994816012,
+      "p95": 1282.3752405431426,
+      "count": 299
+    },
+    "Q_094": {
+      "max": 12413.001506511826,
+      "mean": 412.50230681546265,
+      "p95": 1429.6390107082225,
+      "count": 300
+    },
+    "PF_093": null,
+    "PF_094": null,
+    "worst_bus_093": 238,
+    "worst_bus_094": 238,
+    "improving_buses": 141,
+    "worsening_buses": 159,
+    "unchanged_buses": 0,
+    "branch321_Qt_change": -8907.809909253769,
+    "branch321_voltage_gap_component": -8889.176365698857,
+    "branch321_angle_component": -18.63354355491208,
+    "branch321_charging_component": 0.0,
+    "interpretation": "native-output comparison"
+  },
+  {
+    "method": "V2-frozen+official-PF",
+    "Q_093": {
+      "max": 2935.7817603539056,
+      "mean": 120.14351044815805,
+      "p95": 812.5736469607481,
+      "count": 231
+    },
+    "Q_094": {
+      "max": 876.3092286742344,
+      "mean": 22.919399836566082,
+      "p95": 133.82169856645405,
+      "count": 230
+    },
+    "PF_093": false,
+    "PF_094": false,
+    "worst_bus_093": 54,
+    "worst_bus_094": 49,
+    "improving_buses": 237,
+    "worsening_buses": 39,
+    "unchanged_buses": 24,
+    "branch321_Qt_change": 1097.6039973139339,
+    "branch321_voltage_gap_component": 1054.5567903936312,
+    "branch321_angle_component": 43.04720692030274,
+    "branch321_charging_component": 0.0,
+    "interpretation": "failed-iterate comparison only"
+  },
+  {
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "Q_093": {
+      "max": 2556.7508975799283,
+      "mean": 118.47616395777152,
+      "p95": 890.7288095264338,
+      "count": 230
+    },
+    "Q_094": {
+      "max": 608.283934890859,
+      "mean": 18.962476176059628,
+      "p95": 92.09665796477277,
+      "count": 228
+    },
+    "PF_093": false,
+    "PF_094": false,
+    "worst_bus_093": 43,
+    "worst_bus_094": 9006,
+    "improving_buses": 210,
+    "worsening_buses": 21,
+    "unchanged_buses": 69,
+    "branch321_Qt_change": 898.3987462017337,
+    "branch321_voltage_gap_component": 862.8206001612735,
+    "branch321_angle_component": 35.57814604046018,
+    "branch321_charging_component": 0.0,
+    "interpretation": "failed-iterate comparison only"
+  }
+]

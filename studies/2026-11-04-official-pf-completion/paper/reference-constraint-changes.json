@@ -1,0 +1,175 @@
+[
+  {
+    "network": "case300",
+    "component": "P",
+    "left": 1.0,
+    "right": 1.005,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300",
+    "component": "P",
+    "left": 1.0,
+    "right": 1.01,
+    "added": [
+      "Pg:upper:13"
+    ],
+    "removed": []
+  },
+  {
+    "network": "case300",
+    "component": "P",
+    "left": 1.01,
+    "right": 1.02,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300",
+    "component": "Q",
+    "left": 1.0,
+    "right": 1.005,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300",
+    "component": "Q",
+    "left": 1.0,
+    "right": 1.01,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300",
+    "component": "Q",
+    "left": 1.01,
+    "right": 1.02,
+    "added": [
+      "Qg:upper:37"
+    ],
+    "removed": []
+  },
+  {
+    "network": "case300x2",
+    "component": "P",
+    "left": 1.0,
+    "right": 1.005,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300x2",
+    "component": "P",
+    "left": 1.0,
+    "right": 1.01,
+    "added": [
+      "Pg:upper:13",
+      "Pg:upper:82"
+    ],
+    "removed": []
+  },
+  {
+    "network": "case300x2",
+    "component": "P",
+    "left": 1.01,
+    "right": 1.02,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300x2",
+    "component": "Q",
+    "left": 1.0,
+    "right": 1.005,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300x2",
+    "component": "Q",
+    "left": 1.0,
+    "right": 1.01,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case300x2",
+    "component": "Q",
+    "left": 1.01,
+    "right": 1.02,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case500goc",
+    "component": "P",
+    "left": 1.0,
+    "right": 1.005,
+    "added": [],
+    "removed": [
+      "Pg:lower:167"
+    ]
+  },
+  {
+    "network": "case500goc",
+    "component": "P",
+    "left": 1.0,
+    "right": 1.01,
+    "added": [],
+    "removed": [
+      "Pg:lower:167"
+    ]
+  },
+  {
+    "network": "case500goc",
+    "component": "P",
+    "left": 1.01,
+    "right": 1.02,
+    "added": [
+      "Qg:lower:113",
+      "Qg:lower:114",
+      "Qg:lower:133",
+      "V:upper:303",
+      "V:upper:305",
+      "V:upper:460"
+    ],
+    "removed": [
+      "Qg:upper:25",
+      "Qg:upper:26"
+    ]
+  },
+  {
+    "network": "case500goc",
+    "component": "Q",
+    "left": 1.0,
+    "right": 1.005,
+    "added": [],
+    "removed": []
+  },
+  {
+    "network": "case500goc",
+    "component": "Q",
+    "left": 1.0,
+    "right": 1.01,
+    "added": [
+      "V:upper:460"
+    ],
+    "removed": []
+  },
+  {
+    "network": "case500goc",
+    "component": "Q",
+    "left": 1.01,
+    "right": 1.02,
+    "added": [
+      "V:upper:303",
+      "V:upper:305"
+    ],
+    "removed": [
+      "Qg:upper:25",
+      "Qg:upper:26"
+    ]
+  }
+]

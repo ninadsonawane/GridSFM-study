@@ -5,3 +5,8 @@ paper/*.log
 paper/*.out
 paper/*.bbl
 paper/*.blg
+
+# Full per-entity tables are retained in the checksum-verified release archive.
+paper/sensitivity-details.csv
+paper/native-to-completed-bus-changes.csv
+paper/constraint-locations.csv
