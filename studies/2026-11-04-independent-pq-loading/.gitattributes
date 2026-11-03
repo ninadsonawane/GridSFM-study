@@ -1,5 +1,5 @@
 # Preserve the exact scientific artifact bytes and published SHA-256 hashes.
-* -text
+* -text whitespace=cr-at-eol
 # These immutable imported files retain upstream whitespace verbatim.
-sources/*.m whitespace=-trailing-space,-blank-at-eof
-paper/baseline-tables.md whitespace=-blank-at-eof
+sources/*.m whitespace=cr-at-eol,-trailing-space,-blank-at-eof
+paper/baseline-tables.md whitespace=cr-at-eol,-blank-at-eof
