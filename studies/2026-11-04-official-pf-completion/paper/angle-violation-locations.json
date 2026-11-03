@@ -1,0 +1,1172 @@
+[
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.30383140949868,
+    "excess_deg": 153.30383140949868,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -182.8645356666491,
+    "excess_deg": 152.8645356666491,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.51526815683843,
+    "excess_deg": 153.51526815683843,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.3918856102023,
+    "excess_deg": 150.3918856102023,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.25249388327015,
+    "excess_deg": 136.25249388327015,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.30383267222234,
+    "excess_deg": 153.30383267222234,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -182.86454593581422,
+    "excess_deg": 152.86454593581422,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.5152695474452,
+    "excess_deg": 153.5152695474452,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.3918796402466,
+    "excess_deg": 150.3918796402466,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-base",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.25249123183912,
+    "excess_deg": 136.25249123183912,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.6156228311438,
+    "excess_deg": 153.6156228311438,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.56221121300987,
+    "excess_deg": 153.56221121300987,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.83184244182263,
+    "excess_deg": 153.83184244182263,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.5499325030942,
+    "excess_deg": 150.5499325030942,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.01884896889004,
+    "excess_deg": 136.01884896889004,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.61562443337004,
+    "excess_deg": 153.61562443337004,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.5622410214673,
+    "excess_deg": 153.5622410214673,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.83184418049558,
+    "excess_deg": 153.83184418049558,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.54992617760888,
+    "excess_deg": 150.54992617760888,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0100-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.01884510058758,
+    "excess_deg": 136.01884510058758,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 95,
+    "from_bus": 62,
+    "to_bus": 169,
+    "angle_difference_deg": -167.26699958191867,
+    "excess_deg": 137.26699958191867,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -182.84069758377532,
+    "excess_deg": 152.84069758377532,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.08309662237286,
+    "excess_deg": 153.08309662237286,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -181.2098662631733,
+    "excess_deg": 151.2098662631733,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 165.18820163738337,
+    "excess_deg": 135.18820163738337,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 95,
+    "from_bus": 62,
+    "to_bus": 169,
+    "angle_difference_deg": -167.26695210572547,
+    "excess_deg": 137.26695210572547,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -182.84068230770478,
+    "excess_deg": 152.84068230770478,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.0830813688933,
+    "excess_deg": 153.0830813688933,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -181.20986733757377,
+    "excess_deg": 151.20986733757377,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-P-p1.0200-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 165.18820266548877,
+    "excess_deg": 135.18820266548877,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.29210718941624,
+    "excess_deg": 153.29210718941624,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.01565248512907,
+    "excess_deg": 153.01565248512907,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.50565190037506,
+    "excess_deg": 153.50565190037506,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.27282177553823,
+    "excess_deg": 150.27282177553823,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.24394209012212,
+    "excess_deg": 136.24394209012212,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.29210845350866,
+    "excess_deg": 153.29210845350866,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.01566322237989,
+    "excess_deg": 153.01566322237989,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.5056532998774,
+    "excess_deg": 153.5056532998774,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.27281549053828,
+    "excess_deg": 150.27281549053828,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.24393941859572,
+    "excess_deg": 136.24393941859572,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.28663155130636,
+    "excess_deg": 153.28663155130636,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.33294174459712,
+    "excess_deg": 153.33294174459712,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.50472944323658,
+    "excess_deg": 153.50472944323658,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.08205104449416,
+    "excess_deg": 150.08205104449416,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.20677804329955,
+    "excess_deg": 136.20677804329955,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.28663285464953,
+    "excess_deg": 153.28663285464953,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.33295349092052,
+    "excess_deg": 153.33295349092052,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.50473089489552,
+    "excess_deg": 153.50473089489552,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.08204426701747,
+    "excess_deg": 150.08204426701747,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.2067752600823,
+    "excess_deg": 136.2067752600823,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 95,
+    "from_bus": 62,
+    "to_bus": 169,
+    "angle_difference_deg": -137.58444711256354,
+    "excess_deg": 107.58444711256354,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -180.9406071440685,
+    "excess_deg": 150.9406071440685,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -45.97103381117691,
+    "excess_deg": 15.971033811176909,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 181.18433734633885,
+    "excess_deg": 151.18433734633885,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -176.64161220787645,
+    "excess_deg": 146.64161220787645,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 168.0352752778821,
+    "excess_deg": 138.0352752778821,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 95,
+    "from_bus": 62,
+    "to_bus": 169,
+    "angle_difference_deg": -137.58405990543503,
+    "excess_deg": 107.58405990543503,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -180.94061059825873,
+    "excess_deg": 150.94061059825873,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -45.971484215174655,
+    "excess_deg": 15.971484215174655,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 181.18434077191466,
+    "excess_deg": 151.18434077191466,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -176.64160385932777,
+    "excess_deg": 146.64160385932777,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.0500",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 168.03526985340437,
+    "excess_deg": 138.03526985340437,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": 161.38754021449728,
+    "excess_deg": 131.38754021449728,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 491,
+    "from_bus": 403,
+    "to_bus": 390,
+    "angle_difference_deg": -179.38358862814258,
+    "excess_deg": 149.38358862814258,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": -50.83020463667677,
+    "excess_deg": 20.83020463667677,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 636,
+    "from_bus": 353,
+    "to_bus": 354,
+    "angle_difference_deg": 169.6839742366555,
+    "excess_deg": 139.6839742366555,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 659,
+    "from_bus": 390,
+    "to_bus": 389,
+    "angle_difference_deg": 171.90115468331976,
+    "excess_deg": 141.90115468331976,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": 161.3873599275036,
+    "excess_deg": 131.3873599275036,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 491,
+    "from_bus": 403,
+    "to_bus": 390,
+    "angle_difference_deg": -179.38358149109234,
+    "excess_deg": 149.38358149109234,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": -50.83069325206564,
+    "excess_deg": 20.830693252065643,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 636,
+    "from_bus": 353,
+    "to_bus": 354,
+    "angle_difference_deg": 169.68395115538704,
+    "excess_deg": 139.68395115538704,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-Q-p1.0000-q1.1000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 659,
+    "from_bus": 390,
+    "to_bus": 389,
+    "angle_difference_deg": 171.90109764912296,
+    "excess_deg": 141.90109764912296,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.5529436991117,
+    "excess_deg": 153.5529436991117,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.10039643984652,
+    "excess_deg": 153.10039643984652,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.7664351079995,
+    "excess_deg": 153.7664351079995,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.54091384893633,
+    "excess_deg": 150.54091384893633,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.08983090994806,
+    "excess_deg": 136.08983090994806,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.55294540516718,
+    "excess_deg": 153.55294540516718,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -183.10041498582774,
+    "excess_deg": 153.10041498582774,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.76643695095447,
+    "excess_deg": 153.76643695095447,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.54090773060383,
+    "excess_deg": 150.54090773060383,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0100-q1.0100",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.0898274164258,
+    "excess_deg": 136.0898274164258,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.5149662730965,
+    "excess_deg": 153.5149662730965,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -186.4439428480561,
+    "excess_deg": 156.4439428480561,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.7256149715839,
+    "excess_deg": 153.7256149715839,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.93203343038886,
+    "excess_deg": 150.93203343038886,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 165.95693477897532,
+    "excess_deg": 135.95693477897532,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 95,
+    "from_bus": 62,
+    "to_bus": 169,
+    "angle_difference_deg": -70.33588779123271,
+    "excess_deg": 40.33588779123271,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 96,
+    "from_bus": 62,
+    "to_bus": 245,
+    "angle_difference_deg": 44.722722933286875,
+    "excess_deg": 14.722722933286875,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 97,
+    "from_bus": 62,
+    "to_bus": 271,
+    "angle_difference_deg": -148.00100068376773,
+    "excess_deg": 118.00100068376773,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -136.3687561836635,
+    "excess_deg": 106.36875618366349,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 254,
+    "from_bus": 163,
+    "to_bus": 271,
+    "angle_difference_deg": -165.49231061297544,
+    "excess_deg": 135.49231061297544,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -73.54282306483674,
+    "excess_deg": 43.54282306483674,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 406,
+    "from_bus": 271,
+    "to_bus": 85,
+    "angle_difference_deg": 174.10461953654698,
+    "excess_deg": 144.10461953654698,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 135.30734605962817,
+    "excess_deg": 105.30734605962817,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -163.42537507063955,
+    "excess_deg": 133.42537507063955,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-PQ-p1.0200-q1.0200",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 165.51907628540522,
+    "excess_deg": 135.51907628540522,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.4175977417987,
+    "excess_deg": 153.4175977417987,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -182.70147426399404,
+    "excess_deg": 152.70147426399404,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.62728535278234,
+    "excess_deg": 153.62728535278234,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.5648899208863,
+    "excess_deg": 150.5648899208863,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.19862908153374,
+    "excess_deg": 136.19862908153374,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.41759915334347,
+    "excess_deg": 153.41759915334347,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -182.70148581537256,
+    "excess_deg": 152.70148581537256,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.62728689363968,
+    "excess_deg": 153.62728689363968,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.56488410629728,
+    "excess_deg": 150.56488410629728,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-P-p1.0050-q1.0000",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.19862614933078,
+    "excess_deg": 136.19862614933078,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.29825327345512,
+    "excess_deg": 153.29825327345512,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -182.90654797967417,
+    "excess_deg": 152.90654797967417,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.51025427058224,
+    "excess_deg": 153.51025427058224,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.3484526968147,
+    "excess_deg": 150.3484526968147,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.25257954722548,
+    "excess_deg": 136.25257954722548,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 201,
+    "from_bus": 130,
+    "to_bus": 294,
+    "angle_difference_deg": -183.29825453339026,
+    "excess_deg": 153.29825453339026,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 262,
+    "from_bus": 169,
+    "to_bus": 294,
+    "angle_difference_deg": -182.90655839726085,
+    "excess_deg": 152.90655839726085,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 440,
+    "from_bus": 342,
+    "to_bus": 130,
+    "angle_difference_deg": 183.51025566129192,
+    "excess_deg": 153.51025566129192,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 455,
+    "from_bus": 355,
+    "to_bus": 342,
+    "angle_difference_deg": -180.34844660047133,
+    "excess_deg": 150.34844660047133,
+    "PF_converged": false
+  },
+  {
+    "scenario": "case500goc-sensitivity-Q-p1.0000-q1.0050",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "branch_row_1based": 630,
+    "from_bus": 342,
+    "to_bus": 344,
+    "angle_difference_deg": 166.25257689695158,
+    "excess_deg": 136.25257689695158,
+    "PF_converged": false
+  }
+]

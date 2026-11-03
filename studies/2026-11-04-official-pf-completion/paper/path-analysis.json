@@ -1,0 +1,1691 @@
+[
+  {
+    "network": "case300",
+    "path": "P",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "P",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "P",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      108.70004551372563,
+      3155.7467292492925
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      1250.690543937529,
+      7358.121204919355
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.9297737045907195,
+      3.276008710902595
+    ],
+    "voltage_pu_violating_scenarios": 5
+  },
+  {
+    "network": "case300",
+    "path": "P",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      113.59787578431957,
+      3155.7467951346803
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      1250.6903321504153,
+      7309.2489417829565
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6209963856474063,
+      3.2717885429017035
+    ],
+    "voltage_pu_violating_scenarios": 5
+  },
+  {
+    "network": "case300",
+    "path": "P",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "P",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "Q",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "Q",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "Q",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      316.4050477545482,
+      2497.4709243448706
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      2906.0104762053866,
+      5445.829526865629
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6011840096015564,
+      0.9366420402475945
+    ],
+    "voltage_pu_violating_scenarios": 5
+  },
+  {
+    "network": "case300",
+    "path": "Q",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      1174.126176081381,
+      2486.189217153254
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      2520.4720152352284,
+      5445.804293492432
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6101586172210867,
+      0.9004336805240798
+    ],
+    "voltage_pu_violating_scenarios": 5
+  },
+  {
+    "network": "case300",
+    "path": "Q",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "Q",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "PQ",
+    "method": "AC-OPF",
+    "evaluable": 4,
+    "converged": 0,
+    "original_balance_passes": 4,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "PQ",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "PQ",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      620.2526467726785
+    ],
+    "Pg_MW_violating_scenarios": 4,
+    "Qg_MVAr_max_range": [
+      2668.3578095021276,
+      9524.15395803006
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.8660936852468183,
+      4.028797593183079
+    ],
+    "voltage_pu_violating_scenarios": 5
+  },
+  {
+    "network": "case300",
+    "path": "PQ",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      2417.6234441075426
+    ],
+    "Pg_MW_violating_scenarios": 4,
+    "Qg_MVAr_max_range": [
+      2443.778481529192,
+      9761.83539667029
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6209963856474063,
+      4.028798395319724
+    ],
+    "voltage_pu_violating_scenarios": 5
+  },
+  {
+    "network": "case300",
+    "path": "PQ",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300",
+    "path": "PQ",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "P",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "P",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "P",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3484.0482508581304
+    ],
+    "Pg_MW_violating_scenarios": 4,
+    "Qg_MVAr_max_range": [
+      2757.552587820463,
+      11690.30794166072
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6654246616041597,
+      4.475989354138063
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      127.24494715806941,
+      1714.7861807703475
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5
+  },
+  {
+    "network": "case300x2",
+    "path": "P",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3494.3553380752896
+    ],
+    "Pg_MW_violating_scenarios": 4,
+    "Qg_MVAr_max_range": [
+      1713.2277459086804,
+      11260.941888826272
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.9007201904826392,
+      5.845296859853615
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      1780.2585766682664
+    ],
+    "branch_thermal_MVA_violating_scenarios": 4
+  },
+  {
+    "network": "case300x2",
+    "path": "P",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      9.5367431640625e-06,
+      9.5367431640625e-06
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "P",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "Q",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "Q",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "Q",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      384.0131298757587,
+      3425.4726589787815
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      3088.465398741354,
+      14990.832945880797
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6654246616041597,
+      2.8916176016576194
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      182.37787879292296,
+      3203.1594097724474
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5
+  },
+  {
+    "network": "case300x2",
+    "path": "Q",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      129.46773286429703,
+      2837.0385157315236
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      2640.4637516173966,
+      14988.71729516475
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.9007201904826392,
+      9.802376732758077
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      200.8585928199634,
+      3202.718926428204
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5
+  },
+  {
+    "network": "case300x2",
+    "path": "Q",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      9.5367431640625e-06,
+      9.5367431640625e-06
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "Q",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "PQ",
+    "method": "AC-OPF",
+    "evaluable": 4,
+    "converged": 0,
+    "original_balance_passes": 4,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "PQ",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "PQ",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      920.9987250211503,
+      5787.943790587735
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      2927.591373504556,
+      9834.971416396587
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.6654246616041597,
+      2.005102113029854
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      76.10441801750335,
+      3377.621570768728
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5
+  },
+  {
+    "network": "case300x2",
+    "path": "PQ",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      129.46773286429703,
+      5788.3615724054625
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      3192.322724145999,
+      11734.841928753705
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.9007201904826392,
+      1.1482079102051497
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      1261.618695782656,
+      3377.631822763163
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5
+  },
+  {
+    "network": "case300x2",
+    "path": "PQ",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      9.5367431640625e-06,
+      9.5367431640625e-06
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case300x2",
+    "path": "PQ",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      4.76837158203125e-06,
+      4.76837158203125e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.38418573772492e-09,
+      2.38418573772492e-09
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "V2-adapted+official-PF",
+    "evaluable": 5,
+    "converged": 5,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      57.123022632870516,
+      143.87296460895695
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      6.380894939324358,
+      27.324802076214027
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.0015283293835852696,
+      0.006066393078727694
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "V2-adapted+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 5,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      57.123087658826364,
+      143.8730102507279
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      6.380834399032006,
+      27.324901518271872
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.0015283316972016792,
+      0.006066393438248552
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "V2-adapted-native",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      482.995782127841,
+      730.0962925940933
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 2,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      227.74666995257306,
+      800.1079771208981
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      452.34550030790774,
+      2596.9500201375317
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.032162438309548014,
+      0.8597212944223478
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      165.0540121105562,
+      4970.841071266483
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      153.83184244182263
+    ],
+    "branch_angle_deg_violating_scenarios": 3
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 2,
+    "original_balance_passes": 2,
+    "Pg_MW_max_range": [
+      227.74672398423132,
+      800.1075139581308
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      452.3456314959071,
+      2596.949401176989
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.03216246853209226,
+      0.8597210930189564
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      165.05421053923646,
+      4970.83701235316
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      153.83184418049558
+    ],
+    "branch_angle_deg_violating_scenarios": 3
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      3.4308433605190203e-07,
+      5.1689147966271776e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.3841857821338408e-08,
+      2.3841857821338408e-08
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      19.706038993023128,
+      46.88077253941833
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "P",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      1.461982726880251e-06,
+      1.461982726880251e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.384185793236071e-08,
+      2.384185793236071e-08
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      1348.6850025385768,
+      8468.46270507049
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "V2-adapted+official-PF",
+    "evaluable": 5,
+    "converged": 5,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      143.87296460895695,
+      335.49007714494235
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      12.512683981320448,
+      45.98598894253542
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0015283293835852696
+    ],
+    "voltage_pu_violating_scenarios": 3,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      62.91955871789054
+    ],
+    "branch_thermal_MVA_violating_scenarios": 1,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "V2-adapted+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 5,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      143.8730102507279,
+      335.49012388143615
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      12.512444119680113,
+      45.98588394461008
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0015283316972016792
+    ],
+    "voltage_pu_violating_scenarios": 3,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      62.91959599937098
+    ],
+    "branch_thermal_MVA_violating_scenarios": 1,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "V2-adapted-native",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      730.0962925940933,
+      895.7126355789612
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      294.0072179176643,
+      1313.1310125445307
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      1651.0426712431943,
+      2410.0934283098245
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.8019969019835711,
+      0.8559018510141995
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      3174.8480253524367,
+      3900.6969906966515
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      149.38358862814258,
+      153.51526815683843
+    ],
+    "branch_angle_deg_violating_scenarios": 5
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      294.0057528191851,
+      1313.1355932117524
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      1651.0436925682625,
+      2410.0942325459587
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.8019971232101564,
+      0.8559005749136581
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      3174.8482621095636,
+      3900.703757365274
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      149.38358149109234,
+      153.5152695474452
+    ],
+    "branch_angle_deg_violating_scenarios": 5
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      3.4308433605190203e-07,
+      3.4308433605190203e-07
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.3841857821338408e-08,
+      2.3841857821338408e-08
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      19.706038993023128,
+      19.736714226770403
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "Q",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      1.461982726880251e-06,
+      1.461982726880251e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.384185793236071e-08,
+      2.384185793236071e-08
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      8467.778176959908,
+      8468.411522376231
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "AC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "DC-OPF",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": null,
+    "Pg_MW_max_range": [
+      0.0,
+      0.0
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "V2-adapted+official-PF",
+    "evaluable": 5,
+    "converged": 5,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      24.166933088607767,
+      146.16672314287845
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      7.217243776939828,
+      19.84871719121769
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.0014257855968713429,
+      0.0019383448426282257
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "V2-adapted+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 5,
+    "original_balance_passes": 5,
+    "Pg_MW_max_range": [
+      24.166998575239028,
+      146.16673426993285
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      7.217234274620754,
+      19.848687265403935
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.001425815096960159,
+      0.0019383470461973307
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_thermal_MVA_violating_scenarios": 0,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "V2-adapted-native",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      0.0,
+      0.0
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      0.0,
+      0.0
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      418.6608747430394,
+      730.0962925940933
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "V2-frozen+official-PF",
+    "evaluable": 5,
+    "converged": 2,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      172.39888098545916,
+      767.6669696199004
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      348.6477597863907,
+      2372.4715236868865
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.03159022849890136,
+      0.8514575742108144
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      212.53071514579244,
+      3375.2928683928967
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      156.4439428480561
+    ],
+    "branch_angle_deg_violating_scenarios": 3
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "V2-frozen+official-PF-exact-matrix",
+    "evaluable": 5,
+    "converged": 2,
+    "original_balance_passes": 2,
+    "Pg_MW_max_range": [
+      172.39893561715377,
+      934.0100011585542
+    ],
+    "Pg_MW_violating_scenarios": 5,
+    "Qg_MVAr_max_range": [
+      348.6478816104745,
+      2399.406026137873
+    ],
+    "Qg_MVAr_violating_scenarios": 5,
+    "voltage_pu_max_range": [
+      0.031590258673753535,
+      0.840698415697668
+    ],
+    "voltage_pu_violating_scenarios": 5,
+    "branch_thermal_MVA_max_range": [
+      212.53067627620618,
+      3455.8347600420648
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      153.76643695095447
+    ],
+    "branch_angle_deg_violating_scenarios": 3
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "microsoft-v1.1",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      3.4308433605190203e-07,
+      5.1689147966271776e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.3841857821338408e-08,
+      2.3841857821338408e-08
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      19.706038993023128,
+      47.86767121206839
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  },
+  {
+    "network": "case500goc",
+    "path": "PQ",
+    "method": "newer-base-v2",
+    "evaluable": 5,
+    "converged": 0,
+    "original_balance_passes": 0,
+    "Pg_MW_max_range": [
+      3.414917000554851e-05,
+      3.414917000554851e-05
+    ],
+    "Pg_MW_violating_scenarios": 0,
+    "Qg_MVAr_max_range": [
+      1.461982726880251e-06,
+      1.461982726880251e-06
+    ],
+    "Qg_MVAr_violating_scenarios": 0,
+    "voltage_pu_max_range": [
+      2.384185793236071e-08,
+      2.384185793236071e-08
+    ],
+    "voltage_pu_violating_scenarios": 0,
+    "branch_thermal_MVA_max_range": [
+      1247.2842661562613,
+      8468.443919879212
+    ],
+    "branch_thermal_MVA_violating_scenarios": 5,
+    "branch_angle_deg_max_range": [
+      0.0,
+      0.0
+    ],
+    "branch_angle_deg_violating_scenarios": 0
+  }
+]

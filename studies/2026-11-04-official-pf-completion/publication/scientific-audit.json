@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "audit_kind": "saved-state re-evaluation and immutable provenance; no model/PF/OPF reruns",
+  "prior_payload_hashes_verified": 3081,
+  "source_files_verified": 76,
+  "frozen_execution_files_verified": 5,
+  "new_states_rescored": 163,
+  "detail_tables_compared": 489,
+  "largest_independent_equation_difference_MVA": 9.420297451047933e-11,
+  "counts": {
+    "checked_reused_AC": 57,
+    "frozen-exact": 59,
+    "frozen-official": 59,
+    "adapted-exact": 15,
+    "adapted-native": 15,
+    "adapted-official": 15
+  },
+  "PF_converged": {
+    "frozen-exact": 4,
+    "frozen-official": 4,
+    "adapted-exact": 15,
+    "adapted-official": 15
+  },
+  "all_new_joint_AC_passes": 0,
+  "scenario_stage_slots": 531,
+  "attempted": 399,
+  "unavailable": 132,
+  "failed_finite_PF": 110,
+  "sensitivity_rows": 270,
+  "failed_PF_secants_excluded": 108,
+  "metric_figures": 36,
+  "case3_inputs_plotted": 14,
+  "all_three_Q_intervals_direction_improves_but_RMSE_worsens": true,
+  "angle_violation_rows_checked": 117
+}

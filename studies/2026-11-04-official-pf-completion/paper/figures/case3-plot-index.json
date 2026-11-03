@@ -1,0 +1,36 @@
+[
+  {
+    "path": "P",
+    "scenarios": [
+      "case300-case3-P-p0.9350-q0.9300",
+      "case300-case3-P-p0.9400-q0.9300",
+      "case300-case3-P-p0.9500-q0.9300",
+      "case300-case3-PQ-p0.9300-q0.9300"
+    ],
+    "pdf": "case3-P.pdf"
+  },
+  {
+    "path": "Q",
+    "scenarios": [
+      "case300-case3-PQ-p0.9300-q0.9300",
+      "case300-case3-Q-p0.9300-q0.9350",
+      "case300-case3-Q-p0.9300-q0.9400",
+      "case300-case3-Q-p0.9300-q0.9500"
+    ],
+    "pdf": "case3-Q.pdf"
+  },
+  {
+    "path": "PQ",
+    "scenarios": [
+      "case300-case3-PQ-p0.9200-q0.9200",
+      "case300-case3-PQ-p0.9300-q0.9300",
+      "case300-case3-PQ-p0.9301-q0.9301",
+      "case300-case3-PQ-p0.9303-q0.9303",
+      "case300-case3-PQ-p0.9350-q0.9350",
+      "case300-case3-PQ-p0.9400-q0.9400",
+      "case300-case3-PQ-p0.9450-q0.9450",
+      "case300-case3-PQ-p0.9500-q0.9500"
+    ],
+    "pdf": "case3-PQ.pdf"
+  }
+]

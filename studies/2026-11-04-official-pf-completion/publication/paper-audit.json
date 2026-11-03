@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "pages": 5,
+  "letter_size": true,
+  "encrypted": false,
+  "all_fonts_embedded": true,
+  "fonts": {
+    "/IHAIZV+NimbusRomNo9L-Regu": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/BZIVMZ+NimbusRomNo9L-MediItal": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/IXFAWU+NimbusRomNo9L-Medi": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/TQTHRL+NimbusRomNo9L-ReguItal": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/YEUUOC+NimbusMonL-Regu": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/AKHCZK+CMMI10": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/VDVGTR+CMR10": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/CAFSZL+CMR7": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/DDIEWW+CMMI7": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/FKPJSN+CMSY10": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/PVTTLK+CMSY7": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/JAGKKY+CMMI9": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/NOMARO+CMR9": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/KPXLOM+CMSY6": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/UTACNV+CMR6": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/BXGEVL+DejaVuSerif": {
+      "embedded": true,
+      "subtype": "/CIDFontType2"
+    }
+  },
+  "abstract_words": 137,
+  "keywords": [
+    "Neural networks",
+    "optimal power flow",
+    "power system analysis",
+    "reactive power"
+  ],
+  "all_five_rendered_pages_visually_inspected": true,
+  "visual_result": "No clipping, overlaps or missing glyphs observed; tables, figures and references readable.",
+  "compiler": "Tectonic 0.17.0 / IEEEtran conference",
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "underfull_spacing_warnings": "Present; visually reviewed, no overflow.",
+  "PDF_sha256": "28d2fe3f7e785ed18d7f9307cdb2eb048f6a54a18e31f529651f0dada3297034",
+  "submission_ready": false,
+  "pending_for_submission": [
+    "author list and affiliations",
+    "scientific review and contribution assessment",
+    "submission authorization"
+  ]
+}

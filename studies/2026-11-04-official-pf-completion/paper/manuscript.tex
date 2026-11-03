@@ -1,25 +1,144 @@
-\documentclass[conference]{IEEEtran}
-\usepackage{amsmath,graphicx,booktabs,url}
+\RequirePackage[T1]{fontenc}
+\documentclass[conference,letterpaper]{IEEEtran}
+\usepackage{amsmath,amssymb,graphicx,booktabs,url,cite}
+\usepackage[hidelinks]{hyperref}
 \title{Native and Newton-Completed GridSFM Responses to Independent Active and Reactive Loading}
-\author{\IEEEauthorblockN{Author list pending confirmation}}
+\author{\IEEEauthorblockN{Review draft: author list and affiliations pending confirmation}}
 \begin{document}
 \maketitle
 \begin{abstract}
-This working skeleton asks which errors of frozen GridSFM persist after the released Newton power-flow completion under matched active and reactive loading. Results and contribution statements remain pending the extension audit and execution.
+Native neural predictions, Newton-completed states, and feasible operating points support different conclusions. We audit released GridSFM stages on 59 matched loading inputs from case300, a constructed two-copy system, and case500goc, reusing independently checked references and an original-physics evaluator. Frozen V2 completion converges on four inputs; a released case500-adapted checkpoint converges on all 15 applicable inputs. Neither completed stage passes all operating limits. Exact-matrix diagnostics remove a small closure-physics discrepancy without removing equipment violations. For adapted case500, completion improves reactive-response direction agreement but worsens response RMSE relative to its native head. Q-only loading also reveals an overload absent from the tested combined-loading path. Electrical accounting explains a native case300 residual improvement, but failed completion prevents interpreting it as an operating response. These bounded observations refine deployment checks; they do not establish a new solver or general feasibility guarantee.
 \end{abstract}
-\begin{IEEEkeywords}Optimal power flow, power flow, neural networks, physical feasibility\end{IEEEkeywords}
+\begin{IEEEkeywords}Neural networks, optimal power flow, power system analysis, reactive power.\end{IEEEkeywords}
+
 \section{Introduction and Related Work}
-The central question separates native prediction errors, errors in prescribed controls after completion, and operational constraint violations. Generic accuracy--feasibility differences are established knowledge; an additional contribution requires a matched, literature-bounded observation.
-\section{Matched Study and Official Workflow}
-Reuse the frozen three-network, 59-input protocol. Distinguish native outputs, frozen controls plus official completion, verified target-adapted controls plus completion, and downstream procedures outside this scope.
-\section{Baseline and Independent P/Q Loading}
-Pending validated stage integration and complete matched evaluation.
-\section{Case-3 Electrical Accounting}
-Pending matched native/completed distribution and equipment comparison.
-\section{Focused Response Sensitivity}
-Pending endpoint reuse; separate baseline offsets from direction and magnitude errors.
+Learned AC optimal power flow (AC-OPF) outputs may be used directly, converted into controls for power-flow (PF) completion, or passed to a constrained optimizer. A conclusion about one stage need not describe another. In particular, reactive generation from a native neural head is not the reactive generation recovered after solving PF equations. We ask which errors survive this change of stage when active and reactive demand vary independently, and which operating limits remain unsatisfied.
+
+The general accuracy--feasibility distinction is established. GridSFM separates target-grid adaptation, Newton completion, projection, and warm-started optimization \cite{gridsfm}. Singh \emph{et al.} train solution sensitivities and explicitly evaluate remaining voltage, flow, reactive-generation and slack-active-power violations after PF \cite{singh}. Liu \emph{et al.} combine topology-aware prediction with flow-feasibility regularization \cite{liu}. Huang \emph{et al.} reconstruct injections from predicted voltages, distinguish served-load and equipment measures, and include PV-to-PQ postprocessing \cite{huang}. Their procedures are not interchangeable with our prescribed-load, ordinary-PF audit.
+
+Kim \emph{et al.} analyze error geometry, independent P/Q perturbations and voltage response for neural AC-PF, including an architecture retrained for that task \cite{kim}. We instead inspect released AC-OPF weights and their native versus recovered generation. Thus neither independent perturbations nor the observation that PF leaves inequalities violated is claimed as new. The additional tested questions are narrower: whether improved response direction also improves magnitude error; whether combined scaling reveals the same completed equipment failure as Q-only scaling; and whether a native residual-distribution effect supports a claim about a completed operating point.
+
+This is a reproducible empirical audit, not a new learning or completion algorithm. We retain failed candidates and unavailable stages, use the same prescribed loads and original limits, and separate source-representation errors from constraint violations. The evidence supports specific deployment decisions for the selected releases; broad novelty and conference contribution sufficiency remain matters for scientific review.
+
+\section{Matched Study and Evaluation}
+\subsection{Networks, Inputs, and Reused References}
+The networks are original MATPOWER 8.1 case300, the existing constructed case300x2, and PGLib v23.07 \texttt{pglib\_opf\_case500\_goc} \cite{matpower,pglib}. Their bus/generator/branch row counts are 300/69/411, 600/138/824, and 500/224/733. case500goc has 171 online generators and 728 online rated branches. All cases use a 100-MVA base. case300 has no finite \texttt{RATE\_A} ratings. case300x2 retains its 822 unrated internal branches and two synthetic 600-MVA parallel ties between the copies of original bus 231. Each tie has $r=0.002$, $x=0.019$, $b=1.127$ p.u., unity effective tap and zero phase shift. There is one angle reference. It is not a standard IEEE 600-bus benchmark or an independent sample of grid structure.
+
+For each network, P-only, Q-only and combined paths use respectively $(\alpha P_D^0,Q_D^0)$, $(P_D^0,\alpha Q_D^0)$ and $(\alpha P_D^0,\alpha Q_D^0)$, with $\alpha\in\{1,1.01,1.02,1.05,1.10\}$. Counting nominal once gives 13 inputs per network and 39 total. Fourteen existing case-3 inputs retain absolute case300 scales near 0.93--0.94, including nearby refinements and independent P/Q controls. Six half-step inputs add P-only and Q-only 1.005 in each network. The extension therefore reuses 59 unique inputs, not a new batch per analysis. Signed demand distributions, statuses, costs and limits remain fixed apart from the prescribed loading factors.
+
+We revalidated all 3,081 entries of the prior evidence inventory. AC references use PowerModels ACP with Ipopt, with independent acceptance by the common evaluator; default/flat starts and unsuccessful attempts are retained. Fifty-seven references pass. Combined 1.10 in case300 and case300x2 remains UNKNOWN, not certified infeasible. DC-OPF uses the native PYPOWER linear formulation and passes its own checks on all 59 inputs. Reference solutions are numerical local solutions, not global-optimality certificates. No cost or runtime comparison is made.
+
+\subsection{Metrics and Acceptance}
+For complex voltage $V$, generator incidence $C_g$ and prescribed demand, the original-case mismatch in MVA is
+\begin{equation}
+r=C_g(P_g+jQ_g)-(P_D+jQ_D)-S_{\mathrm{base}}V\odot\overline{Y_{\mathrm{bus}}V}.
+\label{eq:balance}
+\end{equation}
+Original taps, phase shifts, charging, shunts and statuses enter $Y_{\mathrm{bus}}$. Independent manual branch stamping agrees with PYPOWER admittance and end flows within $10^{-6}$ MVA. Deliberate generation, bound, voltage and thermal perturbations validate detection; a uniform angle shift validates reference alignment.
+
+We retain maximum, mean, 95th-percentile absolute mismatch and violating-bus count for P and Q separately. Equipment measures are violating count, maximum excess and mean nonnegative excess including zeros, for Pg, Qg, voltage, applicable apparent-power and branch-angle limits. A physical branch is counted once using the larger apparent flow at its two ends. Zero ratings are N/A, not inferred capacities. Offline generation must remain zero.
+
+State accuracy comprises MAE/RMSE for online-generator Pg and Qg, all-bus magnitude and angles after alignment to the original reference and wrapping into $[-180,180)$ degrees. State error requires an accepted AC label; physical checking does not. DC Pg and aligned angles can be compared with AC references, but native Qg, voltage, AC mismatch, apparent flow and full AC feasibility are N/A. DC's own balance and active-flow checks are reported separately.
+
+Frozen tolerances are $10^{-3}$ MW/MVAr for balance and generator limits, $10^{-4}$ p.u. for voltage, $10^{-3}$ MVA for finite thermal limits and $10^{-3}$ degrees for branch angles. A completed successful candidate must converge and pass every applicable original constraint. We report attempts, returns, failures and missing labels; a finite failed iterate can be scored but is not an operating solution. Counts over attempts and evaluable outcomes remain distinct.
+
+\section{Released Workflow and Integration Checks}
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{figures/workflow.pdf}
+\caption{Evaluated stages. Native and completed states are stored separately. Target adaptation changes the checkpoint; completion changes the dependent state. Projection and a finished warm-started OPF solve are separate, unrun procedures.}
+\label{fig:workflow}
+\end{figure*}
+V1-native is Microsoft v1.1 and V2-native is the released base V2, with their shipped clamp modes unchanged. V2 source is pinned to \texttt{517a075}; full source, input and checkpoint hashes are in the artifact manifests \cite{artifacts}. The compatible adapted row uses the released case500 \texttt{n0100/control\_model.pt}, selected before outcomes. The source README identifies it as the 100-case elastic-training deliverable selected on validation. It is loaded strictly into the base architecture with the prescribed sigmoid mode. An adapted-native row isolates the subsequent PF effect. No compatible released case300 or case300x2 adapted weight was found; those rows are unavailable, not filled with another grid's checkpoint.
+
+The adapter calls the unchanged author \texttt{newton\_pf} kernel. As in the inspected callers, controls are generator-head Pg and bus-head voltage magnitude. Cold \texttt{dc\_init\_V} supplies angles and predicted full magnitudes, with controlled magnitudes fixed during Newton. Native Qg is not a Newton input. No matched AC solution, preceding scenario or training cache initializes a candidate. We use the paper's 40-step, $10^{-5}$-p.u. tolerance with backtracking and SuperLU; at this base the residual tolerance is $10^{-3}$ MW/MVAr. The case500 training configuration instead ends at $10^{-8}$ p.u.; our explicit paper preset is not claimed to reproduce that configuration.
+
+The original case500 reference bus 311 has no online generator. The study applies MATPOWER/PYPOWER's first-eligible-PV fallback, selecting balancing bus 272. This changes which generator supplies active-power imbalance; it is not merely an angle-gauge change. We preserve all original generator statuses and limits and realign reported angles to bus 311. Recovered bus Q is allocated over co-located online generators in proportion to their Q ranges, offset from their lower bounds. The first online generator at the balancing bus supplies the remaining Pg; other Pg and controlled magnitudes remain unchanged to recorded numerical tolerances. No post-completion clipping or Q-limit PV/PQ switching is applied. Aggregate bus-Q bounds are also checked because unit-level errors depend on allocation.
+
+The released extractor uses float32 graph parameters and adds $10^{-12}$ to $r^2+x^2$ in branch admittance. Consequently, convergence in its equations does not necessarily pass our original-case tolerance. Known-reference controls converge but leave maximum original Q residuals of approximately 0.0111 MVAr on the case300 constructions and 0.00266 MVAr on case500. Before running model PF, we logged a separate exact-matrix diagnostic: retain the same Newton algorithm and controls while constructing its physics from original FP64 matrices. All three reference-control cases then pass. The diagnostic neither changes the primary row nor relaxes acceptance thresholds.
+
+The pinned tree lacks the \texttt{evaluate\_model/completion.py} exporter mentioned by a caller comment. Our output mapping and injection allocation are therefore disclosed study code around the available author kernel, not a complete reproduction of an unavailable exporter. The full workflow map and validation records identify that boundary explicitly.
+
+\section{Baseline and Loading Results}
+\begin{table}[t]
+\caption{Joint AC passes over all unique attempted inputs}
+\label{tab:coverage}\centering\small
+\begin{tabular}{lccc}\toprule
+Stage & case300 & case300x2 & case500goc\\\midrule
+Checked AC-OPF & 28/29 & 14/15 & 15/15\\
+DC-OPF (full AC) & N/A & N/A & N/A\\
+V1-native & 0/29 & 0/15 & 0/15\\
+V2-native & 0/29 & 0/15 & 0/15\\
+Frozen V2 + PF & 0/29 & 0/15 & 0/15\\
+Frozen + exact PF & 0/29 & 0/15 & 0/15\\
+Adapted native & -- & -- & 0/15\\
+Adapted + PF & -- & -- & 0/15\\
+Adapted + exact PF & -- & -- & 0/15\\\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize AC passes/evaluable: 28/28, 14/14, 15/15; two attempted labels are UNKNOWN. Other available states are finite/evaluable. --: compatible weights unavailable. PF convergence: frozen 0/29, 0/15, 4/15; adapted 15/15. Exact diagnostics have the same convergence counts.
+\end{table}
+
+\subsection{What Completion Changes at Nominal Load}
+All nominal AC references pass. Frozen V2 native maximum Q mismatches are 7958.03, 9231.46 and 21753.27 MVAr in case300, case300x2 and case500goc. The corresponding official PF attempts reach the iteration cap; their finite candidates have smaller maxima, 1134.95, 1956.40 and 7725.18 MVAr, but cannot be presented as completed operating points. The exact-matrix diagnostic also fails at all three nominal inputs. This excludes the small graph-physics discrepancy as a sufficient explanation of nominal nonconvergence; it does not prove that no root exists under another initialization or dispatch.
+
+The adapted case500 checkpoint converges in four iterations at nominal demand. Its native maximum P/Q residuals, 938.87 MW and 4130.74 MVAr, become 0.000808 MW and 0.002651 MVAr after official PF. The latter still fails original Q balance. Exact-matrix PF yields maxima $2.80\times10^{-8}$ MW and $4.52\times10^{-8}$ MVAr. Equipment results, however, are effectively unchanged between the two completed variants (Table~\ref{tab:nominal}).
+
+\begin{table}[t]
+\caption{case500goc nominal equipment: count / maximum excess}
+\label{tab:nominal}\centering\small
+\begin{tabular}{lccc}\toprule
+Constraint & Adapted native & + PF & + exact PF\\\midrule
+Pg (MW) & 0 / $<10^{-3}$ & 1 / 143.87 & 1 / 143.87\\
+Qg (MVAr) & 0 / 0 & 22 / 12.513 & 22 / 12.512\\
+Voltage (p.u.) & 0 / 0 & 4 / 0.00153 & 4 / 0.00153\\
+Thermal (MVA) & 10 / 730.10 & 0 / 0 & 0 / 0\\
+Branch angle & 0 / 0 & 0 / 0 & 0 / 0\\\bottomrule
+\end{tabular}
+\end{table}
+
+The balancing generator at bus 272 produces 190.77 MW against a 46.9-MW maximum. Bus 350 has the largest unit-Q excess. Eleven buses exceed their summed online Q bounds, so a different allocation among co-located units cannot remove all reactive violations. Completion improves Qg MAE from 15.273 to 5.251 MVAr and magnitude MAE from 0.01375 to 0.002391 p.u.; Pg MAE worsens from 1.073 to 1.914 MW. State accuracy, balance and equipment results therefore support different judgments.
+
+\subsection{Independent Loading and Coverage}
+Table~\ref{tab:coverage} retains every attempted input. Frozen official PF converges on only four case500 inputs: P-only and combined factors 1.05 and 1.10. It fails at every case300/case300x2 input and every case500 Q-only input. The exact-matrix path has the same convergence pattern. All 15 adapted case500 inputs converge, but all have generator-limit violations. The original graph row fails strict original balance even when converged; the converged exact-matrix diagnostic passes balance but still fails equipment limits.
+
+For adapted case500, every tested P-only and combined point remains thermally within its original ratings. Q-only 1.10 instead overloads branch row 390, from bus 258 to 272: its maximum end flow is 252.99 MVA against 190.07 MVA. Slack-P excess reaches 335.49 MW, compared with at most 146.17 MW over the combined path. This Q-only effect survives exact-matrix completion to displayed precision (Fig.~\ref{fig:results}a). Q-only loading does not uniformly worsen every metric: voltage-limit violations disappear at factors 1.05 and 1.10 while generator and, at 1.10, thermal violations remain. There is no joint-feasibility onset to infer when all candidates fail.
+
+Electrical accounting locates the active-power redistribution behind this loading contrast. For exact-matrix Q-only +10\%, prescribed active demand is unchanged, but non-balancing Pg controls decrease by 185.72 MW. Active losses increase by 5.90 MW, so balancing Pg increases by 191.62 MW. The overloaded branch terminates at that balancing bus. This accounts for dispatch and flow changes without attributing them to an unverified training mechanism. All 148 PF attempts are retained, including 110 finite nonconverged iterates; full plots and coverage tables remain in the artifact package.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{figures/focused-results.pdf}
+\caption{Distinct stage-dependent observations. (a) Adapted case500 Q-only loading exposes limits concealed by combined scaling (PQ); exact-matrix results agree to shown precision. (b) Native case300 maximum Q residual improves while p95 worsens at the two case-3 endpoints. (c,d) Adapted completion improves Qg direction agreement while increasing response RMSE relative to adapted-native on all three Q intervals. None of these completed states is jointly feasible.}
+\label{fig:results}
+\end{figure*}
+
+\section{Case 3: Electrical Accounting and Its Boundary}
+Absolute combined loading 0.93 to 0.94 is one percentage point of nominal demand, or about 1.075\% relative to 0.93. Native V2 maximum Q mismatch falls from 21320.45 to 12413.00 MVAr, but p95 rises from 1282.38 to 1429.64 MVAr and violating-bus count rises from 299 to 300. Mean mismatch falls from 463.47 to 412.50 MVAr. Bus 238 remains worst; 141 buses improve and 159 worsen. Native V1 likewise has falling maximum and rising p95, with all 300 buses violating. Reporting the maximum alone would conceal the distributional change.
+
+The saved original branch 321 joins buses 235 and 238 with $r=0.0002$ and $x=0.0006$ p.u. At unit tap, its receiving-end reactive flow admits an exact split into voltage-gap, angle and charging terms. Applying that identity to the two saved states gives a Q-flow change of $-8907.81$ MVAr: $-8889.18$ from the voltage-gap term and $-18.63$ from the angle term, with zero charging-term change. Bus 235 magnitude moves from its lower clamp near 0.94 to 0.995907 p.u.; bus 238 stays near 1.06. Neighboring-flow, generator-Q, prescribed-load and shunt changes close the signed bus balance. This explains the dominant electrical residual change, not why the neural network learned that response.
+
+Neither endpoint converges under frozen official or exact-matrix PF. Official failed iterates have maximum Q mismatch 2935.78 to 876.31 MVAr and p95 812.57 to 133.82 MVAr; worst-bus identity changes from 54 to 49. The original max-versus-p95 divergence is absent in those iterates, but that is not evidence of repair in a completed operating point. Exact-matrix failed iterates differ substantially in severity and location, reinforcing this restriction. Accepted AC references retain negligible mismatch and no detected endpoint bound-set change. All 14 original case-3 inputs and controls remain in the archive; the two endpoints are an explanation target, not a newly chosen validation set.
+
+\section{Focused Sensitivity: Direction Is Not Magnitude}
+For $x\in\{|V|,P_g,Q_g\}$, we compare finite responses
+\begin{equation}
+\Delta_h x=x(\alpha+h)-x(\alpha),\qquad D_hx=\Delta_hx/h.
+\end{equation}
+We retain baseline offsets separately, and report response MAE/RMSE, model/reference response-norm ratio, and direction agreement. Eligible reference changes exceed $10^{-6}$ p.u. for voltage or $10^{-3}$ MW/MVAr for generation; a flat model response does not count as agreement. Intervals are nominal to +0.5\%, nominal to +1\%, and adjacent +1\% to +2\%, independently for P and Q. These are directional secants, not a full Jacobian or a derivative guarantee across switching constraints. All 108 frozen-PF secant rows have failed endpoints and are explicitly excluded from operating-response interpretation.
+
+For Q-only +1\%, checked AC total Qg increases by 85.90, 171.56 and 43.78 MVAr on the three systems, while native base V2 changes by $-4.96$, $-8.72$ and $-37.99$ MVAr. In case500, the adapted native head changes by $-6.05$ MVAr. Completion changes this to $+51.11$ MVAr, and unit-Q direction agreement rises from 41.07\% to 86.61\%; response-norm ratio rises from 0.240 to 1.062. Native Qg is thus a poor proxy for the recovered response of the same adapted controls.
+
+The recovered aggregate change has a direct electrical budget: for exact-matrix Q-only +1\%, additional demand is 45.88 MVAr, branch net Q increases by 3.05 MVAr and bus-shunt Q by 2.18 MVAr, summing to 51.11 MVAr. This is completion enforcing its equations, not a learned-model benefit. Yet Q-response derivative RMSE rises from 58.29 to 74.55 MVAr per unit load factor, equivalently delta RMSE 0.5829 to 0.7455 MVAr for the 1\% step. Half-step results repeat the contrast: direction 37.27\% to 88.18\%, but derivative RMSE 57.49 to 73.82. The adjacent interval also repeats it: 40.18\% to 84.82\%, and 68.12 to 84.10. Exact-matrix PF agrees to displayed precision (Fig.~\ref{fig:results}c,d).
+
+The half-step Q reference has no detected bound-set change. The +1\% interval activates voltage upper bound at bus row 460; the adjacent Q interval changes four detected bounds. Thus a reference transition cannot alone explain the half-step discrepancy. P-only responses differ: adapted PF Qg direction agreement is 64.55\% for +1\%, with response-norm ratio 1.644. At adjacent P loading its derivative RMSE worsens relative to adapted-native, alongside eight detected reference-bound changes. We retain V and Pg responses as well; no uniform response-accuracy gain is claimed from selected Q statistics.
+
 \section{Supported Understanding and Limitations}
-No novelty, model benefit, speedup, objective-quality or generalization claim is established by this skeleton.
+The practical finding is a separation of conclusions. First, the released-graph solver's tolerance must be checked against original physical equations. Second, a raw Q head does not describe PF-recovered Q response. Third, improved direction or aggregate sign can coexist with worse response magnitude error. Fourth, combined scaling can miss a Q-only equipment failure for these controls. Finally, a native branch-level explanation cannot be promoted into a completed operating-response claim when PF fails.
+
+The first and last principles, and the existence of post-PF limit violations, are consistent with established literature. Our contribution is the matched evidence and its operational interpretation for specific released stages, including an explicit counterexample to a broad response-repair claim. We do not establish a first-of-kind general phenomenon. An expert assessment may reasonably judge this a useful replication or deployment case study rather than a sufficiently novel conference contribution.
+
+The two case300 systems are related; adapted evidence comes from one checkpoint and one balancing policy. Unit-Q accuracy depends on injection allocation, although aggregate Q-limit failures are allocation-independent. Frozen PF failure is not proof of nonexistence of a PF root. Missing thermal ratings restrict case300 conclusions. Prior representation sensitivity also limits conclusions to the preserved original ordering.
+
+The V2 paper identifies case500goc as a pretraining topology, but checkpoint-specific operating-point overlap is unverified; V1's exact topology roster is also unavailable. The adapted weights are target-grid-specific, not evidence of unseen-grid transfer. We do not evaluate new training, projection, warm-started optimization, objective quality or acceleration. Authorship, affiliations and scientific review remain pending; this is a review draft, not a submission-ready or accepted paper. Reproducibility artifacts preserve all outcomes and the full claim-to-evidence audit \cite{artifacts}.
+
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 \end{document}

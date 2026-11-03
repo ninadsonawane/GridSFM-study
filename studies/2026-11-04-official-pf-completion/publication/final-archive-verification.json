@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "archive": "GridSFM-official-PF-study-evidence.zip",
+  "archive_bytes": 30240949,
+  "archive_sha256": "e3926ef88eff6bef82494cfbf9ec04f53f1cc6eba5e46aa8ed60b8042b7d7a17",
+  "payload_files": 1226,
+  "archive_files": 1227,
+  "git_payload_files": 224,
+  "release_only_payload_files": 1002,
+  "prior_inventory_files_verified": 3081,
+  "prior_archive_sha256": "185cc64b3e08416c6adae56f6efb00a4781068d920457968ff9c5486ed0414c6",
+  "all_archive_entries_verified_against_exact_local_bytes": true,
+  "frozen_code_and_59_input_state_feature_hashes_verified": true,
+  "json_csv_python_integrity_checks": "PASS",
+  "numerical_reexecution": false,
+  "bounded_study_and_review_draft_complete": true,
+  "submission_ready": false,
+  "coverage": {
+    "unique_inputs": 59,
+    "new_states": 163,
+    "slots": 531,
+    "attempted_including_reused": 399,
+    "unavailable": 132,
+    "pending_runs": 0
+  },
+  "stage_counts": {
+    "frozen-official": 59,
+    "frozen-exact": 59,
+    "adapted-native": 15,
+    "adapted-official": 15,
+    "adapted-exact": 15
+  },
+  "PF_converged": {
+    "frozen-official": 4,
+    "frozen-exact": 4,
+    "adapted-official": 15,
+    "adapted-exact": 15
+  },
+  "AC_joint_passes": {
+    "frozen-official": 0,
+    "frozen-exact": 0,
+    "adapted-native": 0,
+    "adapted-official": 0,
+    "adapted-exact": 0
+  }
+}
